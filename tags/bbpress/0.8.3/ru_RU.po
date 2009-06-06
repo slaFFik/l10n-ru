@@ -1,0 +1,2505 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BBPress 0.8.3\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-11-19 12:25+0300\n"
+"Last-Translator: Sol <sol@atrax.ru>\n"
+"Language-Team: ru.wordpress.org <sol@atrax.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: d:\\web\\localhost\\wordpress-russia\\forum\n"
+
+#: bb-admin/admin-base.php:10
+msgid "Nothing to see here."
+msgstr "Здесь не на что смотреть."
+
+#: bb-admin/admin-footer.php:3
+msgid "Documentation"
+msgstr "Документация"
+
+#: bb-admin/admin-footer.php:3
+msgid "Development"
+msgstr "Разработка"
+
+#: bb-admin/admin-footer.php:4
+#, php-format
+msgid "%s seconds"
+msgstr "%s секунд"
+
+#: bb-admin/admin-functions.php:48
+#: bb-admin/index.php:4
+msgid "Dashboard"
+msgstr "Новости"
+
+#: bb-admin/admin-functions.php:49
+msgid "Users"
+msgstr "Пользователи"
+
+#: bb-admin/admin-functions.php:50
+msgid "Content"
+msgstr "Содержимое"
+
+#: bb-admin/admin-functions.php:51
+msgid "Presentation"
+msgstr "Внешний вид"
+
+#: bb-admin/admin-functions.php:52
+msgid "Site Management"
+msgstr "Управление сайтом"
+
+#: bb-admin/admin-functions.php:55
+msgid "Find"
+msgstr "Найти"
+
+#: bb-admin/admin-functions.php:56
+msgid "Moderators"
+msgstr "Модераторы"
+
+#: bb-admin/admin-functions.php:57
+#: bb-includes/capabilities.php:159
+msgid "Blocked"
+msgstr "Заблокированые"
+
+#: bb-admin/admin-functions.php:59
+#: bb-admin/content.php:32
+#: bb-templates/kakumei/forum.php:45
+#: bb-templates/kakumei/front-page.php:49
+msgid "Topics"
+msgstr "Темы"
+
+#: bb-admin/admin-functions.php:60
+#: bb-admin/content-posts.php:29
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:46
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:50
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "Сообщения"
+
+#: bb-admin/admin-functions.php:61
+#: bb-templates/kakumei/front-page.php:44
+msgid "Forums"
+msgstr "Форумы"
+
+#: bb-admin/admin-functions.php:63
+msgid "Themes"
+msgstr "Темы"
+
+#: bb-admin/admin-functions.php:65
+#: bb-admin/plugins.php:69
+msgid "Plugins"
+msgstr "Плагины"
+
+#: bb-admin/admin-functions.php:66
+#: bb-admin/site.php:4
+msgid "Recount"
+msgstr "Переучет"
+
+#: bb-admin/admin-functions.php:201
+#: bb-admin/admin-functions.php:528
+#: bb-includes/functions.php:1716
+#: bb-includes/template-functions.php:1012
+msgid "Edit"
+msgstr "Править"
+
+#: bb-admin/admin-functions.php:255
+#: bb-admin/admin-functions.php:396
+#: bb-includes/bozo.php:272
+msgid "No matching users were found!"
+msgstr "Таких нет!"
+
+#: bb-admin/admin-functions.php:315
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "Пользователи, соответствующие \"%s\" по ролям"
+
+#: bb-admin/admin-functions.php:317
+msgid "User List by Role"
+msgstr "Список пользователей по ролям"
+
+#: bb-admin/admin-functions.php:323
+msgid "Search for users &raquo;"
+msgstr "Поиск пользователей &raquo;"
+
+#: bb-admin/admin-functions.php:330
+msgid "&laquo; Back to All Users"
+msgstr "&laquo; Назад к списку пользователей"
+
+#: bb-admin/admin-functions.php:332
+#, php-format
+msgid "%1$s &#8211; %2$s of %3$s shown below"
+msgstr "%1$s &#8211; %2$s из %3$s показано ниже"
+
+#: bb-admin/admin-functions.php:344
+msgid "Users with no role in these forums"
+msgstr "Пользователи с неуказанными ролями"
+
+#: bb-admin/admin-functions.php:347
+msgid "ID"
+msgstr "ID"
+
+#: bb-admin/admin-functions.php:348
+#: bb-admin/install.php:305
+msgid "Username"
+msgstr "Имя"
+
+#: bb-admin/admin-functions.php:350
+#: bb-includes/functions.php:1768
+msgid "Email"
+msgstr "E-mail"
+
+#: bb-admin/admin-functions.php:351
+msgid "Registered Since"
+msgstr "Зарегистрирован"
+
+#: bb-admin/admin-functions.php:352
+msgid "Actions"
+msgstr "Действия"
+
+#: bb-admin/admin-functions.php:530
+#: bb-includes/template-functions.php:1032
+msgid "Delete"
+msgstr "Удалить"
+
+#: bb-admin/admin-functions.php:550
+#: bb-admin/install.php:203
+msgid "Forum Name:"
+msgstr "Название форума:"
+
+#: bb-admin/admin-functions.php:553
+msgid "Forum Description:"
+msgstr "Описание форума:"
+
+#: bb-admin/admin-functions.php:556
+msgid "Forum Parent:"
+msgstr "Родительский форум:"
+
+#: bb-admin/admin-functions.php:559
+msgid "Position:"
+msgstr "Позиция:"
+
+#: bb-admin/admin-functions.php:570
+msgid "Update Forum &#187;"
+msgstr "Обновить форум &#187;"
+
+#: bb-admin/admin-functions.php:570
+msgid "Add Forum &#187;"
+msgstr "Все форумы &#187;"
+
+#: bb-admin/admin-functions.php:716
+#, php-format
+msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+msgstr "Опубликовано: %1$s в <a href=\"%2$s\">%3$s</a>"
+
+#: bb-admin/admin-functions.php:726
+msgid "Count posts of every topic"
+msgstr "Учет сообщений в каждом форуме"
+
+#: bb-admin/admin-functions.php:727
+msgid "Count deleted posts on every topic"
+msgstr "Учет удаленных сообщений в каждой теме"
+
+#: bb-admin/admin-functions.php:728
+msgid "Count topics and posts in every forum (relies on the above)"
+msgstr "Учет тем и сообщений в каждом форуме (зависит от настроек выше)"
+
+#: bb-admin/admin-functions.php:729
+msgid "Count topics to which each user has replied"
+msgstr "Учет тем, на которые ответил каждый пользователь"
+
+#: bb-admin/admin-functions.php:730
+msgid "Count tags for every topic"
+msgstr "Учет меток для каждой темы"
+
+#: bb-admin/admin-functions.php:731
+msgid "Count topics for every tag"
+msgstr "Учет тем для каждой метки"
+
+#: bb-admin/admin-functions.php:732
+msgid "DELETE tags with no topics.  Only functions if the above checked"
+msgstr "УДАЛИТЬ метки без тем. Работает только если отмечена функция выше."
+
+#: bb-admin/admin-functions.php:795
+msgid "Visit plugin homepage"
+msgstr "Посетить страницу плагина"
+
+#: bb-admin/admin-functions.php:798
+#: bb-admin/admin-functions.php:841
+msgid "Visit author homepage"
+msgstr "Посетить страницу автора"
+
+#: bb-admin/admin-functions.php:847
+msgid "Visit porter homepage"
+msgstr "Посетить страницу автора адаптации"
+
+#: bb-admin/admin.php:7
+#, php-format
+msgid "Your database is out-of-date.  Please <a href='%s'>upgrade</a>."
+msgstr "Ваша базу данных устарела. Пожалуйста,  <a href='%s'>обновите ее</a>."
+
+#: bb-admin/bb-do-counts.php:12
+msgid "Recounting"
+msgstr "Переучет"
+
+#: bb-admin/bb-do-counts.php:19
+msgid "Counting posts..."
+msgstr "Учет сообщений..."
+
+#: bb-admin/bb-do-counts.php:24
+msgid "Done counting posts."
+msgstr "Учет сообщений завершен."
+
+#: bb-admin/bb-do-counts.php:33
+msgid "Counting deleted posts..."
+msgstr "Учет удаленных сообщений..."
+
+#: bb-admin/bb-do-counts.php:43
+msgid "Done counting deleted posts."
+msgstr "Учет удаленных сообщений завершен."
+
+#: bb-admin/bb-do-counts.php:45
+msgid "No deleted posts to count."
+msgstr "Нет удаленных сообщений для учета."
+
+#: bb-admin/bb-do-counts.php:53
+msgid "Counting forum topics and posts..."
+msgstr "Учет тем и сообщений форумов..."
+
+#: bb-admin/bb-do-counts.php:67
+msgid "Done counting forum topics and posts."
+msgstr "Учет тем и сообщений форумов завершен."
+
+#: bb-admin/bb-do-counts.php:74
+msgid "Counting topics to which each user has replied..."
+msgstr "Учет тем, на которые ответил каждый пользователь..."
+
+#: bb-admin/bb-do-counts.php:79
+msgid "Done counting topics."
+msgstr "Учет тем завершен."
+
+#: bb-admin/bb-do-counts.php:86
+msgid "Counting topic tags..."
+msgstr "Учет меток тем..."
+
+#: bb-admin/bb-do-counts.php:96
+msgid "Done counting topic tags."
+msgstr "Учет меток тем завершен."
+
+#: bb-admin/bb-do-counts.php:103
+msgid "Counting tagged topics..."
+msgstr "Учет помеченых тем..."
+
+#: bb-admin/bb-do-counts.php:115
+msgid "Done counting tagged topics."
+msgstr "Учет помеченых тем завершен."
+
+#: bb-admin/bb-do-counts.php:121
+msgid "Deleted tags with no topics."
+msgstr "Удаление меток без тем."
+
+#: bb-admin/bb-do-counts.php:133
+msgid "Done recounting.  The process took"
+msgstr "Переучет завершен. Процессу потребовалось "
+
+#: bb-admin/bb-do-counts.php:134
+#: bb-admin/upgrade.php:30
+#, php-format
+msgid "%1$d queries and %2$s seconds."
+msgstr "%1$d запросов и %2$s секунд."
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "У вас нет власти пачкать в этом форуме."
+
+#: bb-admin/bb-forum.php:15
+msgid "Bad forum name.  Go back and try again."
+msgstr "Плохое имя для форума. Вернитесь и попробуйте снова."
+
+#: bb-admin/bb-forum.php:23
+msgid "The forum was not added"
+msgstr "Форум не добавлен"
+
+#: bb-admin/bb-forum.php:30
+msgid "No forums to update!"
+msgstr "Нет форумов для обновления!"
+
+#: bb-admin/bb-forum.php:45
+msgid "You don't have the authority to kill off the forums."
+msgstr "У Вас нет власти, чтобы убивать форумы."
+
+#: bb-admin/bb-forum.php:51
+msgid "Error occured while trying to delete forum"
+msgstr "Во время удаления форума произошла ошибка"
+
+#: bb-admin/content-forums.php:17
+msgid "Forum Updated."
+msgstr "Форум обновлен."
+
+#: bb-admin/content-forums.php:20
+#, php-format
+msgid "Forum deleted.  You should have bbPress <a href=\"%s\">recount your site information</a>."
+msgstr "Форум удален. Вы можете выполнить <a href=\"%s\">переучет всей информации на сайте</a>."
+
+#: bb-admin/content-forums.php:31
+msgid "Forum Management"
+msgstr "Управление форумом"
+
+#: bb-admin/content-forums.php:34
+msgid "Update Forum"
+msgstr "Обновить форум"
+
+#: bb-admin/content-forums.php:38
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "Вы уверены, что хотите удалить форум \"<strong>%s</strong>\"?"
+
+#: bb-admin/content-forums.php:47
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "Удаление всех тем и сообщений в этом форуме. <em>Вы не сможете откатить эту операцию.</em>"
+
+#: bb-admin/content-forums.php:48
+msgid "Move topics from this forum into"
+msgstr "Переместить темы из этого форума в"
+
+#: bb-admin/content-forums.php:52
+msgid "Delete forum &raquo;"
+msgstr "Удалить форум &raquo;"
+
+#: bb-admin/content-forums.php:60
+msgid "&laquo; Go back"
+msgstr "&laquo; Назад"
+
+#: bb-admin/content-forums.php:69
+msgid "Name &#8212; Description"
+msgstr "Имя &#8212; Описание"
+
+#: bb-admin/content-forums.php:76
+msgid "Add Forum"
+msgstr "Добавить форум"
+
+#: bb-admin/content-posts.php:6
+#: bb-admin/content.php:6
+#: bb-includes/akismet.php:202
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "Как Вы здесь оказались? И что собираетесь здесь делать?"
+
+#: bb-admin/content-posts.php:21
+#: bb-admin/content.php:23
+#, php-format
+msgid "matching &#8220;%s&#8221;"
+msgstr "соответсвующие &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:22
+#: bb-admin/content.php:24
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr "в &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:23
+#: bb-admin/content.php:25
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "с метками &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:24
+#: bb-admin/content.php:26
+#, php-format
+msgid "by %s"
+msgstr "от %s"
+
+#: bb-admin/content-posts.php:26
+#: bb-admin/content.php:28
+#: bb-includes/classes.php:820
+msgid "Normal"
+msgstr "Обычные "
+
+#: bb-admin/content-posts.php:26
+#: bb-admin/content.php:28
+#: bb-includes/classes.php:820
+msgid "Deleted"
+msgstr "Удаленые"
+
+#: bb-admin/content-posts.php:31
+#, php-format
+msgid "%1$sposts"
+msgstr "%1$sсообщения"
+
+#: bb-admin/content-posts.php:33
+#: bb-admin/content.php:36
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr ""
+
+#: bb-admin/content-posts.php:37
+#: bb-admin/content.php:40
+msgid "Filter &#187;"
+msgstr "Фильтр &#187;"
+
+#: bb-admin/content.php:29
+#: bb-includes/classes.php:847
+msgid "Closed"
+msgstr "Закрытые"
+
+#: bb-admin/content.php:29
+#: bb-includes/classes.php:847
+msgid "Open"
+msgstr "Открытые"
+
+#: bb-admin/content.php:34
+#, php-format
+msgid "%1$s%2$stopics"
+msgstr "%1$s%2$s Темы"
+
+#: bb-admin/content.php:46
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:9
+#: rss.php:34
+msgid "Topic"
+msgstr "Тема"
+
+#: bb-admin/content.php:47
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:15
+#: bb-templates/kakumei/view.php:11
+msgid "Last Poster"
+msgstr "Последний комментатор"
+
+#: bb-admin/content.php:48
+#: bb-templates/kakumei/favorites.php:20
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:16
+#: bb-templates/kakumei/view.php:12
+msgid "Freshness"
+msgstr "Обновлено"
+
+#: bb-admin/content.php:59
+msgid "No Topics Found"
+msgstr "Тем нет найдено"
+
+#: bb-admin/delete-post.php:17
+msgid "There is a problem with that post, pardner."
+msgstr "У нас проблема с этим сообщением, партнер."
+
+#: bb-admin/delete-topic.php:16
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "У нас проблема с этой темой, партнер."
+
+#: bb-admin/export.php:8
+msgid "No thieving allowed."
+msgstr "Воровать нехорошо."
+
+#: bb-admin/index.php:7
+msgid "Latest Activity"
+msgstr "Последняя активность"
+
+#: bb-admin/index.php:8
+msgid "User Registrations"
+msgstr "Регистрации пользователей"
+
+#: bb-admin/index.php:11
+msgid "profile"
+msgstr "профиль"
+
+#: bb-admin/index.php:11
+#, php-format
+msgid "registered %s ago"
+msgstr "%s"
+
+#: bb-admin/index.php:16
+msgid "Recently Moderated"
+msgstr "Недавно модерировано"
+
+#: bb-admin/index.php:20
+msgid "Post"
+msgstr "Сообщение"
+
+#: bb-admin/index.php:20
+#: bb-templates/kakumei/rss2.php:19
+msgid "on"
+msgstr "на"
+
+#: bb-admin/index.php:20
+msgid "by"
+msgstr "от"
+
+#: bb-admin/index.php:22
+msgid "Topic titled"
+msgstr "Тема "
+
+#: bb-admin/index.php:22
+msgid "started by"
+msgstr "от "
+
+#: bb-admin/index.php:29
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "Статистика"
+
+#: bb-admin/index.php:31
+msgid "Posts per day"
+msgstr "Сообщений в день"
+
+#: bb-admin/index.php:32
+msgid "Topics per day"
+msgstr "Тем в день"
+
+#: bb-admin/index.php:33
+msgid "Registrations per day"
+msgstr "Регистраций в день"
+
+#: bb-admin/index.php:34
+#, php-format
+msgid "Forums started %s ago."
+msgstr "Время жизни форума: %s"
+
+#: bb-admin/install.php:12
+msgid "bbPress &rsaquo; Installation"
+msgstr "bbPress &rsaquo; Установка"
+
+#: bb-admin/install.php:19
+#, php-format
+msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to <a href=\"%s\">upgrade</a> instead?</p><p>To reinstall please clear your old database tables first.</p>"
+msgstr "<h1>Уже установлен</h1><p>Вы уже установили bbPress. Возможно, вы собираетесь <a href=\"%s\">обновить</a> его?</p><p>Для переустановки удалите сначала таблицы старой базы данных.</p>"
+
+#: bb-admin/install.php:26
+msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to run the upgrade scripts instead? To reinstall please clear your old database tables first.</p>"
+msgstr "<h1>Уже установлен</h1><p>Вы уже установили bbPress. Возможно, вы собирались запустить вместо этого сценарий обновления? Для переустановки удалите сначала таблицы старой базы данных.</p>"
+
+#: bb-admin/install.php:34
+#, php-format
+msgid "%s is now a Key Master"
+msgstr "%s теперь Хранитель"
+
+#: bb-admin/install.php:35
+msgid "Back to the front page"
+msgstr "Вернуться на первую страницу"
+
+#: bb-admin/install.php:39
+msgid "Username not found.  Try again."
+msgstr "Имя пользователя не найдено. Попробуйте снова."
+
+#: bb-admin/install.php:49
+msgid "Welcome to bbPress installation. We&#8217;re now going to go through a few steps to get you up and running with the latest in forums software."
+msgstr "Добро пожаловать в установку bbPress. Сейчас мы вместе пройдем через несколько шагов установки и установим последнюю версию программного обеспечения форума."
+
+#: bb-admin/install.php:50
+msgid "First Step &raquo;"
+msgstr "Первый шаг &raquo;"
+
+#: bb-admin/install.php:78
+msgid "First Step"
+msgstr "Первый шаг"
+
+#: bb-admin/install.php:79
+msgid "Make sure you have <strong>everything</strong> (database information, email address, etc.) entered correctly in <code>config.php</code> before running this script."
+msgstr "Убедитесь, что <strong>все</strong> (параметры базы данных, email-адреса, и т.д.) правильно введено в Ваш <code>config.php</code> перед запуском этого скрипта."
+
+#: bb-admin/install.php:87
+msgid "Your <code>$bb->domain</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
+msgstr "Ваша настройка <code>$bb->domain</code> должна быть <strong>без</strong> обратного слеша \"<code>/</code>\" в коце."
+
+#: bb-admin/install.php:90
+msgid "Your <code>$bb->domain</code> setting cannot be parsed."
+msgstr "Ваша настройка <code>$bb->domain</code> не может быть распознана."
+
+#: bb-admin/install.php:92
+msgid "Your <code>$bb->domain</code> setting <strong>must</strong> start with <code>http://</code>."
+msgstr "Ваша настройка <code>$bb->domain</code> <strong>должна</strong> начинаться с <code>http://</code>."
+
+#: bb-admin/install.php:94
+msgid "Your <code>$bb->domain</code> setting must only include the <code>http://</code> and the domain name; it may not include any directories or path information."
+msgstr "Ваша переменная <code>$bb->domain</code> должна скобчать только <code>http://</code> и доменное имя; без путей и директорий."
+
+#: bb-admin/install.php:96
+msgid "Your <code>$bb->path</code> setting <strong>must</strong> start with a backslash \"<code>/</code>\"."
+msgstr "Ваша переменная <code>$bb->path</code> <strong>должна</strong> начинаться с обратного слеша \"<code>/</code>\"."
+
+#: bb-admin/install.php:98
+msgid "Your <code>$bb->path</code> setting <strong>must</strong> end with a backslash \"<code>/</code>\"."
+msgstr "Ваша переменная <code>$bb->path</code> <strong>должна</strong> заканчиваться обратным слешем \"<code>/</code>\"."
+
+#: bb-admin/install.php:104
+msgid "Your <code>$bb->wp_home</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
+msgstr "Ваша переменная <code>$bb->wp_home</code> должна быть <strong>без</strong> обратного слеша \"<code>/</code>\" в конце."
+
+#: bb-admin/install.php:107
+msgid "Your <code>$bb->wp_home</code> setting cannot be parsed."
+msgstr "Вашу переменную <code>$bb->wp_home</code> не удается  распознать."
+
+#: bb-admin/install.php:109
+msgid "Your <code>$bb->wp_home</code> setting <strong>must</strong> start with <code>http://</code>."
+msgstr "Ваша переменная <code>$bb->wp_home</code> <strong>должна</strong> начинаться с <code>http://</code>."
+
+#: bb-admin/install.php:112
+msgid "Your <code>$bb->domain</code> and <code>$bb->wp_home</code> settings do not have the same domain.<br />You cannot share login cookies between the two.<br />Remove the <code>$bb->wp_home</code> setting from your config.php file."
+msgstr "Ваши переменные <code>$bb->domain</code> и <code>$bb->wp_home</code> не содержат доменных имен.<br />Вы не сможете использовать единую авторизаци через куки.<br />Удалите переменную <code>$bb->wp_home</code>  из Вашего файла config.php."
+
+#: bb-admin/install.php:121
+msgid "Your <code>$bb->cookiedomain</code> is not in the same domain as your <code>$bb->domain</code>.  You will not be able to log in."
+msgstr "Ваша переменная <code>$bb->cookiedomain</code> не совпадает со значением <code>$bb->domain</code>.  Вы не сможете авторизоваться."
+
+#: bb-admin/install.php:126
+msgid "Your bbPress URL <code>$bb->path</code> is outside of your <code>$bb->cookiepath</code>.  You may not be able to log in."
+msgstr "Ваш bbPress URL <code>$bb->path</code> находится за пределами <code>$bb->cookiepath</code>. Вы не сможете авторизоваться."
+
+#: bb-admin/install.php:164
+msgid "Before we begin we need a little bit of information about your site's first <strong>administrator account</strong>, and your site's first <strong>forum</strong>."
+msgstr "Перед началом нам нужно немного больше информации об <strong>учетной записи администратора</strong>, и о Вашем первом <strong>форуме</strong>."
+
+#: bb-admin/install.php:167
+#: bb-includes/capabilities.php:68
+msgid "Administrator"
+msgstr "Администратор"
+
+#: bb-admin/install.php:169
+#, php-format
+msgid "We found <strong>%s</strong> who is already a \"Key Master\" on these forums.  You may make others later"
+msgstr "Мы обнаружили, что <strong>%s</strong> уже является \"Хранителем\" на этих форумах."
+
+#: bb-admin/install.php:172
+msgid "Enter your username below.  You will be made the first Key Master on these forums.  Leave this blank if you want to create a new account"
+msgstr "Введите имя пользователя. Вы будете первым Хранителем на этом форуме. Оставьте поле пустым, если хотите сознать новую учетную запись"
+
+#: bb-admin/install.php:177
+#: bb-templates/kakumei/login-form.php:4
+#: bb-templates/kakumei/login.php:12
+#: bb-templates/kakumei/login.php:22
+#: bb-templates/kakumei/login.php:32
+#: bb-templates/kakumei/register.php:15
+msgid "Username:"
+msgstr "Имя:"
+
+#: bb-admin/install.php:181
+msgid "Email address:"
+msgstr "Email адрес:"
+
+#: bb-admin/install.php:182
+msgid "(You already set this in your <code>config.php</code> file.)"
+msgstr "(Вы уже установили это в Вашем файле <code>config.php</code>.)"
+
+#: bb-admin/install.php:185
+msgid "Website:"
+msgstr "Web-сайт:"
+
+#: bb-admin/install.php:189
+msgid "Location:"
+msgstr "Расположение:"
+
+#: bb-admin/install.php:193
+msgid "Interests:"
+msgstr "Инетерсы:"
+
+#: bb-admin/install.php:199
+msgid "First Forum"
+msgstr "Первый форум"
+
+#: bb-admin/install.php:207
+msgid "Description:"
+msgstr "Описание"
+
+#: bb-admin/install.php:211
+msgid "Double-check that username before continuing."
+msgstr "Перед продолжением дважды щелкните по имени пользователя."
+
+#: bb-admin/install.php:214
+msgid "Continue to Second Step &raquo;"
+msgstr "Продолжаем ко второму шагу &raquo;"
+
+#: bb-admin/install.php:226
+msgid "Bad username.  Go back and try again."
+msgstr "Плохое имя для пользователя. Попробуйте еще раз."
+
+#: bb-admin/install.php:228
+msgid "Username not found.  Go back and try again."
+msgstr "Имя пользователя не найдено. Попробуйте еще раз."
+
+#: bb-admin/install.php:230
+msgid "You must name your first forum.  Go back and try again."
+msgstr "Вы должны назвать Ваш первый форум. Вернитесь и попробуйте еще раз."
+
+#: bb-admin/install.php:232
+msgid "Second Step"
+msgstr "Второй шаг"
+
+#: bb-admin/install.php:233
+msgid "Now we&#8217;re going to create the database tables and fill them with some default data."
+msgstr "Теперь мы создадим таблицы базы данных и наполним их некоторыми исходными данными."
+
+#: bb-admin/install.php:251
+#: bb-admin/install.php:257
+msgid "*Your WordPress password*"
+msgstr "*Ваш пароль для WordPress*"
+
+#: bb-admin/install.php:278
+msgid "Your first topic"
+msgstr "Ваша первая тема"
+
+#: bb-admin/install.php:279
+msgid "First Post!  w00t."
+msgstr "Первое сообщение! w00t."
+
+#: bb-admin/install.php:281
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the administrator account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/\n"
+msgstr ""
+"Ваш новый bbPress-сайт успешно установлен в:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Вы можете авторизоваться как администратор со следующими данными:\n"
+"\n"
+"Имя пользователя: %2$s\n"
+"Пароль: %3$s\n"
+"\n"
+"Мы надеемся, вам понравится Ваш новый форум. Спасибо!\n"
+"\n"
+"--Команда bbPress\n"
+"http://bbpress.org/\n"
+
+#: bb-admin/install.php:296
+msgid "New bbPress installation"
+msgstr "Новая установка bbPress"
+
+#: bb-admin/install.php:298
+msgid "Finished!"
+msgstr "Завершено!"
+
+#: bb-admin/install.php:300
+#, php-format
+msgid "Now you can <a href=\"%1$s\">log in</a> with the <strong>username</strong> \"<code>%2$s</code>\" and <strong>password</strong> \"<code>%3$s</code>\"."
+msgstr "Теперь Вы можете <a href=\"%1$s\">войти</a> с <strong>именем пользователя</strong> \"<code>%2$s</code>\" и <strong>паролем</strong> \"<code>%3$s</code>\"."
+
+#: bb-admin/install.php:302
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress. So to review:"
+msgstr "<strong><em>Замечание о пароле</em></strong>! Этот <em>случайный</em> пароль сгенерирован специально для Вас. Если Вы его потеряете, Вам придется удалить баюлицы ихз базы данных и переустановит bbPress. Так что, запоминайте:"
+
+#: bb-admin/install.php:307
+#: bb-includes/registration-functions.php:116
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "Пароль"
+
+#: bb-admin/install.php:309
+msgid "Login address"
+msgstr "Ссылка для авторизации"
+
+#: bb-admin/install.php:312
+msgid "Were you expecting more steps? Sorry to disappoint. All done! :)"
+msgstr "Вы ожидали больше шагов? Извините, что разочаровали. Это все! :)"
+
+#: bb-admin/install.php:317
+msgid "<a href=\"http://bbpress.org/\">bbPress</a>: Simple, Fast, Elegant."
+msgstr "<a href=\"http://bbpress.org/\">bbPress</a>: Просто, быстро, изящно."
+
+#: bb-admin/plugins.php:53
+msgid "Plugin could not be activated; it produced a <strong>Fatal Error</strong>."
+msgstr "Плагин не может быть активирован; он спровоцировал <strong>фатальную ошибку</strong>."
+
+#: bb-admin/plugins.php:56
+msgid "File is not a valid plugin."
+msgstr "Файл не является плагином."
+
+#: bb-admin/plugins.php:59
+msgid "Plugin <strong>activated</strong>"
+msgstr "Плагин <strong>активирован</strong>"
+
+#: bb-admin/plugins.php:62
+msgid "Plugin <strong>deactivated</strong>"
+msgstr "Плагин <strong>деактивирован</strong>"
+
+#: bb-admin/plugins.php:76
+#: bb-admin/plugins.php:110
+msgid "Plugin"
+msgstr "Плагин"
+
+#: bb-admin/plugins.php:77
+#: bb-admin/plugins.php:111
+msgid "Version"
+msgstr "Версия"
+
+#: bb-admin/plugins.php:78
+#: bb-admin/plugins.php:112
+msgid "Description"
+msgstr "Описание"
+
+#: bb-admin/plugins.php:79
+msgid "Action"
+msgstr "Действие"
+
+#: bb-admin/plugins.php:89
+#: bb-admin/plugins.php:123
+#, php-format
+msgid "By %s."
+msgstr "От %s."
+
+#: bb-admin/plugins.php:105
+msgid "Automatically loaded plugins"
+msgstr "Автоматически загруженные плагины"
+
+#: bb-admin/plugins.php:135
+msgid "No Plugins Installed"
+msgstr "Нет установленных плагинов"
+
+#: bb-admin/site.php:5
+msgid ""
+"The following checkboxes allow you to recalculate various numbers stored in\n"
+"the database.  These numbers are used for things like counting the number of\n"
+"pages worth of posts a particular topic has.  You shouldn't need to do do any of\n"
+"this unless you're upgrading from one version to another or are seeing\n"
+"pagination oddities."
+msgstr ""
+"Следующие пункты позволят Вас пересчитать различные значения, сохраненные в\n"
+"базе данных. Эти числа используются для задвач вроде подстчета страниц\n"
+"с сообщениями отдельно для каждой темы. Вам может не потребовать ничего этого делать,\n"
+"за исключением случаев обновления версии или странных ситуаций с нумерацией."
+
+#: bb-admin/site.php:13
+msgid "Choose items to recalculate"
+msgstr "Выберите объекты для переучета:"
+
+#: bb-admin/site.php:19
+msgid "Count!"
+msgstr "Пересчитать!"
+
+#: bb-admin/tag-destroy.php:6
+#: bb-admin/tag-merge.php:6
+#: bb-admin/tag-rename.php:7
+msgid "You are not allowed to manage tags."
+msgstr "Вам не разрешается управлять метками."
+
+#: bb-admin/tag-destroy.php:14
+#: bb-admin/tag-rename.php:16
+msgid "Tag not found."
+msgstr "Нет метки."
+
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "Удалено записей из таблицы меток: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "Удалено записей из отмеченной таблицы: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:19
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">Домой</a>"
+
+#: bb-admin/tag-destroy.php:21
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Что-то странное случилось во время удаления этой метки.<br />\n"
+"<a href=\"%s\">Попробуем еще раз?</a>"
+
+#: bb-admin/tag-merge.php:14
+msgid "Tag specified not found."
+msgstr "Нет такой метки."
+
+#: bb-admin/tag-merge.php:17
+msgid "Tag to be merged not found."
+msgstr "Метка для объединения не найдена."
+
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "Количество тем, из которыз была удалена старая метка: %d <br />\n"
+
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "Количество тем, для которых была добавлена новыя метка: %d <br />\n"
+
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "Количество удаленных строк в таблице меток: %d <br />\n"
+
+#: bb-admin/tag-merge.php:23
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">Новая метка</a>"
+
+#: bb-admin/tag-merge.php:25
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Что-то странное случилось во время попытки объединения этих меток.<br />\n"
+"<a href=\"%s\">Попробуем еще?</a>"
+
+#: bb-admin/tag-rename.php:21
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "Или имя метки неправильное, или метка с такими именем уже есть. <a href=\"%s\">Попробуйте еще раз</a>"
+
+#: bb-admin/themes.php:20
+#, php-format
+msgid "Theme \"%s\" activated"
+msgstr "Тема \"%s\" активирована"
+
+#: bb-admin/themes.php:26
+msgid "Theme not found.  Default theme applied."
+msgstr "Тема не найдена. Установлена тема по умолчению."
+
+#: bb-admin/themes.php:35
+#: bb-admin/themes.php:37
+msgid "Click to activate"
+msgstr "Щелкните для активации"
+
+#: bb-admin/themes.php:39
+#, php-format
+msgid "by <cite>%s</cite>"
+msgstr "от <cite>%s</cite>"
+
+#: bb-admin/themes.php:39
+#, php-format
+msgid ", ported by <cite>%s</cite>"
+msgstr ", портирована <cite>%s</cite>"
+
+#: bb-admin/themes.php:50
+msgid "Current Theme"
+msgstr "Текущая тема"
+
+#: bb-admin/themes.php:56
+msgid "Available Themes"
+msgstr "Доступные темы"
+
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "Неверная тема или форум."
+
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "Ваша тема или форум привела систему к хаосу (они есть вообще?)"
+
+#: bb-admin/upgrade.php:19
+msgid "bbPress &rsaquo; Upgrade"
+msgstr "Обновление bbPress &rsaquo;"
+
+#: bb-admin/upgrade.php:26
+#, php-format
+msgid "Upgrade complete.  <a href=\"%s\">Enjoy!</a>"
+msgstr "Обновление завершено.  <a href=\"%s\">Наслаждайтесь!</a>"
+
+#: bb-admin/upgrade.php:28
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "Нечего обновлять.  <a href=\"%s\">Возвращайтесь к работе!</a>"
+
+#: bb-admin/users-blocked.php:9
+msgid "These users have been blocked by the forum administrators"
+msgstr "Эти пользователи были блокированы администраторами форума"
+
+#: bb-admin/users-moderators.php:9
+msgid "Forum Administrators"
+msgstr "Администраторы форума"
+
+#: bb-admin/view-ip.php:15
+msgid "IP Information"
+msgstr "Информация об IP"
+
+#: bb-admin/view-ip.php:16
+msgid "Last 30 posts"
+msgstr "Последние 30 сообщений"
+
+#: bb-admin/view-ip.php:33
+msgid "Posted:"
+msgstr "Опубликовано:"
+
+#: bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "Извините, сообщение слишком старое."
+
+#: bb-includes/akismet.php:185
+msgid "Akismet Spam"
+msgstr "Спам (Akismet)"
+
+#: bb-includes/akismet.php:198
+#, php-format
+msgid "The API key you have specified is invalid.  Please double check the <code>$bb->akismet_key</code> variable in your <code>config.php file</code>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
+msgstr "API-ключ, который Вы задали, некорректен. Пожалуйста, перепроверьте переменную <code>$bb->akismet_key</code> в файле <code>config.php file</code>. Если у Вам нет API-ключа, вы можете получить его на <a href=\"%s\">WordPress.com</a>."
+
+#: bb-includes/akismet.php:220
+msgid "Not Spam"
+msgstr "Не спам"
+
+#: bb-includes/akismet.php:222
+msgid "Spam"
+msgstr "Спам"
+
+#: bb-includes/bozo.php:80
+msgid "Counting bozo posts..."
+msgstr "Учет нежелательных сообщения..."
+
+#: bb-includes/bozo.php:100
+msgid "Done counting bozo posts."
+msgstr "Учет нежелательных сообщений завершен."
+
+#: bb-includes/bozo.php:111
+msgid "Counting bozo topics for each user...\n"
+msgstr "Учет нежелательных темы для каждого пользователя...\n"
+
+#: bb-includes/bozo.php:131
+msgid ""
+"Done counting bozo topics.\n"
+"\n"
+msgstr ""
+"Учет нежелательных тем завершен.\n"
+"\n"
+
+#: bb-includes/bozo.php:142
+msgid "Count topics to which each user has replied and count each users&#039; bozo posts"
+msgstr "Учет тем, в которых отметился каждый пользователь, и нежелательных сообщений каждого пользователя"
+
+#: bb-includes/bozo.php:143
+msgid "Count bozo posts on every topic"
+msgstr "Учет сообщений нежелательных пользователей в каждой теме"
+
+#: bb-includes/bozo.php:242
+msgid "This user is a bozo"
+msgstr "Это нежелательный пользователь"
+
+#: bb-includes/bozo.php:248
+msgid "Bozos"
+msgstr "Нежелательные"
+
+#: bb-includes/bozo.php:258
+msgid "These users have been marked as bozos"
+msgstr "Это пользователи помеченные как нежелательные"
+
+#: bb-includes/capabilities.php:27
+msgid "Key Master"
+msgstr "Хранитель"
+
+#: bb-includes/capabilities.php:105
+msgid "Moderator"
+msgstr "Модератор"
+
+#: bb-includes/capabilities.php:136
+msgid "Member"
+msgstr "Участник"
+
+#: bb-includes/capabilities.php:152
+msgid "Inactive"
+msgstr "Неактивный"
+
+#: bb-includes/classes.php:757
+msgid "Search &#187;"
+msgstr "Искать &#187;"
+
+#: bb-includes/classes.php:788
+msgid "Search&#8230;"
+msgstr "Искать&#8230;"
+
+#: bb-includes/classes.php:794
+msgid "Forum&#8230;"
+msgstr "Форум&#8230;"
+
+#: bb-includes/classes.php:795
+msgid "Any"
+msgstr "Все"
+
+#: bb-includes/classes.php:801
+msgid "Tag&#8230;"
+msgstr "Метка&#8230;"
+
+#: bb-includes/classes.php:808
+msgid "Topic Author&#8230;"
+msgstr "Автор темы&#8230;"
+
+#: bb-includes/classes.php:815
+msgid "Post Author&#8230;"
+msgstr "Автор сообщения&#8230;"
+
+#: bb-includes/classes.php:820
+#: bb-includes/classes.php:847
+msgid "All"
+msgstr "Все"
+
+#: bb-includes/classes.php:823
+msgid "Topic Status&#8230;"
+msgstr "Состояние темы&#8230;"
+
+#: bb-includes/classes.php:834
+msgid "Post Status&#8230;"
+msgstr "Состояние сообщения&#8230;"
+
+#: bb-includes/classes.php:845
+msgid "Open?&#8230;"
+msgstr "Открытые?&#8230;"
+
+#: bb-includes/classes.php:858
+msgid "Title&#8230;"
+msgstr "Заголовок&#8230;"
+
+#: bb-includes/classes.php:886
+msgid "Not a valid directory"
+msgstr "Неправильная директория"
+
+#: bb-includes/classes.php:892
+msgid "Invalid arguments"
+msgstr "Неверные аргументы"
+
+#: bb-includes/default-filters.php:81
+msgid "Topics with no replies"
+msgstr "Темы без ответов"
+
+#: bb-includes/default-filters.php:82
+msgid "Topics with no tags"
+msgstr "Темы без меток"
+
+#: bb-includes/formatting-functions.php:269
+#, php-format
+msgid "[closed] %s"
+msgstr "[закрыто] %s"
+
+#: bb-includes/functions.php:982
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "Вы заблокированы. Если Вы считаете, что это ошибка, обратитесь к администратору сайта."
+
+#: bb-includes/functions.php:1492
+msgid "year"
+msgstr "год"
+
+#: bb-includes/functions.php:1492
+msgid "years"
+msgstr "лет"
+
+#: bb-includes/functions.php:1493
+msgid "month"
+msgstr "месяц"
+
+#: bb-includes/functions.php:1493
+msgid "months"
+msgstr "месяцев"
+
+#: bb-includes/functions.php:1494
+msgid "week"
+msgstr "неделя"
+
+#: bb-includes/functions.php:1494
+msgid "weeks"
+msgstr "недель"
+
+#: bb-includes/functions.php:1495
+msgid "day"
+msgstr "день"
+
+#: bb-includes/functions.php:1495
+msgid "days"
+msgstr "дней"
+
+#: bb-includes/functions.php:1496
+msgid "hour"
+msgstr "час"
+
+#: bb-includes/functions.php:1496
+msgid "hours"
+msgstr "часов"
+
+#: bb-includes/functions.php:1497
+msgid "minute"
+msgstr "минута"
+
+#: bb-includes/functions.php:1497
+msgid "minutes"
+msgstr "минут"
+
+#: bb-includes/functions.php:1498
+msgid "second"
+msgstr "секунда"
+
+#: bb-includes/functions.php:1498
+msgid "seconds"
+msgstr "секунд"
+
+#: bb-includes/functions.php:1512
+#, php-format
+msgid "%1$d %2$s"
+msgstr ""
+
+#: bb-includes/functions.php:1519
+#, php-format
+msgid ", %1$d %2$s"
+msgstr ""
+
+#: bb-includes/functions.php:1620
+msgid "User not found."
+msgstr "Пользователь не найден"
+
+#: bb-includes/functions.php:1689
+msgid "REQUEST_URI"
+msgstr ""
+
+#: bb-includes/functions.php:1691
+msgid "should be"
+msgstr "может быть"
+
+#: bb-includes/functions.php:1693
+msgid "full permalink"
+msgstr "полная ссылка"
+
+#: bb-includes/functions.php:1695
+msgid "PATH_INFO"
+msgstr ""
+
+#: bb-includes/functions.php:1717
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "Избранное"
+
+#: bb-includes/functions.php:1768
+msgid "Website"
+msgstr "Web-сайт"
+
+#: bb-includes/functions.php:1768
+msgid "Location"
+msgstr "Расположение"
+
+#: bb-includes/functions.php:1768
+msgid "Occupation"
+msgstr "Занятость"
+
+#: bb-includes/functions.php:1768
+msgid "Interests"
+msgstr "Интересы"
+
+#: bb-includes/functions.php:1776
+msgid "Custom Title"
+msgstr "Собственный заголовок"
+
+#: bb-includes/functions.php:1783
+msgid "Ignore the 30 second post throttling limit"
+msgstr "Игнорировать ограничение в 30 секунд"
+
+#: bb-includes/functions.php:1874
+msgid "bbPress Confirmation"
+msgstr "bbPress подтверждение"
+
+#: bb-includes/functions.php:1889
+#: bb-includes/functions.php:1891
+msgid "No"
+msgstr "Нет"
+
+#: bb-includes/functions.php:1889
+#: bb-includes/functions.php:1891
+msgid "Yes"
+msgstr "Да"
+
+#: bb-includes/functions.php:1929
+msgid "bbPress &rsaquo; Error"
+msgstr "Ошибка bbPress &rsaquo;"
+
+#: bb-includes/functions.php:1934
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "Назад к <a href=\"%s\">%s</a>."
+
+#: bb-includes/functions.php:1946
+msgid "Are you sure you want to submit this post?"
+msgstr "Вы уверены, что хотите отправить сообщение?"
+
+#: bb-includes/functions.php:1947
+msgid "Are you sure you want to edit this post?"
+msgstr "Вы уверены, что хотите редактировать сообщение?"
+
+#: bb-includes/functions.php:1948
+msgid "Are you sure you want to delete this post?"
+msgstr "Вы уверены, что хотите удалить сообщение?"
+
+#: bb-includes/functions.php:1950
+msgid "Are you sure you want to create this topic?"
+msgstr "Вы уверены, что хотите создать тему?"
+
+#: bb-includes/functions.php:1951
+msgid "Are you sure you want to change the resolution status of this topic?"
+msgstr "Вы уверены, что хотите изменить разрешения для этой темы?"
+
+#: bb-includes/functions.php:1952
+msgid "Are you sure you want to delete this topic?"
+msgstr "Вы уверены, что хотите удалить эту тему?"
+
+#: bb-includes/functions.php:1953
+msgid "Are you sure you want to change the status of this topic?"
+msgstr "Вы уверены, что хотите изменить состояние этой темы?"
+
+#: bb-includes/functions.php:1954
+msgid "Are you sure you want to change the sticky status of this topic?"
+msgstr "Вы уверены, что хотите изменить статус \"прикреплено\" этой темы?"
+
+#: bb-includes/functions.php:1955
+msgid "Are you sure you want to move this topic?"
+msgstr "Вы уверены, что хотите переместить эту тему?"
+
+#: bb-includes/functions.php:1957
+msgid "Are you sure you want to add this tag to this topic?"
+msgstr "Вы уверены, что хотите добавить метку эту тему?"
+
+#: bb-includes/functions.php:1958
+msgid "Are you sure you want to rename this tag?"
+msgstr "Вы уверены, что хотите переименовать эту метку?"
+
+#: bb-includes/functions.php:1959
+msgid "Are you sure you want to submit these tags?"
+msgstr "Вы уверены, что хотите сохранить эту метку?"
+
+#: bb-includes/functions.php:1960
+msgid "Are you sure you want to destroy this tag?"
+msgstr "Вы уверены, что хотите удалить эту метку?"
+
+#: bb-includes/functions.php:1961
+msgid "Are you sure you want to remove this tag from this topic?"
+msgstr "Вы уверены, что хотите удалить эту метку из этого форума?"
+
+#: bb-includes/functions.php:1963
+msgid "Are you sure you want to toggle your favorite status for this topic?"
+msgstr "Вы уверены, что хотите переключить состояние \"избранное\" для этой темы?"
+
+#: bb-includes/functions.php:1965
+msgid "Are you sure you want to edit this user's profile?"
+msgstr "Вы уверены, что хотите редактировать профиль пользователя?"
+
+#: bb-includes/functions.php:1967
+msgid "Are you sure you want to add this forum?"
+msgstr "Вы уверены, что хотите добавить этот форум?"
+
+#: bb-includes/functions.php:1968
+msgid "Are you sure you want to update your forums?"
+msgstr "Вы уверены, что хотите обновить этот форум?"
+
+#: bb-includes/functions.php:1969
+msgid "Are you sure you want to delete that forum?"
+msgstr "Вы уверены, что хотите удалить этот форум?"
+
+#: bb-includes/functions.php:1971
+msgid "Are you sure you want to recount these items?"
+msgstr "Вы уверены, что хотите пересчитать эти элементы?"
+
+#: bb-includes/functions.php:1973
+msgid "Are you sure you want to switch themes?"
+msgstr "Вы уверены, что хотите сменить внешний вид?"
+
+#: bb-includes/functions.php:1988
+msgid "Are you sure you want to do this?"
+msgstr "Вы уверены, что хотите это сделать?"
+
+#: bb-includes/functions.php:2088
+#: bb-includes/functions.php:2157
+msgid "Your search term was too short"
+msgstr "Поисковый запрос слишком короткий"
+
+#: bb-includes/functions.php:2134
+msgid "Your query parameters are invalid"
+msgstr "Ваши параметры для запроса неверны"
+
+#: bb-includes/js/list-manipulation-js.php:3
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr "Вы уверены, что хотите удалить это: %s?"
+
+#: bb-includes/js/list-manipulation-js.php:50
+msgid "Jump to new item"
+msgstr "Перейти к новому объекту"
+
+#: bb-includes/js/topic-js.php:9
+#, php-format
+msgid "Are you sure you wanna delete this post by \"' + %s + '\"?"
+msgstr "Вы уверены, что хотите удалить это сообщение от  \"' + %s + '\"?"
+
+#: bb-includes/js/topic-js.php:40
+#, php-format
+msgid "Are you sure you want to remove the \"' + %s + '\" tag?"
+msgstr "Вы уверены, что хотите удалить метку  \"' + %s + '\"?"
+
+#: bb-includes/js/topic-js.php:68
+#, php-format
+msgid "This topic is one of your <a href=' + %s + '>favorites</a>"
+msgstr "Эта одна из Ваших <a href=' + %s + '>избранных</a> тем"
+
+#: bb-includes/js/topic-js.php:70
+#: bb-includes/template-functions.php:1740
+msgid "Add this topic to your favorites"
+msgstr "Добавить тему в избранное"
+
+#: bb-includes/js/wp-ajax-js.php:57
+msgid "You don't have permission to do that."
+msgstr "У Вас недостаточно для этого прав."
+
+#: bb-includes/js/wp-ajax-js.php:60
+msgid "Something strange happened.  Try refreshing the page."
+msgstr "Случилось что-то странное. Попробуйте обновить страницу."
+
+#: bb-includes/js/wp-ajax-js.php:84
+msgid "Slow down, I'm still sending your data!"
+msgstr "Помедленней, я отправляю Вашу информацию!"
+
+#: bb-includes/locale.php:20
+#: bb-includes/locale.php:30
+#: bb-includes/locale.php:43
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: bb-includes/locale.php:21
+#: bb-includes/locale.php:31
+#: bb-includes/locale.php:44
+msgid "Monday"
+msgstr "Понедельник"
+
+#: bb-includes/locale.php:22
+#: bb-includes/locale.php:32
+#: bb-includes/locale.php:45
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: bb-includes/locale.php:23
+#: bb-includes/locale.php:33
+#: bb-includes/locale.php:46
+msgid "Wednesday"
+msgstr "Среда"
+
+#: bb-includes/locale.php:24
+#: bb-includes/locale.php:34
+#: bb-includes/locale.php:47
+msgid "Thursday"
+msgstr "Четверг"
+
+#: bb-includes/locale.php:25
+#: bb-includes/locale.php:35
+#: bb-includes/locale.php:48
+msgid "Friday"
+msgstr "Пятница"
+
+#: bb-includes/locale.php:26
+#: bb-includes/locale.php:36
+#: bb-includes/locale.php:49
+msgid "Saturday"
+msgstr "Суббота"
+
+#: bb-includes/locale.php:30
+msgid "S_Sunday_initial"
+msgstr "Вс_Воскресенье_initial"
+
+#: bb-includes/locale.php:31
+msgid "M_Monday_initial"
+msgstr "Пн_Понедельник_initial"
+
+#: bb-includes/locale.php:32
+msgid "T_Tuesday_initial"
+msgstr "Вт_Вторник_initial"
+
+#: bb-includes/locale.php:33
+msgid "W_Wednesday_initial"
+msgstr "Ср_Среда_initial"
+
+#: bb-includes/locale.php:34
+msgid "T_Thursday_initial"
+msgstr "Чт_Четверг_initial"
+
+#: bb-includes/locale.php:35
+msgid "F_Friday_initial"
+msgstr "Пт_Пятница_initial"
+
+#: bb-includes/locale.php:36
+msgid "S_Saturday_initial"
+msgstr "Сб_Суббота_initial"
+
+#: bb-includes/locale.php:43
+msgid "Sun"
+msgstr "Вск"
+
+#: bb-includes/locale.php:44
+msgid "Mon"
+msgstr "Пон"
+
+#: bb-includes/locale.php:45
+msgid "Tue"
+msgstr "Втр"
+
+#: bb-includes/locale.php:46
+msgid "Wed"
+msgstr "Срд"
+
+#: bb-includes/locale.php:47
+msgid "Thu"
+msgstr "Чтв"
+
+#: bb-includes/locale.php:48
+msgid "Fri"
+msgstr "Птн"
+
+#: bb-includes/locale.php:49
+msgid "Sat"
+msgstr "Суб"
+
+#: bb-includes/locale.php:52
+#: bb-includes/locale.php:67
+msgid "January"
+msgstr "Янваль"
+
+#: bb-includes/locale.php:53
+#: bb-includes/locale.php:68
+msgid "February"
+msgstr "Февраль"
+
+#: bb-includes/locale.php:54
+#: bb-includes/locale.php:69
+msgid "March"
+msgstr "Март"
+
+#: bb-includes/locale.php:55
+#: bb-includes/locale.php:70
+msgid "April"
+msgstr "Апрель"
+
+#: bb-includes/locale.php:56
+#: bb-includes/locale.php:71
+msgid "May"
+msgstr "Май"
+
+#: bb-includes/locale.php:57
+#: bb-includes/locale.php:72
+msgid "June"
+msgstr "Июнь"
+
+#: bb-includes/locale.php:58
+#: bb-includes/locale.php:73
+msgid "July"
+msgstr "Июль"
+
+#: bb-includes/locale.php:59
+#: bb-includes/locale.php:74
+msgid "August"
+msgstr "Август"
+
+#: bb-includes/locale.php:60
+#: bb-includes/locale.php:75
+msgid "September"
+msgstr "Сентябрь"
+
+#: bb-includes/locale.php:61
+#: bb-includes/locale.php:76
+msgid "October"
+msgstr "Откябрь"
+
+#: bb-includes/locale.php:62
+#: bb-includes/locale.php:77
+msgid "November"
+msgstr "Ноябрь"
+
+#: bb-includes/locale.php:63
+#: bb-includes/locale.php:78
+msgid "December"
+msgstr "Декабрь"
+
+#: bb-includes/locale.php:67
+msgid "Jan_January_abbreviation"
+msgstr "Янв_Январь_abbreviation"
+
+#: bb-includes/locale.php:68
+msgid "Feb_February_abbreviation"
+msgstr "Фев_Февраль_abbreviation"
+
+#: bb-includes/locale.php:69
+msgid "Mar_March_abbreviation"
+msgstr "Мар_Март_abbreviation"
+
+#: bb-includes/locale.php:70
+msgid "Apr_April_abbreviation"
+msgstr "Апр_Апрель_abbreviation"
+
+#: bb-includes/locale.php:71
+msgid "May_May_abbreviation"
+msgstr "Май_Май_abbreviation"
+
+#: bb-includes/locale.php:72
+msgid "Jun_June_abbreviation"
+msgstr "Июн_Июнь_abbreviation"
+
+#: bb-includes/locale.php:73
+msgid "Jul_July_abbreviation"
+msgstr "Июл_Июль_abbreviation"
+
+#: bb-includes/locale.php:74
+msgid "Aug_August_abbreviation"
+msgstr "Авг_Август_abbreviation"
+
+#: bb-includes/locale.php:75
+msgid "Sep_September_abbreviation"
+msgstr "Сен_Сентябрь_abbreviation"
+
+#: bb-includes/locale.php:76
+msgid "Oct_October_abbreviation"
+msgstr "Окт_Октябрь_abbreviation"
+
+#: bb-includes/locale.php:77
+msgid "Nov_November_abbreviation"
+msgstr "Ноя_Ноябрь_abbreviation"
+
+#: bb-includes/locale.php:78
+msgid "Dec_December_abbreviation"
+msgstr "Дек_Декабрь_abbreviation"
+
+#: bb-includes/locale.php:85
+msgid "am"
+msgstr ""
+
+#: bb-includes/locale.php:86
+msgid "pm"
+msgstr ""
+
+#: bb-includes/locale.php:87
+msgid "AM"
+msgstr ""
+
+#: bb-includes/locale.php:88
+msgid "PM"
+msgstr ""
+
+#: bb-includes/locale.php:93
+msgid "number_format_decimals"
+msgstr ""
+
+#: bb-includes/locale.php:96
+msgid "number_format_decimal_point"
+msgstr ""
+
+#: bb-includes/locale.php:99
+msgid "number_format_thousands_sep"
+msgstr ""
+
+#: bb-includes/registration-functions.php:52
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"Если Вы хотите сбросить Ваш пароль, Вы можете это сделать по адресу:\n"
+"\n"
+"%s\n"
+"\n"
+"Если Вы не хотите этого делать, просто проигнорируйте это письмо. Спасибо!"
+
+#: bb-includes/registration-functions.php:58
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "Сброс пароля"
+
+#: bb-includes/registration-functions.php:65
+#: bb-includes/registration-functions.php:67
+#: bb-includes/registration-functions.php:78
+msgid "Key not found."
+msgstr "Ключ не найден."
+
+#: bb-includes/registration-functions.php:72
+msgid "You are not allowed to change your password."
+msgstr "Вам нельзя менять пароль."
+
+#: bb-includes/registration-functions.php:112
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"Ваше имя для входа: %1$s \n"
+"Пароль: %2$s \n"
+"Вы можете войти здесь: %3$s \n"
+"\n"
+"Наслаждайтесь!"
+
+#: bb-includes/script-loader.php:23
+msgid "drag"
+msgstr "двигайте"
+
+#: bb-includes/script-loader.php:24
+msgid "Save Forum Order &#187;"
+msgstr "Сохранить порядок &#187;"
+
+#: bb-includes/template-functions.php:101
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "Профиль"
+
+#: bb-includes/template-functions.php:138
+msgid "Reply"
+msgstr "Ответ"
+
+#: bb-includes/template-functions.php:140
+msgid "New Topic in this Forum"
+msgstr "Новая тема в этот форум"
+
+#: bb-includes/template-functions.php:142
+msgid "Add New Topic"
+msgstr "Добавить новую тему"
+
+#: bb-includes/template-functions.php:167
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "Вы должны <a href=\"%s\">авторизоваться</a>, чтобы публиковать сообщения."
+
+#: bb-includes/template-functions.php:304
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "Метки"
+
+#: bb-includes/template-functions.php:318
+#, php-format
+msgid "Topic: %s"
+msgstr "Тема: %s"
+
+#: bb-includes/template-functions.php:320
+#, php-format
+msgid "Tag: %s"
+msgstr "Метка: %s"
+
+#: bb-includes/template-functions.php:322
+#, php-format
+msgid "Forum: %s"
+msgstr "Форум: %s"
+
+#: bb-includes/template-functions.php:324
+#: bb-templates/kakumei/search.php:11
+msgid "Recent Posts"
+msgstr "Последние сообщения"
+
+#: bb-includes/template-functions.php:758
+msgid "Are you sure you wanna delete that?"
+msgstr "Вы уверены, что хотите это удалить?"
+
+#: bb-includes/template-functions.php:758
+msgid "Delete entire topic"
+msgstr "Удаление темы полностью"
+
+#: bb-includes/template-functions.php:760
+#: bb-includes/template-functions.php:1030
+msgid "Are you sure you wanna undelete that?"
+msgstr "Вы уверены, что хотите восстановить это?"
+
+#: bb-includes/template-functions.php:760
+msgid "Undelete entire topic"
+msgstr "Восстановление темы полностью"
+
+#: bb-includes/template-functions.php:773
+msgid "Close topic"
+msgstr "Закрыть тему"
+
+#: bb-includes/template-functions.php:773
+msgid "Open topic"
+msgstr "Открыть тему"
+
+#: bb-includes/template-functions.php:788
+msgid "Unstick topic"
+msgstr "Отлепить тему"
+
+#: bb-includes/template-functions.php:790
+msgid "Stick topic"
+msgstr "Прилепить тему"
+
+#: bb-includes/template-functions.php:790
+msgid "to front"
+msgstr "в начало"
+
+#: bb-includes/template-functions.php:797
+msgid "View normal posts"
+msgstr "Просмотреть обычные сообщения"
+
+#: bb-includes/template-functions.php:799
+msgid "View all posts"
+msgstr "Просмотреть все сообщения"
+
+#: bb-includes/template-functions.php:816
+#, php-format
+msgid "+%d more"
+msgstr "+%d еще"
+
+#: bb-includes/template-functions.php:841
+msgid "Move this topic to the selected forum:"
+msgstr "Переместить тему в выбранный форум:"
+
+#: bb-includes/template-functions.php:845
+msgid "Move"
+msgstr "Переместить"
+
+#: bb-includes/template-functions.php:867
+msgid "Add New &raquo;"
+msgstr "Добавить новую &raquo;"
+
+#: bb-includes/template-functions.php:956
+msgid "Anonymous"
+msgstr "Анонимно"
+
+#: bb-includes/template-functions.php:1030
+msgid "Undelete"
+msgstr "Восстановить"
+
+#: bb-includes/template-functions.php:1049
+#: bb-includes/template-functions.php:1064
+msgid "Unregistered"
+msgstr "Отменить регистрацию"
+
+#: bb-includes/template-functions.php:1140
+msgid "Delete User &raquo;"
+msgstr "Удалить пользователя  &raquo;"
+
+#: bb-includes/template-functions.php:1141
+msgid "Are you sure you want to delete this user?"
+msgstr "Вы уверены, что хотите удалить этого пользователя?"
+
+#: bb-includes/template-functions.php:1237
+msgid "Member Since"
+msgstr "Участник с "
+
+#: bb-includes/template-functions.php:1238
+msgid "F j, Y"
+msgstr "j-F-Y"
+
+#: bb-includes/template-functions.php:1274
+#: bb-templates/kakumei/register.php:31
+msgid "<br />There was a problem with your email; please check it."
+msgstr "<br />У нас проблема с Вашим email; пожалуйста, проверьте его."
+
+#: bb-includes/template-functions.php:1276
+#: bb-includes/template-functions.php:1335
+#: bb-templates/kakumei/register.php:33
+msgid "<br />The above field is required."
+msgstr "<br />Эти поля обязательны."
+
+#: bb-includes/template-functions.php:1283
+#: bb-includes/template-functions.php:1340
+#: bb-templates/kakumei/register.php:39
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "Эти значения <span class=\"required\">обязательны</span>."
+
+#: bb-includes/template-functions.php:1310
+msgid "User Type:"
+msgstr "Тип пользователя:"
+
+#: bb-includes/template-functions.php:1319
+msgid "Allow this user to:"
+msgstr "Позволить этому пользователю:"
+
+#: bb-includes/template-functions.php:1342
+msgid ""
+"Inactive users can login and look around but not do anything.\n"
+"Blocked users just see a simple error message when they visit the site.</p>\n"
+"<p><strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr ""
+"Неактивные пользователи могуг авторизоваться и видеть все, но не могу ничего делать.\n"
+"Заблокированные пользователи просто увидят сообщение об ошибке, когда придут на сайт.</p>\n"
+"<p><strong>Замечание</strong>: Блокировка пользователей <em>не</em> блокирует IP-адреса."
+
+#: bb-includes/template-functions.php:1356
+msgid "Log out"
+msgstr "Выйти"
+
+#: bb-includes/template-functions.php:1375
+msgid "Admin"
+msgstr "Администрирование"
+
+#: bb-includes/template-functions.php:1388
+msgid "View your profile"
+msgstr "Просмотреть Ваш профиль"
+
+#: bb-includes/template-functions.php:1533
+msgid "Rename tag:"
+msgstr "Переименовать метку:"
+
+#: bb-includes/template-functions.php:1537
+msgid "Rename"
+msgstr "Переименовать"
+
+#: bb-includes/template-functions.php:1541
+msgid "Merge this tag into:"
+msgstr "Объединить метку с:"
+
+#: bb-includes/template-functions.php:1545
+msgid "Merge"
+msgstr "Объединить"
+
+#: bb-includes/template-functions.php:1546
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "Вы уверены, что хотите объединить эту метку с меткой \"%s\"? Операцию невозможно будет отменить."
+
+#: bb-includes/template-functions.php:1550
+msgid "Destroy tag:"
+msgstr "Уничтожить метку:"
+
+#: bb-includes/template-functions.php:1553
+msgid "Destroy"
+msgstr "Уничтожить"
+
+#: bb-includes/template-functions.php:1554
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "Вы уверены, что хотите отменить метку  \"%s\"? Операция необратима и не может быть отменена."
+
+#: bb-includes/template-functions.php:1569
+msgid "Remove this tag"
+msgstr "Удаление этой метки"
+
+#: bb-includes/template-functions.php:1649
+#, php-format
+msgid "%d topics"
+msgstr "%d тем"
+
+#: bb-includes/template-functions.php:1710
+msgid "- None -"
+msgstr "- Ничего -"
+
+#: bb-includes/template-functions.php:1740
+msgid " (%?%)"
+msgstr ""
+
+#: bb-includes/template-functions.php:1742
+msgid "This topic is one of your %favorites% ["
+msgstr "Это тема отслеживается в Вашем %favorites% ["
+
+#: bb-includes/template-functions.php:1742
+msgid "x"
+msgstr ""
+
+#: bb-includes/template-functions.php:1742
+msgid "]"
+msgstr ""
+
+#: bb-includes/wp-functions.php:889
+msgid "&laquo; Previous"
+msgstr "&laquo; Назад"
+
+#: bb-includes/wp-functions.php:890
+msgid "Next &raquo;"
+msgstr "Дальше &raquo;"
+
+#: bb-post.php:9
+msgid "Slow down; you move too fast."
+msgstr "Помедленнее; Вы слишком спешите."
+
+#: bb-post.php:12
+msgid "You need to actually submit some content!"
+msgstr "Сейчас Вам надо отправить некую информацию!"
+
+#: bb-post.php:16
+#: bb-post.php:37
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "Вы не можете писать. Вы авторизованы?"
+
+#: bb-post.php:19
+msgid "You are not allowed to write new topics."
+msgstr "Вы не можете создавать новые темы."
+
+#: bb-post.php:27
+msgid "Please enter a topic title"
+msgstr "Пожалуйста, введите заголовок темы"
+
+#: bb-post.php:40
+msgid "This topic has been closed"
+msgstr "Эта тема закрыта"
+
+#: bb-settings.php:139
+#, php-format
+msgid "Doesn&#8217;t look like you&#8217;ve installed bbPress yet, <a href=\"%s\">go here</a>."
+msgstr "Не похоже, что здесь есть установленный bbPress. <a href=\"%s\">Идем сюда!</a>."
+
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "Тема:"
+
+#: bb-templates/kakumei/edit-form.php:10
+#: bb-templates/kakumei/post-form.php:9
+msgid "Post:"
+msgstr "Сообщение:"
+
+#: bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "Править сообщение &raquo;"
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:31
+msgid "Allowed markup:"
+msgstr "Разрешенная разметка:"
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:31
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "Пишите код внутри <code>`обратных апострофов`</code>."
+
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "Править сообщение"
+
+#: bb-templates/kakumei/favorites.php:5
+msgid "Current Favorites"
+msgstr "Текущее Избранное"
+
+#: bb-templates/kakumei/favorites.php:7
+msgid ""
+"Your Favorites allow you to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics you specify.\n"
+"To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr ""
+"Ваше Избранное позволяет Вам создать <abbr title=\"Really Simple Syndication\">RSS</abbr> ленту, в которой будут последние комментарии по выбранным темам.\n"
+"Чтобы добавить тему в список Избранного, просто шелкните на ссылку  \"Добавить в Избранное\" на странице темы."
+
+#: bb-templates/kakumei/favorites.php:11
+#, php-format
+msgid "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "Подписаться на <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> ленту</a> Ваших избранных тем."
+
+#: bb-templates/kakumei/favorites.php:21
+msgid "Remove"
+msgstr "Удалить"
+
+#: bb-templates/kakumei/favorites.php:40
+msgid "You currently have no favorites."
+msgstr "У Вас сейчас ничего нет в Избранном."
+
+#: bb-templates/kakumei/favorites.php:44
+msgid "currently has no favorites."
+msgstr "ничего не отслеживает."
+
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s работает на <a href=\"%2$s\">bbPress</a>."
+
+#: bb-templates/kakumei/forum.php:17
+#: bb-templates/kakumei/front-page.php:25
+#: bb-templates/kakumei/view.php:17
+msgid "Sticky:"
+msgstr "Прилеплено:"
+
+#: bb-templates/kakumei/forum.php:33
+msgid "RSS feed for this forum"
+msgstr "RSS лента для этого форума"
+
+#: bb-templates/kakumei/forum.php:40
+msgid "Subforums"
+msgstr "Подфорумы"
+
+#: bb-templates/kakumei/forum.php:44
+#: bb-templates/kakumei/front-page.php:48
+msgid "Main Theme"
+msgstr "Основные темы"
+
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "Популярные метки"
+
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "Последние обсуждения"
+
+#: bb-templates/kakumei/front-page.php:64
+msgid "Views"
+msgstr "Просмотры"
+
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s!"
+msgstr "Добро пожаловать, %1$s!"
+
+#: bb-templates/kakumei/login-form.php:2
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in"
+msgstr "<a href=\"%1$s\">Зарегистрируйтесь</a> или войдите"
+
+#: bb-templates/kakumei/login-form.php:7
+#: bb-templates/kakumei/login.php:16
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/login.php:36
+msgid "Password:"
+msgstr "Пароль:"
+
+#: bb-templates/kakumei/login-form.php:11
+#: bb-templates/kakumei/login.php:44
+msgid "Log in &raquo;"
+msgstr "Войти &raquo;"
+
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "Войти"
+
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "Вход не удался"
+
+#: bb-templates/kakumei/login.php:18
+msgid "Incorrect password"
+msgstr "Неправильный пароль"
+
+#: bb-templates/kakumei/login.php:24
+msgid "This username does not exist."
+msgstr "Этого имени не существует."
+
+#: bb-templates/kakumei/login.php:24
+msgid "Register it?"
+msgstr "Зарегистрировать?"
+
+#: bb-templates/kakumei/login.php:44
+msgid "Try Again &raquo;"
+msgstr "Еще раз &raquo;"
+
+#: bb-templates/kakumei/login.php:54
+msgid "If you would like to recover the password for this account, you may use the following button to start the recovery process:"
+msgstr "Если Вы хотите восстановить пароль для этой учетной записи, Вы можете использовать следующую кнопку для начала процесса восстановления:"
+
+#: bb-templates/kakumei/login.php:56
+msgid "Recover Password &raquo;"
+msgstr "Восстановить пароль &raquo;"
+
+#: bb-templates/kakumei/password-reset.php:8
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "Ваш пароль сброшен, новый будет выслан на Ваш e-mail адрес."
+
+#: bb-templates/kakumei/password-reset.php:10
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything with a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "Письмо было отправлено по адресу, который есть в нашем досье на вас. Если Вы ничего не получите через несколько минут, или если Ваш почтовый адрес сменился, Вы можете связаться с вебмастером или администратором форума здесь."
+
+#: bb-templates/kakumei/post-form.php:3
+msgid "Topic title: (be brief and descriptive)"
+msgstr "Заголовок темы: (краткий и информативный)"
+
+#: bb-templates/kakumei/post-form.php:15
+#, php-format
+msgid "Enter a few words (called <a href=\"%s\">tags</a>) separated by commas to help someone find your topic:"
+msgstr "Введите несколько ключевых слов (их еще называют <a href=\"%s\">метками</a>) через запятую, чтобы тему было легче найти:"
+
+#: bb-templates/kakumei/post-form.php:22
+msgid "Pick a section:"
+msgstr "Выбирайте:"
+
+#: bb-templates/kakumei/post-form.php:28
+msgid "Send Post &raquo;"
+msgstr "Отправить сообщение &raquo;"
+
+#: bb-templates/kakumei/post.php:8
+#, php-format
+msgid "Posted %s ago"
+msgstr "Опубликовано %s назад"
+
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "Править профиль"
+
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "Информация профиля"
+
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "Администрирование"
+
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "Чтобы сменить Ваш пароль, введите его здесь дважды:"
+
+#: bb-templates/kakumei/profile-edit.php:24
+msgid "New password:"
+msgstr "Новый пароль:"
+
+#: bb-templates/kakumei/profile-edit.php:35
+msgid "Update Profile &raquo;"
+msgstr "Обновить профиль &raquo;"
+
+#: bb-templates/kakumei/profile.php:8
+msgid "Profile updated"
+msgstr "Профиль обновлен"
+
+#: bb-templates/kakumei/profile.php:8
+msgid "Edit again &raquo;"
+msgstr "Править снова &raquo;"
+
+#: bb-templates/kakumei/profile.php:11
+#, php-format
+msgid "This is how your profile appears to a fellow logged in member, you may <a href=\"%1$s\">edit this information</a>. You can also <a href=\"%2$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%3$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>"
+msgstr "После получения доступа к своему профилю после авторизации, Вы можете <a href=\"%1$s\">отредактировать эту информацию</a>. Вы также можете <a href=\"%2$s\">настроить Избранное</a> и подписаться на <a href=\"%3$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> ленту</a> избранных тем."
+
+#: bb-templates/kakumei/profile.php:16
+msgid "User Activity"
+msgstr "Активность пользователя"
+
+#: bb-templates/kakumei/profile.php:18
+msgid "Recent Replies"
+msgstr "Последние комментарии"
+
+#: bb-templates/kakumei/profile.php:24
+#, php-format
+msgid "You last replied: %s ago."
+msgstr "Ваш последний ответ: %s назад."
+
+#: bb-templates/kakumei/profile.php:24
+#, php-format
+msgid "User last replied: %s ago."
+msgstr "Последний ответ пользователя: %s назад"
+
+#: bb-templates/kakumei/profile.php:28
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "Последний ответ : %s назад"
+
+#: bb-templates/kakumei/profile.php:30
+msgid "No replies since."
+msgstr "В последнее время комментариев не было."
+
+#: bb-templates/kakumei/profile.php:36
+msgid "No more replies."
+msgstr "Больше нет комментариев."
+
+#: bb-templates/kakumei/profile.php:38
+msgid "No replies yet."
+msgstr "Нет комментариев."
+
+#: bb-templates/kakumei/profile.php:43
+msgid "Threads Started"
+msgstr "Начатые темы"
+
+#: bb-templates/kakumei/profile.php:49
+#, php-format
+msgid "Started: %s ago"
+msgstr "Начато: %s ago"
+
+#: bb-templates/kakumei/profile.php:53
+#, php-format
+msgid "Most recent reply: %s ago."
+msgstr "Последний ответ: %s назад."
+
+#: bb-templates/kakumei/profile.php:55
+msgid "No replies."
+msgstr "Без комментариев."
+
+#: bb-templates/kakumei/profile.php:61
+msgid "No more topics posted."
+msgstr "Нет больше тем."
+
+#: bb-templates/kakumei/profile.php:63
+msgid "No topics posted yet."
+msgstr "Нет опубликованых тем."
+
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "Регистрировать"
+
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "Отлично!"
+
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "Ваша регистрация как <strong>%s</strong> успешно завершенаl. В ближайшие несколько минут Вы получите письмо с паролем."
+
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "Регистрация"
+
+#: bb-templates/kakumei/register.php:10
+msgid "Profile Information"
+msgstr "Личная информация"
+
+#: bb-templates/kakumei/register.php:11
+msgid "Your password will be emailed to the address you provide."
+msgstr "Ваш пароль будет отослан на предоставленный почтовый ящик."
+
+#: bb-templates/kakumei/register.php:17
+msgid "Your username was not valid, please try again"
+msgstr "Неверное имя пользователя, пожалуйста, попробуйте еще."
+
+#: bb-templates/kakumei/register.php:21
+msgid "Username<sup>*</sup>:"
+msgstr "Имя пользователя <sup>*</sup>:"
+
+#: bb-templates/kakumei/register.php:45
+msgid "Register &raquo;"
+msgstr "Регистрация &raquo;"
+
+#: bb-templates/kakumei/register.php:49
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "Вы уже авторизованы, зачем Вам потребовалась регистрация?"
+
+#: bb-templates/kakumei/search-form.php:2
+msgid "Search:"
+msgstr "Искать:"
+
+#: bb-templates/kakumei/search-form.php:6
+msgid "Search &raquo;"
+msgstr "Искать &raquo;"
+
+#: bb-templates/kakumei/search-form.php:8
+msgid "Search again &raquo;"
+msgstr "Скать снова &raquo;"
+
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "Поиск"
+
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "Поиск: "
+
+#: bb-templates/kakumei/search.php:16
+#: bb-templates/kakumei/search.php:28
+msgid "Posted"
+msgstr "Опубликовано"
+
+#: bb-templates/kakumei/search.php:16
+#: bb-templates/kakumei/search.php:28
+msgid "F j, Y, h:i A"
+msgstr "j-F-Y, H:i"
+
+#: bb-templates/kakumei/search.php:23
+msgid "Relevant posts"
+msgstr "Похожие темы"
+
+#: bb-templates/kakumei/search.php:35
+msgid "No results found."
+msgstr "Ничего не найдено."
+
+#: bb-templates/kakumei/search.php:38
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "Вы можете также попробовать <a href=\"http://google.com/search?q=site:%1$s %2$s\">поискать в Google</a>"
+
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "Зарегистрированные пользователи"
+
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "Популярные темы"
+
+#: bb-templates/kakumei/tag-form.php:4
+msgid "Add &raquo;"
+msgstr "Добавить &raquo;"
+
+#: bb-templates/kakumei/tag-single.php:5
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag."
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> для этой метки."
+
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "Это коллекция меток, которые сейчас наиболее популярны."
+
+#: bb-templates/kakumei/topic-tags.php:5
+msgid "Tags:"
+msgstr "Метки:"
+
+#: bb-templates/kakumei/topic-tags.php:15
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "<a href=\"%s\">Меток</a> нет."
+
+#: bb-templates/kakumei/topic.php:10
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "Начато: %1$s назад пользователем %2$s"
+
+#: bb-templates/kakumei/topic.php:12
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">Последний ответ</a> от %2$s"
+
+#: bb-templates/kakumei/topic.php:40
+msgid "RSS feed for this topic"
+msgstr "RSS лента этой темы"
+
+#: bb-templates/kakumei/topic.php:48
+msgid "Topic Closed"
+msgstr "Тема закрыта"
+
+#: bb-templates/kakumei/topic.php:49
+msgid "This topic has been closed to new replies."
+msgstr "Эта тема закрыта для новых комментариев."
+
+#: favorites.php:7
+msgid "You cannot edit those favorites.  How did you get here?"
+msgstr "Вы не можете это править. Как Вы здесь оказались?"
+
+#: forum.php:10
+msgid "Forum not found."
+msgstr "Форум не найден."
+
+#: rss.php:40
+msgid "User Favorites"
+msgstr "Избранное пользователя"
+
+#: rss.php:46
+msgid "Tag"
+msgstr "Метка"
+
+#: rss.php:50
+msgid "Forum"
+msgstr "Форум"
+
+#: rss.php:54
+msgid "Last 35 Posts"
+msgstr "Последние 35 сообщений"
+
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "Авторизуйтесь, чтобы добавить метку."
+
+#: tag-add.php:16
+#: topic.php:15
+msgid "Topic not found."
+msgstr "Тема не найдена."
+
+#: tag-add.php:21
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "Метка не добавлена. Введенное имя метки некорректно или тема закрыта."
+
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "Неверная метка или тема."
+
+#: tag-remove.php:22
+msgid "The tag was not removed.  You cannot remove a tag from a closed topic."
+msgstr "Метка не удалена. Вы не можете удалить метку из закрытой темы."
+
+#: tags.php:9
+msgid "Tag not found"
+msgstr "Меток не найдено"
+
