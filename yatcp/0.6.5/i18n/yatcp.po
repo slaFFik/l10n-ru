@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YATCP 0.6\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-09-09 11:24+0300\n"
+"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
+"Language-Team: Sergey Biryukov <npocmop@gmail.com>, Joachim Praetorius <yatcp@organisiert.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# template_functions.php:82
+msgid "Reply to:"
+msgstr ""
+
+# template_functions.php:84
+msgid "Post"
+msgstr ""
+
+# template_functions.php:114
+msgid "YATCP Options"
+msgstr ""
+
+# template_functions.php:131
+msgid " %s (%s at %s)"
+msgstr ""
+
+# template_functions.php:131
+msgid "d.m.Y H:i"
+msgstr ""
+
+# template_functions.php:251
+msgid "Comment"
+msgstr ""
+
+# template_functions.php:254
+msgid "Trackback"
+msgstr ""
+
+# template_functions.php:257
+msgid "Pingback"
+msgstr ""
+
+# template_functions.php:269
+msgid "(Comments won't nest below this level)"
+msgstr ""
+
+# yatcp_options_page.php:67
+msgid "Comments nesting Level"
+msgstr ""
+
+# yatcp_options_page.php:68
+msgid "Decide how deep comments should be nested. This equals to the number of lines shown on the left in the Default style. When the maximum depth is reached Comments are not shown indented anymore but just below each other (as it is Wordpress Standard). A warning <em>\"Comments won't nest below this level\"</em> is shown for Comments on the maximum level."
+msgstr ""
+
+# yatcp_options_page.php:69
+msgid "Max. Comment nesting depth:"
+msgstr ""
+
+# yatcp_options_page.php:72
+msgid "Exclude Trackbacks/Pingbacks?"
+msgstr ""
+
+# yatcp_options_page.php:73
+msgid "Decide whether Trackbacks/Pingbacks should be shown in the comments dropdown to write a reply to them. Additionally when set to 'off' there willl also be no 'Reply' Link behind Trackbacks or Pingbacks."
+msgstr ""
+
+# yatcp_options_page.php:74
+msgid "Prohibit Answers to Trackbacks/Pingbacks:"
+msgstr ""
+
+# yatcp_options_page:77
+msgid "Hide Trackbacks/Pingbacks?"
+msgstr ""
+
+# yatcp_options_page:78
+msgid "Decide whether Trackbacks/Pingbacks should be completly hidden, i.e. not even show up in the Comments List at all. This implies the behaviour described by 'Exclude Trackbacks', so Trackbacks/Pingbacks won't be shown in the Reply Drowdown. <em>Please note that this also influences the number of comments shown everywhere!</em>"
+msgstr ""
+
+# yatcp_options_page:79
+msgid "Completely hide Trackbacks/Pingbacks:"
+msgstr ""
+
+# yatcp_options_page:82
+msgid "Verbose nesting warning?"
+msgstr ""
+
+
+# yatcp_options_page:83
+msgid "Decide whether the warning <em>\"Comments won't nest below this level\"</em> is shown for <em>every</em> comment nested too deep, or only for the ones reaching maximum nesting depth."
+msgstr ""
+
+# yatcp_options_page:85
+msgid "Show warning for every Comment above maximum nesting depth"
+msgstr ""
+
+# yatcp_options_page:87
+msgid "Show warning only for Comments on maximum nesting depth"
+msgstr ""
+
+# yatcp_comments.php:45
+msgid "Logged in as"
+msgstr ""
+
+# yatcp_comments.php:51
+msgid "(not displayed)"
+msgstr ""
+
+# yatcp_single-comment.php:31
+msgid "%s on %s at %s"
+msgstr ""
+
+# yatcp_single-comment.php:31
+msgid "d.m.Y"
+msgstr ""
+
+# yatcp_single-comment.php:31
+msgid "H:i"
+msgstr ""
+
+# yatcp_single-comment.php:33
+msgid "Reply"
+msgstr ""
+
+# yatcp_single-comment.php:40
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# yatcp_single-comment.php:68
+msgid "Comments are closed."
+msgstr ""
+

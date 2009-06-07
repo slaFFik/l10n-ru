@@ -1,0 +1,96 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-ContactForm 1.4.3\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-09-08 15:09+0300\n"
+"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
+"Language-Team: Sergey Biryukov <npocmop@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: H:/home/wordpress/www/wp-content/plugins/wp-contact-form\n"
+"X-Poedit-SearchPath-0: H:/home/wordpress/www/wp-content/plugins/wp-contact-form\n"
+
+msgid "you@example.com"
+msgstr "you@example.com"
+
+msgid "Contact Form Results"
+msgstr "Форма контактов"
+
+msgid "Thanks for your comments!"
+msgstr "Спасибо!"
+
+msgid "Please fill in the required fields."
+msgstr "Пожалуйста, заполните необходимые поля."
+
+msgid "Contact Form Options"
+msgstr "Настройки формы контактов"
+
+msgid "E-mail Address:"
+msgstr "E-mail:"
+
+msgid "This address is where the email will be sent to."
+msgstr "Адрес, на который будут отсылаться сообщения."
+
+msgid "Subject:"
+msgstr "Тема:"
+
+msgid "This will be the subject of the email."
+msgstr "Эта строчка будет темой письма."
+
+msgid "Messages"
+msgstr "Сообщения"
+
+msgid "Success Message:"
+msgstr "При успешной отправке:"
+
+msgid "When the form is sucessfully submitted, this is the message the user will see."
+msgstr "Это сообщение появится, если форма успешно отправлена."
+
+msgid "Error Message:"
+msgstr "При возникновении ошибки:"
+
+msgid "If the user skips a required field, this is the message he will see."
+msgstr "Если посетитель не заполнит необходимое поле, он увидит это сообщение."
+
+msgid "You can apply CSS to this text by wrapping it in <code>&lt;p style=\"[your CSS here]\"&gt; &lt;/p&gt;</code>."
+msgstr "Здесь можно использовать CSS, окружив тегом <code>&lt;p style=\"[ваш CSS]\"&gt; &lt;/p&gt;</code>."
+
+msgid "ie. <code>&lt;p style=\"color:red;\"&gt;Please fill in the required fields.&lt;/p&gt;</code>."
+msgstr "Например: <code>&lt;p style=\"color:red;\"&gt;Пожалуйста, заполните необходимые поля.&lt;/p&gt;</code>."
+
+msgid "Advanced"
+msgstr "Дополнительно"
+
+msgid "Show 'Contact Form' Quicktag"
+msgstr "Кнопка формы в редакторе"
+
+msgid "required"
+msgstr "необходимо"
+
+msgid "Insert Contact Form"
+msgstr "Вставить форму контактов"
+
+msgid "Your Name: "
+msgstr "Ваше имя:"
+
+msgid "Your Email:"
+msgstr "E-mail:"
+
+msgid "Your Website:"
+msgstr "Ваш сайт:"
+
+msgid "Your Message: "
+msgstr "Сообщение:"
+
+msgid "Submit"
+msgstr "Отправить"
+
+msgid "Contact Form"
+msgstr "Форма контактов"
+

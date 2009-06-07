@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YATCP 0.6\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-09-12 07:49+0300\n"
+"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
+"Language-Team: Sergey Biryukov <npocmop@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: H:/home/wordpress/www/wp-content/plugins/yatcp\n"
+"X-Poedit-SearchPath-0: H:/home/wordpress/www/wp-content/plugins/yatcp\n"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/template_functions.php:64
+msgid "Reply to:"
+msgstr "Ответ на:"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/template_functions.php:66
+msgid "Post"
+msgstr "Статью"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/template_functions.php:77
+msgid "YATCP Options"
+msgstr "Настройки YATCP"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/template_functions.php:97
+#, php-format
+msgid " %s (%s at %s)"
+msgstr " %s (%s, %s)"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/template_functions.php:97
+msgid "d.m.Y H:i"
+msgstr "d.m.Y H:i"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/template_functions.php:216
+msgid "Comment"
+msgstr "Комментарий"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/template_functions.php:219
+msgid "Trackback"
+msgstr "Трекбэк"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/template_functions.php:222
+msgid "Pingback"
+msgstr "Пингбэк"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_single-comment.php:36
+msgid "(Comments won't nest below this level)"
+msgstr "(Дальше комментарии не вкладываются)"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:26
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Эта запись защищена паролем. Для просмотра комментариев введите пароль."
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/template_functions.php:216
+msgid "No Comments"
+msgstr "Комментариев нет"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/template_functions.php:216
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/template_functions.php:216
+msgid "% Comments"
+msgid_plural "% Comments"
+msgstr[0] "% комментарий"
+msgstr[1] "% комментария"
+msgstr[2] "% комментариев"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:38
+msgid "Leave a comment"
+msgstr "Добавить комментарий"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:40
+msgid "Sorry, you must be logged in to post a comment."
+msgstr "Вы должны быть авторизованы, чтобы добавить комментарий."
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:40
+msgid "Login"
+msgstr "Войти"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:45
+msgid "Logged in as"
+msgstr "Вы авторизованы как"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:45
+msgid "Logout"
+msgstr "Выйти"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:48
+msgid "Name"
+msgstr "Имя"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:48
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:51
+msgid "(required)"
+msgstr "(необходимо)"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:51
+msgid "E-Mail:"
+msgstr "E-mail:"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:51
+msgid "(not displayed)"
+msgstr "(не публикуется)"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:54
+msgid "Website:"
+msgstr "Ваш сайт:"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:60
+msgid "Save"
+msgstr "Отправить"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_comments.php:66
+msgid "Sorry, the comment form is closed at this time."
+msgstr "К сожалению, теперь комментарии отключены."
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_options_page.php:62
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_options_page.php:37
+msgid "Comments nesting Level"
+msgstr "Уровень вложенности комментариев"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_options_page.php:38
+msgid "Decide how deep comments should be nested. This equals to the number of lines shown on the left in the Default style. When the maximum depth is reached Comments are not shown indented anymore but just below each other (as it is Wordpress Standard). A warning <em>\"Comments won't nest below this level\"</em> is shown for Comments on the maximum level."
+msgstr "Определите, насколько глубоко должны вкладываться комментарии. Значение равно числу отступов слева. Если достигнута максимальная глубина, комментарии больше не вкладываются, а просто выводятся один под другим (стандартное отображение WordPress). Для комментариев на максимальном уровне показывается соответствующее предупреждение."
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_options_page.php:37
+msgid "Max. Comment nesting depth:"
+msgstr "Максимальный уровень вложенности:"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_options_page.php:47
+msgid "Exclude Trackbacks/Pingbacks?"
+msgstr "Исключить трекбэки/пингбэки?"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_options_page.php:45
+msgid "Decide whether Trackbacks/Pingbacks should be shown in the comments dropdown to write a reply to them. Additionally when set to 'off' there willl also be no 'Reply' Link behind Trackbacks or Pingbacks."
+msgstr "Определите, нужно ли показывать трекбэки и пингбэки в ниспадающем меню для ответа. Если опция выключена, рядом с ними не будет ссылки &laquo;Ответить&raquo;."
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_options_page.php:47
+msgid "Prohibit Answers to Trackbacks/Pingbacks:"
+msgstr "Запретить ответы на трекбэки/пингбэки:"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_options_page.php:47
+msgid "Hide Trackbacks/Pingbacks?"
+msgstr "Не показывать трекбэки/пингбэки?"
+
+# yatcp_options_page:78
+msgid "Decide whether Trackbacks/Pingbacks should be completly hidden, i.e. not even show up in the Comments List at all. This implies the behaviour described by 'Exclude Trackbacks', so Trackbacks/Pingbacks won't be shown in the Reply Drowdown. <em>Please note that this also influences the number of comments shown everywhere!</em>"
+msgstr "Определите, нужно ли полностью спрятать трекбэки и пингбэки в списке комментариев. Эта опция также включает в себя поведение предыдущей &#8212; то есть, трекбэки и пингбэки не будут фигурировать в ниспадающем меню. <em>Пожалуйста, учтите, что это может повлиять на число комментариев, отображаемое и в других местах!</em>"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_options_page.php:47
+msgid "Completely hide Trackbacks/Pingbacks:"
+msgstr "Полностью спрятать трекбэки/пингбэки:"
+
+# yatcp_options_page:82
+msgid "Verbose nesting warning?"
+msgstr "Дополнительные предупреждения об уровне вложенности?"
+
+# yatcp_options_page:83
+msgid "Decide whether the warning <em>\"Comments won't nest below this level\"</em> is shown for <em>every</em> comment nested too deep, or only for the ones reaching maximum nesting depth."
+msgstr "Определите, нужно ли выводить предупреждение &laquo;Дальше комментарии не вкладываются&raquo; для <em>каждого</em> комментария с глубиной выше максимальной, или только для находящихся на предельной глубине."
+
+# yatcp_options_page:85
+msgid "Show warning for every Comment above maximum nesting depth"
+msgstr "Показывать предупреждения для всех комментариев выше максимального уровня"
+
+# yatcp_options_page:87
+msgid "Show warning only for Comments on maximum nesting depth"
+msgstr "Показывать предупреждение только для одного комментария на максимальном уровне"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_options_page.php:90
+msgid "Update Options &raquo;"
+msgstr "Обновить настройки &raquo;"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_single-comment.php:31
+#, php-format
+msgid "%s on %s at %s"
+msgstr "%s (%s %s)"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_single-comment.php:31
+msgid "d.m.Y"
+msgstr "d.m.Y"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_single-comment.php:31
+msgid "H:i"
+msgstr "H:i"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_single-comment.php:33
+msgid "Reply"
+msgstr "Ответить"
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_single-comment.php:40
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+# H:/home/wordpress/www/wp-content/plugins/yatcp/yatcp_single-comment.php:68
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+

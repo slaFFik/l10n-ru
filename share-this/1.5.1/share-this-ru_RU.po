@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Share This 1.4\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-13 15:58+0300\n"
+"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
+"Language-Team: Sergey Biryukov <npocmop@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: ./\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-SearchPath-0: ./\n"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:428
+#: /share-this.php:560
+msgid "Email, post to del.icio.us, etc."
+msgstr "Отправить по e-mail, сохранить в del.icio.us и т.п."
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:428
+#: /share-this.php:560
+msgid "ShareThis"
+msgstr "Поделиться с друзьями"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:474
+#: /share-this.php:609
+msgid "Close"
+msgstr "Закрыть"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:476
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:790
+#: /share-this.php:614
+#: /share-this.php:908
+#: /share-this.php:923
+#: /share-this.php:1131
+msgid "Social Web"
+msgstr "Социальные сайты"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:477
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:815
+#: /share-this.php:621
+#: /share-this.php:912
+#: /share-this.php:928
+#: /share-this.php:1156
+msgid "E-mail"
+msgstr "E-mail"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:493
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:819
+#: /share-this.php:669
+#: /share-this.php:1160
+msgid "E-mail It"
+msgstr "Отправить по e-mail"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:496
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:822
+#: /share-this.php:672
+#: /share-this.php:1163
+#, php-format
+msgid "To Addresses (up to %d):"
+msgstr "Кому (до %d адресов):"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:500
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:826
+#: /share-this.php:676
+#: /share-this.php:1167
+msgid "Your Name:"
+msgstr "Ваше имя:"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:504
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:830
+#: /share-this.php:680
+#: /share-this.php:1171
+msgid "Your Address:"
+msgstr "Ваш адрес (e-mail):"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:508
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:834
+#: /share-this.php:684
+#: /share-this.php:1175
+msgid "Send It"
+msgstr "Отправить"
+
+#: /share-this.php:764
+msgid "Please make sure you have entered an e-mail address to sent this to. Click your <strong>back button</strong> and try again."
+msgstr "Пожалуйста, введите адрес e-mail, чтобы отправить ссылку. Нажмите кнопку <strong>&laquo;Назад&raquo;</strong> и попробуйте снова."
+
+#: /share-this.php:768
+#, php-format
+msgid "Sorry, you can only send this to %d people at once. Click your <strong>back button</strong> and try again."
+msgstr "Извините, но ссылку можно отправить только %d адресатам за один раз. Нажмите кнопку <strong>&laquo;Назад&raquo;</strong> и попробуйте снова."
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:580
+#: /share-this.php:813
+msgid "Oops, please click your <strong>back button</strong> and make sure those e-mail addresses are correct, then try again."
+msgstr "Ой! Пожалуйста, нажмите кнопку <strong>&laquo;Назад&raquo;</strong>, проверьте адрес e-mail, затем попробуйте снова."
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:590
+#: /share-this.php:822
+msgid "Check out this post on "
+msgstr "Интересная статья на "
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:592
+#: /share-this.php:834
+msgid "Greetings--"
+msgstr "Добрый день,"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:593
+#: /share-this.php:835
+msgid " thinks this will be of interest to you:"
+msgstr " считает, что вам это может пригодиться:"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:596
+#: /share-this.php:839
+msgid "Enjoy."
+msgstr "Успехов!"
+
+#: /share-this.php:856
+msgid "Thanks, we've sent this article to your recipients via e-mail."
+msgstr "Спасибо! Ссылка на статью успешно отправлена."
+
+#: /share-this.php:856
+msgid "Return to original page"
+msgstr "Вернуться к исходной странице"
+
+#: /share-this.php:898
+#: /share-this.php:947
+msgid "ShareThis Classic Options"
+msgstr "Настройки ShareThis Classic"
+
+#: /share-this.php:902
+msgid "Which tabs do you want to include?"
+msgstr "Какие вкладки отображать?"
+
+#: /share-this.php:918
+msgid "Which tab should be first?"
+msgstr "Какая вкладка должна быть первой?"
+
+#: /share-this.php:936
+msgid "Update ShareThis Options"
+msgstr "Обновить настройки ShareThis"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:428
+#: /share-this.php:948
+msgid "ShareThis Classic"
+msgstr "ShareThis Classic"
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:650
+#: /share-this.php:992
+msgid "Share This : "
+msgstr "Поделиться с друзьями: "
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:786
+#: /share-this.php:1127
+#, php-format
+msgid "<strong>What is this?</strong> From this page you can use the <em>Social Web</em> links to save %s to a social bookmarking site, or the <em>E-mail</em> form to send a link via e-mail."
+msgstr "<strong>Что здесь?</strong> На этой странице можно воспользоваться меню <em>&laquo;Социальные сайты&raquo;</em>, чтобы добавить статью %s в закладки, или формой <em>E-mail</em>, чтобы отправить ссылку по почте."
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:849
+#: /share-this.php:1190
+msgid "Posted in: "
+msgstr "Рубрика: "
+
+# H:\home\wordpress\www\wp-content\plugins\share-this/share-this.php:852
+#: /share-this.php:1193
+msgid "Return to:"
+msgstr "Вернуться:"
+

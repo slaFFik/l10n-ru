@@ -1,0 +1,27 @@
+YATCP Wordpress Plugin
+
+# General Structure:
+  - this (main) directory contains all files necessary for the plugin itself
+  - the i18n/ Directory contains Translations available
+  - the misc/ Directory contains other helpful Items not fitting the other categories
+
+# Installation:
+  1. Activate YATCP in the Admin Panel
+  2. Set the YATCP Options in the Options Panel (under "Options" » "YATCP Options") to your needs
+  3. Adapt your Template by replacing the call to 'comments_template()' by 'yatcp_comments_template()'
+  4. done
+
+# Translations:
+  YATCP is currently translated into English, German, Russian, Hungarian and Spanish. 
+  When you set up your WP to use one of these Languages that should be picked up automatically.
+  
+	If you want to provide another not present language just copy the .mo File in the i18n/ Directory
+  and Wordpress should pick up the new Translation.
+  
+	If you do a new Translation please share it with others by sendng me the appropriate 
+  files at <yatcp@organisiert.net>
+
+# Misc:
+  Daniel Kian Mc Kiernan provided adapted Versions of the YATCP Comments Files adapted for the
+	use with the 'Edit Comments XT' Plugin. You can find them in the misc/ subdirectory. When you want
+	to use YATCP and 'Edit Comments XT' just copy over the original Files with these.
