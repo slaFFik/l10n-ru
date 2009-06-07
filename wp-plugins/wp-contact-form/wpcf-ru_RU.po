@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-ContactForm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-11 22:12+0300\n"
+"PO-Revision-Date: 2008-12-11 22:12+0300\n"
+"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
+"Language-Team: Sergey Biryukov <npocmop@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: options-contactform.php:12
+msgid "you@example.com"
+msgstr "you@example.com"
+
+#: options-contactform.php:13
+msgid "Contact Form Results"
+msgstr "Форма контактов"
+
+#: options-contactform.php:14
+msgid "Thanks for your comments!"
+msgstr "Спасибо!"
+
+#: options-contactform.php:15
+msgid "Please fill in the required fields."
+msgstr "Пожалуйста, заполните необходимые поля."
+
+#: options-contactform.php:41
+#: wp-contactform.php:267
+msgid "Contact Form Options"
+msgstr "Настройки формы контактов"
+
+#: options-contactform.php:46
+msgid "E-mail Address:"
+msgstr "E-mail:"
+
+#: options-contactform.php:49
+msgid "This address is where the email will be sent to."
+msgstr "Адрес, на который будут отсылаться сообщения."
+
+#: options-contactform.php:52
+msgid "Subject:"
+msgstr "Тема:"
+
+#: options-contactform.php:55
+msgid "This will be the subject of the email."
+msgstr "Эта строчка будет темой письма."
+
+#: options-contactform.php:60
+msgid "Messages"
+msgstr "Сообщения"
+
+#: options-contactform.php:63
+msgid "Success Message:"
+msgstr "При успешной отправке:"
+
+#: options-contactform.php:66
+msgid "When the form is sucessfully submitted, this is the message the user will see."
+msgstr "Это сообщение появится, если форма успешно отправлена."
+
+#: options-contactform.php:69
+msgid "Error Message:"
+msgstr "При возникновении ошибки:"
+
+#: options-contactform.php:72
+msgid "If the user skips a required field, this is the message he will see."
+msgstr "Если посетитель не заполнит необходимое поле, он увидит это сообщение."
+
+#: options-contactform.php:73
+msgid "You can apply CSS to this text by wrapping it in <code>&lt;p style=\"[your CSS here]\"&gt; &lt;/p&gt;</code>."
+msgstr "Здесь можно использовать CSS, окружив тегом <code>&lt;p style=\"[ваш CSS]\"&gt; &lt;/p&gt;</code>."
+
+#: options-contactform.php:74
+msgid "ie. <code>&lt;p style=\"color:red;\"&gt;Please fill in the required fields.&lt;/p&gt;</code>."
+msgstr "Например: <code>&lt;p style=\"color:red;\"&gt;Пожалуйста, заполните необходимые поля.&lt;/p&gt;</code>."
+
+#: options-contactform.php:81
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: options-contactform.php:85
+msgid "Show 'Contact Form' Quicktag"
+msgstr "Кнопка формы в редакторе"
+
+#: options-contactform.php:96
+msgid "Update Options"
+msgstr "Обновить настройки"
+
+#: wp-contactform.php:27
+msgid "Insert Contact Form"
+msgstr "Вставить форму контактов"
+
+#: wp-contactform.php:73
+#: wp-contactform.php:79
+#: wp-contactform.php:135
+#: wp-contactform.php:136
+msgid "required"
+msgstr "необходимо"
+
+#: wp-contactform.php:171
+msgid "Your Name: "
+msgstr "Ваше имя:"
+
+#: wp-contactform.php:172
+msgid "Your Email:"
+msgstr "E-mail:"
+
+#: wp-contactform.php:173
+msgid "Your Website:"
+msgstr "Ваш сайт:"
+
+#: wp-contactform.php:174
+msgid "Your Message: "
+msgstr "Сообщение:"
+
+#: wp-contactform.php:175
+msgid "Submit"
+msgstr "Отправить"
+
+#: wp-contactform.php:267
+msgid "Contact Form"
+msgstr "Форма контактов"
+
