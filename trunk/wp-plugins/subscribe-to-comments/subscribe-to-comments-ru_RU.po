@@ -1,0 +1,422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Subscribe To Comments 2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-07-31 19:13+0300\n"
+"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
+"Language-Team: MyWordpress.ru <wordpress.ru@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: subscribe-to-comments.php:71
+msgid "<strong>Error: </strong>"
+msgstr "<strong>Ошибка: </strong>"
+
+#: subscribe-to-comments.php:86
+msgid "Subscribe without commenting"
+msgstr "Подписаться, не комментируя"
+
+#: subscribe-to-comments.php:88
+msgid "E-Mail:"
+msgstr "E-mail:"
+
+#: subscribe-to-comments.php:90
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: subscribe-to-comments.php:140
+msgid "Subscribe to Comments Options"
+msgstr "Настройки подписки на комментарии"
+
+#: subscribe-to-comments.php:143
+msgid "\"From\" name for notifications:"
+msgstr "Имя &laquo;От кого&raquo; для уведомлений:"
+
+#: subscribe-to-comments.php:144
+msgid "\"From\" e-mail addresss for notifications:"
+msgstr "E-mail &laquo;От кого&raquo; для уведомлений:"
+
+#: subscribe-to-comments.php:146
+msgid "Do a CSS \"clear\" on the subscription checkbox/message (uncheck this if the checkbox/message appears in a strange location in your theme)"
+msgstr "Присвоить чекбоксу и сообщению о подписке CSS-атрибут &laquo;clear&raquo; (уберите галочку, если чекбокс или сообщение появляется в непонятном месте)"
+
+#: subscribe-to-comments.php:149
+msgid "Comment Form Text"
+msgstr "Текст для формы комментариев"
+
+#: subscribe-to-comments.php:151
+msgid "Customize the messages shown to different people.  Use <code>[manager_link]</code> to insert the URI to the Subscription Manager."
+msgstr "Задайте сообщения, отображающиеся для разных пользователей. Используйте <code>[manager_link]</code>, чтобы вставить ссылку на менеджер подписок."
+
+#: subscribe-to-comments.php:155
+msgid "Not subscribed"
+msgstr "Не подписан"
+
+#: subscribe-to-comments.php:157
+msgid "Subscribed"
+msgstr "Подписан"
+
+#: subscribe-to-comments.php:159
+msgid "Entry Author"
+msgstr "Автор записи"
+
+#: subscribe-to-comments.php:165
+msgid "Use custom style for Subscription Manager"
+msgstr "Использовать свой стиль для менеджера подписок"
+
+#: subscribe-to-comments.php:167
+msgid "These settings only matter if you are using a custom style.  <code>[theme_path]</code> will be replaced with the path to your current theme."
+msgstr "Эти настройки имеют значение, только если вы используете свой стиль. <code>[theme_path]</code> будет заменен на путь до текущей темы."
+
+#: subscribe-to-comments.php:170
+msgid "Path to header:"
+msgstr "Путь к шапке:"
+
+#: subscribe-to-comments.php:171
+msgid "Path to sidebar:"
+msgstr "Путь к боковой колонке:"
+
+#: subscribe-to-comments.php:172
+msgid "Path to footer:"
+msgstr "Путь к &laquo;подвалу&raquo;"
+
+#: subscribe-to-comments.php:175
+msgid "HTML for before the subscription manager:"
+msgstr "HTML перед менеджером подписок:"
+
+#: subscribe-to-comments.php:176
+msgid "HTML for after the subscription manager:"
+msgstr "HTML после менеджера подписок:"
+
+#: subscribe-to-comments.php:201
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+#: subscribe-to-comments.php:208
+msgid "Update Options &raquo;"
+msgstr "Обновить настройки &raquo;"
+
+#: subscribe-to-comments.php:379
+msgid "Please provide a valid e-mail address."
+msgstr "Пожалуйста, введите свой адрес e-mail."
+
+#: subscribe-to-comments.php:383
+msgid "This e-mail address may not be subscribed"
+msgstr "Этот e-mail не может быть подписан"
+
+#: subscribe-to-comments.php:389
+#: subscribe-to-comments.php:405
+msgid "You appear to be already subscribed to this entry."
+msgstr "Похоже, что вы уже подписаны на эту запись."
+
+#: subscribe-to-comments.php:395
+msgid "Comments are not allowed on this entry."
+msgstr "Для этой записи обсуждение закрыто."
+
+#: subscribe-to-comments.php:599
+#, php-format
+msgid "There is a new comment on the post \"%s\""
+msgstr "Новый комментарий на запись \"%s\""
+
+#: subscribe-to-comments.php:600
+#, php-format
+msgid "Author: %s\n"
+msgstr "Автор: %s\n"
+
+#: subscribe-to-comments.php:601
+msgid "Comment:\n"
+msgstr "Комментарий:\n"
+
+#: subscribe-to-comments.php:602
+msgid "See all comments on this post here:\n"
+msgstr "Посмотреть все комментарии к этой записи:\n"
+
+#: subscribe-to-comments.php:605
+msgid "To manage your subscriptions or to block all notifications from this site, click the link below:\n"
+msgstr "Для управления подпиской или отмены всех уведомлений с сайта, нажмите на следующую ссылку: \n"
+
+#: subscribe-to-comments.php:608
+#, php-format
+msgid "New Comment On: %s"
+msgstr "Новый комментарий к записи: %s"
+
+#: subscribe-to-comments.php:627
+msgid "E-mail change confirmation"
+msgstr "Подтверждение изменения e-mail"
+
+#: subscribe-to-comments.php:628
+#, php-format
+msgid ""
+"You are receiving this message to confirm a change of e-mail address for your subscriptions at \"%s\"\n"
+"\n"
+msgstr ""
+"Вы получили это сообщение, чтобы подтвердить изменение e-mail для ваших подписок на &laquo;%s&raquo;\n"
+"\n"
+
+#: subscribe-to-comments.php:629
+#, php-format
+msgid ""
+"To change your e-mail address to %s, click this link:\n"
+"\n"
+msgstr ""
+"Чтобы изменить Ваш e-mail на %s, щелкните по следующей ссылке: \n"
+"\n"
+
+#: subscribe-to-comments.php:631
+#: subscribe-to-comments.php:643
+msgid "If you did not request this action, please disregard this message."
+msgstr "Если вы не хотите этого делать, просто проигнорируйте сообщение."
+
+#: subscribe-to-comments.php:639
+msgid "E-mail block confirmation"
+msgstr "Подтверждение блокировки e-mail"
+
+#: subscribe-to-comments.php:640
+#, php-format
+msgid ""
+"You are receiving this message to confirm that you no longer wish to receive e-mail comment notifications from \"%s\"\n"
+"\n"
+msgstr ""
+"Вы получили это сообщение с целью подтвердить, что вы больше не хотите получать уведомления о комментариях с сайта &laquo;%s&raquo;\n"
+"\n"
+
+#: subscribe-to-comments.php:641
+msgid ""
+"To cancel all future notifications for this address, click this link:\n"
+"\n"
+msgstr ""
+"Чтобы отменить все будущие уведомления, щелкните по следующей ссылке: \n"
+"\n"
+
+#: subscribe-to-comments.php:681
+msgid "click here"
+msgstr "нажмите здесь"
+
+#: subscribe-to-comments.php:703
+msgid "Notify me of followup comments via e-mail"
+msgstr "Оповещать о новых комментариях по почте"
+
+#: subscribe-to-comments.php:703
+msgid "You are subscribed to this entry.  <a href=\"[manager_link]\">Manage your subscriptions</a>."
+msgstr "Вы подписаны на эту запись. <a href=\"[manager_link]\">Управление подписками</a>."
+
+#: subscribe-to-comments.php:703
+msgid "You are the author of this entry.  <a href=\"[manager_link]\">Manage subscriptions</a>."
+msgstr "Вы автор этой записи.  <a href=\"[manager_link]\">Управление подписками</a>."
+
+#: subscribe-to-comments.php:782
+msgid "Comment Subscription Manager"
+msgstr "Управление подпиской на комментарии"
+
+#: subscribe-to-comments.php:782
+#: subscribe-to-comments.php:1134
+msgid "Subscriptions"
+msgstr "Подписки"
+
+#: subscribe-to-comments.php:784
+msgid "Subscribe to Comments"
+msgstr "Подписка на комментарии"
+
+#: subscribe-to-comments.php:864
+msgid "You may not access this page without a valid key."
+msgstr "Для доступа к странице необходим правильный ключ."
+
+#: subscribe-to-comments.php:870
+msgid "Subscription Manager"
+msgstr "Менеджер подписок"
+
+#: subscribe-to-comments.php:872
+#, php-format
+msgid "All notifications that were formerly sent to <strong>%1$s</strong> will now be sent to <strong>%2$s</strong>!"
+msgstr "Все уведомления, которы отправлялись на адрес <strong>%1$s</strong> теперь будут направляться на адрес <strong>%2$s</strong>!"
+
+#: subscribe-to-comments.php:884
+#, php-format
+msgid "<strong>%1$s</strong> %2$s removed successfully."
+msgstr "<strong>%1$s</strong> %2$s удален."
+
+#: subscribe-to-comments.php:884
+msgid "subscriptions"
+msgstr "подписки"
+
+#: subscribe-to-comments.php:884
+msgid "subscription"
+msgstr "подписка"
+
+#: subscribe-to-comments.php:889
+#, php-format
+msgid "The block on <strong>%s</strong> has been successfully removed."
+msgstr "Блокировка адреса <strong>%s</strong> была удалена."
+
+#: subscribe-to-comments.php:891
+#, php-format
+msgid "<strong>%s</strong> isn't blocked!"
+msgstr "<strong>%s</strong> не заблокирован!"
+
+#: subscribe-to-comments.php:896
+#, php-format
+msgid "<strong>%s</strong> has been blocked from receiving notifications.  You will have to have the administrator remove the block before you will be able to change your notification address."
+msgstr "<strong>%s</strong> заблокирован от получения уведомлений. Вы должны попросить администратора сайта снять защиту, и только после этого сможете поменять адрес."
+
+#: subscribe-to-comments.php:899
+#, php-format
+msgid "Your change of e-mail request was successfully received.  Please check your old account (<strong>%s</strong>) in order to confirm the change."
+msgstr "Запрос на изменения e-mail принят. Пожалуйста, проверьте ваш старый адрес (<strong>%s</strong>), чтобы подтвердить изменение."
+
+#: subscribe-to-comments.php:904
+#, php-format
+msgid "Your request to block <strong>%s</strong> from receiving any further notifications has been received.  In order for you to complete the block, please check your e-mail and click on the link in the message that has been sent to you."
+msgstr "Вы попросили заблокировать адрес <strong>%s</strong> от получения любых уведомлений. Чтобы продолжить, проверьте почту и перейдите по ссылке в письме, которое было вам отправлено."
+
+#: subscribe-to-comments.php:908
+#, php-format
+msgid "<strong>%1$s</strong> has been successfully subscribed to %2$s"
+msgstr "Адрес <strong>%1$s</strong> подписан на рассылку записи %2$s"
+
+#: subscribe-to-comments.php:913
+#, php-format
+msgid "<strong>%1$s</strong> has been added to the \"do not mail\" list. You will no longer receive any notifications from this site. If this was done in error, please contact the <a href=\"mailto:%2$s\">site administrator</a> to remove this block."
+msgstr "Адрес <strong>%1$s</strong> добавлен в список не &laquo;не беспокоить&raquo;. Вы больше не будете получать уведомления с этого сайта. Если это случилось по ошибке, свяжитесь с <a href=\"mailto:%2$s\">администратором сайта</a>."
+
+#: subscribe-to-comments.php:915
+#, php-format
+msgid "<strong>%s</strong> has already been blocked!"
+msgstr "<strong>%s</strong> уже заблокирован!"
+
+#: subscribe-to-comments.php:931
+#: subscribe-to-comments.php:956
+#, php-format
+msgid "%s Comment Subscription Manager"
+msgstr "%s: Подписка на комментарии"
+
+#: subscribe-to-comments.php:959
+#, php-format
+msgid "Return to the page you were viewing: %s"
+msgstr "Вернуться к просматриваемой странице: %s"
+
+#: subscribe-to-comments.php:970
+msgid "Remove Block"
+msgstr "Удалить блокировку"
+
+#: subscribe-to-comments.php:973
+#, php-format
+msgid "Click the button below to remove the block on <strong>%s</strong>.  This should only be done if the user has specifically requested it."
+msgstr "Нажмите на следующую кнопку, чтобы убрать блокировку с <strong>%s</strong>. Вы должны это сделать, только если пользователь попросил вас об этом."
+
+#: subscribe-to-comments.php:981
+msgid "Remove Block &raquo;"
+msgstr "Удалить блокировку &raquo;"
+
+#: subscribe-to-comments.php:989
+msgid "Blocked"
+msgstr "Заблокирован"
+
+#: subscribe-to-comments.php:992
+#, php-format
+msgid "You have indicated that you do not wish to receive any notifications at <strong>%1$s</strong> from this site. If this is incorrect, or if you wish to have the block removed, please contact the <a href=\"mailto:%2$s\">site administrator</a>."
+msgstr "Похоже, что вы не хотите больше получать уведомления с этого сайта на адрес <strong>%1$s</strong>. Если это не так, и вы хотите снять блокировку, свяжитесь с <a href=\"mailto:%2$s\">администратором сайта</a>."
+
+#: subscribe-to-comments.php:1007
+#, php-format
+msgid "<strong>%s</strong> is not subscribed to any posts on this site."
+msgstr "<strong>%s</strong> не подписан на рассылку комментариев на этом сайте."
+
+#: subscribe-to-comments.php:1009
+#, php-format
+msgid "<strong>%s</strong> is not a valid e-mail address."
+msgstr "<strong>%s</strong> не является корректным адресом e-mail."
+
+#: subscribe-to-comments.php:1022
+msgid "&laquo; Back"
+msgstr "&laquo; Назад"
+
+#: subscribe-to-comments.php:1025
+msgid "Find Subscriptions"
+msgstr "Найти подписки"
+
+#: subscribe-to-comments.php:1028
+msgid "Enter an e-mail address to view its subscriptions or undo a block."
+msgstr "Введите e-mail для просмотра подписок или снятия блокировки."
+
+#: subscribe-to-comments.php:1036
+msgid "Search &raquo;"
+msgstr "Найти &raquo;"
+
+#: subscribe-to-comments.php:1044
+msgid "Top Subscriber List"
+msgstr "Рейтинг подписчиков"
+
+#: subscribe-to-comments.php:1046
+msgid "Subscriber List"
+msgstr "Список подписчиков"
+
+#: subscribe-to-comments.php:1065
+msgid "Show all subscribers"
+msgstr "Показать всех подписчиков"
+
+#: subscribe-to-comments.php:1067
+msgid "Show list of subscribers in <code>CC:</code>-field format (for bulk e-mailing)"
+msgstr "Показать список подписчиков в формате поля <code>CC:</code> (для массовой рассылки)"
+
+#: subscribe-to-comments.php:1069
+msgid "&laquo; Back to regular view"
+msgstr "&laquo; Вернуться к обычному виду"
+
+#: subscribe-to-comments.php:1084
+msgid "Top Subscribed Posts"
+msgstr "Записи с наибольшим количеством подписчиков"
+
+#: subscribe-to-comments.php:1137
+#, php-format
+msgid "<strong>%s</strong> is subscribed to the posts listed below. To unsubscribe to one or more posts, click the checkbox next to the title, then click \"Remove Selected Subscription(s)\" at the bottom of the list."
+msgstr "<strong>%s</strong> подписан на нижеследующие записи. Чтобы отписаться от одной или нескольких записей, поставьте галочку рядом с названиеми, затем нажмите кнопку &laquo;Удалить выбранные подписки&raquo;."
+
+#: subscribe-to-comments.php:1151
+msgid "Invert Checkbox Selection"
+msgstr "Инвертировать состояния галочек"
+
+#: subscribe-to-comments.php:1155
+msgid "Remove Selected Subscription(s) &raquo;"
+msgstr "Удалить выбранные подписки &raquo;"
+
+#: subscribe-to-comments.php:1162
+msgid "Advanced Options"
+msgstr "Расширенные настройки"
+
+#: subscribe-to-comments.php:1165
+msgid "Block All Notifications"
+msgstr "Блокировать все уведомления"
+
+#: subscribe-to-comments.php:1172
+#, php-format
+msgid "If you would like <strong>%s</strong> to be blocked from receiving any notifications from this site, click the button below.  This should be reserved for cases where someone is signing you up for notifications without your consent."
+msgstr "Если вы хотите, чтобы адрес <strong>%s</strong> был заблокирован от любых уведомлений с этого сайта, нажмите на следующую кнопку. Это необходимо в случае, если кто-то пытается подписать вас на уведомления без вашего согласия."
+
+#: subscribe-to-comments.php:1176
+msgid "Block Notifications &raquo;"
+msgstr "Блокировать уведомления &raquo;"
+
+#: subscribe-to-comments.php:1182
+msgid "Change E-mail Address"
+msgstr "Изменить e-mail"
+
+#: subscribe-to-comments.php:1189
+#, php-format
+msgid "If you would like to change the e-mail address for your subscriptions, enter the new address below.  You will be required to verify this request by clicking a special link sent to your current address (<strong>%s</strong>)."
+msgstr "Если вы хотите изменить адрес подписки, введите его в следующее поле. Вам необходимо будет подтвердить свое желание, нажав на ссылку, которую мы отправим на ваш текущий адрес (<strong>%s</strong>)."
+
+#: subscribe-to-comments.php:1193
+msgid "New E-mail Address:"
+msgstr "Новый e-mail:"
+
+#: subscribe-to-comments.php:1198
+msgid "Change E-mail Address &raquo;"
+msgstr "Изменить e-mail &raquo;"
+

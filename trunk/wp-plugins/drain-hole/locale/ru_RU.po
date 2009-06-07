@@ -1,0 +1,913 @@
+# A download management and monitoring plugin with statistics and file protection
+# Copyright (C) 2007 John Godley
+# This file is distributed under the same license as the Drain Hole package.
+# John Godley, http://urbangiraffe.com/, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drain Hole 2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-22 11:37+0300\n"
+"PO-Revision-Date: 2009-04-22 11:37+0300\n"
+"Last-Translator: Sol <salpagarov@gmail.com>\n"
+"Language-Team: ru.wordpress.org <team@wordpress-russia.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2\n"
+"X-Poedit-Basepath: d:\\project\\automattic\\wordpress-russia@google\\trunk\\wp-plugins\\drain-hole\n"
+"X-Poedit-SearchPath-0: d:\\project\\automattic\\wordpress-russia@google\\trunk\\wp-plugins\\drain-hole\n"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/ajax.php:22
+msgid "<p style=\"color: red\">You are not allowed access to this resource</p>"
+msgstr "<p style=\"color: red\">Вам не разрешён доступ к этому ресурсу</p>"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/ajax.php:30
+msgid "<p style=\"color: red\">That function is not defined</p>"
+msgstr "<p style=\"color: red\">Функция не определена</p>"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:126
+msgid "Drainhole Statistics"
+msgstr "Статистика DrainHole"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:133
+msgid "Drain Hole Help"
+msgstr "Помощь по Drain Hole"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:134
+msgid "Drain Hole Documentation"
+msgstr "Документация Drain Hole"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:135
+msgid "Drain Hole Support Forum"
+msgstr "Форумы поддержки Drain Hole"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:136
+msgid "Drain Hole Bug Tracker"
+msgstr "Drain Hole Bug Tracker"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:137
+msgid "Drain Hole FAQ"
+msgstr "FAQ по Drain Hole"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:138
+msgid "Please read the documentation and FAQ, and check the bug tracker, before asking a question."
+msgstr "Пожалуйста, прочтите документацию, FAQ и проверьте bug-трекер перед тем, как задать вопрос."
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:267
+msgid "Drain Hole"
+msgstr "Drain Hole"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:424
+msgid "Your version was added succesfully"
+msgstr "Версия успешно добавлена"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:455
+msgid "No new files were found"
+msgstr "Новых файлов не найдено"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:457
+#, php-format
+msgid "%d new file was found"
+msgid_plural "%d new files were found"
+msgstr[0] "%d новый файл найден"
+msgstr[1] "%d новых файла найдено"
+msgstr[2] "%d новых файлов найдено"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:548
+msgid "The Drain Hole was successfully created"
+msgstr "Хранилище успешно создано"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:552
+msgid "The Drain Hole was not created - "
+msgstr "Хранилище не создано - "
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/drain-hole.php:591
+msgid "Your options have been updated"
+msgstr "Настройки сохранены."
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/plugin.php:656
+msgid "How many widgets would you like?"
+msgstr "Сколько виджетов вы хотите?"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/plugin.php:663
+msgid "Save"
+msgstr "Сохранить"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/charts/file.php:63
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/charts/file.php:186
+#, php-format
+msgid "Hourly downloads over time (%1s %2d, %3d)"
+msgstr "Статистика по часам за все время (%1s %2d, %3d)"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/charts/file.php:96
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/charts/file.php:218
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/charts/hole.php:182
+#, php-format
+msgid "Daily downloads over time (%1s %2s)"
+msgstr "Статистика по дням за все время (%1s %2s)"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/charts/file.php:126
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/charts/file.php:247
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/charts/hole.php:211
+#, php-format
+msgid "Monthly downloads over time (%2s)"
+msgstr "Статистика по месяцам за все время (%2s)"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/auditor.php:39
+msgid "Drain Hole management"
+msgstr "Управление хранилищем"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/auditor.php:74
+msgid "Drain Hole database installed"
+msgstr "База данных хранилища установлена"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/auditor.php:78
+msgid "Drain Hole created"
+msgstr "Хранилище создано"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/auditor.php:82
+msgid "Drain Hole scan"
+msgstr "Сканирование хранилища"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/auditor.php:86
+msgid "Drain Hole file upload"
+msgstr "Загрузка файла в хранилище"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/charts.php:68
+msgid "next"
+msgstr "дальше"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/charts.php:107
+msgid "previous"
+msgstr "назад"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/file.php:446
+#, php-format
+msgid "Download version %s of %s"
+msgstr "Скачать версию %s файла %s"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/file.php:448
+#, php-format
+msgid "Download %s"
+msgstr "Скачать %s"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/hole.php:224
+#, php-format
+msgid "could not create directory <code>%s</code><br/>You have insufficient permissions - create the directory with FTP or assign group/other write permissions to the parent directory and try again"
+msgstr "не удалось создать директорию <code>%s</code><br/>У Вас недостаточно прав - создайте директорию через FTP или назначьте права группе/другим на запись в родительскую директорию и попробуйте еще раз"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/hole.php:235
+msgid "you must supply a unique URL (without <code>http://</code> prefix) and directory"
+msgstr "вы должны указать уникальный URL (без префикса <code>http://</code>) и директорию"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/hole.php:254
+#, php-format
+msgid "your host has restricted access to <code>%s</code> through the <code>open_basedir</code> setting.  You can ask your host to reconfigure the settings or you can try again in one of these allowed directories:"
+msgstr "ваш сервер запрещает доступ к <code>%s</code> с помощью <code>open_basedir</code> . Вы можете попросить провайдера перенастроить сервер или можете попробовать еще раз внутри разрешенных директорий:"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/pager.php:402
+msgid "Previous"
+msgstr "Назад"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/pager.php:403
+msgid "Next"
+msgstr "Дальше"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/pager.php:461
+#, php-format
+msgid "%d per-page"
+msgstr "%d на страницу"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/pager.php:470
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Показано %s&#8211;%s из %s"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/upgrade.php:192
+msgid "First version"
+msgstr "Первая версия"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/widget.php:39
+msgid "Title"
+msgstr "Заголовок"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/models/widget.php:43
+msgid "Count"
+msgstr "Количество"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_files.php:6
+#, php-format
+msgid "File Charts for %s"
+msgstr "Графики для %s"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_files.php:13
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_holes.php:15
+msgid "Chart"
+msgstr "График"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_files.php:15
+msgid "Downloads over time"
+msgstr "Число скачиваний"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_files.php:18
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_holes.php:21
+msgid "Display"
+msgstr "Отображать"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_files.php:20
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_holes.php:29
+msgid "Hourly"
+msgstr "В час"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_files.php:21
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_holes.php:30
+msgid "Daily"
+msgstr "В день"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_files.php:22
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_holes.php:31
+msgid "Monthly"
+msgstr "В месяц"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_files.php:27
+msgid "Show"
+msgstr "Показать"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_holes.php:8
+#, php-format
+msgid "Hole Charts for %s"
+msgstr "Диаграммы хранилища %s"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_holes.php:17
+msgid "Downloads as percentage"
+msgstr "Скачивания в процентах"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_holes.php:18
+msgid "Downloads over time (grouped)"
+msgstr "Скачивания за все время (сгруппировано)"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_holes.php:24
+msgid "Pie chart"
+msgstr "Круговая диаграмма"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/chart_holes.php:25
+msgid "Bar chart"
+msgstr "Столбчатая диаграмма"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:4
+msgid "Drain Hole | Statistics for"
+msgstr "Drain Hole | Статистика для"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:6
+msgid "Drain Hole | Downloads"
+msgstr "Drain Hole | Скачивания"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:20
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:15
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:15
+msgid "Bulk Actions"
+msgstr "Групповые действия"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:21
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:16
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:16
+msgid "Delete"
+msgstr "Удалить"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:24
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:19
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:19
+msgid "Apply"
+msgstr "Применить"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:28
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:23
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:23
+msgid "Filter"
+msgstr "Фильтр"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:46
+msgid "Downloaded At"
+msgstr "Время скачивания"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:48
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:42
+msgid "File"
+msgstr "Файл"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:50
+msgid "IP"
+msgstr "IP"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:51
+msgid "User"
+msgstr "Пользователь"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:52
+msgid "Referrer"
+msgstr "Ссылка"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:78
+msgid "No files have been downloaded!"
+msgstr "Не скачано ни одного файла!"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:83
+msgid "Clear all downloads"
+msgstr "Очистить все записи"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/downloads.php:87
+msgid "Clear Downloads"
+msgstr "Очистить закачки"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/editor.php:26
+msgid "Show file template"
+msgstr "Показывать файл шаблона"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/editor.php:27
+msgid "Show file URL"
+msgstr "Показывать URL"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/editor.php:28
+msgid "Show file version"
+msgstr "Показывать версию"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/editor.php:29
+msgid "Show file SVN"
+msgstr "Показывать SVN"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/editor.php:30
+msgid "Show file hits"
+msgstr "Показать количество обращений"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/editor.php:33
+msgid "Add Drain Hole tag"
+msgstr "Добавить метку Drain Hole"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:3
+msgid "Drain Hole | Files for"
+msgstr "Drain Hole | Файлы в"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:7
+msgid "Files are stored in"
+msgstr "Файлы хранятся в"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:41
+msgid "ID"
+msgstr "ID"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:43
+msgid "Version"
+msgstr "Версия"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:44
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:18
+msgid "Hits"
+msgstr "Клики"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:45
+msgid "Updated"
+msgstr "Обновлено"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:68
+msgid "Add A File"
+msgstr "Добавить файл"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:70
+msgid "New files can be added by uploading here (if the directory has appropriate write-permissions), or by uploading with an FTP client and 'scanning' the directory for changes."
+msgstr "Новый файл може быть загружен здесь (если директорий назначены права для записи), или загрезкой с помощью FTP-клиента и 'сканированием' изменений в директории."
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:76
+msgid "New filename"
+msgstr "Новое имя файла"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:77
+msgid "Optional, uploaded filename will be used if not given"
+msgstr "Необязательно, если не задано - будет использовано имя загруженного файла"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:82
+msgid "Upload a file"
+msgstr "Загрузить файл"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:92
+msgid "Create &amp; Upload"
+msgstr "Создать и загрузить"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files.php:93
+msgid "Re-scan"
+msgstr "Пересканировать"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:6
+msgid "Filename"
+msgstr "Имя файла"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:10
+msgid "Name"
+msgstr "Имя"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:14
+msgid "Description"
+msgstr "Описание"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:22
+msgid "SVN"
+msgstr "SVN"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:26
+msgid "Download As"
+msgstr "Скачать как"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:30
+msgid "Icon"
+msgstr "Иконка"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:33
+msgid "Default"
+msgstr "По умолчанию"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:39
+msgid "MIME Type"
+msgstr "Тип MIME"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:42
+msgid "Auto-detect"
+msgstr "Автоопределение"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:51
+msgid "Options"
+msgstr "Настройки"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:54
+msgid "Force download"
+msgstr "Форсировать скачивание"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:57
+msgid "Force access level"
+msgstr "Принудительный уровень доступа"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_edit.php:64
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:43
+msgid "Cancel"
+msgstr "Отмена"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_item.php:7
+msgid "Edit File"
+msgstr "Править файл"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_item.php:14
+msgid "File is missing"
+msgstr "Файл потерян"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_item.php:17
+msgid "New version"
+msgstr "Новая версия"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_item.php:17
+msgid "Branch"
+msgstr "Ветка"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/files_item.php:20
+msgid "View Charts"
+msgstr "Посмотреть графики"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/head.php:6
+msgid "Are you sure you want to delete this Drain Hole and all files?"
+msgstr "Вы уверены, что хотите удалить это хранилище и все файлы?"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/head.php:7
+msgid "Are you sure you want to delete this version?"
+msgstr "Вы уверены, что хотите удалить эту версию?"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/head.php:8
+msgid "Are you sure you want to delete this file?"
+msgstr "Вы уверены, что хотите удалить этот файл?"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/head.php:9
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:3
+msgid "Drain Hole | Holes"
+msgstr "Drain Hole | Хранилища"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:66
+msgid "New Drain Hole"
+msgstr "Новое хранилище"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:68
+msgid "A drain hole maps a URL path to a directory on your server.  Files placed within the directory are available under your chosen URL path."
+msgstr "Хранилище перенаправляет ссылку в диреторию на вашем сервере. Файлы, размещенные в диретории, доступны по выбранной ссылке."
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:74
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:5
+msgid "URL"
+msgstr "URL"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:78
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:95
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:9
+msgid "Directory"
+msgstr "Директория"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:78
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:9
+msgid "Relative to root"
+msgstr "От корневой директории"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:85
+msgid "Create Drain Hole"
+msgstr "Создать хранилище"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:102
+msgid "<p>Your chosen <strong>directory</strong> is within a publicly accessible web directory.  Drain Hole <strong>will not be able to control access</strong> to files placed here unless a <code>.htaccess</code> file is placed in the directory.  Drain Hole will attempt to do this for you, but may not have permission to do so.  If this is the case then you will need to create this file yourself (<a href=\"#\" onclick=\"jQuery('#htaccess').toggle (); return false\">click to view</a>)</p>"
+msgstr "Выбранная вами <strong>директория</strong> внутри открытой извне директории.  Drain Hole <strong>не сможет управлять доступом</strong> к размещенным в ней файлам, если только не закрыть ее с помощью файла <code>.htaccess</code>.  Drain Hole попытается сделать это, если позволят права доступа. Если нет, Вам придется создать этот файл самому (<a href=\"#\" onclick=\"$('htaccess').toggle (); return false\">посмотреть</a>)"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:107
+msgid "<p>Your chosen <strong>URL</strong> is outside of your WordPress site and as such Drain Hole <strong>may not be able to control access</strong> to files unless a <code>.htaccess</code> file is placed in the directory.  Drain Hole will attempt to do this for you, but may not have permission to do so.  If this is the case then you will need to create this file yourself (<a href=\"#\" onclick=\"jQuery('#htaccess').toggle (); return false\">click to view</a>)</p>"
+msgstr "Вы выбрали <strong>URL</strong> за пределами вашего сайта WordPress и так как Drain Hole <strong>может не получить доступа</strong> к файлам в ней, туда должен быть помещен файл <code>.htaccess</code> .  Drain Hole попытается сделать это сам, но может не хватить прав. В этом случае вам должны создать его сами (<a href=\"#\" onclick=\"$('htaccess').toggle (); return false\">нажмите, чтобы посмотреть</a>)."
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/holes.php:111
+msgid "The following should be created in the directory given above:"
+msgstr "Вот что необходимо вписать в .htaccess в выбранную директорию:"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:5
+msgid "Relative to site root"
+msgstr "От корневой директории сайта"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:13
+msgid "Access Level"
+msgstr "Уровень доступа"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:13
+msgid "File security"
+msgstr "Безопасность файла"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:16
+msgid "Anybody - no login required"
+msgstr "Всем - авторизация не требуется"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:18
+msgid "Purchased - via WP Shopper"
+msgstr "Куплено - через WP Shopper"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:29
+msgid "Access error URL"
+msgstr "URL для ошибки доступа"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:29
+msgid "Redirect on access error"
+msgstr "Перенаправление при ошибке доступа"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_edit.php:35
+msgid "Stop hot-links"
+msgstr "Закрыть прямые ссылки"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_item.php:7
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_item.php:20
+msgid "View files"
+msgstr "Просмотры файлов"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_item.php:10
+#, php-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d file"
+msgstr[1] "%d файла"
+msgstr[2] "%d файлов"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_item.php:16
+msgid "Edit Drain Hole"
+msgstr "Изменить хранилище"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_item.php:16
+msgid "Edit Hole"
+msgstr "Править хранилище"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_item.php:20
+msgid "View Files"
+msgstr "Просмотреть файлы"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_item.php:24
+msgid "View Chart"
+msgstr "Посмотреть график"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/hole_new.php:23
+msgid "on access error redirect to URL"
+msgstr "в случае ошибки доступа перенаправлять на URL"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/kitten.php:2
+msgid "You can help support the author by sending a donation.  Every file that is downloaded without support will cause a <strong>kitten to cry</strong>."
+msgstr "Вы можете помочь автору пожертвованиями. Каждый файл, скачанный без поддержки будет причиной <strong>огорчения котенка</strong>."
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/kitten.php:3
+msgid "All it takes is <strong>$16 to keep the kittens happy</strong> and act as an incentive for me to carry on writing other free software."
+msgstr "Требуется всего <strong>$16 чтобы котята и дальше были счастливы</strong> а я получил стимул писать другие бесплатные программы."
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/kitten.php:27
+msgid "Your help stopping kittens from crying is appreciated!"
+msgstr "Ваша помощь в утешении котенка оценена по достоинству!"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/kitten.php:29
+msgid "If you 'mistakenly' said you supported the author without actually doing so then not only are the kittens still crying, but their stomachs ache and they all feel miserable."
+msgstr "Если вы 'ошибочно' сказали, что поддержали автора и не сделали это, то котята будут не только плакать, у них будет болеть животики и они будут чувстовать себя плохо."
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/loading.php:4
+msgid "Please wait, loading..."
+msgstr "Пожалуйста, подождите, загружается..."
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/new_version.php:9
+msgid "Current version"
+msgstr "Текущая версия"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/new_version.php:17
+msgid "Version history"
+msgstr "История версий"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/new_version.php:24
+msgid "SVN Update"
+msgstr "Обновление через SVN"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/new_version.php:27
+msgid "Update the download from SVN (using version info if applicable)"
+msgstr "Обновить из SVN (используя приложенную информацию о версии)"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/new_version.php:31
+msgid "Don't branch"
+msgstr "Не создавать ветку"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/new_version.php:34
+msgid "Just update current version"
+msgstr "Просто обновить текущую версию"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/new_version.php:39
+msgid "Keep previous"
+msgstr "Сохранить предыдущую"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/new_version.php:42
+msgid "Selecting this will retain the previous version"
+msgstr "Выбор этого пункта сохранит предыдущую версию"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:2
+msgid "Drain Hole | Options"
+msgstr "Drain Hole | Настройки"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:11
+msgid "Statistic retention"
+msgstr "Хранение статистики"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:12
+msgid "How many days to keep access statistics for"
+msgstr "Сколько дней хранить статистику"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:14
+msgid "Enter 0 for no limit.  File hits are not cleared"
+msgstr "Введите 0 для снятия ограничений. Счетчик кликов будет очищен."
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:18
+msgid "SVN path"
+msgstr "Путь к SVN"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:24
+msgid "Issue tracker URL"
+msgstr "Вывод URL трекера"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:30
+msgid "Default version no."
+msgstr "Номер версии по умолчанию"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:36
+msgid "Default file name"
+msgstr "Имя файла по умолчанию"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:39
+msgid "<code>$FILENAME$</code> and <code>$EXTENSION$</code> will be replaced by the file's real name and extension"
+msgstr "<code>$FILENAME$</code> и <code>$EXTENSION$</code> будут заменены настоящими именем и расширением файла"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:43
+msgid "Google Analytics tracking"
+msgstr "Отслеживание с помощью Google Analitics"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:44
+msgid "Add code to track downloads"
+msgstr "Добавьме код для отслеживания скачиваний"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:48
+msgid "Allow file deletion"
+msgstr "Разрешить удаление файлов"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:51
+msgid "Enabling this will allow Drain Hole to delete physical files"
+msgstr "Разрешает Drain Hole физически удалять файлы"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:55
+msgid "Create .htaccess in holes"
+msgstr "Создать .htaccess в хранилище"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:58
+msgid "Enabling this will allow Drain Hole to create .htaccess in holes for further protection"
+msgstr "Разрешить Drain Hole создавать .htaccess в хранилищах для дополнительной защиты"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:62
+msgid "Kitten protection"
+msgstr "&laquo;Котеночья&raquo; защита"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:65
+msgid "I hereby testify that I have supported this plugin.  If I check this option and haven't supported this plugin then a squad of winged monkeys will be sent to drop things on my head."
+msgstr "Сим свидетельствую о том, что поддержал этот плагин. Если я включу эту опцию и не поддержу этот плагин, пусть эскадрилья крылатых обезьян будет послана нагадить мне на голову. "
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:70
+msgid "Save options"
+msgstr "Сохранить настройки"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:78
+msgid "Delete Drain Hole"
+msgstr "Удалить хранилище"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/options.php:80
+msgid "This operation removes all data associated with Drain Hole and disables the plugin.  It does not delete any files"
+msgstr "Эта операция удаляет все связанные с Drain Hole данные и отключает плагин. Файлы при этом не удаляются."
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/pager.php:15
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/pager.php:17
+msgid "Search"
+msgstr "Поиск"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/stats.php:15
+msgid "Download At"
+msgstr "Скачано в"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/stats.php:17
+msgid "Speed"
+msgstr "Скорость"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/stats.php:18
+msgid "Time Taken"
+msgstr "Заняло времени"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/stats.php:44
+msgid "Cancelled"
+msgstr "Отменено"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/stats.php:55
+msgid "There are no statistics for this file!"
+msgstr "По этому файлу нет статистики!"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/stats.php:60
+msgid "Clear Statistics For This File"
+msgstr "Очистить статистику по этому файлу"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/stats.php:64
+msgid "Clear Statisitics"
+msgstr "Очистить статистику"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/submenu.php:3
+msgid "Files &amp; Holes"
+msgstr "Файлы и хранилища"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/submenu.php:4
+msgid "Downloads"
+msgstr "Закачки"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/time_days.php:1
+msgid "Day"
+msgstr "День"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/time_months.php:1
+msgid "Month"
+msgstr "Месяц"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/time_years.php:1
+msgid "Year"
+msgstr "Год"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/version.php:2
+msgid "Drain Hole News"
+msgstr "Новости Drain Hole"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/version.php:5
+#, php-format
+msgid "%s ago"
+msgstr "%s назад"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions.php:2
+#, php-format
+msgid "Version history for %s"
+msgstr "История версий для %s"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions.php:40
+msgid "Created"
+msgstr "Создано"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions.php:41
+msgid "Reason for version"
+msgstr "Причина смены версии"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions.php:56
+msgid "There are no versions to display!"
+msgstr "Нет версий!"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions.php:65
+msgid "Add to history"
+msgstr "Добавить в историю"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions.php:66
+msgid "You can add to the history of a file.  This allows you to include some history of a file before Drain Hole was used"
+msgstr "Вы можете добавить историю к файлу. Это позволит вам добавить файлы из прошлого (до начала использования Drain Hole)"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions.php:77
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions_edit.php:21
+msgid "Reason"
+msgstr "Причина"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions.php:81
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions_edit.php:13
+msgid "Date"
+msgstr "Дата"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions.php:85
+msgid "(D/M/Y)"
+msgstr "(D/M/Y)"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions_item.php:14
+msgid "Yes"
+msgstr "Да"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions_item.php:16
+msgid "No"
+msgstr "Нет"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions_item.php:20
+msgid "Edit version"
+msgstr "Править версию"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/admin/versions_item.php:20
+msgid "Edit"
+msgstr "Изменить"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/drain-hole/default_show.php:6
+msgid "Download"
+msgstr "Скачивание"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/drain-hole/default_show.php:18
+msgid "Size"
+msgstr "Размер"
+
+#: d:\project\automattic\wordpress-russia@google\trunk\wp-plugins\drain-hole/view/drain-hole/default_show.php:25
+msgid "<br/><small>Powered by <a href=\"http://urbangiraffe.com/plugins/drain-hole/\">Drain Hole</a></small>"
+msgstr "<br/><small>Работает на <a href=\"http://urbangiraffe.com/plugins/drain-hole/\">Drain Hole</a></small>"
+
+#~ msgid ""
+#~ "Optional, an empty file suitable for later upload or SVN will otherwise "
+#~ "be created"
+#~ msgstr ""
+#~ "Необязательно, пустой файл, подходящий для для последней версии или SVN "
+#~ "его перезапишет"
+#~ msgid "Files"
+#~ msgstr "Файлы"
+#~ msgid "files"
+#~ msgstr "файлы"
+#~ msgid "view"
+#~ msgstr "смотреть"
+#~ msgid "delete"
+#~ msgstr "удалить"
+#~ msgid "go"
+#~ msgstr "Найти"
+#~ msgid "Files for"
+#~ msgstr "Файлы для"
+#~ msgid "new"
+#~ msgstr "новая"
+#~ msgid "Drain Holes"
+#~ msgstr "Хранилища"
+#~ msgid ""
+#~ "Drain Hole provides a central download repository.  You upload files into "
+#~ "a specified directory (the drain hole), and it\n"
+#~ "\tprovides download access to the directory at a given URL, along with "
+#~ "monitoring of download statistics and configurable permissions.  Direct "
+#~ "access to the files is not allowed."
+#~ msgstr ""
+#~ "Drain Hole предоставляет централизованное хранилище файлов. Вы "
+#~ "закачиваете файлы в хранилище и тем самым\n"
+#~ "\tпредоставляете доступ для скачивания по корректной ссылке с "
+#~ "отслеживанием статистики скачиваний и настраиваемыми правами доступа. "
+#~ "Прямой доступ к файлам при этом блокируется."
+#~ msgid ""
+#~ "You are advised to pick a directory outside of your <code>public_html</"
+#~ "code>.  Your current directory is: "
+#~ msgstr ""
+#~ "Советуем выбрать директорию за пределами вашего <code>public_html</code>. "
+#~ "Ваша текущая директория: "
+#~ msgid "edit"
+#~ msgstr "править"
+#~ msgid "Update notification"
+#~ msgstr "Уведомления об обновлении"
+#~ msgid "Whether to check for updates"
+#~ msgstr "Проверять ли обновления"
+#~ msgid "name"
+#~ msgstr "Имя"
+#~ msgid "hits"
+#~ msgstr "Клики"
+

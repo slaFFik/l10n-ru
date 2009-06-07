@@ -1,0 +1,321 @@
+.drain_list
+{
+border-spacing: 5px;
+}
+
+.drain_list td
+{
+text-align: center;
+}
+
+.drain_file
+{
+text-align: left !important;
+}
+
+.files
+{
+width: 100%;
+color: #1B1B1A;
+}
+
+.files tr:hover
+{
+background-color: #C2D2DF;  
+}
+
+.files a
+{
+color: black;
+border: none;  
+text-decoration: underline;
+}
+
+.files a:hover
+{
+color: #120097;
+}
+
+.files th
+{
+text-align: left;
+background-color: #999;
+}
+
+.files td, .files th
+{
+padding: 3px 5px;
+}
+
+.files tr
+{
+background-color: #F7F7F7;
+}
+
+.files tfoot tr
+{
+background-color: white;
+}
+
+.files .alt
+{
+background-color: #ddd;
+}
+
+
+.files .missing
+{
+background-color: #F1C06A;
+}
+
+.files .missing:hover
+{
+background-color: red;  
+}
+
+.files table
+{
+  width: 100%;
+  background-color: white;
+}
+
+.files table tr:hover
+{
+background-color: transparent;
+}
+
+.files table th
+{
+background-color: transparent;
+text-align: right;
+}
+
+.files table tr
+{
+background-color: transparent;
+}
+
+.holes
+{
+width: 100%;
+}
+
+.holes th, .holes td
+{
+padding: 3px;
+vertical-align: top;
+}
+
+.holes td, .holes a
+{
+color: black;
+}
+
+.holes th
+{
+background-color: #aaa;  
+}
+
+.holes th, .holes th a
+{
+color: #22246F;  
+}
+
+.holes a:hover
+{
+color: red;
+}
+
+.holes img
+{
+vertical-align: middle;
+}
+
+.holes a
+{
+  border: none;
+  text-decoration: underline;
+}
+
+.holes tr.missing
+{
+background-color: #FDC5BD;
+}
+
+.holes span.missing
+{
+color: red;
+}
+
+.holes .alt
+{
+background-color: #ddd;
+}
+/*
+.holes
+{
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+.holes li
+{
+background-color: #C9F2C9;
+padding: 5px;
+padding-left: 10px;
+-moz-border-radius: 10px;
+}
+
+.holes li, .holes li a
+{
+color: #0B2005;
+}
+
+.holes li a
+{
+  border: none;
+text-decoration: underline;
+}
+
+.holes table th
+{
+text-align: right;
+vertical-align: top;
+}
+
+.holes textarea
+{
+width: 95%;
+}*/
+
+.options
+{
+float: right;
+}
+
+.options a
+{
+border: none;  
+text-decoration: underline;
+}
+
+.sub
+{
+font-weight: normal;
+font-size: 0.8em;
+color: #666;
+}
+
+#subsubmenu li {
+	display: inline;
+	line-height: 170%;
+	list-style: none;
+	text-align: center;
+}
+
+#subsubmenu {
+  font-size: 0.9em;
+	background: #CDD9E2;
+	border-bottom: none;
+	margin: 0;
+	color: #4F5D69;
+	padding: 6px 2em 0 5em;
+}
+
+#subsubmenu .current {
+	background: #f9fcfe;
+	color: black;
+}
+
+#subsubmenu a {
+	border: none;
+	color: #4F5D69;
+	font-size: 12px;
+	padding: 3px 1em 2px 1em;
+}
+
+#subsubmenu a:hover {
+	background: #89A5BB;
+	color: #393939;
+}
+
+#subsubmenu li {
+	line-height: 150%;
+}
+
+
+.pager
+{
+font-size: 0.9em;
+text-align: right;
+margin-bottom: 5px;
+}
+
+.pagertools
+{
+float: right;
+font-size: 0.9em;
+margin-left: 10px;
+}
+
+.pagertools a
+{
+border: none;
+}
+
+.pager select, .pager input { font-size: 0.9em }
+
+.left
+{
+float: left;
+margin-top: 5px;
+}
+
+.right
+{
+float: right;
+margin-top: 5px;
+}
+
+select
+{
+font-size: 0.9em;
+}
+
+.kitten
+{
+border: 1px solid #ccc;
+background-color: white;
+padding: 3px;
+margin: 0 auto;
+display: block;
+text-align: center;
+}
+
+.example
+{
+margin: 10px auto;
+background-color: #E9D698;
+padding: 0px;
+border-collapse: collapse;
+}
+
+.example th
+{
+padding: 2px 5px;
+background-color: #B49C4C;
+}
+
+.example td
+{
+font-family: "Courier New", Courier, mono;
+padding: 5px;
+}
+
+.example td strong
+{
+color: red;
+/*text-decoration: underline;*/
+border-bottom: 2px solid red;
+}
