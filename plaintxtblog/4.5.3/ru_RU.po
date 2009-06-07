@@ -1,0 +1,747 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plaintxtblog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-15 12:51+0300\n"
+"PO-Revision-Date: 2008-05-26 12:04+0300\n"
+"Last-Translator: Sol <salpagarov@gmail.com>\n"
+"Language-Team: ru.wordpress.org <team@wordpress-russia.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: d:\\project\\plaintxtblog\n"
+"X-Poedit-SearchPath-0: d:\\project\\plaintxtblog\n"
+
+#: d:\project\plaintxtblog/404.php:7
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: d:\project\plaintxtblog/404.php:9
+msgid "Apologies, but we were unable to find what you were looking for. Perhaps the search box will help."
+msgstr "Извините, но здень нет того, что вы ищите. Попробуйте воспользоваться поиском."
+
+#: d:\project\plaintxtblog/404.php:15
+#: d:\project\plaintxtblog/functions.php:248
+#: d:\project\plaintxtblog/functions.php:380
+#: d:\project\plaintxtblog/functions.php:382
+#: d:\project\plaintxtblog/search.php:50
+#: d:\project\plaintxtblog/sidebar.php:29
+msgid "Search"
+msgstr "Поиск"
+
+#: d:\project\plaintxtblog/archive.php:9
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Архив дня: <span>%s</span>"
+
+#: d:\project\plaintxtblog/archive.php:9
+msgid "F jS, Y"
+msgstr "F jS, Y"
+
+#: d:\project\plaintxtblog/archive.php:11
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Архив месяца: <span>%s</span>"
+
+#: d:\project\plaintxtblog/archive.php:11
+msgid "F Y"
+msgstr "F j, Y"
+
+#: d:\project\plaintxtblog/archive.php:13
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Архивы по годам: <span>%s</span>"
+
+#: d:\project\plaintxtblog/archive.php:13
+msgid "Y"
+msgstr "Y"
+
+#: d:\project\plaintxtblog/archive.php:15
+msgid "Author Archives: "
+msgstr "Архивы Автора за"
+
+#: d:\project\plaintxtblog/archive.php:18
+msgid "Category Archives:"
+msgstr "Архив категорий"
+
+#: d:\project\plaintxtblog/archive.php:21
+msgid "Tag Archives:"
+msgstr "Отмеченное:"
+
+#: d:\project\plaintxtblog/archive.php:23
+#: d:\project\plaintxtblog/header.php:4
+msgid "Blog Archives"
+msgstr "Архив"
+
+#: d:\project\plaintxtblog/archive.php:32
+#: d:\project\plaintxtblog/index.php:10
+#: d:\project\plaintxtblog/search.php:14
+#: d:\project\plaintxtblog/sitemap.php:31
+#, php-format
+msgid "Permalink to %s"
+msgstr "Постоянная ссылка на %s"
+
+#: d:\project\plaintxtblog/archive.php:33
+#: d:\project\plaintxtblog/index.php:11
+#: d:\project\plaintxtblog/search.php:15
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: d:\project\plaintxtblog/archive.php:36
+#: d:\project\plaintxtblog/attachment.php:16
+#: d:\project\plaintxtblog/image.php:19
+#: d:\project\plaintxtblog/index.php:14
+#: d:\project\plaintxtblog/search.php:18
+#: d:\project\plaintxtblog/single.php:11
+msgid "More&hellip;"
+msgstr "Больше&hellip;"
+
+#: d:\project\plaintxtblog/archive.php:40
+#: d:\project\plaintxtblog/index.php:19
+#: d:\project\plaintxtblog/search.php:22
+#, php-format
+msgid "Filed in %s"
+msgstr "Опубликовано в %s"
+
+#: d:\project\plaintxtblog/archive.php:40
+#, php-format
+msgid "Also filed in %s"
+msgstr "Также опубликовано в %s"
+
+#: d:\project\plaintxtblog/archive.php:42
+#: d:\project\plaintxtblog/index.php:21
+#: d:\project\plaintxtblog/search.php:24
+msgid "Tagged "
+msgstr "Помечено как "
+
+#: d:\project\plaintxtblog/archive.php:42
+#, php-format
+msgid "Also tagged %s"
+msgstr "Также помечено как %s"
+
+#: d:\project\plaintxtblog/archive.php:44
+#: d:\project\plaintxtblog/comments.php:41
+#: d:\project\plaintxtblog/comments.php:68
+#: d:\project\plaintxtblog/index.php:23
+#: d:\project\plaintxtblog/search.php:26
+msgid "Edit"
+msgstr "Изменить"
+
+#: d:\project\plaintxtblog/archive.php:45
+#: d:\project\plaintxtblog/index.php:24
+#: d:\project\plaintxtblog/search.php:27
+msgid "Comments (0) &raquo;"
+msgstr "Комментировать &raquo;"
+
+#: d:\project\plaintxtblog/archive.php:45
+#: d:\project\plaintxtblog/index.php:24
+#: d:\project\plaintxtblog/search.php:27
+msgid "Comments (1) &raquo;"
+msgstr "Комментарий (1) &raquo;"
+
+#: d:\project\plaintxtblog/archive.php:45
+#: d:\project\plaintxtblog/index.php:24
+#: d:\project\plaintxtblog/search.php:27
+msgid "Comments (%) &raquo;"
+msgstr "Комментарии (%) &raquo;"
+
+#: d:\project\plaintxtblog/archive.php:45
+#: d:\project\plaintxtblog/index.php:24
+#: d:\project\plaintxtblog/search.php:27
+msgid "Comments Off"
+msgstr "Комментарии отключены"
+
+#: d:\project\plaintxtblog/archive.php:52
+#: d:\project\plaintxtblog/index.php:31
+#: d:\project\plaintxtblog/search.php:34
+msgid "&laquo; Older posts"
+msgstr "&laquo; Старые записи"
+
+#: d:\project\plaintxtblog/archive.php:53
+#: d:\project\plaintxtblog/index.php:32
+#: d:\project\plaintxtblog/search.php:35
+msgid "Newer posts &raquo;"
+msgstr "Новые записи &raquo;"
+
+#: d:\project\plaintxtblog/archive.php:54
+#: d:\project\plaintxtblog/functions.php:5
+#: d:\project\plaintxtblog/functions.php:303
+#: d:\project\plaintxtblog/index.php:33
+#: d:\project\plaintxtblog/search.php:36
+#: d:\project\plaintxtblog/single.php:48
+msgid "Home"
+msgstr "Главная"
+
+#: d:\project\plaintxtblog/archives.php:20
+msgid "Monthly Archives"
+msgstr "Архив месяца"
+
+#: d:\project\plaintxtblog/archives.php:26
+msgid "Category Archives"
+msgstr "Рубрика:"
+
+#: d:\project\plaintxtblog/archives.php:32
+msgid "Tag Archives"
+msgstr "Метка:"
+
+#: d:\project\plaintxtblog/archives.php:36
+#: d:\project\plaintxtblog/sidebar.php:22
+msgid "RSS Feeds"
+msgstr "RSS-потоки"
+
+#: d:\project\plaintxtblog/archives.php:38
+#: d:\project\plaintxtblog/functions.php:339
+#: d:\project\plaintxtblog/sidebar.php:24
+msgid "All posts"
+msgstr "Все записи"
+
+#: d:\project\plaintxtblog/archives.php:39
+#: d:\project\plaintxtblog/functions.php:340
+#: d:\project\plaintxtblog/sidebar.php:25
+msgid "All comments"
+msgstr "Все комментарии"
+
+#: d:\project\plaintxtblog/archives.php:44
+#: d:\project\plaintxtblog/links.php:22
+#: d:\project\plaintxtblog/page.php:15
+#: d:\project\plaintxtblog/sitemap.php:56
+msgid "Edit this entry."
+msgstr "Редактировать эту запись."
+
+#: d:\project\plaintxtblog/attachment.php:21
+#: d:\project\plaintxtblog/image.php:28
+#: d:\project\plaintxtblog/single.php:17
+#, php-format
+msgid "<span class=\"entry-comments\"><a href=\"#respond\" title=\"Post a comment\">Post a comment</a></span> <span class=\"meta-sep\">&mdash;</span> <span class=\"entry-trackbacks\"><a href=\"%s\" rel=\"trackback\" title=\"Trackback URI for your post\">Trackback URI</a></span>"
+msgstr "<span class=\"entry-comments\"><a href=\"#respond\" title=\"Оставить комментарий\">Оставить комментарий</a></span> <span class=\"meta-sep\">&mdash;</span> <span class=\"entry-trackbacks\"><a href=\"%s\" rel=\"trackback\" title=\"URI для обратной ссылке для вашей записи\">URI для обратной ссылки</a></span>"
+
+#: d:\project\plaintxtblog/attachment.php:23
+#: d:\project\plaintxtblog/image.php:30
+#: d:\project\plaintxtblog/single.php:19
+#, php-format
+msgid "<span class=\"entry-comments\">Comments closed</span> <span class=\"meta-sep\">&mdash;</span> <span class=\"entry-trackbacks\"><a href=\"%s\" rel=\"trackback\" title=\"Trackback URL for your post\">Trackback URI</a></span>"
+msgstr "<span class=\"entry-comments\">Комментирование закрыто</span> <span class=\"meta-sep\">&mdash;</span> <span class=\"entry-trackbacks\"><a href=\"%s\" rel=\"trackback\" title=\"URL обратной ссылки для вашей записи\">URI для обратной ссылки</a></span>"
+
+#: d:\project\plaintxtblog/attachment.php:25
+#: d:\project\plaintxtblog/image.php:32
+#: d:\project\plaintxtblog/single.php:21
+msgid "<span class=\"entry-comments\"><a href=\"#respond\" title=\"Post a comment\">Post a comment</a></span> <span class=\"meta-sep\">&mdash;</span> <span class=\"entry-trackbacks\">Trackbacks closed</span>"
+msgstr "<span class=\"entry-comments\"><a href=\"#respond\" title=\"Оставить комментарий\">Оставить комментарий</a></span> <span class=\"meta-sep\">&mdash;</span> <span class=\"entry-trackbacks\">Обратные ссылки запрещены</span>"
+
+#: d:\project\plaintxtblog/attachment.php:27
+#: d:\project\plaintxtblog/image.php:34
+#: d:\project\plaintxtblog/single.php:23
+msgid "<span class=\"entry-comments\">Comments closed</span> <span class=\"meta-sep\">&mdash;</span> <span class=\"entry-trackbacks\">Trackbacks closed</span>"
+msgstr "<span class=\"entry-comments\">Комментарии закрыты</span> <span class=\"meta-sep\">&mdash;</span> <span class=\"entry-trackbacks\">Обратные ссылки закрыты</span>"
+
+#: d:\project\plaintxtblog/attachment.php:30
+#: d:\project\plaintxtblog/image.php:37
+#: d:\project\plaintxtblog/single.php:26
+#, php-format
+msgid "<a href=\"%1$s\" title=\"%2$s comments RSS feed\" rel=\"alternate\" type=\"application/rss+xml\">RSS 2.0 feed</a> for these comments"
+msgstr "<a href=\"%1$s\" title=\"RSS лента комментариев на %2$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS 2.0</a> лента с этими комментариями"
+
+#: d:\project\plaintxtblog/attachment.php:34
+#, fuzzy, php-format
+msgid "This attachment (<a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>) was posted on <abbr class=\"published\" title=\"%3$sT%4$s\">%5$s at %6$s</abbr> by %7$s. Filed in %8$s%9$s."
+msgstr "Эта запись (<a href=\"%1$s\" title=\"Ссылка на %2$s\" rel=\"bookmark\">ссылка</a>) датирована <abbr class=\"published\" title=\"%3$sT%4$s\">%5$s в %6$s</abbr> пользователем %7$s. Размещена в %8$s%9$s."
+
+#: d:\project\plaintxtblog/attachment.php:43
+#: d:\project\plaintxtblog/image.php:50
+#: d:\project\plaintxtblog/single.php:39
+msgid "Edit this entry"
+msgstr "Редактировать эту запись"
+
+#: d:\project\plaintxtblog/comments.php:9
+msgid "Enter the password to view comments to this post."
+msgstr "Это сообщение защищено паролем. Введите пароль, чтобы посмотреть комментарий."
+
+#: d:\project\plaintxtblog/comments.php:28
+#, php-format
+msgid "%d Comments"
+msgstr "%d Комментариев"
+
+#: d:\project\plaintxtblog/comments.php:34
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментарий ожидает рецензирования."
+
+#: d:\project\plaintxtblog/comments.php:37
+#, php-format
+msgid "<span class=\"comment-datetime\">Posted on %1$s at %2$s</span> <span class=\"meta-sep\">|</span> <span class=\"comment-permalink\"><a href=\"%3$s\" title=\"Permalink to this comment\">Permalink</a></span>"
+msgstr "<span class=\"comment-datetime\">Опубликовано %1$s в %2$s</span> <span class=\"meta-sep\">|</span> <span class=\"comment-permalink\"><a href=\"%3$s\" title=\"Постоянная ссылка на комментарий\">Ссылка</a></span>"
+
+#: d:\project\plaintxtblog/comments.php:56
+#, php-format
+msgid "%d Trackbacks/Pingbacks"
+msgstr "%d Уведомлений/Пингов"
+
+#: d:\project\plaintxtblog/comments.php:64
+#, php-format
+msgid "<span class=\"pingback-author fn\">%1$s</span> <span class=\"pingback-datetime\">on %2$s at %3$s</span>"
+msgstr "<span class=\"pingback-author fn\">%1$s</span> <span class=\"pingback-datetime\">на %2$s at %3$s</span>"
+
+#: d:\project\plaintxtblog/comments.php:70
+msgid "Your trackback/pingback is awaiting moderation."
+msgstr "<em>Ваш trackback/pingback ожидает модерации.</em>"
+
+#: d:\project\plaintxtblog/comments.php:84
+msgid "Post a Comment"
+msgstr "Оставить комментарий"
+
+#: d:\project\plaintxtblog/comments.php:86
+#, php-format
+msgid "You must be <a href=\"%s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">авторизоваться</a> для отправки комментария."
+
+#: d:\project\plaintxtblog/comments.php:97
+#, php-format
+msgid "Logged in as <a href=\"%1$s\" title=\"View your profile\" class=\"fn\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Вы вошли как <a href=\"%1$s\" title=\"Просмотреть профайл\" class=\"fn\">%2$s</a>. <a href=\"%3$s\" title=\"Выйти\">Выйти?</a>"
+
+#: d:\project\plaintxtblog/comments.php:104
+msgid "Your email is <em>never</em> published nor shared."
+msgstr "Ваш e-mail <em>никогда</em> не будет опубликован."
+
+#: d:\project\plaintxtblog/comments.php:104
+msgid "Required fields are marked <span class=\"req-field\">*</span>"
+msgstr "Обязательные поля отмечены знаком <span class=\"req-field\">*</span>"
+
+#: d:\project\plaintxtblog/comments.php:107
+msgid "Name"
+msgstr "Имя"
+
+#: d:\project\plaintxtblog/comments.php:107
+#: d:\project\plaintxtblog/comments.php:110
+msgid "<span class=\"req-field\">*</span>"
+msgstr "<span class=\"req-field\">*</span>"
+
+#: d:\project\plaintxtblog/comments.php:110
+msgid "Email"
+msgstr "E-mail"
+
+#: d:\project\plaintxtblog/comments.php:113
+msgid "Website"
+msgstr "Сайт"
+
+#: d:\project\plaintxtblog/comments.php:118
+msgid "Comment"
+msgstr "Комментарий"
+
+#: d:\project\plaintxtblog/comments.php:120
+msgid "Submit"
+msgstr "Отправить"
+
+#: d:\project\plaintxtblog/footer.php:10
+msgid "Posts RSS"
+msgstr "RSS записей"
+
+#: d:\project\plaintxtblog/footer.php:10
+msgid "Comments RSS"
+msgstr "Комментарии (RSS)"
+
+#: d:\project\plaintxtblog/functions.php:249
+#: d:\project\plaintxtblog/sidebar.php:33
+msgid "Find"
+msgstr "Найти"
+
+#: d:\project\plaintxtblog/functions.php:277
+#: d:\project\plaintxtblog/functions.php:325
+#: d:\project\plaintxtblog/functions.php:358
+msgid "Title:"
+msgstr "Имя:"
+
+#: d:\project\plaintxtblog/functions.php:278
+msgid "Button Text:"
+msgstr "Текст кнопки:"
+
+#: d:\project\plaintxtblog/functions.php:287
+#: d:\project\plaintxtblog/functions.php:389
+#: d:\project\plaintxtblog/functions.php:391
+#: d:\project\plaintxtblog/sidebar.php:13
+msgid "Meta"
+msgstr "Мета"
+
+#: d:\project\plaintxtblog/functions.php:324
+msgid "Adds a link to the home page on every page <em>except</em> the home."
+msgstr "Добавить ссылку на главную страницу на каждую страницу <em>кроме</em> самой главной страницы."
+
+#: d:\project\plaintxtblog/functions.php:334
+#: d:\project\plaintxtblog/functions.php:406
+#: d:\project\plaintxtblog/functions.php:407
+msgid "RSS Links"
+msgstr "Ссылки RSS"
+
+#: d:\project\plaintxtblog/functions.php:339
+msgid "Posts RSS feed"
+msgstr "RSS записей"
+
+#: d:\project\plaintxtblog/functions.php:340
+msgid "Comments RSS feed"
+msgstr "Комментарии (RSS)"
+
+#: d:\project\plaintxtblog/functions.php:378
+msgid "A search form for your blog (plaintxtBlog)"
+msgstr "Форма поиска для вашего блога (plaintxtBlog)"
+
+#: d:\project\plaintxtblog/functions.php:387
+msgid "Log in/out and administration links (plaintxtBlog)"
+msgstr "Ссылки для входа, выхода и в административный интерфейс (plaintxtBlog)"
+
+#: d:\project\plaintxtblog/functions.php:396
+msgid "Link to the front page when elsewhere (plaintxtBlog)"
+msgstr ""
+
+#: d:\project\plaintxtblog/functions.php:398
+#: d:\project\plaintxtblog/functions.php:399
+msgid "Home Link"
+msgstr "Главная"
+
+#: d:\project\plaintxtblog/functions.php:404
+msgid "RSS links for both posts and comments (plaintxtBlog)"
+msgstr ""
+
+#: d:\project\plaintxtblog/functions.php:440
+msgid "plaintxtBlog Theme Options"
+msgstr "plaintxtBlog Настройки"
+
+#: d:\project\plaintxtblog/functions.php:440
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: d:\project\plaintxtblog/functions.php:478
+#, php-format
+msgid "PlaintxtBlog theme options saved. <a href=\"%s\">View site.</a>"
+msgstr "Настройки темы PlaintxtBlog сохранены. <a href=\"%s\">Перейти к сайту &raquo;</a>"
+
+#: d:\project\plaintxtblog/functions.php:479
+msgid "PlaintxtBlog theme options reset."
+msgstr "НАстройки темы PlaintxtBlog сброшены."
+
+#: d:\project\plaintxtblog/functions.php:482
+msgid "PlaintxtBlog Theme Options"
+msgstr "plaintxtBlog Настройки"
+
+#: d:\project\plaintxtblog/functions.php:483
+#, php-format
+msgid "%1$s<p>Thanks for selecting the <a href=\"http://www.plaintxt.org/themes/plaintxtblog/\" title=\"PlaintxtBlog theme for WordPress\">plaintxtBlog</a> theme by <span class=\"vcard\"><a class=\"url fn n\" href=\"http://scottwallick.com/\" title=\"scottwallick.com\" rel=\"me designer\"><span class=\"given-name\">Scott</span> <span class=\"additional-name\">Allan</span> <span class=\"family-name\">Wallick</span></a></span>. Please read the included <a href=\"%2$s\" title=\"Open the readme.html\" rel=\"enclosure\" id=\"readme\">documentation</a> for more information about the blog.txt and its advanced features. <strong>If you find this theme useful, please consider <label for=\"paypal\">donating</label>.</strong> You must click on <i><u>S</u>ave Options</i> to save any changes. You can also discard your changes and reload the default settings by clicking on <i><u>R</u>eset</i>.</p>"
+msgstr ""
+
+#: d:\project\plaintxtblog/functions.php:487
+msgid "Typography"
+msgstr "Типографика"
+
+#: d:\project\plaintxtblog/functions.php:490
+msgid "Base font size"
+msgstr "Размер основного текста"
+
+#: d:\project\plaintxtblog/functions.php:493
+msgid "The base font size globally affects the size of text throughout your blog. This can be in any unit (e.g., px, pt, em), but I suggest using a percentage (%). Default is <span>70%</span>."
+msgstr "Базовый размер глобально влияет на текст в вашем блоге. Вы можете задать его в любых единицах (px, pt, em), но я предлагаю использовать проценты (%). Значение по умолчанию <span>70%</span>."
+
+#: d:\project\plaintxtblog/functions.php:497
+msgid "Base font family"
+msgstr "Шрифт основного текста"
+
+#: d:\project\plaintxtblog/functions.php:508
+#, php-format
+msgid "The base font family sets the font for everything except content headings. The selection is limited to %1$s fonts, as they will display correctly. Default is <span class=\"verdana\">Verdana</span>."
+msgstr "Базовый шрифт задает шрифт для всего, кроме заголовков контента. Выбор ограничен %1$s шрифтами, они отображаются корректно. Значение по умолчанию <span class=\"verdana\">Verdana</span>"
+
+#: d:\project\plaintxtblog/functions.php:512
+msgid "Heading font family"
+msgstr "Шрифт заголовка"
+
+#: d:\project\plaintxtblog/functions.php:523
+#, php-format
+msgid "The heading font family sets the font for all content headings. The selection is limited to %1$s fonts, as they will display correctly. Default is <span class=\"verdana\">Verdana</span>. "
+msgstr "Шрифт заголовков устаналивается для всег заголовков содержимого. Выбор ограничен %1$s шрифтами, они отображаются корректно. По умолчанию <span class=\"verdana\">Verdana</span>. "
+
+#: d:\project\plaintxtblog/functions.php:527
+msgid "Layout"
+msgstr "Раскладка"
+
+#: d:\project\plaintxtblog/functions.php:530
+msgid "Post text alignment"
+msgstr "Выравнивание текста записи"
+
+#: d:\project\plaintxtblog/functions.php:533
+#: d:\project\plaintxtblog/functions.php:555
+msgid "Centered"
+msgstr "По центру"
+
+# C:\www\xampp\htdocs\wordpress\wordpress_ru\trunk/wp-includes/js/tinymce/wp-mce-help.php:154
+#: d:\project\plaintxtblog/functions.php:534
+msgid "Justified"
+msgstr "По ширине"
+
+# C:\www\xampp\htdocs\wordpress\wp-trunk/wp-admin/import/greymatter.php:312
+#: d:\project\plaintxtblog/functions.php:535
+#: d:\project\plaintxtblog/functions.php:556
+msgid "Left"
+msgstr "По левому краю"
+
+#: d:\project\plaintxtblog/functions.php:536
+#: d:\project\plaintxtblog/functions.php:557
+msgid "Right"
+msgstr "По правому краю"
+
+#: d:\project\plaintxtblog/functions.php:538
+msgid "Choose one of the options for the alignment of the post entry text. Default is <span>left</span>."
+msgstr "Выберите одих из вариантов выравнивания текста записи. По умолчанию <span>слева</span>."
+
+#: d:\project\plaintxtblog/functions.php:542
+msgid "Sidebar position"
+msgstr "Положение боковой колонки"
+
+#: d:\project\plaintxtblog/functions.php:545
+msgid "Left of content"
+msgstr "Слева от контента"
+
+#: d:\project\plaintxtblog/functions.php:546
+msgid "Right of content"
+msgstr "Справа о контента"
+
+#: d:\project\plaintxtblog/functions.php:548
+msgid "The sidebar can be positioned to the left or the right of the main content column. Default is <span>left of content</span>."
+msgstr "Боковая колонка может быть расположена слева или справа от основного содержания. По умолчанию она <span>слева</span>."
+
+#: d:\project\plaintxtblog/functions.php:552
+msgid "Sidebar text alignment"
+msgstr "Выравниваение боковой колонки"
+
+#: d:\project\plaintxtblog/functions.php:559
+msgid "Choose one of the options for the alignment of the sidebar text. Default is <span>right</span>."
+msgstr "Выберите один из вариантов выравнивания текста боковой колонки. По умолчанию <span>по правой границе</span>."
+
+#: d:\project\plaintxtblog/functions.php:563
+msgid "Single post layout"
+msgstr "Раскладка единичной записи"
+
+#: d:\project\plaintxtblog/functions.php:566
+msgid "Normal layout (3 columns)"
+msgstr "Обычная раскладка (3 колонки)"
+
+#: d:\project\plaintxtblog/functions.php:567
+msgid "Minimal layout (1 column)"
+msgstr "Минимальная раскладка (1 колонка)"
+
+#: d:\project\plaintxtblog/functions.php:569
+msgid "The single <em>post</em> layout can either be three column (normal) or one column (minimal). Default is <span>normal layout (3 columns)</span>. "
+msgstr "Раскладка отдельных <em>записей</em> может быть либо 3-х колоночной (обычная), либо одной колонкой (минимальная). По умолчанию выбрана <span>обычная раскладка (3 колонки)</span>. "
+
+#: d:\project\plaintxtblog/functions.php:573
+msgid "Content"
+msgstr "Комментарий"
+
+#: d:\project\plaintxtblog/functions.php:576
+msgid "Avatar size"
+msgstr "Размер аватара"
+
+#: d:\project\plaintxtblog/functions.php:579
+msgid "Sets the avatar size in pixels, if avatars are enabled. Default is <span>24</span>."
+msgstr ""
+
+#: d:\project\plaintxtblog/functions.php:584
+msgid "Save Options"
+msgstr "Обновить настройки &raquo;"
+
+#: d:\project\plaintxtblog/functions.php:589
+#: d:\project\plaintxtblog/functions.php:594
+msgid "Reset Options"
+msgstr "Сбросить настройки"
+
+#: d:\project\plaintxtblog/functions.php:590
+msgid "Resetting deletes all stored plaintxtBlog options from your database. After resetting, default options are loaded but are not stored until you click <i>Save Options</i>. A reset does not affect the actual theme files in any way. If you are uninstalling plaintxtBlog, please reset before removing the theme files to clear your databse."
+msgstr ""
+
+#: d:\project\plaintxtblog/functions.php:594
+msgid "Click OK to reset. Any changes to these theme options will be lost!"
+msgstr "Нажмите OK чтобы сбросить. Все настройки темы будут потеряны!"
+
+#: d:\project\plaintxtblog/header.php:4
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: d:\project\plaintxtblog/header.php:4
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: d:\project\plaintxtblog/header.php:25
+msgid "Skip to content"
+msgstr "Перейти к содержанию"
+
+#: d:\project\plaintxtblog/image.php:41
+#, fuzzy, php-format
+msgid "This image (<a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>) was posted on <abbr class=\"published\" title=\"%3$sT%4$s\">%5$s at %6$s</abbr> by %7$s. Filed in %8$s%9$s."
+msgstr "Эта запись (<a href=\"%1$s\" title=\"Ссылка на %2$s\" rel=\"bookmark\">ссылка</a>) датирована <abbr class=\"published\" title=\"%3$sT%4$s\">%5$s в %6$s</abbr> пользователем %7$s. Размещена в %8$s%9$s."
+
+#: d:\project\plaintxtblog/index.php:16
+#: d:\project\plaintxtblog/page.php:13
+#: d:\project\plaintxtblog/single.php:13
+#: d:\project\plaintxtblog/sitemap.php:54
+msgid "Pages: "
+msgstr "Страниц:"
+
+#: d:\project\plaintxtblog/search.php:8
+msgid "Search Results:"
+msgstr "Результаты поиска:"
+
+#: d:\project\plaintxtblog/search.php:42
+msgid "Nothing Found"
+msgstr "Ничего не найдено."
+
+#: d:\project\plaintxtblog/search.php:44
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "К сожалению, по заданным критериям поиска ничего не найдено. Попробуйте поиск по другим ключевым словам."
+
+# C:\www\xampp\htdocs\wordpress\wordpress_ru\trunk/wp-admin/upload-js.php:72
+# C:\www\xampp\htdocs\wordpress\wordpress_ru\trunk/wp-admin/upload-js.php:74
+# C:\www\xampp\htdocs\wordpress\wordpress_ru\trunk/wp-admin/upload-js.php:150
+# C:\www\xampp\htdocs\wordpress\wordpress_ru\trunk/wp-admin/upload-js.php:152
+#: d:\project\plaintxtblog/sidebar.php:6
+msgid "&laquo; Home"
+msgstr "&laquo; Домой"
+
+#: d:\project\plaintxtblog/sidebar.php:9
+msgid "Pages"
+msgstr "Страницы"
+
+#: d:\project\plaintxtblog/sidebar.php:47
+msgid "Subpages"
+msgstr "Под-страницы"
+
+#: d:\project\plaintxtblog/sidebar.php:55
+msgid "Categories"
+msgstr "Рубрики"
+
+#: d:\project\plaintxtblog/sidebar.php:62
+msgid "Tags"
+msgstr "Метки"
+
+#: d:\project\plaintxtblog/sidebar.php:66
+msgid "Archives"
+msgstr "Архивы"
+
+#: d:\project\plaintxtblog/single.php:30
+#, php-format
+msgid "This entry (<a href=\"%1$s\" title=\"Permalink to %2$s\" rel=\"bookmark\">permalink</a>) was posted on <abbr class=\"published\" title=\"%3$sT%4$s\">%5$s at %6$s</abbr> by %7$s. Filed in %8$s%9$s."
+msgstr "Эта запись (<a href=\"%1$s\" title=\"Ссылка на %2$s\" rel=\"bookmark\">ссылка</a>) датирована <abbr class=\"published\" title=\"%3$sT%4$s\">%5$s в %6$s</abbr> пользователем %7$s. Размещена в %8$s%9$s."
+
+# C:\www\xampp\htdocs\wordpress\wordpress_ru\trunk/wp-admin/upload-js.php:72
+# C:\www\xampp\htdocs\wordpress\wordpress_ru\trunk/wp-admin/upload-js.php:74
+# C:\www\xampp\htdocs\wordpress\wordpress_ru\trunk/wp-admin/upload-js.php:150
+# C:\www\xampp\htdocs\wordpress\wordpress_ru\trunk/wp-admin/upload-js.php:152
+#: d:\project\plaintxtblog/single.php:46
+msgid "&laquo; %link"
+msgstr "&laquo; %link"
+
+#: d:\project\plaintxtblog/single.php:47
+msgid "%link &raquo;"
+msgstr "%link &raquo;"
+
+#: d:\project\plaintxtblog/sitemap.php:20
+msgid "All Pages"
+msgstr "Все страницы"
+
+#: d:\project\plaintxtblog/sitemap.php:26
+msgid "All Posts"
+msgstr "Все записи"
+
+#: d:\project\plaintxtblog/sitemap.php:37
+msgid "All Monthly Archives"
+msgstr "Архив всех месяцев"
+
+#: d:\project\plaintxtblog/sitemap.php:43
+msgid "All Category Archives"
+msgstr "Архив всех рубрик"
+
+#: d:\project\plaintxtblog/sitemap.php:49
+msgid "Archives by Tag"
+msgstr "Все записи с меткой"
+
+#~ msgid "wrote"
+#~ msgstr "пишет"
+#~ msgid ""
+#~ "Thanks for selecting the <span class=\"theme-title\">plaintxtBlog</span> "
+#~ "theme. You can customize this theme with the options below. <strong>You "
+#~ "must click on <i><u>S</u>ave Options</i> to save any changes.</strong> "
+#~ "You can also discard your changes and reload the default settings by "
+#~ "clicking on <i><u>R</u>eset</i>."
+#~ msgstr ""
+#~ "Спасибо Вам за выбор темы <span class=\"theme-title\">plaintxtBlog</"
+#~ "span>. На этой странице вы можете настроить эту тему. <strong>Чтобы "
+#~ "сохранить настройки, нажмите кнопку <i>Обновить настройки</i>.</strong> "
+#~ "Вы можете также отменить внесенные изменения и вернуть настройки кнопкой "
+#~ "<i>Сбросить</i>."
+#~ msgid ""
+#~ "<strong>Resetting clears all changes to the above options.</strong> After "
+#~ "resetting, default options are loaded and this theme will continue to be "
+#~ "the active theme. A reset does not affect the actual theme files in any "
+#~ "way."
+#~ msgstr ""
+#~ "<strong>Сброс очищает все изменения в настройках.</strong> После сброса "
+#~ "будут загружены значения по умолчанию и эта тема останется активной. "
+#~ "Сброс настроек не вносит никаких изменений в файлы темы."
+#~ msgid "Reset"
+#~ msgstr "Сбросить"
+#~ msgid "Theme Information"
+#~ msgstr "Информация о теме"
+#~ msgid ""
+#~ "You are currently using the <a href=\"http://www.plaintxt.org/themes/"
+#~ "plaintxtblog/\" title=\"plaintxtBlog for WordPress\"><span class=\"theme-"
+#~ "title\">plaintxtBlog</span></a> theme, version %s, by <span class=\"vcard"
+#~ "\"><a class=\"url xfn-me\" href=\"http://scottwallick.com/\" title="
+#~ "\"scottwallick.com\" rel=\"me designer\"><span class=\"n\"><span class="
+#~ "\"given-name\">Scott</span> <span class=\"additional-name\">Allan</span> "
+#~ "<span class=\"family-name\">Wallick</span></span></a></span>."
+#~ msgstr ""
+#~ "Вы используете тему <a href=\"http://www.plaintxt.org/themes/plaintxtblog/"
+#~ "\" title=\"plaintxtBlog for WordPress\"><span class=\"theme-title"
+#~ "\">plaintxtBlog</span></a>, версии %s от <span class=\"vcard\"><a class="
+#~ "\"url xfn-me\" href=\"http://scottwallick.com/\" title=\"scottwallick.com"
+#~ "\" rel=\"me designer\"><span class=\"n\"><span class=\"given-name"
+#~ "\">Scott</span> <span class=\"additional-name\">Allan</span> <span class="
+#~ "\"family-name\">Wallick</span></span></a></span>."
+#~ msgid ""
+#~ "Please read the included <a href=\"%1$s\" title=\"Open the readme.html\" "
+#~ "rel=\"enclosure\"  tabindex=\"29\">documentation</a> for more information "
+#~ "about the <span class=\"theme-title\">plaintxtBlog</span> theme and its "
+#~ "advanced features."
+#~ msgstr ""
+#~ "Пожалуйста прочтите приложенную <a href=\"%1$s\" title=\"Открыть readme."
+#~ "html\" rel=\"enclosure\"  tabindex=\"29\">документацию</a> для "
+#~ "дополнительной информации о теме <span class=\"theme-title"
+#~ "\">plaintxtBlog</span> и ее расширенных возможностях."
+#~ msgid "License"
+#~ msgstr "Лицензия"
+#~ msgid ""
+#~ "The <span class=\"theme-title\">plaintxtBlog</span> theme copyright "
+#~ "&copy; 2006&ndash;%1$s by <span class=\"vcard\"><a class=\"url xfn-me\" "
+#~ "href=\"http://scottwallick.com/\" title=\"scottwallick.com\" rel=\"me "
+#~ "designer\"><span class=\"n\"><span class=\"given-name\">Scott</span> "
+#~ "<span class=\"additional-name\">Allan</span> <span class=\"family-name"
+#~ "\">Wallick</span></span></a></span> is distributed with the <cite class="
+#~ "\"vcard\"><a class=\"fn org url\" href=\"http://www.gnu.org/licenses/gpl."
+#~ "html\" title=\"GNU General Public License\" rel=\"license\">GNU General "
+#~ "Public License</a></cite>."
+#~ msgstr ""
+#~ "Тема <span class=\"theme-title\">plaintxtBlog</span> защищена авторскими "
+#~ "правами &copy; 2006&ndash;%1$s by <span class=\"vcard\"><a class=\"url "
+#~ "xfn-me\" href=\"http://scottwallick.com/\" title=\"scottwallick.com\" rel="
+#~ "\"me designer\"><span class=\"n\"><span class=\"given-name\">Scott</span> "
+#~ "<span class=\"additional-name\">Allan</span> <span class=\"family-name"
+#~ "\">Wallick</span></span></a></span> и распространяется под лицензией "
+#~ "<cite class=\"vcard\"><a class=\"fn org url\" href=\"http://www.gnu.org/"
+#~ "licenses/gpl.html\" title=\"GNU General Public License\" rel=\"license"
+#~ "\">GNU General Public License</a></cite>."
+#~ msgid " Atom API"
+#~ msgstr " Atom API"
+#~ msgid " and tagged "
+#~ msgstr " и помечены метками "
+
