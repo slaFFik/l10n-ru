@@ -295,11 +295,11 @@ msgstr "Выберите блог, с которым вам нужна помо�
 
 #: forums-plugins/_which-blog.php:43
 msgid "None, this is a topic about using WordPress.com"
-msgstr ""
+msgstr "Нет, эта тема касается WordPress.com"
 
 #: forums-plugins/_which-blog.php:45
 msgid "None, this is an announcement (moderators only)"
-msgstr ""
+msgstr "Нет, это анонс (только для модераторов)"
 
 #: forums-plugins/_which-blog.php:112
 msgid "You did not specify a blog address or reason for posting when you created this topic."
@@ -6524,12 +6524,12 @@ msgstr[1] "Пометить этот комментарий как спам"
 msgstr[2] "Пометить этот комментарий как спам"
 
 #: wp-admin/edit-comments.php:142
-#, fuzzy, php-format
+#, php-format
 msgid "Pending (<span class=\"pending-count\">%s</span>)"
 msgid_plural "Pending (<span class=\"pending-count\">%s</span>)"
-msgstr[0] "Ожидающий (<span class=\"pending-count\">%s</span>)"
-msgstr[1] "<span class=\"req\">*</span>"
-msgstr[2] "<span class=\"req\">*</span>"
+msgstr[0] "Ожидает (<span class=\"pending-count\">%s</span>)"
+msgstr[1] "Ожидают (<span class=\"pending-count\">%s</span>)"
+msgstr[2] "Ожидают (<span class=\"pending-count\">%s</span>)"
 
 #: wp-admin/edit-comments.php:143
 msgid "Approved"
@@ -6539,12 +6539,12 @@ msgstr[1] "Одобрено"
 msgstr[2] "Одобрено"
 
 #: wp-admin/edit-comments.php:144
-#, fuzzy, php-format
+#, php-format
 msgid "Spam (<span class=\"spam-count\">%s</span>)"
 msgid_plural "Spam (<span class=\"spam-count\">%s</span>)"
 msgstr[0] "Спам (<span class=\"spam-count\">%s</span>)"
-msgstr[1] "<span class=\"authordata\">Автор: %s</span>"
-msgstr[2] "<span class=\"authordata\">Автор: %s</span>"
+msgstr[1] "Спам (<span class=\"spam-count\">%s</span>)"
+msgstr[2] "Спам (<span class=\"spam-count\">%s</span>)"
 
 #: wp-admin/edit-comments.php:178
 #: wp-admin/edit-comments.php:180
@@ -7304,9 +7304,8 @@ msgid "<code>_none</code> - same window or tab."
 msgstr "<code>_none</code> - то же окно или вкладка."
 
 #: wp-admin/edit-link-form.php:171
-#, fuzzy
 msgid "Choose the target frame for your link."
-msgstr "Выберите файл на своём компьютере:"
+msgstr "Выберите цель для вашей ссылки."
 
 #: wp-admin/edit-link-form.php:187
 msgid "rel:"
@@ -7470,7 +7469,7 @@ msgid "This will be shown when someone hovers over the link in the blogroll, or 
 msgstr "Будет показано, когда кто-то наводит курсор на ссылку из списка, или (возможно) под ссылкой."
 
 #: wp-admin/edit-page-form.php:21
-#, fuzzy, php-format
+#, php-format
 msgid "Page updated. <a href=\"%s\">View page</a>"
 msgstr "Страница опубликована. <a href=\"%s\">Посмотреть</a>"
 
@@ -7653,7 +7652,6 @@ msgid "Scheduled pages"
 msgstr "Запланированные страницы"
 
 #: wp-admin/edit-pages.php:80
-#, fuzzy
 msgctxt "page"
 msgid "Pending Review"
 msgstr "Ожидает утверждения"
@@ -7725,12 +7723,12 @@ msgid "Pages"
 msgstr "Страницы"
 
 #: wp-admin/edit-pages.php:115
-#, fuzzy, php-format
+#, php-format
 msgid "%s page updated."
 msgid_plural "%s pages updated."
 msgstr[0] "%s страница обновлена."
-msgstr[1] "Страница обновлена."
-msgstr[2] "Страница обновлена."
+msgstr[1] "%s страницы обновлены."
+msgstr[2] "%s страниц обновлены."
 
 #: wp-admin/edit-pages.php:120
 #, fuzzy, php-format
@@ -7749,12 +7747,12 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: wp-admin/edit-pages.php:130
-#, fuzzy, php-format
+#, php-format
 msgid "Page deleted."
 msgid_plural "%s pages deleted."
 msgstr[0] "%s страница удалена."
-msgstr[1] "Метка удалена."
-msgstr[2] "Метка удалена."
+msgstr[1] "%s страницы удалены."
+msgstr[2] "%s страниц удалены."
 
 #: wp-admin/edit-pages.php:139
 msgid "Your page has been saved."
@@ -8583,13 +8581,12 @@ msgid "It looks like you attempted to import your LiveJournal posts previously a
 msgstr ""
 
 #: wp-admin/import/livejournal.php:187
-#, fuzzy
 msgid "Continue previous import"
-msgstr "Импорт из GreyMatter завершен!"
+msgstr "Продолжить последний импорт"
 
 #: wp-admin/import/livejournal.php:189
 msgid "Cancel &amp; start a new import"
-msgstr ""
+msgstr "Отменить и начать новый импорт."
 
 #: wp-admin/import/livejournal.php:194
 msgid "Howdy! This importer allows you to connect directly to LiveJournal and download all your entries and comments"
@@ -8787,7 +8784,7 @@ msgstr "Установлен в: %s"
 
 #: wp-admin/import/livejournal.php:966
 msgid "Continuing"
-msgstr ""
+msgstr "Продолжение"
 
 #: wp-admin/import/livejournal.php:995
 msgid "Processing next batch."
@@ -9400,7 +9397,6 @@ msgid "Could not create directory."
 msgstr "Не получилось создать директорию"
 
 #: wp-admin/includes/class-wp-upgrader.php:57
-#, fuzzy
 msgid "Incompatible Archive"
 msgstr "Архив несовместим"
 
@@ -9429,53 +9425,46 @@ msgstr "Архив обновления недоступен."
 #: wp-admin/includes/class-wp-upgrader.php:351
 #: wp-admin/includes/class-wp-upgrader.php:506
 #: wp-admin/includes/class-wp-upgrader.php:659
-#, fuzzy, php-format
+#, php-format
 msgid "Downloading update from %s."
-msgstr "Загрузка обновления с %s"
+msgstr "Загрузка обновления с %s."
 
 #: wp-admin/includes/class-wp-upgrader.php:352
 #: wp-admin/includes/class-wp-upgrader.php:507
 #: wp-admin/includes/class-wp-upgrader.php:660
-#, fuzzy
 msgid "Unpacking the update."
-msgstr "Извлечение обновления"
+msgstr "Извлечение обновления."
 
 #: wp-admin/includes/class-wp-upgrader.php:353
-#, fuzzy
 msgid "Deactivating the plugin."
 msgstr "Деактивация плагина"
 
 #: wp-admin/includes/class-wp-upgrader.php:354
-#, fuzzy
 msgid "Removing the old version of the plugin."
-msgstr "Удаление старой версии плагина"
+msgstr "Удаление старой версии плагина."
 
 #: wp-admin/includes/class-wp-upgrader.php:355
-#, fuzzy
 msgid "Could not remove the old plugin."
-msgstr "Не получилось удалить старый плагин"
+msgstr "Не получилось удалить старый плагин."
 
 #: wp-admin/includes/class-wp-upgrader.php:356
-#, fuzzy
 msgid "Plugin upgrade Failed."
-msgstr "Обновление плагина не удалось"
+msgstr "Обновление плагина не удалось."
 
 #: wp-admin/includes/class-wp-upgrader.php:357
-#, fuzzy
 msgid "Plugin upgraded successfully."
-msgstr "Плагин успешно обновлён"
+msgstr "Плагин успешно обновлён."
 
 #: wp-admin/includes/class-wp-upgrader.php:361
 #: wp-admin/includes/class-wp-upgrader.php:515
-#, fuzzy
 msgid "Install package not available."
-msgstr "Архив установки недоступен."
+msgstr "Установочный пакет недоступен."
 
 #: wp-admin/includes/class-wp-upgrader.php:362
 #: wp-admin/includes/class-wp-upgrader.php:516
-#, fuzzy, php-format
+#, php-format
 msgid "Downloading install package from %s."
-msgstr "Загрузка архива плагина с %s"
+msgstr "Загрузка установочного пакета с %s."
 
 #: wp-admin/includes/class-wp-upgrader.php:363
 #: wp-admin/includes/class-wp-upgrader.php:517
@@ -9487,16 +9476,14 @@ msgid "Installing the plugin."
 msgstr "Установка плагина."
 
 #: wp-admin/includes/class-wp-upgrader.php:365
-#, fuzzy
 msgid "Plugin Install Failed."
-msgstr "Обновление плагина не удалось"
+msgstr "Установка плагина не удалась."
 
 #: wp-admin/includes/class-wp-upgrader.php:366
 msgid "Plugin Installed successfully."
 msgstr "Плагин успешно установлен."
 
 #: wp-admin/includes/class-wp-upgrader.php:504
-#, fuzzy
 msgid "The theme is at the latest version."
 msgstr "Используется свежая версия темы."
 
@@ -9509,37 +9496,32 @@ msgid "Could not remove the old theme."
 msgstr "Не получилось удалить старый плагин"
 
 #: wp-admin/includes/class-wp-upgrader.php:510
-#, fuzzy
 msgid "Theme upgrade Failed."
-msgstr "Обновление базы не удалось"
+msgstr "Обновление темы не удалось"
 
 #: wp-admin/includes/class-wp-upgrader.php:511
 msgid "Theme upgraded successfully."
 msgstr "Тема успешно обновлена"
 
 #: wp-admin/includes/class-wp-upgrader.php:518
-#, fuzzy
 msgid "Installing the theme."
-msgstr "Текущая тема"
+msgstr "Установка темы."
 
 #: wp-admin/includes/class-wp-upgrader.php:519
-#, fuzzy
 msgid "Theme Install Failed."
-msgstr "Установка базы данных провалилась!!!"
+msgstr "Установка темы не удалась."
 
 #: wp-admin/includes/class-wp-upgrader.php:520
-#, fuzzy
 msgid "Theme Installed successfully."
-msgstr "Плагин успешно установлен."
+msgstr "Тема успешно установлена."
 
 #: wp-admin/includes/class-wp-upgrader.php:657
 msgid "WordPress is at the latest version."
 msgstr "Используется свежая версия WordPress."
 
 #: wp-admin/includes/class-wp-upgrader.php:661
-#, fuzzy
 msgid "Could not copy files."
-msgstr "Не удалось скопировать файлы"
+msgstr "Не удалось скопировать файлы."
 
 #: wp-admin/includes/class-wp-upgrader.php:806
 msgid "Upgrade Plugin"
@@ -9577,7 +9559,7 @@ msgid "Actions:"
 msgstr "Действия:"
 
 #: wp-admin/includes/class-wp-upgrader.php:866
-#, fuzzy, php-format
+#, php-format
 msgid "Successfully installed the plugin <strong>%s %s</strong>."
 msgstr "Плагин <strong>%s %s</strong> успешно установлен."
 
@@ -9586,9 +9568,9 @@ msgid "Return to Plugin Installer"
 msgstr "Вернуться к установщику плагинов"
 
 #: wp-admin/includes/class-wp-upgrader.php:921
-#, fuzzy, php-format
+#, php-format
 msgid "Successfully installed the theme <strong>%s %s</strong>."
-msgstr "Плагин <strong>%s %s</strong> успешно установлен."
+msgstr "Тема <strong>%s %s</strong> успешно установлена."
 
 #: wp-admin/includes/class-wp-upgrader.php:939
 #: wp-admin/includes/class-wp-upgrader.php:998
@@ -9606,34 +9588,29 @@ msgid "Activate &#8220;%s&#8221;"
 msgstr "в &#8220;%s&#8221;"
 
 #: wp-admin/includes/class-wp-upgrader.php:944
-#, fuzzy
 msgid "Return to Theme Installer"
-msgstr "Добро пожаловать у установку bbPress"
+msgstr "Вернуться к установщику тем"
 
 #: wp-admin/includes/class-wp-upgrader.php:944
-#, fuzzy
 msgid "Return to Theme Installer."
-msgstr "Добро пожаловать у установку bbPress"
+msgstr "Вернуться к установщику тем."
 
 #: wp-admin/includes/class-wp-upgrader.php:946
-#, fuzzy
 msgid "Themes page"
-msgstr "Следующая страница"
+msgstr "Страница тем"
 
 #: wp-admin/includes/class-wp-upgrader.php:946
 #: wp-admin/includes/class-wp-upgrader.php:1000
-#, fuzzy
 msgid "Return to Themes page"
-msgstr "Вернуться на страницу плагинов"
+msgstr "Вернуться на страницу тем"
 
 #: wp-admin/includes/class-wp-upgrader.php:974
 msgid "Upgrade Theme"
 msgstr "Обновить тему"
 
 #: wp-admin/includes/class-wp-upgrader.php:1032
-#, fuzzy
 msgid "Please select a file"
-msgstr "Скачать файл экспорта"
+msgstr "Пожалуйста, выберите файл"
 
 #: wp-admin/includes/class-wp-upgrader.php:1046
 #: wp-admin/includes/file.php:309
@@ -9738,7 +9715,6 @@ msgstr "На виду"
 #: wp-content/themes/pub/supposedly-clean/comments.php:21
 #: wp-content/themes/pub/toni/comments.php:19
 #: wp-content/themes/wporg/comments.php:30
-#, fuzzy
 msgid "Comment"
 msgid_plural "Comments"
 msgstr[0] "Комментарий"
@@ -9746,20 +9722,18 @@ msgstr[1] "Комментарий"
 msgstr[2] "Комментарий"
 
 #: wp-admin/includes/dashboard.php:252
-#, fuzzy
 msgid "Page"
 msgid_plural "Pages"
-msgstr[0] "Страницу"
+msgstr[0] "Страница"
 msgstr[1] "Страницы"
-msgstr[2] "Страницы"
+msgstr[2] "Страниц"
 
 #: wp-admin/includes/dashboard.php:262
-#, fuzzy
 msgid "Approved|Right Now"
 msgid_plural "Approved"
-msgstr[0] "Сейчас в метках"
-msgstr[1] "Прямо сейчас"
-msgstr[2] "Прямо сейчас"
+msgstr[0] "Утверждено|Прямо сейчас"
+msgstr[1] "Утверждено"
+msgstr[2] "Утверждено"
 
 #: wp-admin/includes/dashboard.php:274
 msgid "Category"
@@ -9769,12 +9743,11 @@ msgstr[1] " Рубрики"
 msgstr[2] " Рубрик"
 
 #: wp-admin/includes/dashboard.php:284
-#, fuzzy
 msgid "Pending"
 msgid_plural "Pending"
-msgstr[0] "Ожидание"
-msgstr[1] "[Ожидает проверки]"
-msgstr[2] "[Ожидает проверки]"
+msgstr[0] "Ожидает проверки"
+msgstr[1] "Ожидают проверки"
+msgstr[2] "Ожидают проверки"
 
 #: wp-admin/includes/dashboard.php:334
 #: wp-admin/includes/dashboard.php:341
@@ -9782,20 +9755,20 @@ msgid "Change Theme"
 msgstr "Изменить тему"
 
 #: wp-admin/includes/dashboard.php:335
-#, fuzzy, php-format
+#, php-format
 msgid "Theme <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> with <span class=\"b\"><a href=\"widgets.php\">%2$s Widget</a></span>"
 msgid_plural "Theme <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> with <span class=\"b\"><a href=\"widgets.php\">%2$s Widgets</a></span>"
-msgstr[0] "Тема <span class=\"b\"><a href=\"themes.php\">%1$s</a></span>, <span class=\"b\"><a href=\"widgets.php\">%2$s виджет</a></span>"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Тема <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> c <span class=\"b\"><a href=\"widgets.php\">%2$s виджетом</a></span>"
+msgstr[1] "Тема <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> c <span class=\"b\"><a href=\"widgets.php\">%2$s виджетами</a></span>"
+msgstr[2] "Тема <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> c <span class=\"b\"><a href=\"widgets.php\">%2$s виджетами</a></span>"
 
 #: wp-admin/includes/dashboard.php:337
-#, fuzzy, php-format
+#, php-format
 msgid "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widget</span>"
 msgid_plural "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widgets</span>"
-msgstr[0] "Тема <span class=\"b\">%1$s</span>, <span class=\"b\">%2$s виджет</span>"
-msgstr[1] "<cite class=\"fn\">%s</cite>:"
-msgstr[2] "<cite class=\"fn\">%s</cite>:"
+msgstr[0] "Тема <span class=\"b\">%1$s</span> с <span class=\"b\">%2$s виджетом</span>"
+msgstr[1] "Тема <span class=\"b\">%1$s</span> с <span class=\"b\">%2$s виджетами</span>"
+msgstr[2] "Тема <span class=\"b\">%1$s</span> с <span class=\"b\">%2$s виджетами</span>"
 
 #: wp-admin/includes/dashboard.php:363
 #, php-format
@@ -10733,9 +10706,9 @@ msgid "You are using the Browser uploader."
 msgstr "Вы используете загрузчик браузера."
 
 #: wp-admin/includes/media.php:2079
-#, fuzzy, php-format
+#, php-format
 msgid "Try the <a href=\"%s\">Flash uploader</a> instead."
-msgstr "Вы используете загрузчик браузера. Попробуйте <a href=\"%s\">Flash-загрузчик</a>."
+msgstr "Попробуйте вместо этого <a href=\"%s\">Flash-загрузчик</a>."
 
 #: wp-admin/includes/mu.php:94
 msgid "Transfer posts before deleting users:"
@@ -10838,7 +10811,7 @@ msgstr ""
 "###SITEURL###"
 
 #: wp-admin/includes/mu.php:272
-#, fuzzy, php-format
+#, php-format
 msgid "[%s] New Email Address"
 msgstr "[%s] Новый адрес"
 
@@ -10938,9 +10911,8 @@ msgid "Plugin file does not exist."
 msgstr "Файл плагина не найден."
 
 #: wp-admin/includes/plugin.php:522
-#, fuzzy
 msgid "The plugin does not have a valid header."
-msgstr "Файл не является плагином."
+msgstr "У плагина нет корректного заголовка."
 
 #: wp-admin/includes/post.php:48
 msgid "You are not allowed to edit pages as this user."
@@ -10975,7 +10947,6 @@ msgid "You are not allowed to create posts or drafts on this blog."
 msgstr "Вам не разрешено создавать записи или черновики в этом блоге."
 
 #: wp-admin/includes/post.php:793
-#, fuzzy
 msgctxt "post"
 msgid "Published"
 msgstr "Опубликовано"
@@ -10993,7 +10964,6 @@ msgstr[1] "<span class=\"authordata\">Автор: %s</span>"
 msgstr[2] "<span class=\"authordata\">Автор: %s</span>"
 
 #: wp-admin/includes/post.php:794
-#, fuzzy
 msgctxt "post"
 msgid "Scheduled"
 msgstr "Запланировано"
@@ -11011,7 +10981,6 @@ msgstr[1] "<span class=\"authordata\">Автор: %s</span>"
 msgstr[2] "<span class=\"authordata\">Автор: %s</span>"
 
 #: wp-admin/includes/post.php:795
-#, fuzzy
 msgctxt "post"
 msgid "Pending Review"
 msgstr "Ожидает утверждения"
@@ -11029,7 +10998,6 @@ msgstr[1] "Архивы автора: <span class=\"vcard\">%s</span> "
 msgstr[2] "Архивы автора: <span class=\"vcard\">%s</span> "
 
 #: wp-admin/includes/post.php:796
-#, fuzzy
 msgctxt "post"
 msgid "Draft"
 msgstr "Черновик"
@@ -11043,7 +11011,6 @@ msgstr[1] "<span class=\"authordata\">Автор: %s</span>"
 msgstr[2] "<span class=\"authordata\">Автор: %s</span>"
 
 #: wp-admin/includes/post.php:797
-#, fuzzy
 msgctxt "post"
 msgid "Private"
 msgstr "Личное"
@@ -11130,9 +11097,8 @@ msgid "Permalink:"
 msgstr "Постоянная ссылка:"
 
 #: wp-admin/includes/post.php:980
-#, fuzzy
 msgid "Change Permalinks"
-msgstr "Изменить тему"
+msgstr "Изменить постоянные ссылки"
 
 #: wp-admin/includes/post.php:987
 msgid "Click to edit this part of the permalink"
@@ -11160,31 +11126,26 @@ msgid "F j, Y g:i a"
 msgstr "d.m.Y H:i"
 
 #: wp-admin/includes/schema.php:349
-#, fuzzy
 msgctxt "User role"
 msgid "Administrator"
 msgstr "Администратор"
 
 #: wp-admin/includes/schema.php:351
-#, fuzzy
 msgctxt "User role"
 msgid "Editor"
 msgstr "Редактор"
 
 #: wp-admin/includes/schema.php:353
-#, fuzzy
 msgctxt "User role"
 msgid "Author"
 msgstr "Автор"
 
 #: wp-admin/includes/schema.php:355
-#, fuzzy
 msgctxt "User role"
 msgid "Contributor"
-msgstr "Участник"
+msgstr "Помощник"
 
 #: wp-admin/includes/schema.php:357
-#, fuzzy
 msgctxt "User role"
 msgid "Subscriber"
 msgstr "Подписчик"
@@ -11205,10 +11166,9 @@ msgid "Quick Edit"
 msgstr "Свойства"
 
 #: wp-admin/includes/template.php:753
-#, fuzzy
 msgctxt "column name"
 msgid "Post"
-msgstr "Сообщение"
+msgstr "Запись"
 
 #: wp-admin/includes/template.php:759
 #: wp-admin/includes/template.php:809
@@ -11218,7 +11178,6 @@ msgid "Date"
 msgstr "Дата"
 
 #: wp-admin/includes/template.php:778
-#, fuzzy
 msgctxt "column name"
 msgid "File"
 msgstr "Файл"
@@ -11230,7 +11189,6 @@ msgid "Attached to"
 msgstr "в начало"
 
 #: wp-admin/includes/template.php:786
-#, fuzzy
 msgctxt "column name"
 msgid "Date"
 msgstr "Дата"
@@ -11302,7 +11260,6 @@ msgid "- No Change -"
 msgstr "- Как есть -"
 
 #: wp-admin/includes/template.php:1087
-#, fuzzy
 msgid "&ndash;OR&ndash;"
 msgstr "&mdash; ИЛИ &mdash;"
 
@@ -11432,7 +11389,6 @@ msgid "View posts by this author"
 msgstr "Смотреть записи этого автора"
 
 #: wp-admin/includes/template.php:2097
-#, fuzzy
 msgid "Y/m/d \\a\\t g:i A"
 msgstr "d.m.Y в H:i"
 
@@ -11446,7 +11402,6 @@ msgid "g:ia"
 msgstr "H:i"
 
 #: wp-admin/includes/template.php:2199
-#, fuzzy
 msgid "Y/m/d \\a\\t g:ia"
 msgstr "d.m.Y в H:i"
 
@@ -11622,7 +11577,6 @@ msgid "(no title)"
 msgstr "(без названия)"
 
 #: wp-admin/includes/template.php:3401
-#, fuzzy
 msgctxt "post state"
 msgid "Pending"
 msgstr "Ожидание"
@@ -11692,9 +11646,8 @@ msgid "Search help"
 msgstr "Искать помощь"
 
 #: wp-admin/includes/template.php:3588
-#, fuzzy
 msgid "You may search based on 3 criteria:"
-msgstr "Можно искать по трём типам ключевых слов:"
+msgstr "Можно искать по трём критериям:"
 
 #: wp-admin/includes/template.php:3589
 #, fuzzy
@@ -11950,7 +11903,6 @@ msgid "Upgrades and Credits"
 msgstr "Дополения и кредиты"
 
 #: wp-admin/includes/wpcom.php:156
-#, fuzzy
 msgid "Paypal Reports"
 msgstr "Отчёты PayPal"
 
@@ -12432,7 +12384,6 @@ msgid "Hold a comment in the queue if it contains %s or more links. (A common ch
 msgstr "Поставить комментарий в очередь на модерирование, если он содержит более %s ссылок. (Характерная особенность спама &#8212; большое число ссылок.)"
 
 #: wp-admin/options-discussion.php:133
-#, fuzzy
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 msgstr "Если комментарий содержит какие-либо из этих слов в своём тексте, имени автора, URL, адресе e-mail или IP &#8212; поместить его в <a href=\"edit-comments.php?comment_status=moderated\">очередь на модерирование</a>. Каждое слово или IP с новой строки. Используется поиск по подстроке, то есть по слову &laquo;press&raquo; будет найдено &laquo;WordPress&raquo;."
 
@@ -12442,7 +12393,6 @@ msgid "Comment Blacklist"
 msgstr "Чёрный список"
 
 #: wp-admin/options-discussion.php:142
-#, fuzzy
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be marked as spam. One word or IP per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 msgstr "Если комментарий содержит какие-либо из этих слов в своём тексте, имени автора, URL, адресе e-mail или IP &#8212; он будет помечен как спам. Каждое слово или IP с новой строки. Используется поиск по подстроке, то есть по слову &laquo;press&raquo; будет найдено &laquo;WordPress&raquo;."
 
@@ -12599,9 +12549,9 @@ msgid "Unfortunately, you have to manually update this for Daylight Savings Time
 msgstr "К сожалению, при переходе на летнее время вам придётся вручную обновить это значение. Да, неудобно, в будущем мы это исправим."
 
 #: wp-admin/options-general.php:202
-#, fuzzy, php-format
+#, php-format
 msgid "Local time is <code>%1$s</code>"
-msgstr "По умолчанию: <code>wp-content/uploads</code>"
+msgstr "Местное время <code>%1$s</code>"
 
 #: wp-admin/options-general.php:205
 msgid "Choose a city in the same timezone as you."
@@ -13654,7 +13604,7 @@ msgid ""
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
 "Вы собираетесь удалить этот комментарий.\n"
-"  'Отмена' - оставить, 'OK' - удалить."
+"  &laquo;Отмена&raquo; &#8212; оставить, &laquo;OK&raquo; &#8212; удалить."
 
 #: wp-admin/themes.php:729
 msgid "Broken Themes"
@@ -13719,7 +13669,6 @@ msgid "Enable Gears"
 msgstr "Включить Gears"
 
 #: wp-admin/tools.php:48
-#, fuzzy
 msgid "Gears is installed and enabled on this computer. You can disable it from the Under the Hood tab in Chrome&#8217;s Options menu."
 msgstr "Gears установлен и разрешён к использованию. Отключить его можно в меню &laquo;Инструменты&raquo; вашего браузера."
 
@@ -13806,10 +13755,9 @@ msgstr "Требуется обновление базы данных"
 
 #: wp-admin/upgrade.php:66
 msgid "WordPress has been updated! Before we send you on your way, we have to upgrade your database to the newest version."
-msgstr ""
+msgstr "WordPress был обновлен! Прежде чем мы пропустим вас дальше, мы обновим базу данных до самой новой версии."
 
 #: wp-admin/upgrade.php:67
-#, fuzzy
 msgid "The upgrade process may take a little while, so please be patient."
 msgstr "Процесс обновления может занять некоторое время. Пожалуйста, наберитесь терпения."
 
@@ -14399,12 +14347,12 @@ msgid "Add Widget"
 msgstr "Добавить виджет"
 
 #: wp-admin/widgets-posts.php:207
-#, fuzzy, php-format
+#, php-format
 msgid "You are using %1$s widget in the \"%2$s\" sidebar."
 msgid_plural "You are using %1$s widgets in the \"%2$s\" sidebar."
-msgstr[0] "Вы используете %1$s виджет в боковой колонке &laquo;%2$s&raquo;."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Вы используете %1$s виджет в боковой колонке \"%2$s\"."
+msgstr[1] "Вы используете %1$s виджета в боковой колонке \"%2$s\"."
+msgstr[2] "Вы используете %1$s виджетов в боковой колонке \"%2$s\"."
 
 #: wp-admin/widgets-posts.php:209
 #, fuzzy, php-format
@@ -15520,7 +15468,6 @@ msgid "Impressions:"
 msgstr "Впечатления:"
 
 #: wp-content/admin-plugins/blog-stats.php:834
-#, fuzzy
 msgid "Plays:"
 msgstr "Показ(ов)"
 
@@ -15530,7 +15477,7 @@ msgstr "Минут:"
 
 #: wp-content/admin-plugins/blog-stats.php:836
 msgid "Bandwidth:"
-msgstr ""
+msgstr "Ширина канала:"
 
 #: wp-content/admin-plugins/blog-stats.php:850
 msgid "Just a note: we don't count your own visits to your blog."
@@ -16041,9 +15988,8 @@ msgid "Post-by-email Restrictions"
 msgstr "Ограничения публикации по почте"
 
 #: wp-content/admin-plugins/mailomattic.php:292
-#, fuzzy
 msgid "Allowed Email Addresses"
-msgstr "Обратный адрес e-mail:"
+msgstr "Разрешенные адреса e-mail"
 
 #: wp-content/admin-plugins/mailomattic.php:296
 #, php-format
@@ -16051,9 +15997,8 @@ msgid "Email publishing is allowed from your registered address (<a href=\"mailt
 msgstr ""
 
 #: wp-content/admin-plugins/mailomattic.php:323
-#, fuzzy
 msgid "Thumbnails"
-msgstr "Ссылки c миниатюр:"
+msgstr "Миниатюры"
 
 #: wp-content/admin-plugins/mailomattic.php:327
 msgid "Images smaller than the chosen size will not be changed"
@@ -16497,7 +16442,7 @@ msgstr "Подписаться"
 
 #: wp-content/admin-plugins/readomattic.php:1175
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Отмена подписки"
 
 #: wp-content/admin-plugins/readomattic.php:1178
 msgid "Unhide"
@@ -17059,11 +17004,11 @@ msgstr ""
 
 #: wp-content/mu-plugins/30boxes.php:730
 msgid "30Boxes.com calendar widget"
-msgstr ""
+msgstr "Виджет календаря 30Boxes.com"
 
 #: wp-content/mu-plugins/30boxes.php:732
 msgid "30Boxes"
-msgstr ""
+msgstr "30Boxes"
 
 #: wp-content/mu-plugins/admin-bar.php:185
 msgid "My Account"
@@ -17359,12 +17304,12 @@ msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> защищает ваш блог от спама,"
 
 #: wp-content/mu-plugins/akismet.php:601
-#, fuzzy, php-format
+#, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment in your spam queue</a> right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments in your spam queue</a> right now."
 msgstr[0] "и на текущий момент в очереди спама <a href=\"%2$s\">%1$s комментарий</a>."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[1] "и на текущий момент в очереди спама <a href=\"%2$s\">%1$s комментария</a>."
+msgstr[2] "и на текущий момент в очереди спама <a href=\"%2$s\">%1$s комментариев</a>."
 
 #: wp-content/mu-plugins/akismet.php:606
 #, php-format
@@ -18310,9 +18255,8 @@ msgid "<strong>%1$s</strong> %2$s removed successfully."
 msgstr "<strong>%1$s</strong> %2$s успешно удален. "
 
 #: wp-content/mu-plugins/subscribe-to-comments.php:674
-#, fuzzy
 msgid "subscriptions"
-msgstr "Подписки"
+msgstr "подписки"
 
 #: wp-content/mu-plugins/subscribe-to-comments.php:674
 msgid "subscription"
@@ -18387,14 +18331,12 @@ msgid "Enter an email address to view its subscriptions or undo a block."
 msgstr ""
 
 #: wp-content/mu-plugins/subscribe-to-comments.php:828
-#, fuzzy
 msgid "Top Subscriber List"
 msgstr "Топ подписчиков"
 
 #: wp-content/mu-plugins/subscribe-to-comments.php:851
-#, fuzzy
 msgid "Top Subscribed Posts"
-msgstr "Показать топ записей за"
+msgstr "Записи топ-подписчиков"
 
 #: wp-content/mu-plugins/subscribe-to-comments.php:904
 #, php-format
@@ -18474,12 +18416,12 @@ msgid "a couple of minutes"
 msgstr "пару минут"
 
 #: wp-content/mu-plugins/video.php:356
-#, fuzzy, php-format
+#, php-format
 msgid "one hour and %2$s minutes"
 msgid_plural "%1$s hours and %2$s minutes"
 msgstr[0] "%1$s час и %2$s минут"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[1] "%1$s часа и %2$s минут"
+msgstr[2] "%1$s часов и %2$s минут"
 
 #: wp-content/mu-plugins/video.php:358
 #, fuzzy, php-format
@@ -18596,9 +18538,8 @@ msgid "WPCOM AdSense Channel"
 msgstr "AdSense канал WPCOM"
 
 #: wp-content/mu-plugins/vip-functions.php:434
-#, fuzzy
 msgid "*Site Admins only"
-msgstr "(Только для администратора сайта)"
+msgstr "*Только для администратора сайта"
 
 #: wp-content/mu-plugins/wpcom-flaptor.php:281
 #: wp-content/mu-plugins/wpcom-flaptor.php:323
@@ -18635,9 +18576,8 @@ msgid "Maximum number of tweets to show:"
 msgstr "Максимальное число отображаемых рубрик:"
 
 #: wp-content/mu-plugins/wpcom-widgets.php:124
-#, fuzzy
 msgid "Hide replies"
-msgstr "Без комментариев."
+msgstr "Скрыть ответы"
 
 #: wp-content/mu-plugins/wpcom-widgets.php:148
 msgid "Flickr Photos"
@@ -20975,9 +20915,8 @@ msgid "Find address on map"
 msgstr "Найти адрес на карте. "
 
 #: wp-content/themes/h4/cotd-map.php:20
-#, fuzzy
 msgid "Geographic searching"
-msgstr "Комментариии на сайте %s по запросу %s"
+msgstr "Географический поиск"
 
 #: wp-content/themes/h4/cotd-map.php:21
 msgid "Move and zoom the map to see what people are clicking on in different areas. Every time the map changes, new results are loaded. Enter a place name or address to get around quickly."
@@ -21628,7 +21567,7 @@ msgstr "Это сообщение защищено паролем. Чтобы п
 #: wp-content/themes/pub/sandbox/comments.php:74
 #, php-format
 msgid "%d Comments"
-msgstr "Комментарии (%d)"
+msgstr "%d Комментариев"
 
 #: wp-content/themes/premium-test/testing-papier/comments.php:36
 #: wp-content/themes/pub/sandbox/comments.php:26
@@ -22383,9 +22322,9 @@ msgstr "Автор: %1$s на %2$s"
 #: wp-content/themes/pub/albeo/archive.php:34
 #: wp-content/themes/pub/albeo/index.php:15
 #: wp-content/themes/pub/albeo/single.php:20
-#, fuzzy, php-format
+#, php-format
 msgid "In: %s"
-msgstr "%1$s в %2$s"
+msgstr "В: %s"
 
 #: wp-content/themes/pub/albeo/archive.php:35
 #: wp-content/themes/pub/albeo/index.php:16
@@ -22518,17 +22457,14 @@ msgid "Log out &raquo;"
 msgstr "Выйти &raquo;"
 
 #: wp-content/themes/pub/albeo/comments.php:88
-#, fuzzy
 msgid "Your Name"
-msgstr "Имя базы данных:"
+msgstr "Ваше имя"
 
 #: wp-content/themes/pub/albeo/comments.php:92
-#, fuzzy
 msgid "Your Email"
-msgstr "Имя пользователя (ваш e-mail адрес):"
+msgstr "Ваш email"
 
 #: wp-content/themes/pub/albeo/comments.php:96
-#, fuzzy
 msgid "Your URL"
 msgstr "URL вашего блога"
 
@@ -22539,18 +22475,16 @@ msgid "%s theme by %s"
 msgstr "Тема %s от %s"
 
 #: wp-content/themes/pub/albeo/functions.php:43
-#, fuzzy
 msgid "No comments"
-msgstr "Комментариев нет"
+msgstr "Без комментариев"
 
 #: wp-content/themes/pub/albeo/functions.php:60
 msgid "Albeo Top/Latest/Tags"
 msgstr ""
 
 #: wp-content/themes/pub/albeo/functions.php:67
-#, fuzzy
 msgid "Latest Comments"
-msgstr "Комментарии (%1$s) восстановлены. "
+msgstr "Последние комментарии"
 
 #: wp-content/themes/pub/albeo/functions.php:85
 #, fuzzy
@@ -22584,24 +22518,20 @@ msgid "Newer Entries"
 msgstr "Следующие записи &raquo;"
 
 #: wp-content/themes/pub/albeo/search.php:14
-#, fuzzy
 msgid "Posted by:"
-msgstr "Опубликовал"
+msgstr "Опубликовал:"
 
 #: wp-content/themes/pub/albeo/search.php:14
-#, fuzzy
 msgid "on:"
-msgstr "на"
+msgstr "на:"
 
 #: wp-content/themes/pub/albeo/search.php:38
-#, fuzzy
 msgid "Try a different search!"
-msgstr "Попробуйте другие ключевые слова."
+msgstr "Попробуйте другой запрос!"
 
 #: wp-content/themes/pub/albeo/single.php:21
-#, fuzzy
 msgid "Comment!"
-msgstr "1 комментарий"
+msgstr "Сказать!"
 
 #: wp-content/themes/pub/almost-spring/404.php:5
 #: wp-content/themes/pub/almost-spring/single.php:33
@@ -23618,9 +23548,9 @@ msgstr "<li>Опубликовано %1$s в %2$s</li> <li><a href=\"%3$s\" titl
 #: wp-content/themes/pub/sandbox-10/comments.php:96
 #: wp-content/themes/pub/sandbox/comments.php:101
 #: wp-content/themes/pub/thirteen/comments.php:62
-#, fuzzy, php-format
+#, php-format
 msgid "Post a Comment to %s"
-msgstr "чтобы написать комментарий"
+msgstr "Напримать комментарий к %s"
 
 #: wp-content/themes/pub/chaoticsoul/404.php:5
 msgid "Problem?"
@@ -23725,9 +23655,8 @@ msgid "Journal Search&#8230;"
 msgstr "Поиск по журналу&#8230;"
 
 #: wp-content/themes/pub/chaoticsoul/sidebar.php:9
-#, fuzzy
 msgid "About This Post"
-msgstr "Удалить эту запись"
+msgstr "Об этой записи"
 
 #: wp-content/themes/pub/chaoticsoul/sidebar.php:36
 msgid "Navigate"
@@ -23860,9 +23789,9 @@ msgid "Archived Posts from this Category"
 msgstr "Архив записей в этой рубрике"
 
 #: wp-content/themes/pub/connections/comments.php:20
-#, fuzzy, php-format
+#, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">Says:</span>"
-msgstr "<cite class=\"fn\">%s</cite>:"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">сказал:</span>"
 
 #: wp-content/themes/pub/connections/comments.php:91
 msgid "<strong>XHTML:</strong> You can use these tags:"
@@ -23936,9 +23865,9 @@ msgstr "<strong>Больше:</strong>"
 
 #: wp-content/themes/pub/contempt/footer.php:5
 #: wp-content/themes/pub/light/footer.php:2
-#, fuzzy, php-format
+#, php-format
 msgid "Theme %s by %s"
-msgstr "Тема оформления %s, созданная %s."
+msgstr "Тема %s от %s"
 
 #: wp-content/themes/pub/contempt/index.php:21
 #: wp-content/themes/pub/cutline/archive.php:35
@@ -24055,14 +23984,14 @@ msgid "Mail"
 msgstr "Почта"
 
 #: wp-content/themes/pub/cutline/footer.php:2
-#, fuzzy, php-format
+#, php-format
 msgid "Get a free blog at %s"
-msgstr "Заведи бесплатный блог на WordPress.com"
+msgstr "Получи бесплатный блог на %s"
 
 #: wp-content/themes/pub/cutline/footer.php:2
-#, fuzzy, php-format
+#, php-format
 msgid "Theme: %s by %s"
-msgstr "Тема оформления %s, созданная %s."
+msgstr "Тема: %s от %s"
 
 #: wp-content/themes/pub/cutline/functions.php:46
 msgid "Permalink to this comment"
@@ -24150,7 +24079,6 @@ msgid "Search for:"
 msgstr "Найти:"
 
 #: wp-content/themes/pub/depo-masthead/functions.php:326
-#, fuzzy
 msgid "DePo Options"
 msgstr "Настройки DePo"
 
@@ -24214,12 +24142,10 @@ msgid "said,"
 msgstr "сказал,"
 
 #: wp-content/themes/pub/dusk/index.php:31
-#, fuzzy
 msgid "&laquo; Previous page"
 msgstr "&laquo; Предыдущая страница"
 
 #: wp-content/themes/pub/dusk/index.php:31
-#, fuzzy
 msgid "Next page &raquo;"
 msgstr "Следующая страница &raquo;"
 
@@ -24277,9 +24203,8 @@ msgid "Contact via Yahoo Messenger:"
 msgstr "Связаться по Yahoo Messenger:"
 
 #: wp-content/themes/pub/fauna/author.php:19
-#, fuzzy
 msgid "Contact via Jabber / Google Talk:"
-msgstr "Jabber / Google Talk:"
+msgstr "Связаться через Jabber / Google Talk:"
 
 #: wp-content/themes/pub/fauna/author.php:22
 msgid "Entries Authored by"
@@ -24648,9 +24573,9 @@ msgid "Submit comment"
 msgstr "Отправить комментарий"
 
 #: wp-content/themes/pub/freshy/footer.php:6
-#, fuzzy, php-format
+#, php-format
 msgid "%s theme by %s."
-msgstr "Тема оформления %s, созданная %s."
+msgstr "Тема %s от %s."
 
 #: wp-content/themes/pub/freshy/header.php:50
 msgid "first_menu_label"
@@ -24987,7 +24912,6 @@ msgstr "Разное"
 
 #: wp-content/themes/pub/grid-focus/index.php:22
 #: wp-content/themes/pub/grid-focus/single.php:24
-#, fuzzy
 msgid "Filed under: "
 msgstr "Рубрика:"
 
@@ -25008,9 +24932,9 @@ msgstr ""
 
 #: wp-content/themes/pub/journalist-13/comments.php:43
 #: wp-content/themes/pub/journalist/comments.php:56
-#, fuzzy, php-format
+#, php-format
 msgid "Subscribe to comments with <a href=\"%s\">RSS</a>."
-msgstr "Подписаться на комментарии"
+msgstr "Подписаться на комментарии по <a href=\"%s\">RSS</a>."
 
 #: wp-content/themes/pub/journalist-13/footer.php:4
 #: wp-content/themes/pub/whiteasmilk/footer.php:3
@@ -26416,7 +26340,7 @@ msgstr ""
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:962
 #: wp-content/themes/pub/prologue-projects/index.php:92
 msgid "Tasks"
-msgstr ""
+msgstr "Задачи"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:965
 #, fuzzy
@@ -26425,7 +26349,7 @@ msgstr "Добавить рубрику"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:968
 msgid "Select the category which will contain tasks."
-msgstr ""
+msgstr "Выберите рубрику, которая будет содержать задачи."
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:972
 #, fuzzy
@@ -28344,9 +28268,9 @@ msgid "%s Feed"
 msgstr "%s Лента"
 
 #: wp-includes/general-template.php:1436
-#, fuzzy, php-format
+#, php-format
 msgid "%s Comments Feed"
-msgstr "Лента комментариев"
+msgstr "Лента комментариев %s"
 
 #: wp-includes/general-template.php:1457
 #, fuzzy, php-format
@@ -30009,15 +29933,15 @@ msgid "%1$s [Autosave]"
 msgstr "%1$s [Автосохранение]"
 
 #: wp-includes/post-template.php:1226
-#, fuzzy, php-format
+#, php-format
 msgid "%1$s [Current Revision]"
-msgstr "%s [Текущая редакция]"
+msgstr "%1$s [Текущая редакция]"
 
 #: wp-includes/post-template.php:1292
-#, fuzzy, php-format
+#, php-format
 msgctxt "post revision"
 msgid "%1$s by %2$s"
-msgstr "От %s."
+msgstr "%1$s от %2$s"
 
 #: wp-includes/post-template.php:1319
 msgid "Restore"
