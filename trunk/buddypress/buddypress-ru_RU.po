@@ -1,0 +1,4463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: buddypress 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-06 12:33+0300\n"
+"PO-Revision-Date: 2009-06-06 12:33+0300\n"
+"Last-Translator: Sol <salpagarov@gmail.com>\n"
+"Language-Team: l10n.ru <salpagarov@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext_noop;__ngettext:1,2;_x\n"
+"X-Poedit-Basepath: d:/project/automattic/buddypress/tags/1.0.1\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,-1,708,-1\n"
+"X-Poedit-SearchPath-0: d:/project/automattic/buddypress/tags/1.0.1\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity.php:145
+msgid "Activity"
+msgstr "Активность"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity.php:151
+msgid "Just Me"
+msgstr "Только я"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity.php:152
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:94
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:99
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:335
+msgid "My Friends"
+msgstr "Мои друзья"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity.php:156
+msgid "My Activity"
+msgstr "Моя активность"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs.php:157
+msgid "Blogs"
+msgstr "Блоги"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs.php:165
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs.php:174
+msgid "My Blogs"
+msgstr "Мои блоги"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs.php:166
+msgid "Recent Posts"
+msgstr "Свежие записи"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs.php:167
+msgid "Recent Comments"
+msgstr "Свежие комментарии"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs.php:168
+msgid "Create a Blog"
+msgstr "Создать блог"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs.php:273
+#, php-format
+msgid "%s created a new blog: %s"
+msgstr "%s создал новый блог: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs.php:290
+#, php-format
+msgid "%s wrote a new blog post: %s"
+msgstr "%s написал в блог: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs.php:318
+#, php-format
+msgid "%s commented on the blog post %s"
+msgstr "%s прокомментировал запись %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:309
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:310
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:311
+msgid "Component Setup"
+msgstr "Настройка компонентов"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:348
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:200
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:297
+msgid "Profile"
+msgstr "Профиль"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:354
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:206
+msgid "Public"
+msgstr "Публичное"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:358
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:212
+msgid "My Profile"
+msgstr "Мой профиль"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:710
+msgid "You"
+msgstr "Ты"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:793
+#, php-format
+msgid "%s's"
+msgstr "%s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:910
+msgid "at"
+msgstr "в"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:975
+msgid "year"
+msgstr "год"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:975
+msgid "years"
+msgstr "лет"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:976
+msgid "month"
+msgstr "месяц"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:976
+msgid "months"
+msgstr "месяцев"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:977
+msgid "week"
+msgstr "неделю"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:977
+msgid "weeks"
+msgstr "недель"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:978
+msgid "day"
+msgstr "день"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:978
+msgid "days"
+msgstr "дней"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:979
+msgid "hour"
+msgstr "час"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:979
+msgid "hours"
+msgstr "часов"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:980
+msgid "minute"
+msgstr "минуту"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:980
+msgid "minutes"
+msgstr "минут"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:981
+msgid "second"
+msgstr "секунду"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:981
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:1027
+msgid "seconds"
+msgstr "секунд"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:992
+msgid "[Adjust Time Zone]"
+msgstr "[Настройте временную зону]"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:1022
+msgid ",|Separator in time since"
+msgstr ",|Разделитель во время с"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core.php:1071
+msgid "not recently active"
+msgstr "давно здесь не был"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:88
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:159
+msgid "Friends"
+msgstr "Друзья"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:95
+msgid "Requests"
+msgstr "Запросы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:128
+msgid "Friendship accepted"
+msgstr "Дружба принята"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:130
+msgid "Friendship could not be accepted"
+msgstr "Дружба не принята"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:137
+msgid "Friendship rejected"
+msgstr "В дружбе отказано"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:139
+msgid "Friendship could not be rejected"
+msgstr "Дружба не может быть отвергнута"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:160
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:873
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:246
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:298
+msgid "Yes"
+msgstr "Да"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:161
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:874
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:247
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:299
+msgid "No"
+msgstr "Нет"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:165
+msgid "A member sends you a friendship request"
+msgstr "Участник прислал тебе предложение дружбы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:171
+msgid "A member accepts your friendship request"
+msgstr "Участник принял твое предложение дружбы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:207
+msgid "Friendship could not be requested."
+msgstr "Дружбу нельзя предложить."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:209
+msgid "Friendship requested"
+msgstr "Предложена дружба"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:212
+msgid "You are already friends with this user"
+msgstr "Вы с ним уже друзья"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:214
+msgid "You already have a pending friendship request with this user"
+msgstr "У тебя уже есть ожидающее предложение дружбы с ним"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:245
+msgid "Friendship could not be canceled."
+msgstr "Дружбу нельзя отменить."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:247
+msgid "Friendship canceled"
+msgstr "Дружба отменена"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:250
+msgid "You are not yet friends with this user"
+msgstr "Вы с ним пока не друзья"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:252
+msgid "You have a pending friendship request with this user"
+msgstr "У тебя есть ожидающее предложение дружбы с ним"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:309
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:318
+#, php-format
+msgid "%s and %s are now friends"
+msgstr "%s и %s теперь друзья"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:335
+#, php-format
+msgid "%d friends accepted your friendship requests"
+msgstr "%d друзей приняли вашу дружбу"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:339
+#, php-format
+msgid "%s accepted your friendship request"
+msgstr "%s принял твою дружбу"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:345
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:349
+msgid "Friendship requests"
+msgstr "Запрос дружбы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:345
+#, php-format
+msgid "You have %d pending friendship requests"
+msgstr "Тебя ждет %d предложение дружбы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends.php:349
+#, php-format
+msgid "You have a friendship request from %s"
+msgstr "У тебя приглашение дружить от %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:166
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:204
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:872
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1118
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1131
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1145
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1158
+msgid "Groups"
+msgstr "Группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:212
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:220
+msgid "My Groups"
+msgstr "Мои группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:213
+msgid "Create a Group"
+msgstr "Создать группу"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:214
+msgid "Invites"
+msgstr "Приглашения"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:256
+msgid "Home"
+msgstr "Главная"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:260
+msgid "Admin"
+msgstr "Админ"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:264
+msgid "Request Membership"
+msgstr "Запрос участия"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:267
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1585
+msgid "Forum"
+msgstr "Форум"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:270
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-wire.php:45
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:576
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:579
+msgid "Wire"
+msgstr "Сеть"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:273
+msgid "Photos"
+msgstr "Фотографии"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:276
+msgid "Members"
+msgstr "Участники"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:280
+msgid "Send Invites"
+msgstr "Пригласить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:282
+msgid "Leave Group"
+msgstr "Уйти"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:323
+msgid "Group invite could not be accepted"
+msgstr "Приглашение в группу не может быть принято"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:325
+msgid "Group invite accepted"
+msgstr "Приглашение в группу принято"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:336
+msgid "Group invite could not be rejected"
+msgstr "Приглашение в группу не может быть отвергнуто"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:338
+msgid "Group invite rejected"
+msgstr "Приглашение в группу отвергнуто"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:378
+msgid "There was an error saving group details. Please try again."
+msgstr "Во время сохранения данных группы произошла ошибка. Попробуй еще раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:467
+msgid "Wire message could not be posted."
+msgstr "Сетевое сообщение не может быть опубликовано."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:469
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:374
+msgid "Wire message successfully posted."
+msgstr "Сетевое сообщение успешно опубликовано."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:482
+msgid "There was an error deleting the wire message."
+msgstr "Во время удаления сетевого сообщения произошла ошибка."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:484
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:419
+msgid "Wire message successfully deleted."
+msgstr "Сетевое сообщение успешно удалена."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:521
+msgid "Group invites sent."
+msgstr "Приглашение в группу отправлено."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:542
+msgid "As the only group administrator, you cannot leave this group."
+msgstr "Ты не можешь покинуть эту группу, потому что ты ее администратор."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:548
+msgid "There was an error leaving the group. Please try again."
+msgstr "Во время выхода произошла ошибка. Пропробуй еще раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:551
+msgid "You left the group successfully."
+msgstr "Ты успешно покинул группу."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:580
+msgid "There was an error sending your group membership request, please try again."
+msgstr "Во время отправки запроса на участие в группе произошла ошибка. Попробуй еще раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:582
+msgid "Your membership request was sent to the group administrator successfully. You will be notified when the group administrator responds to your request."
+msgstr "Твоя заявка на участие отправлена администратору группы. Тебя уведомят, когда он ответит на нее."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:615
+msgid "There was an error updating group details, please try again."
+msgstr "Во время сохранения данных группы произошла ошибка. Попробуй еще раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:617
+msgid "Group details were successfully updated."
+msgstr "Описание группы было успешно обновлено."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:652
+msgid "There was an error updating group settings, please try again."
+msgstr "Во время обновления настроек группы произошла ошибка. Попробуй еще раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:654
+msgid "Group settings were successfully updated."
+msgstr "Настройки группы успешно обновлены."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:697
+msgid "There was an error updating the group avatar, please try again."
+msgstr "Во время сохранения аватара группы произошла ошибка. Попробуй еще раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:699
+msgid "The group avatar was successfully updated."
+msgstr "Аватар группы успешно обновлен."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:727
+msgid "There was an error when promoting that user, please try again"
+msgstr "Произошла ошибка во время повышения этого пользователя. Пожалуйста, попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:729
+msgid "User promoted successfully"
+msgstr "Пользователь повышен"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:742
+msgid "There was an error when demoting that user, please try again"
+msgstr "Произошла ошибка во время понижения этого пользователя. Пожалуйста, попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:744
+msgid "User demoted successfully"
+msgstr "Пользователь понижен"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:757
+msgid "There was an error when banning that user, please try again"
+msgstr "Произошла ошибка во время блокирования этого пользователя. Пожалуйста, попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:759
+msgid "User banned successfully"
+msgstr "Пользователь заблокирован"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:772
+msgid "There was an error when unbanning that user, please try again"
+msgstr "Произошла ошибка во время отмены блокировки пользователя. Пожалуйста, попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:774
+msgid "User ban removed successfully"
+msgstr "Блокировка снята"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:809
+msgid "There was an error accepting the membership request, please try again."
+msgstr "При подтверждении запроса на участие произошла ошибка. Пожалуйста, попробуй ещё раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:811
+msgid "Group membership request accepted"
+msgstr "Заявка на участие в группе принята"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:818
+msgid "There was an error rejecting the membership request, please try again."
+msgstr "При отклонении запроса на участие произошла ошибка. Пожалуйста, попробуй ещё раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:820
+msgid "Group membership request rejected"
+msgstr "Заявка на участие в группе отклонена"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:848
+msgid "There was an error deleting the group, please try again."
+msgstr "Произошла ошибка во время удаления группы. Попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:850
+msgid "The group was deleted successfully"
+msgstr "Группа успешно удалена."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:878
+msgid "A member invites you to join a group"
+msgstr "Участник пригласил тебя присоединиться к группе"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:884
+msgid "Group information is updated"
+msgstr "Информация о группе обновлена"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:891
+msgid "A member posts on the wire of a group you belong to"
+msgstr "Участник опубликовал сообщение в сети группы, в которую вы входите"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:898
+msgid "You are promoted to a group administrator or moderator"
+msgstr "Тебя назначили администратором или модератором группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:904
+msgid "A member requests to join a private group for which you are an admin"
+msgstr "Пользователь запросил участие в частной группе, которую ты администрируешь"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:928
+msgid "There was an error joining the group."
+msgstr "Ошибка присоединения к группе."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:930
+msgid "You joined the group!"
+msgstr "Ты вошел в группу!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:996
+#, php-format
+msgid "%s joined the group %s"
+msgstr "%s присоединился к группе %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1010
+#, php-format
+msgid "%s created the group %s"
+msgstr "%s создал группу %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1024
+#, php-format
+msgid "%s wrote on the wire of the group %s"
+msgstr "%s написал в сети группы %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1048
+#, php-format
+msgid "%s posted on the forum topic %s in the group %s:"
+msgstr "%s написал в тему %s на форуме группы %s:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1073
+#, php-format
+msgid "%s created the forum topic %s in the group %s:"
+msgstr "%s создал тему %s на форуме группы %s:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1104
+msgid "Group Membership Requests"
+msgstr "Запросы на участие в группе"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1104
+#, php-format
+msgid "%d new membership requests for the group \"%s\""
+msgstr "%d новых запросов на участие в группе \"%s\""
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1107
+#, php-format
+msgid "%s requests membership for the group \"%s\""
+msgstr "%s оставил заявку на участие в группе \"%s\""
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1118
+#, php-format
+msgid "%d accepted group membership requests"
+msgstr "%d принятых заявок на участие в группе"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1120
+#, php-format
+msgid "Membership for group \"%s\" accepted"
+msgstr "Участие в группе \"%s\" подтверждено"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1131
+#, php-format
+msgid "%d rejected group membership requests"
+msgstr "%d отклоненных заявок на участие в группе"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1133
+#, php-format
+msgid "Membership for group \"%s\" rejected"
+msgstr "Участие в группе \"%s\" отклонено"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1145
+#, php-format
+msgid "You were promoted to an admin in %d groups"
+msgstr "Вы назначены админимтраторов в %d группах"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1147
+#, php-format
+msgid "You were promoted to an admin in the group %s"
+msgstr "Тебя назначили администратором в группе %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1158
+#, php-format
+msgid "You were promoted to a mod in %d groups"
+msgstr "Тебя назначили модератором в %d группах"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1160
+#, php-format
+msgid "You were promoted to a mod in the group %s"
+msgstr "Тебя провдинули в модераторы группы %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1171
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1173
+msgid "Group Invites"
+msgstr "Приглашения в группу"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1171
+#, php-format
+msgid "You have %d new group invitations"
+msgstr "У тебя %d новых приглашений в группу"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1173
+#, php-format
+msgid "You have an invitation to the group: %s"
+msgstr "Тебя пригласили в группу: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1302
+msgid "There is no error, the file uploaded with success"
+msgstr "Ошибок не было, файл успешно загружен"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1303
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr "Размер загруженного файла превышает значение <code>upload_max_filesize</code>, установленное в файле <code>php.ini</code>."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1304
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"
+msgstr "Размер загруженного файла превышает значение <em>MAX_FILE_SIZE</em>, указанное в HTML-форме."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1305
+msgid "The uploaded file was only partially uploaded"
+msgstr "Файл был загружен неполностью."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1306
+msgid "No file was uploaded"
+msgstr "Файл не был загружен"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1307
+msgid "Missing a temporary folder"
+msgstr "Пропала временная директория"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1312
+msgid "Your group avatar upload failed, please try again. Error was: "
+msgstr "Аватар группы не удалось загрузить, пожалуйста попробуй еще. Ошибки такие:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1318
+msgid "The file you uploaded is too big. Please upload a file under"
+msgstr "Твой файл слишком большой. Пожалуйста, загрузи файл под"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1323
+msgid "Please upload only JPG, GIF or PNG photos."
+msgstr "Пожалуйста загружайте только фотографии JPG, GIF или PNG."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1329
+msgid "Upload Failed! Please check the permissions on the group avatar upload directory."
+msgstr "Загрузка не удалась! Пожалуйста, проверь доступ в директорию загрузки аватаров группы."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1423
+msgid "Group Admin"
+msgstr "Администратор"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1600
+msgid "Reply posted successfully!"
+msgstr "Сообщение успешно опубликовано!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1610
+msgid "There was an error posting that reply."
+msgstr "Произошла ошибка публикации ответа."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1622
+msgid "Topic posted successfully!"
+msgstr "Тема успешно опубликована!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups.php:1632
+msgid "There was an error posting that topic."
+msgstr "Произошла ошибка публикации темы."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:142
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:245
+msgid "Messages"
+msgstr "Сообщения"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:148
+msgid "Inbox"
+msgstr "Входящие"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:149
+msgid "Sent Messages"
+msgstr "Отправленные"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:150
+msgid "Compose"
+msgstr "Написать"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:151
+msgid "Notices"
+msgstr "Уведомления"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:155
+msgid "My Messages"
+msgstr "Мои сообщения"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:215
+msgid "There was a problem deactivating that notice."
+msgstr "Во время отключения этого уведомления произошла ошибка."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:217
+msgid "Notice deactivated."
+msgstr "Уведомления отключены."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:221
+msgid "There was a problem activating that notice."
+msgstr "Во время включения этого уведомления произошла ошибка."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:223
+msgid "Notice activated."
+msgstr "Уведомления включены."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:227
+msgid "There was a problem deleting that notice."
+msgstr "Во время удаления этого уведомления произошла ошибка."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:229
+msgid "Notice deleted."
+msgstr "Уведомление удалено."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:251
+msgid "A member sends you a new message"
+msgstr "Участник послал тебе новое сообщение"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:257
+msgid "A new site notice is posted"
+msgstr "Опубликовано новое уведомление сайта"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:282
+#, php-format
+msgid "From: %s"
+msgstr "От: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:306
+msgid "There was an error deleting that message."
+msgstr "Во время удаления этого сообщения произошла ошибка."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:308
+msgid "Message deleted."
+msgstr "Сообщение удалено."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:328
+msgid "There was an error deleting messages."
+msgstr "Во время удаления сообщения произошла ошибка."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:330
+msgid "Messages deleted."
+msgstr "Сообщения удалены."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:364
+#, php-format
+msgid "You have %d new messages"
+msgstr "У тебя %d новых сообщений"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:366
+#, php-format
+msgid "You have %d new message"
+msgstr "У тебя %d новое сообщение"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:393
+msgid "Notice posted successfully."
+msgstr "Уведомление успешно опубликовано."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:395
+msgid "There was an error posting that notice."
+msgstr "Произошла ошибка публикации этого уведомления."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:406
+msgid "Please enter at least one valid user to send this message to."
+msgstr "Пожалуйста, введи хотя бы одного пользователя для отправки сообщения."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:409
+msgid "There was an error sending the reply, please try again."
+msgstr "Во время отправки ответа произошла ошибка. Пожалуйста, попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:414
+msgid "You must send your message to one or more users not including yourself."
+msgstr "Ты должен отправить сообщение одному или больше пользователей исключая себя."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:420
+msgid "Please make sure you fill in all the fields."
+msgstr "Убедись, что заполнил все поля."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:423
+msgid "Please make sure you have typed a message before sending a reply."
+msgstr "Убедись, что ввел сообщение перед отправкой ответа."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:452
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:486
+msgid "Message could not be sent, please try again."
+msgstr "Сообщение не может быть отправлено, попробуй еще раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:462
+msgid "Message sent successfully!"
+msgstr "Сообщение успешно отправлено!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages.php:462
+msgid "View Message"
+msgstr "Просмотреть сообщение"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-wire.php:49
+msgid "All Posts"
+msgstr "Все записи"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-wire.php:53
+msgid "My Wire"
+msgstr "Моя сеть"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:175
+msgid "Profile Field Setup"
+msgstr "Настройка полей профиля"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:207
+msgid "Edit Profile"
+msgstr "Редактировать"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:208
+msgid "Change Avatar"
+msgstr "Сменить аватар"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:304
+msgid "A member posts on your wire"
+msgstr "Участник опубликовал в вашей сети"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:372
+msgid "Wire message could not be posted. Please try again."
+msgstr "Сетевое сообщение не может быть отправлено, попробуй еще раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:423
+msgid "Wire post could not be deleted, please try again."
+msgstr "Сетевое сообщение не може быть удалено, попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:512
+#, php-format
+msgid "%s wrote on their own wire"
+msgstr "%s написал в свою собственную сеть"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:520
+#, php-format
+msgid "%s wrote on %s wire"
+msgstr "%s написал в сеть %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:548
+#, php-format
+msgid "%s updated the \"%s\" information on their profile"
+msgstr "%s обновил \"%s\" в своем профиле."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:576
+#, php-format
+msgid "You have %d new posts on your wire"
+msgstr "В твоей сети %d новых сообщений"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:579
+#, php-format
+msgid "%s posted on your wire"
+msgstr "%s написал в твоей сети"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:617
+msgid "Information"
+msgstr "Информация"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:656
+#, php-format
+msgid "%s cannot be left blank."
+msgstr "%s нельзя оставлять пустым."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:708
+msgid "There was a problem saving changes to this field, please try again."
+msgstr "Произошла ошибка сохранения изменений в этом поле. Пожалуйста, попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:725
+msgid "Save Changes &raquo;"
+msgstr "Сохранить изменения &raquo;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:733
+msgid "There were problems saving your information. Please fix the following:<br />"
+msgstr "Произошла ошибка сохранения твоей информации. Пожалуйста, исправь одним из способов:<br />"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:742
+msgid "Changes saved."
+msgstr "Изменения сохранены."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile.php:753
+msgid "That group does not exist."
+msgstr "Нет такой группы."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/bp-activity-templatetags.php:181
+#, php-format
+msgid "Viewing item %d to %d (of %d items)"
+msgstr "Просмотр элементов с %d по %d (из %d)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/bp-activity-templatetags.php:182
+msgid "Loading"
+msgstr "Загрузка"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/bp-activity-templatetags.php:277
+#, php-format
+msgid "&nbsp; %s ago"
+msgstr "&nbsp; %s назад"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/bp-activity-widgets.php:8
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/bp-activity-widgets.php:9
+msgid "Site Wide Activity"
+msgstr "Активность на сайте"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/bp-activity-widgets.php:43
+msgid "RSS Feed"
+msgstr "RSS"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/bp-activity-widgets.php:43
+msgid "Site Wide Activity RSS Feed"
+msgstr "RSS всей активности на сайте"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/bp-activity-widgets.php:54
+msgid "There has been no recent site activity."
+msgstr "В последнее время никакой активности на сайте не было."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/bp-activity-widgets.php:77
+msgid "Max Number of Items:"
+msgstr "Максимальное количество элементов:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/feeds/bp-activity-friends-feed.php:21
+msgid "Friends Activity"
+msgstr "Активность друзей"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/feeds/bp-activity-friends-feed.php:24
+#, php-format
+msgid "%s - Friends Activity Feed"
+msgstr "%s - Лента активности друзей"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/feeds/bp-activity-personal-feed.php:24
+#, php-format
+msgid "%s - Activity Feed"
+msgstr "%s - Лента активности"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-activity/feeds/bp-activity-sitewide-feed.php:25
+msgid "Site Wide Activity Feed"
+msgstr "Лента всей активности на сайте"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:39
+msgid "There was a problem, please correct the form below and try again."
+msgstr "Что-то не получилось. Пожалуйста, исправьте данные в этой форме и попробуйте еще раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:42
+msgid "By filling out the form below, you can <strong>add a blog to your account</strong>. There is no limit to the number of blogs you can have, so create to your heart's content, but blog responsibly."
+msgstr "Ты можешь <strong>добавить блог в свою учетную запись</strong>, если заполнишь форму ниже. Нет никаких ограничений на количество блогов, так что создавайте столько, сколько нужно."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:44
+msgid "If you&#8217;re not going to use a great blog domain, leave it for a new user. Now have at it!"
+msgstr "Если вы не собираетесь использовать отличный домен, оставьте его для новых пользователей. А теперь приступайте!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:52
+msgid "Create Blog &raquo;"
+msgstr "Создать блог &raquo;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:66
+msgid "Blog Name:"
+msgstr "Имя блога:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:68
+msgid "Blog Domain:"
+msgstr "Домен блога:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:80
+msgid "Your address will be "
+msgstr "Твой адрес будет"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:82
+msgid "blogname"
+msgstr "имя блога"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:84
+msgid "domain."
+msgstr "домен."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:86
+msgid "Must be at least 4 characters, letters and numbers only. It cannot be changed so choose carefully!)"
+msgstr "Как минимум 4 символа, только буквы и цифры. Вы не сможете это изменить, так что будьте внимательны!)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:91
+msgid "Blog Title:"
+msgstr "Заголовок блога:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:99
+msgid "Privacy:"
+msgstr "Приватность:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:100
+msgid "I would like my blog to appear in search engines like Google and Technorati, and in public listings around this site."
+msgstr "Я хочу, чтобы мой блог присутствовал в поисковых системах вроде Google and Technorati, а также в &laquo;прямом эфире&raquo; этого сайта."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:159
+msgid "Congratulations! You have successfully registered a new blog."
+msgstr "Поздравляю! Ты успешно зарегистрировал новый блог."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:161
+#, php-format
+msgid "<a href=\"http://%1$s\">http://%2$s</a> is your new blog.  <a href=\"%3$s\">Login</a> as \"%4$s\" using your existing password."
+msgstr "<a href=\"http://%1$s\">http://%2$s</a> &#8212; ваш новый блог.  <a href=\"%3$s\">Войдите</a> как \"%4$s\", используя ваш пароль."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:185
+#, php-format
+msgid "%s's Blogs"
+msgstr "Блог %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:186
+#, php-format
+msgid "%s's Recent Posts"
+msgstr "Последние записи %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:187
+#, php-format
+msgid "%s's Recent Comments"
+msgstr "Последние комментарии %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:328
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:1207
+#, php-format
+msgid "Viewing blog %d to %d (of %d blogs)"
+msgstr "Просмотр блогов с %d по %d (из %d)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:504
+#, php-format
+msgid "Viewing post %d to %d (of %d posts)"
+msgstr "Просмотр записей %d - %d (из %d)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:608
+msgid "Enter your password to view comments"
+msgstr "Введи свой пароль для просмотра комментариев"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:628
+#, php-format
+msgid "Comment on %s"
+msgstr "Комментарий на %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:1230
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:1239
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:1248
+msgid "Blog Avatar"
+msgstr "Аватар блога"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:1284
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-ajax.php:52
+#, php-format
+msgid "active %s ago"
+msgstr "был здесь %s назад"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:1294
+#, php-format
+msgid "Latest Post: %s"
+msgstr "Свежая запись: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:1315
+msgid "Search anything..."
+msgstr "Искать все..."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-templatetags.php:1316
+msgid "Search"
+msgstr "Поиск"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-widgets.php:8
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-widgets.php:9
+msgid "Recent Blog Posts"
+msgstr "Свежие записи в блогах"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-widgets.php:37
+msgid "Site Wide"
+msgstr "Вся сеть"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-widgets.php:51
+#, php-format
+msgid "by %s from the blog <a href=\"%s\">%s</a>"
+msgstr "от %s из блога <a href=\"%s\">%s</a>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-widgets.php:59
+msgid "There are no recent blog posts, why not write one?"
+msgstr "В блогах нет свежих записей, почему никто не пишет?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-blogs/bp-blogs-widgets.php:82
+msgid "Max Number of Posts:"
+msgstr "Максимальное количество записей:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:21
+msgid "Activation Key Required"
+msgstr "Требуется ключ активации"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:23
+msgid "This is the key contained in the email you were sent after registering for this site."
+msgstr "Этот ключ есть в письме, который послан тебе после регистрации на этом сайте."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:28
+msgid "Activation Key:"
+msgstr "Ключ активации:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:32
+msgid "Activate &raquo;"
+msgstr "Активировать &raquo;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:47
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:65
+msgid "Your account is now active!"
+msgstr "Твоя учетная запись теперь активна!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:50
+msgid "Your account has already been activated. You can now log in with the account details that were emailed to you."
+msgstr "Твоя учетная запись уже была активирована. Ты теперь можешь войти с логином/паролем, которые были выстаны тебе почтой."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:54
+msgid "An error occurred during the activation"
+msgstr "Произошла ошибка во время активации"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:67
+#, php-format
+msgid "Your account is now activated. <a href=\"%1$s\">Login</a> or go back to the <a href=\"%2$s\">homepage</a>."
+msgstr "Твоя запись не активирована. <a href=\"%1$s\">Войди</a> или вернись на <a href=\"%2$s\">главную страницу</a>."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:70
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:71
+msgid "Password:"
+msgstr "Пароль:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:99
+#, php-format
+msgid ""
+"To activate your blog, please click the following link:\n"
+"\n"
+"%s\n"
+"\n"
+"After you activate, you will receive *another email* with your login.\n"
+"\n"
+"After you activate, you can visit your blog here:\n"
+"\n"
+"%s"
+msgstr ""
+"Чтобы активировать свой блог, перейди по следующей ссылке:\n"
+"\n"
+"%s\n"
+"\n"
+"Посте активации ты получишь *другое письмо* с логином.\n"
+"\n"
+"После активации ты сможешь увидеть свой блог здесь::\n"
+"\n"
+"%s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:100
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:121
+#, php-format
+msgid "Activate %s"
+msgstr "Активировать %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-activation.php:120
+#, php-format
+msgid ""
+"To activate your user, please click the following link:\n"
+"\n"
+"%s\n"
+"\n"
+"After you activate, you will receive *another email* with your login.\n"
+"\n"
+msgstr ""
+"Чтобы активировать своего пользователя, перейди по ссылке:\n"
+"\n"
+"%s\n"
+"\n"
+"После активации ты получишь *другое письмо* с твоим логином.\n"
+"\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:32
+msgid "BuddyPress Settings"
+msgstr "Настройки BuddyPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:36
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:168
+msgid "Settings Saved"
+msgstr "Настройки сохранены"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:46
+msgid "Base profile group name"
+msgstr "Базовое имя профиля группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:52
+msgid "Full Name field name"
+msgstr "Поле полного имени группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:58
+msgid "Disable BuddyPress to WordPress profile syncing?"
+msgstr "Отключить синхронизацию BuddyPress с профилями WordPress?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:66
+msgid "Hide admin bar for logged out users?"
+msgstr "Скрывать панель администарирования для неавторизованных пользователей?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:73
+msgid "Disable avatar uploads? (Gravatars will still work)"
+msgstr "Запретить загрузку аватаров? (Граватары будут работать и дальше)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:81
+msgid "Allow non-friends to post on profile wires?"
+msgstr "Позволять не-друзьям писать в личной сети?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:89
+msgid "Select theme to use for BuddyPress generated pages"
+msgstr "Выберите тему для страниц BuddyPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:107
+#, php-format
+msgid "<strong>You do not have any BuddyPress themes installed.</strong><p style=\"line-height: 150%%\">Please move the default BuddyPress themes to their correct location (move %s to %s) and reload this page. You can <a href=\"http://buddypress.org/extend/themes\" title=\"Download\">download more themes here</a>.</p>"
+msgstr "<strong>У вас нет ни одной установленной темы BuddyPress.</strong><p style=\"line-height: 150%%\">Пожалуйста, переместите темы BuddyPress по умолчанию на их правильное место (переместите %s в %s) и обновите эту страницу. Вы можете <a href=\"http://buddypress.org/extend/themes\" title=\"Download\">скачать дополнительные темы здесь</a>.</p>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:109
+msgid "No Themes Installed."
+msgstr "Нет установленых тем."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:114
+msgid "Default User Avatar"
+msgstr "Аватар пользователя по умолчанию"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:116
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their email address"
+msgstr "Для пользователей без собственного аватара вы можете или показывать логотип, или автоматически генерировать аватар на основе их почтовых адресов."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:118
+msgid "Mystery Man"
+msgstr "Человек-загадка"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:119
+msgid "Identicon (Generated)"
+msgstr "Identicon (Автоматический)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:120
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (Автоматический)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:121
+msgid "MonsterID (Generated)"
+msgstr "MonsterID (Автоматический)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:132
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:263
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:164
+msgid "BuddyPress Component Setup"
+msgstr "Настройки компонентов BuddyPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:176
+msgid ""
+"By default, all BuddyPress components are enabled. You can selectively disable any of the \n"
+"\t\t\t\tcomponents by using the form below. Your BuddyPress installation will continue to function, however\n"
+"\t\t\t\tthe features of the disabled components will no longer be accessible to\n"
+"\t\t\t\tanyone using the site.\n"
+"\t\t\t\t"
+msgstr ""
+"По умолчанию, все BuddyPress компоненты включены. Вы можете выборочно отключить любой из\n"
+"\t\t\t\tкомпонентов в форме ниже. Ваша установка BuddyPress продолжит работу\n"
+"\t\t\t\tнесмотря на то, что отключенная функциональность больше не будет доступна\n"
+"\t\t\t\tпользователям сайта.\n"
+"\t\t\t\t"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:189
+msgid "Activity Streams"
+msgstr "Ленты активности"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:189
+msgid "Tracks user activity across the entire site."
+msgstr "Отслеживает активность пользователей на всем сайте."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:191
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:200
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:209
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:218
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:227
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:236
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:245
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:254
+msgid "Enabled"
+msgstr "Включено"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:192
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:201
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:210
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:219
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:228
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:237
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:246
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:255
+msgid "Disabled"
+msgstr "Отключено"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:198
+msgid "Blog Tracking"
+msgstr "Отслеживание блогов"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:198
+msgid "Tracks blogs, blog posts and blogs comments for a user across a WPMU installation."
+msgstr "Отслеживает блоги, публикацию и комментирование в них для пользователей по всему установленному WPMU."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:207
+msgid "bbPress Forums"
+msgstr "Форумы bbPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:207
+msgid "Activates bbPress forum support within BuddyPress groups or any other custom component."
+msgstr "Активирует поддержку форума bbPress внутри групп BuddyPress или любого другого компонента."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:216
+msgid "Allows the creation of friend connections between users."
+msgstr "Разрешает создание дружеских связей между пользователями."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:225
+msgid "Let users create, join and participate in groups."
+msgstr "Позволяет пользователям создавать, присоединяться и участвовать в группах."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:234
+msgid "Private Messaging"
+msgstr "Личные сообщения"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:234
+msgid "Let users send private messages to one another. Site admins can also send site-wide notices."
+msgstr "Позволяют пользователям отправлять друг другу личные сообщения. Администратор сайта также может оправлять уведомления всем."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:243
+msgid "Comment Wire"
+msgstr "Сеть комментариев"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:243
+msgid "Let users leave a comment on groups, profiles and custom components."
+msgstr "Позволяет пользователям оставлять комментарии в группах, профилях и в других компонентах."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:252
+msgid "Extended Profiles"
+msgstr "Расширенный профиль"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-admin.php:252
+msgid "Activates customizable profiles and avatars for site users."
+msgstr "Активируетнастраиваемые профили и аватары для пользователей сайта."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:37
+msgid "Log In"
+msgstr "Войти"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:41
+msgid "Sign Up"
+msgstr "Зарегистрироваться"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:60
+msgid "My Account"
+msgstr "Моя учетная запись"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:90
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:92
+msgid "Log Out"
+msgstr "Выйти"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:110
+msgid "Subscriber"
+msgstr "Подписчик"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:112
+msgid "Contributor"
+msgstr "Помощник"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:114
+msgid "Author"
+msgstr "Автор"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:116
+msgid "Editor"
+msgstr "Редактор"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:155
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:156
+msgid "New Post"
+msgstr "Новая запись"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:157
+msgid "Manage Posts"
+msgstr "Записи"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:158
+msgid "Manage Comments"
+msgstr "Комментарии"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:160
+msgid "Switch Theme"
+msgstr "Сменить тему"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:172
+msgid "Create a Blog!"
+msgstr "Создать блог!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:187
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:205
+msgid "No new notifications."
+msgstr "Нет новых уведомлений."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:224
+msgid "Blog Authors"
+msgstr "Авторы блога"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:250
+msgid "Visit"
+msgstr "Посетить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:252
+msgid "Random Member"
+msgstr "Случайный участник"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:255
+msgid "Random Group"
+msgstr "Случайная группа"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-adminbar.php:259
+msgid "Random Blog"
+msgstr "Случайный блог"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-ajax.php:50
+#, php-format
+msgid "registered %s ago"
+msgstr "зарегистрирован %s назад"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-ajax.php:55
+msgid " friend"
+msgstr " друг"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-ajax.php:57
+msgid " friends"
+msgstr " друзей"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-ajax.php:67
+msgid "No members matched the current filter."
+msgstr "Таких нет."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:102
+msgid "Your avatar will be used on your profile and throughout the site."
+msgstr "Твой аватар будет использоваться в твоем профиле и по всему сайту."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:103
+msgid "Click below to select a JPG, GIF or PNG format photo from your computer and then click 'Upload Photo' to proceed."
+msgstr "Шелкните ниже, чтобы выбрать фотографии в формуте JPG, GIF или PNG с вашего компьютера и затем нажмите \"Загрузить фото\"."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:111
+msgid "This is your current avatar"
+msgstr "Это ваш текущий аватар"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:114
+msgid "Delete"
+msgstr "Удалить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:126
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:127
+msgid "Your image was bigger than the maximum allowed file size of: "
+msgstr "Твой картинка была больше максимально разрешенного размера файла:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:134
+#, php-format
+msgid "Your upload failed, please try again. Error was: %s"
+msgstr "Закачка не удалась, пожалуйста попробуй еще раз. Ошибка: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:137
+#, php-format
+msgid "The file you uploaded is too big. Please upload a file under %s"
+msgstr "Файл слишком велик. Пожалуйста, не загружай файлы больше %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:144
+#, php-format
+msgid "Upload Failed! Error was: %s"
+msgstr "Загрузка провалена! Произошла ошибка: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:158
+msgid "Security error."
+msgstr "Ошибка безопасности."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:161
+msgid "Error when cropping, please go back and try again"
+msgstr "Ошибка во время образки, пожалуйста вернись и попробуй еще раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:164
+msgid "Error when saving avatars, please go back and try again."
+msgstr "Ошибка во время сохранение аватаров, пожалуйста вернись и попробуй еще раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:167
+msgid "Your new avatar was successfully created!"
+msgstr "Твой новый аватар успешно создан!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:183
+msgid "Avatar successfully removed."
+msgstr "Аватар успешно удален."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:294
+msgid "Please Crop Your Avatar!"
+msgstr "Пожалуйста, обрежь свой аватар!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:295
+msgid "Thumbnail Avatar"
+msgstr "Маленький аватар"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:296
+msgid "Please crop a small version of your avatar to use for thumbnails."
+msgstr "Пожалуйста обрежь картинку для маленькой версии твоего аватара."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:299
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:324
+msgid "Select the area to crop"
+msgstr "Выберите область для обрезки"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:302
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:327
+msgid "Crop Preview"
+msgstr "Обрезать"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:316
+msgid "Crop Thumbnail &amp; Continue"
+msgstr "Обрезать малый аватар и Продолжить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:320
+msgid "Full Size Avatar"
+msgstr "Полноразмерный аватар"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:321
+msgid "Please crop a full size version of your avatar."
+msgstr "Пожалуйста обрежь картинку для большой версии твоего аватара."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:339
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:346
+msgid "Crop Full Size &amp; Save"
+msgstr "Обрезать большой аватар и Сохранить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:453
+msgid "Upload Photo"
+msgstr "Загрузить фото"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-avatars.php:485
+msgid "Try Again"
+msgstr "Пропробуй еще раз"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-catchuri.php:229
+msgid "<strong>You do not have any BuddyPress themes installed.</strong><br />Please move \"/wp-content/plugins/buddypress/bp-themes/\"  to \"/wp-content/bp-themes/\" and refresh this page. You can <a href=\"http://buddypress.org/extend/themes/\">download more themes here</a>."
+msgstr "<strong>У вас нет ни одной установленной темы BuddyPress.</strong><br />Пожалуйста, переместите \"/wp-content/plugins/buddypress/bp-themes/\"  в \"/wp-content/bp-themes/\"  и обновите эту страницу. Вы можете <a href=\"http://buddypress.org/extend/themes\">скачать дополнительные темы здесь</a>."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-classes.php:82
+msgid "friend"
+msgstr "друг"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-classes.php:84
+msgid "friends"
+msgstr "друзей"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-classes.php:86
+#, php-format
+msgid "%s's friend list"
+msgstr "Список друзей %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-classes.php:93
+msgid "blog"
+msgstr "блог"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-classes.php:95
+msgid "blogs"
+msgstr "блог(а,ов)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-classes.php:97
+#, php-format
+msgid "%s's blog list"
+msgstr "Список блогов %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-classes.php:106
+msgid "group"
+msgstr "группа"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-classes.php:108
+msgid "groups"
+msgstr "групп"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-classes.php:110
+#, php-format
+msgid "%s's group list"
+msgstr "Список групп %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:6
+msgid "Settings"
+msgstr "Настройки"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:9
+msgid "General"
+msgstr "Общие"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:13
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:186
+msgid "Delete Account"
+msgstr "Удалить учетную запись"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:66
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:122
+msgid "Changes Saved."
+msgstr "Изменения сохранены"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:72
+msgid "Your passwords did not match"
+msgstr "Твои пароли не совпадают"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:77
+msgid "Account Email"
+msgstr "e-mail учетной записи"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:80
+msgid "Change Password <span>(leave blank for no change)</span>"
+msgstr "Смени пароль <span>(или оставь пустым, чтобы не менять)</span>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:81
+msgid "New Password"
+msgstr "Новый пароль"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:82
+msgid "Repeat New Password"
+msgstr "Повтори новый пароль"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:84
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:132
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:114
+msgid "Notification Settings"
+msgstr "Настройки уведомлений"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:127
+msgid "Email Notifications"
+msgstr "Уведомления на e-mail"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:128
+msgid "Send a notification by email when:"
+msgstr "Отправлять уведомления по e-mail когда:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:195
+msgid "WARNING: Deleting your account will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgstr "ВНИМАНИЕ: Удаление учетной записи полностью удалит ВСЕ связанное с ним содержание. Пути назад не будет, пожалуйста, будь осторожен с этим действием."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:198
+msgid "I understand the consequences of deleting my account."
+msgstr "Я сознательно продолжаю удаление моей учетной записи."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-settings.php:199
+msgid "Delete My Account"
+msgstr "Удалите мою учетную запись"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:26
+msgid "Blog Details"
+msgstr "Подробности о блоге"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:28
+msgid "To register your first blog, just fill in the details below and your registration is complete."
+msgstr "Чтобы зарегистрировать твой первый блог, просто введи информацию в поле ниже."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:105
+msgid "(Must be at least 4 characters, letters and numbers only.)"
+msgstr "(Как минимум 4 символа, только буквы и цифры.)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:109
+msgid "Email&nbsp;Address:"
+msgstr "Email&nbsp;адрес:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:113
+msgid "(We&#8217;ll send your password to this address, so <strong>triple-check it</strong>.)"
+msgstr "(Мы пошлем тебе пароль по этому адресу, поэтому <strong>трижды перепроверь его</strong>.)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:143
+msgid "You're already registered!"
+msgstr "Ты уже регистрировался!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:144
+msgid "You can still create another blog however. Fill in the form below to add another blog to your account."
+msgstr "Ты сможешь создать другой блог в любое время. Заполни форму ниже и добавь новый блог к своей учетной записи."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:147
+msgid "There is no limit to the number of blogs you can have, so create to your heart's content, but blog responsibly. If you&#8217;re not going to use a great blog domain, leave it for a new user. Now have at it!"
+msgstr "Нет никаких ограничений на количество блогов, так что твори сколько душе угодно, но будь ответственен. Если ты не собираешься использовать отличный домен, оставь его для новых пользователей. А теперь приступай!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:185
+#, php-format
+msgid "The blog %s is yours."
+msgstr "Блог %s твой."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:215
+msgid "Registering for a new account is easy, just fill in the form below and you'll be a new member in no time at all."
+msgstr "Создать новую учетную запись легко, просто заполни форму ниже и ты станешь новым участником сразу же."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:227
+msgid "Create a Blog?"
+msgstr "Создать блог?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:228
+msgid "If you want to create your first blog, select the option below and you'll be asked for a few more details."
+msgstr "Если ты хочешь создать свой блог, выбери настройку ниже и ответь на несколько вопросов."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:233
+msgid "Gimme a blog!"
+msgstr "Дайте блог!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:238
+msgid "Just a username, please."
+msgstr "Пожалуйста, имя пользователя."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:244
+msgid "Next &raquo;"
+msgstr "Дальше &raquo;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:271
+msgid "Congratulations, you are now registered!"
+msgstr "Поздравляю, теперь ты зарегистрирован."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:272
+#, php-format
+msgid "Your new username is: %s"
+msgstr "Твое новое имя пользователя: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:274
+#, php-format
+msgid "Before you can start using your new username, <strong>you must activate it</strong>. Check your inbox at <strong>%1$s</strong> and click the link given."
+msgstr "Перед тем, как ты сможешь начать использовать свое новое имя, <strong>ты должен его активировать</strong>. Проверь свой ящик на <strong>%1$s</strong> и перейди по ссылке в письме."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:275
+msgid "If you do not activate your username within two days, you will have to sign up again."
+msgstr "Если ты не активируешь свое имя пользователя за два дня, придется регистрироваться заново."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:302
+msgid "Signup &raquo;"
+msgstr "Зарегистрироваться &raquo;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:336
+msgid "Congratulations, You are now registered!"
+msgstr "Поздравляю, теперь ты зарегистрирован."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:338
+#, php-format
+msgid "But, before you can start using your blog, <strong>you must activate it</strong>. Check your inbox at <strong>%s</strong> and click the link given. It should arrive within 30 minutes."
+msgstr "Но перед тем, как начать свой собственный блог, <strong>ты должен активировать его</strong>. Проверь свой ящик <strong>%s</strong> и перейди по ссылке в письме в течение 30 минут."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:341
+msgid "Still waiting for your email?"
+msgstr "Все еще ждешь письмо?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:343
+msgid "If you haven't received your email yet, there are a number of things you can do:"
+msgstr "Если ты пока не получил письмо, ты можешь сделать следующее:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:345
+msgid "Wait a little longer.  Sometimes delivery of email can be delayed by processes outside of our control."
+msgstr "Подождать еще немного. Иногда доставка писем может задерживаться по пути."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:346
+msgid "Check the junk email or spam folder of your email client.  Sometime emails wind up there by mistake."
+msgstr "Проверить корзину или папку спама твоего почтового ящика. Иногда письма отправляются туда по ошибке."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:347
+#, php-format
+msgid "Have you entered your email correctly?  We think it's %s but if you've entered it incorrectly, you won't receive it."
+msgstr "Ты ввел правильный адрес? Мы думаем, что это %s, но если ты ввел его неверно, письма ты не получишь."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:363
+#, php-format
+msgid "Greetings Site Administrator! You are currently allowing '%s' registrations. To change or disable registration go to your <a href='wp-admin/wpmu-options.php'>Options page</a>."
+msgstr "Привествуем администратора сайта! У тебя сейчас разрешены регистрация '%s'. Чтобы изменить или запретить регистрацию, перейди на <a href='wp-admin/wpmu-options.php'>Страницу настроек</a>."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:369
+msgid "Registration has been disabled."
+msgstr "Регистрация отключена."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:377
+#, php-format
+msgid "You must first <a href=\"%s\">login</a>, and then you can create a new blog."
+msgstr "Ты должен сначала <a href=\"%s\">войти</a> и потом можешь создать новый блог."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:384
+msgid "User registration has been disabled."
+msgstr "Регистрация пользователей отключена."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:390
+msgid "Blog registration has been disabled."
+msgstr "Регистрация блогов отключена."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:403
+msgid "I'm sorry. We're not accepting new registrations at this time."
+msgstr "Как жаль. Сейчас мы не принимаем новых регистраций."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:405
+msgid "You're logged in already. No need to register again!"
+msgstr "Ты уже здесь. Незачем регистрироваться еще раз!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:413
+#, php-format
+msgid "<p><em>The blog you were looking for, <strong>%s</strong> doesn't exist but you can create it now!</em></p>"
+msgstr "<p><em>Блог <strong>%s</strong>, который ты ищешь, не существует, но ты можешь его создать прямо сейчас!</em></p>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-signup.php:415
+#, php-format
+msgid "<p><em>The blog you were looking for, <strong>%s</strong> doesn't exist.</em></p>"
+msgstr "<p><em>Блог <strong>%s</strong>, который ты ищешь, не существует.</em></p>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:177
+msgid "Options"
+msgstr "Настройки"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:296
+msgid "Name"
+msgstr "Имя"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:306
+msgid "About Me"
+msgstr "Обо мне"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:316
+msgid "Website"
+msgstr "Web-сайт"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:326
+msgid "Jabber"
+msgstr "Jabber"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:336
+msgid "AOL Messenger"
+msgstr "AOL Messenger"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:346
+msgid "Yahoo Messenger"
+msgstr "Yahoo Messenger"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:454
+msgid "Blog &#8212; "
+msgstr "Блог &#8212; "
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:456
+msgid "Blog &#8212; Categories &#8212; "
+msgstr "Блог &#8212; Рубрики &#8212; "
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:458
+msgid "Blog &#8212; Tags &#8212; "
+msgstr "Блог &#8212; Метки &#8212; "
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:460
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:651
+msgid "Blog"
+msgstr "Блог"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:468
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:470
+#, php-format
+msgid "%s Directory"
+msgstr "%s Каталог"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:595
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:598
+msgid "Remember Me"
+msgstr "Запомните меня"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:924
+#, php-format
+msgid "Viewing member %d to %d (of %d members)"
+msgstr "Просмотр участников с %d по %d (из %d)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:1006
+#, php-format
+msgid "%d friend"
+msgstr "%d друг"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-templatetags.php:1008
+#, php-format
+msgid "%d friends"
+msgstr "%d друзей"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:8
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:9
+msgid "Welcome"
+msgstr "Приветствие"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:21
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:22
+msgid "Who's Online"
+msgstr "Кто в сети"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:45
+msgid "Create Account"
+msgstr "Создать учетную запись"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:68
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:166
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:370
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:70
+msgid "Welcome Text:"
+msgstr "Текст приветствия:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:104
+msgid "Newest"
+msgstr "Новые"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:105
+msgid "Active"
+msgstr "Активные"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:106
+msgid "Popular"
+msgstr "Популярные"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:133
+msgid "No one has signed up yet!"
+msgstr "Пока никто не зарегистрировался!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:157
+msgid "Max Members to show:"
+msgstr "Максимальное количество участников:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:205
+msgid "There are no users currently online."
+msgstr "Никого нет."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-core/bp-core-widgets.php:231
+msgid "Maximum number of members to show:"
+msgstr "Максимальное количество участников:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:7
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:54
+msgid "Forums Setup"
+msgstr "Настройка форумов"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:58
+msgid "Settings Saved."
+msgstr "Настройки сохранены."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:65
+msgid "To enable forums for each group in a BuddyPress installation, you must first download, install, and setup bbPress and integrate it with WordPress MU."
+msgstr "Чтобы разрешить форумы для каждой группы BuddyPress, вы должны сначала скачать, установить и настроить bbPress и интегрировать его с WordPress MU."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:66
+msgid "Once you have bbPress set up correctly, enter the options below so that BuddyPress can connect."
+msgstr "После корректной установки bbPress, введите настройки ниже так, чтобы BuddyPress мог соединиться."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:73
+msgid "bbPress URL"
+msgstr "Ссылка bbPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:76
+msgid "The URL of the location you installed bbPress. For example, http://example.com/forums/"
+msgstr "Ссылка, где расположен установленный bbPress. Например, http://example.com/forums/"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:80
+msgid "bbPress username"
+msgstr "Имя пользователя bbPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:83
+msgid "The username for the user (with admin rights) that you created for BuddyPress integration"
+msgstr "Имя пользователя (с правами администратора), которое вы создали для интеграции с BuddyPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:87
+msgid "bbPress password"
+msgstr "Пароль bbPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:90
+msgid "The password for the user (with admin rights) that you created for BuddyPress integration"
+msgstr "Пароль пользователя (с правами администратора), который вы создали для интеграции с BuddyPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:95
+msgid "Cache requests"
+msgstr "Кэшировать запросы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:98
+msgid "Caching enabled"
+msgstr "Кэширование включено"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:101
+msgid "Turn on caching of requests to reduce latency and load."
+msgstr "Включите кэширование запросов для уменьшения канала и загрузки."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:105
+msgid "Cache timeout"
+msgstr "Таймаут кэша"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:107
+msgid "(seconds)"
+msgstr "(секунды)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-admin.php:108
+msgid "The amount of time in seconds that a cached request is valid for."
+msgstr "Время в секундах для кэша."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:20
+msgid "Forum lists from your bbPress forums"
+msgstr "Список форумов bbPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:36
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:44
+msgid "bbPress Forum list"
+msgstr "Список форумов bbPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:90
+msgid "Topics"
+msgstr "Темы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:91
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:292
+msgid "Posts"
+msgstr "Записи"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:172
+msgid "Parent forum id or slug (optional):"
+msgstr "Идентификатор родительского форума или ярлык (необязательно):"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:178
+msgid "Hierarchy depth:"
+msgstr "Глубина иерархии:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:184
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:388
+msgid "Layout style:"
+msgstr "Стиль расположения:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:188
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:392
+msgid "ordered list"
+msgstr "упорядоченный список"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:193
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:397
+msgid "table"
+msgstr "таблица"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:221
+msgid "The latest topics from your bbPress forums"
+msgstr "Последние темы из ваших форумов bbPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:237
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:245
+msgid "bbPress latest topics"
+msgstr "Последние темы bbPress"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:282
+#, php-format
+msgid "%1$s posted %2$s ago"
+msgstr "%1$s опубликовал %2$s назад"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:291
+msgid "Topic"
+msgstr "Тема"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:293
+msgid "Last Poster"
+msgstr "Последний комментатор"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:294
+msgid "Freshness"
+msgstr "Свежесть"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:376
+msgid "Forum id or slug (optional):"
+msgstr "Идентификатор форума или ярлык (необязательно):"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-bbpress-live.php:382
+msgid "Number of topics to show:"
+msgstr "Количество тем для отображения:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-templatetags.php:281
+#, php-format
+msgid "%d post"
+msgstr "%d запись"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-templatetags.php:283
+#, php-format
+msgid "%d posts"
+msgstr "%d записей"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-templatetags.php:354
+#, php-format
+msgid "Viewing topic %d to %d (%d total topics)"
+msgstr "Просмотреть темы %d - %d (всего тем %d)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-forums/bp-forums-templatetags.php:568
+#, php-format
+msgid "Viewing post %d to %d (%d total posts)"
+msgstr "Просмотреть записи %d - %d (всего записей %d)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-ajax.php:22
+msgid "Add Friend"
+msgstr "Подружиться"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-ajax.php:31
+msgid "Friendship Requested"
+msgstr "Предложена дружба"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-ajax.php:34
+msgid "Request Pending"
+msgstr "Ждущие предложения"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-notifications.php:21
+#, php-format
+msgid "New friendship request from %s"
+msgstr "Новое предложение дружбы от %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-notifications.php:24
+#, php-format
+msgid ""
+"%s wants to add you as a friend.\n"
+"\n"
+"To view all of your pending friendship requests: %s\n"
+"\n"
+"To view %s's profile: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"%s хочет добавить тебя в список своих друзей.\n"
+"\n"
+"Все предложения дружбы: %s\n"
+"\n"
+"Личная страница %s здесь: %s\n"
+"\n"
+"---------------------\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-notifications.php:33
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-notifications.php:68
+#, php-format
+msgid "To disable these notifications please log in and go to: %s"
+msgstr "Чтобы отключить эту уведомление, войди в систему и перейди по ссылке: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-notifications.php:61
+#, php-format
+msgid ""
+"%s accepted your friend request.\n"
+"\n"
+"To view %s's profile: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"%s принял твое предложение дружбы.\n"
+"\n"
+"Личную страницу %s можно увидеть  profile: %s\n"
+"\n"
+"---------------------\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:251
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:2346
+#, php-format
+msgid "requested %s ago"
+msgstr "затребовано %s назад"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:290
+#, php-format
+msgid "Viewing friend %d to %d (of %d friends)"
+msgstr "Просмотр друзей с %d по %d (из %d)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:299
+msgid "Filter Friends"
+msgstr "Фильтр друзей"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:359
+msgid "Cancel Friendship"
+msgstr "Отменить дружбу"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:370
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:384
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:6
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:252
+msgid "Recently Active"
+msgstr "Недавняя активность"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:372
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:390
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:11
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:267
+msgid "Alphabetically"
+msgstr "В алфавитном порядке"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:404
+#, php-format
+msgid "%s's Friends"
+msgstr "Друзья %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:404
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:353
+msgid "See All"
+msgstr "Посмотреть всё"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:417
+msgid "You haven't added any friend connections yet."
+msgstr "Пока у тебя нет здесь друзей."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:417
+#, php-format
+msgid "%s hasn't created any friend connections yet."
+msgstr "У %s пока нет друзей."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-friends/bp-friends-templatetags.php:457
+msgid "There aren't enough site members to show a random sample just yet."
+msgstr "Не "
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-admin.php:18
+msgid "There were errors when deleting groups, please try again"
+msgstr "Произошла ошибка во время удаления группы. Попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-admin.php:21
+msgid "Groups deleted successfully"
+msgstr "Группа удалена"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-admin.php:37
+msgid "Search Groups"
+msgstr "Поиск групп"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-admin.php:47
+msgid "Are you sure?"
+msgstr "Ты уверен?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-admin.php:56
+#, php-format
+msgid "Groups matching: \"%s\""
+msgstr "Группы по запросу: \"%s\""
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-admin.php:75
+msgid "Description"
+msgstr "Описание"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-admin.php:78
+msgid "Type"
+msgstr "Тип"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-admin.php:84
+msgid "Created"
+msgstr "Создано"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-admin.php:87
+msgid "Last Active"
+msgstr "Последняя активность"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-admin.php:108
+msgid "Edit"
+msgstr "Править"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-admin.php:118
+msgid "No groups found."
+msgstr "Не найдено групп."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:28
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1538
+msgid "Remove Invite"
+msgstr "Удалить приглашение"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:100
+#, php-format
+msgid "created %s ago"
+msgstr "создано %s назад"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:105
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-widgets.php:69
+msgid " member"
+msgstr "участник"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:107
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-widgets.php:71
+msgid " members"
+msgstr " участников"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:117
+msgid "No groups matched the current filter."
+msgstr "Нет таких групп"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:156
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:201
+msgid "This group has no members."
+msgstr "В группе нет участников."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:188
+msgid "(banned)"
+msgstr "(забанен)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:188
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:192
+msgid "Kick and ban this member"
+msgstr "Выбросить и забанить этого участника"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:188
+msgid "Remove Ban"
+msgstr "Отменить бан"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:192
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1251
+msgid "Kick &amp; Ban"
+msgstr "Выбросить и заблокировать"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:192
+msgid "Promote this member"
+msgstr "Продвинуть этого участника"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:192
+msgid "Promote to Moderator"
+msgstr "Сделать модератором"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:238
+msgid "Error joining group"
+msgstr "Ошибка вступления в группу"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:248
+msgid "Error requesting membership"
+msgstr "Ошибка предложения дружбы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:250
+msgid "Membership Requested"
+msgstr "Дружба предложена"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:259
+msgid "Error leaving group"
+msgstr "Ошибка выхода из группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-ajax.php:262
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1581
+msgid "Join Group"
+msgstr "Присоединиться к группе"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:16
+#, php-format
+msgid "New wire post on group: %s"
+msgstr "Новое сообщение в сети группы: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:31
+#, php-format
+msgid ""
+"%s posted on the wire of the group \"%s\":\n"
+"\n"
+"\"%s\"\n"
+"\n"
+"To view the group wire: %s\n"
+"\n"
+"To view the group home: %s\n"
+"\n"
+"To view %s's profile page: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"%s написал в сеть группы \"%s\":\n"
+"\n"
+"\"%s\"\n"
+"\n"
+"Сеть группы: %s\n"
+"\n"
+"Страница группы: %s\n"
+"\n"
+"Личная страница %s: %s\n"
+"\n"
+"---------------------\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:59
+msgid "Group Details Updated"
+msgstr "Информация группы обновлена"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:73
+#, php-format
+msgid ""
+"Group details for the group \"%s\" were updated:\n"
+"\n"
+"To view the group: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"Информация о группе \"%s\" обновлена:\n"
+"\n"
+"Посмотреть на группу: %s\n"
+"\n"
+"---------------------\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:110
+#, php-format
+msgid "Membership request for group: %s"
+msgstr "Запрос на участие в группу: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:113
+#, php-format
+msgid ""
+"%s wants to join the group \"%s\".\n"
+"\n"
+"Because you are the administrator of this group, you must either accept or reject the membership request.\n"
+"\n"
+"To accept the membership request: %s\n"
+"\n"
+"To reject the membership request: %s\n"
+"\n"
+"To view %s's profile: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"%s хочет присоединиться к группе \"%s\".\n"
+"\n"
+"Как администраторы этой группы ты должен принять или отвергнуть запрос на участие.\n"
+"\n"
+"Принять запрос: %s\n"
+"\n"
+"Отказать: %s\n"
+"\n"
+"Личная страница %s: %s\n"
+"\n"
+"---------------------\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:155
+#, php-format
+msgid "Membership request for group \"%s\" accepted"
+msgstr "Заявка на участие в группе \"%s\" принята"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:157
+#, php-format
+msgid ""
+"Your membership request for the group \"%s\" has been accepted.\n"
+"\n"
+"To view the group please login and visit: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"Твой запрос на участие в группе \"%s\" принят.\n"
+"\n"
+"Чтобы увидеть группу, авторизуйся и посети: %s\n"
+"\n"
+"---------------------\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:165
+#, php-format
+msgid "Membership request for group \"%s\" rejected"
+msgstr "Заявка на участие в группе \"%s\" отклонена"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:167
+#, php-format
+msgid ""
+"Your membership request for the group \"%s\" has been rejected.\n"
+"\n"
+"To submit another request please log in and visit: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"Твой запрос на участие в группе \"%s\" был отвергнут.\n"
+"\n"
+"Чтобы послать другую заявку, войди и посети: %s\n"
+"\n"
+"---------------------\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:185
+msgid "an administrator"
+msgstr "администратор"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:188
+msgid "a moderator"
+msgstr "модератор"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:207
+#, php-format
+msgid "You have been promoted in the group: \"%s\""
+msgstr "Тебя продвинули в группе: \"%s\""
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:210
+#, php-format
+msgid ""
+"You have been promoted to %s for the group: \"%s\".\n"
+"\n"
+"To view the group please visit: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"Тебя продвинули в %s в группе \"%s\".\n"
+"\n"
+"Чтобы увидеть группу, посети: %s\n"
+"\n"
+"---------------------\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:250
+#, php-format
+msgid "You have an invitation to the group: \"%s\""
+msgstr "Тебя пригласили в группу: \"%s\""
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-notifications.php:253
+#, php-format
+msgid ""
+"One of your friends %s has invited you to the group: \"%s\".\n"
+"\n"
+"To view your group invites visit: %s\n"
+"\n"
+"To view the group visit: %s\n"
+"\n"
+"To view %s's profile visit: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"Твой друг %s пригласил тебя в группу: \"%s\".\n"
+"\n"
+"Все твои приглашения: %s\n"
+"\n"
+"Группа: %s\n"
+"\n"
+"Личная страница %st: %s\n"
+"\n"
+"---------------------\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:7
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:255
+msgid "Recently Joined"
+msgstr "Недавно присоединились"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:8
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:258
+msgid "Most Popular"
+msgstr "Популярные"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:9
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:261
+msgid "Administrator Of"
+msgstr "Администратор"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:10
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:264
+msgid "Moderator Of"
+msgstr "Модератор"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:20
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:33
+msgid "Group Details"
+msgstr "Подробности о группе"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:21
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:37
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1374
+msgid "Group Settings"
+msgstr "Настройки группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:22
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:41
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:276
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:363
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1378
+msgid "Group Avatar"
+msgstr "Аватар группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:23
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:45
+msgid "Invite Members"
+msgstr "Пригласить участников"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:58
+msgid "Group Name"
+msgstr "Название группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:61
+msgid "Group Description"
+msgstr "Описание группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:64
+msgid "Recent News"
+msgstr "Свежие новости"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:69
+msgid "Create Group and Continue"
+msgstr "Создать группу и продолжить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:78
+msgid "Enable comment wire"
+msgstr "Разрешить комментарии в сети"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:85
+msgid "Enable discussion forum"
+msgstr "Разрешить форум обсуждений"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:91
+#, php-format
+msgid "<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s\">correct setup and configuration</a> of a bbPress installation."
+msgstr "<strong>Вниманию админиатратора сайта:</strong> Форумы групп требуют <a href=\"%s\">корректную установку и конфигурацию</a> bbPress."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:100
+msgid "Enable photo gallery"
+msgstr "Разрешить фотогалерею"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:102
+msgid "All members can upload photos"
+msgstr "Все участники могут загружать фотографии"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:103
+msgid "Only group admins can upload photos"
+msgstr "Только администратор группы можут загружать фотографии"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:108
+msgid "Privacy Options"
+msgstr "Настройки конфиденциальности"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:112
+msgid "This is a public group"
+msgstr "Это открытая группа"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:114
+msgid "Any site member can join this group."
+msgstr "Каждый пользователь сайта может присоединиться к этой группе."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:115
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:124
+msgid "This group will be listed in the groups directory and in search results."
+msgstr "Эта группа будет видна в каталоге групп и в результатах поиска."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:116
+msgid "Group content and activity will be visible to any site member."
+msgstr "Содержимое и активность группы будет видна всем пользователям сайта."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:121
+msgid "This is a private group"
+msgstr "Это частная группа"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:123
+msgid "Only users who request membership and are accepted can join the group."
+msgstr "Только пользователи, запросившие участие и принятые администратором, могу присоединиться к группе."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:125
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:134
+msgid "Group content and activity will only be visible to members of the group."
+msgstr "Содержимое и активность группы будет видна только ее участникам."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:130
+msgid "This is a hidden group"
+msgstr "Это скрытая группа"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:132
+msgid "Only users who are invited can join the group."
+msgstr "Только приглашенные пользователи могу присоединиться."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:133
+msgid "This group will not be listed in the groups directory or search results."
+msgstr "Эта группа не будет видна в каталоге групп и результатах поиска."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:139
+msgid "Save and Continue"
+msgstr "Сохранить и продолжить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:144
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:174
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:202
+msgid "Please complete all previous steps first."
+msgstr "Пожалуйста, заверши сначала все предыдущие шаги"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:156
+msgid "Upload an image to use as an avatar for this group. The image will be shown on the main group page, and in search results."
+msgstr "Загрузите изображение для использования ее в качестве аватара этой группы. Изображение будет показано на главной странице группы и в результатах поиска."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:167
+msgid "Skip"
+msgstr "Пропустить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:189
+msgid "Once you build up your friends list you will be able to invite friends to join your group."
+msgstr "Созданный тобой список друзей позволит приглашать друзей в группу."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:195
+msgid "Finish"
+msgstr "Закончить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:241
+msgid "No friends to invite."
+msgstr "Нет друзей для приглашения."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:278
+msgid "No Group Avatar"
+msgstr "У группы нет аватара"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:322
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:693
+msgid "Group"
+msgstr "Группа"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:324
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:2163
+#, php-format
+msgid "%d member"
+msgstr "%d участник"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:326
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:2165
+#, php-format
+msgid "%d members"
+msgstr "участников: %d"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:337
+msgid "There aren't enough groups to show a random sample just yet."
+msgstr "Недостаточно групп для показа случайной выборки в настоящее время."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:353
+#, php-format
+msgid "%s's Groups"
+msgstr "Группы %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:370
+msgid "You haven't joined any groups yet."
+msgstr "Ты не входишь ни в одну группу."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:370
+#, php-format
+msgid "%s hasn't joined any groups yet."
+msgstr "%s пока не присоединился к группе."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:687
+msgid "Public Group"
+msgstr "Открытая группа"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:689
+msgid "Hidden Group"
+msgstr "Скрытая группа"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:691
+msgid "Private Group"
+msgstr "Закрытая группа"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:750
+msgid "not yet active"
+msgstr "пока не активно"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:873
+msgid "Private"
+msgstr "Закрытая"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:928
+msgid "No Admins"
+msgstr "Нет администратора"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:949
+msgid "Group Mod"
+msgstr "Модератор"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:960
+msgid "No Mods"
+msgstr "Нет модератора"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1032
+msgid "Permalink"
+msgstr "Постоянная ссылка"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1034
+#, php-format
+msgid "updated %s ago"
+msgstr "обновлено %s назад"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1037
+msgid "Latest by"
+msgstr "Последнее от"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1049
+msgid "There are no active forum topics for this group"
+msgstr "У этой группы нет активных тем на форуме"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1061
+msgid "Filter Groups"
+msgstr "Фильтр групп"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1097
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:2047
+#, php-format
+msgid "Viewing group %d to %d (of %d groups)"
+msgstr "Просмотр групп с %d по %d (из %d)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1219
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1257
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1810
+#, php-format
+msgid "joined %s ago"
+msgstr "присоединился %s назад"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1232
+msgid "This group has no administrators"
+msgstr "У группы нет администраторов"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1251
+msgid "Demote to Member"
+msgstr "Понизить участника"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1270
+msgid "This group has no moderators"
+msgstr "У группы нет модераторов"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1370
+msgid "Edit Details"
+msgstr "Править описание"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1382
+msgid "Manage Members"
+msgstr "Управление участниками"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1386
+msgid "Membership Requests"
+msgstr "Запрос участия"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1390
+msgid "Delete Group"
+msgstr "Удалить группу"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1512
+msgid "Select Friends"
+msgstr "Выбери друзей"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1521
+msgid "Select people to invite from your friends list."
+msgstr "Выбери приглашенных из своего списка друзей."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1591
+msgid "Request Sent"
+msgstr "Запрос отправлен"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1608
+msgid "This is a private group and you must request group membership in order to join."
+msgstr "Это частная группа и чтобы присоединиться к ней, ты должен отправить заявку на участие."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1610
+msgid "This is a private group. To join you must be a registered site member and request group membership."
+msgstr "Это частная группа. Чтобы присоединиться, ты должен зарегистрироваться и отправить заявку на участие."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1612
+msgid "This is a private group. Your membership request is awaiting approval from the group administrator."
+msgstr "Это частная группа. Твой запрос на участие ожидает одобрения администратора группы."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1614
+msgid "This is a hidden group and only invited members can join."
+msgstr "Это скрытая группа и только приглашенные участники могут присоединяться."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-templatetags.php:1860
+#, php-format
+msgid "Viewing members %d to %d (of %d members)"
+msgstr "Просмотр участников с %d по %d (из %d)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-widgets.php:89
+msgid "There are no groups to display."
+msgstr "Нет групп."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-groups/bp-groups-widgets.php:112
+msgid "Maximum number of groups to show:"
+msgstr "Максимальное число отображаемых групп:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-ajax.php:50
+msgid "There was a problem marking messages as unread."
+msgstr "Были проблемы с пометкой сообщений непрочтенными."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-ajax.php:65
+msgid "There was a problem marking messages as read."
+msgstr "Были проблемы с пометкой сообщений прочтенными."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-ajax.php:80
+msgid "There was a problem deleting messages."
+msgstr "Были проблемы с удалением сообщений."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-ajax.php:97
+msgid "There was a problem closing the notice."
+msgstr "Были проблемы с закрытием уведомлений."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-classes.php:284
+msgid " Recipients"
+msgstr " Получатели"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-notifications.php:20
+#, php-format
+msgid "New message from %s"
+msgstr "Новое сообщение от %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-notifications.php:23
+#, php-format
+msgid ""
+"%s sent you a new message:\n"
+"\n"
+"Subject: %s\n"
+"\n"
+"\"%s\"\n"
+"\n"
+"To view the message: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"%s прислал тебе новое сообщение:\n"
+"Тема: %s\n"
+"\n"
+"\"%s\"\n"
+"\n"
+"увидеть это сообщение: %s\n"
+"\n"
+"---------------------\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:269
+#, php-format
+msgid "Viewing message %d to %d (of %d messages)"
+msgstr "Просмотр сообщений с %d по %d (из %d)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:312
+msgid "Select:"
+msgstr "Выбери:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:315
+msgid "Read"
+msgstr "Прочитанные"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:316
+msgid "Unread"
+msgstr "Непрочитанные"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:317
+msgid "All"
+msgstr "Все"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:319
+msgid "Mark as Read"
+msgstr "Пометить как прочтенное"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:320
+msgid "Mark as Unread"
+msgstr "Пометить как непрочтенное"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:322
+msgid "Delete Selected"
+msgstr "Удалить выбранное"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:331
+msgid "Currently Active"
+msgstr "Сейчас активно"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:398
+msgid "Deactivate"
+msgstr "Отключить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:400
+msgid "Activate"
+msgstr "Включить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:420
+msgid "Close"
+msgstr "Закрыть"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:436
+msgid "Send Message"
+msgstr "Написать ему"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:484
+msgid "There was an error when viewing that message"
+msgstr "Произошла ошибка во время просмотра этого сообщения"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:498
+msgid "Sent between "
+msgstr "Переписка между"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:499
+msgid "and"
+msgstr "и"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:540
+msgid "Reply: "
+msgstr "Ответ:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:548
+msgid "Send Reply"
+msgstr "Послать ответ"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-messages/bp-messages-templatetags.php:551
+msgid "Re: "
+msgstr "На:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/404.php:10
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/404.php:21
+msgid "Please log in and add widgets to this column."
+msgstr "Пожалуйста, войди и добавь виджеты в эту колонку."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/404.php:10
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/404.php:21
+msgid "Add Widgets"
+msgstr "Добавить виджеты"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/404.php:29
+msgid "Sorry, that page was not found"
+msgstr "Извини, такой страницы нет."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/404.php:32
+msgid "The page you were looking for was not found."
+msgstr "Страница, которую ты ищешь, не найдена. "
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/activate.php:18
+msgid "Activate your Account"
+msgstr "Активируй твою учетную запись"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:11
+msgid "Archive for the"
+msgstr "Архив:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:11
+msgid "Category"
+msgstr "Рубрика"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:14
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:17
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:20
+msgid "Archive for"
+msgstr "Архив:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:23
+msgid "Author Archive"
+msgstr "Архив автора"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:26
+msgid "Blog Archives"
+msgstr "Архив блога"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:32
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:52
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/index.php:26
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Предыдущие записи"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:33
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:53
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/index.php:27
+msgid "Next Entries &raquo;"
+msgstr "Следующие записи &raquo;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:38
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/index.php:11
+msgid "Permanent Link to"
+msgstr "Постоянная ссылка на"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:45
+msgid "Posted in"
+msgstr "Опубликовано в"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:45
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/index.php:18
+msgid "No Comments &#187;"
+msgstr "Без комментариев &#187;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:45
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/index.php:18
+msgid "1 Comment &#187;"
+msgstr "1 комментарий &#187;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:45
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/index.php:18
+msgid "% Comments &#187;"
+msgstr "Комментарии (%) &#187;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archive.php:58
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/index.php:32
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archives.php:13
+msgid "Archives by Month:"
+msgstr "Архив по месяцам:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/archives.php:18
+msgid "Archives by Subject:"
+msgstr "Архив по Теме:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/attachment.php:16
+msgid "<p class=\"serif\">Read the rest of this entry &raquo;</p>"
+msgstr "<p class=\"serif\">Прочитать запись полностью &raquo;</p>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/attachment.php:18
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/page.php:12
+msgid "<p><strong>Pages:</strong> "
+msgstr "<p><strong>Страницы:</strong>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/attachment.php:27
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Извините, нет файлов, удовлетворяющих вашим условиям."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:9
+msgid "Comments on"
+msgstr "Комментарии на"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:22
+msgid "Comments"
+msgstr "Комментарии"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:24
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> комментариев к этой записи."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:27
+msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is:"
+msgstr "<abbr title=\"Universal Resource Locator\">URL</abbr> для обратной ссылки на эту запись:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:45
+msgid "by"
+msgstr "от"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:51
+msgid "No comments yet."
+msgstr "Пока никаких комментариев."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:55
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:56
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed:"
+msgstr "Перевод строки автоматический, адрес e-mail никогда не показывается, допустимые теги <acronym title=\"Hypertext Markup Language\">HTML</acronym>:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:60
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:85
+msgid "Logged in as"
+msgstr "Ты вошел как"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:60
+msgid "Log out of this account"
+msgstr "Выйти из этой учетной записи"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:60
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:85
+msgid "Logout"
+msgstr "Выйти"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:71
+msgid "E-mail"
+msgstr "E-mail"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:76
+msgid "URL"
+msgstr "URL"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:81
+msgid "Your Comment"
+msgstr "Твой комментарий"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:87
+msgid "Say It!"
+msgstr "Сказать это!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:92
+msgid "Sorry, the comment form is closed at this time."
+msgstr "Извини, обсуждение на данный момент закрыто."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:97
+msgid "Close this window."
+msgstr "Закрыть окно."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments-popup.php:105
+msgid "Powered by <a href=\"http://wordpress.org/\" title=\"Powered by WordPress, state-of-the-art semantic personal publishing platform\"><strong>Wordpress</strong>"
+msgstr "Работает на <a href=\"http://wordpress.org/\" title=\"Работает на WordPress, новейшей семантической персональной платформе публикаций\"><strong>Wordpress</strong>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Это сообщение защищено паролем. Введи пароль, чтобы посмотреть комментарий."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:24
+msgid "No Responses"
+msgstr "Нет откликов"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:24
+msgid "One Response"
+msgstr "Один ответ"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:24
+msgid "% Responses"
+msgstr "Ответы (%)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:24
+msgid "to"
+msgstr "к"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:33
+msgid "said:"
+msgstr "сказал:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:38
+msgid "Your comment is awaiting moderation."
+msgstr "Твой коментарий ожидает одобрения."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:62
+msgid "Comments are closed."
+msgstr "Коментарии запрещены."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:75
+msgid "Leave a Reply"
+msgstr "Оставить ответ"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:78
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Ты должен <a href=\"%s\">авторизоваться</a> для отправки комментария."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:90
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:93
+msgid "(required)"
+msgstr "(обязательно)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:93
+msgid "Mail (will not be published)"
+msgstr "E-mail (не публикуется)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/comments.php:102
+msgid "Submit Comment"
+msgstr "Отправить комментарий"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/footer.php:5
+#, php-format
+msgid "%s is proudly powered by <a href=\"http://mu.wordpress.org\">WordPress MU</a> and <a href=\"http://buddypress.org\">BuddyPress</a>"
+msgstr "%s работает на <a href=\"http://mu.wordpress.org\">WordPress MU</a> и <a href=\"http://buddypress.org\">BuddyPress</a>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/header.php:17
+msgid "Blog Posts RSS Feed"
+msgstr "RSS-лента записей блог"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/header.php:18
+msgid "Blog Posts Atom Feed"
+msgstr "Atom-лента записей блога"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/index.php:12
+msgid "in"
+msgstr "в"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/index.php:12
+#, php-format
+msgid "by %s"
+msgstr "от %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/index.php:15
+msgid "Read the rest of this entry &raquo;"
+msgstr "Прочитать остальную часть записи &raquo;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/index.php:33
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Извини, но ты ищещь что-то, чего здесь нет."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/links.php:11
+msgid "Links:"
+msgstr "Ссылки:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/page.php:10
+msgid "<p class=\"serif\">Read the rest of this page &raquo;</p>"
+msgstr "<p class=\"serif\">Прочитать страницу до конца &raquo;</p>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/page.php:18
+msgid "Edit this entry."
+msgstr "Править эту запись."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/register.php:29
+msgid "Register for an Account"
+msgstr "Зарегистрируйся для получения учетной записи"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/search.php:10
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/search.php:35
+msgid "No posts found. Try a different search?"
+msgstr "Записей не найдено. Попробуешь другой поиск?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/single.php:16
+msgid "Permanent link to"
+msgstr "Постоянная ссылка на"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bphome/single.php:31
+msgid "Sorry, no posts matched your criteria."
+msgstr "Извините, нет записей, удовлетворяющих твоим условиям."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/404.php:4
+msgid "Permission Denied"
+msgstr "Доступ запрещен"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/404.php:8
+msgid "Not Found / No Access"
+msgstr "Не найдено / Нет доступа"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/404.php:9
+msgid "The page you are looking for either does not exist, or you do not have the permissions to access it."
+msgstr "Страница, которую вы ищете, не существует или у вас нет к ней доступа."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/userbar.php:2
+msgid "Me"
+msgstr "Я"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/userbar.php:24
+msgid "You must log in to access your account."
+msgstr "Ты должен авторизоваться, чтобы получить доступ к твоей учетной записи."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/userbar.php:32
+msgid "Password"
+msgstr "Пароль"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/activity/just-me.php:31
+#, php-format
+msgid "%s's Activity"
+msgstr "Активность %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/activity/just-me.php:50
+msgid "You haven't done anything yet."
+msgstr "Ты пока ничего не делал."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/activity/just-me.php:50
+#, php-format
+msgid "%s hasn't done anything yet."
+msgstr "%s пока ничего не делал."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/activity/my-friends.php:23
+msgid "My Friends Activity"
+msgstr "Активность моих друзей"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/activity/my-friends.php:42
+msgid "Your friends haven't done anything yet."
+msgstr "Твои друзья пока ничего не делали."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/create.php:18
+msgid "Blog registration is currently disabled"
+msgstr "Регистрация блогов отключена."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/my-blogs.php:23
+msgid "You haven't created any blogs yet."
+msgstr "Ты пока не создал ни одного блога."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/my-blogs.php:23
+#, php-format
+msgid "%s hasn't created any public blogs yet."
+msgstr "%s пока не создал ни одного блога."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-comments.php:15
+#, php-format
+msgid "On %1$s %2$s said:"
+msgstr "%1$s %2$s сказал:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-comments.php:15
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-posts.php:15
+msgid "F jS, Y"
+msgstr "j/m/Y"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-comments.php:17
+#, php-format
+msgid "Commented on the post <a href=\"%1$s\">%2$s</a> on the blog <a href=\"%3$s\">%4$s</a>."
+msgstr "Комментарий к записи <a href=\"%1$s\">%2$s</a> в блоге <a href=\"%3$s\">%4$s</a>."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-comments.php:24
+msgid "You haven't posted any comments yet."
+msgstr "У тебя пока нет опубликованных комментариев."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-comments.php:24
+#, php-format
+msgid "%s hasn't posted any comments yet."
+msgstr "%s пока не оставил ни одного комментария."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-posts.php:14
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Постоянная ссылка на %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-posts.php:15
+#, php-format
+msgid "%1$s <em>in %2$s by %3$s</em>"
+msgstr "%1$s <em>в %2$s от %3$s</em>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-posts.php:17
+msgid "No Comments"
+msgstr "Без комментариев"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-posts.php:17
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-posts.php:17
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-posts.php:24
+msgid "You haven't made any posts yet."
+msgstr "Ты пока не написал ни одной записи."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/blogs/recent-posts.php:24
+#, php-format
+msgid "%s hasn't made any posts yet."
+msgstr "%s пока не создал ни одной записи."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/blogs/blogs-loop.php:28
+msgid "Visit Blog"
+msgstr "Посетить блог"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/blogs/blogs-loop.php:47
+msgid "No blogs found. Blogs must fill in at least one piece of profile data to show in blog lists."
+msgstr "Нет блогов. Должна быть заполнена хотя бы одна часть профила для этображения в списке блогов."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/blogs/index.php:6
+msgid "Blog Directory"
+msgstr "Каталог блогов"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/blogs/index.php:40
+msgid "Blog Listing"
+msgstr "Список блогов"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/blogs/index.php:58
+msgid "Find Blogs"
+msgstr "Найти блоги"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/blogs/index.php:65
+msgid "Featured Blogs"
+msgstr "Похожие блоги"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/blogs/index.php:83
+msgid "Description: "
+msgstr "Описание:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/blogs/index.php:99
+msgid "There are not enough blogs to feature."
+msgstr "Слишком мало блогов."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/groups/groups-loop.php:47
+msgid "There were no groups found."
+msgstr "Группы не найдены."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/groups/index.php:6
+msgid "Groups Directory"
+msgstr "Каталог групп"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/groups/index.php:40
+msgid "Groups Listing"
+msgstr "Список групп"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/groups/index.php:58
+msgid "Find Groups"
+msgstr "Найти группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/groups/index.php:65
+msgid "Featured Groups"
+msgstr "Похожие группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/groups/index.php:83
+msgid "Members:"
+msgstr "Участники:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/groups/index.php:88
+msgid "Description:"
+msgstr "Описание:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/members/index.php:6
+msgid "Members Directory"
+msgstr "Каталог участников"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/members/index.php:40
+msgid "Member Listing"
+msgstr "Список участников"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/members/index.php:57
+msgid "Find Members"
+msgstr "Найти участников"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/members/index.php:64
+msgid "Featured Members"
+msgstr "Похожие участники"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/members/index.php:97
+msgid "There are not enough members to feature."
+msgstr "Слишком мало участников."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/directories/members/members-loop.php:41
+msgid "No members found. Members must fill in at least one piece of profile data to show in member lists."
+msgstr "Не найдено участников. Надо заполнить хотя бы часть профиля, чтобы появиться в списке."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/friends/friends-loop.php:28
+msgid "No friends matched your search filter terms"
+msgstr "Нет друзей, соотвествующих ствоему критерию поиска"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/friends/friends-loop.php:32
+msgid "Your friends list is currently empty"
+msgstr "Твой список друзей пуст"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/friends/friends-loop.php:32
+#, php-format
+msgid "%s's friends list is currently empty"
+msgstr "Список друзей %s сейчас пуст"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/friends/friends-loop.php:37
+msgid "Why not make friends with some of these members?"
+msgstr "Почему бы не подружиться с "
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/friends/requests.php:11
+msgid "Friendship Requests"
+msgstr "Запрос дружбы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/friends/requests.php:24
+msgid "Accept"
+msgstr "Принять"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/friends/requests.php:30
+msgid "Reject"
+msgstr "Отклонить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/friends/requests.php:40
+msgid "You have no pending friendship requests."
+msgstr "У тебя нет необработанных запросов."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-home.php:37
+msgid "News"
+msgstr "Новости"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-home.php:46
+msgid "Active Forum Topics"
+msgstr "Активные темы форума"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-home.php:46
+msgid "See All &raquo;"
+msgstr "Посмотреть все &raquo;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-home.php:53
+#, php-format
+msgid "Members (%d) <a href=\"%s\">See All &raquo;</a>"
+msgstr "Участники (%d) <a href=\"%s\">Посмотреть всех &raquo;</a>"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-home.php:62
+msgid "Group Wire"
+msgstr "Сеть группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-home.php:62
+#, php-format
+msgid "There are no wire posts for %s"
+msgstr "Нет записей в сети для %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-home.php:70
+msgid "Sorry, the group does not exist."
+msgstr "Извините, группа не существует."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-loop.php:11
+#, php-format
+msgid "%s members"
+msgstr "участников: %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-loop.php:14
+msgid "Membership Pending Approval"
+msgstr "Заявка на участие одобрена"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-loop.php:32
+msgid "Why not join a few of these groups?"
+msgstr "Почему бы не присоединиться и к этим группам?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-loop.php:39
+msgid "No matching groups found."
+msgstr "Таких нет!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-menu.php:10
+msgid "Admins"
+msgstr "Администраторы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/group-menu.php:16
+msgid "Mods"
+msgstr "Модераторы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/leave-group-confirm.php:23
+msgid "Confirm Leave Group"
+msgstr "Подтверди уход из группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/leave-group-confirm.php:24
+msgid "Are you sure you want to leave this group?"
+msgstr "Ты уверен, что хочешь выйти из группы?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/leave-group-confirm.php:27
+msgid "Yes, I'd like to leave this group."
+msgstr "Да, я покидаю эту группу."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/leave-group-confirm.php:28
+msgid "No, I'll stay!"
+msgstr "Нет, я остаюсь!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/list-invites.php:44
+msgid "You have no outstanding group invites."
+msgstr "У тебя нет ожидающих приглашений в группу."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/list-members.php:23
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/admin/manage-members.php:18
+msgid "Administrators"
+msgstr "Администраторы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/list-members.php:29
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/admin/manage-members.php:24
+msgid "Moderators"
+msgstr "Модераторы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/list-members.php:35
+msgid "Group Members"
+msgstr "Участники группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/request-membership.php:27
+#, php-format
+msgid "You are requesting to become a member of the group '%s'."
+msgstr "Ты запросил участие в группе '%s'."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/request-membership.php:30
+msgid "Comments (optional)"
+msgstr "Комментарии  (не обязательно)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/request-membership.php:33
+msgid "Send Request"
+msgstr "Послать запрос"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/send-invite.php:30
+msgid "You either need to build up your friends list, or your friends have already been invited or are current members."
+msgstr "Сначала надо построить список друзей, или твои друзья уже являются участиками или приглашены."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/admin/delete-group.php:20
+msgid "WARNING: Deleting this group will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgstr "ВНИМАНИЕ: Удаление этой группы полностью удалит ВСЕ связанное содержание. Пути назад не будет, пожалуйста, будь осторожен с этим действием."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/admin/delete-group.php:23
+msgid "I understand the consequences of deleting this group."
+msgstr "Я сознательно продолжаю удаление этой группы."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/admin/edit-details.php:30
+msgid "Notify group members of changes via email"
+msgstr "Об изменениях уведомлять участников группы по почте"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/admin/membership-requests.php:43
+msgid "There are no pending membership requests."
+msgstr "Нет ожидающих предложений дружбы."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/forum/index.php:25
+msgid "Post New"
+msgstr "Опубликовать новую"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/forum/index.php:25
+msgid "Post New &raquo;"
+msgstr "Создать новую &raquo;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/forum/index.php:59
+msgid "There are no topics for this group forum."
+msgstr "У этой группы нет активных тем на форуме"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/forum/index.php:71
+msgid "Post a New Topic:"
+msgstr "Создать новую тему:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/forum/index.php:76
+msgid "Content:"
+msgstr "Содержимое:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/forum/index.php:79
+msgid "Tags:"
+msgstr "Метки:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/forum/index.php:84
+msgid "Post Topic"
+msgstr "Создать тему"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/forum/topic.php:47
+#, php-format
+msgid "%s said %s ago:"
+msgstr "%s сказал %s назад:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/forum/topic.php:63
+msgid "Add a reply:"
+msgstr "Добавить ответ:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/forum/topic.php:66
+msgid "Post Reply"
+msgstr "Ответить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/groups/forum/topic.php:80
+msgid "There are no posts for this topic."
+msgstr "В этой теме нет сообщений."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/compose.php:8
+msgid "Compose Message"
+msgstr "Написать сообщение"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/compose.php:16
+msgid "Send To"
+msgstr "Кому"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/compose.php:25
+msgid "This is a notice to all users."
+msgstr "Это уведомления для всех пользователей."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/compose.php:28
+msgid "Subject"
+msgstr "Тема"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/compose.php:31
+msgid "Message"
+msgstr "Сообщение"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/compose.php:39
+msgid "Send"
+msgstr "Отправить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/index.php:30
+msgid "From:"
+msgstr "От:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/index.php:38
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/notices.php:33
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/sentbox.php:33
+msgid "Delete Message"
+msgstr "Удалить сообщение"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/index.php:48
+msgid "You have no messages in your inbox."
+msgstr "У тебя нет входящих сообщений."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/notices.php:12
+msgid "Sent Notices"
+msgstr "Послать уведомление"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/notices.php:29
+msgid "Sent:"
+msgstr "Отправлено:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/notices.php:42
+msgid "You have not sent any notices."
+msgstr "У тебя ни одного посланного уведомления."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/sentbox.php:25
+msgid "To:"
+msgstr "К:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/messages/sentbox.php:43
+msgid "You have no sent messages."
+msgstr "Нет отправленых сообщений."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/profile/edit.php:13
+#, php-format
+msgid "Editing '%s'"
+msgstr "Редактирование '%s'"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/profile/index.php:75
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/wire/latest.php:30
+#, php-format
+msgid "%s's Wire"
+msgstr "Сеть %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/profile/index.php:75
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/wire/latest.php:30
+msgid "No one has posted to your wire yet."
+msgstr "Пока здесь ничего нет."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/profile/index.php:75
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/wire/latest.php:30
+#, php-format
+msgid "No one has posted to %s's wire yet."
+msgstr "Пока никто не писал в сеть %s."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/profile/profile-loop.php:38
+msgid "Sorry, this person does not have a public profile."
+msgstr "Извини, эта персона ничего не опубликовала о себе."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/wire/latest.php:30
+msgid "Your Wire"
+msgstr "Твоя сеть"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/wire/post-form.php:15
+msgid "Notify members via email (will slow down posting)"
+msgstr "Уведомлять участников почтой (замедлит публикацию)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpmember/wire/post-form.php:20
+msgid "Post &raquo;"
+msgstr "Опубликовать &raquo;"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpskeletonmember/directories/blogs/index.php:77
+msgid "Random Blogs"
+msgstr "Случайный блог"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpskeletonmember/directories/groups/index.php:77
+msgid "Random Groups"
+msgstr "Случайная группа"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpskeletonmember/directories/members/index.php:77
+msgid "Random Members"
+msgstr "Случайный участник"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpskeletonmember/groups/group-home.php:78
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpskeletonmember/groups/wire.php:35
+#, php-format
+msgid "The are no wire posts for %s"
+msgstr "Нет сообщений в сети %s"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpskeletonmember/profile/index.php:52
+msgid "You haven't done anything recently."
+msgstr "В последнее время ты ничего не делал."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-themes/bpskeletonmember/profile/index.php:52
+#, php-format
+msgid "%s has not done anything recently."
+msgstr "%s ничего не делал в последнее время."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-wire/bp-wire-ajax.php:25
+msgid "On"
+msgstr "На"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-wire/bp-wire-templatetags.php:143
+msgid "There are currently no wire posts."
+msgstr "Сейчас в твоей сети нет сообщений."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:38
+msgid ""
+"Your users will distinguish themselves through their profile page. \n"
+"\t\t   You must give them profile fields that allow them to describe themselves \n"
+"\t\t\tin a way that is relevant to the theme of your social network."
+msgstr ""
+"Ваших пользователей будет характеризовать их личная страница. \n"
+"\t\t  Вы должны дать им возможность описать себя, создав достаточное количество полей на странице профиля \n"
+"\t\t\tтак, чтобы эти поля были характерны именно для вашей социальной сети."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:42
+msgid "NOTE: Any fields in the first group will appear on the signup page."
+msgstr "ЗАМЕЧАНИЕ: Все поля первой группы появятся на странице регистрации."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:70
+msgid "Field Name"
+msgstr "Имя поля"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:71
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:751
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:836
+msgid "Field Type"
+msgstr "Тип поля"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:72
+msgid "Required?"
+msgstr "Обязательно?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:73
+msgid "Action"
+msgstr "Действие"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:93
+msgid "There are no fields in this group."
+msgstr "Нет полей в этой группе"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:97
+msgid "Add New Field"
+msgstr "Добавить новое поле"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:106
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:111
+msgid "Add New Group"
+msgstr "Добавить новую группу"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:110
+msgid "You have no groups."
+msgstr "У тебя нет групп."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:136
+msgid "There was an error saving the group. Please try again"
+msgstr "Произошла ошибка во время сохранения группу. Попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:139
+msgid "The group was saved successfully."
+msgstr "Группа успешно сохранена."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:168
+msgid "There was an error deleting the group. Please try again"
+msgstr "Произошла ошибка во время удаления группы. Попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:171
+msgid "The group was deleted successfully."
+msgstr "Группа успешно удалена."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:204
+msgid "There was an error saving the field. Please try again"
+msgstr "Произршла ошибка при сохранении поля. Попробуй еще."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:210
+msgid "The field was saved successfully."
+msgstr "Поле успешно записано."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:238
+msgid "field"
+msgstr "поле"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:240
+msgid "option"
+msgstr "настройка"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:246
+#, php-format
+msgid "There was an error deleting the %s. Please try again"
+msgstr "При удаления файла %s произошла ошибка. Пожалуйста, попробуйте ещё раз."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-admin.php:249
+#, php-format
+msgid "The %s was deleted successfully!"
+msgstr "%s успешно удален!"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:104
+msgid "Add Group"
+msgstr "Добавить группу"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:107
+msgid "Edit Group"
+msgstr "Править группу"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:128
+msgid "Profile Group Name"
+msgstr "Название профиля группы"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:171
+msgid "Please make sure you give the group a name."
+msgstr "Убедись, что дал группе имя"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:492
+msgid "Clear"
+msgstr "Очистить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:555
+msgid "January"
+msgstr "Янваль"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:555
+msgid "February"
+msgstr "Февраль"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:555
+msgid "March"
+msgstr "Март"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:556
+msgid "April"
+msgstr "Апрель"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:556
+msgid "May"
+msgstr "Май"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:556
+msgid "June"
+msgstr "Июнь"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:557
+msgid "July"
+msgstr "Июль"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:557
+msgid "August"
+msgstr "Август"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:557
+msgid "September"
+msgstr "Сентябрь"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:558
+msgid "October"
+msgstr "Откябрь"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:558
+msgid "November"
+msgstr "Ноябрь"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:558
+msgid "December"
+msgstr "Декабрь"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:654
+msgid "Please enter options for this Field:"
+msgstr "Пожалуйста, введи настройки для этого поля:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:655
+msgid "Order By:"
+msgstr "Сортировать по:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:658
+msgid "Order Entered"
+msgstr "Порядок ввода"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:659
+msgid "Name - Ascending"
+msgstr "Имя - по возрастанию"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:660
+msgid "Name - Descending"
+msgstr "Имя - по убыванию"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:674
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:688
+msgid "Option"
+msgstr "Настройки"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:676
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:689
+msgid "Default Value"
+msgstr "Значение по умолчению"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:694
+msgid "Add Another Option"
+msgstr "Добавить другую настройку"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:702
+msgid "Add Field"
+msgstr "Добавить поле"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:705
+msgid "Edit Field"
+msgstr "Править поле"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:729
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:818
+msgid "Field Title"
+msgstr "Заголовок поля"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:736
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:823
+msgid "Field Description"
+msgstr "Описание поля"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:743
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:828
+msgid "Is This Field Required?"
+msgstr "Поле обязательное?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:745
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:831
+msgid "Not Required"
+msgstr "Не обязательно"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:746
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:832
+msgid "Required"
+msgstr "Обязательно"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:753
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:840
+msgid "Text Box"
+msgstr "Текстовое поле"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:754
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:842
+msgid "Multi-line Text Box"
+msgstr "Многострочное текстовое поле"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:755
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:844
+msgid "Date Selector"
+msgstr "Селектор"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:756
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:846
+msgid "Radio Buttons"
+msgstr "Радио-кнопки"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:757
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:848
+msgid "Drop Down Select Box"
+msgstr "Выпадающий список"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:758
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:850
+msgid "Multi Select Box"
+msgstr "Поле множественного выбора"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:759
+msgid "Checkboxes"
+msgstr "Переключатель"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:766
+msgid "Save"
+msgstr "Сохранить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:767
+msgid "or"
+msgstr "или"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:767
+msgid "Cancel"
+msgstr "Отменить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:780
+msgid "Add Prebuilt Field"
+msgstr "Добавить предустановленное поле"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:856
+msgid "Add"
+msgstr "Добавить"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:868
+msgid "No prebuilt fields available at this time."
+msgstr "Сейчас нет доступных предустановленных полей."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:910
+msgid "Visit author homepage"
+msgstr "Посетить страницу автора"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:914
+msgid "Anonymous"
+msgstr "Аноним"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:940
+msgid "Please make sure you fill out all required fields."
+msgstr "Убедись, что заполнил все обязательные поля."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:943
+msgid "Radio button field types require at least one option. Please add options below."
+msgstr "Полю типа 'выбор' требуется хотя бы одно значение. Пожалуйста, добавь его ниже."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:946
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:949
+msgid "Select box field types require at least one option. Please add options below."
+msgstr "Полю типа 'выпадающий список' требуется хотя бы одно значение. Пожалуйста, добавь его ниже."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-classes.php:952
+msgid "Checkbox field types require at least one option. Please add options below."
+msgstr "Полю типа 'переключатель' требуется хотя бы одно значение. Пожалуйста, добавь его ниже."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-notifications.php:37
+#, php-format
+msgid "%s posted on your wire."
+msgstr "%s написал в твоей сети."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-notifications.php:40
+#, php-format
+msgid ""
+"%s posted on your wire:\n"
+"\n"
+"\"%s\"\n"
+"\n"
+"To view your wire: %s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"%s написал в твою сеть:\n"
+"\n"
+"\"%s\"\n"
+"\n"
+"Посмотреть твою сеть: %s\n"
+"\n"
+"---------------------\n"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-signup.php:17
+msgid "Your Profile Details"
+msgstr "Подробности твоего профиля"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-signup.php:18
+msgid ""
+"Please fill in the following fields to start up your member profile. Fields\n"
+"\t\t\tmarked with a star are required."
+msgstr ""
+"Пожалуйста заполни следующие поля для создания личной страницы. Поля, \n"
+"\t\t\tпомеченые звездочкой, обязательны."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-signup.php:46
+msgid "Profile Picture (Avatar)"
+msgstr "Картинка профиля (Аватар)"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-signup.php:47
+msgid "You can upload an image from your computer to use as an avatar. This avatar will appear on your profile page."
+msgstr "Ты можешь загрузить изображение со своего компьютера для использования его в качестве аватара. Этот аватар будет виден на твоей личной странице."
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-signup.php:59
+msgid "Select a file:"
+msgstr "Выбери файл:"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-signup.php:166
+#, php-format
+msgid "%s cannot be left blank"
+msgstr "%s не может быть пустым"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-templatetags.php:348
+msgid "Avatar uploads are currently disabled. Why not use a <a href=\"http://gravatar.com\" target=\"_blank\">gravatar</a> instead?"
+msgstr "Загрузка аватаров сейчас запрещена. Почему бы взамен не использовать <a href=\"http://gravatar.com\">граватар</a>?"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-templatetags.php:357
+msgid "Profile not recently updated"
+msgstr "Профиль не обновлялся"
+
+#: d:/project/automattic/buddypress/tags/1.0.1/bp-xprofile/bp-xprofile-templatetags.php:368
+#, php-format
+msgid "Profile updated %s ago"
+msgstr "Профиль обновлен %s назад"
+
+#~ msgid "%s Avatar"
+#~ msgstr "Аватар %s"
+#~ msgid "Full Name"
+#~ msgstr "Полное имя"
+#~ msgid ""
+#~ "<strong>You do not have any BuddyPress themes installed.</strong><br /"
+#~ ">Please download at least one <a href=\"http://buddypress.org/extend/"
+#~ "themes\" title=\"Download\">BuddyPress Theme</a> and install in /wp-"
+#~ "content/bp-themes/"
+#~ msgstr ""
+#~ "<strong>У вас нет ни одной установленной темы BuddyPress.</strong><br /"
+#~ ">Пожалуйста, скачайте хотя бы <a href=\"http://buddypress.org/extend/"
+#~ "themes\" title=\"Download\">тему по умолчанию</a> и установите ее в /wp-"
+#~ "content/bp-themes/"
+#~ msgid "No groups to display"
+#~ msgstr "Нет групп"
+#~ msgid "Viewing members %d to %d (%d total members)"
+#~ msgstr "Просмотреть участников %d - %d (всего участников %d)"
+#~ msgid "Group Forum Settings"
+#~ msgstr "Настройки форума группы"
+#~ msgid "Profile Settings"
+#~ msgstr "Настройки профиля"
+#~ msgid "BuddyPress Version Numbers"
+#~ msgstr "Номера версии BuddyPress"
+#~ msgid "Blog Identicon"
+#~ msgstr "Иконка блога"
+#~ msgid "Visit %s"
+#~ msgstr "Посетить %s"
+#~ msgid "No blogs matched the current filter."
+#~ msgstr "Нет таких блогов."
+#~ msgid ""
+#~ "To enable the blog directory you must drop the \"plugin-template.php\" "
+#~ "file into your theme directory."
+#~ msgstr ""
+#~ "Чтобы включить каталог блогов, ты должен поместить файлы  \"plugin-"
+#~ "template.php\" в директорию твоей темы."
+#~ msgid "No blogs found."
+#~ msgstr "Блогов не найдено."
+#~ msgid "Latest Post"
+#~ msgstr "Свежие записи"
+#~ msgid "Viewing member %d to %d (%d total active members)"
+#~ msgstr "Просмотреть участников %d - %d (всего участников %d)"
+#~ msgid ""
+#~ "To enable the member directory you must drop the \"plugin-template.php "
+#~ "and plugin-sidebar.php\" files into your theme directory."
+#~ msgstr ""
+#~ "Чтобы включить каталог участников, ты должен поместить файлы  \"plugin-"
+#~ "template.php\" и \"plugin-sidebar.php\" в директорию твоей темы."
+#~ msgid ""
+#~ "To enable the group directory you must drop the \"plugin-template.php\" "
+#~ "file into your theme directory."
+#~ msgstr ""
+#~ "Чтобы включить каталог участников, ты должен поместить файлы  \"plugin-"
+#~ "template.php\" в директорию твоей темы."
+#~ msgid "There are no groups to feature."
+#~ msgstr "Нет похожих групп."
+#~ msgid ""
+#~ "<p class=\"lead-in\">Your account has been activated. You may now <a href="
+#~ "\"%1$s\">log in</a> to the site using your chosen username of \"%2$s\".  "
+#~ "Please check your email inbox at %3$s for your password and login "
+#~ "instructions. If you do not receive an email, please check your junk or "
+#~ "spam folder. If you still do not receive an email within an hour, you can "
+#~ "<a href=\"%4$s\">reset your password</a>.</p>"
+#~ msgstr ""
+#~ "<p class=\"lead-in\">Твой учетная запись активирована. Теперь ты можешь "
+#~ "<a href=\"%1$s\">войти</a> на сайт под выбранным именем \"%2$s\".  "
+#~ "Пожалуйста, проверь свой почтовый ящик на %3$s на предмет пароля и "
+#~ "инструкции для входа. Если ты не получил письмо, проверь корзину или "
+#~ "папку спама. Если ты не получишь письмо в течение часа, ты сможешь<a href="
+#~ "\"%4$s\">затребовать новый пароль</a>.</p>"
+#~ msgid ""
+#~ "<p class=\"lead-in\">Your blog at <a href=\"%1$s\">%2$s</a> is active. "
+#~ "You may now login to your blog using your chosen username of \"%3$s\".  "
+#~ "Please check your email inbox at %4$s for your password and login "
+#~ "instructions.  If you do not receive an email, please check your junk or "
+#~ "spam folder.  If you still do not receive an email within an hour, you "
+#~ "can <a href=\"%5$s\">reset your password</a>.</p>"
+#~ msgstr ""
+#~ "<p class=\"lead-in\">Твой блог на <a href=\"%1$s\">%2$s</a> активирован. "
+#~ "Теперь ты можешь войти на сайт под выбранным именем \"%3$s\".  "
+#~ "Пожалуйста, проверь свой почтовый ящик на %4$s на предмет пароля и "
+#~ "инструкции для входа. Если ты не получил письмо, проверь корзину или "
+#~ "папку спама. Если ты не получишь письмо в течение часа, ты сможешь<a href="
+#~ "\"%5$s\">затребовать новый пароль</a>.</p>"
+#~ msgid ""
+#~ "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a "
+#~ "href=\"%2$s\">Login</a>"
+#~ msgstr ""
+#~ "Твоя учетная запись активирована. <a href=\"%1$s\">Посмотри на свой сайт</"
+#~ "a> или <a href=\"%2$s\">Авторизуйся</a>"
+#~ msgid ""
+#~ "%s wants to add you as a friend. You have two options:\n"
+#~ "\n"
+#~ "Accept the friendship request: %s\n"
+#~ "\n"
+#~ "Reject the friendship request: %s\n"
+#~ "\n"
+#~ "To view all of your pending friendship requests: %s\n"
+#~ "\n"
+#~ "---------------------\n"
+#~ msgstr ""
+#~ "%s хочет с тобой подружиться. У тебя два варианта:\n"
+#~ "\n"
+#~ "Принять предложение дружбы: %s\n"
+#~ "\n"
+#~ "Отказать: %s\n"
+#~ "\n"
+#~ "Все твои предложения дружбы здесь: %s\n"
+#~ "\n"
+#~ "---------------------\n"
+#~ msgid "Find a Group"
+#~ msgstr "Найти группу"
+#~ msgid "This is an open group"
+#~ msgstr "Это открытая группа"
+#~ msgid "This is an private group"
+#~ msgstr "Это частная группа"
+#~ msgid ""
+#~ "This group will require an invite to join but will still appear in group "
+#~ "search results."
+#~ msgstr ""
+#~ "Эта группа будет требовать приглашения для вспупления и не будет видна в "
+#~ "поиске."
+#~ msgid ""
+#~ "This group will require an invite to join and will only be visible to "
+#~ "invited members. It will not appear in search results or on member "
+#~ "profiles."
+#~ msgstr ""
+#~ "Эта группа будет требовать приглашения и будет доступна только "
+#~ "приглашенным участникам. Она не будет видна в результатах поиска и в "
+#~ "профилях участников."
+#~ msgid "their"
+#~ msgstr "его"
+#~ msgid "your"
+#~ msgstr "твой"
+#~ msgid "Social Network"
+#~ msgstr "Социальная сеть"
+#~ msgid "Group Forums"
+#~ msgstr "Форумы группы"
+#~ msgid "Invalid user ID."
+#~ msgstr "Неправильный ID пользователя."
+#~ msgid "User updated."
+#~ msgstr "Пользователь обновлен."
+#~ msgid "&laquo; Back to Authors and Users"
+#~ msgstr "&laquo; Вернуться к Авторам и пользователям"
+#~ msgid "Account Settings"
+#~ msgstr "Настройки учетной записи"
+#~ msgid "Edit User Account Settings"
+#~ msgstr "Править настройки учетной записи пользователя"
+#~ msgid "Personal Options"
+#~ msgstr "Личные настройки"
+#~ msgid "Visual Editor"
+#~ msgstr "Визуальный редактор"
+#~ msgid "Use the visual editor when writing"
+#~ msgstr "Использовать визуадьный редактор"
+#~ msgid "Admin Color Scheme"
+#~ msgstr "Цветовая схема администратора"
+#~ msgid "Your Account Details"
+#~ msgstr "Твоя учетная запись"
+#~ msgid "User Account Details"
+#~ msgstr "Учетная запись пользователя"
+#~ msgid ""
+#~ "If you would like to change the password type a new one. Otherwise leave "
+#~ "this blank."
+#~ msgstr ""
+#~ "Если ты хочешь сменить пароль, введи здесь новый. Иначе оставь его пустым."
+#~ msgid "Type your new password again."
+#~ msgstr "Введи пароль еще раз."
+#~ msgid "Password Strength"
+#~ msgstr "Надежность пароля"
+#~ msgid "Too short"
+#~ msgstr "Слишком мало"
+#~ msgid ""
+#~ "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%"
+#~ "^&amp;( in your password."
+#~ msgstr ""
+#~ "Совет: Используй заглавные и строчные буквы, цифры и символы вроде !\"?$%"
+#~ "^&amp;( в пароле."
+#~ msgid "Additional Capabilities"
+#~ msgstr "Дополнительные возможности"
+#~ msgid "Update Profile"
+#~ msgstr "Обновить профиль"
+#~ msgid "Update User"
+#~ msgstr "Обновить пользователя"
+#~ msgid "Sending..."
+#~ msgstr "Отправка..."
+#~ msgid "Notice could not be sent, please try again."
+#~ msgstr "Уведомление не может быть отправлено, попробуй еще."
+#~ msgid "Loading..."
+#~ msgstr "Загрузка..."
+#~ msgid ""
+#~ "Please select the area of your photo you would like to use for your avatar"
+#~ msgstr ""
+#~ "Пожалуйста, выбери область твоего фото, которая будет твоим аватаром."
+#~ msgid "Alternate Avatar"
+#~ msgstr "Альтернативный аватар"
+#~ msgid ""
+#~ "Please select the area of your photo you would like to use for an "
+#~ "alternate version"
+#~ msgstr ""
+#~ "Пожалуйста, выбери область твоего фото, которая будет использоваться как "
+#~ "альтернативная версия."
+#~ msgid "Default Field Privacy Settings"
+#~ msgstr "Настройки конфиденциальности по умолчанию"
+#~ msgid "ago"
+#~ msgstr "назад"
+#~ msgid "Friend Finder"
+#~ msgstr "Найти друга"
+#~ msgid "Please enter something to search for."
+#~ msgstr "Пожалуйста, введи что-нибудь для поиска."
+#~ msgid "No site users matched your search."
+#~ msgstr "По твоему запросу пользователь не найдено."
+#~ msgid "Find Friends"
+#~ msgstr "Найти друзей"
+#~ msgid "Group Finder"
+#~ msgstr "Поиск группы"
+#~ msgid "Welcome %s!"
+#~ msgstr "Добро пожаловать, %s!"
+#~ msgid "You have one new message."
+#~ msgid_plural "You have %d new messages."
+#~ msgstr[0] "У тебя %d новое сообщение"
+#~ msgstr[1] "У тебя %d новых сообщения"
+#~ msgstr[2] "У тебя %d новых сообщений"
+#~ msgid "A string with low priority!"
+#~ msgstr "Строка с низким приоритетом!"
+#~ msgid "Bye\n"
+#~ msgstr "Прощай\n"
+#~ msgid "Messages deleted successfully!"
+#~ msgstr "Сообщения успешно удалены!"
+#~ msgid "There was an error when deleting messages. Please try again."
+#~ msgstr ""
+#~ "Произошла ошибка во время удаления сообщений. Пожалуйста, попробуй еще."
+#~ msgid "Message deleted successfully!"
+#~ msgstr "Сообщение успешно удалено!"
+#~ msgid "There was an error when deleting that message. Please try again."
+#~ msgstr ""
+#~ "Произошла ошибка во время удаления этого сообщения. Пожалуйста, попробуй "
+#~ "еще."
+#~ msgid "There was an error viewing this message, please try again."
+#~ msgstr "Произошла ошибка просмотра сообщения. Пожалуйста, попробуй еще."
+#~ msgid "Additional Information"
+#~ msgstr "Дополнительная информация"
+#~ msgid "Upload Failed! Your photo dimensions are likely too big."
+#~ msgstr "Загрузка не удалась! Твоя фотография слишком большая."
+#~ msgid " ago"
+#~ msgstr " назад"
+#~ msgid "Find your Friends using Friend Finder!"
+#~ msgstr "Найди друзей в Поиске Друзей!"
+#~ msgid ""
+#~ "Use the search box to find friends on the site. You can enter any type of "
+#~ "information you want, a first or last name, email address or any specific "
+#~ "interesting information."
+#~ msgstr ""
+#~ "Используй поисковое поле для поиска друзей на сайте. Ты можешь вводить "
+#~ "любйю информацию, имя или фамилию, e-mail или интересы."
+#~ msgid "This is a closed group"
+#~ msgstr "Это закрытая группа"
+#~ msgid "Find Groups Using the Group Finder!"
+#~ msgstr "Найти группы в Поиске Групп!"
+#~ msgid ""
+#~ "Use the search box to find groups on the site. Enter anything you want, "
+#~ "currently only group titles will be searched."
+#~ msgstr ""
+#~ "Воспользуйся поисковой строкой для поиска групп на сайте. Вводите все, "
+#~ "что хотите, поиск сейчас ведется только по названиям групп."
+#~ msgid "(Use username - autocomplete coming soon)"
+#~ msgstr "(Используйте имя пользователя - автодополнение скоро будет)"
+#~ msgid "First Name"
+#~ msgstr "Имя"
+#~ msgid "Last Name"
+#~ msgstr "Фамилия"
+#~ msgid "New Group Invitation:"
+#~ msgstr "Приглашение в новую группу:"
+#~ msgid ""
+#~ "Unable to create directory %s. Is its parent directory writable by the "
+#~ "server?"
+#~ msgstr ""
+#~ "Невозможно создать директорию %s. Запись в родительскую папку на сервере "
+#~ "разрешена?"
+#~ msgid "members"
+#~ msgstr "участники"
+#~ msgid "Invitation Only"
+#~ msgstr "Только по приглашениям"
+#~ msgid "Finish &amp; Send Invites"
+#~ msgstr "Завершить и разослать приглашения"
+
