@@ -5446,11 +5446,12 @@ msgstr "Не удалось создать изображение"
 #: public.api/class.yahoo-yap-widget.php:156
 #, fuzzy
 msgid "Invalid action"
-msgstr "Неверная учетная запись"
+msgstr "Неизвестное действие."
 
 #: public.api/class.yahoo-yap-widget.php:90
+#, fuzzy
 msgid "Enter your blog's URL"
-msgstr ""
+msgstr "Календарь записей вашего блога"
 
 #: public.api/class.yahoo-yap-widget.php:96
 #, fuzzy
@@ -5469,7 +5470,7 @@ msgstr "Вы не участник этого блога."
 #: public.api/class.yahoo-yap-widget.php:118
 #, fuzzy
 msgid "Settings updated"
-msgstr "Настройки сохранены"
+msgstr "%s страница обновлена."
 
 #: public.api/class.yahoo-yap-widget.php:131
 #: wp-admin/comment.php:42
@@ -5735,7 +5736,7 @@ msgstr "Ваше имя пользователя и пароль"
 #, fuzzy, php-format
 msgid "Translation is missing %d occurence of %s"
 msgid_plural "Translation is missing %d occurences of %s"
-msgstr[0] "Тема по умолчанию отсутствует."
+msgstr[0] "В переводе отсутствует %d вхождение %s"
 msgstr[1] ""
 msgstr[2] ""
 
@@ -5788,8 +5789,9 @@ msgid "Want a new blog just for your 360 content? <a href='%s'>Sign up</a> for a
 msgstr ""
 
 #: welcome.messages/index.php:23
+#, fuzzy
 msgid "Need more help?"
-msgstr ""
+msgstr "Помощь по визуальному редактору"
 
 #: welcome.messages/index.php:24
 #, php-format
@@ -5797,8 +5799,9 @@ msgid "As always, feel free to check out our <a href=\"%s\">support site</a> or 
 msgstr ""
 
 #: welcome.messages/index.php:25
+#, fuzzy
 msgid "Happy Blogging!"
-msgstr ""
+msgstr "Домашняя страница вашего блога"
 
 #: welcome.messages/index.php:26
 msgid "&#8212; the WordPress.com Team"
@@ -5817,8 +5820,9 @@ msgid "Activate &raquo;"
 msgstr "Активировать &raquo;"
 
 #: wp-activate.php:58
+#, fuzzy
 msgid "<h2>Howdy Again.</h2>"
-msgstr ""
+msgstr "Пожалуйста, попробуйте ещё раз."
 
 #: wp-activate.php:59
 msgid "<p class=\"lead-in\">You can <a href=\"/\">login at WordPress.com</a></p>"
@@ -6135,7 +6139,7 @@ msgstr "d.m.Y"
 #: wp-admin/admin-ajax.php:1294
 #, fuzzy
 msgid "An error has occured. Please reload the page and try again."
-msgstr "Во время загрузки произошла ошибка. Пожалуйста, повторите попытку позже."
+msgstr "Произошла ошибка. Пожалуйста, обновите страницу и повторите попытку."
 
 #: wp-admin/admin-footer.php:19
 msgid "Thank you for creating with <a href=\"http://wordpress.com/\">WordPress</a>"
@@ -8454,7 +8458,7 @@ msgstr "Это была тяжёлая работёнка! Сделайте пе
 #: wp-admin/import/blogger.php:804
 #, fuzzy
 msgid "In case you haven&#8217;t done it already, you can import the posts from your other blogs:"
-msgstr "Если вы не сделали этого раньше,вы можете испортировать записи из ваших других блогов:"
+msgstr "Если вы не сделали этого раньше,вы можете импортировать записи из ваших других блогов:"
 
 #: wp-admin/import/blogger.php:806
 #, php-format
@@ -8665,7 +8669,7 @@ msgstr "Добро пожаловать в WordPress. Мы надеемся (и 
 #: wp-admin/import/dotclear.php:607
 #, fuzzy, php-format
 msgid "You have already setup WordPress and have been assigned an administrative login and password.  Forget it.  You didn&#8217;t have that login in DotClear, why should you have it here?  Instead we have taken care to import all of your users into our system.  Unfortunately there is one downside.  Because both WordPress and DotClear uses a strong encryption hash with passwords, it is impossible to decrypt it and we are forced to assign temporary passwords to all your users.  <strong>Every user has the same username, but their passwords are reset to password123.</strong>  So <a href=\"%1$s\">Login</a> and change it."
-msgstr "Вы уже установили WordPress и назначили логин и пароль администратора. Забудьте это. У вас нет логина в DotClear, зачем же вы здесь? Вместо этого мы импортируем всех ваших пользователей в нашу систему. К сожалению это единственный выход. Из-за того, что и WordPress и DotClear используют хеширование с сильным шифрованием, невозможно расшифровать их и мы проставим временные пароли всем вашим пользователям. <strong>У всех пользователей останутся их имена, но их пароли будут сброшены на password123.</strong> Так <a href=\"%1$s\">Войтиде</a> и смените их."
+msgstr "Вы уже установили WordPress и назначили логин и пароль администратора. Забудьте это. У вас нет логина в DotClear, зачем же вы здесь? Вместо этого мы импортируем всех ваших пользователей в нашу систему. К сожалению это единственный выход. Из-за того, что и WordPress и DotClear используют хеширование с сильным шифрованием, невозможно расшифровать их и мы проставим временные пароли всем вашим пользователям. <strong>У всех пользователей останутся их имена, но их пароли будут сброшены на password123.</strong> Так <a href=\"%1$s\">войдите</a> и смените их."
 
 #: wp-admin/import/dotclear.php:608
 #: wp-admin/import/textpattern.php:586
@@ -8874,12 +8878,12 @@ msgstr[1] "Импорт комментариев"
 msgstr[2] "Импорт комментариев"
 
 #: wp-admin/import/greymatter.php:291
-#, fuzzy, php-format
+#, php-format
 msgid "ignored %s pre-existing comment"
 msgid_plural "ignored %s pre-existing comments"
 msgstr[0] "проигнорирован %s уже существующий комментарий"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[1] "проигнорированы %s уже существующих комментария"
+msgstr[2] "проигнорированы %s уже существующих комментариев"
 
 #: wp-admin/import/greymatter.php:301
 msgid "Completed GreyMatter import!"
@@ -8923,7 +8927,7 @@ msgstr "Пароль от LiveJournal (ЖивойЖурнал)"
 #: wp-admin/import/livejournal.php:211
 #, fuzzy
 msgid "If you have any entries on LiveJournal which are marked as private, they will be password-protected when they are imported so that only people who know the password can see them."
-msgstr "Если у вас в LiveJournal есть записи, почеменные как личные, они будут защищены паролем при импортировании, так что только люди, знающие пароль, смогут их увидеть."
+msgstr "Если у вас в LiveJournal есть записи, помеченные как личные, они будут защищены паролем при импортировании, так что только люди, знающие пароль, смогут их увидеть."
 
 #: wp-admin/import/livejournal.php:212
 #, fuzzy
@@ -8971,7 +8975,7 @@ msgstr "Запись <strong>%s</strong> уже существует."
 #: wp-admin/import/livejournal.php:377
 #, fuzzy, php-format
 msgid "Imported post <strong>%s</strong>..."
-msgstr "Испорт записи <strong>%s</strong>..."
+msgstr "Импорт записи <strong>%s</strong>..."
 
 #: wp-admin/import/livejournal.php:386
 #, fuzzy
@@ -9045,7 +9049,7 @@ msgstr "Мы получаем и импортируем ваши записи в
 #: wp-admin/import/livejournal.php:785
 #, fuzzy, php-format
 msgid "Imported post batch %d of <strong>approximately</strong> %d"
-msgstr "Испортирован %d из <strong>приблизительно</strong> %d пакетов записей"
+msgstr "Импортирован %d из <strong>приблизительно</strong> %d пакетов записей"
 
 #: wp-admin/import/livejournal.php:803
 #, fuzzy
@@ -9114,7 +9118,7 @@ msgstr "Теперь мы перестраиваем ветки ваших ко�
 #: wp-admin/import/livejournal.php:926
 #, fuzzy, php-format
 msgid "Successfully re-threaded %s comments."
-msgstr "Ветки коментариев %s успешно перестроены."
+msgstr "Ветки комментариев %s успешно перестроены."
 
 #: wp-admin/import/livejournal.php:961
 #: wp-admin/import/livejournal.php:989
@@ -9676,7 +9680,7 @@ msgstr "Выборочное преобразование рубрик в мет
 #: wp-admin/import/yahoo-360.php:28
 #, fuzzy
 msgid "Import Yahoo! 360"
-msgstr "Импорт автора:"
+msgstr "Импорт из GreyMatter завершён!"
 
 #: wp-admin/import/yahoo-360.php:41
 #, fuzzy
@@ -9709,12 +9713,12 @@ msgstr ""
 #: wp-admin/import/yahoo-360.php:107
 #, fuzzy
 msgid "Could not create temporary file"
-msgstr "Не удалось создать временный файл."
+msgstr "Не удалось создать временный файл"
 
 #: wp-admin/import/yahoo-360.php:110
 #, fuzzy
 msgid "Could not create temporary directory"
-msgstr "Не удалось создать временный файл."
+msgstr "Не удалось создать временный файл"
 
 #: wp-admin/import/yahoo-360.php:122
 msgid "Could not unzip your Yahoo! 360 export file.  Did you upload the ZIP file?"
@@ -9747,7 +9751,7 @@ msgstr "Yahoo IM"
 #: wp-admin/import/yahoo-360.php:296
 #, fuzzy
 msgid "Import posts and comments from a Yahoo! 360 blog"
-msgstr "Импорт записей и комментариев из Movable Type или TypePad"
+msgstr "Импорт записей, комментариев и пользователей из Blogger."
 
 #: wp-admin/includes/bookmark.php:195
 msgid "Could not update link in the database"
@@ -9853,7 +9857,7 @@ msgstr "Архив обновления недоступен."
 #: wp-admin/includes/class-wp-upgrader.php:664
 #, fuzzy, php-format
 msgid "Downloading update from <span class=\"code\">%s</span>."
-msgstr "Видеофайл <span class=\"count\">(%s)</span>"
+msgstr "Загрузка обновления с <span class=\"code\">%s</span>."
 
 #: wp-admin/includes/class-wp-upgrader.php:352
 #: wp-admin/includes/class-wp-upgrader.php:508
@@ -9890,7 +9894,7 @@ msgstr "Установочный пакет недоступен."
 #: wp-admin/includes/class-wp-upgrader.php:517
 #, fuzzy, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>."
-msgstr "Загрузка установочного пакета с %s."
+msgstr "Загрузка архива плагина с <span class=\"code\">%s</span>."
 
 #: wp-admin/includes/class-wp-upgrader.php:363
 #: wp-admin/includes/class-wp-upgrader.php:518
@@ -10048,722 +10052,769 @@ msgstr "Вам не разрешено изменять комментарии �
 
 #: wp-admin/includes/continents-cities.php:7
 msgid "Africa"
-msgstr ""
+msgstr "Африка"
 
 #: wp-admin/includes/continents-cities.php:8
 msgid "Abidjan"
-msgstr ""
+msgstr "Абиджан"
 
 #: wp-admin/includes/continents-cities.php:9
 msgid "Accra"
-msgstr ""
+msgstr "Аккра"
 
 #: wp-admin/includes/continents-cities.php:10
 msgid "Addis Ababa"
-msgstr ""
+msgstr "Аддис-Абеба"
 
 #: wp-admin/includes/continents-cities.php:11
-#, fuzzy
 msgid "Algiers"
-msgstr "строк"
+msgstr "Алжир"
 
 #: wp-admin/includes/continents-cities.php:12
 msgid "Asmara"
-msgstr ""
+msgstr "Асмара"
 
 #: wp-admin/includes/continents-cities.php:13
-#, fuzzy
 msgid "Asmera"
-msgstr "Ответ"
+msgstr "Асмара"
 
 #: wp-admin/includes/continents-cities.php:14
+#, fuzzy
 msgid "Bamako"
-msgstr ""
+msgstr "Бамако"
 
 #: wp-admin/includes/continents-cities.php:15
+#, fuzzy
 msgid "Bangui"
-msgstr ""
+msgstr "Банги"
 
 #: wp-admin/includes/continents-cities.php:16
+#, fuzzy
 msgid "Banjul"
-msgstr ""
+msgstr "Банжул"
 
 #: wp-admin/includes/continents-cities.php:17
+#, fuzzy
 msgid "Bissau"
-msgstr ""
+msgstr "Бисау"
 
 #: wp-admin/includes/continents-cities.php:18
 #, fuzzy
 msgid "Blantyre"
-msgstr "Баланс"
+msgstr "Блантайр"
 
 #: wp-admin/includes/continents-cities.php:19
+#, fuzzy
 msgid "Brazzaville"
-msgstr ""
+msgstr "Браззавиль"
 
 #: wp-admin/includes/continents-cities.php:20
+#, fuzzy
 msgid "Bujumbura"
-msgstr ""
+msgstr "Бужумбура"
 
 #: wp-admin/includes/continents-cities.php:21
-#, fuzzy
 msgid "Cairo"
-msgstr "Подпись"
+msgstr "Каир"
 
 #: wp-admin/includes/continents-cities.php:22
 msgid "Casablanca"
-msgstr ""
+msgstr "Касабланка"
 
 #: wp-admin/includes/continents-cities.php:23
 #, fuzzy
 msgid "Ceuta"
-msgstr "Вырезать"
+msgstr "Сеута"
 
 #: wp-admin/includes/continents-cities.php:24
 #, fuzzy
 msgid "Conakry"
-msgstr "Страна"
+msgstr "Конакри"
 
 #: wp-admin/includes/continents-cities.php:25
 msgid "Dakar"
-msgstr ""
+msgstr "Дакар"
 
 #: wp-admin/includes/continents-cities.php:26
 #, fuzzy
 msgid "Dar es Salaam"
-msgstr "Пометить как спам"
+msgstr "Дар-эс-Салам"
 
 #: wp-admin/includes/continents-cities.php:27
 #, fuzzy
 msgid "Djibouti"
-msgstr "Детали"
+msgstr "Джибути"
 
 #: wp-admin/includes/continents-cities.php:28
+#, fuzzy
 msgid "Douala"
-msgstr ""
+msgstr "Дуала"
 
 #: wp-admin/includes/continents-cities.php:29
+#, fuzzy
 msgid "El Aaiun"
-msgstr ""
+msgstr "Эль-Аюн"
 
 #: wp-admin/includes/continents-cities.php:30
-#, fuzzy
 msgid "Freetown"
-msgstr "Лента для"
+msgstr "Фритаун"
 
 #: wp-admin/includes/continents-cities.php:31
 #, fuzzy
 msgid "Gaborone"
-msgstr "прервать"
+msgstr "Габороне"
 
 #: wp-admin/includes/continents-cities.php:32
 #, fuzzy
 msgid "Harare"
-msgstr "Ссылка"
+msgstr "Хараре"
 
 #: wp-admin/includes/continents-cities.php:33
 msgid "Johannesburg"
-msgstr ""
+msgstr "Йоханнесбург"
 
 #: wp-admin/includes/continents-cities.php:34
+#, fuzzy
 msgid "Kampala"
-msgstr ""
+msgstr "Кампала"
 
 #: wp-admin/includes/continents-cities.php:35
+#, fuzzy
 msgid "Khartoum"
-msgstr ""
+msgstr "Хартум"
 
 #: wp-admin/includes/continents-cities.php:36
+#, fuzzy
 msgid "Kigali"
-msgstr ""
+msgstr "Кигали"
 
 #: wp-admin/includes/continents-cities.php:37
+#, fuzzy
 msgid "Kinshasa"
-msgstr ""
+msgstr "Киншаса"
 
 #: wp-admin/includes/continents-cities.php:38
 #, fuzzy
 msgid "Lagos"
-msgstr "Метки"
+msgstr "Лагос"
 
 #: wp-admin/includes/continents-cities.php:39
+#, fuzzy
 msgid "Libreville"
-msgstr ""
+msgstr "Либревиль"
 
 #: wp-admin/includes/continents-cities.php:40
 #, fuzzy
 msgid "Lome"
-msgstr "Главная"
+msgstr "Ломе"
 
 #: wp-admin/includes/continents-cities.php:41
 #, fuzzy
 msgid "Luanda"
-msgstr "Воскресенье"
+msgstr "Луанда"
 
 #: wp-admin/includes/continents-cities.php:42
+#, fuzzy
 msgid "Lubumbashi"
-msgstr ""
+msgstr "Лубумбаши"
 
 #: wp-admin/includes/continents-cities.php:43
+#, fuzzy
 msgid "Lusaka"
-msgstr ""
+msgstr "Лусака"
 
 #: wp-admin/includes/continents-cities.php:44
 #, fuzzy
 msgid "Malabo"
-msgstr "Почта"
+msgstr "Малабо"
 
 #: wp-admin/includes/continents-cities.php:45
 #, fuzzy
 msgid "Maputo"
-msgstr "Подпись"
+msgstr "Мапуту"
 
 #: wp-admin/includes/continents-cities.php:46
 #, fuzzy
 msgid "Maseru"
-msgstr "Мастер управления ключами"
+msgstr "Масеру"
 
 #: wp-admin/includes/continents-cities.php:47
 #, fuzzy
 msgid "Mbabane"
-msgstr "Управление"
+msgstr "Мбабане"
 
 #: wp-admin/includes/continents-cities.php:48
+#, fuzzy
 msgid "Mogadishu"
-msgstr ""
+msgstr "Могадишо"
 
 #: wp-admin/includes/continents-cities.php:49
+#, fuzzy
 msgid "Monrovia"
-msgstr ""
+msgstr "Монровия"
 
 #: wp-admin/includes/continents-cities.php:50
+#, fuzzy
 msgid "Nairobi"
-msgstr ""
+msgstr "Найроби"
 
 #: wp-admin/includes/continents-cities.php:51
 #, fuzzy
 msgid "Ndjamena"
-msgstr "Имя"
+msgstr "Нджамена"
 
 #: wp-admin/includes/continents-cities.php:52
 #, fuzzy
 msgid "Niamey"
-msgstr "Имя"
+msgstr "Ниамэй"
 
 #: wp-admin/includes/continents-cities.php:53
+#, fuzzy
 msgid "Nouakchott"
-msgstr ""
+msgstr "Нуакшот"
 
 #: wp-admin/includes/continents-cities.php:54
+#, fuzzy
 msgid "Ouagadougou"
-msgstr ""
+msgstr "Уагадугу"
 
 #: wp-admin/includes/continents-cities.php:55
+#, fuzzy
 msgid "Porto-Novo"
-msgstr ""
+msgstr "Порто-Ново"
 
 #: wp-admin/includes/continents-cities.php:56
 #, fuzzy
 msgid "Sao Tome"
-msgstr "Пометить комментарий как спам"
+msgstr "Сан-Томе"
 
 #: wp-admin/includes/continents-cities.php:57
 msgid "Timbuktu"
-msgstr ""
+msgstr "Тимбукту"
 
 #: wp-admin/includes/continents-cities.php:58
 msgid "Tripoli"
-msgstr ""
+msgstr "Триполи"
 
 #: wp-admin/includes/continents-cities.php:59
-#, fuzzy
 msgid "Tunis"
-msgstr "Миниатюры"
+msgstr "Тунис"
 
 #: wp-admin/includes/continents-cities.php:60
 #, fuzzy
 msgid "Windhoek"
-msgstr "Ширина"
+msgstr "Виндхук"
 
 #: wp-admin/includes/continents-cities.php:61
-#, fuzzy
 msgid "America"
-msgstr "Цифры"
+msgstr "Америка"
 
 #: wp-admin/includes/continents-cities.php:62
+#, fuzzy
 msgid "Adak"
-msgstr ""
+msgstr "Адак"
 
 #: wp-admin/includes/continents-cities.php:63
 #, fuzzy
 msgid "Anchorage"
-msgstr "Имя якоря"
+msgstr "Анкоридж"
 
 #: wp-admin/includes/continents-cities.php:64
+#, fuzzy
 msgid "Anguilla"
-msgstr ""
+msgstr "Ангилья"
 
 #: wp-admin/includes/continents-cities.php:65
 msgid "Antigua"
-msgstr ""
+msgstr "Антигуа"
 
 #: wp-admin/includes/continents-cities.php:66
 #, fuzzy
 msgid "Araguaina"
-msgstr "Еще раз"
+msgstr "Арагуйана"
 
 #: wp-admin/includes/continents-cities.php:67
 msgid "Argentina"
-msgstr ""
+msgstr "Аргентина"
 
 #: wp-admin/includes/continents-cities.php:68
 msgid "Buenos Aires"
-msgstr ""
+msgstr "Буэнос-Айрес"
 
 #: wp-admin/includes/continents-cities.php:69
+#, fuzzy
 msgid "Catamarca"
-msgstr ""
+msgstr "Катамарка"
 
 #: wp-admin/includes/continents-cities.php:70
+#, fuzzy
 msgid "ComodRivadavia"
-msgstr ""
+msgstr "Комодоро-Ривадавия"
 
 #: wp-admin/includes/continents-cities.php:71
+#, fuzzy
 msgid "Cordoba"
-msgstr ""
+msgstr "Кордова"
 
 #: wp-admin/includes/continents-cities.php:72
 #, fuzzy
 msgid "Jujuy"
-msgstr "Июль"
+msgstr "Жужуй"
 
 #: wp-admin/includes/continents-cities.php:73
+#, fuzzy
 msgid "La Rioja"
-msgstr ""
+msgstr "Ла-Риоха"
 
 #: wp-admin/includes/continents-cities.php:74
 #, fuzzy
 msgid "Mendoza"
-msgstr "Медиафайлы"
+msgstr "Мендоса"
 
 #: wp-admin/includes/continents-cities.php:75
+#, fuzzy
 msgid "Rio Gallegos"
-msgstr ""
+msgstr "Рио-Гальегос"
 
 #: wp-admin/includes/continents-cities.php:76
+#, fuzzy
 msgid "San Juan"
-msgstr ""
+msgstr "Сан-Хуан"
 
 #: wp-admin/includes/continents-cities.php:77
-#, fuzzy
 msgid "San Luis"
-msgstr "Поиск ссылок"
+msgstr "Сан-Луис"
 
 #: wp-admin/includes/continents-cities.php:78
+#, fuzzy
 msgid "Tucuman"
-msgstr ""
+msgstr "Тукумане"
 
 #: wp-admin/includes/continents-cities.php:79
+#, fuzzy
 msgid "Ushuaia"
-msgstr ""
+msgstr "Ушуайя"
 
 #: wp-admin/includes/continents-cities.php:80
+#, fuzzy
 msgid "Aruba"
-msgstr ""
+msgstr "Аруба"
 
 #: wp-admin/includes/continents-cities.php:81
 #, fuzzy
 msgid "Asuncion"
-msgstr "Действие"
+msgstr "Асунсьон"
 
 #: wp-admin/includes/continents-cities.php:82
 #, fuzzy
 msgid "Atikokan"
-msgstr "Действие"
+msgstr "Атикокан"
 
 #: wp-admin/includes/continents-cities.php:83
 #, fuzzy
 msgid "Atka"
-msgstr "Прикрепить"
+msgstr "Атка"
 
 #: wp-admin/includes/continents-cities.php:84
+#, fuzzy
 msgid "Bahia"
-msgstr ""
+msgstr "Баия"
 
 #: wp-admin/includes/continents-cities.php:85
 msgid "Barbados"
-msgstr ""
+msgstr "Барбадос"
 
 #: wp-admin/includes/continents-cities.php:86
 #, fuzzy
 msgid "Belem"
-msgstr "Синяя"
+msgstr "Белем"
 
 #: wp-admin/includes/continents-cities.php:87
 #, fuzzy
 msgid "Belize"
-msgstr "По базовой линии"
+msgstr "Белиз"
 
 #: wp-admin/includes/continents-cities.php:88
+#, fuzzy
 msgid "Blanc-Sablon"
-msgstr ""
+msgstr "Бланк-Саблон"
 
 #: wp-admin/includes/continents-cities.php:89
+#, fuzzy
 msgid "Boa Vista"
-msgstr ""
+msgstr "Боа-Виста"
 
 #: wp-admin/includes/continents-cities.php:90
 #, fuzzy
 msgid "Bogota"
-msgstr "Выйти"
+msgstr "Богота"
 
 #: wp-admin/includes/continents-cities.php:91
 #, fuzzy
 msgid "Boise"
-msgstr "Обзор"
+msgstr "Бойсе"
 
 #: wp-admin/includes/continents-cities.php:92
 msgid "Cambridge Bay"
-msgstr ""
+msgstr "Кеймбридж-Бей"
 
 #: wp-admin/includes/continents-cities.php:93
+#, fuzzy
 msgid "Campo Grande"
-msgstr ""
+msgstr "Кампо Гранде"
 
 #: wp-admin/includes/continents-cities.php:94
 #, fuzzy
 msgid "Cancun"
-msgstr "Отмена"
+msgstr "Канкун"
 
 #: wp-admin/includes/continents-cities.php:95
+#, fuzzy
 msgid "Caracas"
-msgstr ""
+msgstr "Каракас"
 
 #: wp-admin/includes/continents-cities.php:96
 #, fuzzy
 msgid "Cayenne"
-msgstr "Изменить"
+msgstr "Кайенна"
 
 #: wp-admin/includes/continents-cities.php:97
+#, fuzzy
 msgid "Cayman"
-msgstr ""
+msgstr "Кайман"
 
 #: wp-admin/includes/continents-cities.php:98
-#, fuzzy
 msgid "Chicago"
-msgstr "Изменить"
+msgstr "Чикаго"
 
 #: wp-admin/includes/continents-cities.php:99
+#, fuzzy
 msgid "Chihuahua"
-msgstr ""
+msgstr "Чиуауа"
 
 #: wp-admin/includes/continents-cities.php:100
+#, fuzzy
 msgid "Coral Harbour"
-msgstr ""
+msgstr "Корал-Харбор"
 
 #: wp-admin/includes/continents-cities.php:101
 msgid "Costa Rica"
-msgstr ""
+msgstr "Коста-Рика"
 
 #: wp-admin/includes/continents-cities.php:102
+#, fuzzy
 msgid "Cuiaba"
-msgstr ""
+msgstr "Куяба"
 
 #: wp-admin/includes/continents-cities.php:103
+#, fuzzy
 msgid "Curacao"
-msgstr ""
+msgstr "Кюрасао"
 
 #: wp-admin/includes/continents-cities.php:104
+#, fuzzy
 msgid "Danmarkshavn"
-msgstr ""
+msgstr "Данмаркшавн"
 
 #: wp-admin/includes/continents-cities.php:105
 #, fuzzy
 msgid "Dawson"
-msgstr "Готово"
+msgstr "Доусон"
 
 #: wp-admin/includes/continents-cities.php:106
+#, fuzzy
 msgid "Dawson Creek"
-msgstr ""
+msgstr "Бухта Доусона"
 
 #: wp-admin/includes/continents-cities.php:107
-#, fuzzy
 msgid "Denver"
-msgstr "Никогда"
+msgstr "Денвер"
 
 #: wp-admin/includes/continents-cities.php:108
-#, fuzzy
 msgid "Detroit"
-msgstr "Уничтожить"
+msgstr "Детройт"
 
 #: wp-admin/includes/continents-cities.php:109
-#, fuzzy
 msgid "Dominica"
-msgstr "Домен"
+msgstr "Доминика"
 
 #: wp-admin/includes/continents-cities.php:110
-#, fuzzy
 msgid "Edmonton"
-msgstr "Эмоции"
+msgstr "Эдмонтон"
 
 #: wp-admin/includes/continents-cities.php:111
+#, fuzzy
 msgid "Eirunepe"
-msgstr ""
+msgstr "Эйрунепе"
 
 #: wp-admin/includes/continents-cities.php:112
 msgid "El Salvador"
-msgstr ""
+msgstr "Сальвадор"
 
 #: wp-admin/includes/continents-cities.php:113
+#, fuzzy
 msgid "Ensenada"
-msgstr ""
+msgstr "Энсенада"
 
 #: wp-admin/includes/continents-cities.php:114
 #, fuzzy
 msgid "Fort Wayne"
-msgstr "Имя"
+msgstr "Форт Уэйн"
 
 #: wp-admin/includes/continents-cities.php:115
+#, fuzzy
 msgid "Fortaleza"
-msgstr ""
+msgstr "Форталеза"
 
 #: wp-admin/includes/continents-cities.php:116
+#, fuzzy
 msgid "Glace Bay"
-msgstr ""
+msgstr "Глейс Бэй"
 
 #: wp-admin/includes/continents-cities.php:117
+#, fuzzy
 msgid "Godthab"
-msgstr ""
+msgstr "Готхоб"
 
 #: wp-admin/includes/continents-cities.php:118
+#, fuzzy
 msgid "Goose Bay"
-msgstr ""
+msgstr "Гус-Бей"
 
 #: wp-admin/includes/continents-cities.php:119
+#, fuzzy
 msgid "Grand Turk"
-msgstr ""
+msgstr "Гранд-Терк"
 
 #: wp-admin/includes/continents-cities.php:120
-#, fuzzy
 msgid "Grenada"
-msgstr "Отлично!"
+msgstr "Гренада"
 
 #: wp-admin/includes/continents-cities.php:121
 msgid "Guadeloupe"
-msgstr ""
+msgstr "Гваделупа"
 
 #: wp-admin/includes/continents-cities.php:122
 msgid "Guatemala"
-msgstr ""
+msgstr "Гватемала"
 
 #: wp-admin/includes/continents-cities.php:123
+#, fuzzy
 msgid "Guayaquil"
-msgstr ""
+msgstr "Гуаякиль"
 
 #: wp-admin/includes/continents-cities.php:124
+#, fuzzy
 msgid "Guyana"
-msgstr ""
+msgstr "Гайана"
 
 #: wp-admin/includes/continents-cities.php:125
+#, fuzzy
 msgid "Halifax"
-msgstr ""
+msgstr "Галифакс"
 
 #: wp-admin/includes/continents-cities.php:126
-#, fuzzy
 msgid "Havana"
-msgstr "Wavatar"
+msgstr "Гавана"
 
 #: wp-admin/includes/continents-cities.php:127
+#, fuzzy
 msgid "Hermosillo"
-msgstr ""
+msgstr "Эрмосильо"
 
 #: wp-admin/includes/continents-cities.php:128
-#, fuzzy
 msgid "Indiana"
-msgstr "Отступ"
+msgstr "Индиана"
 
 #: wp-admin/includes/continents-cities.php:129
 msgid "Indianapolis"
-msgstr ""
+msgstr "Индианаполис"
 
 #: wp-admin/includes/continents-cities.php:130
+#, fuzzy
 msgid "Knox"
-msgstr ""
+msgstr "Нокс"
 
 #: wp-admin/includes/continents-cities.php:131
 #, fuzzy
 msgid "Marengo"
-msgstr "Управление"
+msgstr "Маренго"
 
 #: wp-admin/includes/continents-cities.php:132
 msgid "Petersburg"
-msgstr ""
+msgstr "Петербург"
 
 #: wp-admin/includes/continents-cities.php:133
 #, fuzzy
 msgid "Tell City"
-msgstr "Город"
+msgstr "Телл Сити"
 
 #: wp-admin/includes/continents-cities.php:134
+#, fuzzy
 msgid "Vevay"
-msgstr ""
+msgstr "Вевей"
 
 #: wp-admin/includes/continents-cities.php:135
 #, fuzzy
 msgid "Vincennes"
-msgstr "Лицензия"
+msgstr "Винсеннес"
 
 #: wp-admin/includes/continents-cities.php:136
+#, fuzzy
 msgid "Winamac"
-msgstr ""
+msgstr "Винамак"
 
 #: wp-admin/includes/continents-cities.php:137
 #, fuzzy
 msgid "Inuvik"
-msgstr "Приглашения"
+msgstr "Инувик"
 
 #: wp-admin/includes/continents-cities.php:138
 #, fuzzy
 msgid "Iqaluit"
-msgstr "Курсив"
+msgstr "Икаилут"
 
 #: wp-admin/includes/continents-cities.php:139
 msgid "Jamaica"
-msgstr ""
+msgstr "Ямайка"
 
 #: wp-admin/includes/continents-cities.php:140
 #, fuzzy
 msgid "Juneau"
-msgstr "Июнь"
+msgstr "Джуно"
 
 #: wp-admin/includes/continents-cities.php:141
 msgid "Kentucky"
-msgstr ""
+msgstr "Кентукки"
 
 #: wp-admin/includes/continents-cities.php:142
+#, fuzzy
 msgid "Louisville"
-msgstr ""
+msgstr "Луисвилл"
 
 #: wp-admin/includes/continents-cities.php:143
 #, fuzzy
 msgid "Monticello"
-msgstr "Разное"
+msgstr "Монтичелло"
 
 #: wp-admin/includes/continents-cities.php:144
+#, fuzzy
 msgid "Knox IN"
-msgstr ""
+msgstr "Нокс (Индиана)"
 
 #: wp-admin/includes/continents-cities.php:145
+#, fuzzy
 msgid "La Paz"
-msgstr ""
+msgstr "Ла-Пас"
 
 #: wp-admin/includes/continents-cities.php:146
+#, fuzzy
 msgid "Lima"
-msgstr ""
+msgstr "Лима"
 
 #: wp-admin/includes/continents-cities.php:147
-#, fuzzy
 msgid "Los Angeles"
-msgstr "Последние новости"
+msgstr "Лос-Анджелес"
 
 #: wp-admin/includes/continents-cities.php:148
 #, fuzzy
 msgid "Maceio"
-msgstr "Почта"
+msgstr "Масейо"
 
 #: wp-admin/includes/continents-cities.php:149
 #, fuzzy
 msgid "Managua"
-msgstr "Управление"
+msgstr "Манагуа"
 
 #: wp-admin/includes/continents-cities.php:150
 #, fuzzy
 msgid "Manaus"
-msgstr "Управление"
+msgstr "Манаус"
 
 #: wp-admin/includes/continents-cities.php:151
 #, fuzzy
 msgid "Marigot"
-msgstr "Цель"
+msgstr "Маригот"
 
 #: wp-admin/includes/continents-cities.php:152
 #, fuzzy
 msgid "Martinique"
-msgstr "Для&nbsp;взрослых"
+msgstr "Мартиника"
 
 #: wp-admin/includes/continents-cities.php:153
+#, fuzzy
 msgid "Mazatlan"
-msgstr ""
+msgstr "Масатлан"
 
 #: wp-admin/includes/continents-cities.php:154
 #, fuzzy
 msgid "Menominee"
-msgstr "отсутствует"
+msgstr "Меномине"
 
 #: wp-admin/includes/continents-cities.php:155
-#, fuzzy
 msgid "Merida"
-msgstr "Медиафайлы"
+msgstr "Мерида"
 
 #: wp-admin/includes/continents-cities.php:156
 msgid "Mexico City"
-msgstr ""
+msgstr "Мехико Сити"
 
 #: wp-admin/includes/continents-cities.php:157
+#, fuzzy
 msgid "Miquelon"
-msgstr ""
+msgstr "Микелон"
 
 #: wp-admin/includes/continents-cities.php:158
 #, fuzzy
 msgid "Moncton"
-msgstr "положение"
+msgstr "Монктон"
 
 #: wp-admin/includes/continents-cities.php:159
 #, fuzzy
 msgid "Monterrey"
-msgstr "MonsterID"
+msgstr "Монтеррей"
 
 #: wp-admin/includes/continents-cities.php:160
 #, fuzzy
 msgid "Montevideo"
-msgstr "Управление видеофайлами"
+msgstr "Монтевидео"
 
 #: wp-admin/includes/continents-cities.php:161
-#, fuzzy
 msgid "Montreal"
-msgstr "Ежемесячно"
+msgstr "Монреаль"
 
 #: wp-admin/includes/continents-cities.php:162
 #, fuzzy
 msgid "Montserrat"
-msgstr "MonsterID"
+msgstr "Монсеррат"
 
 #: wp-admin/includes/continents-cities.php:163
+#, fuzzy
 msgid "Nassau"
-msgstr ""
+msgstr "Нассау"
 
 #: wp-admin/includes/continents-cities.php:164
-#, fuzzy
 msgid "New York"
-msgstr "Новая ссылка"
+msgstr "Нью Йорк"
 
 #: wp-admin/includes/continents-cities.php:165
+#, fuzzy
 msgid "Nipigon"
-msgstr ""
+msgstr "Нипигон"
 
 #: wp-admin/includes/continents-cities.php:166
 #, fuzzy
 msgid "Nome"
-msgstr "Имя"
+msgstr "Ном"
 
 #: wp-admin/includes/continents-cities.php:167
 #, fuzzy
 msgid "Noronha"
-msgstr "Обычный"
+msgstr "Норонха"
 
 #: wp-admin/includes/continents-cities.php:168
 msgid "North Dakota"
-msgstr ""
+msgstr "Северная Дакота"
 
 #: wp-admin/includes/continents-cities.php:169
 #: wp-admin/includes/media.php:767
@@ -10775,322 +10826,332 @@ msgid "Center"
 msgstr "По центру"
 
 #: wp-admin/includes/continents-cities.php:170
-#, fuzzy
 msgid "New Salem"
-msgstr "Новая страница"
+msgstr "Нью-Салем"
 
 #: wp-admin/includes/continents-cities.php:171
-#, fuzzy
 msgid "Panama"
-msgstr "имя"
+msgstr "Панама"
 
 #: wp-admin/includes/continents-cities.php:172
+#, fuzzy
 msgid "Pangnirtung"
-msgstr ""
+msgstr "Пангниртунг"
 
 #: wp-admin/includes/continents-cities.php:173
+#, fuzzy
 msgid "Paramaribo"
-msgstr ""
+msgstr "Парамарибо"
 
 #: wp-admin/includes/continents-cities.php:174
-#, fuzzy
 msgid "Phoenix"
-msgstr "Телефон"
+msgstr "Феникс"
 
 #: wp-admin/includes/continents-cities.php:175
+#, fuzzy
 msgid "Port-au-Prince"
-msgstr ""
+msgstr "Порт-о-Пренс"
 
 #: wp-admin/includes/continents-cities.php:176
+#, fuzzy
 msgid "Port of Spain"
-msgstr ""
+msgstr "Порт-оф-Спейн"
 
 #: wp-admin/includes/continents-cities.php:177
+#, fuzzy
 msgid "Porto Acre"
-msgstr ""
+msgstr "Порту-Акри"
 
 #: wp-admin/includes/continents-cities.php:178
+#, fuzzy
 msgid "Porto Velho"
-msgstr ""
+msgstr "Порту-Велью"
 
 #: wp-admin/includes/continents-cities.php:179
 msgid "Puerto Rico"
-msgstr ""
+msgstr "Пуэрто-Рико"
 
 #: wp-admin/includes/continents-cities.php:180
+#, fuzzy
 msgid "Rainy River"
-msgstr ""
+msgstr "Рейни-Ривер"
 
 #: wp-admin/includes/continents-cities.php:181
+#, fuzzy
 msgid "Rankin Inlet"
-msgstr ""
+msgstr "Ранкин-Инлет"
 
 #: wp-admin/includes/continents-cities.php:182
 #, fuzzy
 msgid "Recife"
-msgstr "Свежее"
+msgstr "Ресифи"
 
 #: wp-admin/includes/continents-cities.php:183
 #, fuzzy
 msgid "Regina"
-msgstr "Переименовать"
+msgstr "Риджайна"
 
 #: wp-admin/includes/continents-cities.php:184
 #, fuzzy
 msgid "Resolute"
-msgstr "Переучет"
+msgstr "Резольют"
 
 #: wp-admin/includes/continents-cities.php:185
+#, fuzzy
 msgid "Rio Branco"
-msgstr ""
+msgstr "Рио-Бранко"
 
 #: wp-admin/includes/continents-cities.php:186
+#, fuzzy
 msgid "Rosario"
-msgstr ""
+msgstr "Росарио"
 
 #: wp-admin/includes/continents-cities.php:187
-#, fuzzy
 msgid "Santiago"
-msgstr "Начальное изображение"
+msgstr "Сантьяго"
 
 #: wp-admin/includes/continents-cities.php:188
+#, fuzzy
 msgid "Santo Domingo"
-msgstr ""
+msgstr "Санто Доминго"
 
 #: wp-admin/includes/continents-cities.php:189
 msgid "Sao Paulo"
-msgstr ""
+msgstr "Сан-Паулу"
 
 #: wp-admin/includes/continents-cities.php:190
+#, fuzzy
 msgid "Scoresbysund"
-msgstr ""
+msgstr "Скорсби"
 
 #: wp-admin/includes/continents-cities.php:191
+#, fuzzy
 msgid "Shiprock"
-msgstr ""
+msgstr "Шипрок"
 
 #: wp-admin/includes/continents-cities.php:192
+#, fuzzy
 msgid "St Barthelemy"
-msgstr ""
+msgstr "Сент-Бартелеми"
 
 #: wp-admin/includes/continents-cities.php:193
 #, fuzzy
 msgid "St Johns"
-msgstr "Настройки сайта"
+msgstr "Сент-Джонс"
 
 #: wp-admin/includes/continents-cities.php:194
 #, fuzzy
 msgid "St Kitts"
-msgstr "Статистика"
+msgstr "Сент-Китс"
 
 #: wp-admin/includes/continents-cities.php:195
+#, fuzzy
 msgid "St Lucia"
-msgstr ""
+msgstr "Сент-Люсия"
 
 #: wp-admin/includes/continents-cities.php:196
 #, fuzzy
 msgid "St Thomas"
-msgstr "Темы сайта"
+msgstr "Санкт-Томас"
 
 #: wp-admin/includes/continents-cities.php:197
+#, fuzzy
 msgid "St Vincent"
-msgstr ""
+msgstr "Сент-Винсент"
 
 #: wp-admin/includes/continents-cities.php:198
+#, fuzzy
 msgid "Swift Current"
-msgstr ""
+msgstr "Свифт-Каррент"
 
 #: wp-admin/includes/continents-cities.php:199
+#, fuzzy
 msgid "Tegucigalpa"
-msgstr ""
+msgstr "Тегусигальпа"
 
 #: wp-admin/includes/continents-cities.php:200
-#, fuzzy
 msgid "Thule"
-msgstr "Вт"
+msgstr "Тула"
 
 #: wp-admin/includes/continents-cities.php:201
-#, fuzzy
 msgid "Thunder Bay"
-msgstr "Четверг"
+msgstr "Тандер-Бей"
 
 #: wp-admin/includes/continents-cities.php:202
 msgid "Tijuana"
-msgstr ""
+msgstr "Тихуана"
 
 #: wp-admin/includes/continents-cities.php:203
-#, fuzzy
 msgid "Toronto"
-msgstr "вперед"
+msgstr "Торонто"
 
 #: wp-admin/includes/continents-cities.php:204
 #, fuzzy
 msgid "Tortola"
-msgstr "Инструменты"
+msgstr "Тортола"
 
 #: wp-admin/includes/continents-cities.php:205
 msgid "Vancouver"
-msgstr ""
+msgstr "Ванкувер"
 
 #: wp-admin/includes/continents-cities.php:206
 #, fuzzy
 msgid "Virgin"
-msgstr "Версия"
+msgstr "Вирджин"
 
 #: wp-admin/includes/continents-cities.php:207
 #, fuzzy
 msgid "Whitehorse"
-msgstr "Белый список"
+msgstr "Уайтхорс"
 
 #: wp-admin/includes/continents-cities.php:208
+#, fuzzy
 msgid "Winnipeg"
-msgstr ""
+msgstr "Виннипег"
 
 #: wp-admin/includes/continents-cities.php:209
+#, fuzzy
 msgid "Yakutat"
-msgstr ""
+msgstr "Якутат"
 
 #: wp-admin/includes/continents-cities.php:210
+#, fuzzy
 msgid "Yellowknife"
-msgstr ""
+msgstr "Йеллоунайф"
 
 #: wp-admin/includes/continents-cities.php:211
 msgid "Antarctica"
-msgstr ""
+msgstr "Антарктика"
 
 #: wp-admin/includes/continents-cities.php:212
 #, fuzzy
 msgid "Casey"
-msgstr "Базовый каталог"
+msgstr "Кейси"
 
 #: wp-admin/includes/continents-cities.php:213
 #, fuzzy
 msgid "Davis"
-msgstr "Дни"
+msgstr "Дэвис"
 
 #: wp-admin/includes/continents-cities.php:214
+#, fuzzy
 msgid "DumontDUrville"
-msgstr ""
+msgstr "Дюмон-Дюрвиль"
 
 #: wp-admin/includes/continents-cities.php:215
 #, fuzzy
 msgid "Mawson"
-msgstr "Пн"
+msgstr "Моусон"
 
 #: wp-admin/includes/continents-cities.php:216
+#, fuzzy
 msgid "McMurdo"
-msgstr ""
+msgstr "Мак-Мердо"
 
 #: wp-admin/includes/continents-cities.php:217
 #, fuzzy
 msgid "Palmer"
-msgstr "Галерея"
+msgstr "Палмер"
 
 #: wp-admin/includes/continents-cities.php:218
 #, fuzzy
 msgid "Rothera"
-msgstr "Другое"
+msgstr "Ротера"
 
 #: wp-admin/includes/continents-cities.php:219
-#, fuzzy
 msgid "South Pole"
-msgstr "Ваш профиль"
+msgstr "Южный полюс"
 
 #: wp-admin/includes/continents-cities.php:220
 #, fuzzy
 msgid "Syowa"
-msgstr "Показать"
+msgstr "Сиова"
 
 #: wp-admin/includes/continents-cities.php:221
 #, fuzzy
 msgid "Vostok"
-msgstr "Запись"
+msgstr "Восток"
 
 #: wp-admin/includes/continents-cities.php:222
-#, fuzzy
 msgid "Arctic"
-msgstr "Действие"
+msgstr "Арктика"
 
 #: wp-admin/includes/continents-cities.php:223
+#, fuzzy
 msgid "Longyearbyen"
-msgstr ""
+msgstr "Лонгйир"
 
 #: wp-admin/includes/continents-cities.php:224
 msgid "Asia"
-msgstr ""
+msgstr "Азия"
 
 #: wp-admin/includes/continents-cities.php:225
-#, fuzzy
 msgid "Aden"
-msgstr "Администрирование"
+msgstr "Аден"
 
 #: wp-admin/includes/continents-cities.php:226
-#, fuzzy
 msgid "Almaty"
-msgstr "последняя"
+msgstr "Алма-Ата"
 
 #: wp-admin/includes/continents-cities.php:227
 #, fuzzy
 msgid "Amman"
-msgstr "Администрирование"
+msgstr "Амман"
 
 #: wp-admin/includes/continents-cities.php:228
 #, fuzzy
 msgid "Anadyr"
-msgstr "Любой"
+msgstr "Анадырь"
 
 #: wp-admin/includes/continents-cities.php:229
+#, fuzzy
 msgid "Aqtau"
-msgstr ""
+msgstr "Актау"
 
 #: wp-admin/includes/continents-cities.php:230
 #, fuzzy
 msgid "Aqtobe"
-msgstr "Октябрь"
+msgstr "Актобе"
 
 #: wp-admin/includes/continents-cities.php:231
 msgid "Ashgabat"
-msgstr ""
+msgstr "Ашгабат"
 
 #: wp-admin/includes/continents-cities.php:232
 msgid "Ashkhabad"
-msgstr ""
+msgstr "Ашхабад"
 
 #: wp-admin/includes/continents-cities.php:233
 msgid "Baghdad"
-msgstr ""
+msgstr "Багдад"
 
 #: wp-admin/includes/continents-cities.php:234
 msgid "Bahrain"
-msgstr ""
+msgstr "Бахрейн"
 
 #: wp-admin/includes/continents-cities.php:235
-#, fuzzy
 msgid "Baku"
-msgstr "Пустой"
+msgstr "Баку"
 
 #: wp-admin/includes/continents-cities.php:236
-#, fuzzy
 msgid "Bangkok"
-msgstr "Пустой"
+msgstr "Бангкок"
 
 #: wp-admin/includes/continents-cities.php:237
-#, fuzzy
 msgid "Beirut"
-msgstr "редактировать"
+msgstr "Бейрут"
 
 #: wp-admin/includes/continents-cities.php:238
 msgid "Bishkek"
-msgstr ""
+msgstr "Бишкек"
 
 #: wp-admin/includes/continents-cities.php:239
-#, fuzzy
 msgid "Brunei"
-msgstr "Июнь"
+msgstr "Бруней"
 
 #: wp-admin/includes/continents-cities.php:240
 msgid "Calcutta"
-msgstr ""
+msgstr "Калькутта"
 
 #: wp-admin/includes/continents-cities.php:241
 msgid "Choibalsan"
@@ -11099,1115 +11160,1141 @@ msgstr ""
 #: wp-admin/includes/continents-cities.php:242
 #, fuzzy
 msgid "Chongqing"
-msgstr "Продолжение"
+msgstr "Чунцин"
 
 #: wp-admin/includes/continents-cities.php:243
 #, fuzzy
 msgid "Chungking"
-msgstr "Переход к %s"
+msgstr "Чунцин"
 
 #: wp-admin/includes/continents-cities.php:244
 #, fuzzy
 msgid "Colombo"
-msgstr "Столбец"
+msgstr "Коломбо"
 
 #: wp-admin/includes/continents-cities.php:245
+#, fuzzy
 msgid "Dacca"
-msgstr ""
+msgstr "Дакка"
 
 #: wp-admin/includes/continents-cities.php:246
 msgid "Damascus"
-msgstr ""
+msgstr "Дамаск"
 
 #: wp-admin/includes/continents-cities.php:247
+#, fuzzy
 msgid "Dhaka"
-msgstr ""
+msgstr "Дакка"
 
 #: wp-admin/includes/continents-cities.php:248
 msgid "Dili"
-msgstr ""
+msgstr "Дили"
 
 #: wp-admin/includes/continents-cities.php:249
 msgid "Dubai"
-msgstr ""
+msgstr "Дубай"
 
 #: wp-admin/includes/continents-cities.php:250
 #, fuzzy
 msgid "Dushanbe"
-msgstr "Отключено"
+msgstr "Душанбе"
 
 #: wp-admin/includes/continents-cities.php:251
+#, fuzzy
 msgid "Gaza"
-msgstr ""
+msgstr "Газа"
 
 #: wp-admin/includes/continents-cities.php:252
-#, fuzzy
 msgid "Harbin"
-msgstr "Предупреждение"
+msgstr "Харбин"
 
 #: wp-admin/includes/continents-cities.php:253
 msgid "Ho Chi Minh"
-msgstr ""
+msgstr "Хошимин"
 
 #: wp-admin/includes/continents-cities.php:254
 msgid "Hong Kong"
-msgstr ""
+msgstr "Гонконг"
 
 #: wp-admin/includes/continents-cities.php:255
+#, fuzzy
 msgid "Hovd"
-msgstr ""
+msgstr "Ховд"
 
 #: wp-admin/includes/continents-cities.php:256
 msgid "Irkutsk"
-msgstr ""
+msgstr "Иркутск"
 
 #: wp-admin/includes/continents-cities.php:257
-#, fuzzy
 msgid "Istanbul"
-msgstr "Установить"
+msgstr "Стамбул"
 
 #: wp-admin/includes/continents-cities.php:258
 msgid "Jakarta"
-msgstr ""
+msgstr "Джакарта"
 
 #: wp-admin/includes/continents-cities.php:259
+#, fuzzy
 msgid "Jayapura"
-msgstr ""
+msgstr "Джаяпура"
 
 #: wp-admin/includes/continents-cities.php:260
 msgid "Jerusalem"
-msgstr ""
+msgstr "Иерусалим"
 
 #: wp-admin/includes/continents-cities.php:261
-#, fuzzy
 msgid "Kabul"
-msgstr "about"
+msgstr "Кабул"
 
 #: wp-admin/includes/continents-cities.php:262
 msgid "Kamchatka"
-msgstr ""
+msgstr "Камчатка"
 
 #: wp-admin/includes/continents-cities.php:263
-#, fuzzy
 msgid "Karachi"
-msgstr "архив"
+msgstr "Карачи"
 
 #: wp-admin/includes/continents-cities.php:264
 #, fuzzy
 msgid "Kashgar"
-msgstr "Консоль"
+msgstr "Кашгар"
 
 #: wp-admin/includes/continents-cities.php:265
 msgid "Katmandu"
-msgstr ""
+msgstr "Катманду"
 
 #: wp-admin/includes/continents-cities.php:266
 msgid "Kolkata"
-msgstr ""
+msgstr "Калькутта"
 
 #: wp-admin/includes/continents-cities.php:267
 msgid "Krasnoyarsk"
-msgstr ""
+msgstr "Красноярск"
 
 #: wp-admin/includes/continents-cities.php:268
+#, fuzzy
 msgid "Kuala Lumpur"
-msgstr ""
+msgstr "Куала-Лумпур"
 
 #: wp-admin/includes/continents-cities.php:269
+#, fuzzy
 msgid "Kuching"
-msgstr ""
+msgstr "Кучинг"
 
 #: wp-admin/includes/continents-cities.php:270
-#, fuzzy
 msgid "Kuwait"
-msgstr "Качество"
+msgstr "Кувейт"
 
 #: wp-admin/includes/continents-cities.php:271
-#, fuzzy
 msgid "Macao"
-msgstr "Март"
+msgstr "Макао"
 
 #: wp-admin/includes/continents-cities.php:272
-#, fuzzy
 msgid "Macau"
-msgstr "Март"
+msgstr "Макао"
 
 #: wp-admin/includes/continents-cities.php:273
 msgid "Magadan"
-msgstr ""
+msgstr "Магадан"
 
 #: wp-admin/includes/continents-cities.php:274
 #, fuzzy
 msgid "Makassar"
-msgstr "Пометить как спам"
+msgstr "Макассар"
 
 #: wp-admin/includes/continents-cities.php:275
 #, fuzzy
 msgid "Manila"
-msgstr "Почта"
+msgstr "Манила"
 
 #: wp-admin/includes/continents-cities.php:276
 #, fuzzy
 msgid "Muscat"
-msgstr "Музыка"
+msgstr "Маскат"
 
 #: wp-admin/includes/continents-cities.php:277
+#, fuzzy
 msgid "Nicosia"
-msgstr ""
+msgstr "Никосия"
 
 #: wp-admin/includes/continents-cities.php:278
 msgid "Novosibirsk"
-msgstr ""
+msgstr "Новосибирск"
 
 #: wp-admin/includes/continents-cities.php:279
 msgid "Omsk"
-msgstr ""
+msgstr "Омск"
 
 #: wp-admin/includes/continents-cities.php:280
-#, fuzzy
 msgid "Oral"
-msgstr "Всего"
+msgstr "Орал"
 
 #: wp-admin/includes/continents-cities.php:281
+#, fuzzy
 msgid "Phnom Penh"
-msgstr ""
+msgstr "Пномпень"
 
 #: wp-admin/includes/continents-cities.php:282
+#, fuzzy
 msgid "Pontianak"
-msgstr ""
+msgstr "Понтианаке"
 
 #: wp-admin/includes/continents-cities.php:283
+#, fuzzy
 msgid "Pyongyang"
-msgstr ""
+msgstr "Пхеньян"
 
 #: wp-admin/includes/continents-cities.php:284
-#, fuzzy
 msgid "Qatar"
-msgstr "Аватары"
+msgstr "Катар"
 
 #: wp-admin/includes/continents-cities.php:285
 msgid "Qyzylorda"
-msgstr ""
+msgstr "Кызыл-Орда"
 
 #: wp-admin/includes/continents-cities.php:286
 #, fuzzy
 msgid "Rangoon"
-msgstr "Рейтинг"
+msgstr "Янгон"
 
 #: wp-admin/includes/continents-cities.php:287
 #, fuzzy
 msgid "Riyadh"
-msgstr "Прочитать"
+msgstr "Эр-Рияд"
 
 #: wp-admin/includes/continents-cities.php:288
-#, fuzzy
 msgid "Saigon"
-msgstr "SAlign"
+msgstr "Сайгон"
 
 #: wp-admin/includes/continents-cities.php:289
 msgid "Sakhalin"
-msgstr ""
+msgstr "Сахалин"
 
 #: wp-admin/includes/continents-cities.php:290
 msgid "Samarkand"
-msgstr ""
+msgstr "Самарканд"
 
 #: wp-admin/includes/continents-cities.php:291
 #, fuzzy
 msgid "Seoul"
-msgstr "Запланировать"
+msgstr "Сеул"
 
 #: wp-admin/includes/continents-cities.php:292
 msgid "Shanghai"
-msgstr ""
+msgstr "Шанхай"
 
 #: wp-admin/includes/continents-cities.php:293
 msgid "Singapore"
-msgstr ""
+msgstr "Сингапур"
 
 #: wp-admin/includes/continents-cities.php:294
 #, fuzzy
 msgid "Taipei"
-msgstr "Краткое описание"
+msgstr "Тайбэй"
 
 #: wp-admin/includes/continents-cities.php:295
-#, fuzzy
 msgid "Tashkent"
-msgstr "Задачи"
+msgstr "Ташкент"
 
 #: wp-admin/includes/continents-cities.php:296
 msgid "Tbilisi"
-msgstr ""
+msgstr "Тбилиси"
 
 #: wp-admin/includes/continents-cities.php:297
 #, fuzzy
 msgid "Tehran"
-msgstr "Спасибо!"
+msgstr "Тегеран"
 
 #: wp-admin/includes/continents-cities.php:298
-#, fuzzy
 msgid "Tel Aviv"
-msgstr "Архивы"
+msgstr "Тель-Авив"
 
 #: wp-admin/includes/continents-cities.php:299
 #, fuzzy
 msgid "Thimbu"
-msgstr "Чт"
+msgstr "Тхимпху"
 
 #: wp-admin/includes/continents-cities.php:300
 #, fuzzy
 msgid "Thimphu"
-msgstr "Чт"
+msgstr "Тхимпху"
 
 #: wp-admin/includes/continents-cities.php:301
-#, fuzzy
 msgid "Tokyo"
-msgstr "Сегодня"
+msgstr "Токио"
 
 #: wp-admin/includes/continents-cities.php:302
+#, fuzzy
 msgid "Ujung Pandang"
-msgstr ""
+msgstr "Уджунг Панданга"
 
 #: wp-admin/includes/continents-cities.php:303
 msgid "Ulaanbaatar"
-msgstr ""
+msgstr "Улан-Батор"
 
 #: wp-admin/includes/continents-cities.php:304
 msgid "Ulan Bator"
-msgstr ""
+msgstr "Улан Батор"
 
 #: wp-admin/includes/continents-cities.php:305
+#, fuzzy
 msgid "Urumqi"
-msgstr ""
+msgstr "Урумчи"
 
 #: wp-admin/includes/continents-cities.php:306
+#, fuzzy
 msgid "Vientiane"
-msgstr ""
+msgstr "Вьентьян"
 
 #: wp-admin/includes/continents-cities.php:307
 msgid "Vladivostok"
-msgstr ""
+msgstr "Владивосток"
 
 #: wp-admin/includes/continents-cities.php:308
 msgid "Yakutsk"
-msgstr ""
+msgstr "Якутск"
 
 #: wp-admin/includes/continents-cities.php:309
 msgid "Yekaterinburg"
-msgstr ""
+msgstr "Екатеринбург"
 
 #: wp-admin/includes/continents-cities.php:310
 msgid "Yerevan"
-msgstr ""
+msgstr "Ереван"
 
 #: wp-admin/includes/continents-cities.php:311
-#, fuzzy
 msgid "Atlantic"
-msgstr "На виду"
+msgstr "Атлантика"
 
 #: wp-admin/includes/continents-cities.php:312
-#, fuzzy
 msgid "Azores"
-msgstr "Адрес"
+msgstr "Азорские острова"
 
 #: wp-admin/includes/continents-cities.php:313
 msgid "Bermuda"
-msgstr ""
+msgstr "Бермудские острова"
 
 #: wp-admin/includes/continents-cities.php:314
-#, fuzzy
 msgid "Canary"
-msgstr "Январь"
+msgstr "Канарские острова"
 
 #: wp-admin/includes/continents-cities.php:315
 #, fuzzy
 msgid "Cape Verde"
-msgstr "Порядок страницы"
+msgstr "Кабо-Верде"
 
 #: wp-admin/includes/continents-cities.php:316
 msgid "Faeroe"
-msgstr ""
+msgstr "Фарерские острова"
 
 #: wp-admin/includes/continents-cities.php:317
-#, fuzzy
 msgid "Faroe"
-msgstr "Возможности"
+msgstr "Фарерские острова"
 
 #: wp-admin/includes/continents-cities.php:318
 #, fuzzy
 msgid "Jan Mayen"
-msgstr "Январь"
+msgstr "Ян-Марен"
 
 #: wp-admin/includes/continents-cities.php:319
 #, fuzzy
 msgid "Madeira"
-msgstr "Медиафайлы"
+msgstr "Мадейра"
 
 #: wp-admin/includes/continents-cities.php:320
 msgid "Reykjavik"
-msgstr ""
+msgstr "Рейкьявик"
 
 #: wp-admin/includes/continents-cities.php:321
 msgid "South Georgia"
-msgstr ""
+msgstr "Южная Джорджия"
 
 #: wp-admin/includes/continents-cities.php:322
 msgid "St Helena"
-msgstr ""
+msgstr "Остров Св. Елены"
 
 #: wp-admin/includes/continents-cities.php:323
 #, fuzzy
 msgid "Stanley"
-msgstr "Масштаб"
+msgstr "Стэнли"
 
 #: wp-admin/includes/continents-cities.php:324
 msgid "Australia"
-msgstr ""
+msgstr "Австралия"
 
 #: wp-admin/includes/continents-cities.php:325
+#, fuzzy
 msgid "ACT"
-msgstr ""
+msgstr "АСТ"
 
 #: wp-admin/includes/continents-cities.php:326
 msgid "Adelaide"
-msgstr ""
+msgstr "Аделаида"
 
 #: wp-admin/includes/continents-cities.php:327
+#, fuzzy
 msgid "Brisbane"
-msgstr ""
+msgstr "Брисбен"
 
 #: wp-admin/includes/continents-cities.php:328
+#, fuzzy
 msgid "Broken Hill"
-msgstr ""
+msgstr "Броукен-Хил"
 
 #: wp-admin/includes/continents-cities.php:329
 msgid "Canberra"
-msgstr ""
+msgstr "Канберра"
 
 #: wp-admin/includes/continents-cities.php:330
+#, fuzzy
 msgid "Currie"
-msgstr ""
+msgstr "Карри"
 
 #: wp-admin/includes/continents-cities.php:331
 #, fuzzy
 msgid "Darwin"
-msgstr "Домен"
+msgstr "Дарвин"
 
 #: wp-admin/includes/continents-cities.php:332
+#, fuzzy
 msgid "Eucla"
-msgstr ""
+msgstr "Эукла"
 
 #: wp-admin/includes/continents-cities.php:333
+#, fuzzy
 msgid "Hobart"
-msgstr ""
+msgstr "Хобарт"
 
 #: wp-admin/includes/continents-cities.php:334
+#, fuzzy
 msgid "LHI"
-msgstr ""
+msgstr "LHI"
 
 #: wp-admin/includes/continents-cities.php:335
+#, fuzzy
 msgid "Lindeman"
-msgstr ""
+msgstr "Линдеман"
 
 #: wp-admin/includes/continents-cities.php:336
+#, fuzzy
 msgid "Lord Howe"
-msgstr ""
+msgstr "Лорд-Хау"
 
 #: wp-admin/includes/continents-cities.php:337
 msgid "Melbourne"
-msgstr ""
+msgstr "Мельбурн"
 
 #: wp-admin/includes/continents-cities.php:338
-#, fuzzy
 msgid "North"
-msgstr "месяц"
+msgstr "Север"
 
 #: wp-admin/includes/continents-cities.php:339
+#, fuzzy
 msgid "NSW"
-msgstr ""
+msgstr "NSW"
 
 #: wp-admin/includes/continents-cities.php:340
 #, fuzzy
 msgid "Perth"
-msgstr "Путь"
+msgstr "Перт"
 
 #: wp-admin/includes/continents-cities.php:341
 msgid "Queensland"
-msgstr ""
+msgstr "Квинсленд"
 
 #: wp-admin/includes/continents-cities.php:342
-#, fuzzy
 msgid "South"
-msgstr "месяц"
+msgstr "Юг"
 
 #: wp-admin/includes/continents-cities.php:343
 msgid "Sydney"
-msgstr ""
+msgstr "Сидней"
 
 #: wp-admin/includes/continents-cities.php:344
 msgid "Tasmania"
-msgstr ""
+msgstr "Тасмания"
 
 #: wp-admin/includes/continents-cities.php:345
 msgid "Victoria"
-msgstr ""
+msgstr "Виктория"
 
 #: wp-admin/includes/continents-cities.php:346
-#, fuzzy
 msgid "West"
-msgstr "Сайт"
+msgstr "Запад"
 
 #: wp-admin/includes/continents-cities.php:347
+#, fuzzy
 msgid "Yancowinna"
-msgstr ""
+msgstr "Янковинна"
 
 #: wp-admin/includes/continents-cities.php:348
 msgid "Etc"
-msgstr ""
+msgstr "И т.д."
 
 #: wp-admin/includes/continents-cities.php:349
+#, fuzzy
 msgid "GMT"
-msgstr ""
+msgstr "GMT"
 
 #: wp-admin/includes/continents-cities.php:350
+#, fuzzy
 msgid "GMT+0"
-msgstr ""
+msgstr "GMT+0"
 
 #: wp-admin/includes/continents-cities.php:351
+#, fuzzy
 msgid "GMT+1"
-msgstr ""
+msgstr "GMT+1"
 
 #: wp-admin/includes/continents-cities.php:352
+#, fuzzy
 msgid "GMT+10"
-msgstr ""
+msgstr "GMT+10"
 
 #: wp-admin/includes/continents-cities.php:353
+#, fuzzy
 msgid "GMT+11"
-msgstr ""
+msgstr "GMT+11"
 
 #: wp-admin/includes/continents-cities.php:354
+#, fuzzy
 msgid "GMT+12"
-msgstr ""
+msgstr "GMT+12"
 
 #: wp-admin/includes/continents-cities.php:355
+#, fuzzy
 msgid "GMT+2"
-msgstr ""
+msgstr "GMT+2"
 
 #: wp-admin/includes/continents-cities.php:356
+#, fuzzy
 msgid "GMT+3"
-msgstr ""
+msgstr "GMT+3"
 
 #: wp-admin/includes/continents-cities.php:357
+#, fuzzy
 msgid "GMT+4"
-msgstr ""
+msgstr "GMT+4"
 
 #: wp-admin/includes/continents-cities.php:358
+#, fuzzy
 msgid "GMT+5"
-msgstr ""
+msgstr "GMT+5"
 
 #: wp-admin/includes/continents-cities.php:359
+#, fuzzy
 msgid "GMT+6"
-msgstr ""
+msgstr "GMT+6"
 
 #: wp-admin/includes/continents-cities.php:360
+#, fuzzy
 msgid "GMT+7"
-msgstr ""
+msgstr "GMT+7"
 
 #: wp-admin/includes/continents-cities.php:361
+#, fuzzy
 msgid "GMT+8"
-msgstr ""
+msgstr "GMT+8"
 
 #: wp-admin/includes/continents-cities.php:362
+#, fuzzy
 msgid "GMT+9"
-msgstr ""
+msgstr "GMT+9"
 
 #: wp-admin/includes/continents-cities.php:363
+#, fuzzy
 msgid "GMT-0"
-msgstr ""
+msgstr "GMT-0"
 
 #: wp-admin/includes/continents-cities.php:364
+#, fuzzy
 msgid "GMT-1"
-msgstr ""
+msgstr "GMT-1"
 
 #: wp-admin/includes/continents-cities.php:365
+#, fuzzy
 msgid "GMT-10"
-msgstr ""
+msgstr "GMT-10"
 
 #: wp-admin/includes/continents-cities.php:366
+#, fuzzy
 msgid "GMT-11"
-msgstr ""
+msgstr "GMT-11"
 
 #: wp-admin/includes/continents-cities.php:367
+#, fuzzy
 msgid "GMT-12"
-msgstr ""
+msgstr "GMT-12"
 
 #: wp-admin/includes/continents-cities.php:368
+#, fuzzy
 msgid "GMT-13"
-msgstr ""
+msgstr "GMT-13"
 
 #: wp-admin/includes/continents-cities.php:369
+#, fuzzy
 msgid "GMT-14"
-msgstr ""
+msgstr "GMT-14"
 
 #: wp-admin/includes/continents-cities.php:370
+#, fuzzy
 msgid "GMT-2"
-msgstr ""
+msgstr "GMT-2"
 
 #: wp-admin/includes/continents-cities.php:371
+#, fuzzy
 msgid "GMT-3"
-msgstr ""
+msgstr "GMT-3"
 
 #: wp-admin/includes/continents-cities.php:372
+#, fuzzy
 msgid "GMT-4"
-msgstr ""
+msgstr "GMT-4"
 
 #: wp-admin/includes/continents-cities.php:373
+#, fuzzy
 msgid "GMT-5"
-msgstr ""
+msgstr "GMT-5"
 
 #: wp-admin/includes/continents-cities.php:374
+#, fuzzy
 msgid "GMT-6"
-msgstr ""
+msgstr "GMT-6"
 
 #: wp-admin/includes/continents-cities.php:375
+#, fuzzy
 msgid "GMT-7"
-msgstr ""
+msgstr "GMT-7"
 
 #: wp-admin/includes/continents-cities.php:376
+#, fuzzy
 msgid "GMT-8"
-msgstr ""
+msgstr "GMT-8"
 
 #: wp-admin/includes/continents-cities.php:377
+#, fuzzy
 msgid "GMT-9"
-msgstr ""
+msgstr "GMT-9"
 
 #: wp-admin/includes/continents-cities.php:378
+#, fuzzy
 msgid "GMT0"
-msgstr ""
+msgstr "GMT0"
 
 #: wp-admin/includes/continents-cities.php:379
 msgid "Greenwich"
-msgstr ""
+msgstr "Гринвич"
 
 #: wp-admin/includes/continents-cities.php:380
+#, fuzzy
 msgid "UCT"
-msgstr ""
+msgstr "UCT"
 
 #: wp-admin/includes/continents-cities.php:381
 #, fuzzy
 msgid "Universal"
-msgstr "Общие"
+msgstr "Универсальное координированное время"
 
 #: wp-admin/includes/continents-cities.php:382
 #, fuzzy
 msgid "UTC"
-msgstr "UTC %s"
+msgstr "UTC"
 
 #: wp-admin/includes/continents-cities.php:383
+#, fuzzy
 msgid "Zulu"
-msgstr ""
+msgstr "Зулу"
 
 #: wp-admin/includes/continents-cities.php:384
 msgid "Europe"
-msgstr ""
+msgstr "Европа"
 
 #: wp-admin/includes/continents-cities.php:385
-#, fuzzy
 msgid "Amsterdam"
-msgstr "Вчера"
+msgstr "Амстердам"
 
 #: wp-admin/includes/continents-cities.php:386
 msgid "Andorra"
-msgstr ""
+msgstr "Андорра"
 
 #: wp-admin/includes/continents-cities.php:387
-#, fuzzy
 msgid "Athens"
-msgstr "Действия"
+msgstr "Афины"
 
 #: wp-admin/includes/continents-cities.php:388
-#, fuzzy
 msgid "Belfast"
-msgstr "последняя"
+msgstr "Белфаст"
 
 #: wp-admin/includes/continents-cities.php:389
-#, fuzzy
 msgid "Belgrade"
-msgstr "Обновление"
+msgstr "Белград"
 
 #: wp-admin/includes/continents-cities.php:390
-#, fuzzy
 msgid "Berlin"
-msgstr "По базовой линии"
+msgstr "Берлин"
 
 #: wp-admin/includes/continents-cities.php:391
 msgid "Bratislava"
-msgstr ""
+msgstr "Братислава"
 
 #: wp-admin/includes/continents-cities.php:392
 msgid "Brussels"
-msgstr ""
+msgstr "Брюссель"
 
 #: wp-admin/includes/continents-cities.php:393
 msgid "Bucharest"
-msgstr ""
+msgstr "Бухарест"
 
 #: wp-admin/includes/continents-cities.php:394
 msgid "Budapest"
-msgstr ""
+msgstr "Будапешт"
 
 #: wp-admin/includes/continents-cities.php:395
 msgid "Chisinau"
-msgstr ""
+msgstr "Кишинев"
 
 #: wp-admin/includes/continents-cities.php:396
-#, fuzzy
 msgid "Copenhagen"
-msgstr "Изменить"
+msgstr "Копенгаген"
 
 #: wp-admin/includes/continents-cities.php:397
-#, fuzzy
 msgid "Dublin"
-msgstr "Открыто"
+msgstr "Дублин"
 
 #: wp-admin/includes/continents-cities.php:398
-#, fuzzy
 msgid "Gibraltar"
-msgstr "Библиотека"
+msgstr "Гибралтар"
 
 #: wp-admin/includes/continents-cities.php:399
+#, fuzzy
 msgid "Guernsey"
-msgstr ""
+msgstr "Гернси"
 
 #: wp-admin/includes/continents-cities.php:400
 msgid "Helsinki"
-msgstr ""
+msgstr "Хельсинки"
 
 #: wp-admin/includes/continents-cities.php:401
 msgid "Isle of Man"
-msgstr ""
+msgstr "Остров Мэн"
 
 #: wp-admin/includes/continents-cities.php:402
 msgid "Jersey"
-msgstr ""
+msgstr "Джерси"
 
 #: wp-admin/includes/continents-cities.php:403
 msgid "Kaliningrad"
-msgstr ""
+msgstr "Калининград"
 
 #: wp-admin/includes/continents-cities.php:404
 msgid "Kiev"
-msgstr ""
+msgstr "Киев"
 
 #: wp-admin/includes/continents-cities.php:405
-#, fuzzy
 msgid "Lisbon"
-msgstr "Ссылка"
+msgstr "Лиссабон"
 
 #: wp-admin/includes/continents-cities.php:406
+#, fuzzy
 msgid "Ljubljana"
-msgstr ""
+msgstr "Любляна"
 
 #: wp-admin/includes/continents-cities.php:407
-#, fuzzy
 msgid "London"
-msgstr "отсутствует"
+msgstr "Лондон"
 
 #: wp-admin/includes/continents-cities.php:408
 msgid "Luxembourg"
-msgstr ""
+msgstr "Люксембург"
 
 #: wp-admin/includes/continents-cities.php:409
-#, fuzzy
 msgid "Madrid"
-msgstr "сказал"
+msgstr "Мадрид"
 
 #: wp-admin/includes/continents-cities.php:410
-#, fuzzy
 msgid "Malta"
-msgstr "Мета"
+msgstr "Мальта"
 
 #: wp-admin/includes/continents-cities.php:411
+#, fuzzy
 msgid "Mariehamn"
-msgstr ""
+msgstr "Мариехамн"
 
 #: wp-admin/includes/continents-cities.php:412
-#, fuzzy
 msgid "Minsk"
-msgstr "Ссылка"
+msgstr "Минск"
 
 #: wp-admin/includes/continents-cities.php:413
-#, fuzzy
 msgid "Monaco"
-msgstr "Понедельник"
+msgstr "Монако"
 
 #: wp-admin/includes/continents-cities.php:414
-#, fuzzy
 msgid "Moscow"
-msgstr "Разное"
+msgstr "Москва"
 
 #: wp-admin/includes/continents-cities.php:415
 msgid "Oslo"
-msgstr ""
+msgstr "Осло"
 
 #: wp-admin/includes/continents-cities.php:416
-#, fuzzy
 msgid "Paris"
-msgstr "Ранее"
+msgstr "Париж"
 
 #: wp-admin/includes/continents-cities.php:417
 msgid "Podgorica"
-msgstr ""
+msgstr "Подгорица"
 
 #: wp-admin/includes/continents-cities.php:418
-#, fuzzy
 msgid "Prague"
-msgstr "Страница"
+msgstr "Прага"
 
 #: wp-admin/includes/continents-cities.php:419
-#, fuzzy
 msgid "Riga"
-msgstr "Справа"
+msgstr "Рига"
 
 #: wp-admin/includes/continents-cities.php:420
-#, fuzzy
 msgid "Rome"
-msgstr "Главная"
+msgstr "Рим"
 
 #: wp-admin/includes/continents-cities.php:421
-#, fuzzy
 msgid "Samara"
-msgstr "Анонс"
+msgstr "Самара"
 
 #: wp-admin/includes/continents-cities.php:422
+#, fuzzy
 msgid "San Marino"
-msgstr ""
+msgstr "Сан-Марино"
 
 #: wp-admin/includes/continents-cities.php:423
 msgid "Sarajevo"
-msgstr ""
+msgstr "Сараево"
 
 #: wp-admin/includes/continents-cities.php:424
 msgid "Simferopol"
-msgstr ""
+msgstr "Симферопль"
 
 #: wp-admin/includes/continents-cities.php:425
+#, fuzzy
 msgid "Skopje"
-msgstr ""
+msgstr "Скопье"
 
 #: wp-admin/includes/continents-cities.php:426
 msgid "Sofia"
-msgstr ""
+msgstr "София"
 
 #: wp-admin/includes/continents-cities.php:427
 msgid "Stockholm"
-msgstr ""
+msgstr "Стокгольм"
 
 #: wp-admin/includes/continents-cities.php:428
 #, fuzzy
 msgid "Tallinn"
-msgstr "Краткое описание"
+msgstr "Таллин"
 
 #: wp-admin/includes/continents-cities.php:429
 #, fuzzy
 msgid "Tirane"
-msgstr "Краткое описание"
+msgstr "Тирана"
 
 #: wp-admin/includes/continents-cities.php:430
 msgid "Tiraspol"
-msgstr ""
+msgstr "Тирасполь"
 
 #: wp-admin/includes/continents-cities.php:431
 msgid "Uzhgorod"
-msgstr ""
+msgstr "Ужгород"
 
 #: wp-admin/includes/continents-cities.php:432
 #, fuzzy
 msgid "Vaduz"
-msgstr "Значение"
+msgstr "Вадуц"
 
 #: wp-admin/includes/continents-cities.php:433
-#, fuzzy
 msgid "Vatican"
-msgstr "Рейтинг"
+msgstr "Ватикан"
 
 #: wp-admin/includes/continents-cities.php:434
-#, fuzzy
 msgid "Vienna"
-msgstr "Просмотреть"
+msgstr "Вена"
 
 #: wp-admin/includes/continents-cities.php:435
 #, fuzzy
 msgid "Vilnius"
-msgstr "Завершено!"
+msgstr "Вильнюс"
 
 #: wp-admin/includes/continents-cities.php:436
 msgid "Volgograd"
-msgstr ""
+msgstr "Волгоград"
 
 #: wp-admin/includes/continents-cities.php:437
 msgid "Warsaw"
-msgstr ""
+msgstr "Варшава"
 
 #: wp-admin/includes/continents-cities.php:438
-#, fuzzy
 msgid "Zagreb"
-msgstr "Страница"
+msgstr "Загреб"
 
 #: wp-admin/includes/continents-cities.php:439
 msgid "Zaporozhye"
-msgstr ""
+msgstr "Запорожье"
 
 #: wp-admin/includes/continents-cities.php:440
-#, fuzzy
 msgid "Zurich"
-msgstr "Цифры"
+msgstr "Цюрих"
 
 #: wp-admin/includes/continents-cities.php:441
 #, fuzzy
 msgid "Indian"
-msgstr "Отступ"
+msgstr "Индиан"
 
 #: wp-admin/includes/continents-cities.php:442
+#, fuzzy
 msgid "Antananarivo"
-msgstr ""
+msgstr "Антананариву"
 
 #: wp-admin/includes/continents-cities.php:443
 #, fuzzy
 msgid "Chagos"
-msgstr "Изменить"
+msgstr "Чагос"
 
 #: wp-admin/includes/continents-cities.php:444
 #, fuzzy
 msgid "Christmas"
-msgstr "кредиты"
+msgstr "Остров Рождества"
 
 #: wp-admin/includes/continents-cities.php:445
-#, fuzzy
 msgid "Cocos"
-msgstr "Куки"
+msgstr "Кокосовые острова"
 
 #: wp-admin/includes/continents-cities.php:446
-#, fuzzy
 msgid "Comoro"
-msgstr "Цвет:"
+msgstr "Коморские острова"
 
 #: wp-admin/includes/continents-cities.php:447
+#, fuzzy
 msgid "Kerguelen"
-msgstr ""
+msgstr "Кергелен"
 
 #: wp-admin/includes/continents-cities.php:448
 #, fuzzy
 msgid "Mahe"
-msgstr "Март"
+msgstr "Маэ"
 
 #: wp-admin/includes/continents-cities.php:449
-#, fuzzy
 msgid "Maldives"
-msgstr "строк"
+msgstr "Мальдивские острова"
 
 #: wp-admin/includes/continents-cities.php:450
 msgid "Mauritius"
-msgstr ""
+msgstr "Маврикий"
 
 #: wp-admin/includes/continents-cities.php:451
 #, fuzzy
 msgid "Mayotte"
-msgstr "Для&nbsp;взрослых"
+msgstr "Майотта"
 
 #: wp-admin/includes/continents-cities.php:452
 #, fuzzy
 msgid "Reunion"
-msgstr "Переучёт"
+msgstr "Реюньон"
 
 #: wp-admin/includes/continents-cities.php:453
 msgid "Pacific"
-msgstr ""
+msgstr "Тихий Океан"
 
 #: wp-admin/includes/continents-cities.php:454
 #, fuzzy
 msgid "Apia"
-msgstr "Апрель"
+msgstr "Апия"
 
 #: wp-admin/includes/continents-cities.php:455
+#, fuzzy
 msgid "Auckland"
-msgstr ""
+msgstr "Окленд"
 
 #: wp-admin/includes/continents-cities.php:456
+#, fuzzy
 msgid "Chatham"
-msgstr ""
+msgstr "Чатэм"
 
 #: wp-admin/includes/continents-cities.php:457
 #, fuzzy
 msgid "Easter"
-msgstr "Вставить"
+msgstr "Пасха"
 
 #: wp-admin/includes/continents-cities.php:458
 #, fuzzy
 msgid "Efate"
-msgstr "свидания"
+msgstr "Эфате"
 
 #: wp-admin/includes/continents-cities.php:459
+#, fuzzy
 msgid "Enderbury"
-msgstr ""
+msgstr "Эндербери"
 
 #: wp-admin/includes/continents-cities.php:460
+#, fuzzy
 msgid "Fakaofo"
-msgstr ""
+msgstr "Факаофо"
 
 #: wp-admin/includes/continents-cities.php:461
-#, fuzzy
 msgid "Fiji"
-msgstr "Завершено!"
+msgstr "Фиджи"
 
 #: wp-admin/includes/continents-cities.php:462
+#, fuzzy
 msgid "Funafuti"
-msgstr ""
+msgstr "Фунафути"
 
 #: wp-admin/includes/continents-cities.php:463
 msgid "Galapagos"
-msgstr ""
+msgstr "Галапагос"
 
 #: wp-admin/includes/continents-cities.php:464
 #, fuzzy
 msgid "Gambier"
-msgstr "Член"
+msgstr "Остров Гамбье"
 
 #: wp-admin/includes/continents-cities.php:465
+#, fuzzy
 msgid "Guadalcanal"
-msgstr ""
+msgstr "Гуадалканал"
 
 #: wp-admin/includes/continents-cities.php:466
 #, fuzzy
 msgid "Guam"
-msgstr "дп"
+msgstr "Гуам"
 
 #: wp-admin/includes/continents-cities.php:467
 msgid "Honolulu"
-msgstr ""
+msgstr "Гонолулу"
 
 #: wp-admin/includes/continents-cities.php:468
-#, fuzzy
 msgid "Johnston"
-msgstr "Позиция"
+msgstr "Джонстон"
 
 #: wp-admin/includes/continents-cities.php:469
+#, fuzzy
 msgid "Kiritimati"
-msgstr ""
+msgstr "Киритимати"
 
 #: wp-admin/includes/continents-cities.php:470
+#, fuzzy
 msgid "Kosrae"
-msgstr ""
+msgstr "Кусаие"
 
 #: wp-admin/includes/continents-cities.php:471
+#, fuzzy
 msgid "Kwajalein"
-msgstr ""
+msgstr "Кваджалейн"
 
 #: wp-admin/includes/continents-cities.php:472
 #, fuzzy
 msgid "Majuro"
-msgstr "Для&nbsp;взрослых"
+msgstr "Маджуро"
 
 #: wp-admin/includes/continents-cities.php:473
 #, fuzzy
 msgid "Marquesas"
-msgstr "Вся статистика"
+msgstr "Маркизы"
 
 #: wp-admin/includes/continents-cities.php:474
 #, fuzzy
 msgid "Midway"
-msgstr "день"
+msgstr "Миндуэй"
 
 #: wp-admin/includes/continents-cities.php:475
+#, fuzzy
 msgid "Nauru"
-msgstr ""
+msgstr "Науру"
 
 #: wp-admin/includes/continents-cities.php:476
 #, fuzzy
 msgid "Niue"
-msgstr "минута"
+msgstr "Ниуэ"
 
 #: wp-admin/includes/continents-cities.php:477
-#, fuzzy
 msgid "Norfolk"
-msgstr "Обычный"
+msgstr "Норфолк"
 
 #: wp-admin/includes/continents-cities.php:478
 #, fuzzy
 msgid "Noumea"
-msgstr "Обычный"
+msgstr "Нумеа"
 
 #: wp-admin/includes/continents-cities.php:479
 #, fuzzy
 msgid "Pago Pago"
-msgstr "Пароль на страницу"
+msgstr "Паго-Паго"
 
 #: wp-admin/includes/continents-cities.php:480
 #, fuzzy
 msgid "Palau"
-msgstr "Значение"
+msgstr "Палау"
 
 #: wp-admin/includes/continents-cities.php:481
 #, fuzzy
 msgid "Pitcairn"
-msgstr "Позиция"
+msgstr "Питкэрн"
 
 #: wp-admin/includes/continents-cities.php:482
 #, fuzzy
 msgid "Ponape"
-msgstr "Телефон"
+msgstr "Понапе"
 
 #: wp-admin/includes/continents-cities.php:483
 #, fuzzy
 msgid "Port Moresby"
-msgstr "Приоритет сортировки:"
+msgstr "Порт-Морсби"
 
 #: wp-admin/includes/continents-cities.php:484
 #, fuzzy
 msgid "Rarotonga"
-msgstr "Рейтинг"
+msgstr "Раротонга"
 
 #: wp-admin/includes/continents-cities.php:485
 #, fuzzy
 msgid "Saipan"
-msgstr "Спам"
+msgstr "Сайпан"
 
 #: wp-admin/includes/continents-cities.php:486
-#, fuzzy
 msgid "Samoa"
-msgstr "Спам"
+msgstr "Самоа"
 
 #: wp-admin/includes/continents-cities.php:487
 #, fuzzy
 msgid "Tahiti"
-msgstr "Проставить метки"
+msgstr "Таити"
 
 #: wp-admin/includes/continents-cities.php:488
 #, fuzzy
 msgid "Tarawa"
-msgstr "Trac"
+msgstr "Тарава"
 
 #: wp-admin/includes/continents-cities.php:489
+#, fuzzy
 msgid "Tongatapu"
-msgstr ""
+msgstr "Тонгатапу"
 
 #: wp-admin/includes/continents-cities.php:490
+#, fuzzy
 msgid "Truk"
-msgstr ""
+msgstr "Трук"
 
 #: wp-admin/includes/continents-cities.php:491
 #, fuzzy
 msgid "Wake"
-msgstr "Слабый"
+msgstr "Уэйк"
 
 #: wp-admin/includes/continents-cities.php:492
 #, fuzzy
 msgid "Wallis"
-msgstr "все"
+msgstr "Уоллис"
 
 #: wp-admin/includes/continents-cities.php:493
+#, fuzzy
 msgid "Yap"
-msgstr ""
+msgstr "Яп"
 
 #: wp-admin/includes/dashboard.php:28
 msgid "Right Now"
@@ -12477,7 +12564,7 @@ msgid "Trackback"
 msgstr "Обратная ссылка"
 
 #: wp-admin/includes/dashboard.php:588
-#, fuzzy, php-format
+#, php-format
 msgctxt "dashboard"
 msgid "%1$s on %2$s"
 msgstr "%1$s на %2$s "
@@ -12752,7 +12839,7 @@ msgstr "Невозможно записать на диск."
 #: wp-admin/includes/file.php:246
 #: wp-admin/includes/file.php:367
 msgid "File upload stopped by extension."
-msgstr ""
+msgstr "Загрузка файла остановлена из-за расширения."
 
 #: wp-admin/includes/file.php:263
 #: wp-admin/includes/file.php:383
@@ -13067,9 +13154,8 @@ msgid "Choose files to upload"
 msgstr "Выберите файл для загрузки"
 
 #: wp-admin/includes/media.php:1368
-#, fuzzy
 msgid "Cancel Upload"
-msgstr "Загрузка"
+msgstr "Отменить загрузку"
 
 #: wp-admin/includes/media.php:1371
 msgid "After a file has been uploaded, you can add titles and descriptions."
@@ -13751,7 +13837,6 @@ msgid "File"
 msgstr "Файл"
 
 #: wp-admin/includes/template.php:783
-#, fuzzy
 msgctxt "column name"
 msgid "Attached to"
 msgstr "Прикреплено к"
@@ -14169,19 +14254,22 @@ msgstr "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=
 #: wp-admin/includes/template.php:3496
 #, fuzzy
 msgid "Enable syntax highlighting"
-msgstr "Включить протокол публикации Atom"
+msgstr "Включить подсветку синтаксиса"
 
 #: wp-admin/includes/template.php:3496
+#, fuzzy
 msgid "Disable syntax highlighting"
-msgstr ""
+msgstr "Отключить подсветку синтаксиса"
 
 #: wp-admin/includes/template.php:3504
+#, fuzzy
 msgid "Enable accessibility mode"
-msgstr ""
+msgstr "Включить функциональный режим"
 
 #: wp-admin/includes/template.php:3504
+#, fuzzy
 msgid "Disable accessibility mode"
-msgstr ""
+msgstr "Отключить функциональный режим"
 
 #: wp-admin/includes/template.php:3516
 msgid "Show on screen"
@@ -14257,19 +14345,22 @@ msgstr "<strong>Автор:</strong> Поиск тем, созданных ил�
 #: wp-admin/includes/template.php:3615
 #, fuzzy
 msgid "Widgets are added and arranged by simple drag &#8217;n&#8217; drop. If you hover your mouse over the titlebar of a widget, you&#8217;ll see a 4-arrow cursor which indicates that the widget is movable.  Click on the titlebar, hold down the mouse button and drag the widget to a sidebar. As you drag, you&#8217;ll see a dotted box that also moves. This box shows where the widget will go once you drop it."
-msgstr "Большинство модулей на этом экране можно перемещать. Если навести курсор мыши на заголовок модуля, появится курсор с четырьмя стрелками, означающий возможность перемещения. Сделав щелчок и удерживая кнопку мыши, перетащите модуль на новое место. В процессе перетаскивания обратите внимание на серый пунктирный прямоугольник &#8212; он показывает, где будет располагаться модуль, когда вы отпустите кнопку мыши."
+msgstr "Виджеты добавляются и группируются простым переносом. Если навести курсор мыши на заголовок модуля, появится курсор с четырьмя стрелками, означающий возможность перемещения. Сделав щелчок и удерживая кнопку мыши, перетащите модуль на новое место. В процессе перетаскивания обратите внимание на серый пунктирный прямоугольник &#8212; он показывает, где будет располагаться модуль, когда вы отпустите кнопку мыши."
 
 #: wp-admin/includes/template.php:3616
+#, fuzzy
 msgid "To remove a widget from a sidebar, drag it back to Available Widgets or click on the arrow on its titlebar to reveal its settings, and then click Remove."
-msgstr ""
+msgstr "Чтобы удалить виджет из боковой колонки, переместите его обратно в Доступные виджеты или нажмите на его заголовок для получения настроек и нажмите Убрать."
 
 #: wp-admin/includes/template.php:3617
+#, fuzzy
 msgid "To remove a widget from a sidebar <em>and keep its configuration</em>, drag it to Inactive Widgets."
-msgstr ""
+msgstr "Чтобы удалить виджет из боковой колонки <em>и сохранить его настройки</em>, переместите его в Неактивные Виджеты."
 
 #: wp-admin/includes/template.php:3618
+#, fuzzy
 msgid "The Inactive Widgets area stores widgets that are configured but not curently used. If you change themes and the new theme has fewer sidebars than the old, all extra widgets will be stored to Inactive Widgets automatically."
-msgstr ""
+msgstr "Область Неактивные Виджеты хранит виджеты, которые настроены, но не используются. Если вы смените тему и новая тема будет иметь меньше боковых колонок, чем старая, все лишние виджеты будут сохранены в Неактивных Виджетах автоматически."
 
 #: wp-admin/includes/template.php:3640
 msgid "Screen Layout"
@@ -14319,7 +14410,7 @@ msgstr "Не получилось полностью удалить тему %s"
 #: wp-admin/includes/upgrade.php:62
 #, fuzzy
 msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you."
-msgstr "<strong><em>Запомните этот пароль</em></strong>! Этот <em>случайный</em> пароль сгенерирован специально для вас. Если вы его потеряете, вам придется удалить таблицы из базы данных и переустановить bbPress."
+msgstr "<strong><em>Запомните этот пароль!</em></strong> Он абсолютно <em>случаен</em> и создан специально для вас."
 
 #: wp-admin/includes/upgrade.php:67
 msgid "User already exists.  Password inherited."
@@ -14479,8 +14570,8 @@ msgid ""
 "Notice: you're using the auto-generated password for your account. Would you like to change it to something you'll remember easier?<br />\n"
 "\t\t\t  <a href='%s'>Yes, Take me to my profile page</a> | <a href='%s' id='default-password-nag-no'>No Thanks, Do not remind me again.</a>"
 msgstr ""
-"Предупреждение: вы используете автоматически созданных пароль для учетной записи. Хотите сменить его на что-то более легко запоминаемое?<br />\n"
-"\t\t\t  <a href='%s'>Да, дайте мне перейти на личную страницу</a> | <a href='%s' id='default-password-nag-no'>Нет, спасибо, больше не напоминайте мне об этом.</a>"
+"Предупреждение: вы используете автоматически созданный пароль для учетной записи. Хотите сменить его на что-то более легко запоминаемое?<br />\n"
+"\t\t\t  <a href='%s'>Да, перейти на личную страницу</a> | <a href='%s' id='default-password-nag-no'>Нет, спасибо. Больше не напоминайте мне об этом.</a>"
 
 #: wp-admin/includes/widgets.php:179
 #: wp-admin/widgets.php:249
@@ -15316,13 +15407,14 @@ msgid "You should update your web.config now"
 msgstr "Теперь вы должны обновить файл .htaccess."
 
 #: wp-admin/options-permalink.php:133
+#, fuzzy
 msgid "Permalink structure updated. Remove write access on web.config file now!"
-msgstr ""
+msgstr "Структура постоянных ссылок обновлена. Теперь уберите разрешение на запись с файла web.config!"
 
 #: wp-admin/options-permalink.php:135
 #, fuzzy
 msgid "Permalink structure updated"
-msgstr "Структура постоянных ссылок изменена."
+msgstr "Структура постоянных ссылок изменена"
 
 #: wp-admin/options-permalink.php:138
 msgid "You should update your .htaccess now."
@@ -15375,11 +15467,12 @@ msgstr "Префикс для меток"
 #: wp-admin/options-permalink.php:227
 #, fuzzy
 msgid "If your <code>web.config</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so this is the url rewrite rule you should have in your <code>web.config</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all. Then insert this rule inside of the <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> element in <code>web.config</code> file."
-msgstr "Если бы ваш файл <code>.htaccess</code> был <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">доступен для записи</a>, мы могли бы сделать это автоматически, но это не так. Вот правила mod_rewrite, которые должны быть в файле <code>.htaccess</code>. Кликните на поле и нажмите <kbd>CTRL + a</kbd>, чтобы выделить весь текст."
+msgstr "Если ваш файл <code>web.config</code> был бы <a href=\"http://codex.wordpress.org/Права_Доступа_К_Файлам\">записываемым</a>, мы сделали бы это автоматически, но это не так, поэтому эти правила преобразования ссылок вы должны сами вписать в ваш файл <code>web.config</code>. Щелкните по этому полю и нажмите <kbd>CTRL + a</kbd> чтобы выбрать все. Затем вставьте эти правила внутрь элемента <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> в файле <code>web.config</code>."
 
 #: wp-admin/options-permalink.php:232
+#, fuzzy
 msgid "If you temporarily make your <code>web.config</code> file writable for us to generate rewrite rules automatically, do not forget to revert the permissions after rule has been saved."
-msgstr ""
+msgstr "Если вы временно сделали файл <code>web.config</code> доступным для записи, чтобы мы могли автоматически создавать правила преобразования ссылок, не забудьте вернуть права доступа после того, как правила будут сохранены."
 
 #: wp-admin/options-permalink.php:236
 msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all."
@@ -15649,7 +15742,7 @@ msgstr "Купить %s кредитов &raquo;"
 #: wp-admin/paid-upgrades.php:427
 #, fuzzy, php-format
 msgid "Add ($%3.2f)"
-msgstr "Добавить &#187;"
+msgstr "Добавить аудиофайл"
 
 #: wp-admin/paid-upgrades.php:451
 msgid "My Subscriptions"
@@ -15799,7 +15892,7 @@ msgstr "Удаление выбранных плагинов уничтожит 
 #: wp-admin/plugins.php:165
 #, fuzzy, php-format
 msgid "<strong>%s</strong> by <em>%s</em>"
-msgstr "Комментарии (<strong>%</strong>)"
+msgstr "<strong>%s</strong> от <em>%s</em>"
 
 #: wp-admin/plugins.php:168
 msgid "Are you sure you wish to delete these files?"
@@ -15880,17 +15973,17 @@ msgstr "Открыть этот файл в редакторе плагинов"
 #: wp-admin/plugins.php:405
 #, fuzzy
 msgid "Delete this plugin"
-msgstr "Удалить эту страницу"
+msgstr "Удалить этот плагин"
 
 #: wp-admin/plugins.php:429
 #, fuzzy, php-format
 msgid "Version %s"
-msgstr "Версия"
+msgstr "Версия %s"
 
 #: wp-admin/plugins.php:437
 #, fuzzy
 msgid "Visit plugin site"
-msgstr "Перейти на сайт"
+msgstr "Перейти на страницу плагина"
 
 #: wp-admin/plugins.php:475
 msgid "Clear List"
@@ -16865,12 +16958,12 @@ msgstr "Фамилия"
 #: wp-admin/user-new.php:120
 #, fuzzy
 msgid "(twice, required)"
-msgstr "(обязательно)"
+msgstr "(дважды, обязательно)"
 
 #: wp-admin/user-new.php:130
 #, fuzzy
 msgid "Send Password?"
-msgstr "Новый пароль"
+msgstr "Отправить пароль?"
 
 #: wp-admin/user-new.php:131
 msgid "Send this password to the new user by email."
@@ -17127,7 +17220,7 @@ msgstr[2] "Вы используете %1$s виджетов в боковой �
 #, fuzzy, php-format
 msgid "You are using %1$s widget in the sidebar."
 msgid_plural "You are using %1$s widgets in the sidebar."
-msgstr[0] "Вы используете %1$s виджет в боковой колонке \"%2$s\"."
+msgstr[0] "Вы используете %1$s виджет в боковой колонке."
 msgstr[1] "Воспользуйтесь формой поиска в боковой колонке."
 msgstr[2] "Воспользуйтесь формой поиска в боковой колонке."
 
@@ -17220,8 +17313,9 @@ msgid "Error in displaying the widget settings form."
 msgstr "Ошибка при отображении формы настроек виджета."
 
 #: wp-admin/widgets.php:341
+#, fuzzy
 msgid "Drag widgets from here to a sidebar on the right to activate them. Drag widgets back here to deactivate them and delete their settings."
-msgstr ""
+msgstr "Переместите виджеты отсюда на боковую колонку справа для их активации. Переместите виджеты обратно, чтобы деактивировать их и удалить их настройки."
 
 #: wp-admin/widgets.php:356
 #, fuzzy
@@ -18768,17 +18862,17 @@ msgstr "Главный блог был сменен"
 #: wp-content/admin-plugins/my-blogs.php:202
 #, fuzzy
 msgid "Options have been updated"
-msgstr "Настройки обновлены"
+msgstr "Рубрика не обновлена."
 
 #: wp-content/admin-plugins/my-blogs.php:259
 #, fuzzy
 msgid "Hide Blog on Dashboard"
-msgstr "Консоль блога"
+msgstr "Первая запись в новом блоге."
 
 #: wp-content/admin-plugins/my-blogs.php:260
 #, fuzzy
 msgid "Show Blog on Dashboard"
-msgstr "Консоль блога"
+msgstr "Первая запись в новом блоге."
 
 #: wp-content/admin-plugins/my-blogs.php:266
 msgid "Blogs You're A Member Of"
@@ -18796,7 +18890,7 @@ msgstr "Завести другой блог &raquo;"
 #: wp-content/admin-plugins/my-blogs.php:334
 #, fuzzy
 msgid "Linked Blogs"
-msgstr "Список ссылок"
+msgstr "Блоги в Blogger"
 
 #: wp-content/admin-plugins/my-blogs.php:370
 #: wp-content/admin-plugins/my-blogs.php:479
@@ -18810,8 +18904,9 @@ msgid "Drag"
 msgstr "двигайте"
 
 #: wp-content/admin-plugins/my-blogs.php:423
+#, fuzzy
 msgid "Up"
-msgstr ""
+msgstr "Регистрация"
 
 #: wp-content/admin-plugins/my-blogs.php:423
 #, fuzzy
@@ -18821,7 +18916,7 @@ msgstr "Готово"
 #: wp-content/admin-plugins/my-blogs.php:481
 #, fuzzy
 msgid "Make Visible"
-msgstr "Видна"
+msgstr "Прилепить запись"
 
 #: wp-content/admin-plugins/my-comments.php:8
 #: wp-content/admin-plugins/my-comments.php:104
@@ -18971,7 +19066,7 @@ msgstr "Голосование удалено."
 #, fuzzy, php-format
 msgid "%s Poll Deleted."
 msgid_plural "%s Polls Deleted."
-msgstr[0] "Голосование удалено."
+msgstr[0] "%s голосование удалено."
 msgstr[1] "Голосование удалено."
 msgstr[2] "Голосование удалено."
 
@@ -19144,12 +19239,12 @@ msgstr "Другой ответ"
 #: wp-content/admin-plugins/post-by-email.php:53
 #, fuzzy
 msgid "Enable Post by Email"
-msgstr "Разрешить публикацию по почте"
+msgstr "%1$s автора %2$s|редакция записи 1:дата и время, 2:имя"
 
 #: wp-content/admin-plugins/post-by-email.php:54
 #, fuzzy
 msgid "Disable Post by Email"
-msgstr "Запретить публикацию по почте"
+msgstr "%1$s автора %2$s|редакция записи 1:дата и время, 2:имя"
 
 #: wp-content/admin-plugins/post-by-email.php:62
 msgid "Post by Email was enabled"
@@ -19162,7 +19257,7 @@ msgstr ""
 #: wp-content/admin-plugins/post-by-email.php:109
 #, fuzzy
 msgid "Post by Email"
-msgstr "Публикация по почте"
+msgstr "%1$s автора %2$s|редакция записи 1:дата и время, 2:имя"
 
 #: wp-content/admin-plugins/post-by-email.php:144
 #, fuzzy
@@ -19584,7 +19679,7 @@ msgstr "(нет места)"
 #: wp-content/admin-plugins/wapi.php:661
 #, fuzzy
 msgid "space,"
-msgstr "Отступ (H)"
+msgstr "пробел,"
 
 #: wp-content/admin-plugins/wapi.php:666
 #, php-format
@@ -19632,7 +19727,7 @@ msgstr[2] "%d записей были исправлены"
 #, fuzzy, php-format
 msgid "%d category was fixed"
 msgid_plural "%d categories were fixed"
-msgstr[0] "%d запись была исправлена"
+msgstr[0] "%d рубрика исправлена"
 msgstr[1] "Префикс для рубрик"
 msgstr[2] "Префикс для рубрик"
 
@@ -19718,12 +19813,12 @@ msgstr "%1$s %2$s|Используется как заголовок кален�
 #: wp-content/mu-plugins/30boxes.php:313
 #, fuzzy
 msgid "No items found"
-msgstr "Тем не найдено"
+msgstr "Записей не найдено."
 
 #: wp-content/mu-plugins/30boxes.php:597
 #, fuzzy
 msgid "Widget title:"
-msgstr "(без названия)"
+msgstr "%1$s: %2$s|1: имя виджета, 2: заголовок виджета"
 
 #: wp-content/mu-plugins/30boxes.php:603
 #, fuzzy
@@ -19906,7 +20001,7 @@ msgstr "Мои консоли"
 #: wp-content/mu-plugins/admin-bar.php:232
 #, fuzzy
 msgid "Manage Blogs"
-msgstr "Управление плагинами"
+msgstr "Блоги в Blogger"
 
 #: wp-content/mu-plugins/admin-bar.php:236
 msgid "My Dashboard"
@@ -19939,12 +20034,12 @@ msgstr "Загрузить страницу без кэша. "
 #: wp-content/mu-plugins/admin-bar.php:288
 #, fuzzy
 msgid "Clear Page's Cache"
-msgstr "Все опросы блога"
+msgstr "Загрузить страницу без кэша. "
 
 #: wp-content/mu-plugins/admin-bar.php:289
 #, fuzzy
 msgid "Posts Per Page = 1"
-msgstr "Элементов на страницу:"
+msgstr "Записей на страницу:"
 
 #: wp-content/mu-plugins/admin-bar.php:325
 msgid "Blog Info"
@@ -20616,7 +20711,7 @@ msgstr "Произвольный MX"
 #: wp-content/mu-plugins/domains.php:1058
 #, fuzzy, php-format
 msgid "(<a href=\"%s\">Delete</a>)"
-msgstr "Удалить блог"
+msgstr "Удалить комментарий"
 
 #: wp-content/mu-plugins/domains.php:1066
 #, fuzzy
@@ -20785,8 +20880,9 @@ msgid "Now that you've got a new blog on WordPress.com, we're ready to <a href='
 msgstr ""
 
 #: wp-content/mu-plugins/misc.php:1664
+#, fuzzy
 msgid "Enjoy your new home :)"
-msgstr ""
+msgstr "Новый комментарий к записи #%1$s \"%2$s\""
 
 #: wp-content/mu-plugins/new_blog_log.php:27
 msgid "Sorry, you must wait a few minutes before registering a new blog!"
@@ -20857,13 +20953,13 @@ msgstr "Комментарий к записи %1$s (%2$s)"
 #: wp-content/themes/pub/p2/functions.php:624
 #, fuzzy
 msgid "Video Post"
-msgstr "Редактировать запись"
+msgstr "%s запись обновлена."
 
 #: wp-content/mu-plugins/pub2im.php:381
 #: wp-content/themes/pub/p2/functions.php:626
 #, fuzzy
 msgid "Image Post"
-msgstr "Редактировать запись"
+msgstr "%s запись обновлена."
 
 #: wp-content/mu-plugins/pub2im.php:383
 #, fuzzy
@@ -20897,8 +20993,9 @@ msgid "For help with CSS try <a href=\"http://www.w3schools.com/css/default.asp\
 msgstr ""
 
 #: wp-content/mu-plugins/safecss.php:406
+#, fuzzy
 msgid "Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?"
-msgstr ""
+msgstr "Вы хотите внести изменения в текущую таблицу стилей или начать новую?"
 
 #: wp-content/mu-plugins/safecss.php:407
 #, php-format
@@ -20916,7 +21013,7 @@ msgstr ""
 #: wp-content/mu-plugins/safecss.php:412
 #, fuzzy
 msgid "Limit width to"
-msgstr "%1$s %2$s в &#8220;%3$s&#8221;"
+msgstr "Постоянная ссылка на %s"
 
 #: wp-content/mu-plugins/safecss.php:413
 #, php-format
@@ -20928,8 +21025,9 @@ msgid "Save Stylesheet &raquo;"
 msgstr "Сохранить таблицу стилей &raquo;"
 
 #: wp-content/mu-plugins/security.php:87
+#, fuzzy
 msgid "\"admin\" is not a valid username on WordPress.com. Please use the username you signed up with."
-msgstr ""
+msgstr "\"admin\" не допустим для имени пользователя на WordPress.com. Пожалуйста, используйте имя пользователя, под которым Вы зарегистрированны.. "
 
 #: wp-content/mu-plugins/security.php:134
 msgid "You have exceeded the login limit, please wait 5 minutes and try again."
@@ -21292,7 +21390,7 @@ msgstr[2] "%1$s часов и %2$s минут"
 #, fuzzy, php-format
 msgid "one hour"
 msgid_plural "%1$s hours"
-msgstr[0] "%1$s час и %2$s минут"
+msgstr[0] "%1$s час"
 msgstr[1] "1 час"
 msgstr[2] "1 час"
 
@@ -21300,7 +21398,7 @@ msgstr[2] "1 час"
 #, fuzzy, php-format
 msgid "one minute"
 msgid_plural "%s minutes"
-msgstr[0] "Один комментарий"
+msgstr[0] "%s минута"
 msgstr[1] "минута"
 msgstr[2] "минута"
 
@@ -21383,7 +21481,7 @@ msgstr ""
 #: wp-content/mu-plugins/vip-faux-ml.php:972
 #, fuzzy
 msgid "<p>a parameter is missing</p>"
-msgstr "Тема по умолчанию отсутствует."
+msgstr "Список стилей не найден."
 
 #: wp-content/mu-plugins/vip-faux-ml.php:948
 #: wp-content/mu-plugins/vip-faux-ml.php:974
@@ -21434,7 +21532,7 @@ msgstr "*Только для администратора сайта"
 #: wp-content/mu-plugins/vip-functions.php:493
 #, fuzzy
 msgid "100% WordPress.com Adsense"
-msgstr "Новости WordPress.com "
+msgstr "Ключ API WordPress.com"
 
 #: wp-content/mu-plugins/vip-functions.php:500
 #, fuzzy
@@ -21449,22 +21547,22 @@ msgstr "Цвет фона"
 #: wp-content/mu-plugins/vip-functions.php:508
 #, fuzzy
 msgid "Text color"
-msgstr "Другие цвета"
+msgstr "Выберите цвет текста"
 
 #: wp-content/mu-plugins/vip-functions.php:512
 #, fuzzy
 msgid "Link color"
-msgstr "Отношение"
+msgstr "Цвет шрифта"
 
 #: wp-content/mu-plugins/vip-functions.php:516
 #, fuzzy
 msgid "Border color"
-msgstr "Другие цвета"
+msgstr "Цвет шрифта"
 
 #: wp-content/mu-plugins/vip-functions.php:520
 #, fuzzy
 msgid "URL color"
-msgstr "Верхний цвет"
+msgstr "Цвет шрифта"
 
 #: wp-content/mu-plugins/wpcom-flaptor.php:281
 #: wp-content/mu-plugins/wpcom-flaptor.php:323
@@ -21724,7 +21822,7 @@ msgstr "Выберите цвет текста"
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:75
 #, fuzzy
 msgid "Invalid background color"
-msgstr "Автоматический цвет фона"
+msgstr "Выбрать цвет фона"
 
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:100
 msgid "<code>latex</code> path not found."
@@ -21754,7 +21852,7 @@ msgstr ""
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:269
 #, fuzzy
 msgid "WP LaTeX Options"
-msgstr "Настройки Day Dream"
+msgstr "Настройки Flash-видео"
 
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:279
 msgid "Syntax"
@@ -21854,7 +21952,7 @@ msgstr ""
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:357
 #, fuzzy
 msgid "Default background color"
-msgstr "Автоматический цвет фона"
+msgstr "Выбрать цвет фона"
 
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:360
 msgid "A six digit hexadecimal number like <code>000000</code> or <code>ffffff</code>, or <code>transparent</code>"
@@ -23816,7 +23914,7 @@ msgstr "Создать блог &rarr;"
 #: wp-content/themes/h4/home.php:166
 #, fuzzy
 msgid "From our blog"
-msgstr "Отписались от блога"
+msgstr "Из нашего блога"
 
 #: wp-content/themes/h4/home.php:198
 msgid "Hawt Post"
@@ -24102,7 +24200,7 @@ msgstr "в"
 #: wp-content/themes/pub/whiteasmilk/comments.php:39
 #, fuzzy
 msgid "No Responses Yet"
-msgstr "Нет комментариев"
+msgstr "Комментариев нет."
 
 #: wp-content/themes/pub/albeo/comments.php:46
 #: wp-content/themes/pub/greenery-10/comments.php:46
@@ -24198,7 +24296,7 @@ msgstr "Последние комментарии"
 #: wp-content/themes/pub/albeo/functions.php:85
 #, fuzzy
 msgid "Albeo Search"
-msgstr "Поиск &#187;"
+msgstr "Результаты поиска"
 
 #: wp-content/themes/pub/albeo/image.php:29
 #: wp-content/themes/pub/andreas09/attachment.php:60
@@ -24918,7 +25016,7 @@ msgstr "Введите пароль для просмотра комментар
 #: wp-content/themes/pub/vigilance/legacy.comments.php:7
 #, fuzzy
 msgid "No Comments Yet"
-msgstr "Комментариев пока нет"
+msgstr "Комментариев нет."
 
 #: wp-content/themes/pub/andreas04/comments.php:54
 #: wp-content/themes/pub/benevolence/comments.php:69
@@ -25851,13 +25949,13 @@ msgstr "Запись была сделана в"
 #: wp-content/themes/pub/chaoticsoul/image.php:25
 #, fuzzy, php-format
 msgid "You can follow any responses to this entry through the %s feed. "
-msgstr "Вы можете следить за обсуждением этой записи с помощью ленты %s."
+msgstr "Вы можете следить за обсуждением этой записи с помощью ленты %s"
 
 #: wp-content/themes/pub/chaoticsoul/attachment.php:29
 #: wp-content/themes/pub/chaoticsoul/image.php:28
 #, fuzzy, php-format
 msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site. "
-msgstr "Вы можете <a href=\"#respond\">оставить отзыв</a> или <a href=\"%s\" rel=\"trackback\">обратную ссылку</a> с вашего сайта."
+msgstr "Можно <a href=\"#respond\">оставить комментарий</a> или сделать <a href=\"%s\" rel=\"trackback\">обратную ссылку</a> с вашего сайта."
 
 #: wp-content/themes/pub/chaoticsoul/attachment.php:32
 #: wp-content/themes/pub/chaoticsoul/image.php:31
@@ -25869,13 +25967,13 @@ msgstr "Ответы сейчас закрыты, но Вы можете раз�
 #: wp-content/themes/pub/chaoticsoul/image.php:35
 #, fuzzy
 msgid "You can skip to the end and leave a response. Pinging is currently not allowed. "
-msgstr "Вы можете пролистать до конца и оставить комментарий. Отклики в настоящее время запрещены."
+msgstr "Вы можете перейти в конец и оставить комментарий. Уведомления сейчас отключены."
 
 #: wp-content/themes/pub/chaoticsoul/attachment.php:40
 #: wp-content/themes/pub/chaoticsoul/image.php:39
 #, fuzzy
 msgid "Both comments and pings are currently closed. "
-msgstr "Комментарии и уведомления отключены."
+msgstr "Комментарии и уведомления сейчас закрыты."
 
 #: wp-content/themes/pub/chaoticsoul/comments.php:58
 #: wp-content/themes/pub/emire/comments.php:70
@@ -25892,7 +25990,7 @@ msgstr "E-mail (не публикуется)"
 #: wp-content/themes/pub/chaoticsoul/footer.php:5
 #, fuzzy, php-format
 msgid "Get a free blog at %s."
-msgstr "Получи бесплатный блог на %s"
+msgstr "Заведи бесплатный блог на WordPress.com"
 
 #: wp-content/themes/pub/chaoticsoul/footer.php:5
 #: wp-content/themes/pub/k2/footer.php:8
@@ -26311,7 +26409,7 @@ msgstr "Продолжить чтение &rarr;"
 #: wp-content/themes/pub/cutline/index.php:18
 #, fuzzy
 msgid "&rarr; Leave a Comment"
-msgstr "Добавить комментарий"
+msgstr "Оставить комментарий &#187;"
 
 #: wp-content/themes/pub/cutline/index.php:18
 msgid "&rarr; 1 Comment"
@@ -26421,7 +26519,7 @@ msgstr "Извините, но вы ищете то, чего здесь нет.
 #: wp-content/themes/pub/digg3/single.php:15
 #, fuzzy, php-format
 msgid "Posted on %s by %s"
-msgstr "Помещено в %s %s"
+msgstr "Автор: %1$s на %2$s"
 
 #: wp-content/themes/pub/digg3/archive.php:23
 #: wp-content/themes/pub/digg3/index.php:23
@@ -26725,7 +26823,7 @@ msgstr "<span>Комментарии отключены</span>"
 #: wp-content/themes/pub/fauna/template-sidenote.php:9
 #, fuzzy
 msgid "(Leave a Comment)"
-msgstr "Добавить комментарий"
+msgstr "Оставить комментарий"
 
 #: wp-content/themes/pub/fauna/template-sidenote.php:9
 msgid "(1 Comments)"
@@ -26860,7 +26958,7 @@ msgstr "Ваш комментарий ожидает проверки"
 #: wp-content/themes/pub/freshy/comments.php:59
 #, fuzzy
 msgid "No responses yet"
-msgstr "Нет комментариев"
+msgstr "Комментариев нет."
 
 #: wp-content/themes/pub/freshy/comments.php:59
 msgid "One response"
@@ -27251,7 +27349,7 @@ msgstr "Показать все записи. "
 #: wp-content/themes/pub/inove/header.php:28
 #, fuzzy
 msgid "RSS 2.0 - all comments"
-msgstr "Все комментарии"
+msgstr "RSS-лента комментариев"
 
 #: wp-content/themes/pub/inove/404.php:22
 #, fuzzy
@@ -27273,7 +27371,7 @@ msgstr ""
 #: wp-content/themes/pub/inove/404.php:29
 #, fuzzy
 msgid "Back to homepage &raquo;"
-msgstr "Следующая страница &raquo;"
+msgstr "Перейти к администрированию &raquo;"
 
 #: wp-content/themes/pub/inove/archive.php:11
 #, fuzzy, php-format
@@ -27288,7 +27386,7 @@ msgstr "Архив"
 #: wp-content/themes/pub/inove/archive.php:19
 #, fuzzy, php-format
 msgid "Archive for the &#8216;%1$s&#8217; Category"
-msgstr "Архив рубрики &#8216;%s&#8217;"
+msgstr "Архив рубрики &laquo;%s&raquo;"
 
 #: wp-content/themes/pub/inove/archive.php:22
 #, fuzzy, php-format
@@ -27300,7 +27398,7 @@ msgstr "Записи с меткой &laquo;%s&raquo;"
 #: wp-content/themes/pub/inove/archive.php:31
 #, fuzzy, php-format
 msgid "Archive for %1$s"
-msgstr "Архив %s"
+msgstr "Архив для"
 
 #: wp-content/themes/pub/inove/archive.php:51
 #: wp-content/themes/pub/inove/index.php:26
@@ -27311,27 +27409,27 @@ msgstr "Без комментариев"
 #: wp-content/themes/pub/inove/index.php:26
 #, fuzzy
 msgid "1 comment"
-msgstr "1 комментарий"
+msgstr "Комментарий"
 
 #: wp-content/themes/pub/inove/archive.php:51
 #: wp-content/themes/pub/inove/index.php:26
 #: wp-content/themes/pub/neat/comments.php:41
 #, fuzzy, php-format
 msgid "% comments"
-msgstr "Комментарии (%)"
+msgstr "Комментарии (%c)"
 
 #: wp-content/themes/pub/inove/archive.php:55
 #: wp-content/themes/pub/inove/index.php:30
 #, fuzzy
 msgid "Read more..."
-msgstr "Читать дальше&hellip;"
+msgstr "(Далее)"
 
 #: wp-content/themes/pub/inove/archive.php:59
 #: wp-content/themes/pub/inove/index.php:34
 #: wp-content/themes/pub/inove/single.php:29
 #, fuzzy
 msgid "Categories: "
-msgstr "Рубрики:"
+msgstr "Рубрики"
 
 #: wp-content/themes/pub/inove/archives.php:18
 #: wp-content/themes/pub/inove/links.php:26
@@ -27340,17 +27438,17 @@ msgstr "Рубрики:"
 #: wp-content/themes/pub/inove/twitter.php:19
 #, fuzzy
 msgid "Go to comments"
-msgstr "Без комментариев"
+msgstr "(подписано на комментарии)"
 
 #: wp-content/themes/pub/inove/comments.php:26
 #, fuzzy
 msgid "Trackbacks"
-msgstr "Обратная ссылка"
+msgstr "Отправить обратные ссылки"
 
 #: wp-content/themes/pub/inove/comments.php:72
 #, fuzzy
 msgid "Comment pages"
-msgstr "Элементов на страницу:"
+msgstr "Редактировать страницы"
 
 #: wp-content/themes/pub/inove/comments.php:91
 #: wp-content/themes/pub/inove/functions.php:501
@@ -27360,7 +27458,7 @@ msgstr ""
 #: wp-content/themes/pub/inove/comments.php:108
 #, fuzzy
 msgid "No trackbacks yet."
-msgstr "Отправить обратные ссылки:"
+msgstr "Комментариев нет."
 
 #: wp-content/themes/pub/inove/comments.php:157
 #, fuzzy, php-format
@@ -27370,12 +27468,12 @@ msgstr "С возвращением, <strong>%s</strong>"
 #: wp-content/themes/pub/inove/comments.php:158
 #, fuzzy
 msgid "Change &raquo;"
-msgstr "Сохранить &raquo;"
+msgstr "Далее &raquo;"
 
 #: wp-content/themes/pub/inove/comments.php:159
 #, fuzzy
 msgid "Close &raquo;"
-msgstr "Еще &raquo;"
+msgstr "Далее &raquo;"
 
 #: wp-content/themes/pub/inove/comments.php:170
 #, fuzzy
@@ -27395,8 +27493,9 @@ msgid "Top"
 msgstr "Сверху"
 
 #: wp-content/themes/pub/inove/footer.php:27
+#, fuzzy
 msgid "Copyright &copy; "
-msgstr ""
+msgstr "Копировать строку таблицы"
 
 #: wp-content/themes/pub/inove/footer.php:39
 msgid "Theme by <a href=\"http://www.neoease.com/\">NeoEase</a>. Valid <a href=\"http://validator.w3.org/check?uri=referer\">XHTML 1.1</a> and <a href=\"http://jigsaw.w3.org/css-validator/check/referer?profile=css3\">CSS 3</a>."
@@ -27406,7 +27505,7 @@ msgstr ""
 #: wp-content/themes/pub/inove/functions.php:168
 #, fuzzy
 msgid "Current Theme Options"
-msgstr "Текущая тема"
+msgstr "Дополнительные опции темы"
 
 #: wp-content/themes/pub/inove/functions.php:177
 msgid "Using google custom search engine."
@@ -27428,12 +27527,12 @@ msgstr "Меню"
 #: wp-content/themes/pub/inove/functions.php:196
 #, fuzzy
 msgid "Show pages as menu."
-msgstr "Отображать меню"
+msgstr "На страницах блога отображать не более"
 
 #: wp-content/themes/pub/inove/functions.php:200
 #, fuzzy
 msgid "Show categories as menu."
-msgstr "Рубрик нет"
+msgstr "Максимальное число отображаемых рубрик:"
 
 #: wp-content/themes/pub/inove/functions.php:214
 msgid "Hide sidebar from all pages."
@@ -27442,14 +27541,14 @@ msgstr ""
 #: wp-content/themes/pub/inove/functions.php:225
 #, fuzzy
 msgid "Notice"
-msgstr "Заметки"
+msgstr "Сообщение об ошибке"
 
 #: wp-content/themes/pub/inove/functions.php:227
 #: wp-content/themes/pub/inove/functions.php:251
 #: wp-content/themes/pub/inove/functions.php:286
 #, fuzzy
 msgid "HTML enabled"
-msgstr "Доступен"
+msgstr "Код HTML"
 
 #: wp-content/themes/pub/inove/functions.php:233
 msgid "This notice bar will display at the top of posts on homepage."
@@ -27458,7 +27557,7 @@ msgstr ""
 #: wp-content/themes/pub/inove/functions.php:249
 #, fuzzy
 msgid "Banner"
-msgstr "Баланс"
+msgstr "Нет заголовка сервера"
 
 #: wp-content/themes/pub/inove/functions.php:255
 msgid "This banner will display at the right of header. (height: 60 pixels)"
@@ -27468,7 +27567,7 @@ msgstr ""
 #: wp-content/themes/pub/inove/functions.php:292
 #, fuzzy
 msgid "Who can see?"
-msgstr "На экране отображаются"
+msgstr "Любой может зарегистрироваться"
 
 #: wp-content/themes/pub/inove/functions.php:264
 #: wp-content/themes/pub/inove/functions.php:299
@@ -27500,12 +27599,12 @@ msgstr "Показывать FeedFlare в моих записях."
 #: wp-content/themes/pub/inove/functions.php:332
 #, fuzzy
 msgid "Show categories on posts."
-msgstr "Нет рубрик для импорта!"
+msgstr "Показывать FeedFlare в моих записях."
 
 #: wp-content/themes/pub/inove/functions.php:336
 #, fuzzy
 msgid "Show tags on posts."
-msgstr "Показать все записи. "
+msgstr "Показывать FeedFlare в моих записях."
 
 #: wp-content/themes/pub/inove/functions.php:350
 #, fuzzy
@@ -27515,7 +27614,7 @@ msgstr "Подписаться на комментарии"
 #: wp-content/themes/pub/inove/functions.php:360
 #, fuzzy
 msgid "Feed"
-msgstr "Потоки"
+msgstr "Лента %1$s %2$s"
 
 #: wp-content/themes/pub/inove/functions.php:364
 msgid "Show the feed reader list when mouse over on feed button."
@@ -27524,12 +27623,12 @@ msgstr ""
 #: wp-content/themes/pub/inove/functions.php:369
 #, fuzzy
 msgid "Custom feed."
-msgstr "Поле изменено."
+msgstr "Лента рубрики %1$s %2$s %3$s"
 
 #: wp-content/themes/pub/inove/functions.php:375
 #, fuzzy
 msgid "Email feed."
-msgstr "Email (обязательно)"
+msgstr "Лента рубрики %1$s %2$s %3$s"
 
 #: wp-content/themes/pub/inove/functions.php:506
 #: wp-includes/js/tinymce/wp-mce-help.php:232
@@ -27539,7 +27638,7 @@ msgstr "Цитата"
 #: wp-content/themes/pub/inove/functions.php:511
 #, fuzzy
 msgid "Advanced edit"
-msgstr "Дополнительно"
+msgstr "Редактировать рубрику"
 
 #: wp-content/themes/pub/inove/links.php:15
 #, fuzzy
@@ -27549,12 +27648,12 @@ msgstr "Добавить ссылку"
 #: wp-content/themes/pub/inove/links.php:16
 #, fuzzy
 msgid "Edit links"
-msgstr "Редактировать ссылку"
+msgstr "Редактировать ссылки"
 
 #: wp-content/themes/pub/inove/sidebar.php:25
 #, fuzzy
 msgid "Subscribe to this blog..."
-msgstr "Подписаться на блог"
+msgstr "Подписаться на этот сайт"
 
 #: wp-content/themes/pub/inove/sidebar.php:25
 #, fuzzy
@@ -27571,12 +27670,12 @@ msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> Feed"
 #: wp-content/themes/pub/inove/sidebar.php:35
 #, fuzzy
 msgid "Subscribe with "
-msgstr "Подписаться"
+msgstr "Подписаться на комментарии"
 
 #: wp-content/themes/pub/inove/sidebar.php:28
 #, fuzzy
 msgid "Google"
-msgstr "Консоль"
+msgstr "Jabber / Google Talk"
 
 #: wp-content/themes/pub/inove/sidebar.php:29
 #, fuzzy
@@ -27592,8 +27691,9 @@ msgid "Zhua Xia"
 msgstr ""
 
 #: wp-content/themes/pub/inove/sidebar.php:32
+#, fuzzy
 msgid "My Yahoo!"
-msgstr ""
+msgstr "Yahoo IM"
 
 #: wp-content/themes/pub/inove/sidebar.php:33
 #, fuzzy
@@ -27617,7 +27717,7 @@ msgstr "Подписаться на этот сайт"
 #: wp-content/themes/pub/inove/sidebar.php:40
 #, fuzzy
 msgid "Email feed"
-msgstr "Email (обязательно)"
+msgstr "Лента рубрики %1$s %2$s %3$s"
 
 #: wp-content/themes/pub/inove/single.php:7
 #: wp-content/themes/pub/p2/functions.php:61
@@ -27625,8 +27725,9 @@ msgid "Go to homepage"
 msgstr "Перейти на первую страницу"
 
 #: wp-content/themes/pub/inove/templates/header.php:66
+#, fuzzy
 msgid "Type text to search here..."
-msgstr ""
+msgstr "Введите запрос и нажмите Enter"
 
 #: wp-content/themes/pub/journalist-13/404.php:8
 #: wp-content/themes/pub/sandbox-097/404.php:9
@@ -27750,7 +27851,7 @@ msgstr "Архив записей вашего блога по месяцам"
 #: wp-content/themes/pub/journalist/comments.php:101
 #, fuzzy
 msgid "You can use these tags:"
-msgstr "Вы можете использовать эти метки"
+msgstr "Можно использовать эти теги: %s"
 
 #: wp-content/themes/pub/journalist/index.php:7
 #: wp-content/themes/pub/journalist/single.php:8
@@ -27770,7 +27871,7 @@ msgstr "К сожалению, мы не смогли найти то, что в
 #: wp-content/themes/pub/journalist/sidebar.php:43
 #, fuzzy
 msgid "Site Feed"
-msgstr "Лента комментариев %s"
+msgstr "Лента рубрики %1$s %2$s %3$s"
 
 #: wp-content/themes/pub/journalist/sidebar.php:45
 #, fuzzy
@@ -27956,17 +28057,17 @@ msgstr "Опубликовано %1$s"
 #: wp-content/themes/pub/k2/theloop.php:79
 #, fuzzy
 msgid "Leave a&nbsp;<span>Comment</span>"
-msgstr "<span>Комментарии:</span> %s"
+msgstr "Войдите, чтобы добавить комментарий"
 
 #: wp-content/themes/pub/k2/theloop.php:79
 #, fuzzy
 msgid "1&nbsp;<span>Comment</span>"
-msgstr "<span>Комментарии:</span> %s"
+msgstr "<span>Один</span> комментарий"
 
 #: wp-content/themes/pub/k2/theloop.php:79
 #, fuzzy
 msgid "%&nbsp;<span>Comments</span>"
-msgstr "<span>Комментарии:</span> %s"
+msgstr "<span>Комментарии отключены</span>"
 
 #: wp-content/themes/pub/light/404.php:5
 msgid "The page you requested is no longer here!"
@@ -27984,7 +28085,7 @@ msgstr ""
 #: wp-content/themes/pub/light/404.php:8
 #, fuzzy
 msgid "Report broken link"
-msgstr "Добавить рубрику ссылок"
+msgstr "Постоянная ссылка на %s"
 
 #: wp-content/themes/pub/light/archive.php:15
 #, php-format
@@ -27995,7 +28096,7 @@ msgstr "Архивные записи по тэгу &#8216;%s&#8217;"
 #: wp-content/themes/pub/light/index.php:16
 #, fuzzy
 msgid "Comments(1)"
-msgstr "Комментарии (%)"
+msgstr "Комментарии"
 
 #: wp-content/themes/pub/light/archive.php:47
 #: wp-content/themes/pub/light/index.php:16
@@ -28045,7 +28146,7 @@ msgstr "веб-сайт"
 #: wp-content/themes/pub/light/index.php:16
 #, fuzzy
 msgid "Leave a Comments"
-msgstr "Добавить комментарий"
+msgstr "Комментарии (%) &#187;"
 
 #: wp-content/themes/pub/light/page.php:13
 msgid "<strong> Edit</strong>"
@@ -28120,7 +28221,7 @@ msgstr "Постоянная ссылка: %s"
 #: wp-content/themes/pub/mistylook/image.php:11
 #, fuzzy, php-format
 msgid "Posted on %s"
-msgstr "Опубликовано в %s"
+msgstr "Опубликовано в"
 
 #: wp-content/themes/pub/mistylook/author.php:9
 msgid "About:"
@@ -28463,7 +28564,7 @@ msgstr "Выйти &rarr;"
 #: wp-content/themes/pub/p2/comment-form.php:28
 #, fuzzy
 msgid "Name <em>(required)</em>"
-msgstr "<span class=\"active\">Активен</span>"
+msgstr "Требуется обновление базы данных"
 
 #: wp-content/themes/pub/p2/comment-form.php:32
 #, fuzzy
@@ -28530,7 +28631,7 @@ msgstr "Проставить метки"
 #: wp-content/themes/pub/p2/functions.php:63
 #, fuzzy, php-format
 msgid "%d new update(s)"
-msgstr "Извлечение обновления."
+msgstr "Обновить заголовок"
 
 #: wp-content/themes/pub/p2/functions.php:64
 #, fuzzy, php-format
@@ -28546,8 +28647,9 @@ msgid "An error has occured, your post was not posted"
 msgstr ""
 
 #: wp-content/themes/pub/p2/functions.php:67
+#, fuzzy
 msgid "You update has been posted"
-msgstr ""
+msgstr "При обновлении ,было учтено "
 
 #: wp-content/themes/pub/p2/functions.php:71
 #: wp-content/themes/pub/p2/index.php:24
@@ -28571,7 +28673,7 @@ msgstr "%1$s &#8212; Комментарии на %2$s"
 #: wp-content/themes/pub/p2/functions.php:199
 #, fuzzy
 msgid "Prologue Options"
-msgstr "Настройки блога"
+msgstr "Настройки сохранены."
 
 #: wp-content/themes/pub/p2/functions.php:210
 #, fuzzy
@@ -28579,8 +28681,9 @@ msgid "Display titles"
 msgstr "Отображение аватаров"
 
 #: wp-content/themes/pub/p2/functions.php:214
+#, fuzzy
 msgid "Greeting text:"
-msgstr ""
+msgstr "Скрыть/показать текст"
 
 #: wp-content/themes/pub/p2/functions.php:279
 #: wp-content/themes/pub/p2/functions.php:382
@@ -28593,7 +28696,7 @@ msgstr "Свежие метки"
 #: wp-content/themes/pub/p2/functions.php:342
 #, fuzzy
 msgid "All Updates RSS"
-msgstr "RSS-лента комментариев"
+msgstr "<strong>Ошибка RSS</strong>: %s"
 
 #: wp-content/themes/pub/p2/functions.php:376
 #: wp-content/themes/pub/prologue/functions.php:137
@@ -28637,12 +28740,12 @@ msgstr "Вам не разрешено импортировать данные."
 #: wp-content/themes/pub/p2/functions.php:825
 #, fuzzy
 msgid "Error: you must be logged in to post a comment."
-msgstr "Извините, вы должны авторизоваться для отправки комментария."
+msgstr "Вы должны <a href=\"%s\">авторизоваться</a> для отправки комментария."
 
 #: wp-content/themes/pub/p2/functions.php:838
 #, fuzzy
 msgid "Error: Please type a comment."
-msgstr "Ошибка: пожалуйста, введите комментарий."
+msgstr "Ошибка: Пожалуйста введите комментарий"
 
 #: wp-content/themes/pub/p2/functions.php:854
 msgid "Error: Unknown error occured. Comment not posted."
@@ -28692,12 +28795,12 @@ msgstr "Страница"
 #: wp-content/themes/pub/p2/index.php:20
 #, fuzzy, php-format
 msgid "Updates from %s|month"
-msgstr "Архив по месяцам"
+msgstr "Архив по месяцам:"
 
 #: wp-content/themes/pub/p2/index.php:37
 #, fuzzy
 msgid "No posts yet!"
-msgstr "Просмотренных записей пока нет."
+msgstr "Комментариев нет."
 
 #: wp-content/themes/pub/p2/post-form.php:12
 #: wp-content/themes/pub/prologue-projects/post-form.php:16
@@ -28719,7 +28822,7 @@ msgstr "Результаты поиска по запросу"
 #: wp-content/themes/pub/p2/tag.php:25
 #, fuzzy
 msgid "No posts found!"
-msgstr "Записей не найдено"
+msgstr "Записей не найдено."
 
 #: wp-content/themes/pub/p2/tag.php:11
 #, php-format
@@ -28774,7 +28877,7 @@ msgstr "Перейти к комментариям"
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:179
 #, fuzzy
 msgid "Projects"
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:285
 #, php-format
@@ -28793,7 +28896,7 @@ msgstr ""
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:358
 #, fuzzy
 msgid "Edit Projects"
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:371
 msgid "You must <a href=\"admin.php?page=prologue-projects-settings\">assign an existing category</a> as the container for all projects."
@@ -28818,7 +28921,7 @@ msgstr "Добавить проект"
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:764
 #, fuzzy
 msgid "Project Name"
-msgstr "&nbsp;Имя"
+msgstr "Имя якоря"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:487
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:766
@@ -28830,7 +28933,7 @@ msgstr "Название используется для определения 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:770
 #, fuzzy
 msgid "Project Slug"
-msgstr "Ярлык страницы"
+msgstr "Ярлык рубрики"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:493
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:772
@@ -28879,7 +28982,7 @@ msgstr ""
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:800
 #, fuzzy
 msgid "Project Blog"
-msgstr "Добавить блог"
+msgstr "Архив блога"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:523
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:802
@@ -28900,7 +29003,7 @@ msgstr ""
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:812
 #, fuzzy
 msgid "Project Trac Installation"
-msgstr "Завершить установку &raquo;"
+msgstr "WordPress &rsaquo; Установка"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:535
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:814
@@ -28948,12 +29051,12 @@ msgstr "Добавить проект"
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:599
 #, fuzzy
 msgid "Project added."
-msgstr "Добавлен блог"
+msgstr "Рубрика добавлена."
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:600
 #, fuzzy
 msgid "Project deleted."
-msgstr "Рубрики удалены."
+msgstr "%s комментарий удалён"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:601
 #, fuzzy
@@ -28974,7 +29077,7 @@ msgstr "Рубрика не обновлена."
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:633
 #, fuzzy
 msgid "Search Projects"
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:743
 msgid "<strong>Note:</strong><br />Deleting a project does not delete the posts in that project."
@@ -28991,7 +29094,7 @@ msgid ""
 "You are about to delete the selected projects.\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Вы собираетесь удалить выделеные объекты. \n"
+"Вы собираетесь удалить выделенные объекты. \n"
 " 'Отмена' - оставить, 'OK' - удалить."
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:898
@@ -29001,12 +29104,12 @@ msgstr ""
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:911
 #, fuzzy
 msgid "Project Settings"
-msgstr "Настройки администрирования"
+msgstr "Дополнительно"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:918
 #, fuzzy
 msgid "Projects category"
-msgstr "<strong>Категория :</strong>"
+msgstr "Лента рубрики %1$s %2$s %3$s"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:921
 msgid "Select the category which contains all your projects."
@@ -29043,12 +29146,12 @@ msgstr "Последние обновления: %s"
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:955
 #, fuzzy
 msgid "Updates category"
-msgstr "<strong>Категория :</strong>"
+msgstr "Лента рубрики %1$s %2$s %3$s"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:958
 #, fuzzy
 msgid "Select the category which will contain updates."
-msgstr "Выберите рубрику, которая будет содержать задачи."
+msgstr "Выберите категорию, которая будет содержать вопросы."
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:962
 #: wp-content/themes/pub/prologue-projects/index.php:92
@@ -29058,7 +29161,7 @@ msgstr "Задачи"
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:965
 #, fuzzy
 msgid "Tasks category"
-msgstr "<strong>Категория :</strong>"
+msgstr "Категории задач "
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:968
 msgid "Select the category which will contain tasks."
@@ -29067,7 +29170,7 @@ msgstr "Выберите рубрику, которая будет содерж�
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:972
 #, fuzzy
 msgid "Default task level"
-msgstr "Gravatar URL по умолчанию"
+msgstr "Выбрать цвета по умолчанию"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:978
 msgid "Select the level which new tasks will be set to by default."
@@ -29086,12 +29189,12 @@ msgstr "Общие вопросы"
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:992
 #, fuzzy
 msgid "Questions category"
-msgstr "<strong>Категория :</strong>"
+msgstr "Лента рубрики %1$s %2$s %3$s"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:995
 #, fuzzy
 msgid "Select the category which will contain questions."
-msgstr "Выберите рубрику, которая будет содержать задачи."
+msgstr "Выберите категорию, которая будет содержать вопросы."
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:999
 #, fuzzy
@@ -29118,7 +29221,7 @@ msgstr ""
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:1056
 #, fuzzy
 msgid "Your projects"
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:1057
 msgid "Select the projects which the you participate in. You will be listed on each projects page."
@@ -29127,7 +29230,7 @@ msgstr ""
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:1059
 #, fuzzy
 msgid "The user's projects"
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:1060
 msgid "Select the projects which the user participates in. They will be listed on each projects page."
@@ -29136,7 +29239,7 @@ msgstr ""
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:1066
 #, fuzzy
 msgid "Available Projects"
-msgstr "Свежие проекты"
+msgstr "Имеющиеся проекты"
 
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:114
 msgid "Display projects in a navigable tree"
@@ -29151,7 +29254,7 @@ msgstr "Добавить проект"
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:177
 #, fuzzy
 msgid "Sub-projects"
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:239
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:709
@@ -29165,7 +29268,7 @@ msgstr "Показать:"
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:254
 #, fuzzy
 msgid "All projects"
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:255
 #, fuzzy
@@ -29202,12 +29305,12 @@ msgstr "Добавить проект"
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:501
 #, fuzzy
 msgid "&raquo; Visit project"
-msgstr "Посетить сайт автора"
+msgstr "Перейти на сайт %s"
 
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:554
 #, fuzzy
 msgid "Show project team"
-msgstr "Показывать только проценты"
+msgstr "Показывать описания ссылок"
 
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:580
 #, fuzzy
@@ -29218,7 +29321,7 @@ msgstr "Вы не можете удалить текущего пользова�
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:604
 #, fuzzy
 msgid "User Projects"
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:638
 #, fuzzy
@@ -29228,7 +29331,7 @@ msgstr "Позволить этому пользователю:"
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:645
 #, fuzzy, php-format
 msgid "%s Projects"
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:651
 msgid "This user is not a member of any project teams"
@@ -29292,17 +29395,17 @@ msgstr "Некорректная роль"
 #: wp-content/themes/pub/prologue-projects/functions.php:1014
 #, fuzzy
 msgid "&#x2190; Newer Posts"
-msgstr "&#171; Следующие записи"
+msgstr "&laquo; Следующие записи"
 
 #: wp-content/themes/pub/prologue-projects/functions.php:1015
 #, fuzzy
 msgid "Older Posts &#x2192;"
-msgstr "&laquo; Предыдущие записи"
+msgstr "Предыдущие записи &raquo;"
 
 #: wp-content/themes/pub/prologue-projects/index.php:15
 #, fuzzy
 msgid "All Projects"
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/index.php:186
 #: wp-content/themes/pub/prologue/author.php:38
@@ -29333,7 +29436,7 @@ msgstr "%"
 #: wp-content/themes/pub/prologue-projects/single.php:30
 #, fuzzy
 msgid "Projects: "
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/index.php:194
 #: wp-content/themes/pub/prologue-projects/single.php:31
@@ -29349,7 +29452,7 @@ msgstr "%1$s работает на %2$s"
 #: wp-content/themes/pub/prologue-projects/index.php:253
 #, fuzzy, php-format
 msgid "Prologue Projects theme by %s"
-msgstr "тема Theron Parlin."
+msgstr "%1$s, автор: %2$s|1: название темы, 2: автор темы"
 
 #: wp-content/themes/pub/prologue-projects/post-form.php:19
 #, php-format
@@ -29364,17 +29467,17 @@ msgstr "Привет, %s. Что хочешь знать?"
 #: wp-content/themes/pub/prologue-projects/post-form.php:46
 #, fuzzy
 msgid "Rate it"
-msgstr "Одобрить: %s"
+msgstr "Выскажись!"
 
 #: wp-content/themes/pub/prologue-projects/post-form.php:61
 #, fuzzy
 msgid "Add projects"
-msgstr "Свежие проекты"
+msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/post-form.php:78
 #, fuzzy
 msgid "Ask now"
-msgstr " Сейчас &raquo;"
+msgstr "%s до публикации"
 
 #: wp-content/themes/pub/prologue/functions.php:143
 #: wp-content/themes/pub/prologue/functions.php:144
@@ -29447,7 +29550,7 @@ msgstr "M"
 #: wp-content/themes/pub/redoable-lite/theloop.php:124
 #, fuzzy
 msgid "Leave a&nbsp;"
-msgstr "Один комментарий"
+msgstr "(%d&nbsp;&times;&nbsp;%d)"
 
 #: wp-content/themes/pub/redoable-lite/searchloop.php:122
 #: wp-content/themes/pub/redoable-lite/single_post.php:30
@@ -29665,7 +29768,7 @@ msgstr "\t\t\t\t\t<span class='unapproved'>Ваш комментарий ожи�
 #: wp-content/themes/pub/sandbox-10/comments.php:49
 #, fuzzy
 msgid "\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting moderation.</span>\\n"
-msgstr "\t\t\t\t\t<span class='unapproved'>Ваш комментарий ожидает проверки.</span>\n"
+msgstr "\t\t\t\t\t<span class=\"unapproved\">Ваша обратная ссылка ожидает проверки.</span>\n"
 
 #: wp-content/themes/pub/sandbox-097/comments.php:66
 #: wp-content/themes/pub/sandbox-10/comments.php:66
@@ -29857,8 +29960,9 @@ msgstr "ID страниц, разделённые запятыми."
 
 #: wp-content/themes/pub/sapphire/functions.php:82
 #: wp-content/themes/pub/sapphire/functions.php:83
+#, fuzzy
 msgid "Pages (Sapphire)"
-msgstr ""
+msgstr "Редактировать страницы"
 
 #: wp-content/themes/pub/solipsus/comments.php:19
 msgid "Said"
@@ -29935,7 +30039,7 @@ msgstr "Написать комментарий"
 #: wp-content/themes/pub/subtle/comments.php:61
 #, fuzzy, php-format
 msgid "Write a Comment to %s"
-msgstr "Оставить комментарий к %s"
+msgstr "Ответить на комментарий"
 
 #: wp-content/themes/pub/subtle/comments.php:63
 msgid "Take a moment to comment and tell us what you think.  Some basic HTML is allowed for formatting."
@@ -30890,37 +30994,37 @@ msgstr "Ваши ссылки"
 #: wp-includes/wp-includes/default-widgets.php:144
 #, fuzzy
 msgid "All Links"
-msgstr "Ссылки"
+msgstr "Все ссылки"
 
 #: wp-includes/default-widgets.php:142
 #: wp-includes/wp-includes/default-widgets.php:142
 #, fuzzy
 msgid "Select Link Category"
-msgstr "Выберите рубрику"
+msgstr "Выберите рубрику ссылок"
 
 #: wp-includes/default-widgets.php:155
 #: wp-includes/wp-includes/default-widgets.php:155
 #, fuzzy
 msgid "Show Link Image"
-msgstr "Ссылка на изображение"
+msgstr "Показывать изображения"
 
 #: wp-includes/default-widgets.php:157
 #: wp-includes/wp-includes/default-widgets.php:157
 #, fuzzy
 msgid "Show Link Name"
-msgstr "Имя сайта"
+msgstr "Показывать названия ссылок"
 
 #: wp-includes/default-widgets.php:159
 #: wp-includes/wp-includes/default-widgets.php:159
 #, fuzzy
 msgid "Show Link Description"
-msgstr "Описание сайта"
+msgstr "Показывать описания ссылок"
 
 #: wp-includes/default-widgets.php:161
 #: wp-includes/wp-includes/default-widgets.php:161
 #, fuzzy
 msgid "Show Link Rating"
-msgstr "Показано"
+msgstr "Показывать рейтинг ссылок"
 
 #: wp-includes/default-widgets.php:175
 #: wp-includes/wp-includes/default-widgets.php:175
@@ -31126,12 +31230,13 @@ msgstr "Скрытые комментарии: введите пароль дл�
 #, fuzzy
 msgctxt "opening curly quote"
 msgid "&#8220;"
-msgstr "Метка&#8230;"
+msgstr "&#8220;"
 
 #: wp-includes/formatting.php:39
+#, fuzzy
 msgctxt "closing curly quote"
 msgid "&#8221;"
-msgstr ""
+msgstr "&#8221;"
 
 #: wp-includes/formatting.php:1661
 #: wp-includes/wp-includes/formatting.php:1655
@@ -31454,7 +31559,7 @@ msgstr "Выйти"
 #: wp-includes/general-template.php:500
 #, fuzzy, php-format
 msgid "Search Results %1$s %2$s"
-msgstr "Результаты поиска %s %s"
+msgstr "Результаты поиска %1$s %2$s"
 
 #: wp-includes/general-template.php:820
 #: wp-includes/wp-includes/general-template.php:819
@@ -31488,12 +31593,12 @@ msgstr "&raquo;"
 #: wp-includes/general-template.php:1464
 #, fuzzy, php-format
 msgid "%1$s %2$s Feed"
-msgstr "%1$s %2$d"
+msgstr "Лента %1$s %2$s"
 
 #: wp-includes/general-template.php:1466
 #, fuzzy, php-format
 msgid "%1$s %2$s Comments Feed"
-msgstr "Лента комментариев %1$s %2$s %3$s"
+msgstr "Лента комментариев %1$s %2$s"
 
 #: wp-includes/general-template.php:1487
 #: wp-includes/wp-includes/general-template.php:1484
@@ -31505,7 +31610,7 @@ msgstr "Лента комментариев %1$s %2$s %3$s"
 #: wp-includes/wp-includes/general-template.php:1486
 #, fuzzy, php-format
 msgid "%1$s %2$s %3$s Category Feed"
-msgstr "Лента ребрики %1$s %2$s %3$s"
+msgstr "Лента рубрики %1$s %2$s %3$s"
 
 #: wp-includes/general-template.php:1491
 #: wp-includes/wp-includes/general-template.php:1488
@@ -33295,7 +33400,7 @@ msgid ""
 "You are about to delete the selected items.\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Вы собираетесь удалить выделеные объекты. \n"
+"Вы собираетесь удалить выделенные объекты. \n"
 " 'Отмена' - оставить, 'OK' - удалить."
 
 #: wp-includes/script-loader.php:76
