@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPBlog\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2009-06-15 16:39+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sol <salpagarov@gmail.com>\n"
+"Language-Team: ru.wordpress.org <salpagarov@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: archive.php:22
+#: index.php:19
+#, php-format
+msgid "Archive for the %s Tag"
+msgstr "Архив для метки %s"
+
+#: archive.php:25
+#: archive.php:28
+#: archive.php:30
+#: index.php:22
+#: index.php:25
+#: index.php:27
+#, php-format
+msgid "Archive for %s"
+msgstr "Архив %s"
+
+#: archive.php:33
+#: index.php:30
+#: index.php:66
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: archive.php:36
+#: index.php:33
+msgid "Author Archive"
+msgstr "Архив автора"
+
+#: archive.php:39
+#: index.php:36
+msgid "Blog Archives"
+msgstr "Архивы блога"
+
+#: archive.php:60
+#: home.php:44
+#: index.php:57
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Предыдущие записи"
+
+#: archive.php:61
+#: index.php:58
+msgid "Next Entries &raquo;"
+msgstr "Следующие записи &raquo;"
+
+#: archive.php:67
+#: index.php:69
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: blognav.php:4
+msgid "Archives"
+msgstr "Архивы"
+
+#: blognav.php:11
+#: functions.php:13
+#: home.php:27
+#: sidebar.php:25
+msgid "Recently"
+msgstr "Недавно"
+
+#: blognav.php:24
+#: home.php:74
+#: sidebar.php:34
+msgid "Tags"
+msgstr "Метки"
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Это сообщение защищено паролем. Введите пароль, чтобы посмотреть комментарий."
+
+#: comments.php:21
+#, php-format
+msgid "to &#8220;%s&#8221;"
+msgstr "к &#8220;%s&#8221;"
+
+#: comments.php:23
+#: comments.php:46
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: comments.php:54
+msgid "Leave a Reply"
+msgstr "Оставить ответ"
+
+#: comments.php:62
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">авторизоваться</a> для отправки комментария."
+
+#: comments.php:68
+msgid "You must set a WordPress.com blog as your URL to post a comment. Please update <a href=\"http://dashboard.wordpress.com/wp-admin/profile.php\">Your Profile</a>."
+msgstr "Вы должны установить WPCOM-блог в качестве ссылки для публикации комментария. Пожалуйста, обновите <a href=\"http://dashboard.wordpress.com/wp-admin/profile.php\">ваш профиль</a>."
+
+#: comments.php:77
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Вы вошли как <a href=\"%1$s\">%2$s</a>."
+
+#: comments.php:77
+msgid "Log out of this account"
+msgstr "Выйти из этого аккаунта"
+
+#: comments.php:77
+msgid "Log out &raquo;"
+msgstr "Выйти &raquo;"
+
+#: comments.php:82
+msgid "Name"
+msgstr "Имя"
+
+#: comments.php:82
+#: comments.php:85
+msgid "(required)"
+msgstr "(обязательно)"
+
+#: comments.php:85
+msgid "Mail (will not be published)"
+msgstr "E-mail (не для публикации)"
+
+#: comments.php:88
+msgid "Website"
+msgstr "Сайт"
+
+#: comments.php:96
+msgid "Please do not use these comments for asking questions, support, or bug reporting, use the <a href=\"http://wordpress.com/forums/\">forums</a> or <a href=\"http://support.wordpress.com/contact/\">support contact form</a> for that."
+msgstr "Пожалуйста, не задавайте здесь вопросов и не пишите баг-репорты. Для этого есть <a href=\"http://wordpress.com/forums/\">форумы</a> и <a href=\"http://support.wordpress.com/contact/\">обратная связь</a>."
+
+#: comments.php:98
+msgid "Submit Comment"
+msgstr "Отправить"
+
+#: functions.php:20
+msgid "From the"
+msgstr "Из"
+
+#: functions.php:64
+msgid "Pingback:"
+msgstr "Уведомление:"
+
+#: functions.php:70
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: functions.php:70
+msgid "F jS, Y"
+msgstr "d.m.Y"
+
+#: functions.php:75
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: functions.php:201
+msgid "Untitled"
+msgstr "Безымянный"
+
+#: functions.php:248
+msgid "An error has occurred; the feed is probably down. Try again later."
+msgstr "Произошла ошибка; возможно, лента недоступна. Повторите попытку позже."
+
+#: home.php:4
+#: single.php:8
+msgid "Just Another WordPress Weblog"
+msgstr "Еще один блог WordPress"
+
+#: home.php:16
+#: home.php:35
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Постоянная ссылка на %s"
+
+#: home.php:17
+#: home.php:36
+#: single.php:27
+#, php-format
+msgid "by %s"
+msgstr "от %s"
+
+#: home.php:20
+#: home.php:39
+msgid "Read the rest of this entry &raquo;"
+msgstr "Прочесть полностью &raquo;"
+
+#: home.php:52
+#: home.php:57
+#: sidebar.php:5
+#: sidebar.php:10
+msgid "Search"
+msgstr "Поиск"
+
+#: home.php:56
+#: sidebar.php:9
+msgid "Search our blog"
+msgstr "Поиск по блогу"
+
+#: home.php:63
+#: sidebar.php:14
+msgid "Archives by Date"
+msgstr "Архив по датам"
+
+#: home.php:82
+#: sidebar.php:42
+msgid "<span>Recent Posts</span> RSS"
+msgstr "<span>Недавние записи</span> в RSS"
+
+#: home.php:83
+#: sidebar.php:43
+msgid "<span>Recent Comments</span> RSS"
+msgstr "<span>Недавние комментарии</span> в RSS"
+
+#: index.php:67
+msgid "No results found."
+msgstr "Ничего не найдено."
+
+#: single.php:20
+#, php-format
+msgid "Posted: %s at %s."
+msgstr "Опубликовано: %s в %s."
+
+#: single.php:20
+msgid "l, F jS, Y"
+msgstr "d.m.Y"
+
+#: single.php:20
+#, php-format
+msgid "Filed in %s."
+msgstr "Опубликован в %s."
+
+#: single.php:21
+msgid "Edit&nbsp;this&nbsp;entry."
+msgstr "Править&nbsp;эту&nbsp;запись."
+
+#: single.php:29
+msgid "Read the rest of this entry &rarr;"
+msgstr "Читать далее &rarr;"
+
+#: single.php:31
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: single.php:39
+msgid "Sorry, no posts matched your criteria."
+msgstr "Извините, нет записей, удовлетворяющих вашим условиям."
+
