@@ -10194,7 +10194,6 @@ msgid "Kinshasa"
 msgstr "Киншаса"
 
 #: wp-admin/includes/continents-cities.php:38
-#, fuzzy
 msgid "Lagos"
 msgstr "Лагос"
 
@@ -10493,7 +10492,6 @@ msgid "Chihuahua"
 msgstr "Чиуауа"
 
 #: wp-admin/includes/continents-cities.php:100
-#, fuzzy
 msgid "Coral Harbour"
 msgstr "Корал-Харбор"
 
@@ -10517,7 +10515,6 @@ msgid "Danmarkshavn"
 msgstr "Данмаркшавн"
 
 #: wp-admin/includes/continents-cities.php:105
-#, fuzzy
 msgid "Dawson"
 msgstr "Доусон"
 
@@ -10770,12 +10767,10 @@ msgid "Moncton"
 msgstr "Монктон"
 
 #: wp-admin/includes/continents-cities.php:159
-#, fuzzy
 msgid "Monterrey"
 msgstr "Монтеррей"
 
 #: wp-admin/includes/continents-cities.php:160
-#, fuzzy
 msgid "Montevideo"
 msgstr "Монтевидео"
 
@@ -11068,9 +11063,8 @@ msgid "Syowa"
 msgstr "Сиова"
 
 #: wp-admin/includes/continents-cities.php:221
-#, fuzzy
 msgid "Vostok"
-msgstr "Восток"
+msgstr "Остров Восток"
 
 #: wp-admin/includes/continents-cities.php:222
 msgid "Arctic"
@@ -11099,7 +11093,6 @@ msgid "Amman"
 msgstr "Амман"
 
 #: wp-admin/includes/continents-cities.php:228
-#, fuzzy
 msgid "Anadyr"
 msgstr "Анадырь"
 
@@ -11200,7 +11193,6 @@ msgid "Dushanbe"
 msgstr "Душанбе"
 
 #: wp-admin/includes/continents-cities.php:251
-#, fuzzy
 msgid "Gaza"
 msgstr "Газа"
 
@@ -11255,7 +11247,6 @@ msgid "Karachi"
 msgstr "Карачи"
 
 #: wp-admin/includes/continents-cities.php:264
-#, fuzzy
 msgid "Kashgar"
 msgstr "Кашгар"
 
@@ -11303,12 +11294,10 @@ msgid "Makassar"
 msgstr "Макассар"
 
 #: wp-admin/includes/continents-cities.php:275
-#, fuzzy
 msgid "Manila"
 msgstr "Манила"
 
 #: wp-admin/includes/continents-cities.php:276
-#, fuzzy
 msgid "Muscat"
 msgstr "Маскат"
 
@@ -11340,7 +11329,6 @@ msgid "Pontianak"
 msgstr "Понтианаке"
 
 #: wp-admin/includes/continents-cities.php:283
-#, fuzzy
 msgid "Pyongyang"
 msgstr "Пхеньян"
 
@@ -11375,7 +11363,6 @@ msgid "Samarkand"
 msgstr "Самарканд"
 
 #: wp-admin/includes/continents-cities.php:291
-#, fuzzy
 msgid "Seoul"
 msgstr "Сеул"
 
@@ -11895,7 +11882,6 @@ msgid "Lisbon"
 msgstr "Лиссабон"
 
 #: wp-admin/includes/continents-cities.php:406
-#, fuzzy
 msgid "Ljubljana"
 msgstr "Любляна"
 
@@ -11961,7 +11947,6 @@ msgid "Samara"
 msgstr "Самара"
 
 #: wp-admin/includes/continents-cities.php:422
-#, fuzzy
 msgid "San Marino"
 msgstr "Сан-Марино"
 
@@ -11987,7 +11972,6 @@ msgid "Stockholm"
 msgstr "Стокгольм"
 
 #: wp-admin/includes/continents-cities.php:428
-#, fuzzy
 msgid "Tallinn"
 msgstr "Таллин"
 
@@ -12018,7 +12002,6 @@ msgid "Vienna"
 msgstr "Вена"
 
 #: wp-admin/includes/continents-cities.php:435
-#, fuzzy
 msgid "Vilnius"
 msgstr "Вильнюс"
 
@@ -12094,7 +12077,6 @@ msgid "Mayotte"
 msgstr "Майотта"
 
 #: wp-admin/includes/continents-cities.php:452
-#, fuzzy
 msgid "Reunion"
 msgstr "Реюньон"
 
@@ -12118,9 +12100,8 @@ msgid "Chatham"
 msgstr "Чатэм"
 
 #: wp-admin/includes/continents-cities.php:457
-#, fuzzy
 msgid "Easter"
-msgstr "Пасха"
+msgstr "Остров Пасхи"
 
 #: wp-admin/includes/continents-cities.php:458
 #, fuzzy
@@ -12194,9 +12175,8 @@ msgid "Majuro"
 msgstr "Маджуро"
 
 #: wp-admin/includes/continents-cities.php:473
-#, fuzzy
 msgid "Marquesas"
-msgstr "Маркизы"
+msgstr "Маркизские острова"
 
 #: wp-admin/includes/continents-cities.php:474
 #, fuzzy
@@ -12287,7 +12267,6 @@ msgid "Wake"
 msgstr "Уэйк"
 
 #: wp-admin/includes/continents-cities.php:492
-#, fuzzy
 msgid "Wallis"
 msgstr "Уоллис"
 
@@ -17807,12 +17786,12 @@ msgstr ""
 #: wp-admin/wpmu-paid-upgrades.php:73
 #, php-format
 msgid "PayPal transaction ID %s refunded."
-msgstr ""
+msgstr "PayPal-транзакция ID %s выполнена."
 
 #: wp-admin/wpmu-paid-upgrades.php:75
 #, php-format
 msgid "PayPal transaction ID %s <strong>NOT</strong> refunded."
-msgstr ""
+msgstr "PayPal-транзакция ID %s <strong>НЕ</strong> выполнена."
 
 #: wp-admin/wpmu-paid-upgrades.php:463
 msgid "My Upgrades"
@@ -18099,7 +18078,7 @@ msgstr "Показы видео"
 
 #: wp-content/admin-plugins/blog-stats.php:243
 msgid "Your video play statistics"
-msgstr ""
+msgstr "Статистика просмотров вашего видео"
 
 #: wp-content/admin-plugins/blog-stats.php:257
 msgid "These are the stats for just this referrer."
@@ -18180,7 +18159,7 @@ msgstr "Статистика этого поста."
 
 #: wp-content/admin-plugins/blog-stats.php:433
 msgid "We have not recorded any views for this item yet."
-msgstr ""
+msgstr "Мы пока не отметили ни одного просмотра этого объекта."
 
 #: wp-content/admin-plugins/blog-stats.php:473
 msgid "Months and Years"
@@ -19316,7 +19295,7 @@ msgstr "Далее"
 #: wp-content/admin-plugins/readomattic.php:799
 #, php-format
 msgid "Top news posts from <a href=\"%s\">WordPress.com</a>.  Click to <a href=\"%s\">subscribe to other feeds, tags and blogs</a>."
-msgstr ""
+msgstr "Топ новых записей <a href=\"%s\">WordPress.com</a>. Щелкните, чтобы <a href=\"%s\">подписаться на другие ленты, метки и блоги</a>."
 
 #: wp-content/admin-plugins/readomattic.php:804
 #, php-format
@@ -19368,7 +19347,7 @@ msgstr "Редактировать подписки. "
 
 #: wp-content/admin-plugins/readomattic.php:1450
 msgid "You are subscribed to Top Posts in these categories:"
-msgstr ""
+msgstr "Вы подписаны на Топ записей в этих рубриках:"
 
 #: wp-content/admin-plugins/readomattic.php:1481
 msgid "You are subscribed to the following tags:"
@@ -20259,7 +20238,7 @@ msgstr "блокировано"
 
 #: wp-content/mu-plugins/botd.php:139
 msgid "Unfiltered"
-msgstr ""
+msgstr "Без фильтра"
 
 #: wp-content/mu-plugins/botd.php:142
 #, fuzzy
@@ -27358,7 +27337,7 @@ msgstr "Галерея"
 
 #: wp-content/themes/pub/inove/404.php:25
 msgid "Welcome to 404 error page!"
-msgstr ""
+msgstr "Добро пожаловать на страницу ошибки 404!"
 
 #: wp-content/themes/pub/inove/404.php:26
 msgid "Welcome to this customized error page. You've reached this page because you've clicked on a link that does not exist. This is probably our fault... but instead of showing you the basic '404 Error' page that is confusing and doesn't really explain anything, we've created this page to explain what went wrong."
@@ -27499,7 +27478,7 @@ msgstr "Копировать строку таблицы"
 
 #: wp-content/themes/pub/inove/footer.php:39
 msgid "Theme by <a href=\"http://www.neoease.com/\">NeoEase</a>. Valid <a href=\"http://validator.w3.org/check?uri=referer\">XHTML 1.1</a> and <a href=\"http://jigsaw.w3.org/css-validator/check/referer?profile=css3\">CSS 3</a>."
-msgstr ""
+msgstr "Тема от <a href=\"http://www.neoease.com/\">NeoEase</a>. Корректный <a href=\"http://validator.w3.org/check?uri=referer\">XHTML 1.1</a> и <a href=\"http://jigsaw.w3.org/css-validator/check/referer?profile=css3\">CSS 3</a>."
 
 #: wp-content/themes/pub/inove/functions.php:159
 #: wp-content/themes/pub/inove/functions.php:168
@@ -27509,7 +27488,7 @@ msgstr "Дополнительные опции темы"
 
 #: wp-content/themes/pub/inove/functions.php:177
 msgid "Using google custom search engine."
-msgstr ""
+msgstr "Используется поисковый движок от Google."
 
 #: wp-content/themes/pub/inove/functions.php:180
 msgid "CX:"
@@ -27738,7 +27717,7 @@ msgstr "Простите, мы не смогли найти того, что В�
 #: wp-content/themes/pub/journalist-13/comments.php:22
 #, php-format
 msgid "<strong class=\"fn\">%s</strong> said, on %s at <a href=\"%s\">%s</a>"
-msgstr ""
+msgstr "<strong class=\"fn\">%s</strong> сказал на %s <a href=\"%s\">%s</a>"
 
 #: wp-content/themes/pub/journalist-13/comments.php:43
 #: wp-content/themes/pub/journalist/comments.php:56
@@ -27861,7 +27840,7 @@ msgstr "Оставить комментарий &raquo;"
 
 #: wp-content/themes/pub/journalist/links.php:15
 msgid "Complete list of the blog's bookmarks."
-msgstr ""
+msgstr "Полный список блогов в закладках."
 
 #: wp-content/themes/pub/journalist/search.php:36
 #, fuzzy
@@ -28992,7 +28971,7 @@ msgstr ""
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:527
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:806
 msgid "Project Subversion Repository"
-msgstr ""
+msgstr "Subversion-репозиторий проекта"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:529
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:808
