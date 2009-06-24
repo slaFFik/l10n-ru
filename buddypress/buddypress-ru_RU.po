@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: buddypress-trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-24 21:33+0300\n"
-"PO-Revision-Date: 2009-06-24 21:33+0300\n"
+"POT-Creation-Date: 2009-06-25 01:51+0300\n"
+"PO-Revision-Date: 2009-06-25 01:53+0300\n"
 "Last-Translator: Sol <salpagarov@gmail.com>\n"
 "Language-Team: l10n.ru <salpagarov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -2425,7 +2425,7 @@ msgid "Membership request for group: %s"
 msgstr "Запрос на участие в группу: %s"
 
 #: d:/project/automattic/buddypress/trunk/bp-groups/bp-groups-notifications.php:112
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "%s wants to join the group \"%s\".\n"
 "\n"
@@ -2442,9 +2442,8 @@ msgstr ""
 "\n"
 "Как администраторы этой группы ты должен принять или отвергнуть запрос на участие.\n"
 "\n"
-"Принять запрос: %s\n"
-"\n"
-"Отказать: %s\n"
+"Чтобы просмотреть все запросы на участие в группе, пожалуйста, пройди сюда:\n"
+" %s\n"
 "\n"
 "Личная страница %s: %s\n"
 "\n"
@@ -3799,9 +3798,8 @@ msgid "Sorry, this person does not have a public profile."
 msgstr "Извини, эта персона ничего не опубликовала о себе."
 
 #: d:/project/automattic/buddypress/trunk/bp-themes/bpmember/status/post-form.php:2
-#, fuzzy
 msgid "What are you up to?"
-msgstr "Вы собираетесь удалить <strong>%s</strong>."
+msgstr "Что дальше?"
 
 #: d:/project/automattic/buddypress/trunk/bp-themes/bpmember/status/post-form.php:6
 msgid "Update"
