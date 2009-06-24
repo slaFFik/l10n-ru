@@ -6589,7 +6589,7 @@ msgstr "URL"
 #: wp-includes/wp-includes/comment-template.php:656
 msgctxt "noun"
 msgid "Comment"
-msgstr "Коментарий"
+msgstr "Комментарий"
 
 #: wp-admin/comment.php:179
 msgid "You are not allowed to edit comments on this post, so you cannot disapprove this comment."
@@ -8103,7 +8103,7 @@ msgstr "Ни одной страницы не найдено."
 #: wp-admin/includes/template.php:846
 msgctxt "column name"
 msgid "Comment"
-msgstr "Коментарий"
+msgstr "Комментарий"
 
 #: wp-admin/edit-pages.php:300
 msgid "Submitted"
@@ -18750,9 +18750,8 @@ msgid "Gifts may be given to other users or received by you a maximum of 3 times
 msgstr ""
 
 #: wp-content/admin-plugins/gifts.php:348
-#, fuzzy
 msgid "Warning!"
-msgstr "Предупреждение"
+msgstr "Предупреждение!"
 
 #: wp-content/admin-plugins/gifts.php:349
 msgid "Unfortunately your account has reached the send or receive gift limit. You may not send any more credits to other users on WordPress.com. You may send the credits directly using <a href=\"http://www.paypal.com/\">PayPal.com</a> if you have their email address. Sorry for any inconvenience caused."
@@ -18878,30 +18877,26 @@ msgid "Hidden"
 msgstr "Скрыт"
 
 #: wp-content/admin-plugins/my-blogs.php:422
-#, fuzzy
 msgid "Drag"
-msgstr "двигайте"
+msgstr "Двигайте"
 
 #: wp-content/admin-plugins/my-blogs.php:423
-#, fuzzy
 msgid "Up"
-msgstr "Регистрация"
+msgstr "Вверх"
 
 #: wp-content/admin-plugins/my-blogs.php:423
-#, fuzzy
 msgid "Down"
-msgstr "Готово"
+msgstr "Вниз"
 
 #: wp-content/admin-plugins/my-blogs.php:481
-#, fuzzy
 msgid "Make Visible"
-msgstr "Прилепить запись"
+msgstr "Сделать видимым"
 
 #: wp-content/admin-plugins/my-comments.php:8
 #: wp-content/admin-plugins/my-comments.php:104
 #: wp-content/mu-plugins/admin-bar.php:212
 msgid "My Comments"
-msgstr "Мои коментарии"
+msgstr "Мои комментарии"
 
 #: wp-content/admin-plugins/my-comments.php:106
 msgid "This tracks comments you&#8217;ve made across WordPress.com so you can see when people reply to you. It will show your comment, one before yours, and replies after yours. The thread with the latest replies will be at top. See <a href=\"http://wordpress.com/blog/2006/08/14/my-comments/\">this announcement for more information</a>."
@@ -19244,9 +19239,8 @@ msgid "vCard"
 msgstr "Очистить"
 
 #: wp-content/admin-plugins/post-by-email.php:145
-#, fuzzy
 msgid "Regenerate"
-msgstr "Исходный текст:"
+msgstr "Пересоздать"
 
 #: wp-content/admin-plugins/post-by-email.php:248
 #, fuzzy
@@ -21948,7 +21942,7 @@ msgstr ""
 
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:378
 msgid "LaTeX Preamble"
-msgstr ""
+msgstr "Преамбула LaTeX"
 
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:397
 #, fuzzy
@@ -22828,7 +22822,7 @@ msgstr "на &#8220;%s&#8221;"
 #: wp-content/themes/pub/solipsus/comments.php:63
 #: wp-content/themes/pub/springloaded/comments.php:59
 msgid "Comments are closed."
-msgstr "Коментарии отменены."
+msgstr "Комментарии закрыты."
 
 #: wp-content/themes/default/comments.php:63
 #: wp-content/themes/pub/albeo/comments.php:77
@@ -26818,7 +26812,7 @@ msgstr "Обратные ссылки и уведомления"
 
 #: wp-content/themes/pub/fauna/template-trackbacks.php:19
 msgid "commented"
-msgstr "прокоментировали"
+msgstr "прокомментировали"
 
 #: wp-content/themes/pub/fauna/template-trackbacks.php:19
 msgid "trackbacked"
@@ -27432,7 +27426,7 @@ msgstr "Редактировать страницы"
 #: wp-content/themes/pub/inove/comments.php:91
 #: wp-content/themes/pub/inove/functions.php:501
 msgid "H:i"
-msgstr ""
+msgstr "H:i"
 
 #: wp-content/themes/pub/inove/comments.php:108
 #, fuzzy
@@ -27515,7 +27509,7 @@ msgstr "Максимальное число отображаемых рубри�
 
 #: wp-content/themes/pub/inove/functions.php:214
 msgid "Hide sidebar from all pages."
-msgstr ""
+msgstr "Убрать боковую колонку из всех страниц."
 
 #: wp-content/themes/pub/inove/functions.php:225
 #, fuzzy
@@ -28050,7 +28044,7 @@ msgstr "<span>Комментарии отключены</span>"
 
 #: wp-content/themes/pub/light/404.php:5
 msgid "The page you requested is no longer here!"
-msgstr ""
+msgstr "Затребованной вами страницы здесь больше нет!"
 
 #: wp-content/themes/pub/light/404.php:6
 #, fuzzy, php-format
@@ -28275,7 +28269,7 @@ msgstr "Эй, %s,"
 
 #: wp-content/themes/pub/mistylook/contact.php:94
 msgid "Thanks for your message! I'll get back to you as soon as possible."
-msgstr ""
+msgstr "Спасибо за ваше сообщение! Я вернусь по возможности быстро."
 
 #: wp-content/themes/pub/mistylook/functions.php:74
 msgid "edit this"
@@ -28623,7 +28617,7 @@ msgstr "Наверх"
 
 #: wp-content/themes/pub/p2/functions.php:66
 msgid "An error has occured, your post was not posted"
-msgstr ""
+msgstr "Произошла ошибка, ваша запись не опубликована!"
 
 #: wp-content/themes/pub/p2/functions.php:67
 #, fuzzy
