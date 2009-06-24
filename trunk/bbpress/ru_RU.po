@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BBPress 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-24 11:43+0300\n"
-"PO-Revision-Date: 2009-06-24 11:43+0300\n"
+"POT-Creation-Date: 2009-06-25 01:59+0300\n"
+"PO-Revision-Date: 2009-06-25 02:08+0300\n"
 "Last-Translator: Sol <salpagarov@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sol@atrax.ru>\n"
 "MIME-Version: 1.0\n"
@@ -836,7 +836,6 @@ msgid "This forum contains"
 msgstr "Этот форум содержит"
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/content-forums.php:51
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:26
 #, php-format
 msgid "%d topic"
 msgid_plural "%d topics"
@@ -845,8 +844,6 @@ msgstr[1] "%d темы"
 msgstr[2] "%d тем"
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/content-forums.php:52
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:22
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:28
 #, php-format
 msgid "%d post"
 msgid_plural "%d posts"
@@ -1015,93 +1012,100 @@ msgstr "У нас проблема с этой темой, партнер."
 msgid "Either export is disabled or you are not allowed to export."
 msgstr "Функция экспорта выключена или у вас нет прав для экспорта."
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:11
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:6
+#, php-format
+msgid "<span>%d</span> forum"
+msgid_plural "<span>%d</span> forums"
+msgstr[0] "<span>%d</span> форум"
+msgstr[1] "<span>%d</span> форума"
+msgstr[2] "<span>%d</span> форумов"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:9
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:21
+#, php-format
+msgid "<span>%d</span> topic"
+msgid_plural "<span>%d</span> topics"
+msgstr[0] "<span>%d</span> тема"
+msgstr[1] "<span>%d</span> темы"
+msgstr[2] "<span>%d</span> тем"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:12
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:24
+#, php-format
+msgid "<span>%d</span> post"
+msgid_plural "<span>%d</span> posts"
+msgstr[0] "<span>%d</span> сообщение"
+msgstr[1] "<span>%d</span> сообщения"
+msgstr[2] "<span>%d</span> сообщений"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:15
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:27
+#, php-format
+msgid "<span>%d</span> user"
+msgid_plural "<span>%d</span> users"
+msgstr[0] "<span>%d</span> пользователь"
+msgstr[1] "<span>%d</span> пользователя"
+msgstr[2] "<span>%d</span> пользователей"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:18
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:30
+#, php-format
+msgid "<span>%d</span> tag"
+msgid_plural "<span>%d</span> tags"
+msgstr[0] "<span>%d</span> метка"
+msgstr[1] "<span>%d</span> метки"
+msgstr[2] "<span>%d</span> меток"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:38
 msgid "Dashboard"
 msgstr "Консоль"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:15
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:42
 msgid "Right Now"
 msgstr "Прямо сейчас"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:18
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:47
+msgid "Totals"
+msgstr "Всего"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:48
+msgid "Per Day"
+msgstr "За день"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:77
+msgid "Change Theme"
+msgstr "Сменить тему"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:77
 #, php-format
-msgid "%d forum"
-msgid_plural "%d forums"
-msgstr[0] "%d форум"
-msgstr[1] "%d форума"
-msgstr[2] "%d форумов"
+msgid "Theme <a href=\"%1$s\">%2$s</a>"
+msgstr "Тема <a href=\"%1$s\">%2$s</a>"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:20
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:78
 #, php-format
-msgid "is %d topic"
-msgid_plural "are %d topics"
-msgstr[0] "%d тема"
-msgstr[1] "%d темы"
-msgstr[2] "%d тем"
+msgid "You are using <span class=\"b\">bbPress %s</span>"
+msgstr "Вы используете <span class=\"b\">bbPress %s</span>."
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:24
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:30
-#, php-format
-msgid "%d user"
-msgid_plural "%d users"
-msgstr[0] "%d пользователь"
-msgstr[1] "%d пользователя"
-msgstr[2] "%d пользователей"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:32
-#, php-format
-msgid "You have %1$s. There %2$s with %3$s by %4$s."
-msgstr "У вас %1$s, %2$s, %3$s и %4$s."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:33
-#, php-format
-msgid "That's an average of %1$s, %2$s and %3$s per day since your forums were started %4$s ago."
-msgstr "В среднем %1$s, %2$s и %3$s в день со времени создания форума, который появился %4$s назад."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:34
-#, php-format
-msgid "You are using the theme <a href=\"%1$s\">%2$s</a>. This is bbPress version %3$s"
-msgstr "Вы используете тему <a href=\"%1$s\">%2$s</a>. Версия bbPress %3$s"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:39
-msgid "Recent User Registrations"
-msgstr "Недавние регистрации"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:45
-#, php-format
-msgid "registered %s ago"
-msgstr "%s"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:53
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:83
 msgid "Recently Moderated Items"
 msgstr "Недавно модерированные объекты"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:59
-msgid "Post"
-msgstr "Сообщение"
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:91
+#, fuzzy, php-format
+msgid "<a href=\"%1$s\">Post</a> on <a href=\"%2$s\">%3$s</a> by <a href=\"%4$s\">%5$s</a>"
+msgstr "%1$s на %2$s <br /> в %3$s"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:60
-msgid "on"
-msgstr "на"
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:104
+#, php-format
+msgid "Topic titled <a href=\"%1$s\">%2$s</a> started by <a href=\"%3$s\">%4$s</a>"
+msgstr "Тема, озаглавленная <a href=\"%1$s\">%2$s</a> начата пользователем <a href=\"%3$s\">%4$s</a>"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:62
-msgid "by"
-msgstr "от"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:67
-msgid "Topic titled"
-msgstr "Тема "
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:69
-msgid "started by"
-msgstr "от "
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:76
+#: d:\project\automattic\bbpress\trunk/bb-admin/index.php:116
 msgid "No moderated posts or topics&#8230; you must have very well behaved members."
 msgstr "Нет модерированных сообщений или тем&#8230; должно быть, пользователи у вас ведут себя хорошо."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/install.php:167
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:194
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:197
 msgid "Cookies"
 msgstr "Куки"
 
@@ -1114,7 +1118,7 @@ msgid "You may need to make changes to your WordPress configuration once install
 msgstr "Вам может потребоваться внести изменения в настройку WordPress. Обратитесь к разделу  \"Интеграция с WordPress\" административной консоли bbPress после установки."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/install.php:189
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:263
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:271
 msgid "User database"
 msgstr "База пользователей"
 
@@ -1123,12 +1127,12 @@ msgid "Integrating your WordPress database user tables allows you to store user 
 msgstr "Интеграция таблицы пользователей вашей базы данных WordPress позволит вам сохранять данные в одном месте, вместо того, чтобы иметь раздельные пользовательские данные для bbPress и WordPress."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/install.php:199
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:282
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:290
 msgid "Separate user database settings"
 msgstr "Настройки раздельных баз пользователей."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/install.php:200
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:283
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:291
 msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
 msgstr "Чаще всего эти настройки <em>не</em> обязательны. Взгляните прежде чем пропустить их!"
 
@@ -1137,7 +1141,7 @@ msgid "If required, then all settings except for the character set must be speci
 msgstr "Все настройки за сключение кодовой страницы должны быть заданы."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/install.php:212
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:288
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:296
 msgid "Custom user tables"
 msgstr "Индивидуальная таблица пользователей"
 
@@ -1260,7 +1264,8 @@ msgstr "bbPress включает встроенную поддержку <a href
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-general.php:240
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-permalinks.php:164
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-reading.php:61
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:295
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:183
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:303
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-writing.php:78
 msgid "Save Changes"
 msgstr "Сохранить изменения"
@@ -1606,69 +1611,55 @@ msgstr "Здесь вы можете сопоставить роли польз�
 msgid "This will have no effect until your user tables are integrated below. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
 msgstr "Это не будет работать, если таблица пользователей не сделана общей. Поддерживаются только стандарные роли WordPress. Изменения не касаются уже существующих ролей в WordPress и bbPress."
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:183
-msgid "Save User Role Map"
-msgstr "Сохранить схему сопоставления ролей"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:187
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:190
 msgid "User Integration"
 msgstr "Интеграция пользователей"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:188
-msgid "Usually, you will have to specify both cookie sharing and user database sharing settings."
-msgstr "Вам потребуется задать настройки общих куки и базы данных пользователей."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:189
-msgid "Make sure you have a \"User role map\" setup above before trying to add user integration."
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:191
+#, fuzzy
+msgid "Usually, you will have to specify both cookie integration and user database integration settings. Make sure you have a \"User role map\" setup above before trying to add user integration."
 msgstr "Убедитесь, что \"Схема сопоставления ролей пользователей\" настроена перед тем, как пытаться добавить интерграцию пользователей."
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:190
-msgid "<strong>Note:</strong> updating these settings may cause you to be logged out!"
-msgstr "<strong>Замечание:</strong> обновление этих настроек может потребовать повторной авторизации!"
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:192
+msgid "<em><strong>Note:</strong> changing the settings below may cause you to be logged out!</em>"
+msgstr "<em><strong>Замечание:</strong> обновление этих настроек может потребовать повторной авторизации!</em>"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:195
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:198
 msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
 msgstr "Общие куки позволят пользователям авторизуясь в bbPress или в WordPress, автоматически входить в обе системы."
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:240
-msgid "bbPress has automatically determined the best cookie settings for WordPress. In some cases integration may work without these settings, but if not add the following code to your <code>wp-config.php</code> file in the root directory of your WordPress installation."
-msgstr "bbPress автоматически определил лучшие настройки куки для WordPress. В некоторых случаях интеграция может работать без этих настроек, но если добавить следующий текст в ваш файл <code>wp-config.php</code> в корневой директории вашего установленного WordPress."
-
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:242
+#, php-format
+msgid "To complete cookie integration, you will need to add some settings to your <code>wp-config.php</code> file in the root directory of your WordPress installation. To get those settings, you will need to install and configure the <a href=\"%s\">\"bbPress Integration\" plugin for WordPress</a>."
+msgstr ""
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:243
 msgid "You will also have to manually ensure that the following constants are equivalent in WordPress' and bbPress' respective config files."
 msgstr "Вы можете сами убедиться, что следующие контанты эквивалентны в соотвествующих файлах настройки WordPress и bbPress."
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:245
-msgid "WordPress (wp-config.php)"
-msgstr "WordPress (wp-config.php)"
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:247
+msgid "WordPress"
+msgstr "WordPress"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:246
-msgid "bbPress (bb-config.php)"
-msgstr "bbPress (bb-config.php)"
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:249
+msgid "bbPress"
+msgstr "bbPress"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:264
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:272
 msgid "User database sharing allows you to store user data in your WordPress database."
 msgstr "Общая таблица пользователей позволяет хранить данные пользователей в вашей базе данных WordPress."
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:265
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:273
 msgid "You should setup a \"User role map\" before"
 msgstr "Сначала настройте \"Схему сопоставления ролей пользователей\""
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:284
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:292
 msgid "All settings except for the character set must be specified."
 msgstr "Все настройки за сключение кодовой страницы должны быть заданы."
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:289
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:297
 msgid "Only set these values if your user tables differ from the default WordPress naming convention."
 msgstr "Установите эти значения только если база данных с таблицей пользователей отличается от стандартного преобразования имен WordPress."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:299
-msgid "Manual bbPress config file settings"
-msgstr "Настройки ручной конфигурации bbPress"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:348
-msgid "If your integration settings will not change, you can help speed up bbPress by adding the following code to your <code>bb-config.php</code> file in the root directory of your bbPress installation. Afterwards, the settings in this form will reflect the hard coded values, but you will not be able to edit them here."
-msgstr "Если ваши настройки интеграции не будут меняться, вы можете ускорить bbPress добавлением следующего кода в ваш файл <code>config.php</code> в корневой диреатории установленного WordPress. Впоследствии, настройки в этой форме будут отражать \"жестко\" прописанные значение, но вы не сможете их редактировать."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-writing.php:38
 msgid "Lock post editing after"
@@ -3036,6 +3027,10 @@ msgstr "Обновить форум &#187;"
 msgid "Add Forum &#187;"
 msgstr "Добавить форум &#187;"
 
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:914
+msgid "Post"
+msgstr "Сообщение"
+
 #: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:938
 #, php-format
 msgid "Posted %s"
@@ -3587,10 +3582,6 @@ msgstr "Уведомление о сбое bbPress"
 msgid "Please try again."
 msgstr "Пожалуйста, попробуйте еще раз."
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-core.php:1076
-msgid "bbPress"
-msgstr "bbPress"
-
 #: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-core.php:1177
 #, php-format
 msgid "Back to <a href=\"%s\">%s</a>."
@@ -3684,12 +3675,12 @@ msgstr "Переключение темы не удалось."
 msgid "Your attempt to do this has failed."
 msgstr "Ваша попытка сделать это провалилась."
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-core.php:1424
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-core.php:1503
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-core.php:1429
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-core.php:1508
 msgid "Your search term was too short"
 msgstr "Поисковый запрос слишком короткий"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-core.php:1470
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-core.php:1475
 msgid "Your query parameters are invalid"
 msgstr "Ваши параметры для запроса неверны"
 
@@ -4700,6 +4691,10 @@ msgstr "Поиск"
 msgid "Search all topics from these forums."
 msgstr "Искать во всех темах этих форумов."
 
+#: d:\project\automattic\bbpress\trunk/bb-templates/kakumei/rss2.php:27
+msgid "on"
+msgstr "на"
+
 #: d:\project\automattic\bbpress\trunk/bb-templates/kakumei/search.php:7
 msgid "Search for"
 msgstr "Поиск: "
@@ -4768,6 +4763,78 @@ msgstr "Эта тема закрыта для новых комментарие�
 msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
 msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> лента этого вида"
 
+#~ msgid "%d forum"
+#~ msgid_plural "%d forums"
+#~ msgstr[0] "%d форум"
+#~ msgstr[1] "%d форума"
+#~ msgstr[2] "%d форумов"
+#~ msgid "is %d topic"
+#~ msgid_plural "are %d topics"
+#~ msgstr[0] "%d тема"
+#~ msgstr[1] "%d темы"
+#~ msgstr[2] "%d тем"
+#~ msgid "%d user"
+#~ msgid_plural "%d users"
+#~ msgstr[0] "%d пользователь"
+#~ msgstr[1] "%d пользователя"
+#~ msgstr[2] "%d пользователей"
+#~ msgid "You have %1$s. There %2$s with %3$s by %4$s."
+#~ msgstr "У вас %1$s, %2$s, %3$s и %4$s."
+#~ msgid ""
+#~ "That's an average of %1$s, %2$s and %3$s per day since your forums were "
+#~ "started %4$s ago."
+#~ msgstr ""
+#~ "В среднем %1$s, %2$s и %3$s в день со времени создания форума, который "
+#~ "появился %4$s назад."
+#~ msgid ""
+#~ "You are using the theme <a href=\"%1$s\">%2$s</a>. This is bbPress "
+#~ "version %3$s"
+#~ msgstr "Вы используете тему <a href=\"%1$s\">%2$s</a>. Версия bbPress %3$s"
+#~ msgid "Recent User Registrations"
+#~ msgstr "Недавние регистрации"
+#~ msgid "registered %s ago"
+#~ msgstr "%s"
+#~ msgid "by"
+#~ msgstr "от"
+#~ msgid "Topic titled"
+#~ msgstr "Тема "
+#~ msgid "started by"
+#~ msgstr "от "
+#~ msgid "Save User Role Map"
+#~ msgstr "Сохранить схему сопоставления ролей"
+#~ msgid ""
+#~ "Usually, you will have to specify both cookie sharing and user database "
+#~ "sharing settings."
+#~ msgstr ""
+#~ "Вам потребуется задать настройки общих куки и базы данных пользователей."
+#~ msgid ""
+#~ "bbPress has automatically determined the best cookie settings for "
+#~ "WordPress. In some cases integration may work without these settings, but "
+#~ "if not add the following code to your <code>wp-config.php</code> file in "
+#~ "the root directory of your WordPress installation."
+#~ msgstr ""
+#~ "bbPress автоматически определил лучшие настройки куки для WordPress. В "
+#~ "некоторых случаях интеграция может работать без этих настроек, но если "
+#~ "добавить следующий текст в ваш файл <code>wp-config.php</code> в корневой "
+#~ "директории вашего установленного WordPress."
+#~ msgid "WordPress (wp-config.php)"
+#~ msgstr "WordPress (wp-config.php)"
+#~ msgid "bbPress (bb-config.php)"
+#~ msgstr "bbPress (bb-config.php)"
+#~ msgid "Manual bbPress config file settings"
+#~ msgstr "Настройки ручной конфигурации bbPress"
+#~ msgid ""
+#~ "If your integration settings will not change, you can help speed up "
+#~ "bbPress by adding the following code to your <code>bb-config.php</code> "
+#~ "file in the root directory of your bbPress installation. Afterwards, the "
+#~ "settings in this form will reflect the hard coded values, but you will "
+#~ "not be able to edit them here."
+#~ msgstr ""
+#~ "Если ваши настройки интеграции не будут меняться, вы можете ускорить "
+#~ "bbPress добавлением следующего кода в ваш файл <code>config.php</code> в "
+#~ "корневой диреатории установленного WordPress. Впоследствии, настройки в "
+#~ "этой форме будут отражать \"жестко\" прописанные значение, но вы не "
+#~ "сможете их редактировать."
 #~ msgid "Visit author homepage"
 #~ msgstr "Посетить страницу автора"
 #~ msgid "Visit porter homepage"
@@ -5121,8 +5188,6 @@ msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> лента этог
 #~ msgstr "Активность"
 #~ msgid "profile"
 #~ msgstr "профиль"
-#~ msgid "Posts per day"
-#~ msgstr "Сообщений в день"
 #~ msgid "Topics per day"
 #~ msgstr "Тем в день"
 #~ msgid "Registrations per day"
