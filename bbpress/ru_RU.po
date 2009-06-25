@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BBPress 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-25 01:59+0300\n"
-"PO-Revision-Date: 2009-06-25 02:08+0300\n"
+"POT-Creation-Date: 2009-06-25 14:29+0300\n"
+"PO-Revision-Date: 2009-06-25 14:38+0300\n"
 "Last-Translator: Sol <salpagarov@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sol@atrax.ru>\n"
 "MIME-Version: 1.0\n"
@@ -1091,9 +1091,9 @@ msgid "Recently Moderated Items"
 msgstr "Недавно модерированные объекты"
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/index.php:91
-#, fuzzy, php-format
+#, php-format
 msgid "<a href=\"%1$s\">Post</a> on <a href=\"%2$s\">%3$s</a> by <a href=\"%4$s\">%5$s</a>"
-msgstr "%1$s на %2$s <br /> в %3$s"
+msgstr "<a href=\"%1$s\">Сообщение</a> в <a href=\"%2$s\">%3$s</a> от <a href=\"%4$s\">%5$s</a>"
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/index.php:104
 #, php-format
@@ -1261,7 +1261,7 @@ msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gr
 msgstr "bbPress включает встроенную поддержку <a href=\"http://gravatar.com/\">Граватаров</a>. Граватар это изображение, которое следует за вами от сайта к сайту, появляясь рядом с вашим именем, когда вы комментируете на сайтах, поддерживающих граватары. Разрешить использование граватаров на вашем сайте вы можете здесь."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-discussion.php:123
-#: d:\project\automattic\bbpress\trunk/bb-admin/options-general.php:240
+#: d:\project\automattic\bbpress\trunk/bb-admin/options-general.php:236
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-permalinks.php:164
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-reading.php:61
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:183
@@ -1616,9 +1616,8 @@ msgid "User Integration"
 msgstr "Интеграция пользователей"
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:191
-#, fuzzy
 msgid "Usually, you will have to specify both cookie integration and user database integration settings. Make sure you have a \"User role map\" setup above before trying to add user integration."
-msgstr "Убедитесь, что \"Схема сопоставления ролей пользователей\" настроена перед тем, как пытаться добавить интерграцию пользователей."
+msgstr "Обычно задаются настройки для интеграции и куки, и пользователей. Убедитесь, что \"Схема сопоставления ролей пользователей\" настроена перед тем, как пытаться добавить интерграцию пользователей."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:192
 msgid "<em><strong>Note:</strong> changing the settings below may cause you to be logged out!</em>"
@@ -1631,7 +1630,7 @@ msgstr "Общие куки позволят пользователям авто
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:242
 #, php-format
 msgid "To complete cookie integration, you will need to add some settings to your <code>wp-config.php</code> file in the root directory of your WordPress installation. To get those settings, you will need to install and configure the <a href=\"%s\">\"bbPress Integration\" plugin for WordPress</a>."
-msgstr ""
+msgstr "Для полной интеграции куки, вам надо добавить некоторые настройки в ваш файл <code>wp-config.php</code> в корневой директории установленного WordPress. Чтобы получить эти настройки, вам надо установить и настроить <a href=\"%s\">Плагин \"bbPress Integration\" для WordPress</a>."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/options-wordpress.php:243
 msgid "You will also have to manually ensure that the following constants are equivalent in WordPress' and bbPress' respective config files."
@@ -1774,20 +1773,32 @@ msgid "To install a plugin you generally just need to upload the plugin file int
 msgstr "Вообще, чтобы установить плагин, необходимо закачать файл плагина в вашу папку <code>my-plugins</code>. После загрузки вы сможете активировать его здесь."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/site.php:11
-msgid "Recount"
+msgid "Tools"
+msgstr "Инструменты"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:16
+msgid "Re-count"
 msgstr "Переучет"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:14
-msgid "The following checkboxes allow you to recalculate various numbers stored in the database. These numbers are used for things like counting the number of pages worth of posts a particular topic has.  You shouldn't need to do do any of this unless you're upgrading from one version to another or are seeing pagination oddities."
-msgstr "Следующие пункты позволят вам пересчитать различные значения, сохраненные в базе данных. Эти числа используются для задач вроде подсчета страниц с сообщениями отдельно для каждой темы. Вам не требуется ничего этого делать, за исключением случаев обновления версии или странностей с нумерацией."
+#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:17
+msgid "To minimize database queries, bbPress keeps it's own count of various items like posts in each topic and topics in each forum. Occasionally these internal counters may become incorrect, you can manually re-count these items using this form."
+msgstr "Чтобы уменьшить количество запросов, bbPress хранит в базе счетчики для различных элементов вроде количества сообщений в каждой теме и количества тем в каждом форуме. Иногда эти внутренние счетчики могут не совпадать с действительностью, но в этой форме вы можете вручную пересчитать их значения."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/site.php:18
-msgid "Choose items to recalculate"
-msgstr "Выберите объекты для переучета:"
+msgid "You can also clean out some stale items here, like empty tags."
+msgstr "Вы также можете избавиться от некоторых лишних объектов вроде пустых меток."
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:24
-msgid "Count!"
-msgstr "Пересчитать!"
+#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:25
+msgid "Items to re-count"
+msgstr "Объекты для переучета"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:38
+msgid "There are no re-count tools available."
+msgstr "Недоступны интрсменты для пересчета."
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:45
+msgid "Recount Items"
+msgstr "Пересчитать объекты"
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/tag-destroy.php:5
 #: d:\project\automattic\bbpress\trunk/bb-admin/tag-merge.php:5
@@ -2906,9 +2917,9 @@ msgstr "Модераторы"
 msgid "Blocked"
 msgstr "Заблокированые"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:87
-msgid "Tools"
-msgstr "Инструменты"
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:88
+msgid "Recount"
+msgstr "Переучет"
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:89
 msgid "Settings"
@@ -3040,41 +3051,41 @@ msgstr "Опубликовано %s"
 msgid "No posts found"
 msgstr "Не найдены сообщения"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:967
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:968
 msgid "Count posts of every topic"
 msgstr "Учет сообщений в каждом форуме"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:968
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:969
 msgid "Count voices of every topic"
 msgstr "Подсчитать голоса в кадлой теме"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:969
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:970
 msgid "Count deleted posts on every topic"
 msgstr "Учет удаленных сообщений в каждой теме"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:970
-msgid "Count topics and posts in every forum (relies on the above)"
-msgstr "Учет тем и сообщений в каждом форуме (зависит от настроек выше)"
-
 #: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:971
+msgid "Count topics and posts in every forum"
+msgstr "Учет тем и сообщений в каждом форуме"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:972
 msgid "Count topics to which each user has replied"
 msgstr "Учет тем, на которые ответил каждый пользователь"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:972
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:973
 msgid "Count tags for every topic"
 msgstr "Учет меток для каждой темы"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:973
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:974
 msgid "Count topics for every tag"
 msgstr "Учет тем для каждой метки"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:974
-msgid "DELETE tags with no topics.  Only functions if the above checked"
-msgstr "УДАЛИТЬ метки без тем. Работает только если отмечена функция выше."
-
 #: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:975
-msgid "REMOVE deleted topics from users' favorites"
-msgstr "УБРАТЬ удаленные темы из Избранного пользователя"
+msgid "<span>Delete</span> tags with no topics"
+msgstr "<span>Удалить</span> метки без тем"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:976
+msgid "<span>Remove</span> deleted topics from users' favorites"
+msgstr "<span>Убрать</span> удаленные темы из избранного пользователей"
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-plugin.php:386
 msgid "Invalid plugin path."
@@ -3699,8 +3710,8 @@ msgstr "[закрыто] %s"
 msgid "Please give me a name!"
 msgstr "Пожалуйста, дайте мне имя!"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-pluggable.php:580
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-pluggable.php:589
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-pluggable.php:586
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-pluggable.php:595
 msgid "Invalid username"
 msgstr "Неверный логин"
 
@@ -4763,6 +4774,26 @@ msgstr "Эта тема закрыта для новых комментарие�
 msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
 msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> лента этого вида"
 
+#~ msgid ""
+#~ "The following checkboxes allow you to recalculate various numbers stored "
+#~ "in the database. These numbers are used for things like counting the "
+#~ "number of pages worth of posts a particular topic has.  You shouldn't "
+#~ "need to do do any of this unless you're upgrading from one version to "
+#~ "another or are seeing pagination oddities."
+#~ msgstr ""
+#~ "Следующие пункты позволят вам пересчитать различные значения, сохраненные "
+#~ "в базе данных. Эти числа используются для задач вроде подсчета страниц с "
+#~ "сообщениями отдельно для каждой темы. Вам не требуется ничего этого "
+#~ "делать, за исключением случаев обновления версии или странностей с "
+#~ "нумерацией."
+#~ msgid "Choose items to recalculate"
+#~ msgstr "Выберите объекты для переучета:"
+#~ msgid "Count!"
+#~ msgstr "Пересчитать!"
+#~ msgid "DELETE tags with no topics.  Only functions if the above checked"
+#~ msgstr "УДАЛИТЬ метки без тем. Работает только если отмечена функция выше."
+#~ msgid "REMOVE deleted topics from users' favorites"
+#~ msgstr "УБРАТЬ удаленные темы из Избранного пользователя"
 #~ msgid "%d forum"
 #~ msgid_plural "%d forums"
 #~ msgstr[0] "%d форум"
