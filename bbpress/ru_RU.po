@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BBPress 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-25 14:29+0300\n"
-"PO-Revision-Date: 2009-06-25 14:38+0300\n"
+"POT-Creation-Date: 2009-06-26 01:07+0300\n"
+"PO-Revision-Date: 2009-06-26 01:15+0300\n"
 "Last-Translator: Sol <salpagarov@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sol@atrax.ru>\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: d:\\project\\automattic\\bbpress\\trunk\n"
-"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_c;_x;__ngettext_noop:1,2;__ngettext:1,2\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: d:\\project\\automattic\\bbpress\\trunk\n"
 
@@ -695,95 +695,6 @@ msgstr "Перейти на сайт"
 #, php-format
 msgid "Howdy, %1$s"
 msgstr "Привет, %1$s"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:17
-msgid "Recounting"
-msgstr "Переучет"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:25
-msgid "Counting posts&#8230;"
-msgstr "Переучет сообщений&#8230;"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:32
-msgid "Done counting posts."
-msgstr "Учет сообщений завершен."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:39
-msgid "Counting voices&#8230;"
-msgstr "Пересчет голосов&#8230;"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:49
-msgid "Done counting voices."
-msgstr "Пересчет голосов завершен."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:58
-msgid "Counting deleted posts&#8230;"
-msgstr "Подсчёт удалённых записей&#8230;"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:68
-msgid "Done counting deleted posts."
-msgstr "Учет удаленных сообщений завершен."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:70
-msgid "No deleted posts to count."
-msgstr "Нет удаленных сообщений для учета."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:78
-msgid "Counting forum topics and posts&#8230;"
-msgstr "Подсчёт тем и сообщений&#8230;"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:92
-msgid "Done counting forum topics and posts."
-msgstr "Учет тем и сообщений форумов завершен."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:99
-msgid "Counting topics to which each user has replied&#8230;"
-msgstr "Учет тем, на которые ответил каждый пользователь&#8230;"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:104
-msgid "Done counting topics."
-msgstr "Учет тем завершен."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:117
-msgid "Counting topic tags&#8230;"
-msgstr "Пересчет меток тем&#8230;"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:129
-msgid "Done counting topic tags."
-msgstr "Учет меток тем завершен."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:139
-msgid "Counting tagged topics&#8230;"
-msgstr "Пересчет помеченных тем&#8230;"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:149
-msgid "Done counting tagged topics."
-msgstr "Учет помеченых тем завершен."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:161
-msgid "Deleting tags with no topics&#8230;"
-msgstr "Удаление меток без тем...&#8230;"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:173
-msgid "Done deleting tags with no topics."
-msgstr "Завершено удаление меток без тем."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:181
-msgid "Removing deleted topics from users' favorites&#8230;"
-msgstr "Очистка удаленных тем из Избранного пользователей&#8230;"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:190
-msgid "Done removing deleted topics from users' favorites."
-msgstr "Закончено удаление удаленных тем из Избранного пользователя"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:199
-msgid "Done recounting.  The process took"
-msgstr "Переучет завершен. Процессу потребовалось "
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/bb-do-counts.php:200
-#, php-format
-msgid "%1$d queries and %2$s seconds."
-msgstr "%1$d запросов и %2$s секунд."
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/bb-forum.php:5
 msgid "You don't have the authority to mess with the forums."
@@ -1772,34 +1683,6 @@ msgstr "Вы можете найти дополнительные плагины
 msgid "To install a plugin you generally just need to upload the plugin file into your <code>my-plugins</code> directory. Once a plugin is uploaded, you may activate it here."
 msgstr "Вообще, чтобы установить плагин, необходимо закачать файл плагина в вашу папку <code>my-plugins</code>. После загрузки вы сможете активировать его здесь."
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:11
-msgid "Tools"
-msgstr "Инструменты"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:16
-msgid "Re-count"
-msgstr "Переучет"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:17
-msgid "To minimize database queries, bbPress keeps it's own count of various items like posts in each topic and topics in each forum. Occasionally these internal counters may become incorrect, you can manually re-count these items using this form."
-msgstr "Чтобы уменьшить количество запросов, bbPress хранит в базе счетчики для различных элементов вроде количества сообщений в каждой теме и количества тем в каждом форуме. Иногда эти внутренние счетчики могут не совпадать с действительностью, но в этой форме вы можете вручную пересчитать их значения."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:18
-msgid "You can also clean out some stale items here, like empty tags."
-msgstr "Вы также можете избавиться от некоторых лишних объектов вроде пустых меток."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:25
-msgid "Items to re-count"
-msgstr "Объекты для переучета"
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:38
-msgid "There are no re-count tools available."
-msgstr "Недоступны интрсменты для пересчета."
-
-#: d:\project\automattic\bbpress\trunk/bb-admin/site.php:45
-msgid "Recount Items"
-msgstr "Пересчитать объекты"
-
 #: d:\project\automattic\bbpress\trunk/bb-admin/tag-destroy.php:5
 #: d:\project\automattic\bbpress\trunk/bb-admin/tag-merge.php:5
 #: d:\project\automattic\bbpress\trunk/bb-admin/tag-rename.php:5
@@ -1891,35 +1774,113 @@ msgid "<strong>Theme not found.  Default theme applied.</strong>"
 msgstr "<strong>Тема не найдена. Выбрана тема по умолчанию.</strong>"
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:63
+#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:96
 #, php-format
-msgid "by <cite>%s</cite>"
-msgstr "от <cite>%s</cite>"
+msgid "Activate \"%s\""
+msgstr "Активировать \"%s\""
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:63
+#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:68
 #, php-format
-msgid ", ported by <cite>%s</cite>"
-msgstr ", портирована <cite>%s</cite>"
+msgid "%1$s %2$s by <cite>%3$s</cite>"
+msgstr "%1$s %2$s от <cite>%3$s</cite>"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:65
+#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:82
+#, php-format
+msgid "Ported by <cite>%s</cite>"
+msgstr "Опубликовано <cite>%s</cite>"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:101
 #, php-format
 msgid "All of this theme's files are located in the \"%s\" themes directory."
 msgstr "Файлы этой темы расположены в директории \"%s\"."
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:72
+#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:112
 msgid "<strong>\"Safe mode\" is on, the default theme will be used instead of the active theme indicated below.</strong>"
 msgstr "<strong>\"Safe mode\" включен, тема по умолчанию используется вместо выбранной ниже.</strong>"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:82
+#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:120
 msgid "Manage Themes"
 msgstr "Управление темами"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:85
+#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:123
 msgid "Current Theme"
 msgstr "Текущая тема"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:92
+#: d:\project\automattic\bbpress\trunk/bb-admin/themes.php:132
 msgid "Available Themes"
 msgstr "Доступные темы"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:10
+msgid "Counted posts"
+msgstr "Пересчитаны сообщения"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:21
+msgid "Counted voices"
+msgstr "Пересчитаны голоса"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:37
+msgid "Counting deleted posts&#8230;"
+msgstr "Подсчёт удалённых записей&#8230;"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:47
+msgid "&#8230;counted deleted posts"
+msgstr "&#8230;пересчитаны удаленые сообщения"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:49
+msgid "&#8230;no deleted posts to count"
+msgstr "&#8230;нет удаленных сообщений"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:55
+msgid "Counted forum topics and posts"
+msgstr "Пересчитаны темы и сообщения форумов"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:72
+msgid "Counted topics to which each user has replied"
+msgstr "Пересчитаны темы, на которые ответил каждый пользователь"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:87
+msgid "Counted topic tags"
+msgstr "Пересчитаны метки тем"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:106
+msgid "Counted tagged topics"
+msgstr "Пересчитаны помеченные темы"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:125
+msgid "Deleted tags with no topics"
+msgstr "Удалены метки без тем"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:142
+msgid "Removed deleted topics from users' favorites"
+msgstr "Убраны удаленные темы из избранного пользователей"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:173
+msgid "Tools"
+msgstr "Инструменты"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:178
+msgid "Re-count"
+msgstr "Переучет"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:179
+msgid "To minimize database queries, bbPress keeps it's own count of various items like posts in each topic and topics in each forum. Occasionally these internal counters may become incorrect, you can manually re-count these items using this form."
+msgstr "Чтобы уменьшить количество запросов, bbPress хранит в базе счетчики для различных элементов вроде количества сообщений в каждой теме и количества тем в каждом форуме. Иногда эти внутренние счетчики могут не совпадать с действительностью, но в этой форме вы можете вручную пересчитать их значения."
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:180
+msgid "You can also clean out some stale items here, like empty tags."
+msgstr "Вы также можете избавиться от некоторых лишних объектов вроде пустых меток."
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:187
+msgid "Items to re-count"
+msgstr "Объекты для переучета"
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:200
+msgid "There are no re-count tools available."
+msgstr "Недоступны интрсменты для пересчета."
+
+#: d:\project\automattic\bbpress\trunk/bb-admin/tools-recount.php:207
+msgid "Recount Items"
+msgstr "Пересчитать объекты"
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/topic-move.php:8
 msgid "Invalid topic or forum."
@@ -2878,8 +2839,8 @@ msgstr "Форумы"
 #: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:66
 #: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:68
 #: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:70
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:407
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:770
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:413
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:776
 #: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-core.php:805
 msgid "Edit"
 msgstr "Править"
@@ -2917,10 +2878,6 @@ msgstr "Модераторы"
 msgid "Blocked"
 msgstr "Заблокированые"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:88
-msgid "Recount"
-msgstr "Переучет"
-
 #: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:89
 msgid "Settings"
 msgstr "Настройки"
@@ -2949,143 +2906,143 @@ msgstr "Постоянные ссылки"
 msgid "WordPress Integration"
 msgstr "Интеграция с WordPress"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:460
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:595
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:466
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:601
 msgid "<strong>No matching users were found!</strong>"
 msgstr "<strong>Не найдено соответствующих пользователей!</strong>"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:516
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:522
 #, php-format
 msgid "Users Matching \"%s\" by Role"
 msgstr "Пользователи, соответствующие \"%s\" по ролям"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:518
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:524
 msgid "User List by Role"
 msgstr "Список пользователей по ролям"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:524
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:530
 msgid "Search:"
 msgstr "Искать:"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:526
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:532
 msgid "Search for users &raquo;"
 msgstr "Поиск пользователей &raquo;"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:532
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:538
 msgid "&laquo; Back to All Users"
 msgstr "&laquo; Назад к списку пользователей"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:542
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:548
 msgid "Users with no role in these forums"
 msgstr "Пользователи с неуказанными ролями"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:546
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:552
 msgid "ID"
 msgstr "ID"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:548
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:552
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:554
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:558
 msgid "Username"
 msgstr "Имя"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:549
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:553
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:555
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:559
 msgid "Display name"
 msgstr "Отображать как:"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:550
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:556
 #: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-core.php:859
 msgid "Email"
 msgstr "E-mail"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:555
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:561
 msgid "Registered Since"
 msgstr "Зарегистрирован"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:556
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:562
 msgid "Actions"
 msgstr "Действия"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:792
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:798
 msgid "Forum Name:"
 msgstr "Название форума:"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:796
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:802
 msgid "Forum Slug:"
 msgstr "Ярлык рубрики:"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:800
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:806
 msgid "Forum Description:"
 msgstr "Описание форума:"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:803
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:809
 msgid "Forum Parent:"
 msgstr "Родительский форум:"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:812
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:818
 msgid "Position:"
 msgstr "Позиция:"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:815
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:821
 msgid "Forum is Category:"
 msgstr "Форум является рубрикой:"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:826
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:832
 msgid "Update Forum &#187;"
 msgstr "Обновить форум &#187;"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:826
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:832
 msgid "Add Forum &#187;"
 msgstr "Добавить форум &#187;"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:914
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:920
 msgid "Post"
 msgstr "Сообщение"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:938
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:944
 #, php-format
 msgid "Posted %s"
 msgstr "Опубликовано %s"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:954
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:959
 msgid "No posts found"
 msgstr "Не найдены сообщения"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:968
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:973
 msgid "Count posts of every topic"
 msgstr "Учет сообщений в каждом форуме"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:969
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:974
 msgid "Count voices of every topic"
 msgstr "Подсчитать голоса в кадлой теме"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:970
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:975
 msgid "Count deleted posts on every topic"
 msgstr "Учет удаленных сообщений в каждой теме"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:971
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:976
 msgid "Count topics and posts in every forum"
 msgstr "Учет тем и сообщений в каждом форуме"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:972
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:977
 msgid "Count topics to which each user has replied"
 msgstr "Учет тем, на которые ответил каждый пользователь"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:973
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:978
 msgid "Count tags for every topic"
 msgstr "Учет меток для каждой темы"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:974
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:979
 msgid "Count topics for every tag"
 msgstr "Учет тем для каждой метки"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:975
-msgid "<span>Delete</span> tags with no topics"
-msgstr "<span>Удалить</span> метки без тем"
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:980
+msgid "Delete tags with no topics"
+msgstr "Удалить метки без тем"
 
-#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:976
-msgid "<span>Remove</span> deleted topics from users' favorites"
-msgstr "<span>Убрать</span> удаленные темы из избранного пользователей"
+#: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-admin.php:981
+msgid "Remove deleted topics from users' favorites"
+msgstr "Убрать удаленные темы из избранного пользователей"
 
 #: d:\project\automattic\bbpress\trunk/bb-admin/includes/functions.bb-plugin.php:386
 msgid "Invalid plugin path."
@@ -3784,12 +3741,12 @@ msgid "%favAdd% (%favLinkNo%)"
 msgstr "%favAdd% (%favLinkNo%)"
 
 #: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-script-loader.php:93
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3280
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3293
 msgid "&times;"
 msgstr "&times;"
 
 #: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-script-loader.php:94
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3278
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3291
 msgid "Add this topic to your favorites"
 msgstr "Добавить тему в Избранное"
 
@@ -3929,137 +3886,137 @@ msgstr "Добавить новую &raquo;"
 msgid "Anonymous"
 msgstr "Анонимно"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2066
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2080
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2079
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2093
 msgid "PingBack"
 msgstr "Уведомление"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2068
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2082
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2081
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2095
 msgid "Unregistered"
 msgstr "Отменить регистрацию"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2170
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2183
 msgid "Delete User &raquo;"
 msgstr "Удалить пользователя  &raquo;"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2171
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2184
 msgid "Are you sure you want to delete this user?"
 msgstr "Вы уверены, что хотите удалить этого пользователя?"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2298
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2311
 msgid "Member Since"
 msgstr "Участник с "
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2451
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2600
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2464
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2613
 msgid "These items are <span class=\"required\">required</span>."
 msgstr "Эти значения <span class=\"required\">обязательны</span>."
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2488
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2501
 msgid "User Type"
 msgstr "Тип пользователя"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2513
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2526
 msgid "Allow this user to"
 msgstr "Позволить этому пользователю:"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2603
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2616
 msgid "Inactive users can login and look around but not do anything. Blocked users just see a simple error message when they visit the site."
 msgstr "Неактивные пользователи могут авторизоваться и видеть все, но не могу ничего делать. Заблокированные пользователи просто увидят сообщение об ошибке, когда придут на сайт."
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2604
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2617
 msgid "<strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
 msgstr "<strong>Замечение</strong>: Блокирование пользователей <em>не</em> блокирует IP адреса."
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2627
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2640
 msgid "New password"
 msgstr "Новый пароль"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2640
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2653
 msgid "Password Strength"
 msgstr "Надёжность пароля"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2644
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2657
 msgid "Disabled (requires JavaScript)"
 msgstr "Отключено (требуется JavaScript)"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2650
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2663
 msgid "Disabled (requires jQuery)"
 msgstr "Отключено (требуется jQuery)"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2657
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2670
 msgid "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%^&amp;( in your password."
 msgstr "Подсказка: Используйте в своём пароле буквы верхнего и нижнего регистра, символы наподобие !\"?$%^&amp;( и цифры."
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2671
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2684
 msgid "Log Out"
 msgstr "Выйти"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2697
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2710
 msgid "Admin"
 msgstr "Администрирование"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2716
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:2729
 msgid "View your profile"
 msgstr "Просмотреть ваш профиль"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3011
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3024
 msgid "Add &raquo;"
 msgstr "Добавить &raquo;"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3047
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3060
 msgid "Rename tag:"
 msgstr "Переименовать метку:"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3051
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3064
 msgid "Rename"
 msgstr "Переименовать"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3055
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3068
 msgid "Merge this tag into:"
 msgstr "Объединить метку с:"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3059
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3072
 msgid "Merge"
 msgstr "Объединить"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3060
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3073
 #, php-format
 msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
 msgstr "Вы уверены, что хотите объединить эту метку с меткой \"%s\"? Операцию невозможно будет отменить."
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3064
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3077
 msgid "Destroy tag:"
 msgstr "Уничтожить метку:"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3067
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3080
 msgid "Destroy"
 msgstr "Уничтожить"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3068
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3081
 #, php-format
 msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
 msgstr "Вы уверены, что хотите отменить метку  \"%s\"? Операция необратима и не может быть отменена."
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3150
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3163
 #, php-format
 msgid "%d topics"
 msgstr "%d тем"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3217
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3230
 msgid "- None -"
 msgstr "- Ничего -"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3278
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3291
 msgid " (%?%)"
 msgstr " (%?%)"
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3280
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3293
 msgid "This topic is one of your %favorites% ["
 msgstr "Тема &#8212; одна из ваших %favorites% ["
 
-#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3280
+#: d:\project\automattic\bbpress\trunk/bb-includes/functions.bb-template.php:3293
 msgid "]"
 msgstr "]"
 
@@ -4304,6 +4261,14 @@ msgstr "Ручные смещения"
 msgid "BackPress &rsaquo; Error"
 msgstr "Ошибка bbPress &rsaquo;"
 
+#: d:\project\automattic\bbpress\trunk/bb-includes/backpress/functions.formatting.php:46
+msgid "&#8220;"
+msgstr "&#8220;"
+
+#: d:\project\automattic\bbpress\trunk/bb-includes/backpress/functions.formatting.php:48
+msgid "&#8221;"
+msgstr "&#8221;"
+
 #: d:\project\automattic\bbpress\trunk/bb-includes/backpress/functions.wp-cron.php:301
 msgid "Once Hourly"
 msgstr "Каждый час"
@@ -4329,45 +4294,66 @@ msgstr "Строка с низким приоритетом!"
 msgid "Bye\n"
 msgstr "Пока\n"
 
-#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:16
-#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:21
-msgid "Akismet Configuration"
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:56
+msgid "Akismet"
+msgstr "Akismet"
+
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:62
+msgid "Akismet Settings"
 msgstr "Настройки Akismet"
 
-#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:26
-msgid "Akismet Key:"
-msgstr "Ключ Akismet:"
-
-#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:30
-msgid "You do not need a key to run bbPress, but if you want to take advantage of Akismet's powerful spam blocking, you'll need one."
-msgstr "Вам не нужен ключ, чтобы запустить bbPress, но если вы хотите воспользоваться возможностями мощного блокировщика спама Akismet, вам он потребуется."
-
-#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:31
-msgid "You can get an Akismet key at <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
-msgstr "Вы можете получить ключ для Akismet на <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
-
-#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:38
-msgid "Update Configuration &raquo;"
-msgstr "Обновить настройки &raquo;"
-
 #: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:67
-msgid "<strong>Configuration saved.</strong>"
-msgstr "<strong>Конфигурация сохранена.</strong>"
+#, php-format
+msgid "For many people, <a href=\"%s\">Akismet</a> will greatly reduce or even completely eliminate the spam you get on your site. If one does happen to get through, simply mark it as \"spam\" and Akismet will learn from the mistakes."
+msgstr "Для многих людей <a href=\"%s\">Akismet</a> является великолепным средством для уменьшения или даже полного избавления от спама на сайте. Если что-то и пройдет, просто пометьте его как \"Спам\" и Akismet будет учиться на ошибках."
 
-#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:259
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:73
+msgid "This key is valid"
+msgstr "Этот ключ правильный"
+
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:80
+msgid "WordPress.com API Key"
+msgstr "Ключ API WordPress.com "
+
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:83
+#, php-format
+msgid "If you don't have a WordPress.com API Key, you can get one at <a href=\"%s\">WordPress.com</a>"
+msgstr "Если у вас нет API-ключа WordPress.com, вы можете получить его на <a href=\"%s\">WordPress.com</a>"
+
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:87
+msgid "Enable stats page"
+msgstr "Разрешить страницу статистики"
+
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:90
+msgid "Create a page in the admin are that shows spam statistics."
+msgstr "Создать страницу в административной интерфейсе для показа спам-статистики."
+
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:92
+msgid "This page will be viewable by moderators or higher."
+msgstr "Это страница будет видна только мадераторам и выше."
+
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:149
+msgid "<strong>The key you attempted to enter is invalid. Reverting to previous setting.</strong>"
+msgstr "<strong>Ключ, который вы попытались ввести, неверен. Возвращаемся к предыдущим настройкам.</strong>"
+
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:168
+msgid "Akismet Stats"
+msgstr "Статистика Akismet"
+
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:371
 msgid "Akismet Spam"
 msgstr "Спам (Akismet)"
 
-#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:272
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:384
 #, php-format
 msgid "The API key you have specified is invalid.  Please double check the <strong>Akismet Key</strong> set in <a href=\"%s\">Akismet configuration</a>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
 msgstr "API-ключ, который вы задали, некорректен. Пожалуйста, перепроверьте <strong>ключ Akismet</strong> в <a href=\"%s\">Настройке Akismet</a>. Если у вас нет API-ключа, его можно получить на <a href=\"%s\">WordPress.com</a>."
 
-#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:304
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:416
 msgid "Not Spam"
 msgstr "Не спам"
 
-#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:310
+#: d:\project\automattic\bbpress\trunk/bb-plugins/akismet.php:422
 msgid "Spam"
 msgstr "Спам"
 
@@ -4514,12 +4500,12 @@ msgid "<a href=\"%1$s\">Register</a> or log in - <a href=\"%2$s\">lost password?
 msgstr "<a href=\"%1$s\">Зарегистрируйтесь</a> или войдите - <a href=\"%2$s\">забыли пароль?</a>"
 
 #: d:\project\automattic\bbpress\trunk/bb-templates/kakumei/login-form.php:29
+#: d:\project\automattic\bbpress\trunk/bb-templates/kakumei/login.php:36
 msgid "Remember me"
 msgstr "Запомните меня"
 
 #: d:\project\automattic\bbpress\trunk/bb-templates/kakumei/login.php:3
 #: d:\project\automattic\bbpress\trunk/bb-templates/kakumei/login.php:5
-#: d:\project\automattic\bbpress\trunk/bb-templates/kakumei/password-reset.php:3
 msgid "Log in"
 msgstr "Войти"
 
@@ -4774,6 +4760,55 @@ msgstr "Эта тема закрыта для новых комментарие�
 msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
 msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> лента этого вида"
 
+#~ msgid "Recounting"
+#~ msgstr "Переучет"
+#~ msgid "Done counting posts."
+#~ msgstr "Учет сообщений завершен."
+#~ msgid "Done counting voices."
+#~ msgstr "Пересчет голосов завершен."
+#~ msgid "Done counting forum topics and posts."
+#~ msgstr "Учет тем и сообщений форумов завершен."
+#~ msgid "Counting topics to which each user has replied&#8230;"
+#~ msgstr "Учет тем, на которые ответил каждый пользователь&#8230;"
+#~ msgid "Done counting topics."
+#~ msgstr "Учет тем завершен."
+#~ msgid "Done counting topic tags."
+#~ msgstr "Учет меток тем завершен."
+#~ msgid "Done counting tagged topics."
+#~ msgstr "Учет помеченых тем завершен."
+#~ msgid "Deleting tags with no topics&#8230;"
+#~ msgstr "Удаление меток без тем...&#8230;"
+#~ msgid "Done removing deleted topics from users' favorites."
+#~ msgstr "Закончено удаление удаленных тем из Избранного пользователя"
+#~ msgid "Done recounting.  The process took"
+#~ msgstr "Переучет завершен. Процессу потребовалось "
+#~ msgid "%1$d queries and %2$s seconds."
+#~ msgstr "%1$d запросов и %2$s секунд."
+#~ msgid "Recount"
+#~ msgstr "Переучет"
+#~ msgid "<span>Delete</span> tags with no topics"
+#~ msgstr "<span>Удалить</span> метки без тем"
+#~ msgid "<span>Remove</span> deleted topics from users' favorites"
+#~ msgstr "<span>Убрать</span> удаленные темы из избранного пользователей"
+#~ msgid "Akismet Configuration"
+#~ msgstr "Настройки Akismet"
+#~ msgid ""
+#~ "You do not need a key to run bbPress, but if you want to take advantage "
+#~ "of Akismet's powerful spam blocking, you'll need one."
+#~ msgstr ""
+#~ "Вам не нужен ключ, чтобы запустить bbPress, но если вы хотите "
+#~ "воспользоваться возможностями мощного блокировщика спама Akismet, вам он "
+#~ "потребуется."
+#~ msgid ""
+#~ "You can get an Akismet key at <a href=\"http://wordpress.com/api-keys/"
+#~ "\">WordPress.com</a>"
+#~ msgstr ""
+#~ "Вы можете получить ключ для Akismet на <a href=\"http://wordpress.com/api-"
+#~ "keys/\">WordPress.com</a>"
+#~ msgid "Update Configuration &raquo;"
+#~ msgstr "Обновить настройки &raquo;"
+#~ msgid "<strong>Configuration saved.</strong>"
+#~ msgstr "<strong>Конфигурация сохранена.</strong>"
 #~ msgid ""
 #~ "The following checkboxes allow you to recalculate various numbers stored "
 #~ "in the database. These numbers are used for things like counting the "
@@ -5011,8 +5046,6 @@ msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> лента этог
 #~ msgstr "Искать&#8230;"
 #~ msgid "Forum&#8230;"
 #~ msgstr "Форум&#8230;"
-#~ msgid "Tag&#8230;"
-#~ msgstr "Метка&#8230;"
 #~ msgid "Open?&#8230;"
 #~ msgstr "Открытые?&#8230;"
 #~ msgid "Title&#8230;"
