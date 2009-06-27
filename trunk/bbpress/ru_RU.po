@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BBPress 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-26 19:26+0300\n"
-"PO-Revision-Date: 2009-06-26 19:32+0300\n"
+"POT-Creation-Date: 2009-06-27 14:57+0300\n"
+"PO-Revision-Date: 2009-06-27 15:09+0300\n"
 "Last-Translator: Sol <salpagarov@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sol@atrax.ru>\n"
 "MIME-Version: 1.0\n"
@@ -1389,23 +1389,23 @@ msgstr "нет|не указана bbPress-роль"
 
 #: d:\web\localhost\bbpress/bb-admin/options-wordpress.php:58
 msgid "WordPress Administrator"
-msgstr "Администратор WordPress"
+msgstr "WordPress Администраторы"
 
 #: d:\web\localhost\bbpress/bb-admin/options-wordpress.php:59
 msgid "WordPress Editor"
-msgstr "Редактор WordPress"
+msgstr "WordPress Редакторы"
 
 #: d:\web\localhost\bbpress/bb-admin/options-wordpress.php:60
 msgid "WordPress Author"
-msgstr "Автор WordPress"
+msgstr "WordPress Авторы"
 
 #: d:\web\localhost\bbpress/bb-admin/options-wordpress.php:61
 msgid "WordPress Contributor"
-msgstr "Помощник WordPress"
+msgstr "WordPress Помощники"
 
 #: d:\web\localhost\bbpress/bb-admin/options-wordpress.php:62
 msgid "WordPress Subscriber"
-msgstr "Подписчик WordPress"
+msgstr "WordPress Подписчики"
 
 #: d:\web\localhost\bbpress/bb-admin/options-wordpress.php:67
 msgid "WordPress address (URL)"
@@ -1630,90 +1630,79 @@ msgstr "Удалённая публикация"
 msgid "To interact with bbPress from a desktop client or remote website that uses the XML-RPC publishing interface you must enable it below."
 msgstr "Для взаимодействия с клиентами или удаленными сайтами, поддерживающими протокол публикации XML-RPC, вы должны разрешить его ниже."
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:87
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:121
 msgid "<strong>Plugin could not be activated, it produced a Fatal Error</strong>. The error is shown below."
 msgstr "<strong>Плагин не может быть активирован; он спровоцировал фатальную ошибку</strong>. Ошибка показана ниже."
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:91
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:125
 #, php-format
 msgid "<strong>\"%s\" plugin activated</strong>"
 msgstr "<strong>Плагин \"%s\" активирован</strong>"
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:95
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:129
 #, php-format
 msgid "<strong>\"%s\" plugin deactivated</strong>"
 msgstr "<strong>Плагин \"%s\" деактивирован</strong>"
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:101
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:135
 msgid "<strong>\"Safe mode\" is on, all plugins are disabled even if they are listed as active.</strong>"
 msgstr "\"Safe mode\" включен, все плагины отключены даже если они показываются как активные."
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:134
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:145
 msgid "Manage Plugins"
 msgstr "Управление плагинами"
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:137
-msgid "Plugins extend and expand the functionality of bbPress. Once a plugin is installed, you may activate it or deactivate it here."
-msgstr "Плагины расширяют и дополняют функциональность WordPress. После установки плагина вы можете включить/отключить его здесь."
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:172
+#, php-format
+msgid "All <span class=\"count\">(%d)</span>"
+msgstr "Все <span class=\"count\">(%d)</span>"
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:146
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:211
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:173
+#, php-format
+msgid "Active <span class=\"count\">(%d)</span>"
+msgstr "Активные <span class=\"count\">(%d)</span>"
+
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:174
+#, php-format
+msgid "Inactive <span class=\"count\">(%d)</span>"
+msgstr "Неактивные <span class=\"count\">(%d)</span>"
+
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:175
+#, php-format
+msgid "Autoloaded <span class=\"count\">(%d)</span>"
+msgstr "Автоматические <span class=\"count\">(%d)</span>"
+
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:185
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:191
 msgid "Plugin"
 msgstr "Плагин"
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:147
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:212
-msgid "Version"
-msgstr "Версия"
-
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:148
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:213
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:186
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:192
 msgid "Description"
 msgstr "Описание"
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:149
-msgid "Action"
-msgstr "Действие"
-
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:159
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:202
 #: d:\web\localhost\bbpress/bb-admin/themes.php:96
 msgid "Activate"
 msgstr "Активировать"
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:164
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:209
 msgid "Deactivate"
 msgstr "Деактивировать"
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:186
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:231
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:227
 #, php-format
-msgid "By %s."
-msgstr "От %s."
+msgid "By %s"
+msgstr "От %s"
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:206
-msgid "Automatically loaded plugins"
-msgstr "Автоматически загруженные плагины"
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:239
+msgid "Autoloaded"
+msgstr "Автоматические"
 
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:257
-msgid "If something goes wrong with a plugin and you can't use bbPress, delete or rename that file in the <code>my-plugins</code> directory and it will be automatically deactivated."
-msgstr "Если что-нибудь пойдет не так с плагином и вы не сможете пользоваться bbPress, удалите или переименуйте этот файл в директории <code>my-plugins</code> и он будет автоматически отключен."
-
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:263
-msgid "No Plugins Installed"
-msgstr "Нет установленных плагинов"
-
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:269
-msgid "Get More Plugins"
-msgstr "Посмотреть другие плагины"
-
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:271
-#, php-format
-msgid "You can find additional plugins for your site in the <a href=\"%s\">bbPress plugin directory</a>."
-msgstr "Вы можете найти дополнительные плагины для вашего сайта в <a href=\"%s\">каталоге плагинов bbPress</a>."
-
-#: d:\web\localhost\bbpress/bb-admin/plugins.php:273
-msgid "To install a plugin you generally just need to upload the plugin file into your <code>my-plugins</code> directory. Once a plugin is uploaded, you may activate it here."
-msgstr "Вообще, чтобы установить плагин, необходимо закачать файл плагина в вашу папку <code>my-plugins</code>. После загрузки вы сможете активировать его здесь."
+#: d:\web\localhost\bbpress/bb-admin/plugins.php:258
+msgid "No plugins found."
+msgstr "Плагинов не найдено."
 
 #: d:\web\localhost\bbpress/bb-admin/tag-destroy.php:5
 #: d:\web\localhost\bbpress/bb-admin/tag-merge.php:5
@@ -3071,15 +3060,15 @@ msgstr "Удалить метки без тем"
 msgid "Remove deleted topics from users' favorites"
 msgstr "Убрать удаленные темы из избранного пользователей"
 
-#: d:\web\localhost\bbpress/bb-admin/includes/functions.bb-plugin.php:386
+#: d:\web\localhost\bbpress/bb-admin/includes/functions.bb-plugin.php:430
 msgid "Invalid plugin path."
 msgstr "Неверный путь к плагину."
 
-#: d:\web\localhost\bbpress/bb-admin/includes/functions.bb-plugin.php:390
+#: d:\web\localhost\bbpress/bb-admin/includes/functions.bb-plugin.php:434
 msgid "Plugin file does not exist."
 msgstr "Файл плагина не найден."
 
-#: d:\web\localhost\bbpress/bb-admin/includes/functions.bb-plugin.php:393
+#: d:\web\localhost\bbpress/bb-admin/includes/functions.bb-plugin.php:437
 msgid "That type of plugin is not available in the specified location."
 msgstr "Этот типа плагинов не доступен в указанном месте."
 
@@ -3414,23 +3403,23 @@ msgstr "Неправильный ID пользователя"
 
 #: d:\web\localhost\bbpress/bb-includes/functions.bb-capabilities.php:57
 msgid "Key Master"
-msgstr "Хранитель"
+msgstr "Хранители"
 
 #: d:\web\localhost\bbpress/bb-includes/functions.bb-capabilities.php:100
 msgid "Administrator"
-msgstr "Администратор"
+msgstr "Администраторы"
 
 #: d:\web\localhost\bbpress/bb-includes/functions.bb-capabilities.php:135
 msgid "Moderator"
-msgstr "Модератор"
+msgstr "Модераторы"
 
 #: d:\web\localhost\bbpress/bb-includes/functions.bb-capabilities.php:166
 msgid "Member"
-msgstr "Участник"
+msgstr "Участники"
 
 #: d:\web\localhost\bbpress/bb-includes/functions.bb-capabilities.php:180
 msgid "Inactive"
-msgstr "Неактивный"
+msgstr "Неактивные"
 
 #: d:\web\localhost\bbpress/bb-includes/functions.bb-core.php:26
 #, php-format
@@ -4797,6 +4786,44 @@ msgstr "Эта тема закрыта для новых комментарие�
 msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
 msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> лента этого вида"
 
+#~ msgid ""
+#~ "Plugins extend and expand the functionality of bbPress. Once a plugin is "
+#~ "installed, you may activate it or deactivate it here."
+#~ msgstr ""
+#~ "Плагины расширяют и дополняют функциональность WordPress. После установки "
+#~ "плагина вы можете включить/отключить его здесь."
+#~ msgid "Version"
+#~ msgstr "Версия"
+#~ msgid "Action"
+#~ msgstr "Действие"
+#~ msgid "Automatically loaded plugins"
+#~ msgstr "Автоматически загруженные плагины"
+#~ msgid ""
+#~ "If something goes wrong with a plugin and you can't use bbPress, delete "
+#~ "or rename that file in the <code>my-plugins</code> directory and it will "
+#~ "be automatically deactivated."
+#~ msgstr ""
+#~ "Если что-нибудь пойдет не так с плагином и вы не сможете пользоваться "
+#~ "bbPress, удалите или переименуйте этот файл в директории <code>my-"
+#~ "plugins</code> и он будет автоматически отключен."
+#~ msgid "No Plugins Installed"
+#~ msgstr "Нет установленных плагинов"
+#~ msgid "Get More Plugins"
+#~ msgstr "Посмотреть другие плагины"
+#~ msgid ""
+#~ "You can find additional plugins for your site in the <a href=\"%s"
+#~ "\">bbPress plugin directory</a>."
+#~ msgstr ""
+#~ "Вы можете найти дополнительные плагины для вашего сайта в <a href=\"%s"
+#~ "\">каталоге плагинов bbPress</a>."
+#~ msgid ""
+#~ "To install a plugin you generally just need to upload the plugin file "
+#~ "into your <code>my-plugins</code> directory. Once a plugin is uploaded, "
+#~ "you may activate it here."
+#~ msgstr ""
+#~ "Вообще, чтобы установить плагин, необходимо закачать файл плагина в вашу "
+#~ "папку <code>my-plugins</code>. После загрузки вы сможете активировать его "
+#~ "здесь."
 #~ msgid "matching &#8220;%s&#8221;"
 #~ msgstr "соответсвующие &#8220;%s&#8221;"
 #~ msgid "%1$s%2$stopics"
