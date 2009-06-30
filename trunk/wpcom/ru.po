@@ -5444,7 +5444,6 @@ msgstr "Не удалось создать изображение"
 #: public.api/class.yahoo-yap-widget.php:84
 #: public.api/class.yahoo-yap-widget.php:124
 #: public.api/class.yahoo-yap-widget.php:156
-#, fuzzy
 msgid "Invalid action"
 msgstr "Неизвестное действие."
 
@@ -5454,23 +5453,20 @@ msgid "Enter your blog's URL"
 msgstr "Календарь записей вашего блога"
 
 #: public.api/class.yahoo-yap-widget.php:96
-#, fuzzy
 msgid "You must enter a valid URL"
-msgstr "Нужно ввести верный адрес электронной почты."
+msgstr "Вы должны ввести корректный URL"
 
 #: public.api/class.yahoo-yap-widget.php:99
 msgid "This app does not currently support self-hosted WordPress blogs.  You must enter a WordPress.com blog URL."
 msgstr ""
 
 #: public.api/class.yahoo-yap-widget.php:106
-#, fuzzy
 msgid "You are not a member of that blog"
 msgstr "Вы не участник этого блога."
 
 #: public.api/class.yahoo-yap-widget.php:118
-#, fuzzy
 msgid "Settings updated"
-msgstr "%s страница обновлена."
+msgstr "Настройки обновлены"
 
 #: public.api/class.yahoo-yap-widget.php:131
 #: wp-admin/comment.php:42
@@ -5482,7 +5478,6 @@ msgid "Oops, no comment with this ID."
 msgstr "Оп-па, комментария с таким ID не найдено."
 
 #: public.api/class.yahoo-yap-widget.php:134
-#, fuzzy
 msgid "You are not allowed to edit comments on this post"
 msgstr "Вам не разрешено изменять комментарии к этой записи."
 
@@ -5492,9 +5487,9 @@ msgid "posted &#8220;%s&#8221;|[name] posted \"%s:title\""
 msgstr ""
 
 #: public.api/class.yahoo-yap-widget.php:197
-#, fuzzy, php-format
+#, php-format
 msgid "Post Published. <a href=\"%s\" target=\"_blank\">View</a> | <a href=\"%s\" target=\"_blank\">Edit</a>"
-msgstr "Запись опубликована. <a href=\"%s\">Посмотреть</a> | <a href=\"%s\">Изменить</a>"
+msgstr "Запись опубликована. <a href=\"%s\" target=\"_blank\">Посмотреть</a> | <a href=\"%s\" target=\"_blank\">Изменить</a>"
 
 #: public.api/class.yahoo-yap-widget.php:202
 #, fuzzy, php-format
@@ -5775,9 +5770,9 @@ msgid "Already have a WordPress.com account?"
 msgstr "Уже есть учетная запись WordPress.com?"
 
 #: welcome.messages/index.php:19
-#, fuzzy, php-format
+#, php-format
 msgid "<a href='%s'>Log in</a> to get started."
-msgstr "Вы должны<a href=\"%s\">войти</a> чтобы написать сообщение."
+msgstr "Вы должны<a href=\"%s\">войти</a> чтобы начать работу."
 
 #: welcome.messages/index.php:21
 msgid "If you want to import your 360 content into an existing blog, go to your blog's admin and go to Tools &rarr; Import, and select the Yahoo! 360 importer."
@@ -5789,9 +5784,8 @@ msgid "Want a new blog just for your 360 content? <a href='%s'>Sign up</a> for a
 msgstr ""
 
 #: welcome.messages/index.php:23
-#, fuzzy
 msgid "Need more help?"
-msgstr "Помощь по визуальному редактору"
+msgstr "Нужна еще помощь?"
 
 #: welcome.messages/index.php:24
 #, php-format
@@ -5799,9 +5793,8 @@ msgid "As always, feel free to check out our <a href=\"%s\">support site</a> or 
 msgstr ""
 
 #: welcome.messages/index.php:25
-#, fuzzy
 msgid "Happy Blogging!"
-msgstr "Домашняя страница вашего блога"
+msgstr "Удачного блоггинга!"
 
 #: welcome.messages/index.php:26
 msgid "&#8212; the WordPress.com Team"
@@ -5820,9 +5813,8 @@ msgid "Activate &raquo;"
 msgstr "Активировать &raquo;"
 
 #: wp-activate.php:58
-#, fuzzy
 msgid "<h2>Howdy Again.</h2>"
-msgstr "Пожалуйста, попробуйте ещё раз."
+msgstr "<h2>И снова здравствуйте.</h2>"
 
 #: wp-activate.php:59
 msgid "<p class=\"lead-in\">You can <a href=\"/\">login at WordPress.com</a></p>"
@@ -8800,7 +8792,6 @@ msgid "Path to GM entries:"
 msgstr "Путь к записям GM:"
 
 #: wp-admin/import/greymatter.php:64
-#, fuzzy
 msgid "Last entry&#8217;s number:"
 msgstr "Номер последней записи:"
 
@@ -8870,12 +8861,12 @@ msgid "registered deleted user %s at level 0 "
 msgstr "зарегистрирован удалённый пользователь %s с уровнем 0"
 
 #: wp-admin/import/greymatter.php:286
-#, fuzzy, php-format
+#, php-format
 msgid "imported %s comment"
 msgid_plural "imported %s comments"
 msgstr[0] "импортирован %s комментарий"
-msgstr[1] "Импорт комментариев"
-msgstr[2] "Импорт комментариев"
+msgstr[1] "импортированы %s комментария"
+msgstr[2] "импортированы %s комментариев"
 
 #: wp-admin/import/greymatter.php:291
 #, php-format
@@ -8968,12 +8959,12 @@ msgid "Post metadata has been downloaded, proceeding with posts..."
 msgstr "Метаданные записей загружены, переходим к записям&hellip;"
 
 #: wp-admin/import/livejournal.php:375
-#, fuzzy, php-format
+#, php-format
 msgid "Post <strong>%s</strong> already exists."
 msgstr "Запись <strong>%s</strong> уже существует."
 
 #: wp-admin/import/livejournal.php:377
-#, fuzzy, php-format
+#, php-format
 msgid "Imported post <strong>%s</strong>..."
 msgstr "Импорт записи <strong>%s</strong>..."
 
@@ -8983,29 +8974,24 @@ msgid "Couldn&#8217;t get post ID (creating post failed!)"
 msgstr "Не могу получить ID записи (запись не создана!)"
 
 #: wp-admin/import/livejournal.php:388
-#, fuzzy
 msgid "Failed to create post."
 msgstr "Не получилось создать запись."
 
 #: wp-admin/import/livejournal.php:433
-#, fuzzy
 msgid "Could not get a cookie from LiveJournal. Please try again soon."
 msgstr "Не удалось получить файл cookie от LiveJournal. Пожалуйста, повторите попытку."
 
 #: wp-admin/import/livejournal.php:454
-#, fuzzy
 msgid "Failed to retrieve comment meta information from LiveJournal. Please try again soon."
 msgstr "Не удалось получить метаданные комментариев от LiveJournal. Пожалуйста, повторите попытку."
 
 #: wp-admin/import/livejournal.php:462
-#, fuzzy
 msgid "You have no comments to import!"
 msgstr "Нет комментариев для импорта!"
 
 #: wp-admin/import/livejournal.php:489
-#, fuzzy
 msgid " Comment metadata downloaded successfully, proceeding with comment bodies..."
-msgstr "Метаданные комментариев успешно загружены, переходим к содержимому комментариев&hellip;"
+msgstr " Метаданные комментариев успешно загружены, переходим к содержимому комментариев..."
 
 #: wp-admin/import/livejournal.php:514
 #, fuzzy
@@ -9018,12 +9004,10 @@ msgid "LiveJournal is not responding to authentication requests. Please wait a w
 msgstr "LiveJournal не отвечает на запросы аутентификации. Пожалуйста, повторите попытку через некоторое время."
 
 #: wp-admin/import/livejournal.php:666
-#, fuzzy
 msgid "XML-RPC Request Failed -- "
 msgstr "XML-RPC запрос не удался -- "
 
 #: wp-admin/import/livejournal.php:726
-#, fuzzy
 msgid "Please enter your LiveJournal username <em>and</em> password so we can download your posts and comments."
 msgstr "Пожалуйста, введите ваше имя пользователя <em>и</em> пароль в LiveJournal, чтобы мы могли скачать ваши записи с комментариями."
 
@@ -9033,7 +9017,6 @@ msgid "Start again"
 msgstr "Еще раз"
 
 #: wp-admin/import/livejournal.php:738
-#, fuzzy
 msgid "Logging in to LiveJournal failed. Check your username and password and try again."
 msgstr "Авторизация в LiveJournal не удалась. Проверьте имя пользователя и пароль, затем повторите попытку."
 
@@ -9042,19 +9025,17 @@ msgid "Importing Posts"
 msgstr "Импортирование записей"
 
 #: wp-admin/import/livejournal.php:781
-#, fuzzy
 msgid "We&#8217;re downloading and importing your LiveJournal posts..."
 msgstr "Мы получаем и импортируем ваши записи в ЖЖ..."
 
 #: wp-admin/import/livejournal.php:785
-#, fuzzy, php-format
+#, php-format
 msgid "Imported post batch %d of <strong>approximately</strong> %d"
 msgstr "Импортирован %d из <strong>приблизительно</strong> %d пакетов записей"
 
 #: wp-admin/import/livejournal.php:803
-#, fuzzy
 msgid "Uh oh &ndash; LiveJournal has disconnected us because we made too many requests to their servers too quickly."
-msgstr "Ой-ой &#8212; LiveJournal отключил нас из-за большого числа запросов к их серверам за короткое время."
+msgstr "Ой-ой &ndash; LiveJournal отключил нас из-за большого числа запросов к их серверам за короткое время."
 
 #: wp-admin/import/livejournal.php:804
 #, fuzzy
@@ -9072,37 +9053,31 @@ msgid "Import the next batch"
 msgstr "Импортировать следующий пакет"
 
 #: wp-admin/import/livejournal.php:824
-#, fuzzy
 msgid "Your posts have all been imported, but wait &#8211; there&#8217;s more! Now we need to download &amp; import your comments."
 msgstr "Все ваши записи импортированы, однако подождите &#8212; это ещё не всё! Теперь нужно скачать и импортировать комментарии."
 
 #: wp-admin/import/livejournal.php:825
-#, fuzzy
 msgid "Download my comments &raquo;"
 msgstr "Скачать мои комментарии &raquo;"
 
 #: wp-admin/import/livejournal.php:840
-#, fuzzy
 msgid "Downloading Comments"
 msgstr "Получение комментариев"
 
 #: wp-admin/import/livejournal.php:841
-#, fuzzy
 msgid "Now we will download your comments so we can import them (this could take a <strong>long</strong> time if you have lots of comments)..."
 msgstr "Сейчас мы получим ваши комментарии так, чтобы мы могли их импортировать (это может занять <strong>много</strong> времени если у вам много комментариев)..."
 
 #: wp-admin/import/livejournal.php:866
-#, fuzzy, php-format
+#, php-format
 msgid "Imported comment batch %d of <strong>approximately</strong> %d"
 msgstr "Импортирован %d из <strong>приблизительно</strong> %d пакетов комментариев"
 
 #: wp-admin/import/livejournal.php:874
-#, fuzzy
 msgid "Your comments have all been imported now, but we still need to rebuild your conversation threads."
 msgstr "Все ваши комментарии  были импортированы, но нам требуется пересоздать ветки дерева обсуждений."
 
 #: wp-admin/import/livejournal.php:875
-#, fuzzy
 msgid "Rebuild my comment threads &raquo;"
 msgstr "Перестроить мои ветки комментариев &raquo;"
 
@@ -9111,18 +9086,17 @@ msgid "Threading Comments"
 msgstr "Древовидные комментарии"
 
 #: wp-admin/import/livejournal.php:889
-#, fuzzy
 msgid "We are now re-building the threading of your comments (this can also take a while if you have lots of comments)..."
 msgstr "Теперь мы перестраиваем ветки ваших комментариев (это займет какое-то время если у вам много комментариев)..."
 
 #: wp-admin/import/livejournal.php:926
-#, fuzzy, php-format
+#, php-format
 msgid "Successfully re-threaded %s comments."
 msgstr "Ветки комментариев %s успешно перестроены."
 
 #: wp-admin/import/livejournal.php:961
 #: wp-admin/import/livejournal.php:989
-#, fuzzy, php-format
+#, php-format
 msgid "Continuing in %d"
 msgstr "Продолжение в %d"
 
@@ -9139,7 +9113,6 @@ msgid "LiveJournal"
 msgstr "LiveJournal"
 
 #: wp-admin/import/livejournal.php:1053
-#, fuzzy
 msgid "Import posts from LiveJournal using their API."
 msgstr "Импорт записей из LiveJournal с помощью их API."
 
@@ -9374,7 +9347,6 @@ msgid "TypePad - Web"
 msgstr "TypePad - Web "
 
 #: wp-admin/import/typepad.php:16
-#, fuzzy
 msgid "Import posts and comments from a TypePad blog with only your login credentials."
 msgstr "Импорт записей и комментариев из Movable Type или TypePad от вашего имени."
 
@@ -9454,7 +9426,6 @@ msgid "To make it easier for you to edit and save the imported posts and drafts,
 msgstr "Для облегчения редактирования и сохранения импортированных записей и черновиков, вы можете, если захотите, изменить имя автора записей. Например, вы можете импортировать все записи под авторством логина <code>admin</code>."
 
 #: wp-admin/import/wordpress.php:200
-#, fuzzy
 msgid "If a new user is created by WordPress, a password will be randomly generated. Manually change the user&#8217;s details if necessary."
 msgstr "При создании нового пользователя WordPress сгенерирует пароль случайным образом. Если необходимо, смените его вручную."
 
@@ -9620,7 +9591,7 @@ msgid "Uh, oh. Something didn&#8217;t work. Please <a href=\"%s\">try again</a>.
 msgstr "Ой-ой-ой. Что-то не сработало. Пожалуйста, <a href=\"%s\">попробуйте ещё раз</a>."
 
 #: wp-admin/import/wp-cat2tag.php:252
-#, fuzzy, php-format
+#, php-format
 msgid "Category %s doesn&#8217;t exist!"
 msgstr "Рубрика %s не существует!"
 
@@ -9660,7 +9631,7 @@ msgid "All posts were added to the category with the same name."
 msgstr "Все записи добавлены в рубрику с таким же именем."
 
 #: wp-admin/import/wp-cat2tag.php:409
-#, fuzzy, php-format
+#, php-format
 msgid "Tag #%s doesn&#8217;t exist!"
 msgstr "Метка #%s не существует!"
 
@@ -9711,14 +9682,12 @@ msgid "There's probably just the one author (you), and you might be listed under
 msgstr ""
 
 #: wp-admin/import/yahoo-360.php:107
-#, fuzzy
 msgid "Could not create temporary file"
 msgstr "Не удалось создать временный файл"
 
 #: wp-admin/import/yahoo-360.php:110
-#, fuzzy
 msgid "Could not create temporary directory"
-msgstr "Не удалось создать временный файл"
+msgstr "Не удалось создать временную директорию"
 
 #: wp-admin/import/yahoo-360.php:122
 msgid "Could not unzip your Yahoo! 360 export file.  Did you upload the ZIP file?"
@@ -9729,7 +9698,6 @@ msgid "Could not find your Yahoo 360! export in the ZIP file you uploaded"
 msgstr ""
 
 #: wp-admin/import/yahoo-360.php:243
-#, fuzzy
 msgid "Processing&hellip;"
 msgstr "Обработка&hellip;"
 
@@ -9744,9 +9712,8 @@ msgid "In the meantime, check out the <a href=\"%s\">WordPress.com QuickPress</a
 msgstr ""
 
 #: wp-admin/import/yahoo-360.php:296
-#, fuzzy
 msgid "Yahoo! 360"
-msgstr "Yahoo IM"
+msgstr "Yahoo! 360"
 
 #: wp-admin/import/yahoo-360.php:296
 #, fuzzy
@@ -9819,12 +9786,10 @@ msgid "Installing the latest version."
 msgstr "Установка свежей версии"
 
 #: wp-admin/includes/class-wp-upgrader.php:55
-#, fuzzy
 msgid "Destination folder already exists."
 msgstr "Каталог назначения уже существует."
 
 #: wp-admin/includes/class-wp-upgrader.php:56
-#, fuzzy
 msgid "Could not create directory."
 msgstr "Не удалось создать директорию."
 
@@ -9833,12 +9798,10 @@ msgid "Incompatible Archive"
 msgstr "Архив несовместим"
 
 #: wp-admin/includes/class-wp-upgrader.php:59
-#, fuzzy
 msgid "Enabling Maintenance mode."
 msgstr "Включение режима обслуживания."
 
 #: wp-admin/includes/class-wp-upgrader.php:60
-#, fuzzy
 msgid "Disabling Maintenance mode."
 msgstr "Отключение режима обслуживания."
 
@@ -9855,7 +9818,7 @@ msgstr "Архив обновления недоступен."
 #: wp-admin/includes/class-wp-upgrader.php:351
 #: wp-admin/includes/class-wp-upgrader.php:507
 #: wp-admin/includes/class-wp-upgrader.php:664
-#, fuzzy, php-format
+#, php-format
 msgid "Downloading update from <span class=\"code\">%s</span>."
 msgstr "Загрузка обновления с <span class=\"code\">%s</span>."
 
@@ -9892,7 +9855,7 @@ msgstr "Установочный пакет недоступен."
 
 #: wp-admin/includes/class-wp-upgrader.php:362
 #: wp-admin/includes/class-wp-upgrader.php:517
-#, fuzzy, php-format
+#, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>."
 msgstr "Загрузка архива плагина с <span class=\"code\">%s</span>."
 
@@ -9998,9 +9961,9 @@ msgid "Return to Plugin Installer"
 msgstr "Вернуться к установщику плагинов"
 
 #: wp-admin/includes/class-wp-upgrader.php:928
-#, fuzzy, php-format
+#, php-format
 msgid "Successfully installed the theme <strong>%1$s %2$s</strong>."
-msgstr "Тема <strong>%s %s</strong> успешно установлена."
+msgstr "Тема <strong>%1$s %2$s</strong> успешно установлена."
 
 #: wp-admin/includes/class-wp-upgrader.php:947
 #: wp-admin/includes/class-wp-upgrader.php:1004
@@ -11147,8 +11110,9 @@ msgid "Calcutta"
 msgstr "Калькутта"
 
 #: wp-admin/includes/continents-cities.php:241
+#, fuzzy
 msgid "Choibalsan"
-msgstr ""
+msgstr "Choibalsan"
 
 #: wp-admin/includes/continents-cities.php:242
 #, fuzzy
@@ -11624,147 +11588,118 @@ msgid "GMT"
 msgstr "GMT"
 
 #: wp-admin/includes/continents-cities.php:350
-#, fuzzy
 msgid "GMT+0"
 msgstr "GMT+0"
 
 #: wp-admin/includes/continents-cities.php:351
-#, fuzzy
 msgid "GMT+1"
 msgstr "GMT+1"
 
 #: wp-admin/includes/continents-cities.php:352
-#, fuzzy
 msgid "GMT+10"
 msgstr "GMT+10"
 
 #: wp-admin/includes/continents-cities.php:353
-#, fuzzy
 msgid "GMT+11"
 msgstr "GMT+11"
 
 #: wp-admin/includes/continents-cities.php:354
-#, fuzzy
 msgid "GMT+12"
 msgstr "GMT+12"
 
 #: wp-admin/includes/continents-cities.php:355
-#, fuzzy
 msgid "GMT+2"
 msgstr "GMT+2"
 
 #: wp-admin/includes/continents-cities.php:356
-#, fuzzy
 msgid "GMT+3"
 msgstr "GMT+3"
 
 #: wp-admin/includes/continents-cities.php:357
-#, fuzzy
 msgid "GMT+4"
 msgstr "GMT+4"
 
 #: wp-admin/includes/continents-cities.php:358
-#, fuzzy
 msgid "GMT+5"
 msgstr "GMT+5"
 
 #: wp-admin/includes/continents-cities.php:359
-#, fuzzy
 msgid "GMT+6"
 msgstr "GMT+6"
 
 #: wp-admin/includes/continents-cities.php:360
-#, fuzzy
 msgid "GMT+7"
 msgstr "GMT+7"
 
 #: wp-admin/includes/continents-cities.php:361
-#, fuzzy
 msgid "GMT+8"
 msgstr "GMT+8"
 
 #: wp-admin/includes/continents-cities.php:362
-#, fuzzy
 msgid "GMT+9"
 msgstr "GMT+9"
 
 #: wp-admin/includes/continents-cities.php:363
-#, fuzzy
 msgid "GMT-0"
 msgstr "GMT-0"
 
 #: wp-admin/includes/continents-cities.php:364
-#, fuzzy
 msgid "GMT-1"
 msgstr "GMT-1"
 
 #: wp-admin/includes/continents-cities.php:365
-#, fuzzy
 msgid "GMT-10"
 msgstr "GMT-10"
 
 #: wp-admin/includes/continents-cities.php:366
-#, fuzzy
 msgid "GMT-11"
 msgstr "GMT-11"
 
 #: wp-admin/includes/continents-cities.php:367
-#, fuzzy
 msgid "GMT-12"
 msgstr "GMT-12"
 
 #: wp-admin/includes/continents-cities.php:368
-#, fuzzy
 msgid "GMT-13"
 msgstr "GMT-13"
 
 #: wp-admin/includes/continents-cities.php:369
-#, fuzzy
 msgid "GMT-14"
 msgstr "GMT-14"
 
 #: wp-admin/includes/continents-cities.php:370
-#, fuzzy
 msgid "GMT-2"
 msgstr "GMT-2"
 
 #: wp-admin/includes/continents-cities.php:371
-#, fuzzy
 msgid "GMT-3"
 msgstr "GMT-3"
 
 #: wp-admin/includes/continents-cities.php:372
-#, fuzzy
 msgid "GMT-4"
 msgstr "GMT-4"
 
 #: wp-admin/includes/continents-cities.php:373
-#, fuzzy
 msgid "GMT-5"
 msgstr "GMT-5"
 
 #: wp-admin/includes/continents-cities.php:374
-#, fuzzy
 msgid "GMT-6"
 msgstr "GMT-6"
 
 #: wp-admin/includes/continents-cities.php:375
-#, fuzzy
 msgid "GMT-7"
 msgstr "GMT-7"
 
 #: wp-admin/includes/continents-cities.php:376
-#, fuzzy
 msgid "GMT-8"
 msgstr "GMT-8"
 
 #: wp-admin/includes/continents-cities.php:377
-#, fuzzy
 msgid "GMT-9"
 msgstr "GMT-9"
 
 #: wp-admin/includes/continents-cities.php:378
-#, fuzzy
 msgid "GMT0"
 msgstr "GMT0"
 
@@ -11773,17 +11708,14 @@ msgid "Greenwich"
 msgstr "Гринвич"
 
 #: wp-admin/includes/continents-cities.php:380
-#, fuzzy
 msgid "UCT"
 msgstr "UCT"
 
 #: wp-admin/includes/continents-cities.php:381
-#, fuzzy
 msgid "Universal"
 msgstr "Универсальное координированное время"
 
 #: wp-admin/includes/continents-cities.php:382
-#, fuzzy
 msgid "UTC"
 msgstr "UTC"
 
@@ -15792,7 +15724,6 @@ msgid "Files of this type are not editable."
 msgstr "Файлы этого типа не редактируемы."
 
 #: wp-admin/plugin-editor.php:115
-#, fuzzy
 msgid "Function Name..."
 msgstr "Имя функции..."
 
@@ -15950,19 +15881,17 @@ msgid "Open this file in the Plugin Editor"
 msgstr "Открыть этот файл в редакторе плагинов"
 
 #: wp-admin/plugins.php:405
-#, fuzzy
 msgid "Delete this plugin"
 msgstr "Удалить этот плагин"
 
 #: wp-admin/plugins.php:429
-#, fuzzy, php-format
+#, php-format
 msgid "Version %s"
 msgstr "Версия %s"
 
 #: wp-admin/plugins.php:437
-#, fuzzy
 msgid "Visit plugin site"
-msgstr "Перейти на страницу плагина"
+msgstr "Посетить страницу плагина"
 
 #: wp-admin/plugins.php:475
 msgid "Clear List"
@@ -16597,7 +16526,6 @@ msgstr "Автор"
 
 #: wp-admin/upload.php:308
 #: wp-admin/upload.php:318
-#, fuzzy
 msgctxt "media column name"
 msgid "Date Added"
 msgstr "Дата добавлена"
@@ -16677,9 +16605,8 @@ msgid "Keyboard Shortcuts"
 msgstr "Горячие клавиши"
 
 #: wp-admin/user-edit.php:255
-#, fuzzy
 msgid "Enable keyboard shortcuts for comment moderation."
-msgstr "Использовать горячие клавиши для проверки комментариев."
+msgstr "Разрешить горячие клавиши для проверки комментариев."
 
 #: wp-admin/user-edit.php:255
 #, fuzzy
@@ -16825,9 +16752,8 @@ msgid "(required)"
 msgstr "(обязательно)"
 
 #: wp-admin/user-edit.php:346
-#, fuzzy
 msgid "Display name publicly as"
-msgstr "Всем показывать как:"
+msgstr "Всем показывать как"
 
 #: wp-admin/user-edit.php:375
 #: wp-profile.php:237
@@ -16935,12 +16861,10 @@ msgid "Last Name"
 msgstr "Фамилия"
 
 #: wp-admin/user-new.php:120
-#, fuzzy
 msgid "(twice, required)"
 msgstr "(дважды, обязательно)"
 
 #: wp-admin/user-new.php:130
-#, fuzzy
 msgid "Send Password?"
 msgstr "Отправить пароль?"
 
@@ -17064,7 +16988,6 @@ msgid "Changed roles."
 msgstr "Роли изменены."
 
 #: wp-admin/users.php:321
-#, fuzzy
 msgid "The current user&#8217;s role must have user editing capabilities."
 msgstr "Текущий пользователь должен иметь возможность редактирования пользователей."
 
@@ -17073,9 +16996,8 @@ msgid "Other user roles have been changed."
 msgstr "Роли других пользователей были изменены."
 
 #: wp-admin/users.php:325
-#, fuzzy
 msgid "You can&#8217;t delete the current user."
-msgstr "Вы не можете удалить этого пользователя."
+msgstr "Вы не можете удалить текущего пользователя."
 
 #: wp-admin/users.php:326
 msgid "Other users have been deleted."
@@ -21513,19 +21435,16 @@ msgid "Use custom ad colors"
 msgstr "Сохранить свои настройки цвета"
 
 #: wp-content/mu-plugins/vip-functions.php:504
-#, fuzzy
 msgid "Background color"
 msgstr "Цвет фона"
 
 #: wp-content/mu-plugins/vip-functions.php:508
-#, fuzzy
 msgid "Text color"
-msgstr "Выберите цвет текста"
+msgstr "Цвет текста"
 
 #: wp-content/mu-plugins/vip-functions.php:512
-#, fuzzy
 msgid "Link color"
-msgstr "Цвет шрифта"
+msgstr "Цвет ссылки"
 
 #: wp-content/mu-plugins/vip-functions.php:516
 #, fuzzy
@@ -26380,9 +26299,8 @@ msgid "Keep reading &rarr;"
 msgstr "Продолжить чтение &rarr;"
 
 #: wp-content/themes/pub/cutline/index.php:18
-#, fuzzy
 msgid "&rarr; Leave a Comment"
-msgstr "Оставить комментарий &#187;"
+msgstr "&rarr; Оставить комментарий"
 
 #: wp-content/themes/pub/cutline/index.php:18
 msgid "&rarr; 1 Comment"
@@ -26490,9 +26408,9 @@ msgstr "Извините, но вы ищете то, чего здесь нет.
 #: wp-content/themes/pub/digg3/index.php:14
 #: wp-content/themes/pub/digg3/search.php:14
 #: wp-content/themes/pub/digg3/single.php:15
-#, fuzzy, php-format
+#, php-format
 msgid "Posted on %s by %s"
-msgstr "Автор: %1$s на %2$s"
+msgstr "Опубликовано в %s от %s"
 
 #: wp-content/themes/pub/digg3/archive.php:23
 #: wp-content/themes/pub/digg3/index.php:23
@@ -26506,9 +26424,9 @@ msgid "Said&#58;"
 msgstr "Сказал&#58;"
 
 #: wp-content/themes/pub/digg3/comments.php:75
-#, fuzzy, php-format
+#, php-format
 msgid "Logged in as <a href=\"%s\">%s</a>"
-msgstr "Вы вошли как <a href=\"%1$s\">%2$s</a>."
+msgstr "Вы вошли как <a href=\"%s\">%s</a>"
 
 #: wp-content/themes/pub/digg3/comments.php:89
 msgid "You can use these tags&#58;"
@@ -26794,9 +26712,8 @@ msgid "<span>Comments Off</span>"
 msgstr "<span>Комментарии отключены</span>"
 
 #: wp-content/themes/pub/fauna/template-sidenote.php:9
-#, fuzzy
 msgid "(Leave a Comment)"
-msgstr "Оставить комментарий"
+msgstr "(Оставить комментарий)"
 
 #: wp-content/themes/pub/fauna/template-sidenote.php:9
 msgid "(1 Comments)"
@@ -26929,7 +26846,6 @@ msgid "Your comment is awaiting moderation"
 msgstr "Ваш комментарий ожидает проверки"
 
 #: wp-content/themes/pub/freshy/comments.php:59
-#, fuzzy
 msgid "No responses yet"
 msgstr "Комментариев нет."
 
@@ -27314,15 +27230,13 @@ msgstr "(Далее)"
 
 #: wp-content/themes/pub/inove/404.php:8
 #: wp-content/themes/pub/inove/header.php:27
-#, fuzzy
 msgid "RSS 2.0 - all posts"
-msgstr "Показать все записи. "
+msgstr "RSS 2.0 - все записи"
 
 #: wp-content/themes/pub/inove/404.php:9
 #: wp-content/themes/pub/inove/header.php:28
-#, fuzzy
 msgid "RSS 2.0 - all comments"
-msgstr "RSS-лента комментариев"
+msgstr "RSS 2.0 - все комментарии"
 
 #: wp-content/themes/pub/inove/404.php:22
 #, fuzzy
@@ -27369,9 +27283,9 @@ msgstr "Записи с меткой &laquo;%s&raquo;"
 #: wp-content/themes/pub/inove/archive.php:25
 #: wp-content/themes/pub/inove/archive.php:28
 #: wp-content/themes/pub/inove/archive.php:31
-#, fuzzy, php-format
+#, php-format
 msgid "Archive for %1$s"
-msgstr "Архив для"
+msgstr "Архив %1$s"
 
 #: wp-content/themes/pub/inove/archive.php:51
 #: wp-content/themes/pub/inove/index.php:26
@@ -27380,29 +27294,25 @@ msgstr "Без комментариев"
 
 #: wp-content/themes/pub/inove/archive.php:51
 #: wp-content/themes/pub/inove/index.php:26
-#, fuzzy
 msgid "1 comment"
-msgstr "Комментарий"
+msgstr "1 комментарий"
 
 #: wp-content/themes/pub/inove/archive.php:51
 #: wp-content/themes/pub/inove/index.php:26
 #: wp-content/themes/pub/neat/comments.php:41
-#, fuzzy, php-format
 msgid "% comments"
-msgstr "Комментарии (%c)"
+msgstr "Комментарии (%)"
 
 #: wp-content/themes/pub/inove/archive.php:55
 #: wp-content/themes/pub/inove/index.php:30
-#, fuzzy
 msgid "Read more..."
-msgstr "(Далее)"
+msgstr "Читать дальше..."
 
 #: wp-content/themes/pub/inove/archive.php:59
 #: wp-content/themes/pub/inove/index.php:34
 #: wp-content/themes/pub/inove/single.php:29
-#, fuzzy
 msgid "Categories: "
-msgstr "Рубрики"
+msgstr "Рубрики:"
 
 #: wp-content/themes/pub/inove/archives.php:18
 #: wp-content/themes/pub/inove/links.php:26
