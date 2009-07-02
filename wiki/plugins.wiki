@@ -9,9 +9,4 @@
 
 Если у автора комментария нет [http://ru.gravatar.com/ Граватара], этот плагин случайным образом создает для него аватар (Identicon) из геометрических элементов (треугольников, квадратов, ромбов). Например, такой:
 
-<img src="http://l10n-ru.googlecode.com/svn/wiki/images/identicon-sample.png" height="60" width="60" alt="Образец Identicon">=======
-*[wpidenticon WP-Identicon]*
-
-Если у автора комментария нет [http://ru.gravatar.com/ Граватара], этот плагин случайным образом создает для него аватар (Identicon) из геометрических элементов (треугольников, квадратов, ромбов). Например, такой:
-
-<img src="http://l10n-ru.googlecode.com/svn/wiki/images/identicon-sample.png" height="60" width="60" alt="Образец Identicon">>>>>>>> .r37
+<img src="http://l10n-ru.googlecode.com/svn/wiki/images/identicon-sample.png" height="60" width="60" alt="Образец Identicon">
