@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP-CommentNavi 1.00\n"
+"Project-Id-Version: WP-CommentNavi 1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-02 22:25+0300\n"
-"PO-Revision-Date: 2009-07-02 22:31+0300\n"
+"POT-Creation-Date: 2009-07-02 22:37+0300\n"
+"PO-Revision-Date: 2009-07-02 22:38+0300\n"
 "Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -178,28 +178,28 @@ msgstr ""
 msgid "CommentNavi"
 msgstr "Список страниц комментариев"
 
-#: wp-commentnavi.php:163
+#: wp-commentnavi.php:194
 msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
 msgstr "Страница %CURRENT_PAGE% из %TOTAL_PAGES%"
 
-#: wp-commentnavi.php:166
+#: wp-commentnavi.php:197
 msgid "&laquo; First"
 msgstr "&laquo; Первая"
 
-#: wp-commentnavi.php:167
+#: wp-commentnavi.php:198
 msgid "Last &raquo;"
 msgstr "Последняя &raquo;"
 
-#: wp-commentnavi.php:168
+#: wp-commentnavi.php:199
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: wp-commentnavi.php:169
+#: wp-commentnavi.php:200
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: wp-commentnavi.php:170
-#: wp-commentnavi.php:171
+#: wp-commentnavi.php:201
+#: wp-commentnavi.php:202
 msgid "..."
 msgstr "..."
 
