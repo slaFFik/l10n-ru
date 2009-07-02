@@ -1,7 +1,7 @@
 #summary Описание плагина WP-RelativeDate.
 #labels Type-Plugin
 
-= WP-RelativeDate =
+= WP-!RelativeDate =
 
 *Автор:* [http://lesterchan.net/wordpress/readme/wp-relativedate.html Lester Chan]
 
