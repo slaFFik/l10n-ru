@@ -16451,12 +16451,12 @@ msgid "You are not allowed to scan for lost attachments."
 msgstr "Вам не разрешено искать потерянные вложения."
 
 #: wp-admin/upload.php:123
-#, fuzzy, php-format
+#, php-format
 msgid "Image (%s)"
 msgid_plural "Images (%s)"
 msgstr[0] "Изображение (%s)"
-msgstr[1] "Изображения"
-msgstr[2] "Изображения"
+msgstr[1] "Изображения (%s)"
+msgstr[2] "Изображения (%s)"
 
 #: wp-admin/upload.php:124
 #, fuzzy, php-format
@@ -19662,7 +19662,7 @@ msgstr "Видео WordPress.com на WordPress.tv"
 #: wp-content/themes/pub/journalist/footer.php:4
 #: wp-content/themes/pub/p2/functions.php:1426
 msgid "Blog at WordPress.com"
-msgstr "Заведите блог на WordPress.com"
+msgstr "Блог на WordPress.com"
 
 #: wp-content/blog-plugins/optimizations.php:35
 #: wp-includes/comment.php:475
@@ -27300,8 +27300,9 @@ msgstr "1 комментарий"
 #: wp-content/themes/pub/inove/archive.php:51
 #: wp-content/themes/pub/inove/index.php:26
 #: wp-content/themes/pub/neat/comments.php:41
+#, fuzzy, php-format
 msgid "% comments"
-msgstr "Комментарии (%)"
+msgstr "Комментарии (%c)"
 
 #: wp-content/themes/pub/inove/archive.php:55
 #: wp-content/themes/pub/inove/index.php:30
