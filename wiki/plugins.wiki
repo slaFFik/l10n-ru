@@ -1,3 +1,4 @@
 #summary Главная страница каталога плагинов
+#labels Featured
 
-[wp-identicon WP-IdentIcon]
+[wpidenticon WP-IdentIcon]
