@@ -3,4 +3,4 @@
 
 = Список плагинов по темам =
 == Идентификация ==
-[wpidenticon WP-IdentIcon]
+[plugins/wpidenticon WP-IdentIcon]
