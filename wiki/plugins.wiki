@@ -1,0 +1,3 @@
+#summary Главная страница каталога плагинов
+
+[wp-identicon WP-IdentIcon]
