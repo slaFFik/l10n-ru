@@ -1,4 +1,6 @@
 #summary Главная страница каталога плагинов
 #labels Featured
 
+= Список плагинов по темам =
+== Идентификация ==
 [wpidenticon WP-IdentIcon]
