@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP-PageNavi 2.31\n"
+"Project-Id-Version: WP-PageNavi 2.40\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-04 01:31+0300\n"
-"PO-Revision-Date: 2009-07-04 01:34+0300\n"
+"POT-Creation-Date: 2009-07-04 01:39+0300\n"
+"PO-Revision-Date: 2009-07-04 01:39+0300\n"
 "Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,8 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: pagenavi-options.php:46
-#: pagenavi-options.php:107
-#: pagenavi-options.php:171
+#: pagenavi-options.php:108
+#: pagenavi-options.php:172
 msgid "Page Navigation Options"
 msgstr "Настройки списка страниц"
 
@@ -30,7 +30,7 @@ msgid "No Page Navigation Option Updated"
 msgstr "Настройки списка страниц не изменились"
 
 #: pagenavi-options.php:62
-#: pagenavi-options.php:240
+#: pagenavi-options.php:241
 msgid "UNINSTALL WP-PageNavi"
 msgstr "УДАЛИТЬ WP-PageNavi"
 
@@ -45,7 +45,7 @@ msgid "Error deleting Setting Key '%s'."
 msgstr "Ошибка при удалении настройки &laquo;%s&raquo;."
 
 #: pagenavi-options.php:96
-#: pagenavi-options.php:208
+#: pagenavi-options.php:209
 msgid "Uninstall WP-PageNavi"
 msgstr "Удалить список страниц"
 
@@ -54,115 +54,115 @@ msgstr "Удалить список страниц"
 msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-PageNavi Will Be Deactivated Automatically."
 msgstr "<a href=\"%s\">Нажмите здесь</a> чтобы завершить удаление. WP-PageNavi будет отключён автоматически."
 
-#: pagenavi-options.php:108
+#: pagenavi-options.php:109
 msgid "Page Navigation Text"
 msgstr "Шаблоны списка страниц"
 
-#: pagenavi-options.php:111
+#: pagenavi-options.php:112
 msgid "Text For Number Of Pages"
 msgstr "Шаблон общего списка страниц"
 
-#: pagenavi-options.php:114
+#: pagenavi-options.php:115
 msgid "The current page number."
 msgstr "Номер текущей страницы."
 
-#: pagenavi-options.php:115
-#: pagenavi-options.php:136
-#: pagenavi-options.php:143
+#: pagenavi-options.php:116
+#: pagenavi-options.php:137
+#: pagenavi-options.php:144
 msgid "The total number of pages."
 msgstr "Общее количество страниц."
 
-#: pagenavi-options.php:119
+#: pagenavi-options.php:120
 msgid "Text For Current Page"
 msgstr "Элемент &laquo;Текущая страница&raquo;"
 
-#: pagenavi-options.php:122
-#: pagenavi-options.php:129
+#: pagenavi-options.php:123
+#: pagenavi-options.php:130
 msgid "The page number."
 msgstr "Номер страницы."
 
-#: pagenavi-options.php:126
+#: pagenavi-options.php:127
 msgid "Text For Page"
 msgstr "Элемент &laquo;Страница&raquo;"
 
-#: pagenavi-options.php:133
+#: pagenavi-options.php:134
 msgid "Text For First Post"
 msgstr "Элемент &laquo;Первая запись&raquo;"
 
-#: pagenavi-options.php:140
+#: pagenavi-options.php:141
 msgid "Text For Last Post"
 msgstr "Элемент &laquo;Последняя запись&raquo;"
 
-#: pagenavi-options.php:147
+#: pagenavi-options.php:148
 msgid "Text For Next Post"
 msgstr "Элемент &laquo;Следующая запись&raquo;"
 
-#: pagenavi-options.php:153
+#: pagenavi-options.php:154
 msgid "Text For Previous Post"
 msgstr "Элемент &laquo;Предыдущая запись&raquo;"
 
-#: pagenavi-options.php:159
+#: pagenavi-options.php:160
 msgid "Text For Next ..."
 msgstr "Элемент &laquo;Следующие&hellip;&raquo;"
 
-#: pagenavi-options.php:165
+#: pagenavi-options.php:166
 msgid "Text For Previous ..."
 msgstr "Элемент &laquo;Предыдущие&hellip;&raquo;"
 
-#: pagenavi-options.php:174
+#: pagenavi-options.php:175
 msgid "Page Navigation Style"
 msgstr "Стиль списка страниц"
 
-#: pagenavi-options.php:177
+#: pagenavi-options.php:178
 msgid "Normal"
 msgstr "Обычный"
 
-#: pagenavi-options.php:178
+#: pagenavi-options.php:179
 msgid "Drop Down List"
 msgstr "Выпадающий список"
 
-#: pagenavi-options.php:183
+#: pagenavi-options.php:184
 msgid "Number Of Pages To Show?"
 msgstr "Сколько страниц показывать?"
 
-#: pagenavi-options.php:189
+#: pagenavi-options.php:190
 msgid "Always Show Page Navigation?"
 msgstr "Всегда показывать список страниц?"
 
-#: pagenavi-options.php:192
-#: pagenavi-options.php:239
+#: pagenavi-options.php:193
+#: pagenavi-options.php:240
 msgid "Yes"
 msgstr "Да"
 
-#: pagenavi-options.php:193
+#: pagenavi-options.php:194
 msgid "No"
 msgstr "Нет"
 
-#: pagenavi-options.php:199
+#: pagenavi-options.php:200
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: pagenavi-options.php:210
+#: pagenavi-options.php:211
 msgid "Deactivating WP-PageNavi plugin does not remove any data that may have been created, such as the page navigation options. To completely remove this plugin, you can uninstall it here."
 msgstr "При отключении плагина отображения списка страниц созданные данные, включая настройки, не удаляются. Для того, чтобы полностью удалить плагин, отмените здесь его установку."
 
-#: pagenavi-options.php:213
+#: pagenavi-options.php:214
 msgid "WARNING:"
 msgstr "ВНИМАНИЕ:"
 
-#: pagenavi-options.php:214
+#: pagenavi-options.php:215
 msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
 msgstr "Удаление плагина необратимо. Для того, чтобы создать резервную копию БД WordPress и сохранить ваши данные, используйте плагин &laquo;Database Backup&raquo;."
 
-#: pagenavi-options.php:217
+#: pagenavi-options.php:218
 msgid "The following WordPress Options will be DELETED:"
 msgstr "Будут УДАЛЕНЫ следующие настройки WordPress:"
 
-#: pagenavi-options.php:222
+#: pagenavi-options.php:223
 msgid "WordPress Options"
 msgstr "Настройки WordPress"
 
-#: pagenavi-options.php:240
+#: pagenavi-options.php:241
 msgid ""
 "You Are About To Uninstall WP-PageNavi From WordPress.\\n"
 "This Action Is Not Reversible.\\n"
@@ -174,32 +174,32 @@ msgstr ""
 "\\n"
 "Чтобы остановить удаление, выберите [Отмена]. Выберите [OK], если  вы хотите его продолжить."
 
-#: wp-pagenavi.php:61
+#: wp-pagenavi.php:42
 msgid "PageNavi"
 msgstr "Список страниц"
 
-#: wp-pagenavi.php:197
+#: wp-pagenavi.php:179
 msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
 msgstr "Страница %CURRENT_PAGE% из %TOTAL_PAGES%"
 
-#: wp-pagenavi.php:200
+#: wp-pagenavi.php:182
 msgid "&laquo; First"
 msgstr "&laquo; Первая"
 
-#: wp-pagenavi.php:201
+#: wp-pagenavi.php:183
 msgid "Last &raquo;"
 msgstr "Последняя &raquo;"
 
-#: wp-pagenavi.php:202
+#: wp-pagenavi.php:184
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: wp-pagenavi.php:203
+#: wp-pagenavi.php:185
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: wp-pagenavi.php:204
-#: wp-pagenavi.php:205
+#: wp-pagenavi.php:186
+#: wp-pagenavi.php:187
 msgid "..."
 msgstr "..."
 
