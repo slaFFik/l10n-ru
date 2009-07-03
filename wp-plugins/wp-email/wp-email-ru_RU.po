@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP-EMail 2.40\n"
+"Project-Id-Version: WP-EMail 2.50\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-03 22:28+0300\n"
-"PO-Revision-Date: 2009-07-03 22:43+0300\n"
+"POT-Creation-Date: 2009-07-03 22:53+0300\n"
+"PO-Revision-Date: 2009-07-03 23:34+0300\n"
 "Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -93,18 +93,18 @@ msgid "An Error Has Occured While Deleting All E-Mail Logs."
 msgstr "При удалении журналов произошла ошибка."
 
 #: email-manager.php:126
-#: wp-email.php:567
-#: wp-email.php:704
-#: wp-email.php:1003
-#: wp-email.php:1040
-#: wp-email.php:1251
+#: wp-email.php:586
+#: wp-email.php:733
+#: wp-email.php:1031
+#: wp-email.php:1068
+#: wp-email.php:1283
 msgid "Success"
 msgstr "Отправлено"
 
 #: email-manager.php:127
-#: wp-email.php:718
-#: wp-email.php:1015
-#: wp-email.php:1252
+#: wp-email.php:747
+#: wp-email.php:1043
+#: wp-email.php:1284
 msgid "Failed"
 msgstr "Не отправлено"
 
@@ -232,7 +232,7 @@ msgid "Are You Sure You Want To Delete All E-Mail Logs?"
 msgstr "Вы уверены, что хотите удалить все журналы рассылок?"
 
 #: email-manager.php:366
-#: email-options.php:306
+#: email-options.php:305
 #: email-uninstall.php:133
 msgid "Yes"
 msgstr "Да"
@@ -330,17 +330,17 @@ msgid "No E-Mail Option Updated"
 msgstr "Настройки не изменились"
 
 #: email-options.php:122
-#: wp-email.php:1339
+#: wp-email.php:1470
 msgid "E-Mail '%EMAIL_POST_TITLE%' To A Friend"
 msgstr "Отправить &laquo;%EMAIL_POST_TITLE%&raquo; другу"
 
 #: email-options.php:125
-#: wp-email.php:1340
+#: wp-email.php:1471
 msgid "Email a copy of <strong>'%EMAIL_POST_TITLE%'</strong> to a friend"
 msgstr "Отправить другу копию записи <strong>&laquo;%EMAIL_POST_TITLE%&raquo;</strong>"
 
 #: email-options.php:128
-#: wp-email.php:1314
+#: wp-email.php:1445
 msgid "Recommended Article By %EMAIL_YOUR_NAME%: %EMAIL_POST_TITLE%"
 msgstr "%EMAIL_YOUR_NAME% рекомендует эту статью: %EMAIL_POST_TITLE%"
 
@@ -379,353 +379,353 @@ msgid "Article: <strong>%EMAIL_POST_TITLE%</strong> has been sent to <strong>%EM
 msgstr "Запись <strong>%EMAIL_POST_TITLE%</strong> отправлена этим адресатам: <strong>%EMAIL_FRIEND_NAME% (%EMAIL_FRIEND_EMAIL%)</strong>"
 
 #: email-options.php:137
-#: wp-email.php:1325
+#: wp-email.php:1456
 msgid "Back to %EMAIL_POST_TITLE%"
 msgstr "Назад к %EMAIL_POST_TITLE%"
 
 #: email-options.php:140
-#: wp-email.php:1326
+#: wp-email.php:1457
 msgid "An error has occurred when trying to send this email: "
 msgstr "При попытке отправить письмо произошла ошибка:"
 
 #: email-options.php:143
-#: wp-email.php:1327
+#: wp-email.php:1458
 msgid "An error has occurred: "
 msgstr "Произошла ошибка:"
 
-#: email-options.php:167
+#: email-options.php:166
 #: wp-email.php:66
 msgid "E-Mail Options"
 msgstr "Настройка рассылки"
 
-#: email-options.php:168
+#: email-options.php:167
 msgid "SMTP Settings"
 msgstr "Параметры SMTP"
 
-#: email-options.php:171
+#: email-options.php:170
 msgid "SMTP Username:"
 msgstr "Имя пользователя:"
 
-#: email-options.php:175
+#: email-options.php:174
 msgid "SMTP Password:"
 msgstr "Пароль:"
 
-#: email-options.php:179
+#: email-options.php:178
 msgid "SMTP Server:"
 msgstr "Сервер SMTP:"
 
-#: email-options.php:180
+#: email-options.php:179
 msgid "You may leave the above fields blank if you do not use a SMTP server."
 msgstr "Если вы не используете SMTP-сервер, оставьте эти поля пустыми."
 
-#: email-options.php:183
+#: email-options.php:182
 msgid "E-Mail Styles"
 msgstr "Параметры ссылки для отправки записи или страницы по электронной почте"
 
-#: email-options.php:186
+#: email-options.php:185
 msgid "E-Mail Text Link For Post"
 msgstr "Ссылка для записи:"
 
-#: email-options.php:192
+#: email-options.php:191
 msgid "E-Mail Text Link For Page"
 msgstr "Ссылка для страницы:"
 
-#: email-options.php:198
+#: email-options.php:197
 msgid "E-Mail Icon"
 msgstr "Иконка:"
 
-#: email-options.php:227
+#: email-options.php:226
 msgid "E-Mail Link Type"
 msgstr "Тип ссылки:"
 
-#: email-options.php:230
+#: email-options.php:229
 msgid "E-Mail Standalone Page"
 msgstr "Отдельная страница"
 
-#: email-options.php:231
+#: email-options.php:230
 msgid "E-Mail Popup"
 msgstr "Всплывающее окно"
 
-#: email-options.php:236
+#: email-options.php:235
 msgid "E-Mail Text Link Style"
 msgstr "Стиль ссылки:"
 
-#: email-options.php:239
+#: email-options.php:238
 msgid "E-Mail Icon With Text Link"
 msgstr "Иконка и текст"
 
-#: email-options.php:240
+#: email-options.php:239
 msgid "E-Mail Icon Only"
 msgstr "Только иконка"
 
-#: email-options.php:241
+#: email-options.php:240
 msgid "E-Mail Text Link Only"
 msgstr "Только текст"
 
-#: email-options.php:242
+#: email-options.php:241
 msgid "Custom"
 msgstr "Произвольный стиль"
 
-#: email-options.php:246
+#: email-options.php:245
 msgid "HTML is allowed."
 msgstr "HTML разрешён."
 
-#: email-options.php:247
+#: email-options.php:246
 msgid "URL to the email post/page."
 msgstr "URL страницы для отправки письма."
 
-#: email-options.php:248
+#: email-options.php:247
 msgid "It will produce the onclick html code which is nescassary for popup."
 msgstr "HTML-код, необходимый для создания всплывающего окна."
 
-#: email-options.php:249
+#: email-options.php:248
 msgid "Example Popup Template:"
 msgstr "Пример шаблона с всплывающим окном:"
 
-#: email-options.php:251
+#: email-options.php:250
 msgid "E-Mail text link of the post/page that you have typed in above."
 msgstr "Указанный выше текст ссылки для страницы или записи."
 
-#: email-options.php:252
+#: email-options.php:251
 msgid "URL to the email icon you have chosen above."
 msgstr "URL выбранной иконки."
 
-#: email-options.php:253
-#: email-options.php:362
-#: email-options.php:377
-#: email-options.php:398
-#: email-options.php:420
-#: email-options.php:442
-#: email-options.php:460
-#: email-options.php:475
-#: email-options.php:490
+#: email-options.php:252
+#: email-options.php:361
+#: email-options.php:376
+#: email-options.php:397
+#: email-options.php:419
+#: email-options.php:441
+#: email-options.php:459
+#: email-options.php:474
+#: email-options.php:489
 msgid "Restore Default Template"
 msgstr "Восстановить стандартный шаблон"
 
-#: email-options.php:258
+#: email-options.php:257
 msgid "E-Mail Settings"
 msgstr "Параметры писем"
 
-#: email-options.php:261
+#: email-options.php:260
 msgid "E-Mail Fields:"
 msgstr "Используемые поля:"
 
-#: email-options.php:263
+#: email-options.php:262
 msgid "Your Name"
 msgstr "Ваше имя"
 
-#: email-options.php:264
+#: email-options.php:263
 msgid "Your E-Mail"
 msgstr "Ваш e-mail"
 
-#: email-options.php:265
+#: email-options.php:264
 msgid "Your Remarks"
 msgstr "Ваше сообщение"
 
-#: email-options.php:266
+#: email-options.php:265
 msgid "Friend's Name"
 msgstr "Имя вашего друга"
 
-#: email-options.php:267
+#: email-options.php:266
 msgid "Friend's E-Mail"
 msgstr "E-mail вашего друга"
 
-#: email-options.php:271
+#: email-options.php:270
 msgid "E-Mail Content Type:"
 msgstr "Формат:"
 
-#: email-options.php:274
+#: email-options.php:273
 msgid "Plain Text"
 msgstr "Текст"
 
-#: email-options.php:275
+#: email-options.php:274
 msgid "HTML"
 msgstr "HTML"
 
-#: email-options.php:280
+#: email-options.php:279
 msgid "Method Used To Send E-Mail:"
 msgstr "Способ отправки:"
 
-#: email-options.php:283
+#: email-options.php:282
 msgid "PHP"
 msgstr "PHP"
 
-#: email-options.php:284
+#: email-options.php:283
 msgid "SendMail"
 msgstr "SendMail"
 
-#: email-options.php:285
+#: email-options.php:284
 msgid "SMTP"
 msgstr "SMTP"
 
-#: email-options.php:287
-msgid "If you ARE NOT using a smtp server of if there is a problem sending out email using your smtp server. Please Choose PHP or Send Mail."
-msgstr "Если вы НЕ ИСПОЛЬЗУЕТЕ SMTP-сервер или если у вас возникли проблемы с отправкой почты, выберите PHP или SendMail"
+#: email-options.php:286
+msgid "If you ARE NOT using a smtp server or if there is a problem sending out email using your smtp server. Please Choose PHP or Send Mail."
+msgstr "Если вы НЕ ИСПОЛЬЗУЕТЕ SMTP-сервер или если у вас возникли проблемы с отправкой почты, выберите PHP или SendMail."
 
-#: email-options.php:291
+#: email-options.php:290
 msgid "No. Of Words Before Cutting Off:"
 msgstr "Размер фрагмента текста (в словах):"
 
-#: email-options.php:292
+#: email-options.php:291
 msgid "Setting this value more than 0 will enable the snippet feature. This feature will allow you to send a portion (defined by the text field above) of the article to your friend instead of the whole article."
 msgstr "Если это значение больше 0, в письмо будет добавлен только фрагмент записи или страницы, а не весь текст целиком. Вы можете указать количество слов, которые попадут в отсылаемый фрагмент."
 
-#: email-options.php:295
+#: email-options.php:294
 msgid "Interval Between E-Mails:"
 msgstr "Интервал отправки:"
 
-#: email-options.php:296
+#: email-options.php:295
 msgid "Mins"
 msgstr "минут"
 
-#: email-options.php:296
+#: email-options.php:295
 msgid "It allows you to specify the interval in minutes between each email sent per user based on IP to prevent spam and flood."
 msgstr "Для того, чтобы избежать спама и массовых рассылок, установите интервал отправки писем (в минутах). Отслеживание интервалов осуществляется по IP-адресу посетителя."
 
-#: email-options.php:299
+#: email-options.php:298
 msgid "Max Number Of Multiple E-Mails:"
 msgstr "Максимальное количество адресатов:"
 
-#: email-options.php:300
+#: email-options.php:299
 msgid "Setting this value more than 1 will enable this feature. It allows the maximum number of multiple e-mails that can be send at one go."
 msgstr "Если это значение больше 1, то будет включена функция множественной рассылки. Вы сможете отправить одно письмо сразу нескольким адресатам."
 
-#: email-options.php:303
+#: email-options.php:302
 msgid "Enable Image Verification:"
 msgstr "Использовать код подтверждения:"
 
-#: email-options.php:307
+#: email-options.php:306
 msgid "No"
 msgstr "Нет"
 
-#: email-options.php:308
+#: email-options.php:307
 msgid "It is recommanded to choose <strong>Yes</strong> unless your server does not support PHP GD Library."
 msgstr "Если на вашем сервере установлена PHP‑библиотека GD, рекомендуется выбрать <strong>Да</strong>."
 
-#: email-options.php:313
+#: email-options.php:312
 msgid "Template Variables"
 msgstr "Переменные шаблона"
 
-#: email-options.php:316
+#: email-options.php:315
 msgid "Display the sender's name"
 msgstr "Показать имя отправителя"
 
-#: email-options.php:317
+#: email-options.php:316
 msgid "Display the post's title"
 msgstr "Показать заголовок записи"
 
-#: email-options.php:320
+#: email-options.php:319
 msgid "Display the sender's email"
 msgstr "Показать e-mail отправителя"
 
-#: email-options.php:321
+#: email-options.php:320
 msgid "Display the post's author"
 msgstr "Показать автора записи"
 
-#: email-options.php:324
+#: email-options.php:323
 msgid "Display the sender's remarks"
 msgstr "Показать сообщение отправителя"
 
-#: email-options.php:325
+#: email-options.php:324
 msgid "Display the post's date"
 msgstr "Показать дату записи"
 
-#: email-options.php:328
+#: email-options.php:327
 msgid "Display the friend's name"
 msgstr "Показать имя вашего друга"
 
-#: email-options.php:329
+#: email-options.php:328
 msgid "Display the post's category"
 msgstr "Показать рубрику записи"
 
-#: email-options.php:332
+#: email-options.php:331
 msgid "Display the friend's email"
 msgstr "Показать e-mail вашего друга"
 
-#: email-options.php:333
+#: email-options.php:332
 msgid "Display the post's excerpt"
 msgstr "Показать отрывок из записи"
 
-#: email-options.php:336
+#: email-options.php:335
 msgid "Display the error message"
 msgstr "Показать сообщение об ошибке"
 
-#: email-options.php:337
+#: email-options.php:336
 msgid "Display the post's content"
 msgstr "Показать содержимое записи"
 
-#: email-options.php:340
+#: email-options.php:339
 msgid "Display the blog's name"
 msgstr "Показать название журнала"
 
-#: email-options.php:341
+#: email-options.php:340
 msgid "Display the permalink of the post"
 msgstr "Показать ссылку на запись"
 
-#: email-options.php:344
+#: email-options.php:343
 msgid "Display the blog's url"
 msgstr "Показать URL записи"
 
-#: email-options.php:349
+#: email-options.php:348
 msgid "E-Mail Page Templates"
 msgstr "Шаблон страницы отправки писем"
 
-#: email-options.php:353
+#: email-options.php:352
 msgid "E-Mail Page Title:"
 msgstr "Заголовок страницы:"
 
-#: email-options.php:354
-#: email-options.php:369
-#: email-options.php:388
-#: email-options.php:405
-#: email-options.php:427
-#: email-options.php:453
-#: email-options.php:467
-#: email-options.php:485
+#: email-options.php:353
+#: email-options.php:368
+#: email-options.php:387
+#: email-options.php:404
+#: email-options.php:426
+#: email-options.php:452
+#: email-options.php:466
+#: email-options.php:484
 msgid "Allowed Variables:"
 msgstr "Допустимые переменные:"
 
-#: email-options.php:368
+#: email-options.php:367
 msgid "E-Mail Page Subtitle:"
 msgstr "Подзаголовок страницы:"
 
-#: email-options.php:383
+#: email-options.php:382
 msgid "E-Mail Templates"
 msgstr "Шаблоны писем"
 
-#: email-options.php:387
+#: email-options.php:386
 msgid "E-Mail Subject:"
 msgstr "Тема письма:"
 
-#: email-options.php:404
+#: email-options.php:403
 msgid "E-Mail Body:"
 msgstr "Тело письма (HTML):"
 
-#: email-options.php:426
+#: email-options.php:425
 msgid "E-Mail Alternate Body:"
 msgstr "Тело письма (Текст):"
 
-#: email-options.php:448
+#: email-options.php:447
 msgid "After Sending E-Mail Templates"
 msgstr "Шаблоны отчета об отправке"
 
-#: email-options.php:452
+#: email-options.php:451
 msgid "Sent Successfully:"
 msgstr "Письмо отправлено:"
 
-#: email-options.php:466
+#: email-options.php:465
 msgid "Sent Failed:"
 msgstr "Письмо НЕ ОТПРАВЛЕНО:"
 
-#: email-options.php:480
+#: email-options.php:479
 msgid "E-Mail Misc Templates"
 msgstr "Дополнительные шаблоны"
 
-#: email-options.php:484
+#: email-options.php:483
 msgid "E-Mail Error:"
 msgstr "Произошла ошибка:"
 
-#: email-options.php:496
+#: email-options.php:495
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
@@ -804,76 +804,36 @@ msgstr ""
 "\\n"
 "Чтобы остановить удаление, выберите [Отмена]. Выберите [OK], если  вы хотите его продолжить."
 
-#: wp-email-widget.php:55
-msgid "Most Emailed"
-msgstr "Самые рассылаемые"
-
-#: wp-email-widget.php:65
-msgid "Title"
-msgstr "Заголовок"
-
-#: wp-email-widget.php:68
-msgid "Show Views For: "
-msgstr "Показать данные для:"
-
-#: wp-email-widget.php:74
-msgid "Posts &amp; Pages"
-msgstr "Записей и страниц"
-
-#: wp-email-widget.php:79
-msgid "Posts"
-msgstr "Записей"
-
-#: wp-email-widget.php:84
-msgid "Pages"
-msgstr "Страниц"
-
-#: wp-email-widget.php:87
-msgid "Only"
-msgstr " "
-
-#: wp-email-widget.php:90
-msgid "Limit"
-msgstr "Ограничение"
-
-#: wp-email-widget.php:93
-msgid "Post Title Length (Characters)"
-msgstr "Длина заголовка записи (в символах)"
-
-#: wp-email-widget.php:95
-msgid "(<strong>0</strong> to disable)"
-msgstr "(<strong>0</strong> &mdash; отключить)"
-
 #: wp-email.php:62
-#: wp-email.php:384
+#: wp-email.php:395
 msgid "E-Mail"
 msgstr "Рассылка записей"
 
-#: wp-email.php:162
+#: wp-email.php:179
 msgid "The Following Error Occurs:"
 msgstr "Произошли следующие ошибки:"
 
-#: wp-email.php:163
+#: wp-email.php:180
 msgid "- Your Name is empty/invalid"
 msgstr "- Вы не указали ваше имя или указали его неправильно"
 
-#: wp-email.php:164
+#: wp-email.php:181
 msgid "- Your Email is empty/invalid"
 msgstr "- Вы не указали ваш e-mail или указали его неправильно"
 
-#: wp-email.php:165
+#: wp-email.php:182
 msgid "- Your Remarks is invalid"
 msgstr "- Вы неправильно ввели сообщение"
 
-#: wp-email.php:166
+#: wp-email.php:183
 msgid "- Friend Name(s) is empty"
 msgstr "- Вы не указали имя вашего друга"
 
-#: wp-email.php:167
-msgid "- Friend Name is empty/invalid:"
-msgstr "- Имя вашего друга не указано или указано неправильно"
+#: wp-email.php:184
+msgid "- Friend Name is empty/invalid: "
+msgstr "- Имя вашего друга не указано или указано неправильно:"
 
-#: wp-email.php:168
+#: wp-email.php:185
 #, php-format
 msgid "- Maximum %s Friend Name allowed"
 msgid_plural "- Maximum %s Friend Names allowed"
@@ -881,15 +841,15 @@ msgstr[0] "- Разрешено указать только %s адресата"
 msgstr[1] "- Разрешено указать только %s адресатов"
 msgstr[2] "- Разрешено указать не более %s адресатов"
 
-#: wp-email.php:169
+#: wp-email.php:186
 msgid "- Friend Email(s) is empty"
 msgstr "- Вы не указали e-mail вашего друга"
 
-#: wp-email.php:170
-msgid "- Friend Email is invalid:"
-msgstr "- Вы неправильно ввели e-mail вашего друга"
+#: wp-email.php:187
+msgid "- Friend Email is invalid: "
+msgstr "- Вы неправильно ввели e-mail вашего друга:"
 
-#: wp-email.php:171
+#: wp-email.php:188
 #, php-format
 msgid "- Maximum %s Friend Email allowed"
 msgid_plural "- Maximum %s Friend Emails allowed"
@@ -897,39 +857,39 @@ msgstr[0] "- Разрешено указать только %s адрес эле
 msgstr[1] "- Разрешено указать только %s адреса электронной почты"
 msgstr[2] "- Разрешено указать не более %s адресов электронной почты"
 
-#: wp-email.php:172
+#: wp-email.php:189
 msgid "- Friend Name(s) count does not tally with Friend Email(s) count"
 msgstr "- Количество указанных имен не совпадает с количеством указанных адресов электронной почты"
 
-#: wp-email.php:173
+#: wp-email.php:190
 msgid "- Image Verification is empty"
 msgstr "- Вы не указали проверочный код"
 
-#: wp-email.php:323
+#: wp-email.php:321
 msgid "Note: There is an email link embedded within this post, please visit this post to email it."
 msgstr "Примечание: к этой записи прикреплена ссылка, с помощью которой можно отправить копию текста на указанный адрес электронной почты. Чтобы воспользоваться этой ссылкой, зайдите на сайт."
 
-#: wp-email.php:403
+#: wp-email.php:414
 #, php-format
 msgid "Protected: %s"
 msgstr "Защищено: %s"
 
-#: wp-email.php:405
+#: wp-email.php:416
 #, php-format
 msgid "Private: %s"
 msgstr "Личное: %s"
 
-#: wp-email.php:417
-#: wp-email.php:815
-#: wp-email.php:1076
+#: wp-email.php:428
+#: wp-email.php:843
+#: wp-email.php:1100
 msgid ","
 msgstr ","
 
-#: wp-email.php:472
+#: wp-email.php:483
 msgid "Password Protected Post"
 msgstr "Запись защищена паролем"
 
-#: wp-email.php:676
+#: wp-email.php:705
 #, php-format
 msgid "Separate multiple entries with a comma. Maximum %s entry."
 msgid_plural "Separate multiple entries with a comma. Maximum %s entries."
@@ -937,8 +897,8 @@ msgstr[0] "Разделяйте значения запятыми. Разреш�
 msgstr[1] "Разделяйте значения запятыми. Разрешено использовать %s значения."
 msgstr[2] "Разделяйте значения запятыми. Разрешено использовать до %s значений."
 
-#: wp-email.php:746
-#: wp-email.php:752
+#: wp-email.php:775
+#: wp-email.php:781
 #, php-format
 msgid "%s email"
 msgid_plural "%s emails"
@@ -946,61 +906,61 @@ msgstr[0] "%s письмо"
 msgstr[1] "%s письма"
 msgstr[2] "%s писем"
 
-#: wp-email.php:756
-#: wp-email.php:928
-#: wp-email.php:1014
+#: wp-email.php:785
+#: wp-email.php:956
+#: wp-email.php:1042
 msgid "N/A"
 msgstr "Н/Д"
 
-#: wp-email.php:840
+#: wp-email.php:868
 msgid "Your Name is empty"
 msgstr "Вы не указали своё имя"
 
-#: wp-email.php:843
+#: wp-email.php:871
 msgid "Your Name is invalid"
 msgstr "Вы указали неправильное имя"
 
-#: wp-email.php:849
+#: wp-email.php:877
 msgid "Your Email is empty"
 msgstr "Вы не указали свой e-mail"
 
-#: wp-email.php:852
+#: wp-email.php:880
 msgid "Your Email is invalid"
 msgstr "Вы указали неправильный e-mail"
 
-#: wp-email.php:858
+#: wp-email.php:886
 msgid "Your Remarks is invalid"
 msgstr "Вы неправильно ввели сообщение"
 
-#: wp-email.php:864
+#: wp-email.php:892
 msgid "Friend Name(s) is empty"
 msgstr "Вы не указали имя вашего друга"
 
-#: wp-email.php:870
+#: wp-email.php:898
 #, php-format
 msgid "Friend Name is empty: %s"
 msgstr "Не указано имя вашего друга: %s"
 
-#: wp-email.php:872
+#: wp-email.php:900
 #, php-format
 msgid "Friend Name is invalid: %s"
 msgstr "Имя друга указано неправильно: %s"
 
-#: wp-email.php:886
+#: wp-email.php:914
 msgid "Friend Email(s) is empty"
 msgstr "Вы не указали e-mail вашего друга"
 
-#: wp-email.php:892
+#: wp-email.php:920
 #, php-format
 msgid "Friend Email is empty: %s"
 msgstr "Не указан адрес e-mail вашего друга: %s"
 
-#: wp-email.php:894
+#: wp-email.php:922
 #, php-format
 msgid "Friend Email is invalid: %s"
 msgstr "E-mail вашего друга указан неправильно: %s"
 
-#: wp-email.php:907
+#: wp-email.php:935
 #, php-format
 msgid "Maximum %s Friend allowed"
 msgid_plural "Maximum %s Friend(s) allowed"
@@ -1008,55 +968,55 @@ msgstr[0] "Разрешено указать только %s адресата"
 msgstr[1] "Разрешено указать только %s адресатов"
 msgstr[2] "Разрешено указать не более %s адресатов"
 
-#: wp-email.php:911
+#: wp-email.php:939
 msgid "Friend Name(s) count does not tally with Friend Email(s) count"
 msgstr "Количество указанных имен не совпадает с количеством указанных адресов электронной почты"
 
-#: wp-email.php:918
+#: wp-email.php:946
 msgid "Image Verification is empty"
 msgstr "Вы не ввели проверочный код"
 
-#: wp-email.php:921
+#: wp-email.php:949
 msgid "Image Verification failed"
 msgstr "Неправильный проверочный код"
 
-#: wp-email.php:1107
+#: wp-email.php:1134
 msgid "* Required Field"
 msgstr "* обязательное поле"
 
-#: wp-email.php:1110
+#: wp-email.php:1137
 msgid "Your Name: *"
 msgstr "Ваше имя: *"
 
-#: wp-email.php:1116
+#: wp-email.php:1143
 msgid "Your E-Mail: *"
 msgstr "Ваш e-mail: *"
 
-#: wp-email.php:1122
+#: wp-email.php:1149
 msgid "Your Remark:"
 msgstr "Ваше сообщение:"
 
-#: wp-email.php:1128
+#: wp-email.php:1155
 msgid "Friend's Name: *"
 msgstr "Имя вашего друга: *"
 
-#: wp-email.php:1133
+#: wp-email.php:1160
 msgid "Friend's E-Mail: *"
 msgstr "E-mail вашего друга: *"
 
-#: wp-email.php:1138
+#: wp-email.php:1165
 msgid "Image Verification: *"
 msgstr "Введите код: *"
 
-#: wp-email.php:1139
+#: wp-email.php:1166
 msgid "E-Mail Image Verification"
 msgstr "Код подтверждения"
 
-#: wp-email.php:1142
+#: wp-email.php:1169
 msgid "     Mail It!     "
 msgstr "     Отправить!     "
 
-#: wp-email.php:1148
+#: wp-email.php:1175
 #, php-format
 msgid "Please wait for <strong>%s Minute</strong> before sending the next article."
 msgid_plural "Please wait for <strong>%s Minutes</strong> before sending the next article."
@@ -1064,19 +1024,19 @@ msgstr[0] "Пожалуйста, подождите <strong>%s минуту</str
 msgstr[1] "Пожалуйста, подождите <strong>%s минуты</strong> прежде чем отсылать еще одну запись."
 msgstr[2] "Пожалуйста, подождите <strong>%s минут</strong> прежде чем отсылать еще одну запись."
 
-#: wp-email.php:1150
+#: wp-email.php:1177
 msgid "Loading"
 msgstr "Загрузка"
 
-#: wp-email.php:1213
-#: wp-email.php:1215
-#: wp-email.php:1248
+#: wp-email.php:1240
+#: wp-email.php:1242
+#: wp-email.php:1280
 msgid "WP-EMail"
 msgstr "Рассылка записей по электронной почте"
 
-#: wp-email.php:1226
-#: wp-email.php:1228
-#: wp-email.php:1264
+#: wp-email.php:1253
+#: wp-email.php:1255
+#: wp-email.php:1296
 #, php-format
 msgid "%s Most Emailed Post"
 msgid_plural "%s Most Emailed Posts"
@@ -1084,7 +1044,17 @@ msgstr[0] "%s самая рассылаемая запись"
 msgstr[1] "%s самых рассылаемых записи"
 msgstr[2] "%s самых рассылаемых записей"
 
-#: wp-email.php:1250
+#: wp-email.php:1258
+#: wp-email.php:1260
+#: wp-email.php:1302
+#, php-format
+msgid "%s Most Emailed Page"
+msgid_plural "%s Most Emailed Pages"
+msgstr[0] "%s самая рассылаемая запись"
+msgstr[1] "%s самых рассылаемых записи"
+msgstr[2] "%s самых рассылаемых записей"
+
+#: wp-email.php:1282
 #, php-format
 msgid "<strong>%s</strong> email was sent."
 msgid_plural "<strong>%s</strong> emails were sent."
@@ -1092,7 +1062,7 @@ msgstr[0] "отправлено %s письмо."
 msgstr[1] "отправлено %s письма."
 msgstr[2] "отправлено %s писем."
 
-#: wp-email.php:1251
+#: wp-email.php:1283
 #, php-format
 msgid "<strong>%s</strong> email was sent successfully."
 msgid_plural "<strong>%s</strong> emails were sent successfully."
@@ -1100,7 +1070,7 @@ msgstr[0] "%s письмо отправлено успешно."
 msgstr[1] "%s письма отправлено успешно."
 msgstr[2] "%s писем отправлено успешно."
 
-#: wp-email.php:1252
+#: wp-email.php:1284
 #, php-format
 msgid "<strong>%s</strong> email failed to send."
 msgid_plural "<strong>%s</strong> emails failed to send."
@@ -1109,10 +1079,62 @@ msgstr[1] "%s ошибки при отправке писем."
 msgstr[2] "%s ошибок при отправке писем."
 
 #: wp-email.php:1315
+msgid "WP-EMail emails statistics"
+msgstr "Статистика рассылки записей по электронной почте"
+
+#: wp-email.php:1316
+msgid "Email"
+msgstr "Рассылка записей"
+
+#: wp-email.php:1357
+msgid "EMail"
+msgstr "Рассылка Записей"
+
+#: wp-email.php:1366
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: wp-email.php:1369
+msgid "Statistics Type:"
+msgstr "Тип статистики:"
+
+#: wp-email.php:1371
+msgid "Most Emailed"
+msgstr "Самые рассылаемые"
+
+#: wp-email.php:1376
+msgid "Include Views From:"
+msgstr "Включить данные:"
+
+#: wp-email.php:1378
+msgid "Posts &amp; Pages"
+msgstr "Записей и страниц"
+
+#: wp-email.php:1379
+msgid "Posts Only"
+msgstr "Записей"
+
+#: wp-email.php:1380
+msgid "Pages Only"
+msgstr "Страниц"
+
+#: wp-email.php:1385
+msgid "No. Of Records To Show:"
+msgstr "Сколько записей показывать:"
+
+#: wp-email.php:1388
+msgid "Maximum Post Title Length (Characters):"
+msgstr "Длина заголовка записи (в символах):"
+
+#: wp-email.php:1389
+msgid "<strong>0</strong> to disable."
+msgstr "<strong>0</strong> &mdash; отключить"
+
+#: wp-email.php:1446
 msgid "<p>Hi <strong>%EMAIL_FRIEND_NAME%</strong>,<br />Your friend, <strong>%EMAIL_YOUR_NAME%</strong>, has recommended this article entitled '<strong>%EMAIL_POST_TITLE%</strong>' to you.</p><p><strong>Here is his/her remark:</strong><br />%EMAIL_YOUR_REMARKS%</p><p><strong>%EMAIL_POST_TITLE%</strong><br />Posted By %EMAIL_POST_AUTHOR% On %EMAIL_POST_DATE% In %EMAIL_POST_CATEGORY%</p>%EMAIL_POST_CONTENT%<p>Article taken from %EMAIL_BLOG_NAME% - <a href=\"%EMAIL_BLOG_URL%\">%EMAIL_BLOG_URL%</a><br />URL to article: <a href=\"%EMAIL_PERMALINK%\">%EMAIL_PERMALINK%</a></p>"
 msgstr "<p>Здравствуй, <strong>%EMAIL_FRIEND_NAME%</strong>,<br />Твой друг, <strong>%EMAIL_YOUR_NAME%</strong>, рекомендует тебе эту запись: &laquo;<strong>%EMAIL_POST_TITLE%</strong>&raquo;.</p><p><strong>Вот его(её) сообщение:</strong><br />%EMAIL_YOUR_REMARKS%</p><p><strong>%EMAIL_POST_TITLE%</strong><br />Автор - %EMAIL_POST_AUTHOR%. Запись опубликована %EMAIL_POST_DATE% в рубрике %EMAIL_POST_CATEGORY%</p>%EMAIL_POST_CONTENT%<p>Запись находится на сайте %EMAIL_BLOG_NAME% &mdash; <a href=\"%EMAIL_BLOG_URL%\">%EMAIL_BLOG_URL%</a><br />URL записи: <a href=\"%EMAIL_PERMALINK%\">%EMAIL_PERMALINK%</a></p>"
 
-#: wp-email.php:1316
+#: wp-email.php:1447
 msgid ""
 "Hi %EMAIL_FRIEND_NAME%,\n"
 "Your friend, %EMAIL_YOUR_NAME%, has recommended this article entitled '%EMAIL_POST_TITLE%' to you.\n"
@@ -1138,15 +1160,22 @@ msgstr ""
 "Запись находится на сайте %EMAIL_BLOG_NAME% - %EMAIL_BLOG_URL%\n"
 "URL записи: %EMAIL_PERMALINK%"
 
-#: wp-email.php:1325
+#: wp-email.php:1456
 msgid "Article: <strong>%EMAIL_POST_TITLE%</strong> has been sent to <strong>%EMAIL_FRIEND_NAME% (%EMAIL_FRIEND_EMAIL%)</strong></p><p>&laquo; <a href=\"%EMAIL_PERMALINK%\">"
 msgstr "Запись <strong>%EMAIL_POST_TITLE%</strong> отправлена на этот адрес: <strong>%EMAIL_FRIEND_NAME% (%EMAIL_FRIEND_EMAIL%)</strong></p><p>&laquo; <a href=\"%EMAIL_PERMALINK%\">"
 
-#: wp-email.php:1334
+#: wp-email.php:1465
 msgid "Email This Post"
 msgstr "Рассказать другу!"
 
-#: wp-email.php:1334
+#: wp-email.php:1465
 msgid "Email This Page"
 msgstr "Рассказать другу!"
+
+#~ msgid "Show Views For: "
+#~ msgstr "Показать данные для:"
+#~ msgid "Only"
+#~ msgstr " "
+#~ msgid "Limit"
+#~ msgstr "Ограничение"
 
