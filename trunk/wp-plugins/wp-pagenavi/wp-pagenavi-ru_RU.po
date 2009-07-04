@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP-PageNavi 2.40\n"
+"Project-Id-Version: WP-PageNavi 2.50\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-04 01:39+0300\n"
-"PO-Revision-Date: 2009-07-04 01:39+0300\n"
+"POT-Creation-Date: 2009-07-04 01:44+0300\n"
+"PO-Revision-Date: 2009-07-04 12:02+0300\n"
 "Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -15,154 +15,182 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: pagenavi-options.php:46
-#: pagenavi-options.php:108
-#: pagenavi-options.php:172
+#: pagenavi-options.php:48
+#: pagenavi-options.php:110
+#: pagenavi-options.php:174
 msgid "Page Navigation Options"
 msgstr "Настройки списка страниц"
 
-#: pagenavi-options.php:51
+#: pagenavi-options.php:53
 msgid "Updated"
 msgstr "&mdash; обновлено"
 
-#: pagenavi-options.php:56
+#: pagenavi-options.php:58
 msgid "No Page Navigation Option Updated"
 msgstr "Настройки списка страниц не изменились"
 
-#: pagenavi-options.php:62
-#: pagenavi-options.php:241
+#: pagenavi-options.php:64
+#: pagenavi-options.php:265
 msgid "UNINSTALL WP-PageNavi"
 msgstr "УДАЛИТЬ WP-PageNavi"
 
-#: pagenavi-options.php:70
+#: pagenavi-options.php:72
 #, php-format
 msgid "Setting Key '%s' has been deleted."
 msgstr "Настройка &laquo;%s&raquo; удалена."
 
-#: pagenavi-options.php:74
+#: pagenavi-options.php:76
 #, php-format
 msgid "Error deleting Setting Key '%s'."
 msgstr "Ошибка при удалении настройки &laquo;%s&raquo;."
 
-#: pagenavi-options.php:96
-#: pagenavi-options.php:209
+#: pagenavi-options.php:98
+#: pagenavi-options.php:233
 msgid "Uninstall WP-PageNavi"
 msgstr "Удалить список страниц"
 
-#: pagenavi-options.php:97
+#: pagenavi-options.php:99
 #, php-format
 msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-PageNavi Will Be Deactivated Automatically."
 msgstr "<a href=\"%s\">Нажмите здесь</a> чтобы завершить удаление. WP-PageNavi будет отключён автоматически."
 
-#: pagenavi-options.php:109
+#: pagenavi-options.php:111
 msgid "Page Navigation Text"
 msgstr "Шаблоны списка страниц"
 
-#: pagenavi-options.php:112
+#: pagenavi-options.php:114
 msgid "Text For Number Of Pages"
 msgstr "Шаблон общего списка страниц"
 
-#: pagenavi-options.php:115
+#: pagenavi-options.php:117
 msgid "The current page number."
 msgstr "Номер текущей страницы."
 
-#: pagenavi-options.php:116
-#: pagenavi-options.php:137
-#: pagenavi-options.php:144
+#: pagenavi-options.php:118
+#: pagenavi-options.php:139
+#: pagenavi-options.php:146
 msgid "The total number of pages."
 msgstr "Общее количество страниц."
 
-#: pagenavi-options.php:120
+#: pagenavi-options.php:122
 msgid "Text For Current Page"
 msgstr "Элемент &laquo;Текущая страница&raquo;"
 
-#: pagenavi-options.php:123
-#: pagenavi-options.php:130
+#: pagenavi-options.php:125
+#: pagenavi-options.php:132
 msgid "The page number."
 msgstr "Номер страницы."
 
-#: pagenavi-options.php:127
+#: pagenavi-options.php:129
 msgid "Text For Page"
 msgstr "Элемент &laquo;Страница&raquo;"
 
-#: pagenavi-options.php:134
+#: pagenavi-options.php:136
 msgid "Text For First Post"
 msgstr "Элемент &laquo;Первая запись&raquo;"
 
-#: pagenavi-options.php:141
+#: pagenavi-options.php:143
 msgid "Text For Last Post"
 msgstr "Элемент &laquo;Последняя запись&raquo;"
 
-#: pagenavi-options.php:148
+#: pagenavi-options.php:150
 msgid "Text For Next Post"
 msgstr "Элемент &laquo;Следующая запись&raquo;"
 
-#: pagenavi-options.php:154
+#: pagenavi-options.php:156
 msgid "Text For Previous Post"
 msgstr "Элемент &laquo;Предыдущая запись&raquo;"
 
-#: pagenavi-options.php:160
+#: pagenavi-options.php:162
 msgid "Text For Next ..."
 msgstr "Элемент &laquo;Следующие&hellip;&raquo;"
 
-#: pagenavi-options.php:166
+#: pagenavi-options.php:168
 msgid "Text For Previous ..."
 msgstr "Элемент &laquo;Предыдущие&hellip;&raquo;"
 
-#: pagenavi-options.php:175
+#: pagenavi-options.php:177
 msgid "Page Navigation Style"
 msgstr "Стиль списка страниц"
 
-#: pagenavi-options.php:178
+#: pagenavi-options.php:180
 msgid "Normal"
 msgstr "Обычный"
 
-#: pagenavi-options.php:179
+#: pagenavi-options.php:181
 msgid "Drop Down List"
 msgstr "Выпадающий список"
 
-#: pagenavi-options.php:184
+#: pagenavi-options.php:186
 msgid "Number Of Pages To Show?"
 msgstr "Сколько страниц показывать?"
 
-#: pagenavi-options.php:190
+#: pagenavi-options.php:192
 msgid "Always Show Page Navigation?"
 msgstr "Всегда показывать список страниц?"
 
-#: pagenavi-options.php:193
-#: pagenavi-options.php:240
+#: pagenavi-options.php:195
+#: pagenavi-options.php:264
 msgid "Yes"
 msgstr "Да"
 
-#: pagenavi-options.php:194
+#: pagenavi-options.php:196
 msgid "No"
 msgstr "Нет"
 
-#: pagenavi-options.php:200
+#: pagenavi-options.php:201
+msgid "Number Of Larger Page Numbers To Show?"
+msgstr "Сколько страниц показывать в виде диапазонов?"
+
+#: pagenavi-options.php:205
+msgid "Larger page numbers are in additional to the default page numbers. It is useful for authors who is paginating through many posts."
+msgstr "Диапазоны страниц дополняют обычную нумерацию и полезны в тех случаях, когда на вашем сайте очень много записей."
+
+#: pagenavi-options.php:207
+msgid "For example, WP-PageNavi will display: Pages 1, 2, 3, 4, 5, 10, 20, 30, 40, 50"
+msgstr "Например, список страниц будет выглядеть так: Страницы 1, 2, 3, 4, 5, 10, 20, 30, 40, 50"
+
+#: pagenavi-options.php:209
+msgid "Enter 0 to disable."
+msgstr "Введите 0 чтобы отключить эту функцию."
+
+#: pagenavi-options.php:213
+msgid "Show  Larger Page Numbers In Multiples Of:"
+msgstr "Коэффициент для диапазонов страниц:"
+
+#: pagenavi-options.php:217
+msgid "If mutiple is in 5, it will show: 5, 10, 15, 20, 25"
+msgstr "Если коэффициент равен 5, то список страниц будет выглядеть так: 5, 10, 15, 20, 25"
+
+#: pagenavi-options.php:219
+msgid "If mutiple is in 10, it will show: 10, 20, 30, 40, 50"
+msgstr "А если 10&nbsp;&mdash; так: 10, 20, 30, 40, 50"
+
+#: pagenavi-options.php:224
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: pagenavi-options.php:211
+#: pagenavi-options.php:235
 msgid "Deactivating WP-PageNavi plugin does not remove any data that may have been created, such as the page navigation options. To completely remove this plugin, you can uninstall it here."
 msgstr "При отключении плагина отображения списка страниц созданные данные, включая настройки, не удаляются. Для того, чтобы полностью удалить плагин, отмените здесь его установку."
 
-#: pagenavi-options.php:214
+#: pagenavi-options.php:238
 msgid "WARNING:"
 msgstr "ВНИМАНИЕ:"
 
-#: pagenavi-options.php:215
+#: pagenavi-options.php:239
 msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
 msgstr "Удаление плагина необратимо. Для того, чтобы создать резервную копию БД WordPress и сохранить ваши данные, используйте плагин &laquo;Database Backup&raquo;."
 
-#: pagenavi-options.php:218
+#: pagenavi-options.php:242
 msgid "The following WordPress Options will be DELETED:"
 msgstr "Будут УДАЛЕНЫ следующие настройки WordPress:"
 
-#: pagenavi-options.php:223
+#: pagenavi-options.php:247
 msgid "WordPress Options"
 msgstr "Настройки WordPress"
 
-#: pagenavi-options.php:241
+#: pagenavi-options.php:265
 msgid ""
 "You Are About To Uninstall WP-PageNavi From WordPress.\\n"
 "This Action Is Not Reversible.\\n"
@@ -178,28 +206,28 @@ msgstr ""
 msgid "PageNavi"
 msgstr "Список страниц"
 
-#: wp-pagenavi.php:179
+#: wp-pagenavi.php:201
 msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
 msgstr "Страница %CURRENT_PAGE% из %TOTAL_PAGES%"
 
-#: wp-pagenavi.php:182
+#: wp-pagenavi.php:204
 msgid "&laquo; First"
 msgstr "&laquo; Первая"
 
-#: wp-pagenavi.php:183
+#: wp-pagenavi.php:205
 msgid "Last &raquo;"
 msgstr "Последняя &raquo;"
 
-#: wp-pagenavi.php:184
+#: wp-pagenavi.php:206
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: wp-pagenavi.php:185
+#: wp-pagenavi.php:207
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: wp-pagenavi.php:186
-#: wp-pagenavi.php:187
+#: wp-pagenavi.php:208
+#: wp-pagenavi.php:209
 msgid "..."
 msgstr "..."
 
