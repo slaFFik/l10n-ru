@@ -22,3 +22,7 @@
 *[PluginsWPPolls WP-Polls]:* Добавляет возможность создавать опросы.
 
 *[PluginsWPRelativeDate WP-RelativeDate]:* Отображает относительные значения даты и времени создания записи или комментария. Например, "вчера" или "два часа назад".
+
+= Список плагинов для !WordPress MU =
+
+*[PluginsMUPluginCommander Plugin Commander]:* Предназначен для управления плагинами в !WordPress MU.
