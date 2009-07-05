@@ -13,6 +13,8 @@
 
 == Загрузка нужной версии ==
 
+*Для !WordPress 2.5.x - 2.6.x:* [http://l10n-ru.googlecode.com/files/wp-dbmanager-2.31-ru_RU.zip WP-DBManager 2.31 (40,9 Кб)]
+
 *Для !WordPress 2.7.x:* [http://l10n-ru.googlecode.com/files/wp-dbmanager-2.40-ru_RU.zip WP-DBManager 2.40 (43,9 Кб)]
 
 *Для !WordPress 2.8.x:* [http://l10n-ru.googlecode.com/files/wp-dbmanager-2.50-ru_RU.zip WP-DBManager 2.50 (44,9 Кб)]
