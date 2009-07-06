@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP-PostViews 1.40\n"
+"Project-Id-Version: WP-PostViews 1.50\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-07 00:12+0300\n"
-"PO-Revision-Date: 2009-07-07 00:17+0300\n"
+"POT-Creation-Date: 2009-07-07 00:19+0300\n"
+"PO-Revision-Date: 2009-07-07 00:25+0300\n"
 "Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -65,12 +65,12 @@ msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-PostVie
 msgstr "<a href=\"%s\">Нажмите здесь</a> чтобы завершить удаление. Плагин подсчёта просмотров будет отключён автоматически."
 
 #: postviews-options.php:125
-#: wp-postviews.php:561
+#: wp-postviews.php:784
 msgid "%VIEW_COUNT% views"
 msgstr "%VIEW_COUNT% просмотров"
 
 #: postviews-options.php:128
-#: wp-postviews.php:562
+#: wp-postviews.php:785
 msgid "views"
 msgstr "просмотров"
 
@@ -235,81 +235,32 @@ msgstr ""
 "\\n"
 "Чтобы остановить удаление, выберите [Отмена]. Выберите [OK], если  вы хотите его продолжить."
 
-#: wp-postviews-widget.php:55
-msgid "Most Viewed"
-msgstr "Чаще всего просматриваемые"
-
-#: wp-postviews-widget.php:65
-msgid "Title"
-msgstr "Заголовок"
-
-#: wp-postviews-widget.php:68
-msgid "Show Views For: "
-msgstr "Показать счётчик просмотров для:"
-
-#: wp-postviews-widget.php:74
-msgid "Posts &amp; Pages"
-msgstr "Записей и страниц"
-
-#: wp-postviews-widget.php:79
-msgid "Posts"
-msgstr "Записей"
-
-#: wp-postviews-widget.php:84
-msgid "Pages"
-msgstr "Страниц"
-
-#: wp-postviews-widget.php:87
-msgid "Only"
-msgstr " "
-
-#: wp-postviews-widget.php:90
-msgid "Limit"
-msgstr "Ограничение"
-
-#: wp-postviews-widget.php:93
-msgid "Post Title Length (Characters)"
-msgstr "Длина заголовка записи (в символах)"
-
-#: wp-postviews-widget.php:95
-msgid "(<strong>0</strong> to disable)"
-msgstr "(<strong>0</strong> &mdash; отключить)"
-
 #: wp-postviews.php:53
 msgid "PostViews"
 msgstr "Счётчик просмотров страниц"
 
-#: wp-postviews.php:192
-#: wp-postviews.php:236
-#: wp-postviews.php:285
-#: wp-postviews.php:334
-#, php-format
-msgid "%s view"
-msgid_plural "%s views"
-msgstr[0] "%s просмотр"
-msgstr[1] "%s просмотра"
-msgstr[2] "%s просмотров"
-
-#: wp-postviews.php:204
-#: wp-postviews.php:248
-#: wp-postviews.php:297
-#: wp-postviews.php:346
+#: wp-postviews.php:200
+#: wp-postviews.php:243
+#: wp-postviews.php:291
+#: wp-postviews.php:339
+#: wp-postviews.php:387
+#: wp-postviews.php:435
 msgid "N/A"
 msgstr "Н/Д"
 
-#: wp-postviews.php:397
+#: wp-postviews.php:486
 msgid "There is no excerpt because this is a protected post."
 msgstr "Цитаты нет, так как эта запись защищена."
 
-#: wp-postviews.php:484
-#: wp-postviews.php:486
-#: wp-postviews.php:509
+#: wp-postviews.php:583
+#: wp-postviews.php:585
+#: wp-postviews.php:613
 msgid "WP-PostViews"
 msgstr "Подсчет просмотров"
 
-#: wp-postviews.php:497
-#: wp-postviews.php:499
-#: wp-postviews.php:523
+#: wp-postviews.php:596
+#: wp-postviews.php:598
+#: wp-postviews.php:627
 #, php-format
 msgid "%s Most Viewed Post"
 msgid_plural "%s Most Viewed Posts"
@@ -317,11 +268,94 @@ msgstr[0] "%s чаще всего просматриваемая запись"
 msgstr[1] "%s чаще всего просматриваемые записи"
 msgstr[2] "%s чаще всего просматриваемых записей"
 
-#: wp-postviews.php:511
+#: wp-postviews.php:601
+#: wp-postviews.php:603
+#: wp-postviews.php:633
+#, php-format
+msgid "%s Most Viewed Page"
+msgid_plural "%s Most Viewed Pages"
+msgstr[0] "%s чаще всего просматриваемая страница"
+msgstr[1] "%s чаще всего просматриваемые страницы"
+msgstr[2] "%s чаще всего просматриваемых страниц"
+
+#: wp-postviews.php:615
 #, php-format
 msgid "<strong>%s</strong> view was generated."
 msgid_plural "<strong>%s</strong> views were generated."
 msgstr[0] "страницы журнала просмотрены <strong>%s</strong> раз."
 msgstr[1] "страницы журнала просмотрены <strong>%s</strong> раза."
 msgstr[2] "страницы журнала просмотрены <strong>%s</strong> раз."
+
+#: wp-postviews.php:661
+msgid "WP-PostViews views statistics"
+msgstr "Статистика просмотра страниц WP-PostViews"
+
+#: wp-postviews.php:662
+#: wp-postviews.php:712
+msgid "Views"
+msgstr "Счётчик просмотров"
+
+#: wp-postviews.php:721
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: wp-postviews.php:724
+msgid "Statistics Type:"
+msgstr "Тип статистики:"
+
+#: wp-postviews.php:726
+msgid "Least Viewed"
+msgstr "Меньше всего просматриваемые"
+
+#: wp-postviews.php:727
+msgid "Least Viewed By Category"
+msgstr "Меньше всего просматриваемые (по рубрикам)"
+
+#: wp-postviews.php:729
+msgid "Most Viewed"
+msgstr "Чаще всего просматриваемые"
+
+#: wp-postviews.php:730
+msgid "Most Viewed By Category"
+msgstr "Чаще всего просматриваемые (по рубрикам)"
+
+#: wp-postviews.php:735
+msgid "Include Views From:"
+msgstr "Подсчитывать просмотры для:"
+
+#: wp-postviews.php:737
+msgid "Posts &amp; Pages"
+msgstr "Записей и страниц"
+
+#: wp-postviews.php:738
+msgid "Posts Only"
+msgstr "Записей"
+
+#: wp-postviews.php:739
+msgid "Pages Only"
+msgstr "Страниц"
+
+#: wp-postviews.php:744
+msgid "No. Of Records To Show:"
+msgstr "Сколько записей показывать:"
+
+#: wp-postviews.php:747
+msgid "Maximum Post Title Length (Characters):"
+msgstr "Длина заголовка записи (в символах):"
+
+#: wp-postviews.php:748
+msgid "<strong>0</strong> to disable."
+msgstr "<strong>0</strong> &mdash; отключить."
+
+#: wp-postviews.php:751
+msgid "Category IDs:"
+msgstr "ID рубрик:"
+
+#: wp-postviews.php:752
+msgid "Seperate mutiple categories with commas."
+msgstr "Несколько ID рубрик разделите запятыми."
+
+#: wp-postviews.php:755
+msgid "* If you are not using any category statistics, you can ignore it."
+msgstr "* Если вы не используете статистику по рубрикам, можете пропустить этот параметр."
 
