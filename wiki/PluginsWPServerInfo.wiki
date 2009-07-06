@@ -1,0 +1,24 @@
+#summary Описание плагина WP-ServerInfo.
+#labels Type-Plugin
+
+= WP-!ServerInfo =
+
+*Автор:* [http://lesterchan.net/wordpress/readme/wp-serverinfo.html Lester Chan]
+
+*Автор перевода:* Анна Озерицкая
+
+Этот плагин показывает сведения о сервере, на котором расположен ваш сайт, включая параметры PHP и MySQL. 
+
+== Загрузка нужной версии ==
+
+*Для !WordPress 2.5.x - 2.6.x:* [http://l10n-ru.googlecode.com/files/wp-serverinfo-1.31-ru_RU.zip WP-ServerInfo 1.31 (12,4 Кб)]
+
+*Для !WordPress 2.7.x:* [http://l10n-ru.googlecode.com/files/wp-serverinfo-1.40-ru_RU.zip WP-ServerInfo 1.40 (12,8 Кб)]
+
+*Для !WordPress 2.8.x:* [http://l10n-ru.googlecode.com/files/wp-serverinfo-1.50-ru_RU.zip WP-ServerInfo 1.50 (12,7 Кб)]
+
+== Установка и использование ==
+
+   # Скачайте и распакуйте архив.
+   # Загрузите папку `wp-serverinfo` в папку с плагинами на вашем сайте (обычно `wp-content/plugins/`).
+   # Включите плагин.
