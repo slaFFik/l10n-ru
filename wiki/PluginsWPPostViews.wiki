@@ -1,0 +1,26 @@
+#summary Описание плагина WP-PostViews.
+#labels Type-Plugin
+
+= WP-!PostViews =
+
+*Автор:* [http://lesterchan.net/wordpress/readme/wp-postviews.html Lester Chan]
+
+*Автор перевода:* Анна Озерицкая
+
+== Загрузка нужной версии ==
+
+*Для !WordPress 2.3.x - 2.5.x - 2.6.x:* [http://l10n-ru.googlecode.com/files/wp-postviews-1.31-ru_RU.zip WP-PostViews 1.31 (18,9 Кб)]
+
+*Для !WordPress 2.7.x:* [http://l10n-ru.googlecode.com/files/wp-postviews-1.40-ru_RU.zip WP-PostViews 1.40 (21,6 Кб)]
+
+*Для !WordPress 2.8.x:* [http://l10n-ru.googlecode.com/files/wp-postviews-1.50-ru_RU.zip WP-PostViews 1.50 (22,2 Кб)]
+
+== Установка и использование ==
+
+   # Скачайте и распакуйте архив.
+   # Загрузите папку `wp-postviews` в папку с плагинами на вашем сайте (обычно `wp-content/plugins/`).
+   # Включите плагин.
+   # Откройте нужный шаблон от темы, которую вы используете для оформления вашего сайта, например, `index.php`. Обычно он находится здесь: `wp-content/themes/<НАЗВАНИЕ ВАШЕЙ ТЕМЫ>/index.php`.
+   # В подходящем месте *ВНУТРИ* цикла для вывода записей (после строки `<?php while (have_posts()) : the_post(); ?>`) поместите вызов функции `the_views();`:<br/>`<?php if(function_exists('the_views')) { the_views(); } ?>`<br/>
+   # Зайдите на страницу `Настройки -> Счётчик просмотров страниц` и настройте параметры плагина на свой вкус.
+   # *Внимание!* Обработка шаблона подсчёта просмотров устроена так, что его перевод на русский язык загрузится только после того, как вы нажмёте на кнопку "Восстановить стандартный шаблон" на странице настроек плагина.
