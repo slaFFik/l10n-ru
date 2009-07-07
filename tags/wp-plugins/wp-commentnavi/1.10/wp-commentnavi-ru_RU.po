@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-CommentNavi 1.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-02 22:37+0300\n"
+"PO-Revision-Date: 2009-07-02 22:38+0300\n"
+"Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: commentnavi-options.php:46
+#: commentnavi-options.php:108
+#: commentnavi-options.php:172
+msgid "Comment Navigation Options"
+msgstr "Настройки списка страниц"
+
+#: commentnavi-options.php:51
+msgid "Updated"
+msgstr "&nbsp;&mdash; обновлено"
+
+#: commentnavi-options.php:56
+msgid "No Comment Navigation Option Updated"
+msgstr "Настройки списка страниц не изменились"
+
+#: commentnavi-options.php:62
+#: commentnavi-options.php:241
+msgid "UNINSTALL WP-CommentNavi"
+msgstr "УДАЛИТЬ WP-CommentNavi"
+
+#: commentnavi-options.php:70
+#, php-format
+msgid "Setting Key '%s' has been deleted."
+msgstr "Настройка &laquo;%s&raquo; удалена."
+
+#: commentnavi-options.php:74
+#, php-format
+msgid "Error deleting Setting Key '%s'."
+msgstr "Ошибка при удалении настройки &laquo;%s&raquo;."
+
+#: commentnavi-options.php:96
+#: commentnavi-options.php:209
+msgid "Uninstall WP-CommentNavi"
+msgstr "Удалить список страниц"
+
+#: commentnavi-options.php:97
+#, php-format
+msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-CommentNavi Will Be Deactivated Automatically."
+msgstr "<a href=\"%s\">Нажмите здесь</a> чтобы завершить удаление. WP-CommentNavi будет отключён автоматически."
+
+#: commentnavi-options.php:109
+msgid "Comment Navigation Text"
+msgstr "Шаблоны списка страниц"
+
+#: commentnavi-options.php:112
+msgid "Text For Number Of Pages"
+msgstr "Шаблон общего списка страниц"
+
+#: commentnavi-options.php:115
+msgid "The current page number."
+msgstr "Номер текущей страницы."
+
+#: commentnavi-options.php:116
+#: commentnavi-options.php:137
+#: commentnavi-options.php:144
+msgid "The total number of pages."
+msgstr "Общее количество страниц."
+
+#: commentnavi-options.php:120
+msgid "Text For Current Page"
+msgstr "Элемент &laquo;Текущая страница&raquo;"
+
+#: commentnavi-options.php:123
+#: commentnavi-options.php:130
+msgid "The page number."
+msgstr "Номер страницы."
+
+#: commentnavi-options.php:127
+msgid "Text For Page"
+msgstr "Элемент &laquo;Страница&raquo;"
+
+#: commentnavi-options.php:134
+msgid "Text For First Comment"
+msgstr "Элемент &laquo;Первые комментарии&raquo;"
+
+#: commentnavi-options.php:141
+msgid "Text For Last Comment"
+msgstr "Элемент &laquo;Последние комментарии&raquo;"
+
+#: commentnavi-options.php:148
+msgid "Text For Next Comment"
+msgstr "Элемент &laquo;Следующие комментарии&raquo;"
+
+#: commentnavi-options.php:154
+msgid "Text For Previous Comment"
+msgstr "Элемент &laquo;Предыдущие комментарии&raquo;"
+
+#: commentnavi-options.php:160
+msgid "Text For Next ..."
+msgstr "Элемент &laquo;Следующие&hellip;&raquo;"
+
+#: commentnavi-options.php:166
+msgid "Text For Previous ..."
+msgstr "Элемент &laquo;Предыдущие&hellip;&raquo;"
+
+#: commentnavi-options.php:175
+msgid "Comment Navigation Style"
+msgstr "Стиль списка страниц"
+
+#: commentnavi-options.php:178
+msgid "Normal"
+msgstr "Обычный"
+
+#: commentnavi-options.php:179
+msgid "Drop Down List"
+msgstr "Выпадающий список"
+
+#: commentnavi-options.php:184
+msgid "Number Of Pages To Show?"
+msgstr "Сколько страниц показывать?"
+
+#: commentnavi-options.php:190
+msgid "Always Show Comment Navigation?"
+msgstr "Всегда показывать список страниц?"
+
+#: commentnavi-options.php:193
+#: commentnavi-options.php:240
+msgid "Yes"
+msgstr "Да"
+
+#: commentnavi-options.php:194
+msgid "No"
+msgstr "Нет"
+
+#: commentnavi-options.php:200
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: commentnavi-options.php:211
+msgid "Deactivating WP-CommentNavi plugin does not remove any data that may have been created, such as the comment navigation options. To completely remove this plugin, you can uninstall it here."
+msgstr "При отключении плагина WP-CommentNavi, созданные данные, включая настройки, не удаляются. Для того, чтобы полностью удалить плагин, отмените здесь его установку."
+
+#: commentnavi-options.php:214
+msgid "WARNING:"
+msgstr "ВНИМАНИЕ:"
+
+#: commentnavi-options.php:215
+msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
+msgstr "Удаление плагина необратимо. Для того, чтобы создать резервную копию БД WordPress и сохранить ваши данные, используйте плагин &laquo;Database Backup&raquo;."
+
+#: commentnavi-options.php:218
+msgid "The following WordPress Options will be DELETED:"
+msgstr "Будут УДАЛЕНЫ следующие настройки WordPress:"
+
+#: commentnavi-options.php:223
+msgid "WordPress Options"
+msgstr "Настройки WordPress"
+
+#: commentnavi-options.php:241
+msgid ""
+"You Are About To Uninstall WP-CommentNavi From WordPress.\\n"
+"This Action Is Not Reversible.\\n"
+"\\n"
+" Choose [Cancel] To Stop, [OK] To Uninstall."
+msgstr ""
+"Вы собираетесь удалить плагин WP-CommentNavi.\\n"
+"Это действие необратимо.\\n"
+"\\n"
+"Чтобы остановить удаление, выберите [Отмена]. Выберите [OK], если  вы хотите его продолжить."
+
+#: wp-commentnavi.php:42
+msgid "CommentNavi"
+msgstr "Список страниц комментариев"
+
+#: wp-commentnavi.php:194
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Страница %CURRENT_PAGE% из %TOTAL_PAGES%"
+
+#: wp-commentnavi.php:197
+msgid "&laquo; First"
+msgstr "&laquo; Первая"
+
+#: wp-commentnavi.php:198
+msgid "Last &raquo;"
+msgstr "Последняя &raquo;"
+
+#: wp-commentnavi.php:199
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-commentnavi.php:200
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-commentnavi.php:201
+#: wp-commentnavi.php:202
+msgid "..."
+msgstr "..."
+

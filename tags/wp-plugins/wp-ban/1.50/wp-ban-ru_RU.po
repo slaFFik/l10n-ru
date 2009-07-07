@@ -1,0 +1,314 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Ban 1.31\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-02 21:35+0300\n"
+"PO-Revision-Date: 2009-07-02 21:45+0300\n"
+"Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ban-options.php:51
+#, php-format
+msgid "This IP '%s' Belongs To The Admin And Will Not Be Added To Ban List"
+msgstr "IP-адрес &laquo;%s&raquo; используется администратором сайта и не может быть добавлен в список"
+
+#: ban-options.php:64
+#, php-format
+msgid "The Admin's IP '%s' Fall Within This Range (%s - %s) And Will Not Be Added To Ban List"
+msgstr "IP-адрес администратора сайта (&laquo;%s&raquo;) находится в указанном диапазоне (%s - %s)  и не может быть добавлен в список"
+
+#: ban-options.php:74
+#, php-format
+msgid "This Hostname '%s' Belongs To The Admin And Will Not Be Added To Ban List"
+msgstr "Название узла &laquo;%s&raquo; используется администратором сайта и не может быть добавлено в список"
+
+#: ban-options.php:84
+#, php-format
+msgid "This Referer '%s' Belongs To This Site And Will Not Be Added To Ban List"
+msgstr "Источник трафика &laquo;%s&raquo; используется администратором сайта и не может быть добавлен в список"
+
+#: ban-options.php:94
+#, php-format
+msgid "This User Agent '%s' Is Used By The Current Admin And Will Not Be Added To Ban List"
+msgstr "User Agent &laquo;%s&raquo; используется администратором сайта и не может быть добавлен в список"
+
+#: ban-options.php:113
+#: ban-options.php:310
+msgid "Banned IPs"
+msgstr "Запрещённые IP-адреса"
+
+#: ban-options.php:114
+#: ban-options.php:324
+msgid "Banned IP Range"
+msgstr "Диапазон запрещённых IP-адресов"
+
+#: ban-options.php:115
+#: ban-options.php:337
+msgid "Banned Host Names"
+msgstr "Запрещённые узлы"
+
+#: ban-options.php:116
+#: ban-options.php:351
+msgid "Banned Referers"
+msgstr "Запрещённые источники трафика"
+
+#: ban-options.php:117
+#: ban-options.php:365
+msgid "Banned User Agents"
+msgstr "Запрещённые User Agent"
+
+#: ban-options.php:118
+msgid "Banned Excluded IPs"
+msgstr "Исключения из списка запрёщенных IP-адресов"
+
+#: ban-options.php:119
+#: ban-options.php:395
+msgid "Banned Message"
+msgstr "Сообщение о запрете доступа"
+
+#: ban-options.php:123
+msgid "Updated"
+msgstr "&nbsp;&mdash; обновлено"
+
+#: ban-options.php:128
+msgid "No Ban Option Updated"
+msgstr "Настройки доступа не изменились"
+
+#: ban-options.php:135
+#: ban-options.php:460
+msgid "Reset Ban Stats"
+msgstr "Сбросить статистику"
+
+#: ban-options.php:139
+msgid "All IP Ban Stats And Total Ban Stat Reseted"
+msgstr "Статистика ограничения доступа к сайту сброшена"
+
+#: ban-options.php:147
+msgid "Selected IP Ban Stats Reseted"
+msgstr "Сброшена статистика ограничения доступа к сайту для выбранных IP-адресов"
+
+#: ban-options.php:151
+#: ban-options.php:500
+msgid "UNINSTALL WP-Ban"
+msgstr "УДАЛИТЬ WP-Ban"
+
+#: ban-options.php:159
+#, php-format
+msgid "Setting Key '%s' has been deleted."
+msgstr "Настройка &laquo;%s&raquo; удалена."
+
+#: ban-options.php:163
+#, php-format
+msgid "Error deleting Setting Key '%s'."
+msgstr "Ошибка при удалении настройки &laquo;%s&raquo;."
+
+#: ban-options.php:185
+#: ban-options.php:468
+msgid "Uninstall WP-Ban"
+msgstr "Удалить плагин ограничения доступа к сайту"
+
+#: ban-options.php:186
+#, php-format
+msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-Ban Will Be Deactivated Automatically."
+msgstr "<a href=\"%s\">Нажмите здесь</a> чтобы завершить удаление. WP-Ban будет отключён автоматически."
+
+#: ban-options.php:247
+#: wp-ban.php:238
+msgid "You Are Banned."
+msgstr "Вам запрещено заходить на этот сайт."
+
+#: ban-options.php:276
+msgid "Ban Options"
+msgstr "Настройки доступа к сайту"
+
+#: ban-options.php:280
+msgid "Your Details"
+msgstr "Ваши данные"
+
+#: ban-options.php:281
+msgid "Value"
+msgstr "Значение"
+
+#: ban-options.php:285
+msgid "IP"
+msgstr "IP-адрес"
+
+#: ban-options.php:289
+msgid "Host Name"
+msgstr "Название узла"
+
+#: ban-options.php:293
+msgid "User Agent"
+msgstr "User Agent"
+
+#: ban-options.php:297
+msgid "Site URL"
+msgstr "Адрес сайта"
+
+#: ban-options.php:302
+msgid "Please <strong>DO NOT</strong> ban yourself."
+msgstr "Пожалуйста, <strong>НЕ ЗАПРЕЩАЙТЕ ДОСТУП САМОМУ СЕБЕ</strong>."
+
+#: ban-options.php:311
+msgid "Use <strong>*</strong> for wildcards."
+msgstr "Используйте <strong>*</strong> в качестве символа подстановки."
+
+#: ban-options.php:312
+#: ban-options.php:325
+#: ban-options.php:339
+#: ban-options.php:353
+#: ban-options.php:367
+#: ban-options.php:382
+msgid "Start each entry on a new line."
+msgstr "Одна запись на строку."
+
+#: ban-options.php:313
+#: ban-options.php:326
+#: ban-options.php:340
+#: ban-options.php:354
+#: ban-options.php:368
+#: ban-options.php:383
+msgid "Examples:"
+msgstr "Примеры:"
+
+#: ban-options.php:328
+#: ban-options.php:356
+#: ban-options.php:385
+msgid "Notes:"
+msgstr "Примечания:"
+
+#: ban-options.php:329
+#: ban-options.php:386
+msgid "No Wildcards Allowed."
+msgstr "Символы подстановки не допускаются."
+
+#: ban-options.php:338
+#: ban-options.php:352
+#: ban-options.php:366
+msgid "Use <strong>*</strong> for wildcards"
+msgstr "Используйте <strong>*</strong> в качестве символа подстановки"
+
+#: ban-options.php:357
+msgid "There are ways to bypass this method of banning."
+msgstr "Этот метод запрещения доступа к сайту можно обойти."
+
+#: ban-options.php:372
+msgid "Suggestions:"
+msgstr "Предложения:"
+
+#: ban-options.php:373
+msgid "See <a href=\"http://www.user-agents.org/\">http://www.user-agents.org/</a>"
+msgstr "Зайдите на сайт <a href=\"http://www.user-agents.org/\">http://www.user-agents.org/</a>"
+
+#: ban-options.php:381
+msgid "Banned Exclude IPs"
+msgstr "Исключения из списка запрещённых IP-адресов"
+
+#: ban-options.php:387
+msgid "These Users Will Not Get Banned."
+msgstr "Этим пользователям будет разрешен доступ на сайт."
+
+#: ban-options.php:396
+msgid "Allowed Variables:"
+msgstr "Допустимые переменные:"
+
+#: ban-options.php:403
+msgid "Restore Default Template"
+msgstr "Восстановить стандартный шаблон"
+
+#: ban-options.php:404
+msgid "Preview Banned Message"
+msgstr "Предварительный просмотр"
+
+#: ban-options.php:412
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: ban-options.php:420
+msgid "Ban Stats"
+msgstr "Статистика ограничения доступа к сайту"
+
+#: ban-options.php:425
+msgid "IPs"
+msgstr "IP-адреса"
+
+#: ban-options.php:426
+msgid "Attempts"
+msgstr "Попытки"
+
+#: ban-options.php:427
+msgid "Action"
+msgstr "Действие"
+
+#: ban-options.php:444
+msgid "Reset this IP ban stat?"
+msgstr "Сбросить статистику этого IP адреса?"
+
+#: ban-options.php:450
+msgid "No Attempts"
+msgstr "Попыток нет"
+
+#: ban-options.php:455
+msgid "Total  Attempts:"
+msgstr "Всего попыток:"
+
+#: ban-options.php:457
+msgid "Reset all IP ban stats and total ban stat?"
+msgstr "Сбросить статистику ограничения доступа к сайту?"
+
+#: ban-options.php:460
+msgid "You Are About To Reset Ban Stats."
+msgstr "Вы собираетесь сбросить статистику ограничения доступа к сайту."
+
+#: ban-options.php:460
+msgid "This Action Is Not Reversible. Are you sure?"
+msgstr "Это действие необратимо. Вы уверены?"
+
+#: ban-options.php:470
+msgid "Deactivating WP-Ban plugin does not remove any data that may have been created, such as the ban options. To completely remove this plugin, you can uninstall it here."
+msgstr "При отключении плагина WP-Ban его настройки и любые другие сохраненные данные не удаляются. Для того, чтобы полностью удалить плагин, отмените здесь его установку."
+
+#: ban-options.php:473
+msgid "WARNING:"
+msgstr "ВНИМАНИЕ:"
+
+#: ban-options.php:474
+msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
+msgstr "Удаление плагина необратимо. Для того, чтобы создать резервную копию БД WordPress и сохранить ваши данные, используйте плагин &laquo;Database Backup&raquo;."
+
+#: ban-options.php:477
+msgid "The following WordPress Options will be DELETED:"
+msgstr "Будут УДАЛЕНЫ следующие настройки WordPress:"
+
+#: ban-options.php:482
+msgid "WordPress Options"
+msgstr "Настройки WordPress"
+
+#: ban-options.php:499
+msgid "Yes"
+msgstr "Да"
+
+#: ban-options.php:500
+msgid ""
+"You Are About To Uninstall WP-Ban From WordPress.\\n"
+"This Action Is Not Reversible.\\n"
+"\\n"
+" Choose [Cancel] To Stop, [OK] To Uninstall."
+msgstr ""
+"Вы собираетесь удалить плагин WP-Ban.\\n"
+"Это действие необратимо.\\n"
+"\\n"
+"Чтобы остановить удаление, выберите [Отмена]. Выберите [OK], если  вы хотите его продолжить."
+
+#: wp-ban.php:42
+msgid "Ban"
+msgstr "Ограничение доступа"
+
