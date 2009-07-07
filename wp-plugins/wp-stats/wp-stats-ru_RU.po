@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Stats 2.31\n"
+"Project-Id-Version: WP Stats 2.40\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-07 11:49+0300\n"
-"PO-Revision-Date: 2009-07-07 11:53+0300\n"
+"POT-Creation-Date: 2009-07-07 12:00+0300\n"
+"PO-Revision-Date: 2009-07-07 12:01+0300\n"
 "Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -17,12 +17,12 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: stats-options.php:45
-#: stats-options.php:112
+#: stats-options.php:113
 msgid "Stats URL"
 msgstr "URL статистики"
 
 #: stats-options.php:46
-#: stats-options.php:118
+#: stats-options.php:119
 msgid "Stats Most Limit"
 msgstr "Лучшие показатели"
 
@@ -39,7 +39,7 @@ msgid "No Stats Option Updated"
 msgstr "Настройки статистики не изменились"
 
 #: stats-options.php:63
-#: stats-options.php:214
+#: stats-options.php:215
 msgid "UNINSTALL WP-Stats"
 msgstr "УДАЛИТЬ статистику"
 
@@ -54,7 +54,7 @@ msgid "Error deleting Setting Key '%s'."
 msgstr "Ошибка при удалении настройки &laquo;%s&raquo;."
 
 #: stats-options.php:97
-#: stats-options.php:182
+#: stats-options.php:183
 msgid "Uninstall WP-Stats"
 msgstr "Удалить статистику"
 
@@ -63,37 +63,37 @@ msgstr "Удалить статистику"
 msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-Stats Will Be Deactivated Automatically."
 msgstr "<a href=\"%s\">Нажмите здесь</a> чтобы завершить удаление. Плагин сбора статистики будет отключён автоматически."
 
-#: stats-options.php:109
+#: stats-options.php:110
 msgid "Stats Options"
 msgstr "Настройки сбора статистики"
 
-#: stats-options.php:114
+#: stats-options.php:115
 msgid "URL To Stats Page.<br />Example: http://www.yoursite.com/blogs/stats/<br />Example: http://www.yoursite.com/blogs/?page_id=2"
 msgstr "URL страницы со статистикой.<br />Пример: http://www.yoursite.com/blogs/stats/<br />Пример: http://www.yoursite.com/blogs/?page_id=2"
 
-#: stats-options.php:120
+#: stats-options.php:121
 msgid "Top X Stats, where X is the most limit."
 msgstr "N лучших показателей по данным статистики."
 
-#: stats-options.php:124
+#: stats-options.php:125
 msgid "Type Of Stats To Display"
 msgstr "Включить в статистику"
 
-#: stats-options.php:126
-#: wp-stats.php:432
+#: stats-options.php:127
+#: wp-stats.php:426
 msgid "General Stats"
 msgstr "Общая статистика"
 
-#: stats-options.php:127
+#: stats-options.php:128
 msgid "Total"
 msgstr "Общие данные"
 
-#: stats-options.php:132
+#: stats-options.php:133
 msgid "Plugin Stats"
 msgstr "Статистика плагинов"
 
-#: stats-options.php:137
-#: wp-stats.php:461
+#: stats-options.php:138
+#: wp-stats.php:455
 #, php-format
 msgid "Top %s Recent Stat"
 msgid_plural "Top %s Recent Stats"
@@ -101,7 +101,7 @@ msgstr[0] "%s самый свежий параметр"
 msgstr[1] "%s самых свежих параметра"
 msgstr[2] "%s самых свежих параметров"
 
-#: stats-options.php:138
+#: stats-options.php:139
 #, php-format
 msgid "%s Most Recent Post"
 msgid_plural "%s Most Recent Posts"
@@ -109,7 +109,7 @@ msgstr[0] "%s самая свежая запись"
 msgstr[1] "%s самых свежих записи"
 msgstr[2] "%s самых свежих записей"
 
-#: stats-options.php:139
+#: stats-options.php:140
 #, php-format
 msgid "%s Most Recent Comment"
 msgid_plural "%s Most Recent Comments"
@@ -117,7 +117,7 @@ msgstr[0] "%s самый свежий комментарий"
 msgstr[1] "%s самых свежих комментария"
 msgstr[2] "%s самых свежих комментариев"
 
-#: stats-options.php:144
+#: stats-options.php:145
 #, php-format
 msgid "Top %s Most/Highest Stat"
 msgid_plural "Top %s Most/Highest Stats"
@@ -125,9 +125,9 @@ msgstr[0] "%s самый лучший параметр"
 msgstr[1] "%s самых лучших параметра"
 msgstr[2] "%s самых лучших параметров"
 
-#: stats-options.php:145
-#: wp-stats-widget.php:192
-#: wp-stats.php:487
+#: stats-options.php:146
+#: wp-stats-widget.php:190
+#: wp-stats.php:481
 #, php-format
 msgid "%s Most Commented Post"
 msgid_plural "%s Most Commented Posts"
@@ -135,76 +135,76 @@ msgstr[0] "%s самая комментируемая запись"
 msgstr[1] "%s самых комментируемых записи"
 msgstr[2] "%s самых комментируемых записей"
 
-#: stats-options.php:150
-#: wp-stats.php:497
+#: stats-options.php:151
+#: wp-stats.php:491
 msgid "Authors Stats"
 msgstr "Статистика авторов"
 
-#: stats-options.php:151
-#: wp-stats.php:501
+#: stats-options.php:152
+#: wp-stats.php:495
 msgid "Authors"
 msgstr "Авторы"
 
-#: stats-options.php:156
-#: wp-stats.php:511
+#: stats-options.php:157
+#: wp-stats.php:505
 msgid "Comments' Members Stats"
 msgstr "Статистика комментариев"
 
-#: stats-options.php:157
-#: wp-stats.php:515
+#: stats-options.php:158
+#: wp-stats.php:509
 msgid "Comment Members"
 msgstr "Авторы комментариев"
 
-#: stats-options.php:162
-#: wp-stats.php:525
+#: stats-options.php:163
+#: wp-stats.php:519
 msgid "Misc Stats"
 msgstr "Разное"
 
-#: stats-options.php:163
-#: wp-stats.php:529
+#: stats-options.php:164
+#: wp-stats.php:523
 msgid "Post Categories"
 msgstr "Рубрики записей"
 
-#: stats-options.php:164
-#: wp-stats.php:537
+#: stats-options.php:165
+#: wp-stats.php:531
 msgid "Link Categories"
 msgstr "Рубрики ссылок"
 
-#: stats-options.php:165
-#: wp-stats.php:544
+#: stats-options.php:166
+#: wp-stats.php:538
 msgid "Tags List"
 msgstr "Список меток"
 
-#: stats-options.php:173
+#: stats-options.php:174
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: stats-options.php:184
+#: stats-options.php:185
 msgid "Deactivating WP-Stats plugin does not remove any data that may have been created, such as the stats options. To completely remove this plugin, you can uninstall it here."
 msgstr "При отключении плагина статистики его настройки и любые другие сохраненные данные не удаляются. Для того, чтобы полностью удалить плагин, отмените здесь его установку."
 
-#: stats-options.php:187
+#: stats-options.php:188
 msgid "WARNING:"
 msgstr "ВНИМАНИЕ:"
 
-#: stats-options.php:188
+#: stats-options.php:189
 msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
 msgstr "Удаление плагина необратимо. Для того, чтобы создать резервную копию БД WordPress и сохранить ваши данные, используйте плагин &laquo;Database Backup&raquo;."
 
-#: stats-options.php:191
+#: stats-options.php:192
 msgid "The following WordPress Options will be DELETED:"
 msgstr "Будут УДАЛЕНЫ следующие настройки WordPress:"
 
-#: stats-options.php:196
+#: stats-options.php:197
 msgid "WordPress Options"
 msgstr "Настройки WordPress"
 
-#: stats-options.php:213
-#: wp-stats-widget.php:203
+#: stats-options.php:214
+#: wp-stats-widget.php:201
 msgid "Yes"
 msgstr "Да"
 
-#: stats-options.php:214
+#: stats-options.php:215
 msgid ""
 "You Are About To Uninstall WP-Stats From WordPress.\\n"
 "This Action Is Not Reversible.\\n"
@@ -217,11 +217,11 @@ msgstr ""
 "Чтобы остановить удаление, выберите [Отмена]. Выберите [OK], если  вы хотите его продолжить."
 
 #: wp-stats-widget.php:49
-#: wp-stats.php:433
+#: wp-stats.php:427
 msgid "Total Stats"
 msgstr "Общие данные"
 
-#: wp-stats-widget.php:54
+#: wp-stats-widget.php:53
 #, php-format
 msgid "<strong>%s</strong> Author"
 msgid_plural "<strong>%s</strong> Authors"
@@ -229,7 +229,7 @@ msgstr[0] "<strong>%s</strong> автор"
 msgstr[1] "<strong>%s</strong> автора"
 msgstr[2] "<strong>%s</strong> авторов"
 
-#: wp-stats-widget.php:58
+#: wp-stats-widget.php:57
 #, php-format
 msgid "<strong>%s</strong> Post"
 msgid_plural "<strong>%s</strong> Posts"
@@ -237,7 +237,7 @@ msgstr[0] "<strong>%s</strong> запись"
 msgstr[1] "<strong>%s</strong> записи"
 msgstr[2] "<strong>%s</strong> записей"
 
-#: wp-stats-widget.php:62
+#: wp-stats-widget.php:61
 #, php-format
 msgid "<strong>%s</strong> Page"
 msgid_plural "<strong>%s</strong> Pages"
@@ -245,7 +245,7 @@ msgstr[0] "<strong>%s</strong> страница"
 msgstr[1] "<strong>%s</strong> страницы"
 msgstr[2] "<strong>%s</strong> страниц"
 
-#: wp-stats-widget.php:66
+#: wp-stats-widget.php:65
 #, php-format
 msgid "<strong>%s</strong> Tag"
 msgid_plural "<strong>%s</strong> Tags"
@@ -253,7 +253,7 @@ msgstr[0] "<strong>%s</strong> метка"
 msgstr[1] "<strong>%s</strong> метки"
 msgstr[2] "<strong>%s</strong> меток"
 
-#: wp-stats-widget.php:70
+#: wp-stats-widget.php:69
 #, php-format
 msgid "<strong>%s</strong> Comment"
 msgid_plural "<strong>%s</strong> Comments"
@@ -261,7 +261,7 @@ msgstr[0] "<strong>%s</strong> комментарий"
 msgstr[1] "<strong>%s</strong> комментария"
 msgstr[2] "<strong>%s</strong> комментариев"
 
-#: wp-stats-widget.php:74
+#: wp-stats-widget.php:73
 #, php-format
 msgid "<strong>%s</strong> Comment Poster"
 msgid_plural "<strong>%s</strong> Comment Posters"
@@ -269,7 +269,7 @@ msgstr[0] "<strong>%s</strong> автор комментариев"
 msgstr[1] "<strong>%s</strong> разных автора комментариев"
 msgstr[2] "<strong>%s</strong> разных авторов комментариев"
 
-#: wp-stats-widget.php:78
+#: wp-stats-widget.php:77
 #, php-format
 msgid "<strong>%s</strong> Link"
 msgid_plural "<strong>%s</strong> Links"
@@ -277,7 +277,7 @@ msgstr[0] "<strong>%s</strong> ссылка"
 msgstr[1] "<strong>%s</strong> ссылки"
 msgstr[2] "<strong>%s</strong> ссылок"
 
-#: wp-stats-widget.php:82
+#: wp-stats-widget.php:81
 #, php-format
 msgid "<strong>%s</strong> Post Category"
 msgid_plural "<strong>%s</strong> Post Categories"
@@ -285,7 +285,7 @@ msgstr[0] "<strong>%s</strong> рубрика"
 msgstr[1] "<strong>%s</strong> рубрики"
 msgstr[2] "<strong>%s</strong> рубрик"
 
-#: wp-stats-widget.php:86
+#: wp-stats-widget.php:85
 #, php-format
 msgid "<strong>%s</strong> Link Category"
 msgid_plural "<strong>%s</strong> Link Categories"
@@ -293,7 +293,7 @@ msgstr[0] "<strong>%s</strong> рубрика ссылок"
 msgstr[1] "<strong>%s</strong> рубрики ссылок"
 msgstr[2] "<strong>%s</strong> рубрик ссылок"
 
-#: wp-stats-widget.php:90
+#: wp-stats-widget.php:89
 #, php-format
 msgid "<strong>%s</strong> Spam Blocked"
 msgid_plural "<strong>%s</strong> Spam Blockeds"
@@ -301,112 +301,120 @@ msgstr[0] "заблокирован <strong>%s</strong> спам-коммент�
 msgstr[1] "заблокировано <strong>%s</strong> спам-комментария"
 msgstr[2] "заблокировано <strong>%s</strong> спам-комментариев"
 
-#: wp-stats-widget.php:100
+#: wp-stats-widget.php:99
 msgid "Most Commented"
 msgstr "самых комментируемых записей"
 
-#: wp-stats-widget.php:111
+#: wp-stats-widget.php:109
 msgid "My Blog Statistics"
 msgstr "Статистика моего журнала"
 
-#: wp-stats-widget.php:125
+#: wp-stats-widget.php:123
 msgid "Statistics"
 msgstr "Статистика"
 
-#: wp-stats-widget.php:153
+#: wp-stats-widget.php:151
 msgid "Widget Title"
 msgstr "Название виджета"
 
-#: wp-stats-widget.php:154
+#: wp-stats-widget.php:152
 msgid "Statistics To Display?"
 msgstr "Что показывать?"
 
-#: wp-stats-widget.php:158
+#: wp-stats-widget.php:156
 msgid "Total Authors"
 msgstr "Авторы"
 
-#: wp-stats-widget.php:161
+#: wp-stats-widget.php:159
 msgid "Total Posts"
 msgstr "Записи"
 
-#: wp-stats-widget.php:164
+#: wp-stats-widget.php:162
 msgid "Total Pages"
 msgstr "Страницы"
 
-#: wp-stats-widget.php:167
+#: wp-stats-widget.php:165
 msgid "Total Tags"
 msgstr "Метки"
 
-#: wp-stats-widget.php:170
+#: wp-stats-widget.php:168
 msgid "Total Comments"
 msgstr "Комментарии"
 
-#: wp-stats-widget.php:173
+#: wp-stats-widget.php:171
 msgid "Total Comment Posters"
 msgstr "Авторы комментариев"
 
-#: wp-stats-widget.php:176
+#: wp-stats-widget.php:174
 msgid "Total Links"
 msgstr "Ссылки"
 
-#: wp-stats-widget.php:179
+#: wp-stats-widget.php:177
 msgid "Total Post Categories"
 msgstr "Рубрики"
 
-#: wp-stats-widget.php:182
+#: wp-stats-widget.php:180
 msgid "Total Link Categories"
 msgstr "Рубрики ссылок"
 
-#: wp-stats-widget.php:186
+#: wp-stats-widget.php:184
 msgid "Total Spam Blocked"
 msgstr "Заблокированный спам"
 
-#: wp-stats-widget.php:195
+#: wp-stats-widget.php:193
 msgid "Post Title Length (Characters)"
 msgstr "Длина заголовка записи (в символах)"
 
-#: wp-stats-widget.php:197
+#: wp-stats-widget.php:195
 msgid "Most Limit"
 msgstr "Лучших показателей"
 
-#: wp-stats-widget.php:199
+#: wp-stats-widget.php:197
 msgid "Show Link To Full Stats?"
 msgstr "Показать ссылку на всю статистику?"
 
-#: wp-stats-widget.php:205
+#: wp-stats-widget.php:203
 msgid "No"
 msgstr "Нет"
 
-#: wp-stats.php:61
+#: wp-stats.php:42
 msgid "WP-Stats"
 msgstr "Статистика журнала"
 
-#: wp-stats.php:64
+#: wp-stats.php:45
 msgid "Stats"
 msgstr "Статистика"
 
-#: wp-stats.php:179
+#: wp-stats.php:162
+#: wp-stats.php:192
+#: wp-stats.php:608
+#: wp-stats.php:610
+#, php-format
+msgid "%s @ %s"
+msgstr "%s в %s"
+
+#: wp-stats.php:164
 #, php-format
 msgid "View post %s"
 msgstr "Просмотреть запись %s"
 
-#: wp-stats.php:182
-#: wp-stats.php:211
-#: wp-stats.php:247
-#: wp-stats.php:283
-#: wp-stats.php:315
+#: wp-stats.php:167
+#: wp-stats.php:196
+#: wp-stats.php:232
+#: wp-stats.php:268
+#: wp-stats.php:300
 msgid "N/A"
 msgstr "Н/Д"
 
-#: wp-stats.php:208
-#: wp-stats.php:237
-#: wp-stats.php:243
+#: wp-stats.php:193
+#: wp-stats.php:222
+#: wp-stats.php:228
 #, php-format
 msgid "View comments in post %s"
 msgstr "Просмотреть комментарии к записи %s"
 
-#: wp-stats.php:237
-#: wp-stats.php:243
+#: wp-stats.php:222
+#: wp-stats.php:228
 #, php-format
 msgid "%s comment"
 msgid_plural "%s comments"
@@ -414,22 +422,22 @@ msgstr[0] "%s комментарий"
 msgstr[1] "%s комментария"
 msgstr[2] "%s комментариев"
 
-#: wp-stats.php:277
-#: wp-stats.php:279
+#: wp-stats.php:262
+#: wp-stats.php:264
 #, php-format
 msgid "View posts posted by %s"
 msgstr "Просмотреть все записи от %s"
 
-#: wp-stats.php:311
+#: wp-stats.php:296
 #, php-format
 msgid "View all comments posted by %s"
 msgstr "Просмотреть все комментарии от %s"
 
-#: wp-stats.php:332
+#: wp-stats.php:317
 msgid "No categories"
 msgstr "Нет рубрик"
 
-#: wp-stats.php:369
+#: wp-stats.php:354
 #, php-format
 msgid "%s topic"
 msgid_plural "%s topics"
@@ -437,7 +445,7 @@ msgstr[0] "%s тема"
 msgstr[1] "%s темы"
 msgstr[2] "%s тем"
 
-#: wp-stats.php:435
+#: wp-stats.php:429
 #, php-format
 msgid "<strong>%s</strong> author to this blog."
 msgid_plural "<strong>%s</strong> authors to this blog."
@@ -445,7 +453,7 @@ msgstr[0] "в этом журнале <strong>%s</strong> автор."
 msgstr[1] "в этом журнале <strong>%s</strong> автора."
 msgstr[2] "в этом журнале <strong>%s</strong> авторов."
 
-#: wp-stats.php:436
+#: wp-stats.php:430
 #, php-format
 msgid "<strong>%s</strong> post was posted."
 msgid_plural "<strong>%s</strong> posts were posted."
@@ -453,7 +461,7 @@ msgstr[0] "опубликована <strong>%s</strong> запись."
 msgstr[1] "опубликовано <strong>%s</strong> записи."
 msgstr[2] "опубликовано <strong>%s</strong> записей."
 
-#: wp-stats.php:437
+#: wp-stats.php:431
 #, php-format
 msgid "<strong>%s</strong> page was created."
 msgid_plural "<strong>%s</strong> pages were created."
@@ -461,7 +469,7 @@ msgstr[0] "создана <strong>%s</strong> страница."
 msgstr[1] "создано <strong>%s</strong> страницы."
 msgstr[2] "создано <strong>%s</strong> страниц."
 
-#: wp-stats.php:438
+#: wp-stats.php:432
 #, php-format
 msgid "<strong>%s</strong> tag was created."
 msgid_plural "<strong>%s</strong> tags were created."
@@ -469,7 +477,7 @@ msgstr[0] "добавлена <strong>%s</strong> метка."
 msgstr[1] "добавлено <strong>%s</strong> метки."
 msgstr[2] "добавлено <strong>%s</strong> меток."
 
-#: wp-stats.php:440
+#: wp-stats.php:434
 #, php-format
 msgid "<strong>%s</strong> comment was posted."
 msgid_plural "<strong>%s</strong> comments were posted."
@@ -477,7 +485,7 @@ msgstr[0] "оставлен <strong>%s</strong> комментарий."
 msgstr[1] "оставлено <strong>%s</strong> комментария."
 msgstr[2] "оставлено <strong>%s</strong> комментариев."
 
-#: wp-stats.php:441
+#: wp-stats.php:435
 #, php-format
 msgid "<strong>%s</strong> nickname was represented in the comments."
 msgid_plural "<strong>%s</strong> different nicknames were represented in the comments."
@@ -485,7 +493,7 @@ msgstr[0] "всего <strong>%s</strong> автор комментариев."
 msgstr[1] "всего <strong>%s</strong> разных автора комментариев."
 msgstr[2] "всего <strong>%s</strong> разных авторов комментариев."
 
-#: wp-stats.php:443
+#: wp-stats.php:437
 #, php-format
 msgid "<strong>%s</strong> link was added."
 msgid_plural "<strong>%s</strong> links were added."
@@ -493,7 +501,7 @@ msgstr[0] "<strong>%s</strong> ссылка."
 msgstr[1] "<strong>%s</strong> ссылки."
 msgstr[2] "<strong>%s</strong> ссылок."
 
-#: wp-stats.php:444
+#: wp-stats.php:438
 #, php-format
 msgid "<strong>%s</strong> post category was needed."
 msgid_plural "<strong>%s</strong> post categories were needed."
@@ -501,7 +509,7 @@ msgstr[0] "<strong>%s</strong> рубрика."
 msgstr[1] "<strong>%s</strong> рубрики."
 msgstr[2] "<strong>%s</strong> рубрик."
 
-#: wp-stats.php:445
+#: wp-stats.php:439
 #, php-format
 msgid "<strong>%s</strong> link category was needed."
 msgid_plural "<strong>%s</strong> link categories were needed."
@@ -509,7 +517,7 @@ msgstr[0] "<strong>%s</strong> рубрика ссылок."
 msgstr[1] "<strong>%s</strong> рубрики ссылок."
 msgstr[2] "<strong>%s</strong> рубрик ссылок."
 
-#: wp-stats.php:447
+#: wp-stats.php:441
 #, php-format
 msgid "<strong>%s</strong> spam blocked."
 msgid_plural "<strong>%s</strong> spam blocked."
@@ -517,11 +525,11 @@ msgstr[0] "заблокирован <strong>%s</strong> спам-коммент�
 msgstr[1] "заблокировано <strong>%s</strong> спам-комментария."
 msgstr[2] "заблокировано <strong>%s</strong> спам-комментариев."
 
-#: wp-stats.php:455
+#: wp-stats.php:449
 msgid "Plugins Stats"
 msgstr "Статистика модулей"
 
-#: wp-stats.php:465
+#: wp-stats.php:459
 #, php-format
 msgid "%s Recent Post"
 msgid_plural "%s Recent Posts"
@@ -529,7 +537,7 @@ msgstr[0] "%s свежая запись"
 msgstr[1] "%s свежих записи"
 msgstr[2] "%s свежих записей"
 
-#: wp-stats.php:473
+#: wp-stats.php:467
 #, php-format
 msgid "%s Recent Comment"
 msgid_plural "%s Recent Comments"
@@ -537,7 +545,7 @@ msgstr[0] "%s свежий комментарий"
 msgstr[1] "%s свежих комментария"
 msgstr[2] "%s свежих комментариев"
 
-#: wp-stats.php:483
+#: wp-stats.php:477
 #, php-format
 msgid "%s Most/Highest Stat"
 msgid_plural "%s Most/Highest Stats"
@@ -545,52 +553,67 @@ msgstr[0] "%s самый лучший параметр"
 msgstr[1] "%s самых лучших параметра"
 msgstr[2] "%s самых лучших параметров"
 
-#: wp-stats.php:605
+#: wp-stats.php:599
 msgid "Comments Posted By"
 msgstr "Комментарии от"
 
-#: wp-stats.php:606
+#: wp-stats.php:600
 #, php-format
 msgid "Displaying <strong>%s</strong> To <strong>%s</strong> Of <strong>%s</strong> Comments"
 msgstr "Показано с <strong>%s</strong> по <strong>%s</strong> из <strong>%s</strong> комментариев"
 
-#: wp-stats.php:614
-#: wp-stats.php:616
-#, php-format
-msgid "%s @ %s"
-msgstr "%s в %s"
-
+#: wp-stats.php:617
 #: wp-stats.php:623
-#: wp-stats.php:629
 msgid "Posted On"
 msgstr "Опубликовано"
 
-#: wp-stats.php:623
+#: wp-stats.php:617
 msgid "Protected"
 msgstr "Защищено паролем"
 
-#: wp-stats.php:624
+#: wp-stats.php:618
 msgid "Comments Protected"
 msgstr "Комментарии защищены паролем"
 
-#: wp-stats.php:631
+#: wp-stats.php:625
 #, php-format
 msgid "View the comment posted by %s"
 msgstr "Просмотреть комментарий от %s"
 
-#: wp-stats.php:631
+#: wp-stats.php:625
 msgid "Posted By"
 msgstr "Опубликовано"
 
-#: wp-stats.php:631
+#: wp-stats.php:625
 msgid "On"
 msgstr "В"
 
-#: wp-stats.php:636
+#: wp-stats.php:630
 msgid "has not made any comments yet."
 msgstr "не оставлял комментариев."
 
-#: wp-stats.php:666
+#: wp-stats.php:637
+#, php-format
+msgid "Page %s of %s"
+msgstr "Страница %s из %s"
+
+#: wp-stats.php:639
+msgid "&laquo; First"
+msgstr "&laquo; Первая"
+
+#: wp-stats.php:643
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-stats.php:653
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-stats.php:657
+msgid "Last &raquo;"
+msgstr "Последняя &raquo;"
+
+#: wp-stats.php:662
 msgid "Back To Stats Page"
 msgstr "Назад на страницу статистики"
 
