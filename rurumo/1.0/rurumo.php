@@ -2,7 +2,7 @@
 /*
 Plugin Name: rurumo
 Plugin URI: http://wordpress-russia.org/support/topic/rurumo
-Description: Обновление переводов. Антону Скоробогатову (<strong>rurumo</strong>) посвящается.
+Description: Автоматическое обновление переводов. Антону Скоробогатову (<strong>rurumo</strong>) посвящается.
 Author: Sol
 Version: 0.1
 Author URI: http://salpagarov.ru
@@ -106,9 +106,9 @@ function rurumo_notification ($file_name) {
 		$rurumo[$plugin_pack]->checked = time();
 	}
 	if (($rurumo[$plugin_pack]->package != null) && ($rurumo[$plugin_pack]->installed == false)) {
-		echo "<tr><td colspan='5' class='plugin-update'>";
-		echo "Перевод этого плагина вы можете скачать с сайта <a href='".$rurumo[$plugin_pack]->package."'>wordpress-russia.org</a> или <a href='/wp-admin/admin.php?page=rurumo/update.php&update=$plugin_pack'>установить автоматически</a>.";
-		echo "</td></td>";
+		echo '<tr class="plugin-update-tr"><td colspan="3" class="plugin-update" ><div class="update-message">';
+		echo "Перевод этого плагина вы можете скачать с сайта <a href='".$rurumo[$plugin_pack]->package."'>l10n.googlecode.com</a> или <a href='/wp-admin/admin.php?page=rurumo/update.php&update=$plugin_pack'>установить автоматически</a>.";
+		echo '</div></td></td>';
 	}
 	update_option('rurumo', serialize($rurumo));
 }
