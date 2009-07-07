@@ -1,0 +1,1349 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-DownloadManager 1.50\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-04 23:22+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: download-add.php:38
+#: download-add.php:185
+#: wp-downloadmanager.php:51
+#: wp-downloadmanager.php:126
+msgid "Add File"
+msgstr "Добавить файл"
+
+#: download-add.php:48
+#: download-manager.php:151
+#, php-format
+msgid "File Size Too Large. Maximum Size Is %s"
+msgstr "Слишком большой файл. Установлено ограничение в %s"
+
+#: download-add.php:62
+#: download-add.php:66
+#: download-manager.php:165
+#: download-manager.php:169
+msgid "Error In Uploading File"
+msgstr "Ошибка при загрузке файла."
+
+#: download-add.php:96
+#, php-format
+msgid "Error In Adding File '%s (%s)'"
+msgstr "Ошибка при добавлении файла &laquo;%s (%s)raquo;"
+
+#: download-add.php:98
+#, php-format
+msgid "File '%s (%s)' Added Successfully"
+msgstr "Файл &laquo;%s (%s)&raquo; добавлен"
+
+#: download-add.php:110
+msgid "Add A File"
+msgstr "Добавить файл"
+
+#: download-add.php:113
+#: download-manager.php:289
+#: download-manager.php:399
+msgid "File:"
+msgstr "Файл:"
+
+#: download-add.php:116
+#: download-manager.php:295
+msgid "Browse File:"
+msgstr "Выбрать уже загруженный файл:"
+
+#: download-add.php:120
+#: download-manager.php:299
+#, php-format
+msgid "Please upload the file to '%s' directory first."
+msgstr "Сначала загрузите файл в директорию &laquo;%s&raquo;."
+
+#: download-add.php:123
+#: download-manager.php:302
+msgid "Upload File:"
+msgstr "Загрузить файл:"
+
+#: download-add.php:124
+#: download-manager.php:303
+msgid "to"
+msgstr "в"
+
+#: download-add.php:128
+#: download-manager.php:307
+#, php-format
+msgid "Maximum file size is %s."
+msgstr "Максимальный размер файла&nbsp;&mdash; %s."
+
+#: download-add.php:131
+#: download-manager.php:310
+msgid "Remote File:"
+msgstr "Файл с другого сервера:"
+
+#: download-add.php:133
+#: download-manager.php:312
+msgid "Please include http:// or ftp:// in front."
+msgstr "Пожалуйста, укажите URL полностью (включая http:// или ftp://)."
+
+#: download-add.php:137
+#: download-manager.php:316
+#: download-manager.php:403
+msgid "File Name:"
+msgstr "Название файла:"
+
+#: download-add.php:141
+#: download-manager.php:320
+#: download-manager.php:407
+msgid "File Description:"
+msgstr "Описание файла:"
+
+#: download-add.php:145
+#: download-manager.php:324
+#: download-manager.php:411
+msgid "File Category:"
+msgstr "Рубрика файла:"
+
+#: download-add.php:159
+#: download-manager.php:342
+#: download-manager.php:415
+msgid "File Size:"
+msgstr "Размер файла:"
+
+#: download-add.php:160
+#: download-manager.php:343
+#: wp-downloadmanager.php:328
+msgid "bytes"
+msgstr "байт"
+
+#: download-add.php:160
+msgid "Leave blank for auto detection. Auto detection sometimes will not work for Remote File."
+msgstr "Для автоматического определения размера файла оставьте это поле пустым. Эта функция иногда не работает для файлов, находящихся на других серверах."
+
+#: download-add.php:163
+#: download-manager.php:350
+msgid "File Date:"
+msgstr "Дата создания файла:"
+
+#: download-add.php:167
+msgid "Starting File Hits:"
+msgstr "Начальное значение счетчика скачиваний:"
+
+#: download-add.php:171
+#: download-manager.php:362
+#: download-manager.php:435
+msgid "Allowed To Download:"
+msgstr "Доступ к файлу:"
+
+#: download-add.php:174
+#: download-manager.php:365
+#: wp-downloadmanager.php:913
+msgid "Hidden"
+msgstr "Скрыто"
+
+#: download-add.php:175
+#: download-manager.php:366
+#: wp-downloadmanager.php:916
+msgid "Everyone"
+msgstr "Для всех"
+
+#: download-add.php:176
+#: download-manager.php:367
+#: wp-downloadmanager.php:919
+msgid "Registered Users Only"
+msgstr "Для зарегистрированных пользователей"
+
+#: download-add.php:177
+#: download-manager.php:368
+#: wp-downloadmanager.php:922
+msgid "At Least Contributor Role"
+msgstr "Для пользователей уровня Подписчика и выше"
+
+#: download-add.php:178
+#: download-manager.php:369
+#: wp-downloadmanager.php:925
+msgid "At Least Author Role"
+msgstr "Для пользователей уровня Автора и выше"
+
+#: download-add.php:179
+#: download-manager.php:370
+#: wp-downloadmanager.php:928
+msgid "At Least Editor Role"
+msgstr "Для пользователей уровня Редактора и выше"
+
+#: download-add.php:180
+#: download-manager.php:371
+#: wp-downloadmanager.php:931
+msgid "At Least Administrator Role"
+msgstr "Для пользователей уровня Администратора"
+
+#: download-add.php:185
+#: download-manager.php:376
+#: download-manager.php:444
+msgid "Cancel"
+msgstr "Отмена"
+
+#: download-manager.php:67
+#: download-manager.php:622
+#: download-options.php:142
+#: download-options.php:178
+#: download-options.php:216
+msgid "File ID"
+msgstr "ID файла"
+
+#: download-manager.php:71
+#: download-manager.php:500
+#: download-manager.php:623
+#: download-options.php:179
+msgid "File"
+msgstr "Файл"
+
+#: download-manager.php:75
+#: download-manager.php:628
+#: download-options.php:181
+#: download-options.php:219
+msgid "File Size"
+msgstr "Размер файла"
+
+#: download-manager.php:79
+#: download-manager.php:629
+msgid "File Category"
+msgstr "Рубрика файла"
+
+#: download-manager.php:83
+#: download-manager.php:419
+#: download-manager.php:630
+#: download-options.php:183
+#: download-options.php:220
+msgid "File Hits"
+msgstr "Количество скачиваний"
+
+#: download-manager.php:87
+#: download-manager.php:631
+msgid "File Permission"
+msgstr "Режим доступа к файлу"
+
+#: download-manager.php:91
+#: download-manager.php:423
+#: download-manager.php:625
+#: download-options.php:182
+#: download-options.php:217
+msgid "File Date"
+msgstr "Дата создания файла"
+
+#: download-manager.php:95
+#: download-manager.php:626
+msgid "File Updated Date"
+msgstr "Дата обновления файла"
+
+#: download-manager.php:99
+#: download-manager.php:627
+msgid "File Last Downloaded Date"
+msgstr "Дата последнего скачивания файла"
+
+#: download-manager.php:104
+#: download-manager.php:624
+#: download-options.php:144
+#: download-options.php:180
+msgid "File Name"
+msgstr "Название файла"
+
+#: download-manager.php:112
+#: download-manager.php:636
+#: download-options.php:192
+msgid "Descending"
+msgstr "По убыванию"
+
+#: download-manager.php:117
+#: download-manager.php:635
+#: download-options.php:191
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: download-manager.php:126
+#: download-manager.php:376
+msgid "Edit File"
+msgstr "Редактировать файл"
+
+#: download-manager.php:214
+#, php-format
+msgid "Error In Editing File '%s (%s)'"
+msgstr "Ошибка при добавлении файла &laquo;%s (%s)&raquo;"
+
+#: download-manager.php:216
+#, php-format
+msgid "File '%s (%s)' Edited Successfully"
+msgstr "Файл &laquo;%s (%s)&raquo; отредактирован"
+
+#: download-manager.php:220
+#: download-manager.php:444
+msgid "Delete File"
+msgstr "Удалить файл"
+
+#: download-manager.php:227
+#, php-format
+msgid "Error In Deleting File '%s (%s)' From Server"
+msgstr "Ошибка при удалении файла &laquo;%s (%s)&raquo; с сервера"
+
+#: download-manager.php:229
+#, php-format
+msgid "File '%s (%s)' Deleted From Server Successfully"
+msgstr "Файл &laquo;%s (%s)&raquo; удален с сервера"
+
+#: download-manager.php:234
+#, php-format
+msgid "Error In Deleting File '%s (%s)'"
+msgstr "Ошибка при удалении файла &laquo;%s (%s)&raquo;"
+
+#: download-manager.php:236
+#, php-format
+msgid "File '%s (%s)' Deleted Successfully"
+msgstr "Файл &laquo;%s (%s)&raquo; удален"
+
+#: download-manager.php:286
+msgid "Edit A File"
+msgstr "Редактировать файл"
+
+#: download-manager.php:292
+msgid "Current File:"
+msgstr "Текущий файл:"
+
+#: download-manager.php:343
+msgid "Auto Detection Of File Size"
+msgstr "Автоматическое определение размера файла"
+
+#: download-manager.php:346
+msgid "File Hits:"
+msgstr "Кол-во скачиваний файла:"
+
+#: download-manager.php:347
+#, php-format
+msgid "%s hit"
+msgid_plural "%s hits"
+msgstr[0] "%s скачивание"
+msgstr[1] "%s скачивания"
+msgstr[2] "%s скачиваний"
+
+#: download-manager.php:347
+msgid "Reset File Hits"
+msgstr "Сбросить счетчик скачиваний"
+
+#: download-manager.php:351
+msgid "Existing Timestamp:"
+msgstr "Текущая метка даты и времени:"
+
+#: download-manager.php:351
+msgid "Edit Timestamp"
+msgstr "Редактировать метку даты и времени"
+
+#: download-manager.php:351
+msgid "Use Today's Date"
+msgstr "Использовать сегодняшнюю дату"
+
+#: download-manager.php:354
+#: download-manager.php:427
+msgid "File Updated Date:"
+msgstr "Дата обновления файла:"
+
+#: download-manager.php:358
+#: download-manager.php:431
+msgid "File Last Downloaded Date:"
+msgstr "Дата последней загрузки файла:"
+
+#: download-manager.php:395
+msgid "Delete A File"
+msgstr "Удалить файл"
+
+#: download-manager.php:420
+#: download-templates.php:121
+#: download-templates.php:124
+#: download-templates.php:127
+#: download-templates.php:130
+#: download-templates.php:136
+#: download-templates.php:139
+#: wp-downloadmanager.php:1442
+#: wp-downloadmanager.php:1443
+#: wp-downloadmanager.php:1444
+msgid "hits"
+msgstr "скачиваний"
+
+#: download-manager.php:440
+msgid "Delete File From Server?"
+msgstr "Удалить файл с сервера?"
+
+#: download-manager.php:456
+#: download-manager.php:457
+#: wp-downloadmanager.php:244
+#: wp-downloadmanager.php:310
+#: wp-downloadmanager.php:330
+msgid "unknown"
+msgstr "неизвестен"
+
+#: download-manager.php:492
+#: wp-downloadmanager.php:50
+msgid "Manage Downloads"
+msgstr "Управление файлами"
+
+#: download-manager.php:493
+#: wp-downloadmanager.php:47
+#: wp-downloadmanager.php:1280
+#: wp-downloadmanager.php:1334
+msgid "Downloads"
+msgstr "Файлы"
+
+#: download-manager.php:494
+#, php-format
+msgid "Displaying <strong>%s</strong> To <strong>%s</strong> Of <strong>%s</strong> Files"
+msgstr "Показано с <strong>%s</strong> по <strong>%s</strong> из <strong>%s</strong> файлов"
+
+#: download-manager.php:495
+#, php-format
+msgid "Sorted By <strong>%s</strong> In <strong>%s</strong> Order"
+msgstr "Отсортировано по: <strong>%s</strong>. Порядок сортировки: <strong>%s</strong>"
+
+#: download-manager.php:499
+msgid "ID"
+msgstr "ID"
+
+#: download-manager.php:501
+msgid "Size"
+msgstr "Размер"
+
+#: download-manager.php:502
+msgid "Hits"
+msgstr "Кол-во скачиваний"
+
+#: download-manager.php:503
+msgid "Permission"
+msgstr "Доступ"
+
+#: download-manager.php:504
+msgid "Category"
+msgstr "Рубрика"
+
+#: download-manager.php:505
+msgid "Date/Time Added"
+msgstr "Дата и время добавления"
+
+#: download-manager.php:506
+msgid "Action"
+msgstr "Действие"
+
+#: download-manager.php:535
+#, php-format
+msgid "Last Updated: %s, %s"
+msgstr "Обновлено: %s, %s"
+
+#: download-manager.php:535
+#, php-format
+msgid "Last Downloaded: %s, %s"
+msgstr "Скачано: %s, %s"
+
+#: download-manager.php:541
+msgid "Edit"
+msgstr "Редактировать"
+
+#: download-manager.php:542
+msgid "Delete"
+msgstr "Удалить"
+
+#: download-manager.php:547
+msgid "No Files Found"
+msgstr "Файлы не найдены"
+
+#: download-manager.php:561
+msgid "Previous Page"
+msgstr "Предыдущая страница"
+
+#: download-manager.php:570
+msgid "Next Page"
+msgstr "Следующая страница"
+
+#: download-manager.php:579
+msgid "Pages"
+msgstr "Страницы"
+
+#: download-manager.php:582
+msgid "Go to First Page"
+msgstr "Перейти на первую страницу"
+
+#: download-manager.php:582
+msgid "First"
+msgstr "Первая"
+
+#: download-manager.php:585
+#: download-manager.php:597
+msgid "Go to Page"
+msgstr "Перейти на страницу"
+
+#: download-manager.php:592
+msgid "Page"
+msgstr "Страница"
+
+#: download-manager.php:600
+msgid "Go to Last Page"
+msgstr "Перейти на последнюю страницу"
+
+#: download-manager.php:600
+msgid "Last"
+msgstr "Последняя"
+
+#: download-manager.php:614
+msgid "Filter Options: "
+msgstr "Параметры фильтра:"
+
+#: download-manager.php:615
+msgid "Keywords:"
+msgstr "Ключевые слова:"
+
+#: download-manager.php:618
+msgid "Sort Options:"
+msgstr "Порядок сортировки:"
+
+#: download-manager.php:643
+#: download-manager.php:645
+msgid "Per Page"
+msgstr "Файлов на страницу"
+
+#: download-manager.php:653
+msgid "Go"
+msgstr "Выполнить"
+
+#: download-manager.php:662
+msgid "Download Stats"
+msgstr "Статистика"
+
+#: download-manager.php:666
+msgid "Total Files:"
+msgstr "Всего файлов:"
+
+#: download-manager.php:670
+msgid "Total Size:"
+msgstr "Общий размер загруженных файлов:"
+
+#: download-manager.php:674
+msgid "Total Hits:"
+msgstr "Общее количество скачиваний:"
+
+#: download-manager.php:678
+msgid "Total Bandwidth:"
+msgstr "Общий трафик:"
+
+#: download-options.php:67
+msgid "Download Path"
+msgstr "Директория для хранения файлов"
+
+#: download-options.php:68
+msgid "Download Path URL"
+msgstr "URL директории для хранения файлов"
+
+#: download-options.php:69
+msgid "Download Page URL"
+msgstr "URL страницы со списком файлов"
+
+#: download-options.php:70
+msgid "Download Nice Permalink"
+msgstr "Постоянная ссылка на файл"
+
+#: download-options.php:71
+#: download-options.php:114
+#: download-options.php:115
+#: wp-downloadmanager.php:52
+msgid "Download Options"
+msgstr "Настройки"
+
+#: download-options.php:72
+msgid "Download Method"
+msgstr "Метод загрузки"
+
+#: download-options.php:73
+msgid "Download Categories"
+msgstr "Рубрики загружаемого файла"
+
+#: download-options.php:74
+msgid "Download Sorting"
+msgstr "Сортировка файлов"
+
+#: download-options.php:79
+#: download-templates.php:78
+msgid "Updated"
+msgstr "&mdash; обновлено"
+
+#: download-options.php:84
+#: download-templates.php:83
+msgid "No Download Option Updated"
+msgstr "Настройки не обновлены"
+
+#: download-options.php:118
+msgid "Download Path:"
+msgstr "Директория для хранения файлов:"
+
+#: download-options.php:119
+msgid "The absolute path to the directory where all the files are stored (without trailing slash)."
+msgstr "Абсолютный путь к директории, в которой хранятся все загруженные файлы (без / на конце)."
+
+#: download-options.php:122
+msgid "Download Path URL:"
+msgstr "URL директории для хранения файлов:"
+
+#: download-options.php:123
+msgid "The url to the directory where all the files are stored (without trailing slash)."
+msgstr "URL директории, в которой хранятся файлы (без / на конце)."
+
+#: download-options.php:126
+msgid "Download Page URL:"
+msgstr "URL страницы со списком файлов:"
+
+#: download-options.php:127
+msgid "The url to the downloads page (without trailing slash)."
+msgstr "URL страницы со списком файлов для скачивания (без / на конце)"
+
+#: download-options.php:130
+msgid "Download Nice Permalink:"
+msgstr "Постоянная ссылка на файл (ЧПУ):"
+
+#: download-options.php:132
+#: download-uninstall.php:145
+#: wp-downloadmanager.php:1370
+msgid "Yes"
+msgstr "Да"
+
+#: download-options.php:134
+#: wp-downloadmanager.php:1369
+msgid "No"
+msgstr "Нет"
+
+#: download-options.php:136
+msgid "Change it to <strong>No</strong> when you encounter 404 error."
+msgstr "Измените на <strong>Нет</strong>, если вы столкнётесь с ошибкой 404."
+
+#: download-options.php:140
+msgid "Use File Name Or File ID In Download URL?"
+msgstr "Структура URL файла:"
+
+#: download-options.php:146
+msgid "Change it to <strong>File ID</strong> when you encounter 404 error."
+msgstr "Измените на <strong>ID файла</strong>, если вы столкнётесь с ошибкой 404."
+
+#: download-options.php:150
+msgid "Download Method:"
+msgstr "Метод загрузки:"
+
+#: download-options.php:153
+msgid "Output File"
+msgstr "Конечный файл"
+
+#: download-options.php:154
+msgid "Redirect To File"
+msgstr "Перенаправление на файл"
+
+#: download-options.php:156
+msgid "Change it to <strong>Redirect To File</strong> when you have problem with large files."
+msgstr "Измените на <strong>Перенаправление на файл</strong> если у вас возникнут проблемы с файлами большого размера."
+
+#: download-options.php:161
+msgid "Download Categories:"
+msgstr "Рубрики загружаемого файла:"
+
+#: download-options.php:162
+msgid "Start each entry on a new line."
+msgstr "Указывайте название каждой используемой рубрики с новой строки."
+
+#: download-options.php:163
+msgid "The <strong>first line</strong> will have a category id of <strong>1</strong>."
+msgstr "Рубрике в <strong>первой строке</strong> будет присвоен ID <strong>1</strong>."
+
+#: download-options.php:164
+msgid "The <strong>2nd line</strong> will have a category id of <strong>2</strong>."
+msgstr "Рубрике во <strong>второй строке</strong> будет присвоен ID <strong>2</strong>."
+
+#: download-options.php:165
+msgid "And so on and so forth."
+msgstr "И так далее."
+
+#: download-options.php:172
+msgid "Download Listing Options"
+msgstr "Настройка списка файлов"
+
+#: download-options.php:175
+msgid "Sort Downloads By:"
+msgstr "Сортировать по:"
+
+#: download-options.php:188
+msgid "Sort Order Of Downloads:"
+msgstr "Порядок сортировки:"
+
+#: download-options.php:197
+msgid "No. Of Downloads Per Page:"
+msgstr "Файлов на страницу:"
+
+#: download-options.php:201
+msgid "Group By:"
+msgstr "Группировка:"
+
+#: download-options.php:204
+msgid "None"
+msgstr "Отсутствует"
+
+#: download-options.php:205
+msgid "Categories"
+msgstr "Рубрики"
+
+#: download-options.php:210
+msgid "Download RSS Options"
+msgstr "Настройка RSS-ленты файлов"
+
+#: download-options.php:213
+msgid "Sort Downloads In Feed By:"
+msgstr "Сортировать ленту по:"
+
+#: download-options.php:218
+msgid "File Last Updated Date"
+msgstr "Дата обновления файла"
+
+#: download-options.php:223
+msgid "Sorting are done in descending order."
+msgstr "Элементы сортируются по убыванию значений."
+
+#: download-options.php:227
+msgid "No. Of Downloads In Feed:"
+msgstr "Кол-во файлов в ленте:"
+
+#: download-options.php:232
+#: download-templates.php:532
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: download-rss.php:43
+#: download-rss.php:46
+#: wp-downloadmanager.php:178
+msgid " Downloads RSS Feed"
+msgstr "RSS-лента файлов"
+
+#: download-rss.php:61
+#, php-format
+msgid "File Size: %s"
+msgstr "Размер файла: %s"
+
+#: download-rss.php:61
+#, php-format
+msgid "File Hits: %s"
+msgstr "Кол-во скачиваний файла: %s"
+
+#: download-rss.php:61
+#, php-format
+msgid "File Last Updated: %s"
+msgstr "Дата обновления: %s"
+
+#: download-templates.php:63
+msgid "Download Page Header Template"
+msgstr "Шаблон &laquo;шапки&raquo; страницы со списком файлов для скачивания"
+
+#: download-templates.php:64
+msgid "Download Page Footer Template"
+msgstr "Шаблон &laquo;подвала&raquo; страницы со списком файлов для скачивания"
+
+#: download-templates.php:65
+msgid "Download Page Paging Header Template"
+msgstr "Шаблон &laquo;шапки&raquo; подстраниц списка файлов"
+
+#: download-templates.php:66
+msgid "Download Page Paging Footer Template"
+msgstr "Шаблон &laquo;подвала&raquo; подстраниц списка файлов"
+
+#: download-templates.php:67
+msgid "No Files Found Template"
+msgstr "Шаблон &laquo;Файлы не найдены&raquo;"
+
+#: download-templates.php:68
+msgid "Download Category Header Template"
+msgstr "Шаблон &laquo;шапки&raquo; рубрик файлов для скачивания"
+
+#: download-templates.php:69
+msgid "Download Category Footer Template"
+msgstr "Шаблон &laquo;подвала&raquo; рубрик файлов для скачивания"
+
+#: download-templates.php:70
+msgid "Download Listing Template"
+msgstr "Шаблон &laquo;Список файлов для скачивания&raquo;"
+
+#: download-templates.php:71
+msgid "Download Embedded Template"
+msgstr "Шаблон &laquo;Прикрепленные файлы&raquo;"
+
+#: download-templates.php:72
+#: download-templates.php:457
+msgid "Download Page Link Template"
+msgstr "Шаблон ссылки на страницу со списком файлов"
+
+#: download-templates.php:73
+msgid "Most Downloaded Template"
+msgstr "Шаблон &laquo;Популярные файлы&raquo;"
+
+#: download-templates.php:100
+#: wp-downloadmanager.php:1438
+msgid "There are <strong>%TOTAL_FILES_COUNT% files</strong>, weighing <strong>%TOTAL_SIZE%</strong> with <strong>%TOTAL_HITS% hits</strong> in <strong>%FILE_CATEGORY_NAME%</strong>.</p><p>Displaying <strong>%RECORD_START%</strong> to <strong>%RECORD_END%</strong> of <strong>%TOTAL_FILES_COUNT%</strong> files."
+msgstr "Всего файлов: <strong>%TOTAL_FILES_COUNT%</strong>, общим объёмом в <strong>%TOTAL_SIZE%</strong>.<br>Загружено <strong>%TOTAL_HITS% раз</strong> в <strong>%FILE_CATEGORY_NAME%</strong>.</p><p>Показано с <strong>%RECORD_START%</strong> по <strong>%RECORD_END%</strong> из <strong>%TOTAL_FILES_COUNT%</strong>."
+
+#: download-templates.php:103
+#: wp-downloadmanager.php:1439
+msgid "Search"
+msgstr "Найти"
+
+#: download-templates.php:112
+#: wp-downloadmanager.php:1457
+msgid "No Files Found."
+msgstr "Файлы не найдены."
+
+#: download-templates.php:115
+#: wp-downloadmanager.php:1440
+msgid "View all downloads in %FILE_CATEGORY_NAME%"
+msgstr "Показать все файлы в рубрике"
+
+#: download-templates.php:124
+#: download-templates.php:130
+#: download-templates.php:136
+#: download-templates.php:139
+#: wp-downloadmanager.php:1443
+#: wp-downloadmanager.php:1444
+msgid ","
+msgstr ","
+
+#: download-templates.php:127
+#: download-templates.php:130
+#: download-templates.php:139
+#: wp-downloadmanager.php:254
+#: wp-downloadmanager.php:1442
+#: wp-downloadmanager.php:1443
+#: wp-downloadmanager.php:1444
+msgid "You do not have permission to download this file."
+msgstr "Вам запрещён доступ к этому файлу."
+
+#: download-templates.php:133
+#: wp-downloadmanager.php:1456
+msgid "Downloads Page"
+msgstr "Список файлов"
+
+#: download-templates.php:148
+#: wp-downloadmanager.php:53
+msgid "Download Templates"
+msgstr "Шаблоны"
+
+#: download-templates.php:150
+msgid "Template Variables"
+msgstr "Переменные шаблона"
+
+#: download-templates.php:155
+msgid "Display the file's ID."
+msgstr "Показать ID файла."
+
+#: download-templates.php:159
+msgid "Display the file's filename."
+msgstr "Показать название файла."
+
+#: download-templates.php:163
+msgid "Display the total number of files in the category."
+msgstr "Показать общее количество файлов в рубрике."
+
+#: download-templates.php:167
+msgid "Display the total number of files."
+msgstr "Показать общее количество файлов."
+
+#: download-templates.php:171
+msgid "Display the start number of the record."
+msgstr "Показать начальное значение списка файлов."
+
+#: download-templates.php:177
+msgid "Display the file's name."
+msgstr "Показать настраиваемое название файла."
+
+#: download-templates.php:181
+msgid "Display the file's description."
+msgstr "Показать описание файла."
+
+#: download-templates.php:185
+msgid "Display the total number of file hits in the category."
+msgstr "Покать общее количество скачиваний файлов в рубрике."
+
+#: download-templates.php:189
+msgid "Displays the total file hits."
+msgstr "Показать общее количество скачиваний файлов."
+
+#: download-templates.php:193
+msgid "Display the end number of the record."
+msgstr "Показать конечное значение списка файлов."
+
+#: download-templates.php:199
+msgid "Display the file's size in bytes/KB/MB/GB/TB."
+msgstr "Показать размер файла в байтах/Кб/Мб/Гб/Тб."
+
+#: download-templates.php:203
+msgid "Display the files's category name."
+msgstr "Показать название рубрики файла."
+
+#: download-templates.php:207
+msgid "Display the total size of all the files in the category."
+msgstr "Показать общий размер всех файлов в рубрике."
+
+#: download-templates.php:211
+msgid "Display the total file size."
+msgstr "Показать размер всех файлов."
+
+#: download-templates.php:215
+msgid "Display the number of times the file has been downloaded."
+msgstr "Показать количество скачиваний файла."
+
+#: download-templates.php:221
+msgid "Displays the file's date."
+msgstr "Показать дату создания файла."
+
+#: download-templates.php:225
+msgid "Displays the file's time."
+msgstr "Показать время создания файла"
+
+#: download-templates.php:229
+msgid "Displays the url to the category."
+msgstr "Показать URL рубрики."
+
+#: download-templates.php:233
+msgid "Displays the file's download url."
+msgstr "Показать URL для скачивания файла."
+
+#: download-templates.php:237
+msgid "Display the category ID."
+msgstr "Показать ID рубрики."
+
+#: download-templates.php:243
+msgid "Displays the file's extension icon."
+msgstr "Показать иконку типа файла."
+
+#: download-templates.php:247
+msgid "Displays the URL to the download page."
+msgstr "Показать URL страницы со списком файлов."
+
+#: download-templates.php:251
+msgid "Displays the file's last updated date."
+msgstr "Показать дату последнего обновления файла."
+
+#: download-templates.php:255
+msgid "Displays the file's last updated time."
+msgstr "Показать время последнего обновления файла."
+
+#: download-templates.php:259
+msgid "Displays the file search key word."
+msgstr "Показать ключевое слово для поиска файла."
+
+#: download-templates.php:263
+msgid "Download Page Templates"
+msgstr "Шаблоны для отображения файлов и списков файлов"
+
+#: download-templates.php:267
+msgid "Download Page Header:"
+msgstr "&laquo;Шапка&raquo; страницы со списком файлов"
+
+#: download-templates.php:268
+#: download-templates.php:285
+#: download-templates.php:300
+#: download-templates.php:309
+#: download-templates.php:321
+#: download-templates.php:333
+#: download-templates.php:347
+#: download-templates.php:365
+#: download-templates.php:388
+#: download-templates.php:414
+#: download-templates.php:437
+#: download-templates.php:462
+#: download-templates.php:480
+#: download-templates.php:511
+msgid "Allowed Variables:"
+msgstr "Допустимые переменные:"
+
+#: download-templates.php:278
+#: download-templates.php:293
+#: download-templates.php:302
+#: download-templates.php:311
+#: download-templates.php:323
+#: download-templates.php:340
+#: download-templates.php:354
+#: download-templates.php:380
+#: download-templates.php:403
+#: download-templates.php:429
+#: download-templates.php:452
+#: download-templates.php:464
+#: download-templates.php:495
+#: download-templates.php:526
+msgid "Restore Default Template"
+msgstr "Восстановить стандартный шаблон"
+
+#: download-templates.php:284
+msgid "Download Page Footer:"
+msgstr "&laquo;Подвал&raquo; страницы со списком файлов"
+
+#: download-templates.php:299
+msgid "Download Page Paging Header:"
+msgstr "&laquo;Шапка&raquo; подстраниц списка файлов:"
+
+#: download-templates.php:308
+msgid "Download Page Paging Footer:"
+msgstr "&laquo;Подвал&raquo; подстраниц списка файлов:"
+
+#: download-templates.php:316
+msgid "No Files Found Templates"
+msgstr "Шаблон &laquo;Файлы не найдены&raquo;"
+
+#: download-templates.php:320
+msgid "No Files Found:"
+msgstr "Файлы не найдены:"
+
+#: download-templates.php:328
+msgid "Download Category Templates"
+msgstr "Шаблон рубрик списка файлов"
+
+#: download-templates.php:332
+msgid "Download Category Header:"
+msgstr "&laquo;Шапка&raquo; шаблона рубрик"
+
+#: download-templates.php:346
+msgid "Download Category Footer:"
+msgstr "&laquo;Подвал&raquo; шаблона рубрик"
+
+#: download-templates.php:359
+msgid "Download Templates (With Permission)"
+msgstr "Шаблон списка файлов (доступ разрешён)"
+
+#: download-templates.php:363
+#: download-templates.php:412
+msgid "Download Listing:"
+msgstr "Список файлов:"
+
+#: download-templates.php:364
+msgid "Displayed when listing files in the downloads page and users have permission to download the file."
+msgstr "Используется при создании списка файлов, если пользователю разрешён доступ к ним."
+
+#: download-templates.php:386
+#: download-templates.php:435
+msgid "Download Embedded File"
+msgstr "Скачать прикреплённый файл"
+
+#: download-templates.php:387
+msgid "Displayed when you embedded a file within a post or a page and users have permission to download the file."
+msgstr "Используется для файлов, прикрепляемых к записи, если пользователю разрешён доступ к ним."
+
+#: download-templates.php:408
+msgid "Download Templates (Without Permission)"
+msgstr "Шаблон списка файлов (доступ запрещён)"
+
+#: download-templates.php:413
+msgid "Displayed when listing files in the downloads page and users <strong>DO NOT</strong> have permission to download the file."
+msgstr "Используется при создании списка файлов, если пользователю <strong>ЗАПРЕЩЁН</strong> доступ к ним."
+
+#: download-templates.php:436
+msgid "Displayed when you embedded a file within a post or a page and users <strong>DO NOT</strong> have permission to download the file."
+msgstr "Используется для файлов, прикрепляемых к записи, если пользователю <strong>ЗАПРЕЩЁН</strong> доступ к ним."
+
+#: download-templates.php:461
+msgid "This template is used to style the link to the Download Page, if you choose to display the Download Page Link in the Most Downloaded and Recent Downloads widget."
+msgstr "Этот шаблон используется для определения стиля ссылки на страницу со списком файлов (если вы включили отображение этой ссылки в виджетах &laquo;Популярные файлы&raquo; и &laquo;Недавно скачанные файлы&raquo;)."
+
+#: download-templates.php:469
+msgid "Download Stats Templates (With Permission)"
+msgstr "Шаблон статистики (доступ разрешён)"
+
+#: download-templates.php:473
+#: download-templates.php:504
+#: wp-downloadmanager.php:1351
+msgid "Most Downloaded"
+msgstr "Популярные файлы"
+
+#: download-templates.php:474
+#: download-templates.php:505
+msgid "Displayed when listing most downloaded files."
+msgstr "Используется для создания списка самых популярных файлов."
+
+#: download-templates.php:475
+#: download-templates.php:506
+#: wp-downloadmanager.php:1350
+msgid "Recent Downloads"
+msgstr "Недавно скачанные файлы"
+
+#: download-templates.php:476
+#: download-templates.php:507
+msgid "Displayed when listing recent downloads."
+msgstr "Используется для создания списка недавно загруженных файлов."
+
+#: download-templates.php:477
+#: download-templates.php:508
+msgid "Downloads By Category"
+msgstr "Сортировка файлов по рубрикам"
+
+#: download-templates.php:478
+#: download-templates.php:509
+msgid "Displayed when listing downloads by category."
+msgstr "Используется для создания списка файлов, упорядоченного по рубрикам."
+
+#: download-templates.php:479
+msgid "Displayed when users have permission to download the file."
+msgstr "Используется, когда пользователю разрешён доступ к файлу."
+
+#: download-templates.php:500
+msgid "Download Stats Templates (Without Permission)"
+msgstr "Шаблон статистики (доступ запрещён)"
+
+#: download-templates.php:510
+msgid "Displayed when users <strong>DO NOT</strong> have permission to download the file."
+msgstr "Используется, когда у пользователей <strong>НЕТ</strong> доступа к файлу."
+
+#: download-uninstall.php:40
+#: download-uninstall.php:146
+msgid "UNINSTALL WP-DownloadManager"
+msgstr "УДАЛИТЬ Менеджер файлов"
+
+#: download-uninstall.php:47
+#, php-format
+msgid "Table '%s' has been deleted."
+msgstr "Таблица &laquo;%s&raquo; удалена."
+
+#: download-uninstall.php:56
+#, php-format
+msgid "Setting Key '%s' has been deleted."
+msgstr "Настройка &laquo;%s&raquo; удалена."
+
+#: download-uninstall.php:60
+#, php-format
+msgid "Error deleting Setting Key '%s'."
+msgstr "Ошибка при удалении настройки &laquo;%s&raquo;."
+
+#: download-uninstall.php:66
+#: download-uninstall.php:105
+msgid "The download files uploaded by WP-DownloadManager <strong>WILL NOT</strong> be deleted. You will have to delete it manually."
+msgstr "Данные, загруженные с помощью Менеджера Файлов <strong>НЕ БУДУТ</strong> удалены. Вам необходимо удалить их вручную."
+
+#: download-uninstall.php:68
+#: download-uninstall.php:106
+#, php-format
+msgid "The path to the downloads folder is <strong>'%s'</strong>."
+msgstr "Путь к директории, в которой хранятся загруженные файлы: <strong>&laquo;%s&raquo;</strong>."
+
+#: download-uninstall.php:88
+#: download-uninstall.php:99
+#: wp-downloadmanager.php:54
+msgid "Uninstall WP-DownloadManager"
+msgstr "Удалить Менеджер файлов"
+
+#: download-uninstall.php:89
+#, php-format
+msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-DownloadManager Will Be Deactivated Automatically."
+msgstr "<a href=\"%s\">Нажмите здесь</a> чтобы завершить удаление. Менеджер файлов будет отключён автоматически."
+
+#: download-uninstall.php:101
+msgid "Deactivating WP-DownloadManager plugin does not remove any data that may have been created, such as the download options and the download data. To completely remove this plugin, you can uninstall it here."
+msgstr "При отключении менеджера файлов созданные данные, включая настройки плагина и сами загруженные файлы, не удаляются. Для того, чтобы полностью удалить плагин, отмените здесь его установку."
+
+#: download-uninstall.php:104
+msgid "NOTE:"
+msgstr "ПРИМЕЧАНИЕ:"
+
+#: download-uninstall.php:109
+msgid "WARNING:"
+msgstr "ВНИМАНИЕ:"
+
+#: download-uninstall.php:110
+msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
+msgstr "Удаление плагина необратимо. Для того, чтобы создать резервную копию БД WordPress и сохранить ваши данные, используйте плагин &laquo;Database Backup&raquo;."
+
+#: download-uninstall.php:113
+msgid "The following WordPress Options/Tables will be DELETED:"
+msgstr "Будут УДАЛЕНЫ следующие настройки и таблицы WordPress:"
+
+#: download-uninstall.php:118
+msgid "WordPress Options"
+msgstr "Настройки WordPress"
+
+#: download-uninstall.php:119
+msgid "WordPress Tables"
+msgstr "Таблицы WordPress"
+
+#: download-uninstall.php:146
+msgid ""
+"You Are About To Uninstall WP-DownloadManager From WordPress.\\n"
+"This Action Is Not Reversible.\\n"
+"\\n"
+" Choose [Cancel] To Stop, [OK] To Uninstall."
+msgstr ""
+"Вы собираетесь удалить плагин WP-DownloadManager.\\n"
+"Это действие необратимо.\\n"
+"\\n"
+"Чтобы остановить удаление, выберите [Отмена]. Выберите [OK], если  вы хотите его продолжить."
+
+#: wp-downloadmanager.php:89
+msgid "Enter File ID (Separate Multiple IDs By A Comma)"
+msgstr "Введите ID файла (При необходимости, разделите несколько ID запятой)"
+
+#: wp-downloadmanager.php:90
+msgid "Download"
+msgstr "Файлы"
+
+#: wp-downloadmanager.php:91
+msgid "Insert File Download"
+msgstr "Вставить файл"
+
+#: wp-downloadmanager.php:202
+msgid "Invalid File ID or File Name."
+msgstr "Неправильный ID или название файла."
+
+#: wp-downloadmanager.php:216
+msgid "File does not exist."
+msgstr "Файл не существует."
+
+#: wp-downloadmanager.php:320
+msgid "TiB"
+msgstr "Тб"
+
+#: wp-downloadmanager.php:322
+msgid "GiB"
+msgstr "Гб"
+
+#: wp-downloadmanager.php:324
+msgid "MiB"
+msgstr "Мб"
+
+#: wp-downloadmanager.php:326
+msgid "KiB"
+msgstr "Кб"
+
+#: wp-downloadmanager.php:483
+msgid "Note: There is a file embedded within this post, please visit this post to download the file."
+msgstr "Примечание: К этой записи прикреплён файл. Чтобы его скачать, откройте запись."
+
+#: wp-downloadmanager.php:499
+msgid "total"
+msgstr "всего"
+
+#: wp-downloadmanager.php:697
+#, php-format
+msgid "Page %s of %s"
+msgstr "Страница %s из %s"
+
+#: wp-downloadmanager.php:699
+msgid "&laquo; First"
+msgstr "&laquo; Первая"
+
+#: wp-downloadmanager.php:703
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-downloadmanager.php:713
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-downloadmanager.php:717
+msgid "Last &raquo;"
+msgstr "Последняя &raquo;"
+
+#: wp-downloadmanager.php:1061
+#: wp-downloadmanager.php:1113
+#: wp-downloadmanager.php:1170
+msgid "N/A"
+msgstr "Нет"
+
+#: wp-downloadmanager.php:1196
+#: wp-downloadmanager.php:1198
+#: wp-downloadmanager.php:1236
+msgid "WP-DownloadManager"
+msgstr "Менеджер файлов"
+
+#: wp-downloadmanager.php:1209
+#: wp-downloadmanager.php:1211
+#: wp-downloadmanager.php:1252
+#, php-format
+msgid "%s Most Recent Download"
+msgid_plural "%s Most Recent Downloads"
+msgstr[0] "%s недавно скачанный файл"
+msgstr[1] "%s недавно скачанных файла"
+msgstr[2] "%s недавно скачанных файлов"
+
+#: wp-downloadmanager.php:1222
+#: wp-downloadmanager.php:1224
+#: wp-downloadmanager.php:1266
+#, php-format
+msgid "%s Most Downloaded File"
+msgid_plural "%s Most Downloaded Files"
+msgstr[0] "%s самый популярный файл"
+msgstr[1] "%s самых популярных файла"
+msgstr[2] "%s самых популярных файлов"
+
+#: wp-downloadmanager.php:1238
+#, php-format
+msgid "<strong>%s</strong> file was added."
+msgid_plural "<strong>%s</strong> files were added."
+msgstr[0] "добавлен <strong>%s</strong> файл."
+msgstr[1] "добавлено <strong>%s</strong> файла."
+msgstr[2] "добавлено <strong>%s</strong> файлов."
+
+#: wp-downloadmanager.php:1239
+#, php-format
+msgid "<strong>%s</strong> worth of files."
+msgid_plural "<strong>%s</strong> worth of files."
+msgstr[0] "общий объем файлов&nbsp;&mdash; <strong>%s</strong>."
+msgstr[1] "общий объем файлов&nbsp;&mdash; <strong>%s</strong>."
+msgstr[2] "общий объем файлов&nbsp;&mdash; <strong>%s</strong>."
+
+#: wp-downloadmanager.php:1240
+#, php-format
+msgid "<strong>%s</strong> hit was generated."
+msgid_plural "<strong>%s</strong> hits were generated."
+msgstr[0] "файлы скачаны <strong>%s</strong> раз."
+msgstr[1] "файлы скачаны <strong>%s</strong> раза."
+msgstr[2] "файлы скачаны <strong>%s</strong> раз."
+
+#: wp-downloadmanager.php:1279
+msgid "WP-DownloadManager downloads statistics"
+msgstr "Статистика скачиваний от плагина WP-DownloadManager"
+
+#: wp-downloadmanager.php:1344
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: wp-downloadmanager.php:1347
+msgid "Statistics Type:"
+msgstr "Тип статистики:"
+
+#: wp-downloadmanager.php:1349
+msgid "Display Downloads In Category"
+msgstr "Показать файлы по рубрикам"
+
+#: wp-downloadmanager.php:1356
+msgid "No. Of Records To Show:"
+msgstr "Сколько записей показывать:"
+
+#: wp-downloadmanager.php:1359
+msgid "Maximum Title Length (Characters):"
+msgstr "Длина заголовка записи (в символах):"
+
+#: wp-downloadmanager.php:1360
+msgid "<strong>0</strong> to disable."
+msgstr "(<strong>0</strong> &mdash; не показывать)"
+
+#: wp-downloadmanager.php:1363
+msgid "Category IDs:"
+msgstr "ID рубрик:"
+
+#: wp-downloadmanager.php:1364
+msgid "Seperate mutiple categories with commas."
+msgstr "Несколько ID разделите запятыми."
+
+#: wp-downloadmanager.php:1367
+msgid "Display Link To Download Page?"
+msgstr "Показывать ссылку на страницу со списком файлов?"
+
+#: wp-downloadmanager.php:1375
+msgid "* If you are not using any category statistics, you can ignore it."
+msgstr "* Если вы не используете тип статистики &laquo;Показать файлы по рубрикам&raquo;, можете пропустить этот параметр."
+
