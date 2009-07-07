@@ -18,13 +18,13 @@ Author URI: http://salpagarov.ru
 function rurumo_check ($file, $ver) {
 	
 	$response = '';
-	if ( false !== ( $fs = @fsockopen( 'wordpress-russia.org', 80, $errno, $errstr, 3 ) ) && is_resource($fs) ) {
-		fwrite( $fs, "GET /rurumo/$file.zip?version=$ver HTTP/1.0\r\nHost: wordpress-russia.org\r\n\r\n" );
+	if ( false !== ( $fs = @fsockopen( 'l10n-ru.googlecode.com', 80, $errno, $errstr, 3 ) ) && is_resource($fs) ) {
+		fwrite( $fs, "GET /files/{$file}-{$ver}-ru_RU.zip HTTP/1.0\r\nHost: l10n-ru.googlecode.com\r\n\r\n" );
 		while (!feof($fs)) $response .= fgets( $fs, 1160 ); // One TCP-IP packet
 		fclose( $fs );
 
 		$response = explode("\r\n\r\n", $response, 2);
-		if ( preg_match( '|HTTP/.*? 200|', $response[0] ) ) return "http://wordpress-russia.org/rurumo/$file.zip?version=$ver";
+		if ( preg_match( '|HTTP/.*? 200|', $response[0] ) ) return "http://l10n-ru.googlecode.com/files/{$file}-{$ver}-ru_RU.zip";
 	}
 	return false;
 }
