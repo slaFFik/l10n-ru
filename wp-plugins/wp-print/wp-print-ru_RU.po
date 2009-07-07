@@ -1,33 +1,32 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: wp-print\n"
+"Project-Id-Version: WP-Print 2.50\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-02 13:10+0300\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Sol <salpagarov@gmail.com>\n"
-"Language-Team: wordpress-russia.org <team@wordpress-russia.org>\n"
+"POT-Creation-Date: 2009-07-07 11:10+0300\n"
+"PO-Revision-Date: 2009-07-07 11:11+0300\n"
+"Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"Language-Team: Anna Ozeritskaya <anna.ozeritskaya2gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
 "X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: print-comments.php:23
 msgid "Open"
-msgstr "Открыть"
+msgstr "Показать"
 
 #: print-comments.php:23
 msgid "Close"
-msgstr "Закрыть"
+msgstr "Скрыть"
 
 #: print-comments.php:25
 msgid "To"
-msgstr "К"
+msgstr "к"
 
 #: print-comments.php:28
 msgid "Comment"
@@ -35,99 +34,99 @@ msgstr "Комментарий"
 
 #: print-comments.php:28
 msgid "Trackback"
-msgstr "Обратные ссылки"
+msgstr "Уведомление"
 
 #: print-comments.php:28
 msgid "Pingback"
-msgstr "Уведомления"
+msgstr "Уведомление"
 
 #: print-comments.php:28
 msgid "By"
-msgstr "От"
+msgstr "от"
 
 #: print-comments.php:28
-#: print-posts.php:50
+#: print-posts.php:47
 msgid "On"
-msgstr "На"
+msgstr "&nbsp;&mdash;"
 
 #: print-comments.php:28
-#: print-posts.php:50
+#: print-posts.php:47
 #, php-format
 msgid "%s @ %s"
 msgstr "%s @ %s"
 
 #: print-comments.php:32
 msgid "Your comment is awaiting moderation."
-msgstr "Ваш комментарий ожидает проверки."
+msgstr "Ваш комментарий ожидает одобрения."
 
-#: print-options.php:46
-#: print-options.php:132
+#: print-options.php:45
+#: print-options.php:131
 #: print-options.php:195
 msgid "Print Options"
-msgstr "Настройки печати"
+msgstr "Параметры печати"
 
-#: print-options.php:51
+#: print-options.php:50
 msgid "Updated"
-msgstr "Обновлено"
+msgstr "&mdash; обновлено"
 
-#: print-options.php:56
+#: print-options.php:55
 msgid "No Print Option Updated"
-msgstr "Настройки печати не обновлены"
+msgstr "Настройки не изменились"
 
-#: print-options.php:62
-#: print-options.php:295
+#: print-options.php:61
+#: print-options.php:286
 msgid "UNINSTALL WP-Print"
-msgstr "ДЕИНСТАЛЛИРОВАТЬ WP-Print"
+msgstr "УДАЛИТЬ WP-Print"
 
-#: print-options.php:70
+#: print-options.php:69
 #, php-format
 msgid "Setting Key '%s' has been deleted."
-msgstr "Ключ '%s' удален."
+msgstr "Настройка &laquo;%s&raquo; удалена."
 
-#: print-options.php:74
+#: print-options.php:73
 #, php-format
 msgid "Error deleting Setting Key '%s'."
-msgstr "Ошибка удаления ключа '%s'."
+msgstr "Ошибка при удалении настройки &laquo;%s&raquo;."
+
+#: print-options.php:94
+#: print-options.php:254
+msgid "Uninstall WP-Print"
+msgstr "Удалить WP-Print"
 
 #: print-options.php:95
-#: print-options.php:263
-msgid "Uninstall WP-Print"
-msgstr "Деинсталяция WP-Print"
-
-#: print-options.php:96
 #, php-format
 msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-Print Will Be Deactivated Automatically."
-msgstr "<a href=\"%s\">Нажмите здесь</a> для завершения деинсталляции и WP-Print будет деактивирован автоматически."
+msgstr "<a href=\"%s\">Нажмите здесь</a> чтобы завершить удаление. WP-Print будет отключён автоматически."
 
-#: print-options.php:122
-#: wp-print.php:466
+#: print-options.php:120
+#: wp-print.php:450
 #, php-format
 msgid "Copyright &copy; %s %s. All rights reserved."
-msgstr "&copy; %s %s. Все права защищены."
+msgstr "&copy; %s %s. Авторские права защищены."
 
-#: print-options.php:133
+#: print-options.php:132
 msgid "Print Styles"
-msgstr "Оформление печати"
+msgstr "Стиль ссылки на версию для печати"
 
-#: print-options.php:136
+#: print-options.php:135
 msgid "Print Text Link For Post"
-msgstr "Текст ссылки для печати записи"
+msgstr "Ссылка для записи:"
 
-#: print-options.php:142
+#: print-options.php:141
 msgid "Print Text Link For Page"
-msgstr "Текст ссылки для печати страницы"
+msgstr "Ссылка для страницы:"
 
-#: print-options.php:148
+#: print-options.php:147
 msgid "Print Icon"
-msgstr "Иконка печати"
+msgstr "Иконка:"
 
 #: print-options.php:176
 msgid "Print Text Link Style"
-msgstr "Оформление ссылки печати"
+msgstr "Стиль ссылки:"
 
 #: print-options.php:179
 msgid "Print Icon With Text Link"
-msgstr "Иконка с текстом ссылки"
+msgstr "Иконка и текст"
 
 #: print-options.php:180
 msgid "Print Icon Only"
@@ -135,43 +134,43 @@ msgstr "Только иконка"
 
 #: print-options.php:181
 msgid "Print Text Link Only"
-msgstr "Только текст ссылки"
+msgstr "Только текст"
 
 #: print-options.php:182
 msgid "Custom"
-msgstr "Настроить"
+msgstr "Произвольный стиль"
 
 #: print-options.php:186
-#: print-options.php:249
+#: print-options.php:240
 msgid "HTML is allowed."
-msgstr "HTML разрешен."
+msgstr "HTML разрешён."
 
 #: print-options.php:187
 msgid "URL to the printable post/page."
-msgstr "Ссылка на печатную версию."
+msgstr "URL версии для печати."
 
 #: print-options.php:188
 msgid "Print text link of the post/page that you have typed in above."
-msgstr "Текст ссылки для записи/страницы, которые вы ввели выше."
+msgstr "Указанный выше текст ссылки для страницы или записи."
 
 #: print-options.php:189
 msgid "URL to the print icon you have chosen above."
-msgstr "Ссылка на иконку печати, которую вы выбрали выше."
+msgstr "URL выбранной иконки."
 
 #: print-options.php:190
-#: print-options.php:246
+#: print-options.php:237
 msgid "Restore Default Template"
-msgstr "Восстановить шаблон по умолчанию"
+msgstr "Восстановить стандартный шаблон"
 
 #: print-options.php:198
 msgid "Print Comments?"
-msgstr "Печатать комментарии?"
+msgstr "Напечатать комментарии?"
 
 #: print-options.php:201
 #: print-options.php:210
 #: print-options.php:219
 #: print-options.php:228
-#: print-options.php:294
+#: print-options.php:285
 msgid "Yes"
 msgstr "Да"
 
@@ -184,147 +183,139 @@ msgstr "Нет"
 
 #: print-options.php:207
 msgid "Print Links?"
-msgstr "Печатать ссылки?"
+msgstr "Напечатать ссылки?"
 
 #: print-options.php:216
 msgid "Print Images?"
-msgstr "Печатать изображения"
+msgstr "Напечатать изображения?"
 
 #: print-options.php:225
 msgid "Print Videos?"
-msgstr "Печатать видео?"
+msgstr "Напечатать видео?"
 
-#: print-options.php:234
-msgid "Text Direction?"
-msgstr "Направление текста?"
-
-#: print-options.php:237
-msgid "Left To Right"
-msgstr "Слева направо"
-
-#: print-options.php:238
-msgid "Right To Left"
-msgstr "Слева направо"
-
-#: print-options.php:244
+#: print-options.php:235
 msgid "Disclaimer/Copyright Text?"
-msgstr "Текст авторских прав?"
+msgstr "Напечатать уведомление?"
 
-#: print-options.php:254
+#: print-options.php:245
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: print-options.php:265
+#: print-options.php:256
 msgid "Deactivating WP-Print plugin does not remove any data that may have been created, such as the print options. To completely remove this plugin, you can uninstall it here."
-msgstr "Деактивация плагина WP-Print не удалит данные с настройками печати. Чтобы полностью удалить плагин, вы можете деинсталлировать его здесь."
+msgstr "При отключении WP-Print созданные данные, включая настройки плагина, не удаляются. Для того, чтобы полностью удалить плагин, отмените здесь его установку."
+
+#: print-options.php:259
+msgid "WARNING:"
+msgstr "ВНИМАНИЕ:"
+
+#: print-options.php:260
+msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
+msgstr "Удаление плагина необратимо. Для того, чтобы создать резервную копию БД WordPress и сохранить ваши данные, используйте плагин &laquo;Database Backup&raquo;."
+
+#: print-options.php:263
+msgid "The following WordPress Options will be DELETED:"
+msgstr "Будут УДАЛЕНЫ следующие настройки WordPress:"
 
 #: print-options.php:268
-msgid "WARNING:"
-msgstr "ПРЕДУПРЕЖДЕНИЕ:"
-
-#: print-options.php:269
-msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
-msgstr "Это необратимая операция. Вы можете сначала сделать резевную копию при помощи плагина Database Backup."
-
-#: print-options.php:272
-msgid "The following WordPress Options will be DELETED:"
-msgstr "Следующие настройки WordPress будут удалены:"
-
-#: print-options.php:277
 msgid "WordPress Options"
 msgstr "Настройки WordPress"
 
-#: print-options.php:295
+#: print-options.php:286
 msgid ""
 "You Are About To Uninstall WP-Print From WordPress.\\n"
 "This Action Is Not Reversible.\\n"
 "\\n"
 " Choose [Cancel] To Stop, [OK] To Uninstall."
 msgstr ""
-"Вы собираетесь деинсталлировать WP-Print из WordPress.\\n"
-"Это необратимое действие.\\n"
+"Вы собираетесь удалить плагин WP-Print.\\n"
+"Это действие необратимо.\\n"
 "\\n"
-" Выберите [Отмена] для остановки, [OK] для деинсталляции."
+"Чтобы остановить удаление, выберите [Отмена]. Выберите [OK], если  вы хотите его продолжить."
 
-#: print-posts.php:50
+#: print-posts.php:47
 msgid "Posted By"
-msgstr "Опубликовал"
+msgstr " "
 
-#: print-posts.php:50
+#: print-posts.php:47
 msgid "In"
-msgstr "В"
+msgstr "&mdash; рубрика"
 
-#: print-posts.php:57
+#: print-posts.php:54
 msgid "Article printed from"
-msgstr "Статья напечатана с"
+msgstr "Эта статья распечатана с сайта"
 
-#: print-posts.php:58
+#: print-posts.php:55
 msgid "URL to article"
-msgstr "Ссылка на статью"
+msgstr "URL статьи"
 
-#: print-posts.php:62
+#: print-posts.php:59
 msgid "Click"
-msgstr "Нажмите"
+msgstr " "
 
-#: print-posts.php:62
+#: print-posts.php:59
 msgid "Click here to print."
-msgstr "Нажмите здесь для печати."
+msgstr "Нажмите, чтобы напечатать эту страницу."
 
-#: print-posts.php:62
+#: print-posts.php:59
 msgid "here"
-msgstr "здесь"
+msgstr "Напечатать эту страницу"
 
-#: print-posts.php:62
+#: print-posts.php:59
 msgid "to print."
-msgstr "для печати."
+msgstr " "
 
-#: print-posts.php:64
+#: print-posts.php:61
 msgid "No posts matched your criteria."
-msgstr "Извините, нет записей, удовлетворяющих вашим условиям."
+msgstr "Нет записей, соответствующих вашему поисковому запросу."
 
-#: wp-print.php:61
+#: wp-print.php:42
+#: wp-print.php:398
 msgid "Print"
 msgstr "Печать"
 
-#: wp-print.php:202
+#: wp-print.php:183
 msgid "Note: There is a print link embedded within this post, please visit this post to print it."
-msgstr ""
+msgstr "Примечание: к этой записи прикреплена ссылка на версию для печати. Чтобы ей воспользоваться, зайдите на сайт."
 
-#: wp-print.php:274
-#: wp-print.php:342
+#: wp-print.php:260
+#: wp-print.php:325
 msgid "Image"
 msgstr "Изображение"
 
-#: wp-print.php:365
+#: wp-print.php:280
+msgid ","
+msgstr ","
+
+#: wp-print.php:348
 msgid "No Comments"
-msgstr "Комментариев нет"
+msgstr "Нет комментариев"
 
-#: wp-print.php:367
-msgid "1 Comment"
-msgstr "Комментарий: 1"
-
-#: wp-print.php:369
+#: wp-print.php:350
 #, php-format
-msgid "%s Comments"
-msgstr "Комментарии: %s"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s комментарий"
+msgstr[1] "%s комментария"
+msgstr[2] "%s комментариев"
 
-#: wp-print.php:372
+#: wp-print.php:353
 msgid "Comments Disabled"
 msgstr "Комментарии отключены"
 
-#: wp-print.php:375
+#: wp-print.php:356
 msgid "Comments Hidden"
 msgstr "Комментарии скрыты"
 
-#: wp-print.php:386
+#: wp-print.php:367
 msgid "URLs in this post:"
-msgstr "Ссылка этой записи:"
+msgstr "Ссылки:"
 
-#: wp-print.php:457
+#: wp-print.php:441
 msgid "Print This Post"
-msgstr "Напечатать запись"
+msgstr "Напечатать эту запись"
 
-#: wp-print.php:458
+#: wp-print.php:442
 msgid "Print This Page"
-msgstr "Напечатать страницу"
+msgstr "Напечатать эту страницу"
 
