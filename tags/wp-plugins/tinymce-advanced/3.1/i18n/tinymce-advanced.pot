@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TinyMCE Advanced 3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-09 12:01+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\Projects\\l10n-ru\\tags\\wp-plugins\\tinymce-advanced\\3.1\n"
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:4
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:23
+msgid "This plugin requires WordPress version 2.6 or newer. Please upgrade your WordPress installation or download an"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:23
+msgid "older version of the plugin."
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:89
+msgid "All toolbars are empty! Default buttons loaded."
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:144
+msgid "Options saved"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:149
+msgid "TinyMCE Buttons Arrangement"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:152
+msgid "Drag and drop buttons onto the toolbars below."
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:268
+msgid "Adding too many buttons will make the toolbar too long and will not display correctly in TinyMCE!"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:292
+msgid "Also enable:"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:293
+msgid "Advanced Link"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:296
+msgid "Advanced Image"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:298
+msgid "Context Menu"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:301
+msgid "(to show the context menu in Firefox and use the spellchecker, hold down the Ctrl key)."
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:305
+msgid "Advanced"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:307
+msgid "Import the current theme CSS classes"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:309
+msgid "Custom CSS styles can be added in /wp-content/plugins/tinymce-advanced/css/tadv-mce.css. They will be imported and used in TinyMCE. The file has to be downloaded with FTP, edited and uploaded, overwriting the original. Only CSS classes can be added, also <strong>div.my-class</strong> would not work, but <strong>.my-class</strong> will."
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:310
+msgid "Stop removing the &lt;p&gt; and &lt;br /&gt; tags when saving and show them in the HTML editor"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:312
+msgid "This will make it possible to use more advanced HTML without the back-end filtering affecting it much. It also adds two new buttons to the HTML editor: &quot;autop&quot; that allows wpautop to be run on demand and &quot;undo&quot; that can undo the last changes."
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:319
+msgid "Language Settings"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:320
+msgid "Your WordPress language is set to"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:320
+msgid "However there is no matching language installed for TinyMCE plugins. This plugin includes several translations: German, French, Italian, Spanish, Portuguese, Russian, Japanese and Chinese. More translations are available at the"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:320
+msgid "TinyMCE web site."
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:329
+msgid "Save Changes"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:330
+msgid "Uninstall"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:335
+msgid "The Kitchen Sink button shows/hides the next toolbar row. It will not work at the current place."
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:341
+msgid "Uninstalling will remove all saved settings from the database."
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:342
+msgid "Cancel"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tadv_admin.php:343
+msgid "Continue"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tinymce-advanced.php:50
+msgid "<h2>This plugin requires WordPress version 2.6 or newer. Please upgrade your WordPress installation or download an older version of the plugin.</h2>"
+msgstr ""
+
+#: D:\Projects\l10n-ru\tags\wp-plugins\tinymce-advanced\3.1/tinymce-advanced.php:234
+msgid "TinyMCE Advanced"
+msgstr ""
+
