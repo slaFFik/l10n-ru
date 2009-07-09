@@ -9716,9 +9716,8 @@ msgid "Yahoo! 360"
 msgstr "Yahoo! 360"
 
 #: wp-admin/import/yahoo-360.php:296
-#, fuzzy
 msgid "Import posts and comments from a Yahoo! 360 blog"
-msgstr "Импорт записей, комментариев и пользователей из Blogger."
+msgstr "Импорт записей и комментариев из блога Yahoo! 360"
 
 #: wp-admin/includes/bookmark.php:195
 msgid "Could not update link in the database"
@@ -15318,12 +15317,10 @@ msgid "You should update your web.config now"
 msgstr "Теперь вы должны обновить файл .htaccess."
 
 #: wp-admin/options-permalink.php:133
-#, fuzzy
 msgid "Permalink structure updated. Remove write access on web.config file now!"
 msgstr "Структура постоянных ссылок обновлена. Теперь уберите разрешение на запись с файла web.config!"
 
 #: wp-admin/options-permalink.php:135
-#, fuzzy
 msgid "Permalink structure updated"
 msgstr "Структура постоянных ссылок изменена"
 
@@ -15599,9 +15596,8 @@ msgid " Now &raquo;"
 msgstr " Сейчас &raquo;"
 
 #: wp-admin/paid-upgrades.php:268
-#, fuzzy
 msgid "In addition to all of the free features of WordPress.com, we offer a few options for paid upgrades for enhanced functionality. Credits cost $1 each. The buttons below will bring you to a Paypal page where they can be purchased."
-msgstr "В дополнение ко всем трем возможностям WordPress.com, мы предлагаем несколько платных апгрейдов для расширенной функциональности. Каждая опция стоит $1. Кнопки внизу ссылаются на страницу PayPal, где Вы можете произвести платеж. Мы не возвращаем деньги за услуги или продукты, приобретенные на WordPress.com."
+msgstr "В дополнение ко всем трем возможностям WordPress.com, мы предлагаем несколько платных апгрейдов для расширенной функциональности. Каждая опция стоит $1. Кнопки внизу ссылаются на страницу PayPal, где Вы можете произвести платеж."
 
 #: wp-admin/paid-upgrades.php:269
 msgid "WordPress.com Paypal transactions will appear on your bank or credit card statements under the name <strong>AUTOMATTIC</strong> or <strong>WORDPRESSCOM</strong>. Please do not delete your Paypal email receipt. If possible, print it out and keep it in a safe place."
@@ -15632,14 +15628,14 @@ msgid "Renew"
 msgstr "Продлить"
 
 #: wp-admin/paid-upgrades.php:279
-#, fuzzy, php-format
+#, php-format
 msgid "Renew for another year (%01.2f credits)"
-msgstr "Продлить на год (%d кредитов)"
+msgstr "Продлить еще на год   (%01.2f кредитов)"
 
 #: wp-admin/paid-upgrades.php:288
-#, fuzzy, php-format
+#, php-format
 msgid "Renew for another year ($%3.2f)"
-msgstr "Продлить на год (%d кредитов)"
+msgstr "Продлить еще на год  ($%3.2f)"
 
 #: wp-admin/paid-upgrades.php:314
 msgid "Hide renewal message"
@@ -19135,12 +19131,12 @@ msgstr "Другой ответ"
 #: wp-content/admin-plugins/post-by-email.php:53
 #, fuzzy
 msgid "Enable Post by Email"
-msgstr "%1$s автора %2$s|редакция записи 1:дата и время, 2:имя"
+msgstr "<a href=\"%1$s\">Сообщение</a> в <a href=\"%2$s\">%3$s</a> от <a href=\"%4$s\">%5$s</a>"
 
 #: wp-content/admin-plugins/post-by-email.php:54
 #, fuzzy
 msgid "Disable Post by Email"
-msgstr "%1$s автора %2$s|редакция записи 1:дата и время, 2:имя"
+msgstr "<a href=\"%1$s\">Сообщение</a> в <a href=\"%2$s\">%3$s</a> от <a href=\"%4$s\">%5$s</a>"
 
 #: wp-content/admin-plugins/post-by-email.php:62
 msgid "Post by Email was enabled"
@@ -19153,7 +19149,7 @@ msgstr ""
 #: wp-content/admin-plugins/post-by-email.php:109
 #, fuzzy
 msgid "Post by Email"
-msgstr "%1$s автора %2$s|редакция записи 1:дата и время, 2:имя"
+msgstr "Последнее сообщение от %s"
 
 #: wp-content/admin-plugins/post-by-email.php:144
 #, fuzzy
@@ -20538,9 +20534,8 @@ msgid "You have already deleted domain mapping for your domain. Please return to
 msgstr ""
 
 #: wp-content/mu-plugins/domains.php:899
-#, fuzzy
 msgid "Confirm deletion of domain mapping"
-msgstr "Активирована привязка доменов к блогу"
+msgstr "Подтвердите удаление привязки домена"
 
 #: wp-content/mu-plugins/domains.php:900
 #, php-format
@@ -20548,9 +20543,8 @@ msgid "Please confirm that you would like to delete the expired domain mapping f
 msgstr ""
 
 #: wp-content/mu-plugins/domains.php:905
-#, fuzzy
 msgid "Delete Domain Mapping"
-msgstr "Неверный суффикс домена."
+msgstr "Удалить привязку домена"
 
 #: wp-content/mu-plugins/domains.php:907
 msgid "This action is not reversible. You will have to purchase the domain mapping upgrade to map this domain to your blog again."
@@ -20609,9 +20603,8 @@ msgid "(<a href=\"%s\">Delete</a>)"
 msgstr "Удалить комментарий"
 
 #: wp-content/mu-plugins/domains.php:1066
-#, fuzzy
 msgid "(Domain only)"
-msgstr "Добавить домен"
+msgstr "(Только домен)"
 
 #: wp-content/mu-plugins/domains.php:1081
 #, php-format
@@ -20775,9 +20768,8 @@ msgid "Now that you've got a new blog on WordPress.com, we're ready to <a href='
 msgstr ""
 
 #: wp-content/mu-plugins/misc.php:1664
-#, fuzzy
 msgid "Enjoy your new home :)"
-msgstr "Новый комментарий к записи #%1$s \"%2$s\""
+msgstr "Наслаждайтесь вашим новым домом :)"
 
 #: wp-content/mu-plugins/new_blog_log.php:27
 msgid "Sorry, you must wait a few minutes before registering a new blog!"
@@ -20857,9 +20849,8 @@ msgid "Image Post"
 msgstr "%s запись обновлена."
 
 #: wp-content/mu-plugins/pub2im.php:383
-#, fuzzy
 msgid "No Title"
-msgstr "(без названия)"
+msgstr "Без заголовка"
 
 #: wp-content/mu-plugins/safecss.php:228
 #, php-format
@@ -20906,9 +20897,8 @@ msgid "If you change the width of your main content column, make sure your media
 msgstr ""
 
 #: wp-content/mu-plugins/safecss.php:412
-#, fuzzy
 msgid "Limit width to"
-msgstr "Постоянная ссылка на %s"
+msgstr "Ограничить ширину до"
 
 #: wp-content/mu-plugins/safecss.php:413
 #, php-format
@@ -21425,9 +21415,8 @@ msgid "*Site Admins only"
 msgstr "*Только для администратора сайта"
 
 #: wp-content/mu-plugins/vip-functions.php:493
-#, fuzzy
 msgid "100% WordPress.com Adsense"
-msgstr "Ключ API WordPress.com"
+msgstr "100% Adsense для WordPress.com"
 
 #: wp-content/mu-plugins/vip-functions.php:500
 #, fuzzy
@@ -21733,9 +21722,8 @@ msgid "<code>convert</code> path not found."
 msgstr ""
 
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:184
-#, fuzzy
 msgid "Test Image"
-msgstr "Добавить изображение"
+msgstr "Тестовая картинка"
 
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:186
 msgid "If you can see a big integral, all is well."
@@ -23715,15 +23703,13 @@ msgstr "Накликано сегодня"
 
 #: wp-content/themes/h4/cotd-map.php:5
 #: wp-content/themes/h4/cotd.php:5
-#, fuzzy
 msgid "Select location"
-msgstr "Выделить все"
+msgstr "Выберите местоположение"
 
 #: wp-content/themes/h4/cotd-map.php:5
 #: wp-content/themes/h4/cotd.php:5
-#, fuzzy
 msgid "Find on a map"
-msgstr "Найти адрес на карте. "
+msgstr "Найти на карте"
 
 #: wp-content/themes/h4/cotd-map.php:13
 msgid "Find address on map"
@@ -23804,7 +23790,6 @@ msgid "Register a blog &rarr;"
 msgstr "Создать блог &rarr;"
 
 #: wp-content/themes/h4/home.php:166
-#, fuzzy
 msgid "From our blog"
 msgstr "Из нашего блога"
 
@@ -24090,9 +24075,8 @@ msgstr "в"
 #: wp-content/themes/pub/mistylook/comments.php:16
 #: wp-content/themes/pub/springloaded/comments.php:38
 #: wp-content/themes/pub/whiteasmilk/comments.php:39
-#, fuzzy
 msgid "No Responses Yet"
-msgstr "Комментариев нет."
+msgstr "Пока нет отзывов"
 
 #: wp-content/themes/pub/albeo/comments.php:46
 #: wp-content/themes/pub/greenery-10/comments.php:46
@@ -27557,9 +27541,8 @@ msgid "Subscribe with "
 msgstr "Подписаться на комментарии"
 
 #: wp-content/themes/pub/inove/sidebar.php:28
-#, fuzzy
 msgid "Google"
-msgstr "Jabber / Google Talk"
+msgstr "Google"
 
 #: wp-content/themes/pub/inove/sidebar.php:29
 #, fuzzy
@@ -27575,9 +27558,8 @@ msgid "Zhua Xia"
 msgstr ""
 
 #: wp-content/themes/pub/inove/sidebar.php:32
-#, fuzzy
 msgid "My Yahoo!"
-msgstr "Yahoo IM"
+msgstr "Мой Yahoo!"
 
 #: wp-content/themes/pub/inove/sidebar.php:33
 #, fuzzy
@@ -27673,25 +27655,22 @@ msgid "The Themes"
 msgstr "Темы"
 
 #: wp-content/themes/pub/journalist/404.php:7
-#, fuzzy
 msgid "Apologies, but we were unable to find what you were looking for. Perhaps searching will help."
-msgstr "Простите, мы не смогли найти того, что Вы искали. Попробуйте воспользоваться поиском."
+msgstr "Простите, мы не смогли найти того, что Вы искали. Может, помощет поиск."
 
 #: wp-content/themes/pub/journalist/archive.php:26
 #: wp-content/themes/pub/journalist/page.php:9
 #: wp-content/themes/pub/journalist/search.php:11
-#, fuzzy
 msgid "without comments"
-msgstr "Комментарии (%) &#187;"
+msgstr "без комментариев"
 
 #: wp-content/themes/pub/journalist/archive.php:26
 #: wp-content/themes/pub/journalist/index.php:7
 #: wp-content/themes/pub/journalist/page.php:9
 #: wp-content/themes/pub/journalist/search.php:11
 #: wp-content/themes/pub/journalist/single.php:8
-#, fuzzy
 msgid "with one comment"
-msgstr "<span>Один</span> комментарий"
+msgstr "с одним комментарием"
 
 #: wp-content/themes/pub/journalist/archive.php:26
 #: wp-content/themes/pub/journalist/index.php:7
@@ -27707,9 +27686,9 @@ msgstr "Подписаться на комментарии"
 #: wp-content/themes/pub/journalist/page.php:19
 #: wp-content/themes/pub/journalist/search.php:19
 #: wp-content/themes/pub/journalist/single.php:18
-#, fuzzy, php-format
+#, php-format
 msgid "Written by %s"
-msgstr "Автор:"
+msgstr "Написано %s"
 
 #: wp-content/themes/pub/journalist/archive.php:35
 #: wp-content/themes/pub/journalist/comments.php:35
@@ -27958,9 +27937,9 @@ msgid "The page you requested is no longer here!"
 msgstr "Затребованной вами страницы здесь больше нет!"
 
 #: wp-content/themes/pub/light/404.php:6
-#, fuzzy, php-format
+#, php-format
 msgid "Visit the <a href=\"%s\">Home Page</a>"
-msgstr "Страница опубликована. <a href=\"%s\">Посмотреть</a>"
+msgstr "Перейти на <a href=\"%s\">Домашнюю страницу</a>"
 
 #: wp-content/themes/pub/light/404.php:7
 msgid "In order to improve our service, can you inform us that someone else has an incorrect link to our site?"
@@ -28815,9 +28794,8 @@ msgstr "Название используется для определения 
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:491
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:770
-#, fuzzy
 msgid "Project Slug"
-msgstr "Ярлык рубрики"
+msgstr "Ярлык проекта"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:493
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:772
@@ -28826,9 +28804,8 @@ msgstr "&laquo;Ярлык&raquo; &#8212; это вариант названия,
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:497
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:776
-#, fuzzy
 msgid "Project Parent"
-msgstr "Родительская рубрика"
+msgstr "Предок проекта"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:499
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:778
@@ -28842,9 +28819,8 @@ msgstr "Описание отображается на каждой страни
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:509
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:788
-#, fuzzy
 msgid "Project Logo"
-msgstr "Логотип Gravatar"
+msgstr "Логотип проекта"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:511
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:790
@@ -28853,9 +28829,8 @@ msgstr ""
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:515
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:794
-#, fuzzy
 msgid "Project Website"
-msgstr "Сайт: %1$s (IP: %2$s , %3$s)"
+msgstr "Сайт проекта"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:517
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:796
@@ -28864,9 +28839,8 @@ msgstr ""
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:521
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:800
-#, fuzzy
 msgid "Project Blog"
-msgstr "Архив блога"
+msgstr "Блог проекта"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:523
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:802
@@ -29066,9 +29040,8 @@ msgstr ""
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:989
 #: wp-content/themes/pub/prologue-projects/index.php:93
-#, fuzzy
 msgid "Questions"
-msgstr "Общие вопросы"
+msgstr "Вопросы"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:992
 #, fuzzy
@@ -29103,9 +29076,8 @@ msgid "Create unique widget areas for each author's page."
 msgstr ""
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:1056
-#, fuzzy
 msgid "Your projects"
-msgstr "Добавить проект"
+msgstr "Ваши проекты"
 
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:1057
 msgid "Select the projects which the you participate in. You will be listed on each projects page."
@@ -29150,9 +29122,8 @@ msgid "Show:"
 msgstr "Показать:"
 
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:254
-#, fuzzy
 msgid "All projects"
-msgstr "Добавить проект"
+msgstr "Все проекты"
 
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:255
 #, fuzzy
@@ -29213,9 +29184,9 @@ msgid "This User's Projects"
 msgstr "Позволить этому пользователю:"
 
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:645
-#, fuzzy, php-format
+#, php-format
 msgid "%s Projects"
-msgstr "Добавить проект"
+msgstr "%s Проектов"
 
 #: wp-content/themes/pub/prologue-projects/functions-sidebars.php:651
 msgid "This user is not a member of any project teams"
@@ -29249,23 +29220,20 @@ msgid "Add Trac ticket"
 msgstr "+ Добавить рубрику"
 
 #: wp-content/themes/pub/prologue-projects/functions.php:580
-#, fuzzy
 msgid "Browse source"
-msgstr "Посмотреть архивы"
+msgstr "Посмотреть исходники"
 
 #: wp-content/themes/pub/prologue-projects/functions.php:583
 msgid "Subversion"
 msgstr "Subversion"
 
 #: wp-content/themes/pub/prologue-projects/functions.php:656
-#, fuzzy
 msgid "Select a sub-project"
-msgstr "Показать вложенные страницы"
+msgstr "Выберите вложенный проект"
 
 #: wp-content/themes/pub/prologue-projects/functions.php:810
-#, fuzzy
 msgid "Recent activity"
-msgstr "Активность"
+msgstr "Недавняя активность"
 
 #: wp-content/themes/pub/prologue-projects/functions.php:815
 msgid "Overheard"
@@ -29277,26 +29245,22 @@ msgid " &mdash; role"
 msgstr "Некорректная роль"
 
 #: wp-content/themes/pub/prologue-projects/functions.php:1014
-#, fuzzy
 msgid "&#x2190; Newer Posts"
-msgstr "&laquo; Следующие записи"
+msgstr "&laquo; Новые записи"
 
 #: wp-content/themes/pub/prologue-projects/functions.php:1015
-#, fuzzy
 msgid "Older Posts &#x2192;"
-msgstr "Предыдущие записи &raquo;"
+msgstr "Старые записи &raquo;"
 
 #: wp-content/themes/pub/prologue-projects/index.php:15
-#, fuzzy
 msgid "All Projects"
-msgstr "Добавить проект"
+msgstr "Все проекты"
 
 #: wp-content/themes/pub/prologue-projects/index.php:186
 #: wp-content/themes/pub/prologue/author.php:38
 #: wp-content/themes/pub/prologue/index.php:69
 #: wp-content/themes/pub/prologue/single.php:27
 #: wp-content/themes/pub/prologue/tag.php:33
-#, fuzzy
 msgid "0"
 msgstr "0"
 
@@ -29318,9 +29282,8 @@ msgstr "%"
 
 #: wp-content/themes/pub/prologue-projects/index.php:193
 #: wp-content/themes/pub/prologue-projects/single.php:30
-#, fuzzy
 msgid "Projects: "
-msgstr "Добавить проект"
+msgstr "Проекты:"
 
 #: wp-content/themes/pub/prologue-projects/index.php:194
 #: wp-content/themes/pub/prologue-projects/single.php:31
@@ -29329,14 +29292,13 @@ msgid "This question is <span class=\"question-status\">%s</span>"
 msgstr ""
 
 #: wp-content/themes/pub/prologue-projects/index.php:249
-#, fuzzy
 msgid "Proudly powered by WordPress"
-msgstr "%1$s работает на %2$s"
+msgstr "Работает на WordPress"
 
 #: wp-content/themes/pub/prologue-projects/index.php:253
-#, fuzzy, php-format
+#, php-format
 msgid "Prologue Projects theme by %s"
-msgstr "%1$s, автор: %2$s|1: название темы, 2: автор темы"
+msgstr "Тема Prologue проектов от %s"
 
 #: wp-content/themes/pub/prologue-projects/post-form.php:19
 #, php-format
@@ -29349,19 +29311,16 @@ msgid "Hi, %s. Whatcha wanna know?"
 msgstr "Привет, %s. Что хочешь знать?"
 
 #: wp-content/themes/pub/prologue-projects/post-form.php:46
-#, fuzzy
 msgid "Rate it"
-msgstr "Выскажись!"
+msgstr "Оцените это"
 
 #: wp-content/themes/pub/prologue-projects/post-form.php:61
-#, fuzzy
 msgid "Add projects"
 msgstr "Добавить проект"
 
 #: wp-content/themes/pub/prologue-projects/post-form.php:78
-#, fuzzy
 msgid "Ask now"
-msgstr "%s до публикации"
+msgstr "Спросите сейчас"
 
 #: wp-content/themes/pub/prologue/functions.php:143
 #: wp-content/themes/pub/prologue/functions.php:144
@@ -29880,9 +29839,9 @@ msgid "Tagged: "
 msgstr "Помечено: "
 
 #: wp-content/themes/pub/springloaded/comments.php:22
-#, fuzzy, php-format
+#, php-format
 msgid "Posted by %1$s on <a href=\"#comment-%2$s\">%3$s at %4$s</a>"
-msgstr "Опубликовано: %1$s в <a href=\"%2$s\">%3$s</a>"
+msgstr "Опубликовал %1$s на <a href=\"#comment-%2$s\">%3$s в %4$s</a>"
 
 #: wp-content/themes/pub/springloaded/comments.php:66
 msgid "Respond to this post"
@@ -30136,9 +30095,8 @@ msgstr "Предыдущие статьи"
 
 #: wp-content/themes/pub/subtle/home.php:57
 #: wp-content/themes/pub/subtle/single.php:48
-#, fuzzy
 msgid "Leave a Response"
-msgstr "Оставить комментарий"
+msgstr "Оставьте отзыв"
 
 #: wp-content/themes/pub/subtle/home.php:68
 msgid "Leave a comment..."
@@ -30251,18 +30209,16 @@ msgid "Comments feed for this article"
 msgstr "Следить за комментариями к этой записи"
 
 #: wp-content/themes/pub/testing-oceanmist2.0/functions.php:15
-#, fuzzy
 msgid "tag_cloud"
-msgstr "Облако меток"
+msgstr "tag_cloud"
 
 #: wp-content/themes/pub/testing-oceanmist2.0/functions.php:41
 msgid "Customize Header"
 msgstr "Настройка заголовка"
 
 #: wp-content/themes/pub/testing-oceanmist2.0/functions.php:41
-#, fuzzy
 msgid "Choose a colour scheme"
-msgstr "Цветовая схема"
+msgstr "Выберите цветовую схему"
 
 #: wp-content/themes/pub/toni/footer.php:6
 #, php-format
@@ -30796,7 +30752,6 @@ msgstr "Комментариев нет"
 
 #: wp-includes/comment-template.php:927
 #: wp-includes/wp-includes/comment-template.php:927
-#, fuzzy
 msgid "Comments Off"
 msgstr "Комментарии выключены"
 
@@ -30876,39 +30831,33 @@ msgstr "Ваши ссылки"
 #: wp-includes/default-widgets.php:144
 #: wp-includes/wp-includes/default-widgets.php:109
 #: wp-includes/wp-includes/default-widgets.php:144
-#, fuzzy
 msgid "All Links"
 msgstr "Все ссылки"
 
 #: wp-includes/default-widgets.php:142
 #: wp-includes/wp-includes/default-widgets.php:142
-#, fuzzy
 msgid "Select Link Category"
 msgstr "Выберите рубрику ссылок"
 
 #: wp-includes/default-widgets.php:155
 #: wp-includes/wp-includes/default-widgets.php:155
-#, fuzzy
 msgid "Show Link Image"
-msgstr "Показывать изображения"
+msgstr "Показывать изображения ссылки"
 
 #: wp-includes/default-widgets.php:157
 #: wp-includes/wp-includes/default-widgets.php:157
-#, fuzzy
 msgid "Show Link Name"
-msgstr "Показывать названия ссылок"
+msgstr "Показывать названия ссылки"
 
 #: wp-includes/default-widgets.php:159
 #: wp-includes/wp-includes/default-widgets.php:159
-#, fuzzy
 msgid "Show Link Description"
-msgstr "Показывать описания ссылок"
+msgstr "Показывать описания ссылки"
 
 #: wp-includes/default-widgets.php:161
 #: wp-includes/wp-includes/default-widgets.php:161
-#, fuzzy
 msgid "Show Link Rating"
-msgstr "Показывать рейтинг ссылок"
+msgstr "Показывать рейтинг ссылки"
 
 #: wp-includes/default-widgets.php:175
 #: wp-includes/wp-includes/default-widgets.php:175
@@ -31410,7 +31359,6 @@ msgstr "Вы действительно хотите <a href='%s'>выйти</a>
 
 #: wp-includes/functions.php:2570
 #: wp-includes/wp-includes/functions.php:2504
-#, fuzzy
 msgid "&laquo; Back"
 msgstr "&laquo; Назад"
 
@@ -31441,7 +31389,7 @@ msgid "Log out"
 msgstr "Выйти"
 
 #: wp-includes/general-template.php:500
-#, fuzzy, php-format
+#, php-format
 msgid "Search Results %1$s %2$s"
 msgstr "Результаты поиска %1$s %2$s"
 
@@ -34398,7 +34346,6 @@ msgid "Save Profile &rarr;"
 msgstr "Сохранить профиль &rarr;"
 
 #: wp-signup.php:380
-#, fuzzy
 msgid "Activate Your WordPress.com&nbsp;Account"
 msgstr "Активируйте ваш аккаунт на WordPress.com"
 
@@ -34515,7 +34462,6 @@ msgid "Blog Tagline"
 msgstr "Краткое описание"
 
 #: xmlrpc.php:505
-#, fuzzy
 msgid "Sorry, you cannot edit this page."
 msgstr "Извините, но вы не можете редактировать эту страницу."
 
@@ -34527,14 +34473,12 @@ msgstr "Извините, такой страницы нет."
 
 #: xmlrpc.php:602
 #: xmlrpc.php:787
-#, fuzzy
 msgid "Sorry, you cannot edit pages."
 msgstr "Извините, но вы не можете редактировать страницы."
 
 #: xmlrpc.php:656
-#, fuzzy
 msgid "Sorry, you cannot add new pages."
-msgstr "Извините, но вы не можете добавлять страницы."
+msgstr "Извините, но вы не можете добавлять новые страницы."
 
 #: xmlrpc.php:700
 msgid "Sorry, you do not have the right to delete this page."
@@ -34549,7 +34493,6 @@ msgid "Sorry, you do not have the right to edit this page."
 msgstr "Извините, но у вас нет прав на редактирование этой страницы."
 
 #: xmlrpc.php:840
-#, fuzzy
 msgid "Sorry, you cannot edit posts on this blog."
 msgstr "Извините, но вы не можете редактировать записи в этом блоге."
 
@@ -34588,7 +34531,6 @@ msgid "Invalid comment ID."
 msgstr "Неверный ID комментария."
 
 #: xmlrpc.php:1110
-#, fuzzy
 msgid "Sorry, you cannot edit comments."
 msgstr "Извините, но вы не можете редактировать комментарии."
 
@@ -34627,7 +34569,6 @@ msgstr "Извините, но у вас нет доступа к данным �
 #: xmlrpc.php:2573
 #: xmlrpc.php:3061
 #: xmlrpc.php:3171
-#, fuzzy
 msgid "Sorry, you cannot edit this post."
 msgstr "Извините, но вы не можете редактировать эту запись."
 
@@ -34641,7 +34582,6 @@ msgid "Sorry, this user can not edit the template."
 msgstr "Извините, этот пользователь не может редактировать шаблон."
 
 #: xmlrpc.php:1820
-#, fuzzy
 msgid "Sorry, this user cannot edit the template."
 msgstr "Извините, этот пользователь не может редактировать шаблон."
 
@@ -34727,7 +34667,6 @@ msgstr "Похоже, что ссылки на наш сайт нет."
 #: xmlrpc.php:3268
 #: xmlrpc.php:3275
 #: xmlrpc.php:3383
-#, fuzzy
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "Заданный URL нельзя использовать в качестве адресата. Он или не существует, или указывает не на ресурс с возможностью уведомлений."
 
