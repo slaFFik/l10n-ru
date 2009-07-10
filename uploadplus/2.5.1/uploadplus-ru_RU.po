@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Upload+ 2.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-10 15:37+0300\n"
+"PO-Revision-Date: 2009-07-10 15:41+0300\n"
+"Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: uploadplus.php:49
+msgid "Choose what style will be used"
+msgstr "Выберите стиль, который вы хотите использовать"
+
+#: uploadplus.php:50
+msgid "Make all lowercase"
+msgstr "Преобразовать названия файлов в нижний регистр."
+
+#: uploadplus.php:57
+#: uploadplus.php:113
+msgid "Upload+ Options"
+msgstr "Настройки Upload+"
+
+#: uploadplus.php:57
+msgid "Upload+"
+msgstr "Upload+"
+
+#: uploadplus.php:78
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: uploadplus.php:114
+msgid "Welcome to Upload+. This plugin allows you to rename every file you upload, and in this page you can define this behaviour."
+msgstr "Добро пожаловать в Upload+. С помощью этого плагина вы можете переименовать каждый загружаемый файл, и на этой странице настраивается то, как это будет происходить."
+
+#: uploadplus.php:115
+msgid "According to your actual ruleset, your files will be renamed like this:"
+msgstr "Согласно текущим настройкам, файлы будут переименованы так:"
+
+#: uploadplus.php:117
+#: uploadplus.php:118
+#: uploadplus.php:119
+msgid "saved as"
+msgstr "будет сохранён как"
+
+#: uploadplus.php:123
+msgid "You can choose to <em>convert spaces and underscores into dashes</em>, <em>strip all dashes/underscores/spaces</em>, or <em>convert every spaces into an underscore</em>. Also, you can choose to <em>lowercase</em> the file name or leave it with mixed case, and finally you can define a custom prefix to prepend, either a fixed one (like the name of your blog) or a date-based one. Feel free to play with the settings and save them, because you can check in this page what kind of transformation will be applied."
+msgstr "В Upload+ есть много полезных настроек, например, &laquo;Преобразовать пробелы и подчёркивания в дефисы&raquo;, &laquo;Убрать все пробелы, подчёркивания и дефисы&raquo;, или &laquo;Преобразовать пробелы в подчёркивания&raquo;. Вы можете автоматически преобразовывать названия файлов в нижний регистр, а также, вдобавок к одной из стандартных настроек, определить свой собственный префикс для файлов (например, название вашего журнала или текущая дата). Не бойтесь экспериментировать с настройками и сохранять их, потому что на этой странице вы всегда сможете увидеть, какие преобразования сейчас используются."
+
+#: uploadplus.php:128
+msgid "Cleaning rules"
+msgstr "Правила очистки"
+
+#: uploadplus.php:132
+msgid "Basic cleaning"
+msgstr "Основная очистка"
+
+#: uploadplus.php:137
+msgid "Convert spaces and underscores into dashes."
+msgstr "Преобразовать пробелы и подчёркивания в дефисы."
+
+#: uploadplus.php:141
+msgid "Strip all spaces/dashes/underscores."
+msgstr "Убрать все пробелы, подчёркивания и дефисы."
+
+#: uploadplus.php:145
+msgid "Convert spaces into underscores (dashes allowed)."
+msgstr "Преобразовать пробелы в подчёркивания. Разрешить дефисы."
+
+#: uploadplus.php:152
+msgid "Lowercase"
+msgstr "Нижний регистр"
+
+#: uploadplus.php:155
+msgid "Make ALL lowercase."
+msgstr "Преобразовать названия файлов в нижний регистр."
+
+#: uploadplus.php:157
+msgid "Leave untouched."
+msgstr "Оставить как есть."
+
+#: uploadplus.php:165
+#: uploadplus.php:169
+msgid "Prefix"
+msgstr "Префикс"
+
+#: uploadplus.php:172
+msgid "No prefix, or custom prefix"
+msgstr "Без префикса или задан вручную"
+
+#: uploadplus.php:173
+msgid "Human Readable"
+msgstr "Понятный человеку формат"
+
+#: uploadplus.php:174
+#: uploadplus.php:175
+#: uploadplus.php:176
+#: uploadplus.php:177
+#: uploadplus.php:178
+msgid "like"
+msgstr "например"
+
+#: uploadplus.php:181
+msgid "Other Styles"
+msgstr "Другие стили"
+
+#: uploadplus.php:190
+msgid "Enter your custom textual prefix (like \"prefix_\"). Please note this is a *string*, so please do not use php <em>date()</em> arguments :-)."
+msgstr "Введите нужный вам префикс (например, &laquo;prefix_&raquo;). Учтите что это <strong>строка</strong>, а не аргумент php-функции date()."
+
+#: uploadplus.php:200
+msgid "Update Settings"
+msgstr "Обновить настройки"
+
+#: uploadplus.php:204
+msgid "<a href=\"http://pixline.net/wordpress-plugins/upload-plus/\">Upload+</a> is GPL&copy; <a href=\"http://pixline.net/\">Paolo Tresso / Pixline</a>. UTF8 php classes and translitteration by <a href=\"http://phputf8.sourceforge.net/\">phputf8</a>.<br/> If you find this plugin useful you can donate and support its development. Thank you!"
+msgstr "<a href=\"http://pixline.net/wordpress-plugins/upload-plus/\">Upload+</a> распространяется по лицензии GPL&copy; <a href=\"http://pixline.net/\">Paolo Tresso / Pixline</a>. Поддержка UTF8 и транслитерация &mdash; <a href=\"http://phputf8.sourceforge.net/\">phputf8</a>.<br/> Если вам понравился этот плагин, вы можете сделать пожертвование и поддержать его разработку."
+
+#~ msgid "Settings saved"
+#~ msgstr "Настройки сохранены"
+
