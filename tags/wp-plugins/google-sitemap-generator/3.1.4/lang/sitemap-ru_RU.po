@@ -1,0 +1,1095 @@
+# [Countryname] Language File for sitemap (sitemap-[localname].po)
+# Copyright (C) 2005 [name] : [URL]
+# This file is distributed under the same license as the WordPress package.
+# [name] <[mail-address]>, 2005.
+# $Id: sitemap.pot 24948 2007-11-18 16:37:44Z arnee $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Sitemap Generator 3.1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-10 22:25+0300\n"
+"PO-Revision-Date: 2009-07-10 22:44+0300\n"
+"Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SearchPath-0: D:\\Projects\\l10n-ru\\trunk\\wp-plugins\\google-sitemap-generator\n"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:846
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:642
+msgid "Comment Count"
+msgstr "По количеству комментариев"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:858
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:654
+msgid "Uses the number of comments of the post to calculate the priority"
+msgstr "Для вычисления приоритета используется количество комментариев к записи"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:918
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:714
+msgid "Comment Average"
+msgstr "По среднему значению количества комментариев"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:930
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:726
+msgid "Uses the average comment count to calculate the priority"
+msgstr "Для вычисления приоритета используется среднее значение количества комментариев"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:993
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:789
+msgid "Popularity Contest"
+msgstr "Popularity Contest"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:1005
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:801
+msgid "Uses the activated <a href=\"%1\">Popularity Contest Plugin</a> from <a href=\"%2\">Alex King</a>. See <a href=\"%3\">Settings</a> and <a href=\"%4\">Most Popular Posts</a>"
+msgstr "Для вычисления приоритета используется плагин <a href=\"%1\">Popularity Contest</a> от <a href=\"%2\">Alex King</a>. Подробную информацию см. в разделе <a href=\"%3\">Настройки</a> и <a href=\"%4\">Самые популярные записи</a>"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:1187
+msgid "Always"
+msgstr "Всегда"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:1188
+msgid "Hourly"
+msgstr "Раз в час"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:1189
+msgid "Daily"
+msgstr "Ежедневно"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:1190
+msgid "Weekly"
+msgstr "Еженедельно"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:1191
+msgid "Monthly"
+msgstr "Раз в месяц"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:1192
+msgid "Yearly"
+msgstr "Раз в год"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-core.php:1193
+msgid "Never"
+msgstr "Никогда"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2600
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:97
+msgid "Thank you very much for your donation. You help me to continue support and development of this plugin and other free software!"
+msgstr "Большое спасибо за пожертвование. Вы помогли мне продолжить разработку и поддержку и этого плагина и другого свободного ПО!"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2600
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:97
+msgid "Hide this notice"
+msgstr "Скрыть это уведомление"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2657
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:103
+#, php-format
+msgid "Thanks for using this plugin! You've installed this plugin over a month ago. If it works and your are satisfied with the results, isn't it worth at least one dollar? <a href=\"%s\">Donations</a> help me to continue support and development of this <i>free</i> software! <a href=\"%s\">Sure, no problem!</a>"
+msgstr "Спасибо за то, что вы используете этот плагин! Вы установили его больше месяца назад. Если он работает, и вам нравятся результаты, разве это не стоит хотя бы одного доллара? <a href=\"%s\">Пожертвования</a> помогут мне продолжить разработку и поддержку <i>бесплатного</i> ПО! <a href=\"%s\">Да, конечно!</a>"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2657
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:103
+msgid "No thanks, please don't bug me anymore!"
+msgstr "Нет, спасибо. И пожалуйста, больше меня не беспокойте!"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:114
+msgid "Your sitemap is being refreshed at the moment. Depending on your blog size this might take some time!"
+msgstr "Сейчас карта вашего сайта обновляется. Обновление может занять некоторое время, в зависимости от объёма журнала!"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:116
+#, php-format
+msgid "Your sitemap will be refreshed in %s seconds. Depending on your blog size this might take some time!"
+msgstr "Карта вашего сайта будет обновлена через %s секунд. Обновление может занять некоторое время, в зависимости от объёма журнала!"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:137
+msgid "Please log in as admin"
+msgstr "Пожалуйста, войдите на сайт как администратор"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2415
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:145
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:448
+msgid "XML Sitemap Generator for WordPress"
+msgstr "Плагин XML Sitemap Generator для WordPress, версия"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:146
+msgid "This is the debug mode of the XML Sitemap Generator. It will show all PHP notices and warnings as well as the internal logs, messages and configuration."
+msgstr "Плагин создания карт сайтов находится в отладочном режиме. Будут показаны все предупреждения и замечания PHP, журналы событий, сообщения и параметры настройки."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:147
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:204
+msgid "DO NOT POST THIS INFORMATION ON PUBLIC PAGES LIKE SUPPORT FORUMS AS IT MAY CONTAIN PASSWORDS OR SECRET SERVER INFORMATION!"
+msgstr "НЕ ПУБЛИКУЙТЕ ЭТУ ИНФОРМАЦИЮ НА ОБЩЕДОСТУПНЫХ ВЕБ-СТРАНИЦАХ - НАПРИМЕР, НА ФОРУМАХ ТЕХНИЧЕСКОЙ ПОДДЕРЖКИ! В НЕЙ МОГУТ СОДЕРЖАТЬСЯ ПАРОЛИ И ДРУГИЕ СЕКРЕТНЫЕ СВЕДЕНИЯ О ВАШЕМ СЕРВЕРЕ!"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:148
+msgid "WordPress and PHP Information"
+msgstr "Информация о ядре Wordpress и версии PHP"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:149
+msgid "with"
+msgstr " с "
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:149
+msgid "DB"
+msgstr "базой данных версии "
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:149
+msgid "on PHP"
+msgstr ". Версия PHP&nbsp;&mdash; "
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:150
+msgid "Plugin version"
+msgstr "Версия плагина"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:151
+msgid "Environment"
+msgstr "Окружение"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:157
+msgid "WordPress Config"
+msgstr "Настройки WordPress"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3397
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:176
+msgid "Sitemap Config"
+msgstr "Содержимое карты сайта"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:180
+msgid "Errors, Warnings, Notices"
+msgstr "Ошибки, предупреждения, замечания"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:184
+msgid "MySQL Queries"
+msgstr "Запросы MySQL"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:194
+msgid "Total Query Time"
+msgstr "Время выполнения запросов"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:195
+msgid "queries in"
+msgstr "запросов за"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:195
+msgid "seconds"
+msgstr "секунд"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:197
+msgid "Please edit wp-db.inc.php in wp-includes and set SAVEQUERIES to true if you want to see the queries."
+msgstr "Если вы хотите увидеть данные о запросах, пожалуйста, отредактируйте файл wp-db.inc.php в директории wp-includes и установите параметр SAVEQUERIES в режим TRUE."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:199
+msgid "Build Process Results"
+msgstr "Результат процесса создания карты"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:203
+msgid "Done."
+msgstr "Готово."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:203
+msgid "Rebuild"
+msgstr "Создать заново"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:203
+msgid "or"
+msgstr "или"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:203
+msgid "Return"
+msgstr "вернуться обратно"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:217
+msgid "Click here to continue"
+msgstr "Нажмите здесь, чтобы продолжить"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2740
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:293
+msgid "Configuration updated"
+msgstr "Настройки обновлены"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2741
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:294
+msgid "Error while saving options"
+msgstr "Ошибка при обновлении настроек"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2743
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:296
+msgid "Pages saved"
+msgstr "Список страниц сохранен"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2744
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:297
+msgid "Error while saving pages"
+msgstr "Ошибка при сохранении списка страниц"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2758
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:304
+msgid "The default configuration was restored."
+msgstr "Восстановлены стандартные настройки."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:461
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\">Download version %3$s here</a>."
+msgstr "Доступная новая версия %1$s. <a href=\"%2$s\">Загрузить версию %3$s</a>."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:463
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\">Download version %3$s here</a> <em>automatic upgrade unavailable for this plugin</em>."
+msgstr "Доступная новая версия %1$s. <a href=\"%2$s\">Загрузить версию %3$s</a>, <em>автоматическое обновление не доступно</em>."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:465
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\">Download version %3$s here</a> or <a href=\"%4$s\">upgrade automatically</a>."
+msgstr "Доступная новая версия %1$s. <a href=\"%2$s\">Загрузить версию %3$s</a> или <a href=\"%4$s\">обновить автоматически</a>."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2851
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2868
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:488
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:505
+msgid "open"
+msgstr "открыть"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2852
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2869
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:489
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:506
+msgid "close"
+msgstr "закрыть"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2853
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2870
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:490
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:507
+msgid "click-down and drag to move this box"
+msgstr "Нажмите и удерживайте левую кнопку мыши, чтобы передвинуть блок"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2854
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2871
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:491
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:508
+msgid "click to %toggle% this box"
+msgstr "нажмите, чтобы %toggle% блок"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2855
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2872
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:492
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:509
+msgid "use the arrow keys to move this box"
+msgstr "используйте стрелки для перемещения блока"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2856
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2873
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:493
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:510
+msgid ", or press the enter key to %toggle% it"
+msgstr ", или нажмите &laquo;ввод&raquo;, чтобы %toggle% его"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2884
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:528
+msgid "About this Plugin:"
+msgstr "Об этом плагине:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2886
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:529
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap.php:153
+msgid "Plugin Homepage"
+msgstr "Домашняя страница плагина"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:530
+msgid "Suggest a Feature"
+msgstr "Предложить новую функцию"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2887
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:531
+msgid "Notify List"
+msgstr "Подписаться на уведомления"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2888
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:532
+msgid "Support Forum"
+msgstr "Форум технической поддержки"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:533
+msgid "Report a Bug"
+msgstr "Сообщить об ошибке"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2889
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:535
+msgid "Donate with PayPal"
+msgstr "Внести пожертование с помощью PayPal"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2890
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:536
+msgid "My Amazon Wish List"
+msgstr "Мой список пожеланий на Amazon.com"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2891
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:537
+msgid "translator_name"
+msgstr "Перевод Анны Озерицкой"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2891
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:537
+msgid "translator_url"
+msgstr "http://hweia.ru"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2895
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:540
+msgid "Sitemap Resources:"
+msgstr "Полезная информация:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2897
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:541
+msgid "Google Webmaster Tools"
+msgstr "Инструменты Google для веб-мастеров"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2898
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:542
+msgid "Webmaster Blog"
+msgstr "Журнал Webmaster Central от Google"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2900
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:544
+msgid "Site Explorer"
+msgstr "Yahoo Site Explorer"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2901
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:545
+msgid "Search Blog"
+msgstr "Журнал Yahoo Blog Search"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2897
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:547
+msgid "Bing Webmaster Tools"
+msgstr "Инструменты Bing для веб-мастеров"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2898
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:548
+msgid "Webmaster Center Blog"
+msgstr "Журнал Webmaster Center от MSN"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2903
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:550
+msgid "Sitemaps Protocol"
+msgstr "Правила составления карт сайтов"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2904
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:551
+msgid "Official Sitemaps FAQ"
+msgstr "Официальный ЧаВо по картам сайтов"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2905
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:552
+msgid "My Sitemaps FAQ"
+msgstr "Мой ЧаВо по картам сайтов"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2910
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:555
+msgid "Recent Donations:"
+msgstr "Свежие пожертвования:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2914
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:559
+msgid "List of the donors"
+msgstr "Список спонсоров"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2916
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:561
+msgid "Hide this list"
+msgstr "Скрыть список"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2919
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:564
+msgid "Thanks for your support!"
+msgstr "Спасибо за поддержку!"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2931
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:582
+msgid "Status"
+msgstr "Состояние"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2941
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:590
+#, php-format
+msgid "The sitemap wasn't built yet. <a href=\"%s\">Click here</a> to build it the first time."
+msgstr "Карта сайта отсутствует. <a href=\"%s\">Создать карту сайта</a>."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2947
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:596
+msgid "Your <a href=\"%url%\">sitemap</a> was last built on <b>%date%</b>."
+msgstr "<a href=\"%url%\">Карта сайта</a> создана <b>%date%</b>."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2949
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:598
+msgid "There was a problem writing your sitemap file. Make sure the file exists and is writable. <a href=\"%url%\">Learn more</a"
+msgstr "Произошла ошибка при записи карты сайта в файл. Убедитесь, что этот файл существует и доступен для записи. <a href=\"%url%\">Что это?</a>"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2956
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:605
+msgid "Your sitemap (<a href=\"%url%\">zipped</a>) was last built on <b>%date%</b>."
+msgstr "<a href=\"%url%\">Сжатая карта сайта</a> создана <b>%date%</b>."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2958
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:607
+msgid "There was a problem writing your zipped sitemap file. Make sure the file exists and is writable. <a href=\"%url%\">Learn more</a"
+msgstr "Произошла ошибка при записи сжатой карты сайта в файл. Убедитесь, что этот файл существует и доступен для записи. <a href=\"%url%\">Что это?</a>"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2964
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:613
+msgid "Google was <b>successfully notified</b> about changes."
+msgstr "Google <b>проинформирован</b> об изменениях в вашем журнале."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2967
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:616
+msgid "It took %time% seconds to notify Google, maybe you want to disable this feature to reduce the building time."
+msgstr "Уведомление Google заняло %time% секунд. Возможно, вам стоит отключить эту функцию, чтобы уменьшить длительность создания карты."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3011
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:619
+#, php-format
+msgid "There was a problem while notifying Google. <a href=\"%s\">View result</a>"
+msgstr "Произошла ошибка при уведомлении Google об изменениях в вашем журнале. <a href=\"%s\">Посмотреть результат</a>"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2976
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:625
+msgid "YAHOO was <b>successfully notified</b> about changes."
+msgstr "Yahoo <b>проинформирован</b> об изменениях в вашем журнале."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2979
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:628
+msgid "It took %time% seconds to notify YAHOO, maybe you want to disable this feature to reduce the building time."
+msgstr "Уведомление Yahoo заняло %time% секунд. Возможно, вам стоит отключить эту функцию, чтобы уменьшить длительность создания карты."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3023
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:631
+#, php-format
+msgid "There was a problem while notifying YAHOO. <a href=\"%s\">View result</a>"
+msgstr "Произошла ошибка при уведомлении Yahoo об изменениях в вашем журнале. <a href=\"%s\">Посмотреть результат</a>"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2976
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:637
+msgid "Bing was <b>successfully notified</b> about changes."
+msgstr "Bing <b>проинформирован</b> об изменениях в вашем журнале."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2967
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:640
+msgid "It took %time% seconds to notify Bing, maybe you want to disable this feature to reduce the building time."
+msgstr "Уведомление Bing заняло %time% секунд. Возможно, вам стоит отключить эту функцию, чтобы уменьшить длительность создания карты."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3011
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:643
+#, php-format
+msgid "There was a problem while notifying Bing. <a href=\"%s\">View result</a>"
+msgstr "Произошла ошибка при уведомлении Bing об изменениях в вашем журнале. <a href=\"%s\">Посмотреть результат</a>"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2988
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:649
+msgid "Ask.com was <b>successfully notified</b> about changes."
+msgstr "Ask.com <b>проинформирован</b> об изменениях в вашем журнале."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2991
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:652
+msgid "It took %time% seconds to notify Ask.com, maybe you want to disable this feature to reduce the building time."
+msgstr "Уведомление Ask.com заняло %time% секунд. Возможно, вам стоит отключить эту функцию, чтобы уменьшить длительность создания карты."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3035
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:655
+#, php-format
+msgid "There was a problem while notifying Ask.com. <a href=\"%s\">View result</a>"
+msgstr "Произошла ошибка при уведомлении Ask.com об изменениях в вашем журнале. <a href=\"%s\">Посмотреть результат</a>"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3002
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:663
+msgid "The building process took about <b>%time% seconds</b> to complete and used %memory% MB of memory."
+msgstr "Карта была создана за <b>%time% секунд</b>. Для этого потребовалось %memory% Мб оперативной памяти."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3004
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:665
+msgid "The building process took about <b>%time% seconds</b> to complete."
+msgstr "Карта была создана за <b>%time% секунд</b>."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3008
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:669
+msgid "The content of your sitemap <strong>didn't change</strong> since the last time so the files were not written and no search engine was pinged."
+msgstr "Содержимое карты сайта <strong>не изменилось</strong>, поэтому файлы не были обновлены, а поисковые системы&nbsp;&mdash; проинформированы."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:677
+msgid "The building process might still be active! Reload the page in a few seconds and check if something has changed."
+msgstr "Возможно, карта сайта как раз создаётся! Обновите страницу через несколько минут и посмотрите, изменилось ли что-нибудь."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3012
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:680
+msgid "The last run didn't finish! Maybe you can raise the memory or time limit for PHP scripts. <a href=\"%url%\">Learn more</a>"
+msgstr "Последний запуск не был завершён! Возможно, были превышены ограничения оперативной памяти и процессорного времени для сценариев PHP. <a href=\"%url%\">Что это?</a>"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3014
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:682
+msgid "The last known memory usage of the script was %memused%MB, the limit of your server is %memlimit%."
+msgstr "В последний раз сценарий использовал %memused% Мб оперативной памяти, ограничение оперативной памяти на вашем сервере&nbsp;&mdash; %memlimit%."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3018
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:686
+msgid "The last known execution time of the script was %timeused% seconds, the limit of your server is %timelimit% seconds."
+msgstr "В последний раз время работы сценария составило %timeused% секунд, ограничение процессорного времени на вашем сервере составляет %timelimit% секунд."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3022
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:690
+msgid "The script stopped around post number %lastpost% (+/- 100)"
+msgstr "Сценарий завершил работу около записи № %lastpost% (+/- 100)"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3025
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:693
+#, php-format
+msgid "If you changed something on your server or blog, you should <a href=\"%s\">rebuild the sitemap</a> manually."
+msgstr "Если вы что-то изменили в журнале или на сервере, необходимо <a href=\"%s\">вручную создать карту сайта заново</a>."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3027
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:695
+#, php-format
+msgid "If you encounter any problems with the build process you can use the <a href=\"%d\">debug function</a> to get more information."
+msgstr "Если при создании карты сайта у вас возникли какие-либо проблемы, перейдите в <a href=\"%d\">режим отладки</a>, чтобы получить дополнительную информацию."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3040
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:702
+msgid "Basic Options"
+msgstr "Основные настройки"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3044
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:704
+msgid "Sitemap files:"
+msgstr "Файлы с картой сайта:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3044
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3059
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3079
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3104
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3121
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:704
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:719
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:739
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:772
+msgid "Learn more"
+msgstr "Что это?"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3049
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:709
+msgid "Write a normal XML file (your filename)"
+msgstr "Создать обычный XML-файл (просто название файла)"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3055
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:715
+msgid "Write a gzipped file (your filename + .gz)"
+msgstr "Создать сжатый файл (название файла + .gz)"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3059
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:719
+msgid "Building mode:"
+msgstr "Режим создания карты:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3064
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:724
+msgid "Rebuild sitemap if you change the content of your blog"
+msgstr "Автоматически обновлять карту сайта, когда обновляется содержимое журнала"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3071
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:731
+msgid "Enable manual sitemap building via GET Request"
+msgstr "Включить режим обновления карты сайта вручную с помощью запроса GET"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3075
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:735
+msgid "This will allow you to refresh your sitemap if an external tool wrote into the WordPress database without using the WordPress API. Use the following URL to start the process: <a href=\"%1\">%1</a> Please check the logfile above to see if sitemap was successfully built."
+msgstr "Это позволит вам обновить карту сайта, если какой-либо внешний инструмент осуществляет запись в базу данных журнала не используя API WordPress. Чтобы начать обновление, пройдите по этой ссылке:<br/><a href=\"%1\">%1</a><br/>Показанный выше отчет позволит вам убедиться в том, что карта сайта была обновлена."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3590
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:739
+msgid "Update notification:"
+msgstr "Уведомлять поисковые системы об обновлениях в вашем журнале:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3093
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:743
+msgid "Notify Google about updates of your Blog"
+msgstr "Google"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3084
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:744
+#, php-format
+msgid "No registration required, but you can join the <a href=\"%s\">Google Webmaster Tools</a> to check crawling statistics."
+msgstr "Регистрация не требуется, но вы можете воспользоваться <a href=\"%s\">Инструментами для веб-мастеров от Google</a>,<br/>чтобы ознакомиться со сведениями об индексировании вашего сайта роботом Google."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3093
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:748
+msgid "Notify Bing (formerly MSN Live Search) about updates of your Blog"
+msgstr "Bing (бывший MSN Live Search)"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3084
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:749
+#, php-format
+msgid "No registration required, but you can join the <a href=\"%s\">Bing Webmaster Tools</a> to check crawling statistics."
+msgstr "Регистрация не требуется, но вы можете воспользоваться <a href=\"%s\">Инструментами для веб-мастеров от Bing</a>,<br/>чтобы ознакомиться со сведениями об индексировании вашего сайта роботом Bing."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3093
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:753
+msgid "Notify Ask.com about updates of your Blog"
+msgstr "Ask.com"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3089
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:754
+msgid "No registration required."
+msgstr "Регистрация не требуется."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3093
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:758
+msgid "Notify YAHOO about updates of your Blog"
+msgstr "Yahoo"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3154
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:759
+msgid "Your Application ID:"
+msgstr "Ваш Application ID:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3155
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:760
+#, php-format
+msgid "Don't you have such a key? <a href=\"%s1\">Request one here</a>! %s2"
+msgstr "У вас нет Application ID? <a href=\"%s1\">Создайте его здесь</a>! %s2"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:765
+msgid "Add sitemap URL to the virtual robots.txt file."
+msgstr "Добавить URL карты сайта в виртуальный файл robots.txt"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:769
+msgid "The virtual robots.txt generated by WordPress is used. A real robots.txt file must NOT exist in the blog directory!"
+msgstr "Виртуальный файл robots.txt создается ядром WordPress. В директории журнала НЕ ДОЛЖНО БЫТЬ реально существующего файла с таким названием!"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3121
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:772
+msgid "Advanced options:"
+msgstr "Расширенные настройки:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3124
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:775
+msgid "Limit the number of posts in the sitemap:"
+msgstr "Ограничить количество записей в карте сайта:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3124
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:775
+msgid "Newer posts will be included first"
+msgstr "Сначала будут включены более новые записи."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3127
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:778
+msgid "Try to increase the memory limit to:"
+msgstr "Попытаться изменить ограничение оперативной памяти на:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3127
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:778
+msgid "e.g. \"4M\", \"16M\""
+msgstr "Например, &laquo;4M&raquo; или &laquo;16M&raquo;"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3130
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:781
+msgid "Try to increase the execution time limit to:"
+msgstr "Попытаться изменить ограничение процессорного времени на:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3130
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:781
+msgid "in seconds, e.g. \"60\" or \"0\" for unlimited"
+msgstr "В секундах, например, &laquo;60&raquo; . &laquo;0&raquo;&nbsp;&mdash; ограничение отсутствует."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3133
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:785
+msgid "Include a XSLT stylesheet:"
+msgstr "Использовать таблицу стилей XSLT:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3133
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:786
+msgid "Full or relative URL to your .xsl file"
+msgstr "Укажите полный или относительный URL к файлу .xsl."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3133
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:786
+msgid "Use default"
+msgstr "Использовать стандартное значение"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3152
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:792
+msgid "Enable MySQL standard mode. Use this only if you're getting MySQL errors. (Needs much more memory!)"
+msgstr "Включить стандартный режим MySQL. Используйте, только если возникли ошибки БД. Требуется намного больше памяти!"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:793
+msgid "Upgrade WordPress at least to 2.2 to enable the faster MySQL access"
+msgstr "Для того, чтобы воспользоваться ускоренным доступом к MySQL, используйте WordPress 2.2 и выше."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3166
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:800
+msgid "Build the sitemap in a background process (You don't have to wait when you save a post)"
+msgstr "Создавать карту сайта в фоновом режиме (вам не придется ждать, когда вы сохраняете запись)"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:801
+msgid "Upgrade WordPress at least to 2.1 to enable background building"
+msgstr "Для того, чтобы создавать карту сайта в фоновом режиме, используйте WordPress 2.1 и выше."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3144
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:808
+msgid "Additional pages"
+msgstr "Дополнительные страницы"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3149
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:811
+msgid "Here you can specify files or URLs which should be included in the sitemap, but do not belong to your Blog/WordPress.<br />For example, if your domain is www.foo.com and your blog is located on www.foo.com/blog you might want to include your homepage at www.foo.com"
+msgstr "Здесь вы можете перечислить те страницы, которые не находятся в вашем дневнике, но которые вы, тем не менее, хотите включить в карту сайта.<br />Например, если ваш домен&nbsp;&mdash; www.foo.com, а ваш дневник расположен в www.foo.com/blog, вам может понадобиться добавить в этот список главную страницу сайта www.foo.com"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3151
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3462
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:813
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:992
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1006
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1015
+msgid "Note"
+msgstr "Примечание"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3152
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:814
+msgid "If your blog is in a subdirectory and you want to add pages which are NOT in the blog directory or beneath, you MUST place your sitemap file in the root directory (Look at the &quot;Location of your sitemap file&quot; section on this page)!"
+msgstr "Если ваш дневник расположен в поддиректории, и вы хотите добавить в карту сайта страницы, которые находятся ВЫШЕ в структуре директорий, вам НЕОБХОДИМО поместить карту сайта в корневую директорию (Подробную информацию см. в разделе &laquo;Местонахождение карты сайта&raquo;)!"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3154
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3300
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:816
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:855
+msgid "URL to the page"
+msgstr "URL"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3155
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:817
+msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
+msgstr "Укажите URL страницы. Например: http://www.foo.com/index.html или www.foo.com/home "
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3157
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3301
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:819
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:856
+msgid "Priority"
+msgstr "Приоритет"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3158
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:820
+msgid "Choose the priority of the page relative to the other pages. For example, your homepage might have a higher priority than your imprint."
+msgstr "Укажите приоритет этой страницы относительно других страниц. Например, главная страница сайта может иметь более высокий приоритет, чем страница с информацией о сайте."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3160
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3303
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:822
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:858
+msgid "Last Changed"
+msgstr "Дата обновления"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3161
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:823
+msgid "Enter the date of the last change as YYYY-MM-DD (2005-12-31 for example) (optional)."
+msgstr "Укажите дату последнего изменения страницы в формате ГГГГ-ММ-ДД (например, 2005-12-31) (не обязательно)."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3302
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:857
+msgid "Change Frequency"
+msgstr "Периодичность обновления"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3304
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:859
+msgid "#"
+msgstr "№"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3309
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:864
+msgid "No pages defined."
+msgstr "Страницы не указаны."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3314
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:869
+msgid "Add new page"
+msgstr "Добавить новую страницу"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3325
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:874
+msgid "Post Priority"
+msgstr "Приоритет записей"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3329
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:876
+msgid "Please select how the priority of each post should be calculated:"
+msgstr "Пожалуйста, укажите способ вычисления приоритета записей:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3331
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:878
+msgid "Do not use automatic priority calculation"
+msgstr "Не использовать автоматическое вычисление"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3331
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:878
+msgid "All posts will have the same priority which is defined in &quot;Priorities&quot;"
+msgstr "Одинаковый приоритет для всех записей (определяется в меню &laquo;Приоритет&raquo;)"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3348
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:889
+msgid "Location of your sitemap file"
+msgstr "Местонахождение карты сайта"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3353
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:892
+msgid "Automatic detection"
+msgstr "Определить автоматически"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3357
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:896
+msgid "Filename of the sitemap file"
+msgstr "Файл"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3360
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:899
+msgid "Detected Path"
+msgstr "Путь"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3360
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:899
+msgid "Detected URL"
+msgstr "URL"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3365
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:904
+msgid "Custom location"
+msgstr "Указать местонахождение"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3369
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:908
+msgid "Absolute or relative path to the sitemap file, including name."
+msgstr "Путь к файлу с картой сайта, включая название файла:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3371
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3380
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:910
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:919
+msgid "Example"
+msgstr "Пример"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3378
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:917
+msgid "Complete URL to the sitemap file, including name."
+msgstr "Полный URL файла с картой сайта, включая название файла:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3397
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:930
+msgid "Sitemap Content"
+msgstr "Содержимое карты сайта"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2886
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:936
+msgid "Include homepage"
+msgstr "Главная страница"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:942
+msgid "Include posts"
+msgstr "Записи"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:948
+msgid "Include following pages of multi-page posts (Increases build time and memory usage!)"
+msgstr "Подстраницы многостраничных записей (использование этой функции замедлит создание карты и потребует больше оперативной памяти!)"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3481
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3553
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:954
+msgid "Include static pages"
+msgstr "Страницы"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3487
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3559
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:960
+msgid "Include categories"
+msgstr "Рубрики"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3429
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:966
+msgid "Include archives"
+msgstr "Архивы"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3506
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3572
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:973
+msgid "Include tag pages"
+msgstr "Страницы меток"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3513
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3579
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:980
+msgid "Include author pages"
+msgstr "Страницы авторов"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3411
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:988
+msgid "Excluded items"
+msgstr "Исключение элементов"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3487
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3559
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:990
+msgid "Excluded categories"
+msgstr "Исключить рубрики"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:992
+msgid "Using this feature will increase build time and memory usage!"
+msgstr "Использование этой функции замедлит создание карты и потребует больше оперативной памяти!"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:999
+#, php-format
+msgid "This feature requires at least WordPress 2.5.1, you are using %s"
+msgstr "Эта функция доступна только в WordPress 2.5 и выше. Вы используете версию %s"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1002
+msgid "Exclude posts"
+msgstr "Исключить записи"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3206
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1004
+msgid "Exclude the following posts or pages:"
+msgstr "Исключить эти записи или страницы:"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3206
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1004
+msgid "List of IDs, separated by comma"
+msgstr "Разделяйте ID записей или страниц запятыми."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1006
+msgid "Child posts won't be excluded automatically!"
+msgstr "Дочерние записи не будут исключаться автоматически!"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3457
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1012
+msgid "Change frequencies"
+msgstr "Периодичность обновления"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3463
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1016
+msgid "Please note that the value of this tag is considered a hint and not a command. Even though search engine crawlers consider this information when making decisions, they may crawl pages marked \"hourly\" less frequently than that, and they may crawl pages marked \"yearly\" more frequently than that. It is also likely that crawlers will periodically crawl pages marked \"never\" so that they can handle unexpected changes to those pages."
+msgstr "Обратите внимание, что это всего лишь рекомендуемые значения, а не команды для поисковых роботов. Поисковые роботы могут просматривать страницы, помеченные &laquo;раз в час&raquo; реже, чем указано, а страницы с меткой &laquo;раз в год&raquo;&nbsp;&mdash; чаще. Также они вполне могут заново просмотреть страницы с пометкой &laquo;никогда&raquo;."
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3469
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3535
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1022
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1079
+msgid "Homepage"
+msgstr "Главная страница"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3475
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1028
+msgid "Posts"
+msgstr "Записи"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3481
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3553
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1034
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1097
+msgid "Static pages"
+msgstr "Страницы"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3487
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3559
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1040
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1103
+msgid "Categories"
+msgstr "Рубрики"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3493
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1046
+msgid "The current archive of this month (Should be the same like your homepage)"
+msgstr "Архив за месяц (это значение должно соответствовать периодичности обновления главной страницы)"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3499
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1052
+msgid "Older archives (Changes only if you edit an old post)"
+msgstr "Более старые архивы (те, которые изменяются только в том случае, когда вы редактируете старые записи)"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3506
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3572
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1059
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1116
+msgid "Tag pages"
+msgstr "Страницы меток"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3513
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3579
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1066
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1123
+msgid "Author pages"
+msgstr "Страницы авторов"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3527
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1074
+msgid "Priorities"
+msgstr "Приоритет"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3541
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1085
+msgid "Posts (If auto calculation is disabled)"
+msgstr "Записи (если автоматическое вычисление отключено)"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3541
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1091
+msgid "Minimum post priority (Even if auto calculation is enabled)"
+msgstr "Минимальный приоритет записи (даже если автоматическое вычисление включено)"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3565
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1109
+msgid "Archives"
+msgstr "Архив"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3590
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1134
+msgid "Update options"
+msgstr "Обновить настройки"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3591
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap-ui.php:1135
+msgid "Reset options"
+msgstr "Сбросить настройки"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2415
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap.php:87
+msgid "XML-Sitemap Generator"
+msgstr "Создание карты сайта"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2415
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap.php:87
+msgid "XML-Sitemap"
+msgstr "Карта сайта"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3481
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:3553
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap.php:101
+msgid "Settings"
+msgstr "Настройки"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap.php:102
+msgid "FAQ"
+msgstr "ЧаВо"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2888
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap.php:103
+msgid "Support"
+msgstr "Поддержка"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap.php:104
+msgid "Donate"
+msgstr "Пожертвования"
+
+# C:\Inetpub\wwwroot\wp\wp-content\plugins\sitemap_beta/sitemap.php:2905
+#: D:\Projects\l10n-ru\trunk\wp-plugins\google-sitemap-generator/sitemap.php:154
+msgid "Sitemap FAQ"
+msgstr "ЧаВо по картам сайтов"
+
