@@ -166,7 +166,7 @@ msgstr "Прозрачная"
 
 #: wp-recaptcha.php:777
 msgid "Tab Index (<em>e.g. WP: <strong>5</strong>, WPMU: <strong>3</strong></em>):"
-msgstr "Порядок перехода по клавише Tab (<em><strong>5</strong> для WordPress, <strong>3</strong> для WordPress &Mu;</em>)"
+msgstr "Порядок перехода по клавише Tab (<em><strong>5</strong> для WordPress, <strong>3</strong> для WordPress &mu;</em>)"
 
 #: wp-recaptcha.php:784
 msgid "Registration Options"
@@ -182,7 +182,7 @@ msgstr "Сообщения об ошибках"
 
 #: wp-recaptcha.php:805
 msgid "The following are the messages to display when the user does not enter a CAPTCHA response or enters the incorrect CAPTCHA response."
-msgstr "Эти сообщения будут показаны, когда пользователь не ввел reCAPTCHA или ввел её неправильно."
+msgstr "Эти сообщения будут показаны, когда пользователь не ввёл reCAPTCHA или ввёл её неправильно."
 
 #: wp-recaptcha.php:809
 msgid "No response entered:"
@@ -274,7 +274,7 @@ msgstr "Комментариев"
 
 #: wp-recaptcha.php:856
 msgid "RSS Feed of Posts/Pages"
-msgstr "RSS-лент записей и(или) комментариев"
+msgstr "RSS-лент записей и(или) страниц"
 
 #: wp-recaptcha.php:857
 msgid "RSS Feed of Comments"
@@ -294,7 +294,7 @@ msgstr "С помощью этих полей вы можете настроит
 
 #: wp-recaptcha.php:880
 msgid "where the email is broken up into two pieces and then a link with dots is placed in the middle. The <strong>Email Replacement Text</strong> value lets you choose what to name the link and then the <strong>Reveal Link Title</strong> value determines the text that is shown when the link is hovered over."
-msgstr ". E-mail разделён на две части, в центре размещена ссылка в виде точек. В поле<strong>замещающий текст</strong> вы можете указать, как должна выглядеть ссылка, а в поле <strong>текст ссылки для расшифровки</strong> &mdash; определить, что будет написано во всплывающей подсказке."
+msgstr "при этом адрес разделён на две части, в центре размещена ссылка в виде точек. В поле <strong>замещающий текст</strong> вы можете указать, как должна выглядеть ссылка, а в поле <strong>текст ссылки для расшифровки</strong> &mdash; определить, что будет написано во всплывающей подсказке."
 
 #: wp-recaptcha.php:881
 msgid "For example, if the <strong>Email Replacement Text</strong> option is set to <strong>HIDDEN EMAIL</strong> and the <strong>Reveal Link Title</strong> option is set to <strong>Click here to reveal this address</strong>, then ALL emails will be hidden like this:"
