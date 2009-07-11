@@ -58,7 +58,7 @@ msgstr "Стандартные настройки reCAPTCHA"
 #: wp-recaptcha.php:646
 #: wp-recaptcha.php:723
 msgid "reCAPTCHA Options"
-msgstr "Настройка reCAPTCHA"
+msgstr "Настройки reCAPTCHA"
 
 #: wp-recaptcha.php:703
 msgid "All registered users"
@@ -82,7 +82,7 @@ msgstr "Управлять сайтом"
 
 #: wp-recaptcha.php:724
 msgid "About reCAPTCHA"
-msgstr "О reCAPTCHA"
+msgstr "О сервисе reCAPTCHA"
 
 #: wp-recaptcha.php:725
 msgid "reCAPTCHA is a free, accessible CAPTCHA service that helps to digitize books while blocking spam on your blog."
@@ -94,7 +94,7 @@ msgstr "В сервисе reCAPTCHA пользователям нужно вве
 
 #: wp-recaptcha.php:728
 msgid "<strong>NOTE</strong>: If you are using some form of Cache plugin you will probably need to flush/clear your cache for changes to take effect."
-msgstr "<strong>ПРИМЕЧАНИЕ</strong>: Если вы используете какой-либо плагин для кеширования страниц, возможно, вам понадобиться очистить кеш, чтобы заметить изменения в настройках."
+msgstr "<strong>ПРИМЕЧАНИЕ</strong>: Если вы используете какой-либо плагин для кеширования страниц, возможно, вам понадобится очистить кеш, чтобы заметить изменения в настройках."
 
 #: wp-recaptcha.php:732
 #: wp-recaptcha.php:901
@@ -238,11 +238,11 @@ msgstr "Соответствовать стандарту XHTML 1.0 Strict. Эт
 
 #: wp-recaptcha.php:844
 msgid "About MailHide"
-msgstr "О MailHide"
+msgstr "О сервисе MailHide"
 
 #: wp-recaptcha.php:845
 msgid "uses reCAPTCHA to protect email adresses displayed on your blog from being harvested for spam."
-msgstr "использует сервис reCAPTCHA, чтобы защитить опубликованные на вашем сайте адреса электронной почты от роботов-сборщиков адресов для спам-рассылок."
+msgstr "использует сервис reCAPTCHA, чтобы защитить опубликованные на вашем сайте адреса электронной почты от роботов, собирающих их для спам-рассылок."
 
 #: wp-recaptcha.php:846
 msgid "Activating MailHide will automatically hide all emails in posts and comments from spam bots. For example, support@recaptcha.net would become"
@@ -294,11 +294,11 @@ msgstr "С помощью этих полей вы можете настроит
 
 #: wp-recaptcha.php:880
 msgid "where the email is broken up into two pieces and then a link with dots is placed in the middle. The <strong>Email Replacement Text</strong> value lets you choose what to name the link and then the <strong>Reveal Link Title</strong> value determines the text that is shown when the link is hovered over."
-msgstr "при этом адрес разделён на две части, в центре размещена ссылка в виде точек. В поле <strong>замещающий текст</strong> вы можете указать, как должна выглядеть ссылка, а в поле <strong>текст ссылки для расшифровки</strong> &mdash; определить, что будет написано во всплывающей подсказке."
+msgstr "при этом адрес разделён на две части, в центре размещена ссылка в виде точек. В поле <strong>&laquo;Замещающий текст&raquo;</strong> вы можете указать, как должна выглядеть ссылка, а в поле <strong>&laquo;Всплывающая подсказка&raquo;</strong> &mdash; определить, что будет написано во всплывающей подсказке."
 
 #: wp-recaptcha.php:881
 msgid "For example, if the <strong>Email Replacement Text</strong> option is set to <strong>HIDDEN EMAIL</strong> and the <strong>Reveal Link Title</strong> option is set to <strong>Click here to reveal this address</strong>, then ALL emails will be hidden like this:"
-msgstr "Например, если <strong>замещающий текст</strong> &mdash; это слова <strong>&laquo;СКРЫТЫЙ E-MAIL&raquo;</strong>, а текст <strong>ссылки для расшифровки</strong> &mdash; <strong>&laquo;Показать этот адрес электронной почты&raquo;</strong>, тогда ВСЕ зашифрованные адреса электронной почты будут выглядеть так:"
+msgstr "Например, если <strong>замещающий текст</strong> &mdash; это слова <strong>&laquo;СКРЫТЫЙ E-MAIL&raquo;</strong>, а текст <strong>всплывающей подсказки</strong> &mdash; <strong>&laquo;Показать этот адрес электронной почты&raquo;</strong>, тогда ВСЕ зашифрованные адреса электронной почты будут выглядеть так:"
 
 #: wp-recaptcha.php:881
 msgid "HIDDEN EMAIL"
@@ -310,11 +310,11 @@ msgstr "Если вы хотите сохранить стандартное о�
 
 #: wp-recaptcha.php:883
 msgid "EMail Replacement Text:"
-msgstr "Текст, замещающий e-mail:"
+msgstr "Замещающий текст:"
 
 #: wp-recaptcha.php:886
 msgid "Reveal Link Title:"
-msgstr "Текст ссылки для расшифровки:"
+msgstr "Всплывающая подсказка:"
 
 #: wp-recaptcha.php:892
 msgid "Other Information"
