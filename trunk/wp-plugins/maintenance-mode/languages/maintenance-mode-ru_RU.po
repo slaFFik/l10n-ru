@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintenance Mode 4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-11 20:03+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SearchPath-0: D:\\Projects\\l10n-ru\\trunk\\wp-plugins\\maintenance-mode\n"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:81
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:82
+msgid "Settings"
+msgstr "Настройки"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:91
+msgid "Plugin"
+msgstr "Об этом плагине"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:93
+msgid "Plugin's Homepage"
+msgstr "Домашняя страница плагина"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:94
+msgid "WordPress Support"
+msgstr "Поддержка на сайте WordPress"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:95
+msgid "Other Plugins I've Written"
+msgstr "Другие плагины того же автора"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:98
+msgid "Do you like this plugin?"
+msgstr "Вам понравился этот плагин?"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:99
+msgid "I spend a lot of time on the plugins I've written for WordPress. Any donation would be highly appreciated."
+msgstr "Я потратил много времени на создание плагинов для WordPress, и с радостью приму ваши пожертвования."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:101
+msgid "Donate via PayPal"
+msgstr "Внести пожертвование с помощью PayPal"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:102
+msgid "My Amazon Wish List"
+msgstr "Мой список пожеланий на Amazon.com"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:120
+msgid "The activated plugin"
+msgstr ""
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:121
+msgid "is not compatible with your installed WordPress"
+msgstr ""
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:122
+msgid "WordPress version"
+msgstr ""
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:122
+msgid "or higher is required when using this plugin, please deactivate it."
+msgstr ""
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:348
+msgid "You do not have permission to modify the options"
+msgstr ""
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:370
+msgid "Settings deleted/reset."
+msgstr "Настройки удалены или сброшены."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:372
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:408
+msgid "Plugin Settings"
+msgstr "Настройки плагина"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:421
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:146
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:422
+msgid "Do you really want to delete/reset the plugin settings?"
+msgstr "Вы действительно хотите удалить или сбросить настройки плагина?"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/inc.swg-plugin-framework.php:422
+msgid "Delete/Reset Settings"
+msgstr "Удалить/Сбросить настройки"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:90
+msgid "The Maintenance Mode is active. Please don't forget to"
+msgstr "Сайт закрыт на техническое обслуживание. Пожалуйста, не забудьте"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:90
+msgid "deactivate"
+msgstr "снова открыть его для посетителей"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:90
+msgid "it as soon as you are done."
+msgstr "как только всё будет готово."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:133
+msgid "Activate/Deactivate Maintenance Mode"
+msgstr "Режим технического обслуживания"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:138
+msgid "Activated"
+msgstr "Включить"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:141
+msgid "Deactivated"
+msgstr "Отключить"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:152
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:159
+msgid "Message"
+msgstr "Сообщение для посетителей"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:155
+msgid "Title"
+msgstr "Заголовок"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:161
+msgid "Use HTML only, no PHP allowed. You can use <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> and <strong>[backtime]</strong> as placeholders."
+msgstr "Разрешена только разметка HTML, вставить PHP-код нельзя. Вы можете использовать эти метки-заполнители: <strong>[blogurl]</strong> (URL сайта), <strong>[blogtitle]</strong> (название сайта) и <strong>[backtime]</strong> (время окончания работ)."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:165
+msgid "Use 503.php"
+msgstr "Использовать 503.php"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:166
+msgid "With the following option activated the plugin will use the file '503.php' from the current theme directory for the splash page instead using 'maintenance-mode_site.php' from the plugin directory; If there is no '503.php', it will use the default file 'maintenance-mode_site.php'."
+msgstr "Эта настройка означает, что когда сайт будет закрыт на техническое обслуживание, плагин будет использовать в качестве страницы-заставки файл &laquo;503.php&raquo; из директории с темой оформления вашего сайта, а не стандартный файл &laquo;maintenance-mode_site.php&raquo; из директории плагина. Если нужный шаблон в файле темы не предусмотрен, то вне зависимости от состояния флажка ниже, в качестве заставки будет использоваться стандартный шаблон."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:167
+msgid "So this option will help using a customized splash page without the fear of losing this page when updating the plugin."
+msgstr "Таким образом, этот параметр предназначен для того, чтобы настроить внешний вид страницы-заставки на ваш вкус, не вмешиваясь в файлы плагина."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:168
+msgid "Please note that you can't use WordPress theme functions (e.g. <em>get_sidebar()</em>, etc.) in the '503.php'."
+msgstr "Пожалуйста, имейте в виду, что внутри шаблона &laquo;503.php&raquo; нельзя использовать функции тем WordPress, например <em>get_sidebar()</em> и другие."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:172
+msgid "Use 503.php from within the theme directory for the splash page"
+msgstr "Использовать в качестве страницы-заставки файл &laquo;503.php&raquo; из директории с темой оформления сайта"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:176
+msgid "Backtime and HTTP header"
+msgstr "Время окончания работ и заголовки HTTP"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:179
+msgid "Backtime in minutes"
+msgstr "Время до окончания работ (в минутах)"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:181
+msgid "A special HTML header for feed and trackback will be applied (&laquo;503 Service Unavailable&raquo;) including 'retry after x minutes'. Enter here the approximate time in minutes to retry. Also, by using the placeholder <strong>[backtime]</strong> above, the time in minutes be displayed to the visitors as well."
+msgstr "К RSS-лентам и уведомлениям будет добавлен специальный HTML-заголовок (&laquo;503 Service Unavailable&raquo;), включающий параметр (&laquo;вернуться через X минут&raquo;). Укажите здесь примерное время до окончания режима технического обслуживания сайта. К тому же, с помощью метки-заполнителя <strong>[backtime]</strong> это значение можно показать пользователям."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:186
+msgid "Apply HTTP header '503 Service Unavailable' and 'Retry-After &lt;backtime&gt;' to Maintenance Mode splash page"
+msgstr "Использовать на странице-заставке HTTP-заголовок &laquo;503 Service Unavailable&raquo; и параметр &laquo;Retry-After &lt;backtime&gt;&raquo;"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:190
+msgid "Paths to be still accessable"
+msgstr "Страницы, которые будут доступны в режиме технического обслуживания"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:192
+msgid "Enter paths that shall be excluded and still be accessable. Separate multiple paths with line breaks.<br />Example: If you want to exclude <em>http://site.com/about/</em>, then enter <em>/about/</em>."
+msgstr "Укажите пути к страницам, которые будут доступны пользователям, даже если сайт закрыт на техническое обслуживание. Вводите по одному значению на строку<br/> Например, если вы хотите исключить страницу <em>http://site.com/about/</em>, введите <em>/about/</em>."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:197
+msgid "Permissions"
+msgstr "Режим доступа"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:198
+msgid "How to permit blog editors to see the blog's front-end"
+msgstr "Как разрешить редакторам журнала доступ к журналу, даже если сайт закрыт на техническое обслуживание"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:199
+msgid "As soon as you activate the maintenance mode, a splash page is being added to your blog that informs visitors about your blog maintenance. Logged in administrators get full access to the blog including the front-end and will not see any splash page.<br />This plugin adds the capability 'access_on_maintenance' to the role 'Administrator'. If users with a specific role, for instance 'Editor', should get full access to the blog as well, use an appropriate plugin like"
+msgstr "Как только вы закроете сайт на техническое обслуживание, на вашем сайте появится страница-заставка, сообщающая посетителям о том, что сайт временно недоступен. Вошедшие на сайт администраторы сохраняют полный доступ к сайту, включая и его содержимое и панель управления, и не увидят страницы-заставки.<br/>Этот плагин создаёт новую возможность &mdash; &laquo;access_on_maintenance&raquo; для роли &laquo;Администратор&raquo;. Если пользователи другой роли, например, &laquo;Редактор&raquo;, тоже должен получить доступ к сайту, используйте соответствующий плагин, например,"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:201
+msgid "and grant the capability 'Access On Maintenance' for the role 'Editor' or for any other role of your choice. <br />Check out"
+msgstr "и добавьте возможность &laquo;Access On Maintenance&raquo; для роли &laquo;Редактор&raquo; или для любой другой<br/>Подробную информацию смотрите на странице"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:203
+msgid "for further information."
+msgstr "."
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:205
+msgid "How to deny non-administrators to access the blog's back-end (in addition to not see the front-end)"
+msgstr "Как запретить не-администраторам доступ к панели управления сайтом (вдобавок к его содержимому)"
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:206
+msgid "By activating the following option, you can prevent users that do not have the capability 'access_on_maintenance' from being able to access the back-end (the WordPress' administration) too. This plugin adds the capability 'access_on_maintenance' to the role 'Administrator', so any other roles (like editors, authors, etc.) will not have access to the back-end after activating the following option."
+msgstr ""
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode.php:209
+msgid "Deny non-administrators to access the blog's back-end"
+msgstr ""
+
+#: D:\Projects\l10n-ru\trunk\wp-plugins\maintenance-mode/maintenance-mode_site.php:64
+msgid "(Access to administration denied by administrator)"
+msgstr ""
+
