@@ -575,9 +575,8 @@ msgid "Current Favorites"
 msgstr "Текущие закладки"
 
 #: forums-theme/wpcom/favorites.php:5
-#, fuzzy
 msgid "Your Favorites allow you to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics you specify. To add topics to your list of favorites, just click the &ldquo;Add to Favorites&rdquo; link found on that topic&#8217;s page."
-msgstr "Ваше Избранное позволяет создать собственную <abbr title=\"Really Simple Syndication\">RSS-ленту</abbr>, которая будет содержать ответы на выбранные Вами темы. Чтобы добавить тему, кликните на ссылку \"Добавить в Избранное\", которую можно найти на этой странице."
+msgstr "Ваше Избранное позволяет создать собственную <abbr title=\"Really Simple Syndication\">RSS-ленту</abbr>, которая будет содержать ответы на выбранные Вами темы. Чтобы добавить тему, кликните на ссылку &ldquo;Добавить в Избранное&rdquo; , которую можно найти на этой странице."
 
 #: forums-theme/wpcom/favorites.php:8
 #: forums/bb-templates/kakumei/favorites.php:10
@@ -5448,9 +5447,8 @@ msgid "Invalid action"
 msgstr "Неизвестное действие."
 
 #: public.api/class.yahoo-yap-widget.php:90
-#, fuzzy
 msgid "Enter your blog's URL"
-msgstr "Календарь записей вашего блога"
+msgstr "Введите URL вашего блога"
 
 #: public.api/class.yahoo-yap-widget.php:96
 msgid "You must enter a valid URL"
@@ -5492,14 +5490,13 @@ msgid "Post Published. <a href=\"%s\" target=\"_blank\">View</a> | <a href=\"%s\
 msgstr "Запись опубликована. <a href=\"%s\" target=\"_blank\">Посмотреть</a> | <a href=\"%s\" target=\"_blank\">Изменить</a>"
 
 #: public.api/class.yahoo-yap-widget.php:202
-#, fuzzy, php-format
+#, php-format
 msgid "Draft Saved. <a href=\"%s\" target=\"_blank\">View</a> | <a href=\"%s\" target=\"_blank\">Edit</a>"
-msgstr "Черновик сохранён. <a href=\"%s\">Просмотреть</a> | <a href=\"%s\">Изменить</a>"
+msgstr "Черновик сохранён.<a href=\"%s\" target=\"_blank\">Просмотреть</a> | <a href=\"%s\" target=\"_blank\">Изменить</a>"
 
 #: public.api/class.yahoo-yap-widget.php:230
-#, fuzzy
 msgid "You must be logged in to Yahoo! to use WordPress.com QuickPress."
-msgstr "Чтобы оставить комментарий, вы должны войти"
+msgstr "Вы должны быть авторизованы в Yahoo! чтобы использовать QuickPress WordPress.com "
 
 #: public.api/class.yahoo-yap-widget.php:249
 #: wp-admin/edit-comments.php:264
@@ -5829,16 +5826,16 @@ msgstr "<h2>Ваша учетная запись активирована!</h2>"
 #: wp-activate.php:62
 #: wp-facebook-app/wp-signup.php:450
 #: wp-signup.php:435
-#, fuzzy, php-format
+#, php-format
 msgid "<p class=\"lead-in\">Your account has been activated. You may now <a href=\"%1$s\">login</a> to the site using your chosen username of \"%2$s\".  Please check your email inbox for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>.</p>"
-msgstr "<p class=\"lead-in\">Ваша учетная запись активирована. Вы можете теперь <a href=\"%1$s\">войти</a> на сайт, используя выбранный логин (%2$s).  Пожалуйста, проверьте почту %3$s, там будут пароль и инструкции для входа. Если вы не получили письмо, проверьте корзину или папку со спамом. Если в течение часа вы так и не получите письмо, вы можете <a href=\"%4$s\">сбросить ваш пароль</a>.</p>"
+msgstr "<p class=\"lead-in\">Ваша учетная запись активирована. Вы можете теперь <a href=\"%1$s\">войти</a> на сайт, используя выбранный логин \"%2$s\".  Пожалуйста, проверьте ваш почтовый ящик, там будут пароль и инструкции для входа. Если вы не получили письмо, проверьте корзину или папку со спамом. Если в течение часа вы так и не получите письмо, вы можете <a href=\"%4$s\">сбросить ваш пароль</a>.</p>"
 
 #: wp-activate.php:65
 #: wp-facebook-app/wp-signup.php:452
 #: wp-signup.php:437
-#, fuzzy, php-format
+#, php-format
 msgid "<p class=\"lead-in\">Your blog at <a href=\"%1$s\">%2$s</a> is active. You may now login to your blog using your chosen username of \"%3$s\".  Please check your email inbox for your password and login instructions.  If you do not receive an email, please check your junk or spam folder.  If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>.</p>"
-msgstr "<p class=\"lead-in\">Ваш блог <a href=\"%1$s\">%2$s</a> активирован. Вы можете теперь войти на сайт используя выбранный логин (%3$s).  Пожалуйста, проверьте почту%4$s, там будут пароль и инструкции для входа. Если вы не получили письмо, проверьте корзину или папку со спамом. Если в течение часа вы так и не получите письмо, вы можете <a href=\"%5$s\">сбросить ваш пароль</a>.</p>"
+msgstr "<p class=\"lead-in\">Ваш блог <a href=\"%1$s\">%2$s</a> активирован. Вы можете теперь войти на сайт используя выбранный логин \"%3$s\".  Пожалуйста, проверьте ваш почтовый ящик, там будут пароль и инструкции для входа. Если вы не получили письмо, проверьте корзину или папку со спамом. Если в течение часа вы так и не получите письмо, вы можете <a href=\"%5$s\">сбросить ваш пароль</a>.</p>"
 
 #: wp-activate.php:75
 #: wp-facebook-app/wp-signup.php:462
@@ -6129,7 +6126,6 @@ msgid "Y/m/d"
 msgstr "d.m.Y"
 
 #: wp-admin/admin-ajax.php:1294
-#, fuzzy
 msgid "An error has occured. Please reload the page and try again."
 msgstr "Произошла ошибка. Пожалуйста, обновите страницу и повторите попытку."
 
@@ -6789,7 +6785,6 @@ msgstr "Получить ссылку"
 
 #: wp-admin/edit-attachment-rows.php:211
 #: wp-admin/upload.php:385
-#, fuzzy
 msgid "No media attachments found."
 msgstr "Вложений не найдено."
 
@@ -6961,7 +6956,7 @@ msgid "Add"
 msgstr "Добавить"
 
 #: wp-admin/edit-form-advanced.php:19
-#, fuzzy, php-format
+#, php-format
 msgid "Post updated. <a href=\"%s\">View post</a>"
 msgstr "Запись обновлена. <a href=\"%s\">Посмотреть</a>"
 
@@ -7349,9 +7344,8 @@ msgid "Excerpt"
 msgstr "Цитата"
 
 #: wp-admin/edit-form-advanced.php:375
-#, fuzzy
 msgid "Excerpts are optional hand-crafted summaries of your content that can be used in your theme. <a href=\"http://codex.wordpress.org/Excerpt\" target=\"_blank\">Learn more about manual excerpts.</a>"
-msgstr "Цитата &#8212; необязательное краткое содержание вашего текста, которое можно <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">использовать в вашем шаблоне</a>."
+msgstr "Цитата &#8212; необязательное краткое содержание вашего текста, которое можно использовать в вашей теме. <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">Узнать больше.</a>"
 
 #: wp-admin/edit-form-advanced.php:390
 msgid "Already pinged:"
@@ -7541,9 +7535,8 @@ msgstr "Добавить рубрику ссылок"
 
 #: wp-admin/edit-link-categories.php:199
 #: wp-admin/edit-link-category-form.php:65
-#, fuzzy
 msgid "Link Category name"
-msgstr "Название рубрики ссылок"
+msgstr "Имя рубрики ссылок"
 
 #: wp-admin/edit-link-categories.php:210
 #: wp-admin/edit-link-category-form.php:76
@@ -8397,12 +8390,10 @@ msgid "The Magic Button"
 msgstr "Волшебная кнопка"
 
 #: wp-admin/import/blogger.php:206
-#, fuzzy
 msgid "This feature requires Javascript but it seems to be disabled. Please enable Javascript and then reload this page. Don&#8217;t worry, you can turn it back off when you&#8217;re done."
 msgstr "Эта функция требует Javascript, а он, похоже, выключен. Пожалуйста, включите Javascript и перезагрузите эту страницу. Не беспокойтесь, вы сможете снова отключить его, когда всё будет готово."
 
 #: wp-admin/import/blogger.php:661
-#, fuzzy
 msgid "All posts were imported with the current user as author. Use this form to move each Blogger user&#8217;s posts to a different WordPress user. You may <a href=\"users.php\">add users</a> and then return to this page and complete the user mapping. This form may be used as many times as you like until you activate the &#8220;Restart&#8221; function below."
 msgstr "Все записи импортированы с текущим пользователем в качестве автора. Используйте эту форму, чтобы записи каждого пользователя Blogger поставить в соответствие пользователю WordPress. Можно <a href=\"users.php\">добавить пользователей</a> и затем вернуться на эту страницу. Эта форма может быть использована столько раз, сколько необходимо, до тех пор, пока вы не активируете функцию &laquo;Перезапуск&raguo;."
 
@@ -8448,7 +8439,6 @@ msgid "That was hard work! Take a break."
 msgstr "Это была тяжёлая работёнка! Сделайте перерыв."
 
 #: wp-admin/import/blogger.php:804
-#, fuzzy
 msgid "In case you haven&#8217;t done it already, you can import the posts from your other blogs:"
 msgstr "Если вы не сделали этого раньше,вы можете импортировать записи из ваших других блогов:"
 
@@ -8954,9 +8944,8 @@ msgid "<strong>NOTE:</strong> You appear to have JavaScript disabled, so you wil
 msgstr "<strong>ЗАМЕЧАНИЕ:</strong>JavaScript отключен, поэтому вам потребуется вручную проходить каждый шаг импорта. Если вы разрешите JavaScript, эти шаги будут происходить автоматически."
 
 #: wp-admin/import/livejournal.php:277
-#, fuzzy
 msgid "Post metadata has been downloaded, proceeding with posts..."
-msgstr "Метаданные записей загружены, переходим к записям&hellip;"
+msgstr "Метаданные записей загружены, переходим к записям..."
 
 #: wp-admin/import/livejournal.php:375
 #, php-format
@@ -10041,37 +10030,30 @@ msgid "Asmera"
 msgstr "Асмара"
 
 #: wp-admin/includes/continents-cities.php:14
-#, fuzzy
 msgid "Bamako"
 msgstr "Бамако"
 
 #: wp-admin/includes/continents-cities.php:15
-#, fuzzy
 msgid "Bangui"
 msgstr "Банги"
 
 #: wp-admin/includes/continents-cities.php:16
-#, fuzzy
 msgid "Banjul"
 msgstr "Банжул"
 
 #: wp-admin/includes/continents-cities.php:17
-#, fuzzy
 msgid "Bissau"
 msgstr "Бисау"
 
 #: wp-admin/includes/continents-cities.php:18
-#, fuzzy
 msgid "Blantyre"
 msgstr "Блантайр"
 
 #: wp-admin/includes/continents-cities.php:19
-#, fuzzy
 msgid "Brazzaville"
 msgstr "Браззавиль"
 
 #: wp-admin/includes/continents-cities.php:20
-#, fuzzy
 msgid "Bujumbura"
 msgstr "Бужумбура"
 
@@ -10084,12 +10066,10 @@ msgid "Casablanca"
 msgstr "Касабланка"
 
 #: wp-admin/includes/continents-cities.php:23
-#, fuzzy
 msgid "Ceuta"
 msgstr "Сеута"
 
 #: wp-admin/includes/continents-cities.php:24
-#, fuzzy
 msgid "Conakry"
 msgstr "Конакри"
 
@@ -10098,22 +10078,18 @@ msgid "Dakar"
 msgstr "Дакар"
 
 #: wp-admin/includes/continents-cities.php:26
-#, fuzzy
 msgid "Dar es Salaam"
 msgstr "Дар-эс-Салам"
 
 #: wp-admin/includes/continents-cities.php:27
-#, fuzzy
 msgid "Djibouti"
 msgstr "Джибути"
 
 #: wp-admin/includes/continents-cities.php:28
-#, fuzzy
 msgid "Douala"
 msgstr "Дуала"
 
 #: wp-admin/includes/continents-cities.php:29
-#, fuzzy
 msgid "El Aaiun"
 msgstr "Эль-Аюн"
 
@@ -10122,12 +10098,10 @@ msgid "Freetown"
 msgstr "Фритаун"
 
 #: wp-admin/includes/continents-cities.php:31
-#, fuzzy
 msgid "Gaborone"
 msgstr "Габороне"
 
 #: wp-admin/includes/continents-cities.php:32
-#, fuzzy
 msgid "Harare"
 msgstr "Хараре"
 
@@ -10136,22 +10110,18 @@ msgid "Johannesburg"
 msgstr "Йоханнесбург"
 
 #: wp-admin/includes/continents-cities.php:34
-#, fuzzy
 msgid "Kampala"
 msgstr "Кампала"
 
 #: wp-admin/includes/continents-cities.php:35
-#, fuzzy
 msgid "Khartoum"
 msgstr "Хартум"
 
 #: wp-admin/includes/continents-cities.php:36
-#, fuzzy
 msgid "Kigali"
 msgstr "Кигали"
 
 #: wp-admin/includes/continents-cities.php:37
-#, fuzzy
 msgid "Kinshasa"
 msgstr "Киншаса"
 
@@ -10160,92 +10130,74 @@ msgid "Lagos"
 msgstr "Лагос"
 
 #: wp-admin/includes/continents-cities.php:39
-#, fuzzy
 msgid "Libreville"
 msgstr "Либревиль"
 
 #: wp-admin/includes/continents-cities.php:40
-#, fuzzy
 msgid "Lome"
 msgstr "Ломе"
 
 #: wp-admin/includes/continents-cities.php:41
-#, fuzzy
 msgid "Luanda"
 msgstr "Луанда"
 
 #: wp-admin/includes/continents-cities.php:42
-#, fuzzy
 msgid "Lubumbashi"
 msgstr "Лубумбаши"
 
 #: wp-admin/includes/continents-cities.php:43
-#, fuzzy
 msgid "Lusaka"
 msgstr "Лусака"
 
 #: wp-admin/includes/continents-cities.php:44
-#, fuzzy
 msgid "Malabo"
 msgstr "Малабо"
 
 #: wp-admin/includes/continents-cities.php:45
-#, fuzzy
 msgid "Maputo"
 msgstr "Мапуту"
 
 #: wp-admin/includes/continents-cities.php:46
-#, fuzzy
 msgid "Maseru"
 msgstr "Масеру"
 
 #: wp-admin/includes/continents-cities.php:47
-#, fuzzy
 msgid "Mbabane"
 msgstr "Мбабане"
 
 #: wp-admin/includes/continents-cities.php:48
-#, fuzzy
 msgid "Mogadishu"
 msgstr "Могадишо"
 
 #: wp-admin/includes/continents-cities.php:49
-#, fuzzy
 msgid "Monrovia"
 msgstr "Монровия"
 
 #: wp-admin/includes/continents-cities.php:50
-#, fuzzy
 msgid "Nairobi"
 msgstr "Найроби"
 
 #: wp-admin/includes/continents-cities.php:51
-#, fuzzy
 msgid "Ndjamena"
 msgstr "Нджамена"
 
 #: wp-admin/includes/continents-cities.php:52
-#, fuzzy
 msgid "Niamey"
 msgstr "Ниамэй"
 
 #: wp-admin/includes/continents-cities.php:53
-#, fuzzy
 msgid "Nouakchott"
 msgstr "Нуакшот"
 
 #: wp-admin/includes/continents-cities.php:54
-#, fuzzy
 msgid "Ouagadougou"
 msgstr "Уагадугу"
 
 #: wp-admin/includes/continents-cities.php:55
-#, fuzzy
 msgid "Porto-Novo"
 msgstr "Порто-Ново"
 
 #: wp-admin/includes/continents-cities.php:56
-#, fuzzy
 msgid "Sao Tome"
 msgstr "Сан-Томе"
 
@@ -10262,7 +10214,6 @@ msgid "Tunis"
 msgstr "Тунис"
 
 #: wp-admin/includes/continents-cities.php:60
-#, fuzzy
 msgid "Windhoek"
 msgstr "Виндхук"
 
@@ -10271,17 +10222,14 @@ msgid "America"
 msgstr "Америка"
 
 #: wp-admin/includes/continents-cities.php:62
-#, fuzzy
 msgid "Adak"
 msgstr "Адак"
 
 #: wp-admin/includes/continents-cities.php:63
-#, fuzzy
 msgid "Anchorage"
 msgstr "Анкоридж"
 
 #: wp-admin/includes/continents-cities.php:64
-#, fuzzy
 msgid "Anguilla"
 msgstr "Ангилья"
 
@@ -10290,7 +10238,6 @@ msgid "Antigua"
 msgstr "Антигуа"
 
 #: wp-admin/includes/continents-cities.php:66
-#, fuzzy
 msgid "Araguaina"
 msgstr "Арагуйана"
 
@@ -10303,42 +10250,34 @@ msgid "Buenos Aires"
 msgstr "Буэнос-Айрес"
 
 #: wp-admin/includes/continents-cities.php:69
-#, fuzzy
 msgid "Catamarca"
 msgstr "Катамарка"
 
 #: wp-admin/includes/continents-cities.php:70
-#, fuzzy
 msgid "ComodRivadavia"
 msgstr "Комодоро-Ривадавия"
 
 #: wp-admin/includes/continents-cities.php:71
-#, fuzzy
 msgid "Cordoba"
 msgstr "Кордова"
 
 #: wp-admin/includes/continents-cities.php:72
-#, fuzzy
 msgid "Jujuy"
 msgstr "Жужуй"
 
 #: wp-admin/includes/continents-cities.php:73
-#, fuzzy
 msgid "La Rioja"
 msgstr "Ла-Риоха"
 
 #: wp-admin/includes/continents-cities.php:74
-#, fuzzy
 msgid "Mendoza"
 msgstr "Мендоса"
 
 #: wp-admin/includes/continents-cities.php:75
-#, fuzzy
 msgid "Rio Gallegos"
 msgstr "Рио-Гальегос"
 
 #: wp-admin/includes/continents-cities.php:76
-#, fuzzy
 msgid "San Juan"
 msgstr "Сан-Хуан"
 
@@ -10347,37 +10286,30 @@ msgid "San Luis"
 msgstr "Сан-Луис"
 
 #: wp-admin/includes/continents-cities.php:78
-#, fuzzy
 msgid "Tucuman"
 msgstr "Тукумане"
 
 #: wp-admin/includes/continents-cities.php:79
-#, fuzzy
 msgid "Ushuaia"
 msgstr "Ушуайя"
 
 #: wp-admin/includes/continents-cities.php:80
-#, fuzzy
 msgid "Aruba"
 msgstr "Аруба"
 
 #: wp-admin/includes/continents-cities.php:81
-#, fuzzy
 msgid "Asuncion"
 msgstr "Асунсьон"
 
 #: wp-admin/includes/continents-cities.php:82
-#, fuzzy
 msgid "Atikokan"
 msgstr "Атикокан"
 
 #: wp-admin/includes/continents-cities.php:83
-#, fuzzy
 msgid "Atka"
 msgstr "Атка"
 
 #: wp-admin/includes/continents-cities.php:84
-#, fuzzy
 msgid "Bahia"
 msgstr "Баия"
 
@@ -10386,32 +10318,26 @@ msgid "Barbados"
 msgstr "Барбадос"
 
 #: wp-admin/includes/continents-cities.php:86
-#, fuzzy
 msgid "Belem"
 msgstr "Белем"
 
 #: wp-admin/includes/continents-cities.php:87
-#, fuzzy
 msgid "Belize"
 msgstr "Белиз"
 
 #: wp-admin/includes/continents-cities.php:88
-#, fuzzy
 msgid "Blanc-Sablon"
 msgstr "Бланк-Саблон"
 
 #: wp-admin/includes/continents-cities.php:89
-#, fuzzy
 msgid "Boa Vista"
 msgstr "Боа-Виста"
 
 #: wp-admin/includes/continents-cities.php:90
-#, fuzzy
 msgid "Bogota"
 msgstr "Богота"
 
 #: wp-admin/includes/continents-cities.php:91
-#, fuzzy
 msgid "Boise"
 msgstr "Бойсе"
 
@@ -10420,27 +10346,22 @@ msgid "Cambridge Bay"
 msgstr "Кеймбридж-Бей"
 
 #: wp-admin/includes/continents-cities.php:93
-#, fuzzy
 msgid "Campo Grande"
 msgstr "Кампо Гранде"
 
 #: wp-admin/includes/continents-cities.php:94
-#, fuzzy
 msgid "Cancun"
 msgstr "Канкун"
 
 #: wp-admin/includes/continents-cities.php:95
-#, fuzzy
 msgid "Caracas"
 msgstr "Каракас"
 
 #: wp-admin/includes/continents-cities.php:96
-#, fuzzy
 msgid "Cayenne"
 msgstr "Кайенна"
 
 #: wp-admin/includes/continents-cities.php:97
-#, fuzzy
 msgid "Cayman"
 msgstr "Кайман"
 
@@ -10449,7 +10370,6 @@ msgid "Chicago"
 msgstr "Чикаго"
 
 #: wp-admin/includes/continents-cities.php:99
-#, fuzzy
 msgid "Chihuahua"
 msgstr "Чиуауа"
 
@@ -10462,17 +10382,14 @@ msgid "Costa Rica"
 msgstr "Коста-Рика"
 
 #: wp-admin/includes/continents-cities.php:102
-#, fuzzy
 msgid "Cuiaba"
 msgstr "Куяба"
 
 #: wp-admin/includes/continents-cities.php:103
-#, fuzzy
 msgid "Curacao"
 msgstr "Кюрасао"
 
 #: wp-admin/includes/continents-cities.php:104
-#, fuzzy
 msgid "Danmarkshavn"
 msgstr "Данмаркшавн"
 
@@ -10481,7 +10398,6 @@ msgid "Dawson"
 msgstr "Доусон"
 
 #: wp-admin/includes/continents-cities.php:106
-#, fuzzy
 msgid "Dawson Creek"
 msgstr "Бухта Доусона"
 
@@ -10502,7 +10418,6 @@ msgid "Edmonton"
 msgstr "Эдмонтон"
 
 #: wp-admin/includes/continents-cities.php:111
-#, fuzzy
 msgid "Eirunepe"
 msgstr "Эйрунепе"
 
@@ -10511,37 +10426,30 @@ msgid "El Salvador"
 msgstr "Сальвадор"
 
 #: wp-admin/includes/continents-cities.php:113
-#, fuzzy
 msgid "Ensenada"
 msgstr "Энсенада"
 
 #: wp-admin/includes/continents-cities.php:114
-#, fuzzy
 msgid "Fort Wayne"
 msgstr "Форт Уэйн"
 
 #: wp-admin/includes/continents-cities.php:115
-#, fuzzy
 msgid "Fortaleza"
 msgstr "Форталеза"
 
 #: wp-admin/includes/continents-cities.php:116
-#, fuzzy
 msgid "Glace Bay"
 msgstr "Глейс Бэй"
 
 #: wp-admin/includes/continents-cities.php:117
-#, fuzzy
 msgid "Godthab"
 msgstr "Готхоб"
 
 #: wp-admin/includes/continents-cities.php:118
-#, fuzzy
 msgid "Goose Bay"
 msgstr "Гус-Бей"
 
 #: wp-admin/includes/continents-cities.php:119
-#, fuzzy
 msgid "Grand Turk"
 msgstr "Гранд-Терк"
 
@@ -10558,17 +10466,14 @@ msgid "Guatemala"
 msgstr "Гватемала"
 
 #: wp-admin/includes/continents-cities.php:123
-#, fuzzy
 msgid "Guayaquil"
 msgstr "Гуаякиль"
 
 #: wp-admin/includes/continents-cities.php:124
-#, fuzzy
 msgid "Guyana"
 msgstr "Гайана"
 
 #: wp-admin/includes/continents-cities.php:125
-#, fuzzy
 msgid "Halifax"
 msgstr "Галифакс"
 
@@ -10577,7 +10482,6 @@ msgid "Havana"
 msgstr "Гавана"
 
 #: wp-admin/includes/continents-cities.php:127
-#, fuzzy
 msgid "Hermosillo"
 msgstr "Эрмосильо"
 
@@ -10590,12 +10494,10 @@ msgid "Indianapolis"
 msgstr "Индианаполис"
 
 #: wp-admin/includes/continents-cities.php:130
-#, fuzzy
 msgid "Knox"
 msgstr "Нокс"
 
 #: wp-admin/includes/continents-cities.php:131
-#, fuzzy
 msgid "Marengo"
 msgstr "Маренго"
 
@@ -10604,32 +10506,26 @@ msgid "Petersburg"
 msgstr "Петербург"
 
 #: wp-admin/includes/continents-cities.php:133
-#, fuzzy
 msgid "Tell City"
 msgstr "Телл Сити"
 
 #: wp-admin/includes/continents-cities.php:134
-#, fuzzy
 msgid "Vevay"
 msgstr "Вевей"
 
 #: wp-admin/includes/continents-cities.php:135
-#, fuzzy
 msgid "Vincennes"
 msgstr "Винсеннес"
 
 #: wp-admin/includes/continents-cities.php:136
-#, fuzzy
 msgid "Winamac"
 msgstr "Винамак"
 
 #: wp-admin/includes/continents-cities.php:137
-#, fuzzy
 msgid "Inuvik"
 msgstr "Инувик"
 
 #: wp-admin/includes/continents-cities.php:138
-#, fuzzy
 msgid "Iqaluit"
 msgstr "Икаилут"
 
@@ -10638,7 +10534,6 @@ msgid "Jamaica"
 msgstr "Ямайка"
 
 #: wp-admin/includes/continents-cities.php:140
-#, fuzzy
 msgid "Juneau"
 msgstr "Джуно"
 
@@ -10647,27 +10542,22 @@ msgid "Kentucky"
 msgstr "Кентукки"
 
 #: wp-admin/includes/continents-cities.php:142
-#, fuzzy
 msgid "Louisville"
 msgstr "Луисвилл"
 
 #: wp-admin/includes/continents-cities.php:143
-#, fuzzy
 msgid "Monticello"
 msgstr "Монтичелло"
 
 #: wp-admin/includes/continents-cities.php:144
-#, fuzzy
 msgid "Knox IN"
 msgstr "Нокс (Индиана)"
 
 #: wp-admin/includes/continents-cities.php:145
-#, fuzzy
 msgid "La Paz"
 msgstr "Ла-Пас"
 
 #: wp-admin/includes/continents-cities.php:146
-#, fuzzy
 msgid "Lima"
 msgstr "Лима"
 
@@ -10676,37 +10566,30 @@ msgid "Los Angeles"
 msgstr "Лос-Анджелес"
 
 #: wp-admin/includes/continents-cities.php:148
-#, fuzzy
 msgid "Maceio"
 msgstr "Масейо"
 
 #: wp-admin/includes/continents-cities.php:149
-#, fuzzy
 msgid "Managua"
 msgstr "Манагуа"
 
 #: wp-admin/includes/continents-cities.php:150
-#, fuzzy
 msgid "Manaus"
 msgstr "Манаус"
 
 #: wp-admin/includes/continents-cities.php:151
-#, fuzzy
 msgid "Marigot"
 msgstr "Маригот"
 
 #: wp-admin/includes/continents-cities.php:152
-#, fuzzy
 msgid "Martinique"
 msgstr "Мартиника"
 
 #: wp-admin/includes/continents-cities.php:153
-#, fuzzy
 msgid "Mazatlan"
 msgstr "Масатлан"
 
 #: wp-admin/includes/continents-cities.php:154
-#, fuzzy
 msgid "Menominee"
 msgstr "Меномине"
 
@@ -10719,12 +10602,10 @@ msgid "Mexico City"
 msgstr "Мехико Сити"
 
 #: wp-admin/includes/continents-cities.php:157
-#, fuzzy
 msgid "Miquelon"
 msgstr "Микелон"
 
 #: wp-admin/includes/continents-cities.php:158
-#, fuzzy
 msgid "Moncton"
 msgstr "Монктон"
 
@@ -10741,12 +10622,10 @@ msgid "Montreal"
 msgstr "Монреаль"
 
 #: wp-admin/includes/continents-cities.php:162
-#, fuzzy
 msgid "Montserrat"
 msgstr "Монсеррат"
 
 #: wp-admin/includes/continents-cities.php:163
-#, fuzzy
 msgid "Nassau"
 msgstr "Нассау"
 
@@ -10755,17 +10634,14 @@ msgid "New York"
 msgstr "Нью Йорк"
 
 #: wp-admin/includes/continents-cities.php:165
-#, fuzzy
 msgid "Nipigon"
 msgstr "Нипигон"
 
 #: wp-admin/includes/continents-cities.php:166
-#, fuzzy
 msgid "Nome"
 msgstr "Ном"
 
 #: wp-admin/includes/continents-cities.php:167
-#, fuzzy
 msgid "Noronha"
 msgstr "Норонха"
 
@@ -10791,12 +10667,10 @@ msgid "Panama"
 msgstr "Панама"
 
 #: wp-admin/includes/continents-cities.php:172
-#, fuzzy
 msgid "Pangnirtung"
 msgstr "Пангниртунг"
 
 #: wp-admin/includes/continents-cities.php:173
-#, fuzzy
 msgid "Paramaribo"
 msgstr "Парамарибо"
 
@@ -10805,22 +10679,18 @@ msgid "Phoenix"
 msgstr "Феникс"
 
 #: wp-admin/includes/continents-cities.php:175
-#, fuzzy
 msgid "Port-au-Prince"
 msgstr "Порт-о-Пренс"
 
 #: wp-admin/includes/continents-cities.php:176
-#, fuzzy
 msgid "Port of Spain"
 msgstr "Порт-оф-Спейн"
 
 #: wp-admin/includes/continents-cities.php:177
-#, fuzzy
 msgid "Porto Acre"
 msgstr "Порту-Акри"
 
 #: wp-admin/includes/continents-cities.php:178
-#, fuzzy
 msgid "Porto Velho"
 msgstr "Порту-Велью"
 
@@ -10829,37 +10699,30 @@ msgid "Puerto Rico"
 msgstr "Пуэрто-Рико"
 
 #: wp-admin/includes/continents-cities.php:180
-#, fuzzy
 msgid "Rainy River"
 msgstr "Рейни-Ривер"
 
 #: wp-admin/includes/continents-cities.php:181
-#, fuzzy
 msgid "Rankin Inlet"
 msgstr "Ранкин-Инлет"
 
 #: wp-admin/includes/continents-cities.php:182
-#, fuzzy
 msgid "Recife"
 msgstr "Ресифи"
 
 #: wp-admin/includes/continents-cities.php:183
-#, fuzzy
 msgid "Regina"
 msgstr "Риджайна"
 
 #: wp-admin/includes/continents-cities.php:184
-#, fuzzy
 msgid "Resolute"
 msgstr "Резольют"
 
 #: wp-admin/includes/continents-cities.php:185
-#, fuzzy
 msgid "Rio Branco"
 msgstr "Рио-Бранко"
 
 #: wp-admin/includes/continents-cities.php:186
-#, fuzzy
 msgid "Rosario"
 msgstr "Росарио"
 
@@ -10868,7 +10731,6 @@ msgid "Santiago"
 msgstr "Сантьяго"
 
 #: wp-admin/includes/continents-cities.php:188
-#, fuzzy
 msgid "Santo Domingo"
 msgstr "Санто Доминго"
 
@@ -10877,52 +10739,42 @@ msgid "Sao Paulo"
 msgstr "Сан-Паулу"
 
 #: wp-admin/includes/continents-cities.php:190
-#, fuzzy
 msgid "Scoresbysund"
 msgstr "Скорсби"
 
 #: wp-admin/includes/continents-cities.php:191
-#, fuzzy
 msgid "Shiprock"
 msgstr "Шипрок"
 
 #: wp-admin/includes/continents-cities.php:192
-#, fuzzy
 msgid "St Barthelemy"
 msgstr "Сент-Бартелеми"
 
 #: wp-admin/includes/continents-cities.php:193
-#, fuzzy
 msgid "St Johns"
 msgstr "Сент-Джонс"
 
 #: wp-admin/includes/continents-cities.php:194
-#, fuzzy
 msgid "St Kitts"
 msgstr "Сент-Китс"
 
 #: wp-admin/includes/continents-cities.php:195
-#, fuzzy
 msgid "St Lucia"
-msgstr "Сент-Люсия"
+msgstr "Санта-Люция"
 
 #: wp-admin/includes/continents-cities.php:196
-#, fuzzy
 msgid "St Thomas"
-msgstr "Санкт-Томас"
+msgstr "Сент-Томас"
 
 #: wp-admin/includes/continents-cities.php:197
-#, fuzzy
 msgid "St Vincent"
 msgstr "Сент-Винсент"
 
 #: wp-admin/includes/continents-cities.php:198
-#, fuzzy
 msgid "Swift Current"
 msgstr "Свифт-Каррент"
 
 #: wp-admin/includes/continents-cities.php:199
-#, fuzzy
 msgid "Tegucigalpa"
 msgstr "Тегусигальпа"
 
@@ -10943,7 +10795,6 @@ msgid "Toronto"
 msgstr "Торонто"
 
 #: wp-admin/includes/continents-cities.php:204
-#, fuzzy
 msgid "Tortola"
 msgstr "Тортола"
 
@@ -10952,27 +10803,22 @@ msgid "Vancouver"
 msgstr "Ванкувер"
 
 #: wp-admin/includes/continents-cities.php:206
-#, fuzzy
 msgid "Virgin"
 msgstr "Вирджин"
 
 #: wp-admin/includes/continents-cities.php:207
-#, fuzzy
 msgid "Whitehorse"
 msgstr "Уайтхорс"
 
 #: wp-admin/includes/continents-cities.php:208
-#, fuzzy
 msgid "Winnipeg"
 msgstr "Виннипег"
 
 #: wp-admin/includes/continents-cities.php:209
-#, fuzzy
 msgid "Yakutat"
 msgstr "Якутат"
 
 #: wp-admin/includes/continents-cities.php:210
-#, fuzzy
 msgid "Yellowknife"
 msgstr "Йеллоунайф"
 
@@ -10981,37 +10827,30 @@ msgid "Antarctica"
 msgstr "Антарктика"
 
 #: wp-admin/includes/continents-cities.php:212
-#, fuzzy
 msgid "Casey"
 msgstr "Кейси"
 
 #: wp-admin/includes/continents-cities.php:213
-#, fuzzy
 msgid "Davis"
 msgstr "Дэвис"
 
 #: wp-admin/includes/continents-cities.php:214
-#, fuzzy
 msgid "DumontDUrville"
 msgstr "Дюмон-Дюрвиль"
 
 #: wp-admin/includes/continents-cities.php:215
-#, fuzzy
 msgid "Mawson"
 msgstr "Моусон"
 
 #: wp-admin/includes/continents-cities.php:216
-#, fuzzy
 msgid "McMurdo"
 msgstr "Мак-Мердо"
 
 #: wp-admin/includes/continents-cities.php:217
-#, fuzzy
 msgid "Palmer"
 msgstr "Палмер"
 
 #: wp-admin/includes/continents-cities.php:218
-#, fuzzy
 msgid "Rothera"
 msgstr "Ротера"
 
@@ -11020,7 +10859,6 @@ msgid "South Pole"
 msgstr "Южный полюс"
 
 #: wp-admin/includes/continents-cities.php:220
-#, fuzzy
 msgid "Syowa"
 msgstr "Сиова"
 
@@ -11033,7 +10871,6 @@ msgid "Arctic"
 msgstr "Арктика"
 
 #: wp-admin/includes/continents-cities.php:223
-#, fuzzy
 msgid "Longyearbyen"
 msgstr "Лонгйир"
 
@@ -11050,7 +10887,6 @@ msgid "Almaty"
 msgstr "Алма-Ата"
 
 #: wp-admin/includes/continents-cities.php:227
-#, fuzzy
 msgid "Amman"
 msgstr "Амман"
 
@@ -11059,12 +10895,10 @@ msgid "Anadyr"
 msgstr "Анадырь"
 
 #: wp-admin/includes/continents-cities.php:229
-#, fuzzy
 msgid "Aqtau"
 msgstr "Актау"
 
 #: wp-admin/includes/continents-cities.php:230
-#, fuzzy
 msgid "Aqtobe"
 msgstr "Актобе"
 
@@ -11109,27 +10943,22 @@ msgid "Calcutta"
 msgstr "Калькутта"
 
 #: wp-admin/includes/continents-cities.php:241
-#, fuzzy
 msgid "Choibalsan"
-msgstr "Choibalsan"
+msgstr "Чойбалсан"
 
 #: wp-admin/includes/continents-cities.php:242
-#, fuzzy
 msgid "Chongqing"
 msgstr "Чунцин"
 
 #: wp-admin/includes/continents-cities.php:243
-#, fuzzy
 msgid "Chungking"
 msgstr "Чунцин"
 
 #: wp-admin/includes/continents-cities.php:244
-#, fuzzy
 msgid "Colombo"
 msgstr "Коломбо"
 
 #: wp-admin/includes/continents-cities.php:245
-#, fuzzy
 msgid "Dacca"
 msgstr "Дакка"
 
@@ -11138,7 +10967,6 @@ msgid "Damascus"
 msgstr "Дамаск"
 
 #: wp-admin/includes/continents-cities.php:247
-#, fuzzy
 msgid "Dhaka"
 msgstr "Дакка"
 
@@ -11151,7 +10979,6 @@ msgid "Dubai"
 msgstr "Дубай"
 
 #: wp-admin/includes/continents-cities.php:250
-#, fuzzy
 msgid "Dushanbe"
 msgstr "Душанбе"
 
@@ -11172,7 +10999,6 @@ msgid "Hong Kong"
 msgstr "Гонконг"
 
 #: wp-admin/includes/continents-cities.php:255
-#, fuzzy
 msgid "Hovd"
 msgstr "Ховд"
 
@@ -11189,7 +11015,6 @@ msgid "Jakarta"
 msgstr "Джакарта"
 
 #: wp-admin/includes/continents-cities.php:259
-#, fuzzy
 msgid "Jayapura"
 msgstr "Джаяпура"
 
@@ -11226,12 +11051,10 @@ msgid "Krasnoyarsk"
 msgstr "Красноярск"
 
 #: wp-admin/includes/continents-cities.php:268
-#, fuzzy
 msgid "Kuala Lumpur"
 msgstr "Куала-Лумпур"
 
 #: wp-admin/includes/continents-cities.php:269
-#, fuzzy
 msgid "Kuching"
 msgstr "Кучинг"
 
@@ -11252,7 +11075,6 @@ msgid "Magadan"
 msgstr "Магадан"
 
 #: wp-admin/includes/continents-cities.php:274
-#, fuzzy
 msgid "Makassar"
 msgstr "Макассар"
 
@@ -11265,7 +11087,6 @@ msgid "Muscat"
 msgstr "Маскат"
 
 #: wp-admin/includes/continents-cities.php:277
-#, fuzzy
 msgid "Nicosia"
 msgstr "Никосия"
 
@@ -11282,12 +11103,10 @@ msgid "Oral"
 msgstr "Орал"
 
 #: wp-admin/includes/continents-cities.php:281
-#, fuzzy
 msgid "Phnom Penh"
 msgstr "Пномпень"
 
 #: wp-admin/includes/continents-cities.php:282
-#, fuzzy
 msgid "Pontianak"
 msgstr "Понтианаке"
 
@@ -11304,12 +11123,10 @@ msgid "Qyzylorda"
 msgstr "Кызыл-Орда"
 
 #: wp-admin/includes/continents-cities.php:286
-#, fuzzy
 msgid "Rangoon"
 msgstr "Янгон"
 
 #: wp-admin/includes/continents-cities.php:287
-#, fuzzy
 msgid "Riyadh"
 msgstr "Эр-Рияд"
 
@@ -11338,7 +11155,6 @@ msgid "Singapore"
 msgstr "Сингапур"
 
 #: wp-admin/includes/continents-cities.php:294
-#, fuzzy
 msgid "Taipei"
 msgstr "Тайбэй"
 
@@ -11351,7 +11167,6 @@ msgid "Tbilisi"
 msgstr "Тбилиси"
 
 #: wp-admin/includes/continents-cities.php:297
-#, fuzzy
 msgid "Tehran"
 msgstr "Тегеран"
 
@@ -11360,12 +11175,10 @@ msgid "Tel Aviv"
 msgstr "Тель-Авив"
 
 #: wp-admin/includes/continents-cities.php:299
-#, fuzzy
 msgid "Thimbu"
-msgstr "Тхимпху"
+msgstr "Тхимбу"
 
 #: wp-admin/includes/continents-cities.php:300
-#, fuzzy
 msgid "Thimphu"
 msgstr "Тхимпху"
 
@@ -11374,7 +11187,6 @@ msgid "Tokyo"
 msgstr "Токио"
 
 #: wp-admin/includes/continents-cities.php:302
-#, fuzzy
 msgid "Ujung Pandang"
 msgstr "Уджунг Панданга"
 
@@ -11387,12 +11199,10 @@ msgid "Ulan Bator"
 msgstr "Улан Батор"
 
 #: wp-admin/includes/continents-cities.php:305
-#, fuzzy
 msgid "Urumqi"
 msgstr "Урумчи"
 
 #: wp-admin/includes/continents-cities.php:306
-#, fuzzy
 msgid "Vientiane"
 msgstr "Вьентьян"
 
@@ -11429,7 +11239,6 @@ msgid "Canary"
 msgstr "Канарские острова"
 
 #: wp-admin/includes/continents-cities.php:315
-#, fuzzy
 msgid "Cape Verde"
 msgstr "Кабо-Верде"
 
@@ -11442,12 +11251,10 @@ msgid "Faroe"
 msgstr "Фарерские острова"
 
 #: wp-admin/includes/continents-cities.php:318
-#, fuzzy
 msgid "Jan Mayen"
 msgstr "Ян-Марен"
 
 #: wp-admin/includes/continents-cities.php:319
-#, fuzzy
 msgid "Madeira"
 msgstr "Мадейра"
 
@@ -11464,7 +11271,6 @@ msgid "St Helena"
 msgstr "Остров Св. Елены"
 
 #: wp-admin/includes/continents-cities.php:323
-#, fuzzy
 msgid "Stanley"
 msgstr "Стэнли"
 
@@ -11482,12 +11288,10 @@ msgid "Adelaide"
 msgstr "Аделаида"
 
 #: wp-admin/includes/continents-cities.php:327
-#, fuzzy
 msgid "Brisbane"
 msgstr "Брисбен"
 
 #: wp-admin/includes/continents-cities.php:328
-#, fuzzy
 msgid "Broken Hill"
 msgstr "Броукен-Хил"
 
@@ -11496,22 +11300,18 @@ msgid "Canberra"
 msgstr "Канберра"
 
 #: wp-admin/includes/continents-cities.php:330
-#, fuzzy
 msgid "Currie"
 msgstr "Карри"
 
 #: wp-admin/includes/continents-cities.php:331
-#, fuzzy
 msgid "Darwin"
 msgstr "Дарвин"
 
 #: wp-admin/includes/continents-cities.php:332
-#, fuzzy
 msgid "Eucla"
 msgstr "Эукла"
 
 #: wp-admin/includes/continents-cities.php:333
-#, fuzzy
 msgid "Hobart"
 msgstr "Хобарт"
 
@@ -11521,12 +11321,10 @@ msgid "LHI"
 msgstr "LHI"
 
 #: wp-admin/includes/continents-cities.php:335
-#, fuzzy
 msgid "Lindeman"
 msgstr "Линдеман"
 
 #: wp-admin/includes/continents-cities.php:336
-#, fuzzy
 msgid "Lord Howe"
 msgstr "Лорд-Хау"
 
@@ -11544,7 +11342,6 @@ msgid "NSW"
 msgstr "NSW"
 
 #: wp-admin/includes/continents-cities.php:340
-#, fuzzy
 msgid "Perth"
 msgstr "Перт"
 
@@ -11573,7 +11370,6 @@ msgid "West"
 msgstr "Запад"
 
 #: wp-admin/includes/continents-cities.php:347
-#, fuzzy
 msgid "Yancowinna"
 msgstr "Янковинна"
 
@@ -11719,7 +11515,6 @@ msgid "UTC"
 msgstr "UTC"
 
 #: wp-admin/includes/continents-cities.php:383
-#, fuzzy
 msgid "Zulu"
 msgstr "Зулу"
 
@@ -11784,7 +11579,6 @@ msgid "Gibraltar"
 msgstr "Гибралтар"
 
 #: wp-admin/includes/continents-cities.php:399
-#, fuzzy
 msgid "Guernsey"
 msgstr "Гернси"
 
@@ -11833,7 +11627,6 @@ msgid "Malta"
 msgstr "Мальта"
 
 #: wp-admin/includes/continents-cities.php:411
-#, fuzzy
 msgid "Mariehamn"
 msgstr "Мариехамн"
 
@@ -11890,7 +11683,6 @@ msgid "Simferopol"
 msgstr "Симферопль"
 
 #: wp-admin/includes/continents-cities.php:425
-#, fuzzy
 msgid "Skopje"
 msgstr "Скопье"
 
@@ -11907,7 +11699,6 @@ msgid "Tallinn"
 msgstr "Таллин"
 
 #: wp-admin/includes/continents-cities.php:429
-#, fuzzy
 msgid "Tirane"
 msgstr "Тирана"
 
@@ -11920,7 +11711,6 @@ msgid "Uzhgorod"
 msgstr "Ужгород"
 
 #: wp-admin/includes/continents-cities.php:432
-#, fuzzy
 msgid "Vaduz"
 msgstr "Вадуц"
 
@@ -11957,22 +11747,18 @@ msgid "Zurich"
 msgstr "Цюрих"
 
 #: wp-admin/includes/continents-cities.php:441
-#, fuzzy
 msgid "Indian"
 msgstr "Индиан"
 
 #: wp-admin/includes/continents-cities.php:442
-#, fuzzy
 msgid "Antananarivo"
 msgstr "Антананариву"
 
 #: wp-admin/includes/continents-cities.php:443
-#, fuzzy
 msgid "Chagos"
 msgstr "Чагос"
 
 #: wp-admin/includes/continents-cities.php:444
-#, fuzzy
 msgid "Christmas"
 msgstr "Остров Рождества"
 
@@ -11985,12 +11771,10 @@ msgid "Comoro"
 msgstr "Коморские острова"
 
 #: wp-admin/includes/continents-cities.php:447
-#, fuzzy
 msgid "Kerguelen"
 msgstr "Кергелен"
 
 #: wp-admin/includes/continents-cities.php:448
-#, fuzzy
 msgid "Mahe"
 msgstr "Маэ"
 
@@ -12003,7 +11787,6 @@ msgid "Mauritius"
 msgstr "Маврикий"
 
 #: wp-admin/includes/continents-cities.php:451
-#, fuzzy
 msgid "Mayotte"
 msgstr "Майотта"
 
@@ -12016,17 +11799,14 @@ msgid "Pacific"
 msgstr "Тихий Океан"
 
 #: wp-admin/includes/continents-cities.php:454
-#, fuzzy
 msgid "Apia"
 msgstr "Апия"
 
 #: wp-admin/includes/continents-cities.php:455
-#, fuzzy
 msgid "Auckland"
 msgstr "Окленд"
 
 #: wp-admin/includes/continents-cities.php:456
-#, fuzzy
 msgid "Chatham"
 msgstr "Чатэм"
 
@@ -12035,17 +11815,14 @@ msgid "Easter"
 msgstr "Остров Пасхи"
 
 #: wp-admin/includes/continents-cities.php:458
-#, fuzzy
 msgid "Efate"
 msgstr "Эфате"
 
 #: wp-admin/includes/continents-cities.php:459
-#, fuzzy
 msgid "Enderbury"
 msgstr "Эндербери"
 
 #: wp-admin/includes/continents-cities.php:460
-#, fuzzy
 msgid "Fakaofo"
 msgstr "Факаофо"
 
@@ -12054,7 +11831,6 @@ msgid "Fiji"
 msgstr "Фиджи"
 
 #: wp-admin/includes/continents-cities.php:462
-#, fuzzy
 msgid "Funafuti"
 msgstr "Фунафути"
 
@@ -12063,17 +11839,14 @@ msgid "Galapagos"
 msgstr "Галапагос"
 
 #: wp-admin/includes/continents-cities.php:464
-#, fuzzy
 msgid "Gambier"
 msgstr "Остров Гамбье"
 
 #: wp-admin/includes/continents-cities.php:465
-#, fuzzy
 msgid "Guadalcanal"
 msgstr "Гуадалканал"
 
 #: wp-admin/includes/continents-cities.php:466
-#, fuzzy
 msgid "Guam"
 msgstr "Гуам"
 
@@ -12086,22 +11859,18 @@ msgid "Johnston"
 msgstr "Джонстон"
 
 #: wp-admin/includes/continents-cities.php:469
-#, fuzzy
 msgid "Kiritimati"
 msgstr "Киритимати"
 
 #: wp-admin/includes/continents-cities.php:470
-#, fuzzy
 msgid "Kosrae"
 msgstr "Кусаие"
 
 #: wp-admin/includes/continents-cities.php:471
-#, fuzzy
 msgid "Kwajalein"
 msgstr "Кваджалейн"
 
 #: wp-admin/includes/continents-cities.php:472
-#, fuzzy
 msgid "Majuro"
 msgstr "Маджуро"
 
@@ -12110,17 +11879,14 @@ msgid "Marquesas"
 msgstr "Маркизские острова"
 
 #: wp-admin/includes/continents-cities.php:474
-#, fuzzy
 msgid "Midway"
 msgstr "Миндуэй"
 
 #: wp-admin/includes/continents-cities.php:475
-#, fuzzy
 msgid "Nauru"
 msgstr "Науру"
 
 #: wp-admin/includes/continents-cities.php:476
-#, fuzzy
 msgid "Niue"
 msgstr "Ниуэ"
 
@@ -12129,42 +11895,34 @@ msgid "Norfolk"
 msgstr "Норфолк"
 
 #: wp-admin/includes/continents-cities.php:478
-#, fuzzy
 msgid "Noumea"
 msgstr "Нумеа"
 
 #: wp-admin/includes/continents-cities.php:479
-#, fuzzy
 msgid "Pago Pago"
 msgstr "Паго-Паго"
 
 #: wp-admin/includes/continents-cities.php:480
-#, fuzzy
 msgid "Palau"
 msgstr "Палау"
 
 #: wp-admin/includes/continents-cities.php:481
-#, fuzzy
 msgid "Pitcairn"
 msgstr "Питкэрн"
 
 #: wp-admin/includes/continents-cities.php:482
-#, fuzzy
 msgid "Ponape"
 msgstr "Понапе"
 
 #: wp-admin/includes/continents-cities.php:483
-#, fuzzy
 msgid "Port Moresby"
 msgstr "Порт-Морсби"
 
 #: wp-admin/includes/continents-cities.php:484
-#, fuzzy
 msgid "Rarotonga"
 msgstr "Раротонга"
 
 #: wp-admin/includes/continents-cities.php:485
-#, fuzzy
 msgid "Saipan"
 msgstr "Сайпан"
 
@@ -12173,27 +11931,22 @@ msgid "Samoa"
 msgstr "Самоа"
 
 #: wp-admin/includes/continents-cities.php:487
-#, fuzzy
 msgid "Tahiti"
 msgstr "Таити"
 
 #: wp-admin/includes/continents-cities.php:488
-#, fuzzy
 msgid "Tarawa"
 msgstr "Тарава"
 
 #: wp-admin/includes/continents-cities.php:489
-#, fuzzy
 msgid "Tongatapu"
 msgstr "Тонгатапу"
 
 #: wp-admin/includes/continents-cities.php:490
-#, fuzzy
 msgid "Truk"
 msgstr "Трук"
 
 #: wp-admin/includes/continents-cities.php:491
-#, fuzzy
 msgid "Wake"
 msgstr "Уэйк"
 
@@ -12202,7 +11955,6 @@ msgid "Wallis"
 msgstr "Уоллис"
 
 #: wp-admin/includes/continents-cities.php:493
-#, fuzzy
 msgid "Yap"
 msgstr "Яп"
 
@@ -16425,7 +16177,6 @@ msgid "The upgrade process may take a little while, so please be patient."
 msgstr "Процесс обновления может занять некоторое время. Пожалуйста, наберитесь терпения."
 
 #: wp-admin/upgrade.php:68
-#, fuzzy
 msgid "Upgrade WordPress Database"
 msgstr "Обновить базу данных WordPress"
 
@@ -16455,28 +16206,28 @@ msgstr[1] "Изображения (%s)"
 msgstr[2] "Изображения (%s)"
 
 #: wp-admin/upload.php:124
-#, fuzzy, php-format
+#, php-format
 msgid "Audio (%s)"
 msgid_plural "Audio (%s)"
 msgstr[0] "Аудио (%s)"
-msgstr[1] "Аудио"
-msgstr[2] "Аудио"
+msgstr[1] "Аудио (%s)"
+msgstr[2] "Аудио (%s)"
 
 #: wp-admin/upload.php:125
-#, fuzzy, php-format
+#, php-format
 msgid "Video (%s)"
 msgid_plural "Video (%s)"
 msgstr[0] "Видео (%s)"
-msgstr[1] "Видео"
-msgstr[2] "Видео"
+msgstr[1] "Видео (%s)"
+msgstr[2] "Видео (%s)"
 
 #: wp-admin/upload.php:149
-#, fuzzy, php-format
+#, php-format
 msgid "Reattached %d attachment"
 msgid_plural "Reattached %d attachments"
 msgstr[0] "Заново прикреплено %d вложение"
-msgstr[1] "Картинки и вложения"
-msgstr[2] "Картинки и вложения"
+msgstr[1] "Заново прикреплено %d вложения"
+msgstr[2] "Заново прикреплено %d вложений"
 
 #: wp-admin/upload.php:154
 msgid "Media deleted."
@@ -16807,7 +16558,6 @@ msgstr "Индикатор надёжности"
 
 #: wp-admin/user-edit.php:422
 #: wp-admin/user-new.php:126
-#, fuzzy
 msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
 msgstr "Подсказка: Пароль должен состоять как минимум из семи символов. Чтобы сделать его надёжнее, используйте буквы верхнего и нижнего регистра, числа и символы наподобие ! \" ? $ % ^ &amp; )."
 
@@ -17114,12 +16864,12 @@ msgstr[1] "Вы используете %1$s виджета в боковой к�
 msgstr[2] "Вы используете %1$s виджетов в боковой колонке \"%2$s\"."
 
 #: wp-admin/widgets-posts.php:209
-#, fuzzy, php-format
+#, php-format
 msgid "You are using %1$s widget in the sidebar."
 msgid_plural "You are using %1$s widgets in the sidebar."
 msgstr[0] "Вы используете %1$s виджет в боковой колонке."
-msgstr[1] "Воспользуйтесь формой поиска в боковой колонке."
-msgstr[2] "Воспользуйтесь формой поиска в боковой колонке."
+msgstr[1] "Вы используете %1$s виджета в боковой колонке."
+msgstr[2] "Вы используете %1$s виджетов в боковой колонке."
 
 #: wp-admin/widgets-posts.php:231
 msgid "Show any widgets"
@@ -17612,9 +17362,8 @@ msgid "Music"
 msgstr "Музыка"
 
 #: wp-admin/wpmu-options.php:134
-#, fuzzy
 msgid "The media upload buttons to display on the \"Write Post\" page. Make sure you update the \"Upload File Types\" below as well."
-msgstr "Кнопки для загрузки медиафайлов, отображаемые на странице &laquo;Создание записи&raquo;. Обновите также список типов загружаемых файлов ниже."
+msgstr "Кнопки для загрузки медиафайлов, отображаемые на странице \"Создание записи\". Убедитесь, что обновиле еще и \"Типы загружаемых файлов\" ниже."
 
 #: wp-admin/wpmu-options.php:137
 msgid "Blog upload space"
@@ -17905,9 +17654,8 @@ msgid "You are not a member of this blog."
 msgstr "Вы не участник этого блога."
 
 #: wp-content/admin-plugins/blog-stats.php:124
-#, fuzzy
 msgid "If you have just installed the WordPress.com Stats plugin, this error probably appeared because the API key entered in the plugin belongs to a different WordPress.com user account."
-msgstr "Если вы только что установили плагин Automattic Stats, данная ошибка может быть вызвана неверно введенным ключом API (относящимся к другому пользователю)."
+msgstr "Если вы только что установили плагин Automattic Stats, эта ошибка может быть вызвана неверно введенным ключом API (относящимся к другому пользователю)."
 
 #: wp-content/admin-plugins/blog-stats.php:125
 msgid "The owner of the API key must visit this blog's stats page to grant access."
@@ -18784,9 +18532,8 @@ msgid "Register Another Blog &raquo;"
 msgstr "Завести другой блог &raquo;"
 
 #: wp-content/admin-plugins/my-blogs.php:334
-#, fuzzy
 msgid "Linked Blogs"
-msgstr "Блоги в Blogger"
+msgstr "Связанные блоги"
 
 #: wp-content/admin-plugins/my-blogs.php:370
 #: wp-content/admin-plugins/my-blogs.php:479
@@ -19297,12 +19044,12 @@ msgid "Help us make WordPress.com better.  Take our <a %s>30 second survey</a>."
 msgstr "Помогите нам сделать WordPress.com лучше. Пройдите на нашу <a %s>небольшую экскурсию</a>."
 
 #: wp-content/admin-plugins/survey/admin.php:347
-#, fuzzy, php-format
+#, php-format
 msgid "1 person"
 msgid_plural "%s people"
 msgstr[0] "%s человек"
-msgstr[1] "Версия"
-msgstr[2] "Версия"
+msgstr[1] "%s человека"
+msgstr[2] "%s человек"
 
 #: wp-content/admin-plugins/survey/data.php:9
 #: wp-content/admin-plugins/survey/old/ad1.php:9
@@ -19568,7 +19315,6 @@ msgid "(no spaces)"
 msgstr "(нет места)"
 
 #: wp-content/admin-plugins/wapi.php:661
-#, fuzzy
 msgid "space,"
 msgstr "пробел,"
 
@@ -19958,7 +19704,7 @@ msgstr "Сообщить о спаме"
 
 #: wp-content/mu-plugins/admin-bar.php:345
 msgid "Report as mature"
-msgstr "Сообщить о взрослом содержании"
+msgstr "Сообщить о непристойном содержании"
 
 #: wp-content/mu-plugins/akismet.php:274
 #, php-format
@@ -22117,7 +21863,7 @@ msgstr "&laquo; Старые записи"
 #: wp-content/themes/pub/springloaded/index.php:30
 #: wp-content/themes/pub/springloaded/search.php:29
 msgid "Newer Entries &raquo;"
-msgstr "Новые заметки &raquo;"
+msgstr "Новые записи &raquo;"
 
 #: wp-content/themes/default/archive.php:32
 #: wp-content/themes/default/index.php:11
