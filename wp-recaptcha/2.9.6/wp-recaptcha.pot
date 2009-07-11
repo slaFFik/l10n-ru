@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-reCAPTCHA 2.9.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-11 09:38+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: recaptchalib.php:106
+#: recaptchalib.php:163
+msgid "To use reCAPTCHA you must get an API key from <a href='http://recaptcha.net/api/getkey'>http://recaptcha.net/api/getkey</a>"
+msgstr ""
+
+#: recaptchalib.php:167
+msgid "For security reasons, you must pass the remote ip to reCAPTCHA"
+msgstr ""
+
+#: recaptchalib.php:221
+msgid "To use reCAPTCHA Mailhide, you need to have the mcrypt php module installed."
+msgstr ""
+
+#: recaptchalib.php:237
+msgid "To use reCAPTCHA Mailhide, you have to sign up for a public and private key, "
+msgstr ""
+
+#: recaptchalib.php:238
+msgid "you can do so at <a href='http://mailhide.recaptcha.net/apikey'>http://mailhide.recaptcha.net/apikey</a>"
+msgstr ""
+
+#: recaptchalib.php:277
+#: wp-recaptcha.php:846
+msgid "Reveal this e-mail address"
+msgstr ""
+
+#: wp-recaptcha.php:282
+#: wp-recaptcha.php:641
+msgid "<strong>ERROR</strong>: Please fill in the reCAPTCHA form."
+msgstr ""
+
+#: wp-recaptcha.php:283
+#: wp-recaptcha.php:642
+msgid "<strong>ERROR</strong>: That reCAPTCHA response was incorrect."
+msgstr ""
+
+#: wp-recaptcha.php:288
+msgid "reCAPTCHA Default Options"
+msgstr ""
+
+#: wp-recaptcha.php:646
+#: wp-recaptcha.php:723
+msgid "reCAPTCHA Options"
+msgstr ""
+
+#: wp-recaptcha.php:703
+msgid "All registered users"
+msgstr ""
+
+#: wp-recaptcha.php:704
+msgid "Edit posts"
+msgstr ""
+
+#: wp-recaptcha.php:705
+msgid "Publish Posts"
+msgstr ""
+
+#: wp-recaptcha.php:706
+msgid "Moderate Comments"
+msgstr ""
+
+#: wp-recaptcha.php:707
+msgid "Administer site"
+msgstr ""
+
+#: wp-recaptcha.php:724
+msgid "About reCAPTCHA"
+msgstr ""
+
+#: wp-recaptcha.php:725
+msgid "reCAPTCHA is a free, accessible CAPTCHA service that helps to digitize books while blocking spam on your blog."
+msgstr ""
+
+#: wp-recaptcha.php:727
+msgid "reCAPTCHA asks commenters to retype two words scanned from a book to prove that they are a human. This verifies that they are not a spambot while also correcting the automatic scans of old books. So you get less spam, and the world gets accurately digitized books. Everybody wins! For details, visit the <a href=\"http://recaptcha.net/\">reCAPTCHA website</a>."
+msgstr ""
+
+#: wp-recaptcha.php:728
+msgid "<strong>NOTE</strong>: If you are using some form of Cache plugin you will probably need to flush/clear your cache for changes to take effect."
+msgstr ""
+
+#: wp-recaptcha.php:732
+#: wp-recaptcha.php:901
+msgid "Update Options"
+msgstr ""
+
+#: wp-recaptcha.php:738
+msgid "reCAPTCHA Keys"
+msgstr ""
+
+#: wp-recaptcha.php:740
+msgid "reCAPTCHA requires an API key, consisting of a \"public\" and a \"private\" key."
+msgstr ""
+
+#: wp-recaptcha.php:740
+msgid "You can sign up for a"
+msgstr ""
+
+#: wp-recaptcha.php:740
+msgid "free reCAPTCHA key"
+msgstr ""
+
+#: wp-recaptcha.php:744
+#: wp-recaptcha.php:860
+msgid "Public Key:"
+msgstr ""
+
+#: wp-recaptcha.php:748
+#: wp-recaptcha.php:864
+msgid "Private Key:"
+msgstr ""
+
+#: wp-recaptcha.php:754
+msgid "Comment Options"
+msgstr ""
+
+#: wp-recaptcha.php:757
+msgid "Enable reCAPTCHA for comments."
+msgstr ""
+
+#: wp-recaptcha.php:762
+msgid "Hide reCAPTCHA for <strong>registered</strong> users who can:"
+msgstr ""
+
+#: wp-recaptcha.php:768
+#: wp-recaptcha.php:791
+msgid "Theme:"
+msgstr ""
+
+#: wp-recaptcha.php:770
+#: wp-recaptcha.php:793
+msgid "Red"
+msgstr ""
+
+#: wp-recaptcha.php:771
+#: wp-recaptcha.php:794
+msgid "White"
+msgstr ""
+
+#: wp-recaptcha.php:772
+#: wp-recaptcha.php:795
+msgid "Black Glass"
+msgstr ""
+
+#: wp-recaptcha.php:773
+#: wp-recaptcha.php:796
+msgid "Clean"
+msgstr ""
+
+#: wp-recaptcha.php:777
+msgid "Tab Index (<em>e.g. WP: <strong>5</strong>, WPMU: <strong>3</strong></em>):"
+msgstr ""
+
+#: wp-recaptcha.php:784
+msgid "Registration Options"
+msgstr ""
+
+#: wp-recaptcha.php:787
+msgid "Enable reCAPTCHA on registration form."
+msgstr ""
+
+#: wp-recaptcha.php:803
+msgid "Error Messages"
+msgstr ""
+
+#: wp-recaptcha.php:805
+msgid "The following are the messages to display when the user does not enter a CAPTCHA response or enters the incorrect CAPTCHA response."
+msgstr ""
+
+#: wp-recaptcha.php:809
+msgid "No response entered:"
+msgstr ""
+
+#: wp-recaptcha.php:813
+msgid "Incorrect response entered:"
+msgstr ""
+
+#: wp-recaptcha.php:820
+msgid "General Settings"
+msgstr ""
+
+#: wp-recaptcha.php:824
+msgid "Language:"
+msgstr ""
+
+#: wp-recaptcha.php:826
+msgid "English"
+msgstr ""
+
+#: wp-recaptcha.php:827
+msgid "Dutch"
+msgstr ""
+
+#: wp-recaptcha.php:828
+msgid "French"
+msgstr ""
+
+#: wp-recaptcha.php:829
+msgid "German"
+msgstr ""
+
+#: wp-recaptcha.php:830
+msgid "Portuguese"
+msgstr ""
+
+#: wp-recaptcha.php:831
+msgid "Russian"
+msgstr ""
+
+#: wp-recaptcha.php:832
+msgid "Spanish"
+msgstr ""
+
+#: wp-recaptcha.php:833
+msgid "Turkish"
+msgstr ""
+
+#: wp-recaptcha.php:838
+msgid "Be XHTML 1.0 Strict compliant. <strong>Note</strong>: Bad for users who don't have Javascript enabled in their browser (Majority do)."
+msgstr ""
+
+#: wp-recaptcha.php:844
+msgid "About MailHide"
+msgstr ""
+
+#: wp-recaptcha.php:845
+msgid "uses reCAPTCHA to protect email adresses displayed on your blog from being harvested for spam."
+msgstr ""
+
+#: wp-recaptcha.php:846
+msgid "Activating MailHide will automatically hide all emails in posts and comments from spam bots. For example, support@recaptcha.net would become"
+msgstr ""
+
+#: wp-recaptcha.php:846
+msgid "There are also options below for choosing the text to show for hidden emails."
+msgstr ""
+
+#: wp-recaptcha.php:847
+msgid "MailHide also requires a public and private key which you can generate using the <a href=\"http://mailhide.recaptcha.net/apikey\">key generation service</a>."
+msgstr ""
+
+#: wp-recaptcha.php:850
+msgid "MailHide Keys"
+msgstr ""
+
+#: wp-recaptcha.php:853
+msgid "Enable MailHide email obfuscation for:"
+msgstr ""
+
+#: wp-recaptcha.php:854
+msgid "Posts/Pages"
+msgstr ""
+
+#: wp-recaptcha.php:855
+msgid "Comments"
+msgstr ""
+
+#: wp-recaptcha.php:856
+msgid "RSS Feed of Posts/Pages"
+msgstr ""
+
+#: wp-recaptcha.php:857
+msgid "RSS Feed of Comments"
+msgstr ""
+
+#: wp-recaptcha.php:870
+msgid "Visibility Options"
+msgstr ""
+
+#: wp-recaptcha.php:875
+msgid "Show full email adresses to <strong>registered</strong> users who can:"
+msgstr ""
+
+#: wp-recaptcha.php:880
+msgid "The following allows you to show the replaced links differently. Usually, you get something like this,"
+msgstr ""
+
+#: wp-recaptcha.php:880
+msgid "where the email is broken up into two pieces and then a link with dots is placed in the middle. The <strong>Email Replacement Text</strong> value lets you choose what to name the link and then the <strong>Reveal Link Title</strong> value determines the text that is shown when the link is hovered over."
+msgstr ""
+
+#: wp-recaptcha.php:881
+msgid "For example, if the <strong>Email Replacement Text</strong> option is set to <strong>HIDDEN EMAIL</strong> and the <strong>Reveal Link Title</strong> option is set to <strong>Click here to reveal this address</strong>, then ALL emails will be hidden like this:"
+msgstr ""
+
+#: wp-recaptcha.php:881
+msgid "HIDDEN EMAIL"
+msgstr ""
+
+#: wp-recaptcha.php:882
+msgid "If you want to maintain the default method of hiding emails then leave both boxes blank."
+msgstr ""
+
+#: wp-recaptcha.php:883
+msgid "EMail Replacement Text:"
+msgstr ""
+
+#: wp-recaptcha.php:886
+msgid "Reveal Link Title:"
+msgstr ""
+
+#: wp-recaptcha.php:892
+msgid "Other Information"
+msgstr ""
+
+#: wp-recaptcha.php:895
+msgid "CSS: You can style the hidden emails and much more in the <strong>recaptcha.css</strong> stylesheet in wp-recaptcha's plugin folder."
+msgstr ""
+
+#: wp-recaptcha.php:896
+msgid "You can bypass email hiding for an address by enclosing it within <strong>[nohide][/nohide]</strong>, ex. [nohide]some@email.com[/nohide]."
+msgstr ""
+
+#: wp-recaptcha.php:930
+msgid "reCAPTCHA is not active"
+msgstr ""
+
+#: wp-recaptcha.php:930
+#: wp-recaptcha.php:986
+msgid "You must"
+msgstr ""
+
+#: wp-recaptcha.php:930
+msgid "enter your reCAPTCHA API key"
+msgstr ""
+
+#: wp-recaptcha.php:930
+#: wp-recaptcha.php:986
+msgid "for it to work"
+msgstr ""
+
+#: wp-recaptcha.php:958
+#: wp-recaptcha.php:986
+msgid "MailHide is not active"
+msgstr ""
+
+#: wp-recaptcha.php:958
+msgid "You must have the <a href='http://us3.php.net/mcrypt'>mcrypt</a> module loaded for it to work"
+msgstr ""
+
+#: wp-recaptcha.php:986
+msgid "enter your MailHide API keys"
+msgstr ""
+
