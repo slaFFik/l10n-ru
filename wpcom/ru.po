@@ -3099,7 +3099,7 @@ msgstr "Нажмите &laquo;Обновить настройки&raquo; что�
 
 #: forums/bb-admin/options-general.php:134
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>."
-msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Документация по форматированию даты</a>."
+msgstr "<a href=\"http://codex.wordpress.org/Форматирование_даты_и_времени\">Документация по форматированию даты</a>."
 
 #: forums/bb-admin/options-general.php:138
 #: wp-admin/options-discussion.php:151
@@ -9161,12 +9161,12 @@ msgstr "<br />Добавление меток <i>%s</i>&hellip;"
 #: wp-admin/import/mt.php:258
 #: wp-admin/import/typepad.php:750
 #: wp-admin/import/wordpress.php:530
-#, fuzzy, php-format
+#, php-format
 msgid "(%s comment)"
 msgid_plural "(%s comments)"
 msgstr[0] "(%s комментарий)"
-msgstr[1] "комментариев: %s"
-msgstr[2] "комментариев: %s"
+msgstr[1] "(%s комментария)"
+msgstr[2] "(%s комментариев)"
 
 #: wp-admin/import/mt.php:275
 #: wp-admin/import/typepad.php:767
@@ -14949,9 +14949,8 @@ msgid "Custom:"
 msgstr "Произвольно:"
 
 #: wp-admin/options-general.php:273
-#, fuzzy
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Click &#8220;Save Changes&#8221; to update sample output."
-msgstr "<a href=\"http://codex.wordpress.org/Форматирование_даты_и_времени\">Документация по форматированию даты</a>. Нажмите &laquo;Сохранить изменения&raquo;, чтобы обновить пример."
+msgstr "<a href=\"http://codex.wordpress.org/Форматирование_даты_и_времени\">Документация по форматированию даты</a>. Нажмите  &#8220;Сохранить изменения &#8221;, чтобы обновить пример."
 
 #: wp-admin/options-general.php:279
 #: wp-admin/options-general.php:281
@@ -18887,30 +18886,27 @@ msgstr "<a href=\"%1$s\">Сообщение</a> в <a href=\"%2$s\">%3$s</a> о�
 
 #: wp-content/admin-plugins/post-by-email.php:62
 msgid "Post by Email was enabled"
-msgstr ""
+msgstr "Email-публикация включена"
 
 #: wp-content/admin-plugins/post-by-email.php:64
 msgid "Post by Email was disabled"
-msgstr ""
+msgstr "Email-публикация выключена"
 
 #: wp-content/admin-plugins/post-by-email.php:109
-#, fuzzy
 msgid "Post by Email"
-msgstr "Последнее сообщение от %s"
+msgstr "Публикация по Email"
 
 #: wp-content/admin-plugins/post-by-email.php:144
-#, fuzzy
 msgid "vCard"
-msgstr "Очистить"
+msgstr "vCard"
 
 #: wp-content/admin-plugins/post-by-email.php:145
 msgid "Regenerate"
 msgstr "Пересоздать"
 
 #: wp-content/admin-plugins/post-by-email.php:248
-#, fuzzy
 msgid "WordPress Email Publishing"
-msgstr "Протокол публикации Atom"
+msgstr "Публикация по Email в WordPress"
 
 #: wp-content/admin-plugins/readomattic.php:19
 msgid "Readomattic"
@@ -19899,9 +19895,8 @@ msgid "Unfiltered"
 msgstr "Без фильтра"
 
 #: wp-content/mu-plugins/botd.php:142
-#, fuzzy
 msgid "(RSS)"
-msgstr "RSS"
+msgstr "(RSS)"
 
 #: wp-content/mu-plugins/break-passwords.php:64
 #: wp-content/mu-plugins/break-passwords.php:70
@@ -19950,9 +19945,8 @@ msgid "You did not enter a comment!"
 msgstr "Вы не ввели комментарий!"
 
 #: wp-content/mu-plugins/contact-form.php:160
-#, fuzzy
 msgid "l F j, Y \\a\\t g:i a"
-msgstr "d.m.Y в H:i"
+msgstr "| d.m.Y в H:i"
 
 #: wp-content/mu-plugins/contact-form.php:175
 msgid "Sent by a verified WordPress.com user."
@@ -20135,9 +20129,9 @@ msgid "We are waiting for confirmation of your payment from Paypal. Please wait 
 msgstr "Мы ждем подтверждения вашего перевода в PayPal. Подождите 10 секунд и обновите страницу."
 
 #: wp-content/mu-plugins/domains.php:573
-#, fuzzy, php-format
+#, php-format
 msgid "Domain mapping is available for 9.97 credits per domain per year, registration not included. You have %s credits."
-msgstr "Привязка домена доступна по цене 10 кредитов за домен в год, не включая регистрацию. У вас %s кредитов."
+msgstr "Привязка домена доступна по цене 9,97 кредитов за домен в год, не включая регистрацию. У вас %s кредитов."
 
 #: wp-content/mu-plugins/domains.php:573
 msgid "You will have to purchase additional credits via PayPal. Note that some forms of payment (eChecks) may take several days to process."
@@ -20246,9 +20240,8 @@ msgid "Warning! Your Paypal payment for this domain renewal has not been confirm
 msgstr "Внимание! Перевод за продление домена через PayPal еще не подтвержден!"
 
 #: wp-content/mu-plugins/domains.php:805
-#, fuzzy
 msgid "Your domain renewal is not yet complete."
-msgstr "Вы еще не закончили покупку домена."
+msgstr "Продление вашего домена еще не завершено."
 
 #: wp-content/mu-plugins/domains.php:814
 #, fuzzy, php-format
@@ -20344,9 +20337,9 @@ msgid "Custom MX"
 msgstr "Произвольный MX"
 
 #: wp-content/mu-plugins/domains.php:1058
-#, fuzzy, php-format
+#, php-format
 msgid "(<a href=\"%s\">Delete</a>)"
-msgstr "Удалить комментарий"
+msgstr "(<a href=\"%s\">Удалить</a>)"
 
 #: wp-content/mu-plugins/domains.php:1066
 msgid "(Domain only)"
@@ -21182,14 +21175,12 @@ msgid "Link color"
 msgstr "Цвет ссылки"
 
 #: wp-content/mu-plugins/vip-functions.php:516
-#, fuzzy
 msgid "Border color"
-msgstr "Цвет шрифта"
+msgstr "Цвет бордюра"
 
 #: wp-content/mu-plugins/vip-functions.php:520
-#, fuzzy
 msgid "URL color"
-msgstr "Цвет шрифта"
+msgstr "Цвет ссылки"
 
 #: wp-content/mu-plugins/wpcom-flaptor.php:281
 #: wp-content/mu-plugins/wpcom-flaptor.php:323
@@ -21202,9 +21193,8 @@ msgid "Display your tweets from Twitter"
 msgstr "Показывать аватары на вашем сайте?"
 
 #: wp-content/mu-plugins/wpcom-widgets.php:25
-#, fuzzy
 msgid "Twitter Updates"
-msgstr "Последние обновления: %s"
+msgstr "Обновления Twitter-а"
 
 #: wp-content/mu-plugins/wpcom-widgets.php:72
 msgid "Error: Please make sure the Twitter account is <a href='http://help.twitter.com/forums/10711/entries/14016'>public</a>."
@@ -21476,9 +21466,8 @@ msgid "If you can see a big integral, all is well."
 msgstr ""
 
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:269
-#, fuzzy
 msgid "WP LaTeX Options"
-msgstr "Настройки Flash-видео"
+msgstr "Настройки WP LaTeX"
 
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:279
 msgid "Syntax"
@@ -21585,9 +21574,8 @@ msgid "A six digit hexadecimal number like <code>000000</code> or <code>ffffff</
 msgstr ""
 
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:367
-#, fuzzy
 msgid "Parse LaTeX in comments?"
-msgstr "Комментарии, ожидающие модерирования (%s) &raquo;"
+msgstr "Распознавать LaTeX в комментариев?"
 
 #: wp-content/plugins/wp-latex/wp-latex-admin.php:371
 msgid "Custom CSS to use with the LaTeX images"
@@ -27030,9 +27018,8 @@ msgstr "1 комментарий"
 #: wp-content/themes/pub/inove/archive.php:51
 #: wp-content/themes/pub/inove/index.php:26
 #: wp-content/themes/pub/neat/comments.php:41
-#, fuzzy, php-format
 msgid "% comments"
-msgstr "Комментарии (%c)"
+msgstr "Комментарии (%)"
 
 #: wp-content/themes/pub/inove/archive.php:55
 #: wp-content/themes/pub/inove/index.php:30
@@ -27134,7 +27121,6 @@ msgid "Find <code>name=\"cx\"</code> in the <strong>Search box code</strong> of 
 msgstr ""
 
 #: wp-content/themes/pub/inove/functions.php:192
-#, fuzzy
 msgid "Menubar"
 msgstr "Меню"
 
