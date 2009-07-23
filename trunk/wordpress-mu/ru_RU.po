@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: WordPress MU 2.8.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-07-21 13:11+0000\n"
-"PO-Revision-Date: 2009-07-21 17:52+0300\n"
-"Last-Translator: Sol <salpagarov@gmail.com>\n"
+"PO-Revision-Date: 2009-07-23 17:29+0300\n"
+"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: ru.wordpress.org <team@wordpress-russia.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -249,7 +249,7 @@ msgstr "Сохранение отключено: %s сейчас редакти�
 #: wp-admin/users.php:16
 #: wp-admin/widgets.php:16
 msgid "Cheatin&#8217; uh?"
-msgstr "Играешься, что ли?"
+msgstr "Хакер, что ли?"
 
 #: wp-admin/admin-ajax.php:1138
 #: wp-admin/admin-ajax.php:1147
@@ -364,7 +364,7 @@ msgstr "<a href=\"http://mu.wordpress.org/docs/\">Документация</a>"
 
 #: wp-admin/admin-header.php:104
 msgid "Visit Site"
-msgstr "Посмотреть сайт"
+msgstr "Перейти на сайт"
 
 #: wp-admin/admin-header.php:108
 #, php-format
@@ -917,7 +917,7 @@ msgstr "Перейдите на свой сайт и посмотрите, ка�
 #: wp-admin/upload.php:335
 #, php-format
 msgid "Edit &#8220;%s&#8221;"
-msgstr "Редактировать &#8220;%s&#8221;"
+msgstr "Редактировать &laquo;%s&raquo;"
 
 #: wp-admin/edit-attachment-rows.php:83
 #: wp-admin/edit-attachment-rows.php:185
@@ -974,7 +974,7 @@ msgstr ""
 #: wp-admin/upload.php:345
 #, php-format
 msgid "View &#8220;%s&#8221;"
-msgstr "Смотреть &#8220;%s&#8221;"
+msgstr "Смотреть &laquo;%s&raquo;"
 
 #: wp-admin/edit-attachment-rows.php:86
 #: wp-admin/includes/template.php:1453
@@ -1080,7 +1080,7 @@ msgid "%s comment approved"
 msgid_plural "%s comments approved"
 msgstr[0] "%s комментарий одобрен"
 msgstr[1] "%s комментария одобрены"
-msgstr[2] "%s комментариев одобрено"
+msgstr[2] "%s комментариев одобрены"
 
 #: wp-admin/edit-comments.php:119
 #, php-format
@@ -1088,7 +1088,7 @@ msgid "%s comment deleted"
 msgid_plural "%s comments deleted"
 msgstr[0] "%s комментарий удалён"
 msgstr[1] "%s комментария удалены"
-msgstr[2] "%s комментариев удалено"
+msgstr[2] "%s комментариев удалены"
 
 #: wp-admin/edit-comments.php:124
 #, php-format
@@ -1096,7 +1096,7 @@ msgid "%s comment marked as spam"
 msgid_plural "%s comments marked as spam"
 msgstr[0] "%s комментарий помечен как спам"
 msgstr[1] "%s комментария помечены как спам"
-msgstr[2] "%s комментариев помечено как спам"
+msgstr[2] "%s комментариев помечены как спам"
 
 #: wp-admin/edit-comments.php:141
 msgid "All"
@@ -1686,13 +1686,13 @@ msgstr "Посмотреть комментарий"
 #: wp-includes/comment.php:258
 msgctxt "adjective"
 msgid "Approved"
-msgstr "Одобрено"
+msgstr "Одобрен"
 
 #. translators: comment type radio button
 #: wp-admin/edit-form-comment.php:47
 msgctxt "adjective"
 msgid "Pending"
-msgstr "Ожидание"
+msgstr "Ожидает проверки"
 
 #. translators: comment type radio button
 #. translators: comment status
@@ -1705,7 +1705,7 @@ msgstr "Спам"
 #: wp-admin/edit-form-comment.php:55
 #, php-format
 msgid "Submitted on: <b>%1$s</b>"
-msgstr "Отправлен: <b>%1$s</b>"
+msgstr "Дата: <b>%1$s</b>"
 
 #: wp-admin/edit-form-comment.php:67
 msgid ""
@@ -1728,11 +1728,11 @@ msgstr "Имя:"
 #: wp-admin/edit-form-comment.php:94
 #, php-format
 msgid "E-mail (%s):"
-msgstr "E-mail: %s"
+msgstr "E-mail (%s):"
 
 #: wp-admin/edit-form-comment.php:94
 msgid "send e-mail"
-msgstr "отправить e-mail"
+msgstr "написать письмо"
 
 #: wp-admin/edit-form-comment.php:96
 msgid "E-mail:"
@@ -2273,7 +2273,7 @@ msgstr[2] "Запланированные <span class=\"count\">(%s)</span>"
 #: wp-admin/edit-pages.php:80
 msgctxt "page"
 msgid "Pending Review"
-msgstr "Ожидает утверждения"
+msgstr "На утверждении"
 
 #: wp-admin/edit-pages.php:80
 msgid "Pending pages"
@@ -2341,7 +2341,7 @@ msgid "%s page updated."
 msgid_plural "%s pages updated."
 msgstr[0] "%s страница обновлена."
 msgstr[1] "%s страницы обновлены."
-msgstr[2] "%s страниц обновлено."
+msgstr[2] "%s страниц обновлены."
 
 #: wp-admin/edit-pages.php:122
 #, php-format
@@ -2349,7 +2349,7 @@ msgid "%s page not updated, invalid parent page specified."
 msgid_plural "%s pages not updated, invalid parent page specified."
 msgstr[0] "%s страница не обновлена, родительская страница указана неверно."
 msgstr[1] "%s страницы не обновлены, родительская страница указана неверно."
-msgstr[2] "%s страниц не обновлено, родительская страница указана неверно."
+msgstr[2] "%s страниц не обновлены, родительская страница указана неверно."
 
 #: wp-admin/edit-pages.php:127
 #, php-format
@@ -2357,7 +2357,7 @@ msgid "%s page not updated, somebody is editing it."
 msgid_plural "%s pages not updated, somebody is editing them."
 msgstr[0] "%s страница не обновлена, кто-то её редактирует."
 msgstr[1] "%s страницы не обновлены, кто-то их редактирует."
-msgstr[2] "%s страниц не обновлено, кто-то их редактирует."
+msgstr[2] "%s страниц не обновлены, кто-то их редактирует."
 
 #: wp-admin/edit-pages.php:132
 #, php-format
@@ -2365,7 +2365,7 @@ msgid "Page deleted."
 msgid_plural "%s pages deleted."
 msgstr[0] "%s страница удалена."
 msgstr[1] "%s страницы удалены."
-msgstr[2] "%s страниц удалено."
+msgstr[2] "%s страниц удалены."
 
 #: wp-admin/edit-pages.php:141
 msgid "Your page has been saved."
@@ -2516,7 +2516,7 @@ msgid "%s post updated."
 msgid_plural "%s posts updated."
 msgstr[0] "%s запись обновлена."
 msgstr[1] "%s записи обновлены."
-msgstr[2] "%s записей обновлено."
+msgstr[2] "%s записей обновлены."
 
 #: wp-admin/edit.php:121
 #, php-format
@@ -2524,7 +2524,7 @@ msgid "%s post not updated, somebody is editing it."
 msgid_plural "%s posts not updated, somebody is editing them."
 msgstr[0] "%s запись не обновлена, кто-то её редактирует."
 msgstr[1] "%s записи не обновлены, кто-то их редактирует."
-msgstr[2] "%s записей не обновлено, кто-то их редактирует."
+msgstr[2] "%s записей не обновлены, кто-то их редактирует."
 
 #: wp-admin/edit.php:126
 #, php-format
@@ -2532,7 +2532,7 @@ msgid "Post deleted."
 msgid_plural "%s posts deleted."
 msgstr[0] "%s запись удалена."
 msgstr[1] "%s записи удалены."
-msgstr[2] "%s записей удалено."
+msgstr[2] "%s записей удалены."
 
 #: wp-admin/edit.php:144
 #, php-format
@@ -2767,7 +2767,7 @@ msgstr "Если вы не сделали этого раньше,вы може�
 #: wp-admin/import/blogger.php:801
 #, php-format
 msgid "Go to <a href=\"%s\" target=\"%s\">Authors &amp; Users</a>, where you can modify the new user(s) or delete them. If you want to make all of the imported posts yours, you will be given that option when you delete the new authors."
-msgstr "Пройдите по ссылке <a href=\"%s\" target=\"%s\">Авторы &amp; пользователи</a>, где вы сможете отредактировать данные пользователей или удалить их. Если вы хотите сделать все записи от своего имени, вы сможете это сделать, когда удалите всех новых авторов."
+msgstr "Перейдите по ссылке <a href=\"%s\" target=\"%s\">Авторы &amp; пользователи</a>, где вы сможете отредактировать данные пользователей или удалить их. Если вы хотите сделать все записи от своего имени, вы сможете это сделать, когда удалите всех новых авторов."
 
 #: wp-admin/import/blogger.php:802
 msgid "For security, click the link below to reset this importer."
@@ -2898,7 +2898,7 @@ msgid "Done! <strong>%s</strong> post with tags were read."
 msgid_plural "Done! <strong>%s</strong> posts with tags were read."
 msgstr[0] "Готово! <strong>%1$s</strong> запись с метками импортирована."
 msgstr[1] "Готово! <strong>%1$s</strong> записи с метками импортированы."
-msgstr[2] "Готово! <strong>%1$s</strong> записей с метками импортировано."
+msgstr[2] "Готово! <strong>%1$s</strong> записей с метками импортированы."
 
 #: wp-admin/import/btt.php:108
 #: wp-admin/import/jkw.php:123
@@ -2945,7 +2945,7 @@ msgid "Done! <strong>%1$s</strong> category imported."
 msgid_plural "Done! <strong>%1$s</strong> categories imported."
 msgstr[0] "Готово! <strong>%1$s</strong> рубрика импортирована."
 msgstr[1] "Готово! <strong>%1$s</strong> рубрики импортированы."
-msgstr[2] "Готово! <strong>%1$s</strong> рубрик импортировано."
+msgstr[2] "Готово! <strong>%1$s</strong> рубрик импортированы."
 
 #: wp-admin/import/dotclear.php:212
 #: wp-admin/import/textpattern.php:207
@@ -3006,7 +3006,7 @@ msgid "Done! <strong>%s</strong> link or link category imported."
 msgid_plural "Done! <strong>%s</strong> links or link categories imported."
 msgstr[0] "Готово! <strong>%1$s</strong> ссылка или рубрика ссылок импортирована."
 msgstr[1] "Готово! <strong>%1$s</strong> ссылки или рубрики ссылок импортированы."
-msgstr[2] "Готово! <strong>%1$s</strong> ссылок или рубрик ссылок импортировано."
+msgstr[2] "Готово! <strong>%1$s</strong> ссылок или рубрик ссылок импортированы."
 
 #: wp-admin/import/dotclear.php:514
 #: wp-admin/import/textpattern.php:493
@@ -3264,7 +3264,7 @@ msgid "imported %s comment"
 msgid_plural "imported %s comments"
 msgstr[0] "импортирован %s комментарий"
 msgstr[1] "импортированы %s комментария"
-msgstr[2] "импортировано %s комментариев"
+msgstr[2] "импортированы %s комментариев"
 
 #: wp-admin/import/greymatter.php:291
 #, php-format
@@ -3272,7 +3272,7 @@ msgid "ignored %s pre-existing comment"
 msgid_plural "ignored %s pre-existing comments"
 msgstr[0] "проигнорирован %s уже существующий комментарий"
 msgstr[1] "проигнорированы %s уже существующих комментария"
-msgstr[2] "проигнорировано %s уже существующих комментариев"
+msgstr[2] "проигнорированы %s уже существующих комментариев"
 
 #: wp-admin/import/greymatter.php:301
 msgid "Completed GreyMatter import!"
@@ -3322,7 +3322,7 @@ msgid "Done! <strong>%s</strong> tag were read."
 msgid_plural "Done! <strong>%s</strong> tags were read."
 msgstr[0] "Готово! <strong>%1$s</strong> метка прочитана."
 msgstr[1] "Готово! <strong>%1$s</strong> метки прочитаны."
-msgstr[2] "Готово! <strong>%1$s</strong> меток прочитано."
+msgstr[2] "Готово! <strong>%1$s</strong> меток прочитаны."
 
 #: wp-admin/import/jkw.php:190
 msgid "Import Jerome&#8217;s Keywords into WordPress tags."
@@ -3394,7 +3394,7 @@ msgstr "<strong>ЗАМЕЧАНИЕ:</strong>JavaScript отключен, поэ�
 
 #: wp-admin/import/livejournal.php:277
 msgid "Post metadata has been downloaded, proceeding with posts..."
-msgstr "Метаданные записей загружены, переходим к записям..."
+msgstr "Метаданные записей загружены, переходим к записям&hellip;"
 
 #: wp-admin/import/livejournal.php:375
 #, php-format
@@ -3428,7 +3428,7 @@ msgstr "Нет комментариев для импорта!"
 
 #: wp-admin/import/livejournal.php:489
 msgid " Comment metadata downloaded successfully, proceeding with comment bodies..."
-msgstr "Метаданные комментариев успешно загружены, переходим к содержимому комментариев..."
+msgstr "Метаданные комментариев успешно загружены, переходим к содержимому комментариев&hellip;"
 
 #: wp-admin/import/livejournal.php:514
 msgid "Failed to retrieve comment bodies from LiveJournal. Please try again soon."
@@ -3683,12 +3683,12 @@ msgstr "Импорт OPML-файла"
 #: wp-admin/import/opml.php:125
 #, php-format
 msgid "Inserted <strong>%s</strong>"
-msgstr "Вставлено в <strong>%s</strong>"
+msgstr "Добавлено в <strong>%s</strong>"
 
 #: wp-admin/import/opml.php:129
 #, php-format
 msgid "Inserted %1$d links into category %2$s. All done! Go <a href=\"%3$s\">manage those links</a>."
-msgstr "Вставлено %1$d ссылок в раздел %2$s. Готово! Перейдите <a href=\"%3$s\">к управлению этими ссылками</a>."
+msgstr "Ссылки (%1$d) добавлены в рубрику %2$s. Готово! Перейдите <a href=\"%3$s\">к управлению этими ссылками</a>."
 
 #: wp-admin/import/opml.php:135
 msgid "You need to supply your OPML url. Press back on your browser and try again"
@@ -3770,7 +3770,7 @@ msgid "Done! <strong>%s</strong> tag to post relationships were read."
 msgid_plural "Done! <strong>%s</strong> tags to post relationships were read."
 msgstr[0] "Готово! <strong>%1$s</strong> связь меток и записей импортирована."
 msgstr[1] "Готово! <strong>%1$s</strong> связи меток и записей импортированы."
-msgstr[2] "Готово! <strong>%1$s</strong> связей меток и записей импортировано."
+msgstr[2] "Готово! <strong>%1$s</strong> связей меток и записей импортированы."
 
 #: wp-admin/import/stp.php:96
 #: wp-admin/import/utw.php:123
@@ -3788,7 +3788,7 @@ msgid "Done! <strong>%s</strong> tag was added!"
 msgid_plural "Done! <strong>%s</strong> tags were added!"
 msgstr[0] "Готово! <strong>%s</strong> метка добавлена!"
 msgstr[1] "Готово! <strong>%s</strong> метки добавлены!"
-msgstr[2] "Готово! <strong>%s</strong> меток добавлено!"
+msgstr[2] "Готово! <strong>%s</strong> меток добавлены!"
 
 #: wp-admin/import/stp.php:112
 #: wp-admin/import/utw.php:159
@@ -3830,7 +3830,7 @@ msgid "Done! <strong>%s</strong> link imported"
 msgid_plural "Done! <strong>%s</strong> links imported"
 msgstr[0] "Готово! <strong>%1$s</strong> ссылка импортирована"
 msgstr[1] "Готово! <strong>%1$s</strong> ссылки импортированы"
-msgstr[2] "Готово! <strong>%1$s</strong> ссылок импортировано"
+msgstr[2] "Готово! <strong>%1$s</strong> ссылок импортированы"
 
 #: wp-admin/import/textpattern.php:583
 msgid "Welcome to WordPress.  We hope (and expect!) that you will find this platform incredibly rewarding!  As a new WordPress user coming from Textpattern, there are some things that we would like to point out.  Hopefully, they will help your transition go as smoothly as possible."
@@ -3843,7 +3843,7 @@ msgstr "You have already setup WordPress and have been assigned an administrativ
 
 #: wp-admin/import/textpattern.php:589
 msgid "Also, since you&#8217;re coming from Textpattern, you probably have been using Textile to format your comments and posts.  If this is the case, we recommend downloading and installing <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>.  Trust me... You&#8217;ll want it."
-msgstr "И так как вы переключаетесь с Textpattern, возможно вы использовали Textile для форматирования записей и комментариев.  В этом случае, мы рекомендуем скачать и установить плагин <a href=\"http://www.huddledmasses.org/2004/04/19/wordpress-plugin-textile-20/\">Textile для WordPress</a>.  Поверьте&hellip; Вам понравится."
+msgstr "И так как вы переключаетесь с Textpattern &#8212; возможно, вы использовали Textile для форматирования записей и комментариев.  В этом случае, мы рекомендуем скачать и установить плагин <a href=\"http://www.huddledmasses.org/2004/04/19/wordpress-plugin-textile-20/\">Textile для WordPress</a>.  Поверьте&hellip; Вам понравится."
 
 #: wp-admin/import/textpattern.php:603
 msgid "Textpattern Database User:"
@@ -3911,7 +3911,7 @@ msgid "Done! <strong>%s</strong> tag were added!"
 msgid_plural "Done! <strong>%s</strong> tags were added!"
 msgstr[0] "Готово! <strong>%1$s</strong> метка добавлена!"
 msgstr[1] "Готово! <strong>%1$s</strong> метки добавлены!"
-msgstr[2] "Готово! <strong>%1$s</strong> меток добавлено!"
+msgstr[2] "Готово! <strong>%1$s</strong> меток добавлены!"
 
 #: wp-admin/import/utw.php:178
 msgid "Step 4"
@@ -4022,7 +4022,7 @@ msgstr "Извините, возникла ошибка."
 
 #: wp-admin/import/wordpress.php:805
 msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
-msgstr "Импорт <strong>записей, страниц, комментариев, дополнительных полей, рубрик и меток</strong> из файла экспорта WordPress."
+msgstr "Импорт <strong>записей, страниц, комментариев, произвольных полей, рубрик и меток</strong> из файла экспорта WordPress."
 
 #: wp-admin/import/wp-cat2tag.php:31
 msgid "Categories to Tags"
@@ -4082,7 +4082,7 @@ msgstr[2] "Преобразовать %d меток в рубрики."
 
 #: wp-admin/import/wp-cat2tag.php:146
 msgid "Here you can selectively convert existing tags to categories. To get started, check the tags you wish to be converted, then click the Convert button."
-msgstr "Здесь вы можете выборочно преобразовать существующие рубрики в метки. Выберите рубрики для конвертирования и нажмите кнопку Преобразовать."
+msgstr "Здесь вы можете выборочно преобразовать существующие метки в рубрики. Выберите метки для конвертирования и нажмите кнопку &laquo;Преобразовать&raquo;."
 
 #: wp-admin/import/wp-cat2tag.php:147
 msgid "The newly created categories will still be associated with the same posts."
@@ -4221,7 +4221,7 @@ msgstr "Расширение ssh2 для PHP недоступно"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:71
 msgid "The ssh2 PHP extension is available, however, we require the PHP5 function <code>stream_get_contents()</code>"
-msgstr "PHP-расширение SSH2 доступно, однако, нам требуется PHP5-функция <code>stream_get_contents()</code>"
+msgstr "Расширение ssh2 для PHP доступно, однако требуется функция PHP5 <code>stream_get_contents()</code>"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:82
 msgid "SSH2 hostname is required"
@@ -4307,7 +4307,7 @@ msgstr "Не удалось создать директорию."
 
 #: wp-admin/includes/class-wp-upgrader.php:57
 msgid "Incompatible Archive"
-msgstr "Архив несовместим."
+msgstr "Архив несовместим"
 
 #: wp-admin/includes/class-wp-upgrader.php:59
 msgid "Enabling Maintenance mode."
@@ -4342,7 +4342,7 @@ msgstr "Извлечение обновления."
 
 #: wp-admin/includes/class-wp-upgrader.php:353
 msgid "Deactivating the plugin."
-msgstr "Отключение плагина."
+msgstr "Деактивация плагина."
 
 #: wp-admin/includes/class-wp-upgrader.php:354
 msgid "Removing the old version of the plugin."
@@ -4435,7 +4435,7 @@ msgstr "Обновить плагин"
 
 #: wp-admin/includes/class-wp-upgrader.php:825
 msgid "Attempting reactivation of the plugin"
-msgstr "Попытка реактивировать плагин"
+msgstr "Повторная активация плагина"
 
 #: wp-admin/includes/class-wp-upgrader.php:829
 #: wp-admin/includes/class-wp-upgrader.php:880
@@ -6563,7 +6563,7 @@ msgid "Post"
 msgid_plural "Posts"
 msgstr[0] "Запись"
 msgstr[1] "Записи"
-msgstr[2] "Записи"
+msgstr[2] "Записей"
 
 #: wp-admin/includes/dashboard.php:240
 msgid "Comment"
@@ -6575,16 +6575,16 @@ msgstr[2] "Комментариев"
 #: wp-admin/includes/dashboard.php:252
 msgid "Page"
 msgid_plural "Pages"
-msgstr[0] "Страницу"
+msgstr[0] "Страница"
 msgstr[1] "Страницы"
-msgstr[2] "Страницы"
+msgstr[2] "Страниц"
 
 #: wp-admin/includes/dashboard.php:262
 msgid "Approved|Right Now"
 msgid_plural "Approved"
-msgstr[0] "Утвержден|Прямо сейчас"
-msgstr[1] "Утверждены|Прямо сейчас"
-msgstr[2] "Утверждены|Прямо сейчас"
+msgstr[0] "Одобрен|Прямо сейчас"
+msgstr[1] "Одобрены"
+msgstr[2] "Одобрены"
 
 #: wp-admin/includes/dashboard.php:274
 msgid "Category"
@@ -6596,9 +6596,9 @@ msgstr[2] "Рубрик"
 #: wp-admin/includes/dashboard.php:284
 msgid "Pending"
 msgid_plural "Pending"
-msgstr[0] "Ожидающий проверки"
-msgstr[1] "Ожидающих проверки"
-msgstr[2] "Ожидающих проверки"
+msgstr[0] "Ожидает проверки"
+msgstr[1] "Ожидают проверки"
+msgstr[2] "Ожидают проверки"
 
 #: wp-admin/includes/dashboard.php:296
 msgid "Tag"
@@ -6612,9 +6612,9 @@ msgstr[2] "Меток"
 #: wp-admin/wpmu-blogs.php:490
 msgid "Spam"
 msgid_plural "Spam"
-msgstr[0] "Спам"
-msgstr[1] "Спам"
-msgstr[2] "Спам"
+msgstr[0] "Спам-комментарий"
+msgstr[1] "Спам-комментария"
+msgstr[2] "Спам-комментариев"
 
 #: wp-admin/includes/dashboard.php:334
 #: wp-admin/includes/dashboard.php:341
@@ -6747,7 +6747,7 @@ msgstr "Обратная ссылка"
 #, php-format
 msgctxt "dashboard"
 msgid "%1$s on %2$s"
-msgstr "%1$s на %2$s"
+msgstr "%1$s к записи %2$s"
 
 #: wp-admin/includes/dashboard.php:608
 #: wp-admin/includes/dashboard.php:693
@@ -6762,7 +6762,7 @@ msgstr "Загрузка&#8230;"
 #: wp-admin/includes/dashboard.php:715
 #: wp-admin/includes/dashboard.php:750
 msgid "This widget requires JavaScript."
-msgstr "Этому виджету нужен JavaScript"
+msgstr "Этот виджет требует JavaScript."
 
 #: wp-admin/includes/dashboard.php:624
 #: wp-admin/includes/dashboard.php:737
@@ -6955,7 +6955,7 @@ msgstr "Размер загруженного файла превышает зн
 #: wp-admin/includes/file.php:240
 #: wp-admin/includes/file.php:348
 msgid "The uploaded file was only partially uploaded."
-msgstr "Файл был загружен неполностью."
+msgstr "Файл был загружен не полностью."
 
 #: wp-admin/includes/file.php:241
 #: wp-admin/includes/file.php:349
@@ -7696,7 +7696,7 @@ msgstr "Извините, вам придется удалить файлы пе
 #: wp-admin/includes/mu.php:511
 #: wp-admin/menu.php:309
 msgid "You do not have sufficient permissions to access this page."
-msgstr "Вы не имеете достаточно прав для доступа к данной странице."
+msgstr "У вас недостаточно полномочий для доступа к этой странице."
 
 #: wp-admin/includes/mu.php:520
 #: wp-includes/general-template.php:240
@@ -8235,7 +8235,7 @@ msgstr[2] "Запланированные <span class=\"count\">(%s)</span>"
 #: wp-admin/includes/post.php:795
 msgctxt "post"
 msgid "Pending Review"
-msgstr "Ожидает утверждения"
+msgstr "На утверждении"
 
 #: wp-admin/includes/post.php:795
 msgid "Pending posts"
@@ -8452,7 +8452,7 @@ msgstr "Файл"
 #: wp-admin/includes/template.php:776
 msgctxt "column name"
 msgid "Attached to"
-msgstr "Прикреплено к"
+msgstr "Используется"
 
 #. translators: column name
 #: wp-admin/includes/template.php:780
@@ -8837,7 +8837,7 @@ msgstr "(без названия)"
 #: wp-admin/includes/template.php:3386
 msgctxt "post state"
 msgid "Pending"
-msgstr "Ожидание"
+msgstr "Ожидает утверждения"
 
 #: wp-admin/includes/template.php:3437
 msgid "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Writing Posts</a>"
@@ -8866,7 +8866,7 @@ msgstr "На экране отображаются"
 #: wp-admin/includes/template.php:3517
 #, php-format
 msgid "Get help with &#8220;%s&#8221;"
-msgstr "Получить помощь относительно &#8220;%s&#8221;"
+msgstr "Получить помощь относительно &laquo;%s&raquo;"
 
 #: wp-admin/includes/template.php:3519
 msgid "Get help with this page"
@@ -9155,7 +9155,7 @@ msgstr "Если у вас есть архив темы в формате .zip, 
 #: wp-admin/includes/theme-install.php:304
 #, php-format
 msgid "Install &#8220;%s&#8221;"
-msgstr "Установить &#8220;%s&#8221;"
+msgstr "Установить &laquo;%s&raquo;"
 
 #: wp-admin/includes/theme-install.php:320
 msgid "Details"
@@ -9184,7 +9184,7 @@ msgstr "<strong>Внимание:</strong> Эта тема не была пом�
 #: wp-admin/includes/theme-install.php:507
 #, php-format
 msgid "by %s"
-msgstr "от %s"
+msgstr "автора %s"
 
 #: wp-admin/includes/theme-install.php:508
 #, php-format
@@ -9384,7 +9384,7 @@ msgstr "Новый блог WordPress"
 #: wp-admin/includes/user.php:85
 #: wp-admin/users.php:53
 msgid "You can&#8217;t give users that role."
-msgstr "Вы не можете дать пользователям эту роль ."
+msgstr "Вы не можете присваивать пользователям эту роль."
 
 #: wp-admin/includes/user.php:138
 #: wp-login.php:236
@@ -9557,7 +9557,7 @@ msgid "%s link deleted."
 msgid_plural "%s links deleted"
 msgstr[0] "%s ссылка удалена."
 msgstr[1] "%s ссылки удалены."
-msgstr[2] "%s ссылок удалено."
+msgstr[2] "%s ссылок удалены."
 
 #: wp-admin/link-manager.php:91
 #: wp-admin/link-manager.php:93
@@ -9645,7 +9645,7 @@ msgstr "Обновить медиафайл"
 #: wp-admin/menu.php:35
 msgctxt "post"
 msgid "Add New"
-msgstr "Добавить"
+msgstr "Добавить новую"
 
 #: wp-admin/menu.php:49
 msgid "Library"
@@ -9655,19 +9655,19 @@ msgstr "Библиотека"
 #: wp-admin/menu.php:51
 msgctxt "file"
 msgid "Add New"
-msgstr "Добавить"
+msgstr "Добавить новый"
 
 #. translators: add new links
 #: wp-admin/menu.php:56
 msgctxt "links"
 msgid "Add New"
-msgstr "Добавить"
+msgstr "Добавить новую"
 
 #. translators: add new page
 #: wp-admin/menu.php:62
 msgctxt "page"
 msgid "Add New"
-msgstr "Добавить"
+msgstr "Добавить новую"
 
 #: wp-admin/menu.php:64
 #, php-format
@@ -9695,7 +9695,7 @@ msgstr "Установленные"
 #: wp-admin/menu.php:83
 msgctxt "plugin"
 msgid "Add New"
-msgstr "Добавить"
+msgstr "Добавить новый"
 
 #: wp-admin/menu.php:89
 #: wp-admin/user-edit.php:18
@@ -9814,11 +9814,11 @@ msgstr "Разбивать комментарии на страницы по %1$
 
 #: wp-admin/options-discussion.php:95
 msgid "older"
-msgstr "поздние"
+msgstr "ранние"
 
 #: wp-admin/options-discussion.php:97
 msgid "newer"
-msgstr "ранние"
+msgstr "поздние"
 
 #: wp-admin/options-discussion.php:99
 #, php-format
@@ -9968,7 +9968,7 @@ msgstr "Краткое описание"
 
 #: wp-admin/options-general.php:68
 msgid "In a few words, explain what this blog is about."
-msgstr "Обьясните в нескольких словах, о чём этот блог."
+msgstr "Объясните в нескольких словах, о чём этот блог."
 
 #: wp-admin/options-general.php:72
 msgid "E-mail address"
@@ -10032,12 +10032,12 @@ msgstr "В этом часовом поясе в настоящий момент
 #: wp-admin/options-general.php:159
 #, php-format
 msgid "Daylight savings time begins on: <code>%s</code>."
-msgstr "Летнее время начинается: <code>%s</code>."
+msgstr "Переход на летнее время: <code>%s</code>."
 
 #: wp-admin/options-general.php:160
 #, php-format
 msgid "Standard time begins  on: <code>%s</code>."
-msgstr "Зимнее время начинается: <code>%s</code>."
+msgstr "Переход на зимнее время: <code>%s</code>."
 
 #: wp-admin/options-general.php:163
 msgid "This timezone does not observe daylight savings time."
@@ -10521,12 +10521,12 @@ msgstr "Нажмите, чтобы увидеть полный список по
 
 #: wp-admin/plugins.php:220
 msgid "Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here."
-msgstr "Плагины расширяют и дополняют функциональность WordPress. После установки плагина вы можете активировать/деактивировать его здесь."
+msgstr "Плагины расширяют и дополняют функциональность WordPress. После установки плагина можно активировать или деактивировать его здесь."
 
 #: wp-admin/plugins.php:222
 #, php-format
 msgid "If something goes wrong with a plugin and you can&#8217;t use WordPress, delete or rename that file in the <code>%s</code> directory and it will be automatically deactivated."
-msgstr "Если с плагином что-то пойдёт не так, и вы не сможете использовать WordPress, удалите или переименуйте файл в директории <code>%s</code>, и плагин будет автоматически отключён."
+msgstr "Если с плагином что-то пойдёт не так, и вы не сможете использовать WordPress, удалите или переименуйте файл в директории <code>%s</code>, и плагин будет автоматически деактивирован."
 
 #: wp-admin/plugins.php:223
 #, php-format
@@ -10628,9 +10628,9 @@ msgstr[2] "Обновления доступны <span class=\"count\">(%s)</spa
 #, php-format
 msgid "Search Results <span class=\"count\">(%s)</span>"
 msgid_plural "Search Results <span class=\"count\">(%s)</span>"
-msgstr[0] "Запланированная <span class=\"count\">(%s)</span>"
-msgstr[1] "Запланированные <span class=\"count\">(%s)</span>"
-msgstr[2] "Запланированные <span class=\"count\">(%s)</span>"
+msgstr[0] "Результаты поиска <span class=\"count\">(%s)</span>"
+msgstr[1] "Результаты поиска <span class=\"count\">(%s)</span>"
+msgstr[2] "Результаты поиска <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:568
 msgid "You do not appear to have any plugins available at this time."
@@ -10812,7 +10812,7 @@ msgstr "Запрошенная тема не найдена."
 
 #: wp-admin/theme-editor.php:76
 msgid "You do not have sufficient permissions to edit themes for this blog."
-msgstr "У вас нет достаточных полномочий, чтобы редактировать темы для этого блога."
+msgstr "У вас недостаточно полномочий, чтобы редактировать темы на этом блоге."
 
 #: wp-admin/theme-editor.php:122
 msgid "Select theme to edit:"
@@ -10842,12 +10842,12 @@ msgstr "У вас недостаточно полномочий, чтобы ус
 
 #: wp-admin/themes.php:54
 msgid "Themes give your WordPress style. Once a theme is installed, you may preview it, activate it or deactivate it here."
-msgstr "Плагины расширяют и дополняют функциональность WordPress. После установки плагина вы можете включить/отключить его здесь."
+msgstr "Темы придают вашему блогу стиль. После установки темы можно просмотреть, активировать или деактивировать её здесь."
 
 #: wp-admin/themes.php:56
 #, php-format
 msgid "You can find additional themes for your site by using the new <a href=\"%1$s\">Theme Browser/Installer</a> functionality or by browsing the <a href=\"http://wordpress.org/extend/themes/\">WordPress Theme Directory</a> directly and installing manually.  To install a theme <em>manually</em>, <a href=\"%2$s\">upload its ZIP archive with the new uploader</a> or copy its folder via FTP into your <code>wp-content/themes</code> directory."
-msgstr "Вы можете найти дополнительные плагины с помощью новой возможности <a href=\"%1$s\">просмотра и установки тем</a>, либо просматривая <a href=\"http://wordpress.org/extend/plugins/\">каталог плагинов</a> напрямую и устанавливая их самостоятельно. Чтобы установить тему <em>вручную</em>, <a href=\"%2$s\">загрузите ZIP-архив при помощи нового загрузчика</a> или скопируйте его папки через FTP в <code>wp-content/themes</code>."
+msgstr "Вы можете найти дополнительные темы с помощью новой возможности <a href=\"%1$s\">просмотра и установки тем</a>, либо просматривая <a href=\"http://wordpress.org/extend/themes/\">каталог тем</a> напрямую и устанавливая их самостоятельно. Чтобы установить тему <em>вручную</em>, <a href=\"%2$s\">загрузите её ZIP-архив при помощи нового загрузчика</a> или скопируйте её папку через FTP в директорию <code>wp-content/themes</code>."
 
 #: wp-admin/themes.php:57
 msgid "Once a theme is uploaded, you should see it on this page."
@@ -10928,7 +10928,7 @@ msgstr "Доступные темы"
 #: wp-admin/themes.php:236
 #, php-format
 msgid "Preview of &#8220;%s&#8221;"
-msgstr "Предпросмотр &#8220;%s&#8221;"
+msgstr "Просмотр &laquo;%s&raquo;"
 
 #: wp-admin/themes.php:245
 #, php-format
@@ -10936,8 +10936,8 @@ msgid ""
 "You are about to delete this theme '%s'\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Вы собираетесь удалить тему '%s'\n"
-" 'Отмена' - оставить, 'OK' - удалить."
+"Вы собираетесь удалить тему «%s»\n"
+"  «Отмена» — оставить, «OK» — удалить."
 
 #: wp-admin/themes.php:276
 msgid "You only have one theme installed at the moment so there is nothing to show you here.  Maybe you should download some more to try out."
@@ -11113,7 +11113,7 @@ msgstr "Это локализованная версия содержит пер
 #: wp-admin/update-core.php:57
 #, php-format
 msgid "You are about to install WordPress %s <strong>in English.</strong> There is a chance this upgrade will break your translation. You may prefer to wait for the localized version to be released."
-msgstr "Вы установили <strong>английский</strong> l WordPress %s. Есть шанс, что обновление повредит вашему переводу. Возможно, вы захотите дождаться выхода локализованной версии."
+msgstr "Вы собираетесь установить <strong>английский</strong> WordPress %s. Скорее всего, обновление повредит переводу. Возможно, стоит дождаться выхода локализованной версии."
 
 #: wp-admin/update-core.php:67
 #: wp-admin/update-core.php:79
@@ -11166,15 +11166,15 @@ msgstr "Запрос не выполнен."
 
 #: wp-admin/update.php:49
 msgid "Plugin Reactivation"
-msgstr "Реактивация плагина"
+msgstr "Повторная активация плагина"
 
 #: wp-admin/update.php:51
 msgid "Plugin reactivated successfully."
-msgstr "Плагин успешно реактивирован."
+msgstr "Плагин успешно активирован."
 
 #: wp-admin/update.php:54
 msgid "Plugin failed to reactivate due to a fatal error."
-msgstr "Плагин не был реактивирован из-за фатальной ошибки."
+msgstr "Плагин не был активирован из-за фатальной ошибки."
 
 #: wp-admin/update.php:63
 #: wp-admin/update.php:91
@@ -11298,7 +11298,7 @@ msgid "Reattached %d attachment"
 msgid_plural "Reattached %d attachments"
 msgstr[0] "Заново прикреплено %d вложение"
 msgstr[1] "Заново прикреплены %d вложения"
-msgstr[2] "Заново прикреплено %d вложений"
+msgstr[2] "Заново прикреплены %d вложений"
 
 #: wp-admin/upload.php:154
 msgid "Media deleted."
@@ -11335,7 +11335,7 @@ msgstr "Искать потерянные вложения"
 #: wp-admin/upload.php:314
 msgctxt "media column name"
 msgid "Media"
-msgstr "Медиафайлы"
+msgstr "Медиафайл"
 
 #. translators: column name in media
 #: wp-admin/upload.php:305
@@ -11349,7 +11349,7 @@ msgstr "Автор"
 #: wp-admin/upload.php:316
 msgctxt "media column name"
 msgid "Date Added"
-msgstr "Дата добавлена"
+msgstr "Добавлен"
 
 #: wp-admin/upload.php:347
 msgid "Attach"
@@ -11450,7 +11450,7 @@ msgstr "(обязательно)"
 
 #: wp-admin/user-edit.php:244
 msgid "Display name publicly as"
-msgstr "Всем показывать как"
+msgstr "Отображать как"
 
 #: wp-admin/user-edit.php:273
 msgid "Contact Info"
@@ -11683,7 +11683,7 @@ msgid "%s user deleted"
 msgid_plural "%s users deleted"
 msgstr[0] "%s пользователь удалён"
 msgstr[1] "%s пользователя удалены"
-msgstr[2] "%s пользователей удалено"
+msgstr[2] "%s пользователей удалены"
 
 #: wp-admin/users.php:209
 msgid "New user created."
@@ -12165,7 +12165,7 @@ msgstr "blog_id для консоли должен указывать на су�
 
 #: wp-admin/wpmu-edit.php:83
 msgid "My Dashboard"
-msgstr "Моя Консоль"
+msgstr "Моя консоль"
 
 #: wp-admin/wpmu-edit.php:142
 msgid "Missing blog address or email address."
@@ -12611,7 +12611,7 @@ msgstr "Извините, обсуждение этой записи закры�
 
 #: wp-comments-post.php:58
 msgid "Sorry, you must be logged in to post a comment."
-msgstr "Извините, вы должны авторизоваться для отправки комментария."
+msgstr "Извините, для отправки комментария вы должны авторизоваться."
 
 #: wp-comments-post.php:65
 msgid "Error: please fill the required fields (name, email)."
@@ -12735,7 +12735,7 @@ msgstr "<abbr title=\"Universal Resource Locator\">URL</abbr> обратной �
 #: wp-content/themes/classic/comments.php:45
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Вы должны <a href=\"%s\">авторизоваться</a> для отправки комментария."
+msgstr "Для отправки комментария вы должны <a href=\"%s\">авторизоваться</a>."
 
 #: wp-content/themes/classic/comments.php:60
 msgid "Mail (will not be published)"
@@ -13126,7 +13126,7 @@ msgstr "Нажмите, чтобы отменить ответ."
 
 #: wp-includes/comment-template.php:1142
 msgid "Leave a Reply"
-msgstr "Оставить комментарий"
+msgstr "Ответить"
 
 #: wp-includes/comment-template.php:1143
 #, php-format
@@ -13220,23 +13220,23 @@ msgstr "Все ссылки"
 
 #: wp-includes/default-widgets.php:142
 msgid "Select Link Category"
-msgstr "Выберите рубрику ссылки"
+msgstr "Выберите рубрику ссылок"
 
 #: wp-includes/default-widgets.php:155
 msgid "Show Link Image"
-msgstr "Показывать изображение"
+msgstr "Показывать изображения"
 
 #: wp-includes/default-widgets.php:157
 msgid "Show Link Name"
-msgstr "Показывать названия ссылки"
+msgstr "Показывать названия ссылок"
 
 #: wp-includes/default-widgets.php:159
 msgid "Show Link Description"
-msgstr "Показывать описания ссылки"
+msgstr "Показывать описания ссылок"
 
 #: wp-includes/default-widgets.php:161
 msgid "Show Link Rating"
-msgstr "Показывать рейтинг ссылки"
+msgstr "Показывать рейтинг ссылок"
 
 #: wp-includes/default-widgets.php:175
 msgid "A search form for your blog"
@@ -13340,7 +13340,7 @@ msgstr "Самые свежие комментарии"
 #, php-format
 msgctxt "widgets"
 msgid "%1$s on %2$s"
-msgstr "%1$s на %2$s"
+msgstr "%1$s к записи %2$s"
 
 #: wp-includes/default-widgets.php:673
 msgid "Number of comments to show:"
@@ -13449,13 +13449,13 @@ msgstr "Скрытые комментарии: введите пароль дл�
 #: wp-includes/formatting.php:37
 msgctxt "opening curly quote"
 msgid "&#8220;"
-msgstr "&#8220;"
+msgstr "&laquo;"
 
 #. translators: closing curly quote
 #: wp-includes/formatting.php:39
 msgctxt "closing curly quote"
 msgid "&#8221;"
-msgstr "&#8221;"
+msgstr "&raquo;"
 
 #: wp-includes/formatting.php:1661
 #, php-format
@@ -13548,7 +13548,7 @@ msgstr "Попытка удалить этот комментарий: &laquo;%s
 #: wp-includes/functions.php:2345
 #, php-format
 msgid "Your attempt to unapprove this comment: &#8220;%s&#8221; has failed."
-msgstr "Попытка отменить проверку этого комментария: &laquo;%s&raquo; не удалась."
+msgstr "Попытка отклонить этот комментарий: &laquo;%s&raquo; не удалась."
 
 #: wp-includes/functions.php:2346
 #, php-format
@@ -13608,12 +13608,12 @@ msgstr "Попытка изменить файл плагина: &laquo;%s&raquo
 #: wp-includes/functions.php:2361
 #, php-format
 msgid "Your attempt to activate this plugin: &#8220;%s&#8221; has failed."
-msgstr "Попытка включить этот плагин: &laquo;%s&raquo; не удалась."
+msgstr "Попытка активировать этот плагин: &laquo;%s&raquo; не удалась."
 
 #: wp-includes/functions.php:2362
 #, php-format
 msgid "Your attempt to deactivate this plugin: &#8220;%s&#8221; has failed."
-msgstr "Попытка отключить этот плагин: &laquo;%s&raquo; не удалась."
+msgstr "Попытка деактивировать этот плагин: &laquo;%s&raquo; не удалась."
 
 #: wp-includes/functions.php:2363
 #, php-format
@@ -13824,7 +13824,7 @@ msgstr "Лента %1$s %2$s записей от %3$s"
 #: wp-includes/general-template.php:1490
 #, php-format
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
-msgstr "Лента %1$s %2$s результатов поиска &#8220;%3$s&#8221;"
+msgstr "Лента %1$s %2$s результатов поиска &laquo;%3$s&raquo;"
 
 #: wp-includes/general-template.php:1806
 msgid "&laquo; Previous"
@@ -13837,7 +13837,7 @@ msgstr "Далее &raquo;"
 
 #: wp-includes/http.php:242
 msgid "User has blocked requests through HTTP."
-msgstr "Пользователь заблокировал запросы через HTTP."
+msgstr "Пользователь заблокировал HTTP-запросы."
 
 #: wp-includes/http.php:723
 #: wp-includes/http.php:1341
@@ -14203,13 +14203,13 @@ msgstr "Найти/Заменить"
 #: wp-includes/js/tinymce/langs/wp-langs.php:219
 #: wp-includes/js/tinymce/langs/wp-langs.php:273
 msgid "Insert/edit image"
-msgstr "Вставить/редактировать картинку"
+msgstr "Вставить/изменить картинку"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:100
 #: wp-includes/js/tinymce/langs/wp-langs.php:215
 #: wp-includes/js/tinymce/langs/wp-langs.php:290
 msgid "Insert/edit link"
-msgstr "Вставить/редактировать ссылку"
+msgstr "Вставить/изменить ссылку"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:103
 msgid "Citation"
@@ -15490,7 +15490,7 @@ msgstr "Изменить метку"
 
 #: wp-includes/link-template.php:821
 msgid "Edit link"
-msgstr "Редактировать ссылку"
+msgstr "Изменить ссылку"
 
 #: wp-includes/link-template.php:942
 #: wp-includes/link-template.php:1206
@@ -15701,7 +15701,7 @@ msgstr "Спам: %s"
 #: wp-includes/pluggable.php:1071
 #, php-format
 msgid "A new trackback on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "Новая обратная ссылка к записи #%1$s \"%2$s\" ожидает одобрения"
+msgstr "Новая обратная ссылка к записи #%1$s \"%2$s\" ожидает проверки"
 
 #: wp-includes/pluggable.php:1073
 #: wp-includes/pluggable.php:1080
@@ -15716,7 +15716,7 @@ msgstr "Начало обратной ссылки: "
 #: wp-includes/pluggable.php:1078
 #, php-format
 msgid "A new pingback on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "Новое уведомление к записи #%1$s \"%2$s\" ожидает одобрения"
+msgstr "Новое уведомление к записи #%1$s \"%2$s\" ожидает проверки"
 
 #: wp-includes/pluggable.php:1082
 msgid "Pingback excerpt: "
@@ -15725,7 +15725,7 @@ msgstr "Начало уведомления:"
 #: wp-includes/pluggable.php:1085
 #, php-format
 msgid "A new comment on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "Новый комментарий к записи #%1$s \"%2$s\" ожидает одобрения"
+msgstr "Новый комментарий к записи #%1$s \"%2$s\" ожидает проверки"
 
 #: wp-includes/pluggable.php:1095
 #, php-format
@@ -16707,7 +16707,7 @@ msgstr "Пароль будет отправлен вам на e-mail."
 #: wp-login.php:528
 #: wp-login.php:530
 msgid "Password Lost and Found"
-msgstr "Пароль потерян и восстановлен"
+msgstr "Восстановление пароля"
 
 #: wp-login.php:428
 #: wp-login.php:528
@@ -17095,7 +17095,7 @@ msgstr "Извините, комментарий не удалось измен�
 
 #: xmlrpc.php:1272
 msgid "You must be registered to comment"
-msgstr "Вы должны зарегистироваться для отправки комментария"
+msgstr "Для отправки комментария вы должны зарегистрироваться"
 
 #: xmlrpc.php:1285
 #: xmlrpc.php:1288

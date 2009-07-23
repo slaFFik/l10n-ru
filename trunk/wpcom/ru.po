@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: support@wordpress.com\n"
 "POT-Creation-Date: 2009-07-13 10:09+0000\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Sol <salpagarov@gmail.com>\n"
+"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: l10n-ru <salpagarov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -9169,7 +9169,7 @@ msgstr "Импорт записей из LiveJournal с помощью их API.
 
 #: wp-admin/import/mt.php:28
 msgid "Import Movable Type or TypePad"
-msgstr "Импорт из Movable Type и Typepad"
+msgstr "Импорт из Movable Type и TypePad"
 
 #: wp-admin/import/mt.php:39
 msgid "Howdy! We&#8217;re about to begin importing all of your Movable Type or TypePad entries into WordPress. To begin, choose a file to upload and click Upload file and import."
@@ -9462,7 +9462,7 @@ msgstr "Начать импорт заново &raquo;"
 
 #: wp-admin/import/wordpress.php:37
 msgid "Import WordPress"
-msgstr "Импорт из Wordpress"
+msgstr "Импорт из WordPress"
 
 #: wp-admin/import/wordpress.php:52
 msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this blog."
@@ -13008,7 +13008,7 @@ msgstr "9"
 
 #: wp-admin/includes/media.php:1698
 msgid "Insert gallery"
-msgstr "Вставить галереию"
+msgstr "Вставить галерею"
 
 #: wp-admin/includes/media.php:1699
 msgid "Update gallery settings"
@@ -14734,11 +14734,11 @@ msgstr "Разбивать комментарии на страницы по %1$
 
 #: wp-admin/options-discussion.php:95
 msgid "older"
-msgstr "поздние"
+msgstr "ранние"
 
 #: wp-admin/options-discussion.php:97
 msgid "newer"
-msgstr "ранние"
+msgstr "поздние"
 
 #: wp-admin/options-discussion.php:99
 #, php-format
@@ -14954,7 +14954,7 @@ msgstr "К сожалению, при переходе на летнее вре�
 #: wp-admin/options-general.php:202
 #, php-format
 msgid "Local time is <code>%1$s</code>"
-msgstr "Местное время <code>%1$s</code>"
+msgstr "Местное время: <code>%1$s</code>"
 
 #: wp-admin/options-general.php:205
 #, fuzzy
@@ -15816,7 +15816,7 @@ msgstr "Обновить"
 #: wp-content/themes/pub/p2/inc/js.php:36
 #: wp-content/themes/pub/p2/post-form.php:24
 msgid "Loading..."
-msgstr "Загрузка..."
+msgstr "Загрузка&hellip;"
 
 #: wp-admin/press-this.php:472
 #: wp-content/themes/h4/header.php:33
@@ -34618,7 +34618,7 @@ msgstr ""
 #: wp-includes/wpmu-functions.php:1402
 #, php-format
 msgid "New %1$s Blog: %2$s"
-msgstr "На сайте %1$s новый блог: %2$s "
+msgstr "На сайте %1$s создан новый блог: %2$s "
 
 #: wp-includes/wp-includes/wpmu-functions.php:1370
 #: wp-includes/wpmu-functions.php:1409

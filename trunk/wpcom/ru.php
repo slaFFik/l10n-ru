@@ -9,5 +9,5 @@ function ru_accomodate_markup() {
 
     wp_print_styles();
 }
-add_action('admin_head', 'ru_accomodate_markup', 11);
+add_action('admin_head', 'ru_accomodate_markup');
 ?>
