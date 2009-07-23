@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: WordPress MU 2.8.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-07-21 13:11+0000\n"
-"PO-Revision-Date: 2009-07-23 17:29+0300\n"
+"PO-Revision-Date: 2009-07-24 01:04+0300\n"
 "Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
-"Language-Team: ru.wordpress.org <team@wordpress-russia.org>\n"
+"Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;_c;__ngettext_noop;__ngettext:1,2\n"
-"X-Poedit-Basepath: D:\\projects\\automattic\\wordpress-mu\\tags\\2.8.2\n"
-"X-Poedit-SearchPath-0: D:\\projects\\automattic\\wordpress-mu\\tags\\2.8.2\n"
+"X-Poedit-Basepath: S:\\home\\wordpress\\mu\n"
+"X-Poedit-SearchPath-0: S:\\home\\wordpress\\l10n-ru\\trunk\\wordpress-mu\n"
 
 #: wp-activate.php:34
 msgid "Activation Key Required"
@@ -37,7 +37,7 @@ msgstr "Ваша учётная запись активирована!"
 #: wp-activate.php:56
 #, php-format
 msgid "<p class=\"lead-in\">Your account has been activated. You may now <a href=\"%1$s\">login</a> to the site using your chosen username of \"%2$s\".  Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>.</p>"
-msgstr "<p class=\"lead-in\">Ваша учетная запись активирована. Вы можете теперь <a href=\"%1$s\">войти</a> на сайт, используя выбранный логин (%2$s).  Пожалуйста, проверьте почту %3$s, там будут пароль и инструкции для входа. Если вы не получили письмо, проверьте корзину или папку со спамом. Если в течение часа вы так и не получите письмо, вы можете <a href=\"%4$s\">сбросить ваш пароль</a>.</p>"
+msgstr "<p class=\"lead-in\">Ваша учётная запись активирована. Вы можете теперь <a href=\"%1$s\">войти</a> на сайт, используя выбранный логин (%2$s).  Пожалуйста, проверьте почту %3$s, там будут пароль и инструкции для входа. Если вы не получили письмо, проверьте корзину или папку со спамом. Если в течение часа вы так и не получите письмо, вы можете <a href=\"%4$s\">сбросить ваш пароль</a>.</p>"
 
 #: wp-activate.php:58
 #, php-format
@@ -63,12 +63,12 @@ msgstr "Пароль:"
 #: wp-activate.php:79
 #, php-format
 msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a href=\"%2$s\">Login</a>"
-msgstr "Ваша учетная запись активирована. Можно <a href=\"%1$s\">перейти на ваш сайт</a> или <a href=\"%2$s\">авторизоваться</a>"
+msgstr "Ваша учётная запись активирована. Можно <a href=\"%1$s\">перейти на ваш сайт</a> или <a href=\"%2$s\">авторизоваться</a>"
 
 #: wp-activate.php:81
 #, php-format
 msgid "Your account is now activated. <a href=\"%1$s\">Login</a> or go back to the <a href=\"%2$s\">homepage</a>."
-msgstr "Ваша учетная запись активирована. Можно <a href=\"%1$s\">войти</a> или вернуться на <a href=\"%2$s\">главную страницу</a>."
+msgstr "Ваша учётная запись активирована. Можно <a href=\"%1$s\">войти</a> или вернуться на <a href=\"%2$s\">главную страницу</a>."
 
 #: wp-admin/admin-ajax.php:31
 #, php-format
@@ -1528,7 +1528,7 @@ msgstr "Добавить"
 #: wp-admin/edit-form-advanced.php:292
 #, php-format
 msgid "Choose from the most used tags in %s"
-msgstr "Выберите тэг из наиболее используемых в %s"
+msgstr "Выберите метку из наиболее часто используемых в блоке &laquo;%s&raquo;"
 
 #: wp-admin/edit-form-advanced.php:316
 #: wp-admin/edit-link-form.php:117
@@ -1587,7 +1587,7 @@ msgstr "Цитата"
 
 #: wp-admin/edit-form-advanced.php:375
 msgid "Excerpts are optional hand-crafted summaries of your content that can be used in your theme. <a href=\"http://codex.wordpress.org/Excerpt\" target=\"_blank\">Learn more about manual excerpts.</a>"
-msgstr "Цитата &#8212; необязательное краткое содержание вашего текста, которое можно <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">использовать в вашем шаблоне</a>."
+msgstr "Цитата &#8212; необязательное краткое содержание вашего текста, которое можно использовать в вашем шаблоне. <a href=\"http://codex.wordpress.org/Excerpt\" target=\"_blank\">Узнать больше.</a>"
 
 #: wp-admin/edit-form-advanced.php:390
 msgid "Already pinged:"
@@ -3366,7 +3366,7 @@ msgstr "Если у вас в LiveJournal есть записи, помечен�
 
 #: wp-admin/import/livejournal.php:212
 msgid "If you don&#8217;t enter a password, ALL ENTRIES from your LiveJournal will be imported as public posts in WordPress."
-msgstr "Если вы не введете пароль, ВСЕ ЗАПИСИ из вашего ЖЖ будут импортированы в WordPress как открытые записи."
+msgstr "Если вы не введёте пароль, ВСЕ ЗАПИСИ из вашего ЖЖ будут импортированы в WordPress как открытые записи."
 
 #: wp-admin/import/livejournal.php:213
 msgid "Enter the password you would like to use for all protected entries here:"
@@ -3374,7 +3374,7 @@ msgstr "Введите пароль, которым вы хотите закры
 
 #: wp-admin/import/livejournal.php:217
 msgid "Protected Post Password"
-msgstr "Пароль защищенной страницы"
+msgstr "Пароль защищённой страницы"
 
 #: wp-admin/import/livejournal.php:223
 msgid "<strong>WARNING:</strong> This can take a really long time if you have a lot of entries in your LiveJournal, or a lot of comments. Ideally, you should only start this process if you can leave your computer alone while it finishes the import."
@@ -3390,7 +3390,7 @@ msgstr "<strong>ЗАМЕЧАНИЕ:</strong> Если процесс импор�
 
 #: wp-admin/import/livejournal.php:232
 msgid "<strong>NOTE:</strong> You appear to have JavaScript disabled, so you will need to manually click through each step of this importer. If you enable JavaScript, it will step through automatically."
-msgstr "<strong>ЗАМЕЧАНИЕ:</strong>JavaScript отключен, поэтому вам потребуется вручную проходить каждый шаг импорта. Если вы разрешите JavaScript, эти шаги будут происходить автоматически."
+msgstr "<strong>ЗАМЕЧАНИЕ:</strong>JavaScript отключён, поэтому вам потребуется вручную проходить каждый шаг импорта. Если вы разрешите JavaScript, эти шаги будут происходить автоматически."
 
 #: wp-admin/import/livejournal.php:277
 msgid "Post metadata has been downloaded, proceeding with posts..."
@@ -3481,12 +3481,12 @@ msgstr "Ой-ой &#8212; LiveJournal отключил нас из-за боль
 
 #: wp-admin/import/livejournal.php:804
 msgid "We&#8217;ve saved where you were up to though, so if you come back to this importer in about 30 minutes, you should be able to continue from where you were."
-msgstr "Мы запомнили, где сейчас были, так что если вы вернетесь обратно к импортированию в ближайшие 30 минут, можно будет продолжить с этого места."
+msgstr "Мы запомнили, где сейчас были, так что если вы вернётесь обратно к импортированию в ближайшие 30 минут, можно будет продолжить с этого места."
 
 #: wp-admin/import/livejournal.php:806
 #: wp-admin/import/livejournal.php:936
 msgid "Try Again"
-msgstr "Попробуйте снова"
+msgstr "Попробуйте ещё раз"
 
 #: wp-admin/import/livejournal.php:819
 #: wp-admin/import/livejournal.php:869
@@ -3528,7 +3528,7 @@ msgstr "Ветвление комментариев"
 
 #: wp-admin/import/livejournal.php:889
 msgid "We are now re-building the threading of your comments (this can also take a while if you have lots of comments)..."
-msgstr "Теперь мы перестраиваем ветки ваших комментариев (это займет какое-то время если у вам много комментариев)..."
+msgstr "Теперь мы перестраиваем ветки ваших комментариев (это займёт какое-то время, если у вас много комментариев)&hellip;"
 
 #: wp-admin/import/livejournal.php:926
 #, php-format
@@ -3575,7 +3575,7 @@ msgstr "Импортировать mt-export.txt"
 
 #: wp-admin/import/mt.php:52
 msgid "The importer is smart enough not to import duplicates, so you can run this multiple times without worry if&#8212;for whatever reason&#8212;it doesn&#8217;t finish. If you get an <strong>out of memory</strong> error try splitting up the import file into pieces."
-msgstr "Скрипт импорта достаточно умен и не импортирует дубликаты записей, поэтому можете не беспокоиться, если запустите его несколько раз. Если вышла ошибка <strong>out of memory</strong> попробуйте разбить файл импорта на несколько частей."
+msgstr "Скрипт импорта достаточно умён и не импортирует дубликаты записей, поэтому можете не беспокоиться, если запустите его несколько раз. Если вышла ошибка <strong>out of memory</strong> попробуйте разбить файл импорта на несколько частей."
 
 #: wp-admin/import/mt.php:62
 #: wp-admin/import/wordpress.php:256
@@ -4477,7 +4477,7 @@ msgstr "Вернуться к установщику плагинов"
 #: wp-admin/includes/class-wp-upgrader.php:928
 #, php-format
 msgid "Successfully installed the theme <strong>%1$s %2$s</strong>."
-msgstr "Тема <strong>%s %s</strong> успешно установлена."
+msgstr "Тема <strong>%1$s %2$s</strong> успешно установлена."
 
 #: wp-admin/includes/class-wp-upgrader.php:947
 #: wp-admin/includes/class-wp-upgrader.php:1004
@@ -4561,7 +4561,7 @@ msgstr "Алжир"
 
 #: wp-admin/includes/continents-cities.php:12
 msgid "Asmara"
-msgstr "Асмара"
+msgstr "Асмэра"
 
 #: wp-admin/includes/continents-cities.php:13
 msgid "Asmera"
@@ -6098,7 +6098,7 @@ msgstr "Будапешт"
 
 #: wp-admin/includes/continents-cities.php:395
 msgid "Chisinau"
-msgstr "Кишинев"
+msgstr "Кишинёв"
 
 #: wp-admin/includes/continents-cities.php:396
 msgid "Copenhagen"
@@ -7619,7 +7619,7 @@ msgstr ""
 "Дорогой пользователь,\n"
 "\n"
 "\n"
-"Недавно вы запросили смену электронного адреса вашей учетной записи \n"
+"Недавно вы запросили смену электронного адреса вашей учётной записи \n"
 "\n"
 "Если это так, пожалуйста, перейдите по этой ссылке, чтобы изменить его:\n"
 "\n"
@@ -7645,7 +7645,7 @@ msgstr "[%s] Новый адрес"
 #: wp-admin/includes/mu.php:323
 #, php-format
 msgid "Your email address has not been updated yet. Please check your inbox at %s for a confirmation email."
-msgstr "Ваш email не был обновлен. Пожалуйста проверьте ваш почтовый ящик на %s на предмет письма с подтверждением."
+msgstr "Ваш e-mail не был обновлён. Пожалуйста, проверьте почтовый ящик %s на предмет письма с подтверждением."
 
 #: wp-admin/includes/mu.php:366
 msgid "GB"
@@ -7691,7 +7691,7 @@ msgstr "МБ (оставьте пустым для значения по умо�
 
 #: wp-admin/includes/mu.php:473
 msgid "Sorry, you must delete files before you can upload any more."
-msgstr "Извините, вам придется удалить файлы перед тем, как вы сможете загружать что-то еще."
+msgstr "Извините, вам придётся удалить файлы перед тем, как вы сможете загружать что-то ещё."
 
 #: wp-admin/includes/mu.php:511
 #: wp-admin/menu.php:309
@@ -7759,7 +7759,7 @@ msgstr "Добавить медиафайл: %s"
 #: wp-admin/includes/mu.php:666
 #, php-format
 msgid "Warning! WordPress encrypts user cookies, but you must add the following lines to <strong>%swp-config.php</strong> for it to be more secure.<br />Please add the code before the line, <code>/* That's all, stop editing! Happy blogging. */</code>"
-msgstr "Внимание! WordPress шифрует файлы, но вы должны добавить следующие строки в <strong>%swp-config.php</strong> для корректной работы.<br />Пожалуйста, добавьте следующий код перед строчкой <code>/* Это все, дальше не редактируем. Успехов! */</code>"
+msgstr "Внимание! WordPress шифрует файлы, но вы должны добавить следующие строки в <strong>%swp-config.php</strong> для корректной работы.<br />Пожалуйста, добавьте следующий код перед строчкой <code>/* Это всё, дальше не редактируем. Успехов! */</code>"
 
 #: wp-admin/includes/mu.php:713
 msgid "something"
@@ -7865,7 +7865,7 @@ msgstr "Основной блог"
 
 #: wp-admin/includes/mu.php:1184
 msgid "Warning! Only site administrators may see this page. Everyone else will see a <em>page disabled</em> message. Enable it again on <a href=\"wpmu-options.php#addnewusers\">the options page</a>."
-msgstr "Внимание! Только администратор сайта может видеть эту страницу. Все прочие увидят <em>сообщение о закрытой странице</em>. Включите ее снова на <a href=\"wpmu-options.php#addnewusers\">странице настроек</a>."
+msgstr "Внимание! Только администратор сайта может видеть эту страницу. Все прочие увидят <em>сообщение о закрытой странице</em>. Включите её снова на <a href=\"wpmu-options.php#addnewusers\">странице настроек</a>."
 
 #: wp-admin/includes/mu.php:1186
 #: wp-admin/includes/mu.php:1193
@@ -8866,7 +8866,7 @@ msgstr "На экране отображаются"
 #: wp-admin/includes/template.php:3517
 #, php-format
 msgid "Get help with &#8220;%s&#8221;"
-msgstr "Получить помощь относительно &laquo;%s&raquo;"
+msgstr "Помощь по странице &laquo;%s&raquo;"
 
 #: wp-admin/includes/template.php:3519
 msgid "Get help with this page"
@@ -8963,7 +8963,7 @@ msgstr "Комментариев на страницу:"
 
 #: wp-admin/includes/template.php:3633
 msgid "Media items per page:"
-msgstr "Элементов на страницу:"
+msgstr "Медиафайлов на страницу:"
 
 #: wp-admin/includes/template.php:3636
 msgid "Categories per page:"
@@ -9000,7 +9000,7 @@ msgstr "Фильтр характеристик"
 
 #: wp-admin/includes/theme-install.php:178
 msgid "Find a theme based on specific features"
-msgstr "Поиск тем по определенным особенностям"
+msgstr "Поиск тем по определённым особенностям"
 
 #: wp-admin/includes/theme-install.php:182
 msgid "Colors"
@@ -9443,7 +9443,7 @@ msgid ""
 "Notice: you're using the auto-generated password for your account. Would you like to change it to something you'll remember easier?<br />\n"
 "\t\t\t  <a href='%s'>Yes, Take me to my profile page</a> | <a href='%s' id='default-password-nag-no'>No Thanks, Do not remind me again.</a>"
 msgstr ""
-"Предупреждение: вы используете автоматически созданный пароль для учетной записи. Хотите сменить его на что-то более легко запоминаемое?<br />\n"
+"Предупреждение: вы используете автоматически созданный пароль для учётной записи. Хотите сменить его на что-то более легко запоминаемое?<br />\n"
 "\t\t\t  <a href='%s'>Да, перейти на личную страницу</a> | <a href='%s' id='default-password-nag-no'>Нет, спасибо. Больше не напоминайте мне об этом.</a>"
 
 #: wp-admin/includes/widgets.php:179
@@ -9980,7 +9980,7 @@ msgstr "Этот адрес может использоваться только
 
 #: wp-admin/options-general.php:74
 msgid "If you change this we will send you an email at your new address to confirm it. <strong>The new address will not become active until confirmed.</strong>"
-msgstr "Если вы измените его, мы пошлем письмо на ваш новый адрес, чтобы подтвердить его. <strong>Новый адрес не будет активирован до подтверждения.</strong>"
+msgstr "Если вы измените его, мы пошлём письмо на ваш новый адрес, чтобы подтвердить его. <strong>Новый адрес не будет активирован до подтверждения.</strong>"
 
 #: wp-admin/options-general.php:80
 #: wp-admin/options-general.php:124
@@ -10200,7 +10200,7 @@ msgstr "Префикс для меток"
 
 #: wp-admin/options-permalink.php:237
 msgid "If your <code>web.config</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so this is the url rewrite rule you should have in your <code>web.config</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all. Then insert this rule inside of the <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> element in <code>web.config</code> file."
-msgstr "Если ваш файл <code>web.config</code> был бы <a href=\"http://codex.wordpress.org/Права_Доступа_К_Файлам\">записываемым</a>, мы сделали бы это автоматически, но это не так, поэтому эти правила преобразования ссылок вы должны сами вписать в ваш файл <code>web.config</code>. Щелкните по этому полю и нажмите <kbd>CTRL + a</kbd> чтобы выбрать все. Затем вставьте эти правила внутрь элемента <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> в файле <code>web.config</code>."
+msgstr "Если ваш файл <code>web.config</code> был бы <a href=\"http://codex.wordpress.org/Права_Доступа_К_Файлам\">записываемым</a>, мы сделали бы это автоматически, но это не так, поэтому эти правила преобразования ссылок вы должны сами вписать в ваш файл <code>web.config</code>. Щёлкните по этому полю и нажмите <kbd>CTRL + a</kbd> чтобы выбрать все. Затем вставьте эти правила внутрь элемента <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> в файле <code>web.config</code>."
 
 #: wp-admin/options-permalink.php:242
 msgid "If you temporarily make your <code>web.config</code> file writable for us to generate rewrite rules automatically, do not forget to revert the permissions after rule has been saved."
@@ -10941,7 +10941,7 @@ msgstr ""
 
 #: wp-admin/themes.php:276
 msgid "You only have one theme installed at the moment so there is nothing to show you here.  Maybe you should download some more to try out."
-msgstr "Сейчас у вас есть только одна установленная тема, так что здесь нечего показывать. Может быть вы скачаете что-то еще на пробу."
+msgstr "Сейчас у вас есть только одна установленная тема, так что здесь нечего показывать. Может быть вы скачаете что-то ещё на пробу."
 
 #: wp-admin/themes.php:295
 msgid "Broken Themes"
@@ -11007,7 +11007,7 @@ msgstr "Включить Gears"
 
 #: wp-admin/tools.php:48
 msgid "Gears is installed and enabled on this computer. You can disable it from the Under the Hood tab in Chrome&#8217;s Options menu."
-msgstr "Gears установлен и разрешён к использованию. Отключить его можно на вкладке &laquo;Расширенные&raquo; в меню \"Параметры\" Chrome."
+msgstr "Gears установлен и разрешён к использованию. Отключить его можно на вкладке &laquo;Расширенные&raquo; в меню &laquo;Параметры&raquo; Chrome."
 
 #: wp-admin/tools.php:50
 msgid "Gears is installed and enabled on this computer. You can disable it from the Safari menu."
@@ -11236,7 +11236,7 @@ msgstr "Требуется обновление базы данных"
 
 #: wp-admin/upgrade.php:64
 msgid "WordPress has been updated! Before we send you on your way, we have to upgrade your database to the newest version."
-msgstr "WordPress был обновлен! Прежде чем мы пропустим вас дальше, мы обновим базу данных до самой новой версии."
+msgstr "WordPress был обновлён! Прежде чем мы пропустим вас дальше, нужно обновить базу данных до самой свежей версии."
 
 #: wp-admin/upgrade.php:65
 msgid "The upgrade process may take a little while, so please be patient."
@@ -11540,7 +11540,7 @@ msgstr ""
 "Если Вы не хотите присоединиться к этому блогу, проигнорируйте\n"
 "это письмоl. Приглашение действительно несколько дней. \n"
 "\n"
-"Пожалуйста, перейдите по следующей ссылке чтобы активировать вашу учетную запись:\n"
+"Пожалуйста, перейдите по следующей ссылке чтобы активировать вашу учётную запись:\n"
 "%%s"
 
 #: wp-admin/user-new.php:39
@@ -11576,7 +11576,7 @@ msgstr "Добавить нового пользователя"
 
 #: wp-admin/user-new.php:100
 msgid "Invitation email sent to new user. A confirmation link must be clicked before their account is created."
-msgstr "Пригласительное письмо отправлено новому пользователю. Ссылка для подтверждения, на которую надо будет перейти перед активацией учетной записи, создана."
+msgstr "Пригласительное письмо отправлено новому пользователю. Ссылка для подтверждения, на которую надо будет перейти перед активацией учётной записи, создана."
 
 #: wp-admin/user-new.php:103
 msgid "Invitation email sent to user. A confirmation link must be clicked for them to be added to your blog."
@@ -11600,7 +11600,7 @@ msgstr "Введите имя пользователя и e-mail существ�
 
 #: wp-admin/user-new.php:145
 msgid "Enter the username and the email address of a person who is not already a member of this site. Choose the username carefully, it cannot be changed."
-msgstr "Введите имя пользователя и e-mail человека, который еще не зарегистрирован на этом сайте. Выбирайте имя аккуратно, его нельзя будет потом изменить."
+msgstr "Введите имя пользователя и e-mail человека, который ещё не зарегистрирован на этом сайте. Выбирайте имя аккуратно, его нельзя будет потом изменить."
 
 #: wp-admin/user-new.php:146
 msgid "That person will be sent an email asking them to click a link confirming the invite. New users will then be sent an email with a randomly generated password and a login link."
@@ -11818,7 +11818,7 @@ msgstr "WordPress MU &rsaquo; Администрирование"
 #: wp-admin/wpmu-upgrade-site.php:10
 #: wp-admin/wpmu-users.php:12
 msgid "You do not have permission to access this page."
-msgstr "<p>Вы не имеете достаточно прав для доступа к данной странице.</p>"
+msgstr "У вас нет прав на доступ к данной странице."
 
 #: wp-admin/wpmu-admin.php:22
 #, php-format
@@ -11879,7 +11879,7 @@ msgstr "Блоги удалены!"
 
 #: wp-admin/wpmu-blogs.php:30
 msgid "Blog deleted !"
-msgstr "Блог удален!"
+msgstr "Блог удалён!"
 
 #: wp-admin/wpmu-blogs.php:33
 msgid "Blog added !"
@@ -12008,7 +12008,7 @@ msgstr "Пользователь"
 
 #: wp-admin/wpmu-blogs.php:247
 msgid "Click to remove user"
-msgstr "Щелкните, чтобы удалить пользователя"
+msgstr "Щёлкните, чтобы удалить пользователя"
 
 #: wp-admin/wpmu-blogs.php:249
 msgid "N/A"
@@ -12270,15 +12270,15 @@ msgstr "Отключено"
 
 #: wp-admin/wpmu-options.php:52
 msgid "Enabled. Blogs and user accounts can be created."
-msgstr "Разрешено все. Можно создавать блоги и учетные записи."
+msgstr "Разрешено. Можно создавать блоги и учётные записи."
 
 #: wp-admin/wpmu-options.php:53
 msgid "Only user account can be created."
-msgstr "Разрешены только пользователи. Можно создавать только учетные записи."
+msgstr "Можно создавать только учётные записи."
 
 #: wp-admin/wpmu-options.php:54
 msgid "Only logged in users can create new blogs."
-msgstr "Разрешены только блоги. Новые блоги могут создавать только авторизованные пользователи."
+msgstr "Только авторизованные пользователи могут создавать новые блоги."
 
 #: wp-admin/wpmu-options.php:55
 msgid "Disable or enable registration and who or what can be registered. (Default=all)"
@@ -12294,15 +12294,15 @@ msgstr "Уведомление о регистрации"
 
 #: wp-admin/wpmu-options.php:71
 msgid "Send the site admin an email notification every time someone registers a blog or user account."
-msgstr "Посылать администраторам сайта почтовые уведомления каждый раз, когда кто-то регистрирует блог или учетную запись."
+msgstr "Посылать администраторам сайта почтовые уведомления каждый раз, когда кто-то регистрирует блог или учётную запись."
 
 #: wp-admin/wpmu-options.php:76
 msgid "Add New Users"
-msgstr "Добавить новых пользователей"
+msgstr "Добавление новых пользователей"
 
 #: wp-admin/wpmu-options.php:81
 msgid "Allow blog administrators to add new users to their blog via the Users->Add New page."
-msgstr "Разрешить администраторам добавлять новых пользователей к своим блогам через страницу Пользователи -> Добавить нового"
+msgstr "Разрешить администраторам добавлять новых пользователей к своим блогам с помощью страницы &laquo;Пользователи > Добавить нового&raquo;."
 
 #: wp-admin/wpmu-options.php:86
 msgid "Dashboard Blog"
@@ -12334,7 +12334,7 @@ msgstr "Ограниченная регистрация"
 
 #: wp-admin/wpmu-options.php:129
 msgid "If you want to limit blog registrations to certain domains. One domain per line."
-msgstr "Если вы хотите разрешить регистрацию только с адресами из определенных доменов. Один домен на строку."
+msgstr "Если вы хотите разрешить регистрацию только с адресами из определённых доменов. Один домен на строку."
 
 #: wp-admin/wpmu-options.php:134
 msgid "Banned Email Domains"
@@ -12342,7 +12342,7 @@ msgstr "Запрещённые домены для e-mail"
 
 #: wp-admin/wpmu-options.php:138
 msgid "If you want to ban certain email domains from blog registrations. One domain per line."
-msgstr "Если вы хотите запретить регистрацию с адресами из определенных доменов. Один домен на строку."
+msgstr "Если вы хотите запретить регистрацию с адресами из определённых доменов. Один домен на строку."
 
 #: wp-admin/wpmu-options.php:143
 msgid "Welcome Email"
@@ -12395,7 +12395,7 @@ msgstr "Лента административных уведомлений"
 
 #: wp-admin/wpmu-options.php:185
 msgid "Display the latest post from this RSS or Atom feed on all blog dashboards. Leave blank to disable."
-msgstr "Отображает свежие записи из ленты в формате RSS или Atom на приборных досках всех блогов. Чтобы отключить, оставьте поле пустым."
+msgstr "Отображает свежие записи из ленты в формате RSS или Atom в консоли всех блогов. Чтобы отключить, оставьте поле пустым."
 
 #: wp-admin/wpmu-options.php:187
 msgid "A good one to use would be the feed from your main blog: "
@@ -12411,7 +12411,7 @@ msgstr "Администраторы сайта"
 
 #: wp-admin/wpmu-options.php:198
 msgid "These users may login to the main blog and administer the site. Space separated list of usernames."
-msgstr "Эти пользователи могут входить на главный блог и администрировать сайт. Список имен, разделенных пробелами."
+msgstr "Эти пользователи могут входить на главный блог и администрировать сайт. Список имён, разделённых пробелами."
 
 #: wp-admin/wpmu-options.php:203
 msgid "Site Wide Settings <em>(These settings may be overridden by blog owners)</em>"
@@ -12448,7 +12448,7 @@ msgstr "Темы сайта"
 
 #: wp-admin/wpmu-themes.php:24
 msgid "Disable themes site-wide. You can enable themes on a blog by blog basis."
-msgstr "Запретить темы на всем сайте. Вы можете разрешить темы для блогов в индивидуальном порядке."
+msgstr "Запретить темы на всём сайте. Вы можете разрешить темы для блогов в индивидуальном порядке."
 
 #: wp-admin/wpmu-themes.php:66
 msgid "Update Themes &raquo;"
@@ -16399,7 +16399,7 @@ msgstr "<h1>Уже установлен</h1><p>У вас уже есть уст�
 
 #: wp-includes/wpmu-functions.php:1420
 msgid "Welcome to <a href=\"SITE_URL\">SITE_NAME</a>. This is your first post. Edit or delete it, then start blogging!"
-msgstr "Добро пожаловать на <a href=\"SITE_URL\">SITE_NAME</a>. Это ваша первая запись. Отредактируйте или удалите ее, затем пишите!"
+msgstr "Добро пожаловать на <a href=\"SITE_URL\">SITE_NAME</a>. Это ваша первая запись. Отредактируйте или удалите её, затем пишите!"
 
 #: wp-includes/wpmu-functions.php:1431
 msgid "hello-world"
@@ -16470,7 +16470,7 @@ msgid ""
 msgstr ""
 "Дорогой пользователь,\n"
 "\n"
-"Ваша учетная запись настроена.\n"
+"Ваша учётная запись настроена.\n"
 "\n"
 "Вы можете войти, используя эту информацию:\n"
 "Логин: USERNAME\n"
@@ -16535,12 +16535,12 @@ msgstr "Удалить мой блог"
 
 #: wp-includes/wpmu-functions.php:1793
 msgid "Thank you. Please check your email for a link to confirm your action. Your blog will not be deleted until this link is clicked."
-msgstr "Спасибо. Пожалуйста, проверьте ваш почтовый ящик на предмет ссылки для подтверждения вашего действия. Блог будет удален, когда вы нажмете на эту ссылку."
+msgstr "Спасибо. Пожалуйста, проверьте ваш почтовый ящик на предмет ссылки для подтверждения вашего действия. Блог будет удалён, когда вы нажмёте на эту ссылку."
 
 #: wp-includes/wpmu-functions.php:1798
 #, php-format
 msgid "Thank you for using %s, your blog has been deleted. Happy trails to you until we meet again."
-msgstr "Спасибо за работу с %s, ваш блог удален. Счастливого пути, и до встречи!"
+msgstr "Спасибо за работу с %s, ваш блог удалён. Счастливого пути, и до встречи!"
 
 #: wp-includes/wpmu-functions.php:1801
 msgid "I'm sorry, the link you clicked is stale. Please select another option."
@@ -16549,7 +16549,7 @@ msgstr "К сожалению, ссылка, по которой вы переш
 #: wp-includes/wpmu-functions.php:1805
 #, php-format
 msgid "If you do not want to use your %s blog any more, you can delete it using the form below. When you click <strong>Delete My Blog</strong> you will be sent an email with a link in it. Click on this link to delete your blog."
-msgstr "Если вы не хотите использовать ваш блог %s, вы можете удалить его с помощью этой формы. Когда вы нажмете <strong>Удалить мой блог</strong>, мы пошлем вам письмо со ссылкой. Перейдите по ней, чтобы удалить блог."
+msgstr "Если вы не хотите использовать ваш блог %s, вы можете удалить его с помощью этой формы. Когда вы нажмёте <strong>Удалить мой блог</strong>, мы пошлём вам письмо со ссылкой. Перейдите по ней, чтобы удалить блог."
 
 #: wp-includes/wpmu-functions.php:1806
 msgid "Remember, once deleted your blog cannot be restored."
@@ -16835,21 +16835,21 @@ msgstr "Адрес&nbsp;e-mail:"
 
 #: wp-signup.php:132
 msgid "(We&#8217;ll send your password to this address, so <strong>triple-check it</strong>.)"
-msgstr "(Мы пошлем Вам пароль почтой, поэтому <strong>трижды перепроверьте его</strong>.)"
+msgstr "(Мы пошлём Вам пароль почтой, поэтому <strong>трижды перепроверьте его</strong>.)"
 
 #: wp-signup.php:157
 #, php-format
 msgid "Get <em>another</em> %s blog in seconds"
-msgstr "Получите <em>еще один</em> %s блог за считанные секунды"
+msgstr "Получите <em>ещё один</em> %s блог за считанные секунды"
 
 #: wp-signup.php:160
 msgid "There was a problem, please correct the form below and try again."
-msgstr "Что-то не получилось. Пожалуйста, исправьте данные в этой форме и попробуйте еще раз."
+msgstr "Что-то не получилось. Пожалуйста, исправьте данные в этой форме и попробуйте ещё раз."
 
 #: wp-signup.php:163
 #, php-format
 msgid "Welcome back, %s. By filling out the form below, you can <strong>add another blog to your account</strong>. There is no limit to the number of blogs you can have, so create to your heart's content, but blog responsibly."
-msgstr "Добро пожаловать обратно, %s. Заполнив форму ниже, вы сможете <strong>добавить еще один блог в вашу учетную запись</strong>. Нет никаких ограничений на количество блогов, которые у вас могут быть, так что создавайте по велению сердца, но к написанию подходите ответственно."
+msgstr "Добро пожаловать обратно, %s. Заполнив форму ниже, вы сможете <strong>добавить ещё один блог в вашу учётную запись</strong>. Нет никаких ограничений на количество блогов, которые у вас могут быть, так что создавайте по велению сердца, но к написанию подходите ответственно."
 
 #: wp-signup.php:169
 msgid "Blogs you are already a member of:"
@@ -16876,7 +16876,7 @@ msgstr "<a href=\"http://%1$s\">http://%2$s</a> &#8212; ваш новый бло
 #: wp-signup.php:241
 #, php-format
 msgid "Get your own %s account in seconds"
-msgstr "Получите вашу собственную учетную запись %s за считанные секунды"
+msgstr "Получите вашу собственную учётную запись %s за считанные секунды"
 
 #: wp-signup.php:254
 msgid "Gimme a blog!"
@@ -16893,7 +16893,7 @@ msgstr "%s &#8212 ваш новый логин"
 
 #: wp-signup.php:289
 msgid "But, before you can start using your new username, <strong>you must activate it</strong>."
-msgstr "Но перед тем, как вы начнете использовать ваше новое имя, <strong>вы должны его активировать</strong>."
+msgstr "Но перед тем, как вы начнёте использовать ваше новое имя, <strong>вы должны его активировать</strong>."
 
 #: wp-signup.php:290
 #, php-format
@@ -16902,7 +16902,7 @@ msgstr "Проверьте почтовый ящик <strong>%1$s</strong> и п
 
 #: wp-signup.php:291
 msgid "If you do not activate your username within two days, you will have to sign up again."
-msgstr "Если вы не активируете ваше имя учетной записи в течение двух дней, вам придется регистрироваться заново."
+msgstr "Если вы не активируете ваше имя учётной записи в течение двух дней, вам придётся регистрироваться заново."
 
 #: wp-signup.php:318
 msgid "Signup &raquo;"
@@ -16924,19 +16924,19 @@ msgstr "Проверьте почтовый ящик <strong>%s</strong> и пе
 
 #: wp-signup.php:356
 msgid "If you do not activate your blog within two days, you will have to sign up again."
-msgstr "Если вы не активируете ваш блог в течение двух дней, вам придется регистрироваться заново."
+msgstr "Если вы не активируете ваш блог в течение двух дней, вам придётся регистрироваться заново."
 
 #: wp-signup.php:357
 msgid "Still waiting for your email?"
-msgstr "Все еще ждете письмо?"
+msgstr "Всё ещё ждёте письмо?"
 
 #: wp-signup.php:359
 msgid "If you haven't received your email yet, there are a number of things you can do:"
-msgstr "Если вы еще не получили письмо, вы можете сделать несколько вещей:"
+msgstr "Если вы ещё не получили письмо, вы можете сделать несколько вещей:"
 
 #: wp-signup.php:361
 msgid "Wait a little longer.  Sometimes delivery of email can be delayed by processes outside of our control."
-msgstr "Подождите еще немного. Доставка письма может задержаться за пределами нашего влияния."
+msgstr "Подождите ещё немного. Доставка письма может задержаться за пределами нашего влияния."
 
 #: wp-signup.php:362
 msgid "Check the junk email or spam folder of your email client.  Sometime emails wind up there by mistake."
@@ -17708,7 +17708,7 @@ msgstr "Указанная ссылка не найдена."
 #~ msgid "WordPress Blue"
 #~ msgstr "Синий WordPress"
 #~ msgid "WordPress Green"
-#~ msgstr "Зеленый WordPress"
+#~ msgstr "Зелёный WordPress"
 #~ msgid "WordPress Orange"
 #~ msgstr "Оранжевый WordPress"
 #~ msgid "WordPress Purple"
@@ -17716,7 +17716,7 @@ msgstr "Указанная ссылка не найдена."
 #~ msgid "WordPress Red"
 #~ msgstr "Красный WordPress"
 #~ msgid "WordPress Yellow"
-#~ msgstr "Желтый WordPress"
+#~ msgstr "Жёлтый WordPress"
 #~ msgid "WordPress Classic"
 #~ msgstr "Классический WordPress"
 #~ msgid "WordPress Admin Bar"
@@ -17724,7 +17724,7 @@ msgstr "Указанная ссылка не найдена."
 #~ msgid "Admin Bar"
 #~ msgstr "Админ-панель"
 #~ msgid "Everything here applies to your account only."
-#~ msgstr "Все это относится только к вашей учетной записи."
+#~ msgstr "Всё это относится только к вашей учётной записи."
 #~ msgid "Show the admin bar"
 #~ msgstr "Показать админ-панель"
 #~ msgid "On the site"
