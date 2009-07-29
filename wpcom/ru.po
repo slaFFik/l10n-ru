@@ -8306,12 +8306,15 @@ msgid "In case you haven&#8217;t done it already, you can import the posts from 
 msgstr "Если вы не сделали этого раньше,вы можете импортировать записи из ваших других блогов:"
 
 #: wp-admin/import/blogger.php:1331
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Go to <a href=\"%s\" target=\"%s\">Authors &amp; Users</a>, where you can modify the new user(s)\n"
 "\t\t\tor delete them. If you want to make all of the imported posts yours, you will be given that option when you delete the\n"
 "\t\t\tnew authors."
-msgstr "Пройдите по ссылке <a href=\"%s\" target=\"%s\">Авторы &amp; пользователи</a>, где вы сможете отредактировать данные пользователей или удалить их. Если вы хотите сделать все записи от своего имени, вы сможете это сделать, когда удалите всех новых авторов."
+msgstr ""
+"Пройдите по ссылке <a href=\"%s\" target=\"%s\">Авторы и пользователи</a>, где вы сможете отредактировать данные пользователей\n"
+"\t\t\tили удалить их. Если вы хотите сделать все записи от своего имени, вы сможете это сделать, когда удалите\n"
+"\t\t\tвсех новых авторов."
 
 #: wp-admin/import/blogger.php:1336
 msgid "For security, click the link below to reset this importer."
@@ -13767,12 +13770,10 @@ msgid "Disable syntax highlighting"
 msgstr "Отключить подсветку синтаксиса"
 
 #: wp-admin/includes/template.php:3504
-#, fuzzy
 msgid "Enable accessibility mode"
 msgstr "Включить функциональный режим"
 
 #: wp-admin/includes/template.php:3504
-#, fuzzy
 msgid "Disable accessibility mode"
 msgstr "Отключить функциональный режим"
 
@@ -13970,7 +13971,6 @@ msgid "About"
 msgstr "Детали"
 
 #: wp-admin/includes/upgrade.php:200
-#, fuzzy
 msgctxt "Default page slug"
 msgid "about"
 msgstr "about"
@@ -14056,7 +14056,6 @@ msgid "<strong>ERROR</strong>: Please enter an e-mail address."
 msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите адрес e-mail."
 
 #: wp-admin/includes/user.php:176
-#, fuzzy
 msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
 msgstr "<strong>ОШИБКА</strong>: Адрес e-mail введён неправильно."
 
@@ -14748,32 +14747,28 @@ msgid "Local time is <code>%1$s</code>"
 msgstr "Местное время: <code>%1$s</code>"
 
 #: wp-admin/options-general.php:205
-#, fuzzy
 msgid "Choose a city in the same timezone as you."
 msgstr "Выберите город в том же часовом поясе, что и ваш."
 
 #: wp-admin/options-general.php:211
-#, fuzzy
 msgid "This timezone is currently in daylight savings time."
 msgstr "В этом часовом поясе в настоящий момент действует летнее время."
 
 #: wp-admin/options-general.php:212
-#, fuzzy
 msgid "This timezone is currently in standard time."
 msgstr "В этом часовом поясе в настоящий момент действует зимнее время."
 
 #: wp-admin/options-general.php:228
-#, fuzzy, php-format
+#, php-format
 msgid "Daylight savings time begins on: <code>%s</code>."
 msgstr "Летнее время начинается: <code>%s</code>."
 
 #: wp-admin/options-general.php:229
-#, fuzzy, php-format
+#, php-format
 msgid "Standard time begins  on: <code>%s</code>."
 msgstr "Зимнее время начинается: <code>%s</code>."
 
 #: wp-admin/options-general.php:232
-#, fuzzy
 msgid "This timezone does not observe daylight savings time."
 msgstr "В этом часовом поясе не используется летнее время."
 
@@ -14968,7 +14963,6 @@ msgid "If your <code>web.config</code> file were <a href=\"http://codex.wordpres
 msgstr "Если ваш файл <code>web.config</code> был бы <a href=\"http://codex.wordpress.org/Права_Доступа_К_Файлам\">записываемым</a>, мы сделали бы это автоматически, но это не так, поэтому эти правила преобразования ссылок вы должны сами вписать в ваш файл <code>web.config</code>. Щелкните по этому полю и нажмите <kbd>CTRL + a</kbd> чтобы выбрать все. Затем вставьте эти правила внутрь элемента <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> в файле <code>web.config</code>."
 
 #: wp-admin/options-permalink.php:232
-#, fuzzy
 msgid "If you temporarily make your <code>web.config</code> file writable for us to generate rewrite rules automatically, do not forget to revert the permissions after rule has been saved."
 msgstr "Если вы временно сделали файл <code>web.config</code> доступным для записи, чтобы мы могли автоматически создавать правила преобразования ссылок, не забудьте вернуть права доступа после того, как правила будут сохранены."
 
@@ -15133,7 +15127,6 @@ msgid "Edit Page"
 msgstr "Редактировать страницу"
 
 #: wp-admin/page.php:85
-#, fuzzy
 msgid "You attempted to edit a page that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Вы попытались отредактировать несуществующую страницу. Может быть, она удалена?"
 
@@ -15386,7 +15379,7 @@ msgid "Deleting the selected plugins will remove the following plugin(s) and the
 msgstr "Удаление выбранных плагинов уничтожит следующие плагины и их файлы:"
 
 #: wp-admin/plugins.php:165
-#, fuzzy, php-format
+#, php-format
 msgid "<strong>%s</strong> by <em>%s</em>"
 msgstr "<strong>%s</strong> от <em>%s</em>"
 
@@ -21071,9 +21064,8 @@ msgid "Insert a Gravatar image"
 msgstr "Картинка для граватара по умолчанию"
 
 #: wp-content/mu-plugins/wpcom-widgets.php:9
-#, fuzzy
 msgid "Gravatar"
-msgstr "Логотип Gravatar"
+msgstr "Gravatar"
 
 #: wp-content/mu-plugins/wpcom-widgets.php:68
 msgid "Small (64 pixels)"
@@ -21102,9 +21094,8 @@ msgid "Custom Email Address:"
 msgstr "<p>Некорректный адрес e-mail</p>"
 
 #: wp-content/mu-plugins/wpcom-widgets.php:78
-#, fuzzy
 msgid "Size:"
-msgstr "Размер"
+msgstr "Размер:"
 
 #: wp-content/mu-plugins/wpcom-widgets.php:86
 msgid "Gravatar link. This is an optional URL that will be used when anyone clicks on your Gravatar:"
