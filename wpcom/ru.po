@@ -5286,7 +5286,7 @@ msgstr "На WordPress.com"
 
 #: forums-theme/wpcom/footer.php:8
 msgid "We&rsquo;re here for you"
-msgstr ""
+msgstr "Мы здесь для вас"
 
 #: forums-theme/wpcom/footer.php:8
 #: wp-content/themes/h4/footer.php:5
@@ -14269,9 +14269,8 @@ msgid "Plugins per page:"
 msgstr "Плагинов на страницу:"
 
 #: wp-admin/includes/theme-install.php:120
-#, fuzzy
 msgid "Steady on, I'm still loading!"
-msgstr "Потише, я пытаюсь отправить ваши данные!"
+msgstr "Не спешите, я еще только загружаю!"
 
 #: wp-admin/includes/theme-install.php:166
 #, php-format
@@ -16873,12 +16872,11 @@ msgstr "Неверный идентификатор пользователя."
 
 #: wp-admin/user-edit.php:60
 msgid "Browser Connection"
-msgstr "соединенение"
+msgstr "Подключение"
 
 #: wp-admin/user-edit.php:61
-#, fuzzy
 msgid "Always use HTTPS when visiting administration pages (<a href=\"http://support.wordpress.com/https/\">Learn More</a>)"
-msgstr "Всегда использовать HTTPS при просмотре администраторского интерфейса (<a href=\"http://faq.wordpress.com/2008/09/15/enable-https-screencast/\">Подробности</a>)"
+msgstr "Всегда использовать HTTPS при просмотре администраторского интерфейса (<a href=\"http://support.wordpress.com/https/\">Узнать больше</a>)"
 
 #: wp-admin/user-edit.php:84
 #: wp-admin/user-edit.php:115
@@ -18289,7 +18287,7 @@ msgstr "Статистика: %1$s <span id=\"statsdash\">(%2$s)</span>"
 
 #: wp-content/admin-plugins/blog-stats.php:192
 msgid "Take 'er easy, dude."
-msgstr "Полегче, парень."
+msgstr "Не так быстро."
 
 #: wp-content/admin-plugins/blog-stats.php:193
 msgid "You sure got here in a hurry! Your blog has been registered and we are now tracking your stats but there is nothing to display yet. Your stats will begin to appear here within twenty minutes. Have a sarsparilla."
@@ -19512,9 +19510,8 @@ msgid "Allow other answers"
 msgstr "Разрешить другие ответы"
 
 #: wp-content/admin-plugins/polldaddy/polldaddy.php:1133
-#, fuzzy
 msgid "'Share This' link"
-msgstr "Оставить ссылку личной"
+msgstr "Ссылка 'Поделиться'"
 
 #: wp-content/admin-plugins/polldaddy/polldaddy.php:1294
 msgid "Answer"
@@ -19566,9 +19563,8 @@ msgid "Download post"
 msgstr "Редактировать запись"
 
 #: wp-content/admin-plugins/post-by-email-admin.php:375
-#, fuzzy
 msgid "Rejected"
-msgstr "Отклонить"
+msgstr "Отклоненные"
 
 #: wp-content/admin-plugins/post-by-email-admin.php:376
 #, fuzzy
@@ -20199,9 +20195,8 @@ msgid "Invalid state or province"
 msgstr "Неправильный тэг или топик."
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:866
-#, fuzzy
 msgid "Invalid country"
-msgstr "Выберите страну"
+msgstr "Неверная страна"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:869
 #, fuzzy
@@ -20230,9 +20225,8 @@ msgid "Confirmed PayPal amount does not match total product cost"
 msgstr ""
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:1066
-#, fuzzy
 msgid "Payment cancelled."
-msgstr "Загрузка отменена."
+msgstr "Платеж отменен."
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:1100
 msgid "PayPal seems to be having som problems at the moment.  Please try again."
@@ -20570,9 +20564,8 @@ msgid "My Dashboards"
 msgstr "Мои консоли"
 
 #: wp-content/mu-plugins/admin-bar.php:307
-#, fuzzy
 msgid "Manage Blogs"
-msgstr "Блоги в Blogger"
+msgstr "Управление блогами"
 
 #: wp-content/mu-plugins/admin-bar.php:311
 msgid "My Dashboard"
@@ -20892,9 +20885,8 @@ msgid "Website:"
 msgstr "Сайт:"
 
 #: wp-content/mu-plugins/contact-form.php:169
-#, fuzzy
 msgid "Time:"
-msgstr "%s раз"
+msgstr "Время:"
 
 #: wp-content/mu-plugins/contact-form.php:175
 msgid "Sent by a verified WordPress.com user."
@@ -21403,9 +21395,8 @@ msgid "Post selected text to your WordPress.com blog with this Accelerator."
 msgstr ""
 
 #: wp-content/mu-plugins/ie8-accelerator.php:110
-#, fuzzy
 msgid "No cheating allowed here"
-msgstr "Только текст. Форматирование не допускается."
+msgstr "Хакерам здесь нечего делать"
 
 #: wp-content/mu-plugins/invites.php:106
 msgid "Invite Sent."
@@ -21516,9 +21507,8 @@ msgid "Add Site"
 msgstr "Добавить сайт"
 
 #: wp-content/mu-plugins/partner-snap-preview-anywhere.php:64
-#, fuzzy
 msgid "Enable <em>mShots</em> site previews on this blog"
-msgstr "Включить Snap Shots в этом блоге"
+msgstr "Включить предпросмотр сайтов <em>mShots</em> в этом блоге"
 
 #: wp-content/mu-plugins/private-blog.php:44
 msgid "This blog is private."
@@ -22000,20 +21990,20 @@ msgstr[1] "%1$s часа и %2$s минут"
 msgstr[2] "%1$s часов и %2$s минут"
 
 #: wp-content/mu-plugins/video.php:348
-#, fuzzy, php-format
+#, php-format
 msgid "one hour"
 msgid_plural "%1$s hours"
-msgstr[0] "%1$s час и %2$s минут"
-msgstr[1] "1 час"
-msgstr[2] "1 час"
+msgstr[0] "%1$s час"
+msgstr[1] "%1$s часа"
+msgstr[2] "%1$s часов"
 
 #: wp-content/mu-plugins/video.php:350
-#, fuzzy, php-format
+#, php-format
 msgid "one minute"
 msgid_plural "%s minutes"
-msgstr[0] "Одна колонка"
-msgstr[1] "минута"
-msgstr[2] "минута"
+msgstr[0] "%s минута"
+msgstr[1] "%s минуты"
+msgstr[2] "%s минут"
 
 #: wp-content/mu-plugins/video.php:588
 msgid "Display embed code and allow external sites to embed this video"
@@ -23675,7 +23665,6 @@ msgstr "Выйти &raquo;"
 #: wp-content/themes/pub/rubric/comments.php:81
 #: wp-content/themes/pub/springloaded/comments.php:91
 #: wp-content/themes/pub/whiteasmilk/comments.php:78
-#, fuzzy
 msgid "E-mail (will not be published)"
 msgstr "E-mail (не публикуется)"
 
@@ -24704,9 +24693,8 @@ msgid "Right Now in Tags"
 msgstr "Сейчас в метках"
 
 #: wp-content/themes/h4/home.php:107
-#, fuzzy
 msgid "Sign up now"
-msgstr "Вливайтесь!"
+msgstr "Регистрируйтесь сейчас"
 
 #: wp-content/themes/h4/home.php:272
 #, fuzzy, php-format
@@ -25436,7 +25424,6 @@ msgid "Archive for"
 msgstr "Архив для"
 
 #: wp-content/themes/pub/almost-spring/index.php:11
-#, fuzzy
 msgid "Posts Tagged"
 msgstr "Записи с меткой "
 
@@ -25829,9 +25816,8 @@ msgstr "Введите пароль для просмотра комментар
 #: wp-content/themes/pub/solipsus/comments.php:39
 #: wp-content/themes/pub/supposedly-clean/comments.php:31
 #: wp-content/themes/pub/toni/comments.php:26
-#, fuzzy
 msgid "No Comments Yet"
-msgstr "Комментариев нет."
+msgstr "Пока без комментариев"
 
 #: wp-content/themes/pub/andreas04/comments.php:54
 #: wp-content/themes/pub/benevolence/comments.php:69
@@ -26118,17 +26104,16 @@ msgstr ""
 
 #: wp-content/themes/pub/arras/archive.php:10
 #: wp-content/themes/pub/arras/archive.php:12
-#, fuzzy, php-format
+#, php-format
 msgid "%s Archive"
-msgstr "В&nbsp;архив"
+msgstr "Архив %s"
 
 #: wp-content/themes/pub/arras/attachment.php:18
 #: wp-content/themes/pub/arras/library/template.php:240
 #: wp-content/themes/pub/arras/page.php:18
 #: wp-content/themes/pub/arras/single.php:18
-#, fuzzy
 msgid "<p>Read the rest of this entry &raquo;</p>"
-msgstr "Прочесть полностью &raquo;"
+msgstr "<p>Прочитать всю запись &raquo;</p>"
 
 #: wp-content/themes/pub/arras/attachment.php:20
 #: wp-content/themes/pub/arras/page.php:19
@@ -26141,7 +26126,6 @@ msgstr "<p><strong>Страницы:</strong>"
 #: wp-content/themes/pub/arras/attachment.php:27
 #: wp-content/themes/pub/arras/page.php:28
 #: wp-content/themes/pub/arras/single.php:28
-#, fuzzy
 msgid "About the Author"
 msgstr "Об авторе"
 
@@ -26187,24 +26171,21 @@ msgid "Start the ball rolling by posting a comment on this article!"
 msgstr ""
 
 #: wp-content/themes/pub/arras/comments.php:31
-#, fuzzy
 msgid "Comments Closed"
 msgstr "Обсуждение закрыто."
 
 #: wp-content/themes/pub/arras/comments.php:32
-#, fuzzy
 msgid "Comments are closed. You will not be able to post a comment in this post."
-msgstr "Вам не разрешено изменять комментарии к этой записи."
+msgstr "Обсуждение закрыто. Вы не можете публиковать комментарии к этой записи."
 
 #: wp-content/themes/pub/arras/comments.php:44
-#, fuzzy, php-format
+#, php-format
 msgid "Logged in as <a href=\"%1$s\" title=\"Logged in as %2$s\">%3$s</a>."
-msgstr "Вы вошли как <a href=\"%1$s\">%2$s</a>."
+msgstr "Вы вошли как <a href=\"%1$s\" title=\"Вы вошли как %2$s\">%3$s</a>."
 
 #: wp-content/themes/pub/arras/comments.php:67
-#, fuzzy
 msgid "Cancel Reply"
-msgstr "Опубликовать ответ"
+msgstr "Отменить ответ"
 
 #: wp-content/themes/pub/arras/footer.php:14
 #, fuzzy
@@ -26268,9 +26249,8 @@ msgid "Thumbnail cache has been cleared."
 msgstr "Эта тема была закрыта."
 
 #: wp-content/themes/pub/arras/library/admin/options.php:30
-#, fuzzy
 msgid "Copyright"
-msgstr "Вверху справа"
+msgstr "Авторские права"
 
 #: wp-content/themes/pub/arras/library/admin/options.php:31
 #, php-format
@@ -26288,9 +26268,8 @@ msgstr "Количество записей:"
 
 #: wp-content/themes/pub/arras/library/admin/templates/arras-categories.php:19
 #: wp-content/themes/pub/arras/library/admin/templates/arras-categories.php:31
-#, fuzzy
 msgid "Stickied Posts"
-msgstr "Импорт записей"
+msgstr "Записи-\"липучки\""
 
 #: wp-content/themes/pub/arras/library/admin/templates/arras-categories.php:20
 #: wp-content/themes/pub/arras/library/admin/templates/arras-categories.php:32
@@ -26580,9 +26559,8 @@ msgid "After the Post Content"
 msgstr "Заблокировать редактирование сообщений после:"
 
 #: wp-content/themes/pub/arras/library/admin/templates/arras-navigation.php:11
-#, fuzzy
 msgid "Main Navigation"
-msgstr "Навигация по блогу"
+msgstr "Главная навигация"
 
 #: wp-content/themes/pub/arras/library/admin/templates/arras-navigation.php:15
 #: wp-content/themes/pub/sandbox/functions.php:459
@@ -26595,9 +26573,8 @@ msgid "You can change the name of the home link at the main navigation."
 msgstr ""
 
 #: wp-content/themes/pub/arras/library/admin/templates/arras-navigation.php:23
-#, fuzzy
 msgid "Top Navigation Display"
-msgstr "Скрыть/показать текст"
+msgstr "Показать навигацию наверху"
 
 #: wp-content/themes/pub/arras/library/admin/templates/arras-navigation.php:27
 #: wp-content/themes/pub/arras/library/admin/templates/arras-navigation.php:32
@@ -26632,9 +26609,8 @@ msgid "Donate!"
 msgstr "Пожертвовать!"
 
 #: wp-content/themes/pub/arras/library/admin/templates/options_page.php:45
-#, fuzzy
 msgid "Community Forums"
-msgstr "<a href=\"%s\">Форумы</a> "
+msgstr "Форумы сообщества"
 
 #: wp-content/themes/pub/arras/library/admin/templates/options_page.php:53
 #: wp-content/themes/pub/freshy/sidebar.php:8
@@ -26644,7 +26620,6 @@ msgid "Navigation"
 msgstr "Навигация"
 
 #: wp-content/themes/pub/arras/library/admin/templates/options_page.php:54
-#, fuzzy
 msgid "Layout"
 msgstr "Разметка экрана"
 
@@ -26668,9 +26643,8 @@ msgid "If this does not work, you can manually delete all the files in that fold
 msgstr ""
 
 #: wp-content/themes/pub/arras/library/admin/templates/options_page.php:75
-#, fuzzy
 msgid "Revert to Default Settings"
-msgstr "Вернуться к исходным цветам"
+msgstr "Вернуться к исходным настройкам"
 
 #: wp-content/themes/pub/arras/library/admin/templates/options_page.php:76
 msgid "If you do screw up, you can reset the settings here."
@@ -26770,9 +26744,8 @@ msgid "Donate to the theme developer so that he can continue working this theme.
 msgstr ""
 
 #: wp-content/themes/pub/arras/library/filters.php:49
-#, fuzzy
 msgid "Read More"
-msgstr "Далее"
+msgstr "Читать дальше"
 
 #: wp-content/themes/pub/arras/library/filters.php:73
 #, fuzzy, php-format
@@ -26790,9 +26763,8 @@ msgid "<span class=\"entry-cat\"><strong>Posted in: </strong>%s</span>"
 msgstr "<span class=\"entry-category\">Рубрики: %s</span>"
 
 #: wp-content/themes/pub/arras/library/filters.php:126
-#, fuzzy
 msgid "Digg it!"
-msgstr "Одобрить: %s"
+msgstr "Digg it!"
 
 #: wp-content/themes/pub/arras/library/filters.php:127
 msgid "Facebook"
@@ -26858,16 +26830,15 @@ msgid "Permalink to %s"
 msgstr "Постоянная ссылка на %s"
 
 #: wp-content/themes/pub/arras/library/template.php:298
-#, fuzzy, php-format
+#, php-format
 msgid "Posted %1$s at %2$s"
-msgstr "Опубликовано: %s в %s."
+msgstr "Опубликовал %1$s at %2$s"
 
 #: wp-content/themes/pub/arras/library/template.php:298
 msgid "c"
 msgstr ""
 
 #: wp-content/themes/pub/arras/library/template.php:298
-#, fuzzy
 msgid "g:i A"
 msgstr "H:i"
 
@@ -27154,9 +27125,8 @@ msgid "Syndicate this site using Atom"
 msgstr "Синдикация сайта с помощью Atom"
 
 #: wp-content/themes/pub/black-letterhead/sidebar.php:60
-#, fuzzy
 msgid "Powered by WordPress.com"
-msgstr "Работает на WordPress"
+msgstr "Работает на WordPress.com"
 
 #: wp-content/themes/pub/black-letterhead/single.php:22
 #, php-format
@@ -28151,17 +28121,14 @@ msgid "Read&nbsp;More&nbsp;and&nbsp;Comment&nbsp;&raquo;"
 msgstr "Добавить&nbsp;новую&nbsp;тему&nbsp;&raquo;"
 
 #: wp-content/themes/pub/depo-masthead/home.php:60
-#, fuzzy
 msgid "Continue reading "
-msgstr "Читать далее"
+msgstr "Продолжить чтение"
 
 #: wp-content/themes/pub/depo-masthead/home.php:60
-#, fuzzy
 msgid "Read&nbsp;More&raquo;"
-msgstr "Прочитать запись целиком &raquo;"
+msgstr "Читать&nbsp;дальше&raquo;"
 
 #: wp-content/themes/pub/depo-masthead/home.php:62
-#, fuzzy
 msgid "Permanent Link to "
 msgstr "Постоянная ссылка на %s"
 
@@ -28608,7 +28575,6 @@ msgid "Error 404 &ndash; File not Found"
 msgstr "Ошибка 404 &#8212; Файл не найден"
 
 #: wp-content/themes/pub/flower-power/404.php:8
-#, fuzzy
 msgid "Sorry, but the page you were looking for could not be found."
 msgstr "К сожалению, запрошенная Вами страница не найдена."
 
@@ -28650,9 +28616,8 @@ msgstr "1 комментарий"
 #: wp-content/themes/pub/inove/archive.php:51
 #: wp-content/themes/pub/inove/index.php:26
 #: wp-content/themes/pub/neat/comments.php:41
-#, fuzzy, php-format
 msgid "% comments"
-msgstr "% Комментариев"
+msgstr "Комментарии (%)"
 
 #: wp-content/themes/pub/flower-power/archive.php:60
 #: wp-content/themes/pub/flower-power/index.php:31
