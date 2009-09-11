@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wordpress.com\n"
 "Report-Msgid-Bugs-To: support@wordpress.com\n"
-"POT-Creation-Date: 2009-09-01 15:16+0000\n"
+"POT-Creation-Date: 2009-09-07 07:06+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Sol <salpagarov@gmail.com>\n"
 "Language-Team: l10n-ru <salpagarov@gmail.com>\n"
@@ -131,9 +131,9 @@ msgid "The uploaded file could not be moved to %s."
 msgstr "Загруженный файл не удалось переместить в %s."
 
 #: async-jobs/mailomattic/mail-config.php:213
-#, fuzzy, php-format
+#, php-format
 msgid "%s email publish: %s"
-msgstr "Статус"
+msgstr "%s опубликовал по emai: %s"
 
 #: async-jobs/mailomattic/mail-config.php:214
 #, php-format
@@ -187,8 +187,8 @@ msgid "Your recent attempt to Post by Email was blocked as you sent your mail to
 msgstr ""
 
 #: blog-search/index.php:24
-#: forums-theme/wpcom/header.php:270
-#: wp-content/mu-plugins/admin-bar.php:508
+#: forums-theme/wpcom/header.php:274
+#: wp-content/mu-plugins/admin-bar.php:512
 #: wp-content/themes/h4/header.php:219
 msgid "Search WordPress.com Blogs"
 msgstr "Поиск блогов WordPress.com"
@@ -212,7 +212,7 @@ msgstr "секунды"
 #: blog-search/index.php:156
 #: forums-0906/bb-templates/kakumei/search.php:3
 #: forums-theme/wpcom/front-page.php:8
-#: forums-theme/wpcom/header.php:270
+#: forums-theme/wpcom/header.php:274
 #: stats.dir/external-stats.php:421
 #: wp-admin/includes/template.php:3181
 #: wp-admin/includes/template.php:3183
@@ -224,7 +224,7 @@ msgstr "секунды"
 #: wp-content/admin-plugins/blog-stats.php:1584
 #: wp-content/admin-plugins/friend-surfer.php:288
 #: wp-content/admin-plugins/post-by-email-admin.php:157
-#: wp-content/mu-plugins/admin-bar.php:508
+#: wp-content/mu-plugins/admin-bar.php:512
 #: wp-content/mu-plugins/akismet.php:400
 #: wp-content/themes/default/searchform.php:5
 #: wp-content/themes/h4/header.php:219
@@ -435,7 +435,7 @@ msgstr "Консоль"
 
 #: forums-0906/bb-admin/admin-functions.php:49
 #: forums-plugins/_capabilities-mod.php:57
-#: wp-admin/import/dotclear.php:606
+#: wp-admin/import/dotclear.php:611
 #: wp-admin/import/textpattern.php:584
 #: wp-admin/includes/mu.php:363
 #: wp-admin/menu.php:88
@@ -449,7 +449,7 @@ msgid "Manage"
 msgstr "Управление"
 
 #: forums-0906/bb-admin/admin-functions.php:51
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1130
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1172
 #: wp-content/themes/pub/arras/library/admin/templates/options_page.php:55
 msgid "Design"
 msgstr "Дизайн"
@@ -543,8 +543,8 @@ msgstr "Записи"
 #: forums-0906/bb-templates/kakumei/front-page.php:44
 #: forums-theme/wpcom/footer.php:9
 #: forums-theme/wpcom/front-page.php:17
-#: forums-theme/wpcom/header.php:293
-#: wp-content/admin-plugins/wpmu-feedback.php:150
+#: forums-theme/wpcom/header.php:297
+#: wp-content/admin-plugins/wpmu-feedback.php:151
 #: wp-content/themes/h2-faq/header.php:26
 #: wp-content/themes/h2/header.php:29
 #: wp-content/themes/h4/footer.php:6
@@ -619,7 +619,7 @@ msgstr "Интеграция с WordPress"
 #: wp-admin/wpmu-blogs.php:500
 #: wp-admin/wpmu-users.php:373
 #: wp-content/admin-plugins/polldaddy/polldaddy.php:71
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:861
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:881
 #: wp-content/themes/default/archive.php:40
 #: wp-content/themes/default/index.php:18
 #: wp-content/themes/pub/almost-spring/comments.php:28
@@ -899,7 +899,7 @@ msgstr "Зарегистрирован с"
 #: forums-0906/bb-admin/admin-functions.php:366
 #: wp-admin/wpmu-blogs.php:389
 #: wp-content/admin-plugins/feed-curator.php:831
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:807
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:823
 #: wp-content/admin-plugins/readomattic.php:309
 #: wp-content/admin-plugins/readomattic.php:1001
 #: wp-content/themes/pub/freshy/index.php:22
@@ -952,8 +952,8 @@ msgstr "Действия"
 #: wp-admin/wpmu-users.php:111
 #: wp-admin/wpmu-users.php:379
 #: wp-admin/wpmu-users.php:410
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:808
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:867
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:824
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:887
 #: wp-content/admin-plugins/post-by-email.php:168
 #: wp-content/mu-plugins/openidserver.php:439
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:289
@@ -2180,7 +2180,7 @@ msgstr "%1$s%2$s%3$s%4$s%5$s"
 
 #: forums-0906/bb-admin/content-posts.php:37
 #: forums-0906/bb-admin/content.php:41
-#: wp-admin/includes/media.php:1832
+#: wp-admin/includes/media.php:1833
 msgid "Filter &#187;"
 msgstr "Найти &#187;"
 
@@ -2195,8 +2195,8 @@ msgstr "Закрыта"
 
 #: forums-0906/bb-admin/content.php:30
 #: forums-0906/bb-includes/classes.php:896
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:810
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:869
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:826
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:889
 msgid "Open"
 msgstr "Открытые"
 
@@ -2281,7 +2281,6 @@ msgid "Recently Moderated"
 msgstr "Исходный текст:"
 
 #: forums-0906/bb-admin/index.php:22
-#: forums-theme/wpcom/post-form.php:27
 #: wp-admin/includes/dashboard.php:214
 #: wp-content/admin-plugins/feed-curator.php:829
 #: wp-content/admin-plugins/readomattic.php:307
@@ -2481,8 +2480,8 @@ msgstr "Тип красивой ссылки"
 #: wp-admin/edit-category-form.php:72
 #: wp-admin/includes/media.php:766
 #: wp-admin/includes/media.php:847
-#: wp-admin/includes/media.php:1920
-#: wp-admin/includes/media.php:1936
+#: wp-admin/includes/media.php:1921
+#: wp-admin/includes/media.php:1937
 #: wp-admin/includes/template.php:247
 #: wp-admin/includes/template.php:1935
 #: wp-content/admin-plugins/blog-stats.php:1350
@@ -2809,7 +2808,7 @@ msgstr "Версия"
 #: wp-admin/press-this.php:168
 #: wp-admin/themes.php:273
 #: wp-admin/wpmu-themes.php:36
-#: wp-content/mu-plugins/video.php:670
+#: wp-content/mu-plugins/video.php:682
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:12
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:503
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:782
@@ -4236,7 +4235,7 @@ msgstr "Новый пароль"
 
 #: forums-0906/bb-includes/template-functions.php:1743
 #: wp-admin/admin-header.php:111
-#: wp-content/mu-plugins/admin-bar.php:286
+#: wp-content/mu-plugins/admin-bar.php:290
 #: wp-content/themes/pub/prologue-projects/header.php:36
 msgid "Log Out"
 msgstr "Выйти"
@@ -4477,7 +4476,7 @@ msgstr "Пишите код внутри <code>`обратных апостро�
 #: forums-0906/bb-templates/kakumei/edit-post.php:2
 #: forums-theme/wpcom/edit-form.php:12
 #: wp-admin/post.php:147
-#: wp-content/mu-plugins/admin-bar.php:877
+#: wp-content/mu-plugins/admin-bar.php:881
 #: wp-content/themes/pub/arras/library/filters.php:130
 msgid "Edit Post"
 msgstr "Редактировать запись"
@@ -4573,7 +4572,7 @@ msgid "Log in &raquo;"
 msgstr "Войти &raquo;"
 
 #: forums-0906/bb-templates/kakumei/login-form.php:23
-#: forums-theme/wpcom/header.php:259
+#: forums-theme/wpcom/header.php:263
 #: wp-content/themes/h2/home.php:132
 #: wp-content/themes/h4/header.php:209
 msgid "Remember me"
@@ -4666,7 +4665,7 @@ msgid "Posted %s ago"
 msgstr "Отправлено %s тому назад"
 
 #: forums-0906/bb-templates/kakumei/profile-edit.php:3
-#: wp-content/mu-plugins/admin-bar.php:283
+#: wp-content/mu-plugins/admin-bar.php:287
 msgid "Edit Profile"
 msgstr "Редактировать профиль"
 
@@ -5333,16 +5332,15 @@ msgid "A short introduction to your hosts"
 msgstr ""
 
 #: forums-theme/wpcom/footer.php:13
-#: forums-theme/wpcom/header.php:290
+#: forums-theme/wpcom/header.php:294
 #: wp-content/themes/h4/header.php:264
 msgid "About Us"
 msgstr "О нас"
 
 #: forums-theme/wpcom/footer.php:17
 #: wp-content/themes/h4/footer.php:14
-#, fuzzy
 msgid "Also cool"
-msgstr "Также доступны:"
+msgstr "Еще из \"вкусностей\""
 
 #: forums-theme/wpcom/footer.php:19
 #: wp-content/themes/h4/footer.php:16
@@ -5374,14 +5372,13 @@ msgstr ""
 
 #: forums-theme/wpcom/footer.php:23
 #: wp-content/themes/h4/footer.php:20
-#, fuzzy
 msgid "See reviews of WP"
-msgstr "Настройки блога (wp_%s_options)"
+msgstr "Смотрите обзоры WP"
 
 #: forums-theme/wpcom/footer.php:23
 #: wp-content/themes/h4/footer.php:20
 msgid "Fan WP on Facebook"
-msgstr ""
+msgstr "Фэны WP на Facebook"
 
 #: forums-theme/wpcom/footer.php:24
 #: wp-content/themes/h4/footer.php:21
@@ -5444,12 +5441,11 @@ msgstr "Больше &rarr;"
 msgid "View"
 msgstr "Просмотреть"
 
-#: forums-theme/wpcom/header.php:257
-#, fuzzy
+#: forums-theme/wpcom/header.php:261
 msgid "Log&nbsp;In"
-msgstr "Войти &raquo;"
+msgstr "Войти"
 
-#: forums-theme/wpcom/header.php:260
+#: forums-theme/wpcom/header.php:264
 #: wp-content/private.php:163
 #: wp-content/private.php:166
 #: wp-content/themes/h2/home.php:136
@@ -5460,7 +5456,7 @@ msgstr "Войти &raquo;"
 msgid "Lost your password?"
 msgstr "Забыли пароль?"
 
-#: forums-theme/wpcom/header.php:281
+#: forums-theme/wpcom/header.php:285
 #: wp-content/themes/h2-faq/header.php:26
 #: wp-content/themes/h2/header.php:29
 #: wp-content/themes/h4/header.php:260
@@ -5491,31 +5487,31 @@ msgstr "Забыли пароль?"
 msgid "Home"
 msgstr "Главная"
 
-#: forums-theme/wpcom/header.php:283
+#: forums-theme/wpcom/header.php:287
 #: wp-content/themes/h4/header.php:272
 msgid "Sign Up"
 msgstr "Регистрация"
 
-#: forums-theme/wpcom/header.php:285
+#: forums-theme/wpcom/header.php:289
 #: wp-admin/includes/theme-install.php:216
 #: wp-admin/includes/theme-install.php:822
 #: wp-content/themes/h4/header.php:261
 msgid "Features"
 msgstr "Возможности"
 
-#: forums-theme/wpcom/header.php:286
+#: forums-theme/wpcom/header.php:290
 #: wp-content/themes/h4/header.php:262
 msgid "News"
 msgstr "Новости"
 
-#: forums-theme/wpcom/header.php:288
-#: wp-content/mu-plugins/admin-bar.php:284
+#: forums-theme/wpcom/header.php:292
+#: wp-content/mu-plugins/admin-bar.php:288
 #: wp-content/themes/h4/header.php:45
 #: wp-content/themes/h4/header.php:263
 msgid "Support"
 msgstr "Поддержка"
 
-#: forums-theme/wpcom/header.php:291
+#: forums-theme/wpcom/header.php:295
 #: wp-admin/edit-link-form.php:338
 #: wp-content/themes/default/functions.php:435
 #: wp-content/themes/h4/header.php:265
@@ -5533,6 +5529,24 @@ msgstr "<a href=\"%1$s\">Регистрация</a> или вход"
 #, php-format
 msgid "Enter a few words (called <a href=\"%s\">tags</a>) separated by <em>commas</em> to help someone find your topic:"
 msgstr "Введите несколько слов (так называемых <a href=\"%s\">тегов</a>) разделенных <em>запятыми</em>, чтобы облегчить поиск вашей публикации:"
+
+#: forums-theme/wpcom/post-form.php:27
+#: wp-admin/import/mt.php:174
+#: wp-admin/import/typepad.php:367
+#: wp-admin/import/wordpress.php:230
+#: wp-admin/import/yahoo-360.php:121
+#: wp-admin/includes/dashboard.php:135
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:235
+#: wp-content/admin-plugins/video-plugin.php:85
+#: wp-content/themes/pub/cutline/comments.php:94
+#: wp-content/themes/pub/depo-masthead/functions.php:335
+#: wp-content/themes/pub/flower-power/contact.php:74
+#: wp-content/themes/pub/k2/comments.php:168
+#: wp-content/themes/pub/light/sidebar.php:8
+#: wp-content/themes/pub/redoable-lite/comments.php:189
+#: wp-includes/post-template.php:1169
+msgid "Submit"
+msgstr "Отправить"
 
 #: forums-theme/wpcom/profile-edit.php:30
 msgid "This user is inactive"
@@ -5801,7 +5815,7 @@ msgstr "Внешняя статистика блога"
 #: wp-content/admin-plugins/blog-stats.php:1325
 #: wp-content/admin-plugins/blog-stats.php:1328
 #: wp-content/admin-plugins/blog-stats.php:1331
-#: wp-content/mu-plugins/admin-bar.php:427
+#: wp-content/mu-plugins/admin-bar.php:431
 #: wp-content/mu-plugins/stats.php:1504
 #: wp-content/mu-plugins/stats.php:1725
 #: wp-content/mu-plugins/stats.php:1726
@@ -5913,16 +5927,16 @@ msgstr "Реферрал"
 #: wp-admin/edit-page-form.php:442
 #: wp-admin/includes/dashboard.php:388
 #: wp-admin/includes/media.php:984
-#: wp-admin/includes/media.php:1655
-#: wp-admin/includes/media.php:1971
-#: wp-admin/includes/media.php:2006
-#: wp-admin/includes/media.php:2041
+#: wp-admin/includes/media.php:1656
+#: wp-admin/includes/media.php:1972
+#: wp-admin/includes/media.php:2007
+#: wp-admin/includes/media.php:2042
 #: wp-admin/includes/template.php:803
 #: wp-admin/includes/template.php:1038
 #: wp-admin/wpmu-blogs.php:626
 #: wp-content/admin-plugins/blog-stats.php:1371
 #: wp-content/admin-plugins/blog-stats.php:1420
-#: wp-content/mu-plugins/video.php:663
+#: wp-content/mu-plugins/video.php:675
 #: wp-content/themes/pub/daydream/functions.php:117
 #: wp-includes/js/tinymce/langs/wp-langs.php:295
 #: wp-includes/post.php:3404
@@ -6106,7 +6120,7 @@ msgstr "<strong>ВНИМАНИЕ: Вы вышли!</strong> Не удалось 
 #: wp-admin/edit-pages.php:202
 #: wp-admin/edit-tags.php:191
 #: wp-admin/edit.php:187
-#: wp-admin/includes/media.php:1791
+#: wp-admin/includes/media.php:1792
 #: wp-admin/includes/theme-install.php:1020
 #: wp-admin/plugins.php:364
 #: wp-admin/upload.php:229
@@ -6122,7 +6136,7 @@ msgstr "&laquo;"
 #: wp-admin/edit-pages.php:203
 #: wp-admin/edit-tags.php:192
 #: wp-admin/edit.php:188
-#: wp-admin/includes/media.php:1792
+#: wp-admin/includes/media.php:1793
 #: wp-admin/includes/theme-install.php:1021
 #: wp-admin/plugins.php:365
 #: wp-admin/upload.php:230
@@ -6360,7 +6374,7 @@ msgstr "Не опубликовано"
 #: wp-admin/includes/template.php:1640
 #: wp-admin/includes/template.php:2129
 #: wp-admin/upload.php:377
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:885
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:920
 msgid "Y/m/d"
 msgstr "d.m.Y"
 
@@ -6426,7 +6440,7 @@ msgstr "Не могу загрузить скрипт импорта."
 msgid "Import"
 msgstr "Импорт"
 
-#: wp-admin/async-upload.php:27
+#: wp-admin/async-upload.php:29
 #: wp-admin/media-upload.php:16
 #: wp-admin/upload.php:15
 #: wp-app.php:468
@@ -6635,7 +6649,7 @@ msgstr "Действия"
 #: wp-admin/users.php:435
 #: wp-admin/users.php:502
 #: wp-content/admin-plugins/my-blogs.php:285
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:812
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:828
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:678
 #: wp-content/themes/pub/prologue-projects/functions-admin.php:734
 #: wp-includes/js/tinymce/langs/wp-langs.php:27
@@ -6803,14 +6817,14 @@ msgid "E-mail"
 msgstr "E-mail"
 
 #: wp-admin/comment.php:121
-#: wp-admin/includes/media.php:2034
+#: wp-admin/includes/media.php:2035
 #: wp-admin/includes/template.php:856
 #: wp-admin/includes/template.php:2290
 #: wp-admin/includes/template.php:2693
 #: wp-admin/press-this.php:160
 #: wp-admin/wpmu-blogs.php:31
 #: wp-content/admin-plugins/blog-stats.php:1658
-#: wp-content/mu-plugins/video.php:805
+#: wp-content/mu-plugins/video.php:817
 msgid "URL"
 msgstr "URL"
 
@@ -6826,7 +6840,7 @@ msgid "You are not allowed to edit comments on this post, so you cannot disappro
 msgstr "Вам не разрешено изменять комментарии к этой записи, поэтому вы не можете отклонить данный комментарий."
 
 #: wp-admin/comment.php:233
-#: wp-admin/includes/media.php:1563
+#: wp-admin/includes/media.php:1564
 msgid "Unknown action."
 msgstr "Неизвестное действие."
 
@@ -6866,7 +6880,7 @@ msgid "Use Original Color"
 msgstr "Использовать оригинальные цвета"
 
 #: wp-admin/custom-header.php:290
-#: wp-admin/import/blogger.php:1277
+#: wp-admin/import/blogger.php:1278
 #: wp-admin/options-discussion.php:229
 #: wp-admin/options-general.php:325
 #: wp-admin/options-media.php:71
@@ -6909,8 +6923,8 @@ msgid "Choose an image from your computer:"
 msgstr "Выберите файл на своём компьютере:"
 
 #: wp-admin/custom-header.php:304
-#: wp-admin/includes/media.php:1377
 #: wp-admin/includes/media.php:1378
+#: wp-admin/includes/media.php:1379
 #: wp-admin/includes/template.php:3271
 msgid "Upload"
 msgstr "Загрузка"
@@ -6987,7 +7001,7 @@ msgstr "Меток нет"
 #: wp-admin/includes/template.php:1409
 #: wp-admin/includes/template.php:1631
 #: wp-admin/upload.php:368
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:885
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:920
 msgid "Y/m/d g:i:s A"
 msgstr "d.m.Y H:i:s"
 
@@ -7295,9 +7309,9 @@ msgstr "Просмотреть изменения"
 #: wp-admin/includes/theme-install.php:539
 #: wp-admin/includes/theme-install.php:568
 #: wp-admin/includes/theme-install.php:939
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:874
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:880
-#: wp-content/mu-plugins/safecss.php:418
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:894
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:900
+#: wp-content/mu-plugins/safecss.php:419
 #: wp-includes/js/tinymce/langs/wp-langs.php:62
 #: wp-includes/js/tinymce/langs/wp-langs.php:308
 msgid "Preview"
@@ -7342,7 +7356,7 @@ msgstr "OK"
 #: wp-admin/edit-page-form.php:179
 #: wp-admin/includes/dashboard.php:118
 #: wp-admin/includes/media.php:1183
-#: wp-admin/includes/media.php:1378
+#: wp-admin/includes/media.php:1379
 #: wp-admin/includes/template.php:267
 #: wp-admin/includes/template.php:1258
 #: wp-admin/includes/template.php:2299
@@ -7487,7 +7501,7 @@ msgstr "Запланировать"
 #: wp-admin/press-this.php:457
 #: wp-admin/press-this.php:462
 #: wp-admin/sidebar.php:121
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:960
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1002
 #: wp-includes/script-loader.php:292
 #: wp-includes/script-loader.php:316
 msgid "Publish"
@@ -7971,7 +7985,7 @@ msgstr "Заметки"
 
 #: wp-admin/edit-link-form.php:323
 #: wp-admin/includes/template.php:860
-#: wp-content/mu-plugins/video.php:682
+#: wp-content/mu-plugins/video.php:694
 msgid "Rating"
 msgstr "Рейтинг"
 
@@ -8096,7 +8110,7 @@ msgstr "В некоторых темах для определённых стр�
 
 #: wp-admin/edit-page-form.php:297
 #: wp-admin/includes/media.php:1003
-#: wp-admin/includes/media.php:1613
+#: wp-admin/includes/media.php:1614
 #: wp-admin/includes/template.php:1138
 msgid "Order"
 msgstr "Порядок"
@@ -8461,7 +8475,7 @@ msgid "Search Posts"
 msgstr "Поиск записей"
 
 #: wp-admin/edit.php:216
-#: wp-admin/includes/media.php:1812
+#: wp-admin/includes/media.php:1813
 #: wp-admin/upload.php:265
 msgid "Show all dates"
 msgstr "Все даты"
@@ -8645,76 +8659,72 @@ msgstr "Волшебная кнопка"
 msgid "This feature requires Javascript but it seems to be disabled. Please enable Javascript and then reload this page. Don&#8217;t worry, you can turn it back off when you&#8217;re done."
 msgstr "Эта функция требует Javascript, а он, похоже, выключен. Пожалуйста, включите Javascript и перезагрузите эту страницу. Не беспокойтесь, вы сможете снова отключить его, когда всё будет готово."
 
-#: wp-admin/import/blogger.php:766
-#, fuzzy
+#: wp-admin/import/blogger.php:767
 msgid " images found\n"
-msgstr "Не найдено"
+msgstr " изображение найдены\n"
 
-#: wp-admin/import/blogger.php:825
+#: wp-admin/import/blogger.php:826
 msgid "Skipping download of duplicate full size attachment "
 msgstr ""
 
-#: wp-admin/import/blogger.php:836
+#: wp-admin/import/blogger.php:837
 msgid "Generated thumbnail for duplicate full size attachment "
 msgstr ""
 
-#: wp-admin/import/blogger.php:848
-#, fuzzy
+#: wp-admin/import/blogger.php:849
 msgid "Importing attachment "
-msgstr "Импорт вложения <em>%s</em>&hellip;"
+msgstr "Импорт вложения"
 
-#: wp-admin/import/blogger.php:852
-#, fuzzy
+#: wp-admin/import/blogger.php:853
 msgid "Remote file error: "
-msgstr "Ошибка загрузки файла: %s"
+msgstr "Ошибка внешнего файла:"
 
-#: wp-admin/import/blogger.php:863
-#, fuzzy
+#: wp-admin/import/blogger.php:864
 msgid "Invalid file type<br>\n"
-msgstr "Неверный тип файла"
+msgstr "Неверный тип файла<br>\n"
 
-#: wp-admin/import/blogger.php:882
+#: wp-admin/import/blogger.php:883
 msgid "Generated thumbnail for full size attachment "
 msgstr ""
 
-#: wp-admin/import/blogger.php:1272
+#: wp-admin/import/blogger.php:1273
 msgid "All posts were imported with the current user as author. Use this form to move each Blogger user&#8217;s posts to a different WordPress user. You may <a href=\"users.php\">add users</a> and then return to this page and complete the user mapping. This form may be used as many times as you like until you activate the &#8220;Restart&#8221; function below."
 msgstr "Все записи импортированы с текущим пользователем в качестве автора. Используйте эту форму, чтобы записи каждого пользователя Blogger поставить в соответствие пользователю WordPress. Можно <a href=\"users.php\">добавить пользователей</a> и затем вернуться на эту страницу. Эта форма может быть использована столько раз, сколько необходимо, до тех пор, пока вы не активируете функцию &laquo;Перезапуск&raguo;."
 
-#: wp-admin/import/blogger.php:1273
+#: wp-admin/import/blogger.php:1274
 msgid "Author mapping"
 msgstr "Установка авторства"
 
-#: wp-admin/import/blogger.php:1275
+#: wp-admin/import/blogger.php:1276
 msgid "Blogger username"
 msgstr "Имя пользователя в Blogger"
 
-#: wp-admin/import/blogger.php:1276
+#: wp-admin/import/blogger.php:1277
 msgid "WordPress login"
 msgstr "Логин WordPress"
 
-#: wp-admin/import/blogger.php:1357
+#: wp-admin/import/blogger.php:1358
 msgid "Could not connect to https://www.google.com"
 msgstr "Нет связи с https://www.google.com"
 
-#: wp-admin/import/blogger.php:1357
+#: wp-admin/import/blogger.php:1358
 msgid "There was a problem opening a secure connection to Google. This is what went wrong:"
 msgstr "Возникла проблема при установке защищённого соединения с Google. Случилось вот что:"
 
-#: wp-admin/import/blogger.php:1373
+#: wp-admin/import/blogger.php:1374
 #, php-format
 msgid "Could not connect to %s"
 msgstr "Не удалось подключиться к %s"
 
-#: wp-admin/import/blogger.php:1373
+#: wp-admin/import/blogger.php:1374
 msgid "There was a problem opening a connection to Blogger. This is what went wrong:"
 msgstr "Возникла проблема при установке соединения с Blogger. Случилось вот что:"
 
-#: wp-admin/import/blogger.php:1481
+#: wp-admin/import/blogger.php:1482
 msgid "Congratulations!"
 msgstr "Поздравляем!"
 
-#: wp-admin/import/blogger.php:1481
+#: wp-admin/import/blogger.php:1482
 msgid ""
 "Now that you have imported your Blogger blog into WordPress,\n"
 "\t\twhat are you going to do? Here are some suggestions:"
@@ -8722,61 +8732,60 @@ msgstr ""
 "Вы импортировани ваш блог с Blogger в WordPress,\n"
 "\t\tчто быдуте делать дальше? Есть несколько вариантов:"
 
-#: wp-admin/import/blogger.php:1482
+#: wp-admin/import/blogger.php:1483
 msgid "That was hard work! Take a break."
 msgstr "Это была тяжёлая работёнка! Сделайте перерыв."
 
-#: wp-admin/import/blogger.php:1485
+#: wp-admin/import/blogger.php:1486
 msgid "In case you haven&#8217;t done it already, you can import the posts from your other blogs:"
 msgstr "Если вы не сделали этого раньше,вы можете импортировать записи из ваших других блогов:"
 
-#: wp-admin/import/blogger.php:1490
+#: wp-admin/import/blogger.php:1491
 msgid "For security, click the link below to reset this importer."
 msgstr "В целях обеспечения безопасности, нажмите на ссылку, чтобы очистить параметры."
 
-#: wp-admin/import/blogger.php:1533
+#: wp-admin/import/blogger.php:1534
 msgid "Restart"
 msgstr "Перезапуск"
 
-#: wp-admin/import/blogger.php:1534
+#: wp-admin/import/blogger.php:1535
 msgid "We have saved some information about your Blogger account in your WordPress database. Clearing this information will allow you to start over. Restarting will not affect any posts you have already imported. If you attempt to re-import a blog, duplicate posts and comments will be skipped."
 msgstr "Мы сохранили некоторую информацию об учётной записи Blogger в базе данных WordPress. Удаление этой информации позволит вам начать всё заново. При этом записи, которые вы уже импортировали, не будут затронуты. Если вы захотите импортировать блог заново, мы пропустим повторяющиеся записи и комментарии."
 
-#: wp-admin/import/blogger.php:1535
+#: wp-admin/import/blogger.php:1536
 msgid "Reset counters only"
 msgstr "Только сбросить счетчики"
 
-#: wp-admin/import/blogger.php:1536
+#: wp-admin/import/blogger.php:1537
 msgid "Clear all information"
 msgstr "Очистить всю информацию"
 
-#: wp-admin/import/blogger.php:1550
-#, fuzzy
+#: wp-admin/import/blogger.php:1551
 msgid "Attachments"
-msgstr "Импорт файлов"
+msgstr "Вложения"
 
-#: wp-admin/import/blogger.php:1646
+#: wp-admin/import/blogger.php:1647
 #: wp-admin/import/wordpress.php:617
 #, php-format
 msgid "Remote file returned error response %d"
 msgstr "Файл вернул код ошибки %d"
 
-#: wp-admin/import/blogger.php:1649
+#: wp-admin/import/blogger.php:1650
 #: wp-admin/import/wordpress.php:621
 msgid "Remote file is incorrect size"
 msgstr "Файл имеет некорректный размер"
 
-#: wp-admin/import/blogger.php:1655
+#: wp-admin/import/blogger.php:1656
 #: wp-admin/import/wordpress.php:627
 #, php-format
 msgid "Remote file is too large, limit is %s"
 msgstr "Файл слишком велик, лимит составляет %s"
 
-#: wp-admin/import/blogger.php:1754
+#: wp-admin/import/blogger.php:1755
 msgid "Blogger"
 msgstr "Blogger"
 
-#: wp-admin/import/blogger.php:1754
+#: wp-admin/import/blogger.php:1755
 msgid "Import posts, comments, and users from a Blogger blog."
 msgstr "Импорт записей, комментариев и пользователей из Blogger."
 
@@ -8817,10 +8826,10 @@ msgstr[0] "%s комментарий"
 msgstr[1] "%s комментария"
 msgstr[2] "%s комментариев"
 
-#: wp-admin/import/blogware.php:181
-#: wp-admin/import/livejournal.php:928
-#: wp-admin/import/mt.php:291
-#: wp-admin/import/rss.php:163
+#: wp-admin/import/blogware.php:187
+#: wp-admin/import/livejournal.php:936
+#: wp-admin/import/mt.php:294
+#: wp-admin/import/rss.php:165
 #: wp-admin/import/typepad.php:697
 #, php-format
 msgid "All done. <a href=\"%s\">Have fun!</a>"
@@ -8932,107 +8941,107 @@ msgstr "Нет ссылок для импорта!"
 msgid "Import Users"
 msgstr "Импорт пользователей"
 
-#: wp-admin/import/dotclear.php:542
+#: wp-admin/import/dotclear.php:543
 #: wp-admin/import/textpattern.php:521
 msgid "Import Posts"
 msgstr "Импорт записей"
 
-#: wp-admin/import/dotclear.php:556
+#: wp-admin/import/dotclear.php:558
 #: wp-admin/import/textpattern.php:535
 msgid "Import Comments"
 msgstr "Импорт комментариев"
 
-#: wp-admin/import/dotclear.php:568
+#: wp-admin/import/dotclear.php:571
 #: wp-admin/import/textpattern.php:547
 msgid "Import Links"
 msgstr "Импорт ссылок"
 
-#: wp-admin/import/dotclear.php:581
+#: wp-admin/import/dotclear.php:585
 #: wp-admin/import/textpattern.php:560
 msgid "Finish"
 msgstr "Завершить"
 
-#: wp-admin/import/dotclear.php:605
+#: wp-admin/import/dotclear.php:610
 msgid "Welcome to WordPress.  We hope (and expect!) that you will find this platform incredibly rewarding!  As a new WordPress user coming from DotClear, there are some things that we would like to point out.  Hopefully, they will help your transition go as smoothly as possible."
 msgstr "Добро пожаловать в WordPress. Мы надеемся (и не зря!), что вы полюбите эту систему! Так как вы решили перейти с DotClear на WordPress, мы бы хотели указать вам на некоторые вещи. Надеемся, это поможет вам переключиться как можно быстрее."
 
-#: wp-admin/import/dotclear.php:607
+#: wp-admin/import/dotclear.php:612
 #, php-format
 msgid "You have already setup WordPress and have been assigned an administrative login and password.  Forget it.  You didn&#8217;t have that login in DotClear, why should you have it here?  Instead we have taken care to import all of your users into our system.  Unfortunately there is one downside.  Because both WordPress and DotClear uses a strong encryption hash with passwords, it is impossible to decrypt it and we are forced to assign temporary passwords to all your users.  <strong>Every user has the same username, but their passwords are reset to password123.</strong>  So <a href=\"%1$s\">Login</a> and change it."
 msgstr "Вы уже установили WordPress и назначили логин и пароль администратора. Забудьте это. У вас нет логина в DotClear, зачем же вы здесь? Вместо этого мы импортируем всех ваших пользователей в нашу систему. К сожалению это единственный выход. Из-за того, что и WordPress и DotClear используют хеширование с сильным шифрованием, невозможно расшифровать их и мы проставим временные пароли всем вашим пользователям. <strong>У всех пользователей останутся их имена, но их пароли будут сброшены на password123.</strong> Так <a href=\"%1$s\">войдите</a> и смените их."
 
-#: wp-admin/import/dotclear.php:608
+#: wp-admin/import/dotclear.php:613
 #: wp-admin/import/textpattern.php:586
 msgid "Preserving Authors"
 msgstr "Сохранить авторов"
 
-#: wp-admin/import/dotclear.php:609
+#: wp-admin/import/dotclear.php:614
 #: wp-admin/import/textpattern.php:587
 msgid "Secondly, we have attempted to preserve post authors.  If you are the only author or contributor to your blog, then you are safe.  In most cases, we are successful in this preservation endeavor.  However, if we cannot ascertain the name of the writer due to discrepancies between database tables, we assign it to you, the administrative user."
 msgstr "Во-вторых, мы попытаемся сохранить авторство записей. Если вы единственный автор блога, тогда всё в порядке. В большинстве случаев всё проходит удачно. Однако, если система не сможет распознать имя автора из-за несоответствий в таблицах базы данных, мы назначим автором администратора, то есть вас."
 
-#: wp-admin/import/dotclear.php:610
+#: wp-admin/import/dotclear.php:615
 #: wp-admin/import/textpattern.php:588
 #: wp-content/themes/pub/fauna/template-commentform.php:78
 msgid "Textile"
 msgstr "Textile"
 
-#: wp-admin/import/dotclear.php:611
+#: wp-admin/import/dotclear.php:616
 msgid "Also, since you&#8217;re coming from DotClear, you probably have been using Textile to format your comments and posts.  If this is the case, we recommend downloading and installing <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>.  Trust me&#8230; You&#8217;ll want it."
 msgstr "И так как вы переключаетесь с DotСlear &#8212; возможно, вы использовали Textile для форматирования записей и комментариев.  В этом случае, мы рекомендуем скачать и установить плагин <a href=\"http://www.huddledmasses.org/2004/04/19/wordpress-plugin-textile-20/\">Textile для WordPress</a>.  Поверьте&hellip; Вам понравится."
 
-#: wp-admin/import/dotclear.php:612
+#: wp-admin/import/dotclear.php:617
 #: wp-admin/import/textpattern.php:590
 msgid "WordPress Resources"
 msgstr "Ресурсы WordPress"
 
-#: wp-admin/import/dotclear.php:613
+#: wp-admin/import/dotclear.php:618
 #: wp-admin/import/textpattern.php:591
 msgid "Finally, there are numerous WordPress resources around the internet.  Some of them are:"
 msgstr "Наконец, есть множество ресурсов, посвящённых WordPress. Вот некоторые из них:"
 
-#: wp-admin/import/dotclear.php:615
+#: wp-admin/import/dotclear.php:620
 #: wp-admin/import/textpattern.php:593
 msgid "<a href=\"http://www.wordpress.org\">The official WordPress site</a>"
 msgstr "<a href=\"http://www.wordpress.org\">Официальный сайт WordPress</a>"
 
-#: wp-admin/import/dotclear.php:616
+#: wp-admin/import/dotclear.php:621
 #: wp-admin/import/textpattern.php:594
 msgid "<a href=\"http://wordpress.org/support/\">The WordPress support forums</a>"
 msgstr "<a href=\"http://wordpress.org/support/\">Форумы поддержки WordPress</a>"
 
-#: wp-admin/import/dotclear.php:617
+#: wp-admin/import/dotclear.php:622
 #: wp-admin/import/textpattern.php:595
 msgid "<a href=\"http://codex.wordpress.org\">The Codex (In other words, the WordPress Bible)</a>"
 msgstr "<a href=\"http://codex.wordpress.org\">Кодекс (иными словами, Библия WordPress)</a>"
 
-#: wp-admin/import/dotclear.php:619
+#: wp-admin/import/dotclear.php:624
 #: wp-admin/import/textpattern.php:597
 #, php-format
 msgid "That&#8217;s it! What are you waiting for? Go <a href=\"%1$s\">login</a>!"
 msgstr "Вот и всё! Чего же вы ждёте? <a href=\"%1$s\">Заходите</a>!"
 
-#: wp-admin/import/dotclear.php:625
+#: wp-admin/import/dotclear.php:630
 msgid "DotClear Database User:"
 msgstr "Пользователь базы данных DotClear:"
 
-#: wp-admin/import/dotclear.php:626
+#: wp-admin/import/dotclear.php:631
 msgid "DotClear Database Password:"
 msgstr "Пароль к базе данных DotClear:"
 
-#: wp-admin/import/dotclear.php:627
+#: wp-admin/import/dotclear.php:632
 msgid "DotClear Database Name:"
 msgstr "Имя базы данных DotClear:"
 
-#: wp-admin/import/dotclear.php:628
+#: wp-admin/import/dotclear.php:633
 msgid "DotClear Database Host:"
 msgstr "Хост базы данных DotClear:"
 
-#: wp-admin/import/dotclear.php:629
+#: wp-admin/import/dotclear.php:634
 msgid "DotClear Table prefix:"
 msgstr "Префикс таблиц DotClear:"
 
-#: wp-admin/import/dotclear.php:630
+#: wp-admin/import/dotclear.php:635
 msgid "Originating character set:"
 msgstr "Оригинальная кодировка:"
 
@@ -9181,7 +9190,6 @@ msgid "Import LiveJournal"
 msgstr "Импорт из LiveJournal"
 
 #: wp-admin/import/livejournal.php:185
-#, fuzzy
 msgid "It looks like you attempted to import your LiveJournal posts previously and got interrupted."
 msgstr "Похоже, ваша предыдущая попытка импортировать записи из LiveJournal была прервана."
 
@@ -9194,12 +9202,10 @@ msgid "Cancel &amp; start a new import"
 msgstr "Отменить и начать импорт заново"
 
 #: wp-admin/import/livejournal.php:194
-#, fuzzy
 msgid "Howdy! This importer allows you to connect directly to LiveJournal and download all your entries and comments"
 msgstr "Привет! Этот скрипт позволяет подключиться напрямую к LiveJournal и скачать все ваши записи с комментариями."
 
 #: wp-admin/import/livejournal.php:195
-#, fuzzy
 msgid "Enter your LiveJournal username and password below so we can connect to your account:"
 msgstr "Введите ваше имя пользователя в LiveJournal и пароль, чтобы мы могли подключиться к вашей учётной записи:"
 
@@ -9212,17 +9218,14 @@ msgid "LiveJournal Password"
 msgstr "Пароль в LiveJournal"
 
 #: wp-admin/import/livejournal.php:211
-#, fuzzy
 msgid "If you have any entries on LiveJournal which are marked as private, they will be password-protected when they are imported so that only people who know the password can see them."
 msgstr "Если у вас в LiveJournal есть записи, помеченные как личные, они будут защищены паролем при импортировании, так что только люди, знающие пароль, смогут их увидеть."
 
 #: wp-admin/import/livejournal.php:212
-#, fuzzy
 msgid "If you don&#8217;t enter a password, ALL ENTRIES from your LiveJournal will be imported as public posts in WordPress."
 msgstr "Если вы не введете пароль, ВСЕ ЗАПИСИ из вашего ЖЖ будут импортированы в WordPress как открытые записи."
 
 #: wp-admin/import/livejournal.php:213
-#, fuzzy
 msgid "Enter the password you would like to use for all protected entries here:"
 msgstr "Введите пароль, которым вы хотите закрыть все личные записи:"
 
@@ -9231,7 +9234,6 @@ msgid "Protected Post Password"
 msgstr "Пароль защищённой страницы"
 
 #: wp-admin/import/livejournal.php:223
-#, fuzzy
 msgid "<strong>WARNING:</strong> This can take a really long time if you have a lot of entries in your LiveJournal, or a lot of comments. Ideally, you should only start this process if you can leave your computer alone while it finishes the import."
 msgstr "<strong>ВНИМАНИЕ:</strong> Если у вас в ЖЖ много записей (или комментариев), процесс может занять много времени. Идеально запускать процесс, оставив компьютер работать до завершения импорта."
 
@@ -9240,12 +9242,10 @@ msgid "Connect to LiveJournal and Import"
 msgstr "Подключиться к LiveJournal и импортировать"
 
 #: wp-admin/import/livejournal.php:229
-#, fuzzy
 msgid "<strong>NOTE:</strong> If the import process is interrupted for <em>any</em> reason, come back to this page and it will continue from where it stopped automatically."
 msgstr "<strong>ЗАМЕЧАНИЕ:</strong> Если процесс импортирования будет прерван по <em>любой</em> причине, вернитесь на эту страницу и процесс автоматически продолжится с места обрыва."
 
 #: wp-admin/import/livejournal.php:232
-#, fuzzy
 msgid "<strong>NOTE:</strong> You appear to have JavaScript disabled, so you will need to manually click through each step of this importer. If you enable JavaScript, it will step through automatically."
 msgstr "<strong>ЗАМЕЧАНИЕ:</strong>JavaScript отключен, поэтому вам потребуется вручную проходить каждый шаг импорта. Если вы разрешите JavaScript, эти шаги будут происходить автоматически."
 
@@ -9288,12 +9288,10 @@ msgid " Comment metadata downloaded successfully, proceeding with comment bodies
 msgstr "Метаданные комментариев успешно загружены, переходим к содержимому комментариев&hellip;"
 
 #: wp-admin/import/livejournal.php:514
-#, fuzzy
 msgid "Failed to retrieve comment bodies from LiveJournal. Please try again soon."
 msgstr "Не удалось получить содержимое комментариев от LiveJournal. Пожалуйста, повторите попытку."
 
 #: wp-admin/import/livejournal.php:656
-#, fuzzy
 msgid "LiveJournal is not responding to authentication requests. Please wait a while and then try again."
 msgstr "LiveJournal не отвечает на запросы аутентификации. Пожалуйста, повторите попытку через некоторое время."
 
@@ -9314,99 +9312,98 @@ msgstr "Начать снова"
 msgid "Logging in to LiveJournal failed. Check your username and password and try again."
 msgstr "Авторизация в LiveJournal не удалась. Проверьте имя пользователя и пароль, затем повторите попытку."
 
-#: wp-admin/import/livejournal.php:780
+#: wp-admin/import/livejournal.php:783
 msgid "Importing Posts"
 msgstr "Импорт записей"
 
-#: wp-admin/import/livejournal.php:781
+#: wp-admin/import/livejournal.php:784
 msgid "We&#8217;re downloading and importing your LiveJournal posts..."
 msgstr "Мы получаем и импортируем ваши записи в ЖЖ..."
 
-#: wp-admin/import/livejournal.php:785
+#: wp-admin/import/livejournal.php:788
 #, php-format
 msgid "Imported post batch %d of <strong>approximately</strong> %d"
 msgstr "Импортирован %d из <strong>приблизительно</strong> %d пакетов записей"
 
-#: wp-admin/import/livejournal.php:803
+#: wp-admin/import/livejournal.php:806
 msgid "Uh oh &ndash; LiveJournal has disconnected us because we made too many requests to their servers too quickly."
 msgstr "Ой-ой &#8212; LiveJournal отключил нас из-за большого числа запросов к их серверам за короткое время."
 
-#: wp-admin/import/livejournal.php:804
-#, fuzzy
+#: wp-admin/import/livejournal.php:807
 msgid "We&#8217;ve saved where you were up to though, so if you come back to this importer in about 30 minutes, you should be able to continue from where you were."
 msgstr "Мы запомнили, где сейчас были, так что если вы вернетесь обратно к импортированию в ближайшие 30 минут, можно будет продолжить с этого места."
 
-#: wp-admin/import/livejournal.php:806
-#: wp-admin/import/livejournal.php:936
+#: wp-admin/import/livejournal.php:809
+#: wp-admin/import/livejournal.php:944
 msgid "Try Again"
 msgstr "Попробуйте ещё раз"
 
-#: wp-admin/import/livejournal.php:819
-#: wp-admin/import/livejournal.php:869
+#: wp-admin/import/livejournal.php:822
+#: wp-admin/import/livejournal.php:874
 msgid "Import the next batch"
 msgstr "Импортировать следующий пакет"
 
-#: wp-admin/import/livejournal.php:824
+#: wp-admin/import/livejournal.php:827
 msgid "Your posts have all been imported, but wait &#8211; there&#8217;s more! Now we need to download &amp; import your comments."
 msgstr "Все ваши записи импортированы, однако подождите &#8212; это ещё не всё! Теперь нужно скачать и импортировать комментарии."
 
-#: wp-admin/import/livejournal.php:825
+#: wp-admin/import/livejournal.php:828
 msgid "Download my comments &raquo;"
 msgstr "Скачать мои комментарии &raquo;"
 
-#: wp-admin/import/livejournal.php:840
+#: wp-admin/import/livejournal.php:845
 msgid "Downloading Comments"
 msgstr "Получение комментариев"
 
-#: wp-admin/import/livejournal.php:841
+#: wp-admin/import/livejournal.php:846
 msgid "Now we will download your comments so we can import them (this could take a <strong>long</strong> time if you have lots of comments)..."
 msgstr "Сейчас мы получим ваши комментарии так, чтобы мы могли их импортировать (это может занять <strong>много</strong> времени если у вам много комментариев)..."
 
-#: wp-admin/import/livejournal.php:866
+#: wp-admin/import/livejournal.php:871
 #, php-format
 msgid "Imported comment batch %d of <strong>approximately</strong> %d"
 msgstr "Импортирован %d из <strong>приблизительно</strong> %d пакетов комментариев"
 
-#: wp-admin/import/livejournal.php:874
+#: wp-admin/import/livejournal.php:879
 msgid "Your comments have all been imported now, but we still need to rebuild your conversation threads."
 msgstr "Все ваши комментарии  были импортированы, но нам требуется пересоздать ветки дерева обсуждений."
 
-#: wp-admin/import/livejournal.php:875
+#: wp-admin/import/livejournal.php:880
 msgid "Rebuild my comment threads &raquo;"
 msgstr "Перестроить мои ветки комментариев &raquo;"
 
-#: wp-admin/import/livejournal.php:888
+#: wp-admin/import/livejournal.php:896
 msgid "Threading Comments"
 msgstr "Ветвление комментариев"
 
-#: wp-admin/import/livejournal.php:889
+#: wp-admin/import/livejournal.php:897
 msgid "We are now re-building the threading of your comments (this can also take a while if you have lots of comments)..."
 msgstr "Теперь мы перестраиваем ветки ваших комментариев (это займёт какое-то время, если у вас много комментариев)&hellip;"
 
-#: wp-admin/import/livejournal.php:926
+#: wp-admin/import/livejournal.php:934
 #, php-format
 msgid "Successfully re-threaded %s comments."
 msgstr "Ветки комментариев %s успешно перестроены."
 
-#: wp-admin/import/livejournal.php:961
-#: wp-admin/import/livejournal.php:989
+#: wp-admin/import/livejournal.php:969
+#: wp-admin/import/livejournal.php:997
 #, php-format
 msgid "Continuing in %d"
 msgstr "Продолжение в %d"
 
-#: wp-admin/import/livejournal.php:966
+#: wp-admin/import/livejournal.php:974
 msgid "Continuing"
 msgstr "Продолжение"
 
-#: wp-admin/import/livejournal.php:995
+#: wp-admin/import/livejournal.php:1003
 msgid "Processing next batch."
 msgstr "Обрабатывается следующий пакет"
 
-#: wp-admin/import/livejournal.php:1054
+#: wp-admin/import/livejournal.php:1064
 msgid "LiveJournal"
 msgstr "LiveJournal"
 
-#: wp-admin/import/livejournal.php:1054
+#: wp-admin/import/livejournal.php:1064
 msgid "Import posts from LiveJournal using their API."
 msgstr "Импорт записей из LiveJournal с помощью их API."
 
@@ -9435,23 +9432,6 @@ msgstr "Привязать авторов"
 msgid "Below, you can see the names of the authors of the MovableType posts in <i>italics</i>. For each of these names, select one of the blog's users as the author."
 msgstr "Ниже вы можете видеть имена авторов записей MovableType <em>курсивом</em>. Для каждого из этих имен укажите одного из пользователей блога в качестве автора. "
 
-#: wp-admin/import/mt.php:174
-#: wp-admin/import/typepad.php:367
-#: wp-admin/import/wordpress.php:230
-#: wp-admin/import/yahoo-360.php:121
-#: wp-admin/includes/dashboard.php:135
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:235
-#: wp-content/admin-plugins/video-plugin.php:85
-#: wp-content/themes/pub/cutline/comments.php:94
-#: wp-content/themes/pub/depo-masthead/functions.php:335
-#: wp-content/themes/pub/flower-power/contact.php:74
-#: wp-content/themes/pub/k2/comments.php:168
-#: wp-content/themes/pub/light/sidebar.php:8
-#: wp-content/themes/pub/redoable-lite/comments.php:189
-#: wp-includes/post-template.php:1169
-msgid "Submit"
-msgstr "Отправить"
-
 #: wp-admin/import/mt.php:198
 msgid "Sorry, there has been an error"
 msgstr "Извините, возникла ошибка."
@@ -9474,18 +9454,18 @@ msgstr[2] "(%s комментариев)"
 
 #: wp-admin/import/mt.php:275
 #: wp-admin/import/typepad.php:767
-#, fuzzy, php-format
+#, php-format
 msgid "(%s ping)"
 msgid_plural "(%s pings)"
 msgstr[0] "(%s уведомление)"
-msgstr[1] "%s ожидающих"
-msgstr[2] "%s ожидающих"
+msgstr[1] "(%s уведомления)"
+msgstr[2] "(%s уведомлений)"
 
-#: wp-admin/import/mt.php:488
+#: wp-admin/import/mt.php:491
 msgid "Movable Type and TypePad"
 msgstr "Movable Type и TypePad"
 
-#: wp-admin/import/mt.php:488
+#: wp-admin/import/mt.php:491
 msgid "Import posts and comments from a Movable Type or TypePad blog"
 msgstr "Импорт записей и комментариев из Movable Type или TypePad"
 
@@ -9539,7 +9519,6 @@ msgstr "Вы должны указать OPML URL. Нажмите кнопку &
 #: wp-admin/includes/upgrade.php:107
 #: wp-content/mu-plugins/misc.php:1487
 #: wp-content/mu-plugins/misc.php:1488
-#: wp-content/themes/pub/inove/links.php:31
 #: wp-content/themes/pub/inove/sidebar.php:99
 #: wp-content/themes/pub/journalist/sidebar.php:24
 #: wp-content/themes/pub/redoable-lite/sidebar.php:40
@@ -9836,7 +9815,6 @@ msgstr[1] "Преобразовать %d метки в рубрики."
 msgstr[2] "Преобразовать %d меток в рубрики."
 
 #: wp-admin/import/wp-cat2tag.php:146
-#, fuzzy
 msgid "Here you can selectively convert existing tags to categories. To get started, check the tags you wish to be converted, then click the Convert button."
 msgstr "Привет! Этот скрипт позволяет выборочно преобразовать существующие рубрики в метки. Выберите рубрики для конвертирования и нажмите кнопку Преобразовать."
 
@@ -9921,14 +9899,12 @@ msgid "Convert existing categories to tags or tags to categories, selectively."
 msgstr "Выборочное преобразование рубрик в метки или меток в рубрики."
 
 #: wp-admin/import/yahoo-360.php:28
-#, fuzzy
 msgid "Import Yahoo! 360"
-msgstr "Импорт из GreyMatter завершен!"
+msgstr "Импорт из Yahoo! 360"
 
 #: wp-admin/import/yahoo-360.php:44
-#, fuzzy
 msgid "Howdy! We&#8217;re about to begin importing all of your Yahoo 360! entries into WordPress.com."
-msgstr "Привет! Мы готовы начать процесс импорта всех записей из Movable Type в WordPress. Чтобы начать, выберите файл для загрузки и нажмите &laquo;Загрузить и импортировать&raquo;."
+msgstr "Привет! Мы начинаем импортирование всех ваших записей из готовы начать процесс импорта всех записей из Yahoo 360!  в WordPress.com."
 
 #: wp-admin/import/yahoo-360.php:47
 #, php-format
@@ -10933,7 +10909,7 @@ msgstr "Северная Дакота"
 
 #: wp-admin/includes/continents-cities.php:169
 #: wp-admin/includes/media.php:766
-#: wp-admin/includes/media.php:1924
+#: wp-admin/includes/media.php:1925
 #: wp-content/mu-plugins/wpcom-widgets.php:82
 #: wp-includes/js/tinymce/langs/wp-langs.php:44
 #: wp-includes/js/tinymce/langs/wp-langs.php:365
@@ -12940,7 +12916,7 @@ msgid "Saved."
 msgstr "Сохранено."
 
 #: wp-admin/includes/media.php:766
-#: wp-admin/includes/media.php:1922
+#: wp-admin/includes/media.php:1923
 #: wp-content/mu-plugins/wpcom-widgets.php:82
 #: wp-includes/js/tinymce/langs/wp-langs.php:43
 #: wp-includes/js/tinymce/langs/wp-langs.php:288
@@ -12949,7 +12925,7 @@ msgid "Left"
 msgstr "Слева"
 
 #: wp-admin/includes/media.php:766
-#: wp-admin/includes/media.php:1926
+#: wp-admin/includes/media.php:1927
 #: wp-content/mu-plugins/wpcom-widgets.php:82
 #: wp-includes/js/tinymce/langs/wp-langs.php:45
 #: wp-includes/js/tinymce/langs/wp-langs.php:289
@@ -13000,12 +12976,12 @@ msgid "Caption"
 msgstr "Подпись"
 
 #: wp-admin/includes/media.php:870
-#: wp-admin/includes/media.php:1883
+#: wp-admin/includes/media.php:1884
 msgid "Also used as alternate text for the image"
 msgstr "Также используется в качестве альтернативного текста"
 
 #: wp-admin/includes/media.php:875
-#: wp-admin/includes/media.php:1917
+#: wp-admin/includes/media.php:1918
 #: wp-includes/js/tinymce/langs/wp-langs.php:42
 #: wp-includes/js/tinymce/langs/wp-langs.php:281
 msgid "Alignment"
@@ -13021,7 +12997,7 @@ msgid "Link URL"
 msgstr "Ссылка"
 
 #: wp-admin/includes/media.php:1000
-#: wp-admin/includes/media.php:1938
+#: wp-admin/includes/media.php:1939
 #: wp-includes/js/tinymce/langs/wp-langs.php:431
 msgid "Enter a link URL or click above for presets."
 msgstr "Введите ссылку или нажмите одну из кнопок."
@@ -13031,25 +13007,25 @@ msgid "Location of the uploaded file."
 msgstr "Обнаружение загруженного файла."
 
 #: wp-admin/includes/media.php:1100
-#: wp-admin/includes/media.php:1599
+#: wp-admin/includes/media.php:1600
 #: wp-admin/widgets-posts.php:271
 #: wp-admin/widgets-posts.php:288
 msgid "Show"
 msgstr "Показать"
 
 #: wp-admin/includes/media.php:1101
-#: wp-admin/includes/media.php:1600
+#: wp-admin/includes/media.php:1601
 #: wp-content/admin-plugins/my-blogs.php:479
 #: wp-content/admin-plugins/readomattic.php:1177
 msgid "Hide"
 msgstr "Скрыть"
 
 #: wp-admin/includes/media.php:1177
-#: wp-admin/includes/media.php:1944
-#: wp-admin/includes/media.php:1980
-#: wp-admin/includes/media.php:2015
-#: wp-admin/includes/media.php:2050
-#: wp-content/mu-plugins/video.php:824
+#: wp-admin/includes/media.php:1945
+#: wp-admin/includes/media.php:1981
+#: wp-admin/includes/media.php:2016
+#: wp-admin/includes/media.php:2051
+#: wp-content/mu-plugins/video.php:836
 msgid "Insert into Post"
 msgstr "Вставить в запись"
 
@@ -13062,216 +13038,216 @@ msgstr "Вы собираетесь удалить <strong>%s</strong>."
 msgid "Select Files"
 msgstr "Выберите файлы"
 
-#: wp-admin/includes/media.php:1365
+#: wp-admin/includes/media.php:1366
 msgid "Choose files to upload"
 msgstr "Выберите файл для загрузки"
 
-#: wp-admin/includes/media.php:1367
+#: wp-admin/includes/media.php:1368
 msgid "Cancel Upload"
 msgstr "Отменить загрузку"
 
-#: wp-admin/includes/media.php:1370
+#: wp-admin/includes/media.php:1371
 msgid "After a file has been uploaded, you can add titles and descriptions."
 msgstr "Когда файл будет загружен, вы сможете добавить заголовки и описания."
 
-#: wp-admin/includes/media.php:1382
+#: wp-admin/includes/media.php:1383
 msgid "If you want to use all capabilities of the uploader, like uploading multiple files at once, please upgrade to lighttpd 1.5."
 msgstr "Если вы хотите использовать все возможности скрипта загрузки, например, загружать несколько файлов за один раз, пожалуйста, обновите lighttpd до версии 1.5."
 
-#: wp-admin/includes/media.php:1418
+#: wp-admin/includes/media.php:1419
 msgid "Add media files from your computer"
 msgstr "Добавить медиафайлы с компьютера"
 
-#: wp-admin/includes/media.php:1447
-#: wp-admin/includes/media.php:1622
-#: wp-admin/includes/media.php:1862
+#: wp-admin/includes/media.php:1448
+#: wp-admin/includes/media.php:1623
+#: wp-admin/includes/media.php:1863
 #: wp-admin/media-upload.php:86
 msgid "Save all changes"
 msgstr "Сохранить все изменения"
 
-#: wp-admin/includes/media.php:1478
+#: wp-admin/includes/media.php:1479
 msgid "Add media file from URL"
 msgstr "Добавить медиафайл с сайта"
 
-#: wp-admin/includes/media.php:1598
+#: wp-admin/includes/media.php:1599
 msgid "All Tabs:"
 msgstr "Все вкладки:"
 
-#: wp-admin/includes/media.php:1602
+#: wp-admin/includes/media.php:1603
 msgid "Sort Order:"
 msgstr "Сортировка:"
 
-#: wp-admin/includes/media.php:1603
-#: wp-admin/includes/media.php:1670
+#: wp-admin/includes/media.php:1604
+#: wp-admin/includes/media.php:1671
 msgid "Ascending"
 msgstr "Возрастающий"
 
-#: wp-admin/includes/media.php:1604
-#: wp-admin/includes/media.php:1673
+#: wp-admin/includes/media.php:1605
+#: wp-admin/includes/media.php:1674
 msgid "Descending"
 msgstr "Убывающий"
 
-#: wp-admin/includes/media.php:1605
+#: wp-admin/includes/media.php:1606
 msgid "Clear"
 msgstr "Очистить"
 
-#: wp-admin/includes/media.php:1612
+#: wp-admin/includes/media.php:1613
 #: wp-admin/menu.php:48
 #: wp-admin/menu.php:118
 msgid "Media"
 msgstr "Медиафайлы"
 
-#: wp-admin/includes/media.php:1629
+#: wp-admin/includes/media.php:1630
 msgid "Gallery Settings"
 msgstr "Настройки галереи"
 
-#: wp-admin/includes/media.php:1634
+#: wp-admin/includes/media.php:1635
 msgid "Link thumbnails to:"
 msgstr "Ссылки c миниатюр:"
 
-#: wp-admin/includes/media.php:1639
+#: wp-admin/includes/media.php:1640
 msgid "Image File"
 msgstr "Файл изображения"
 
-#: wp-admin/includes/media.php:1642
+#: wp-admin/includes/media.php:1643
 msgid "Attachment Page"
 msgstr "Страница вложения"
 
-#: wp-admin/includes/media.php:1649
+#: wp-admin/includes/media.php:1650
 msgid "Order images by:"
 msgstr "Вариант сортировки:"
 
-#: wp-admin/includes/media.php:1654
+#: wp-admin/includes/media.php:1655
 msgid "Menu order"
 msgstr "Порядок меню"
 
-#: wp-admin/includes/media.php:1656
+#: wp-admin/includes/media.php:1657
 msgid "Date/Time"
 msgstr "Дата и время"
 
-#: wp-admin/includes/media.php:1657
+#: wp-admin/includes/media.php:1658
 #: wp-admin/themes.php:112
 msgid "Random"
 msgstr "Случайно"
 
-#: wp-admin/includes/media.php:1665
+#: wp-admin/includes/media.php:1666
 msgid "Order:"
 msgstr "Порядок:"
 
-#: wp-admin/includes/media.php:1680
+#: wp-admin/includes/media.php:1681
 msgid "Gallery columns:"
 msgstr "Число столбцов:"
 
-#: wp-admin/includes/media.php:1685
+#: wp-admin/includes/media.php:1686
 msgid "2"
 msgstr "2"
 
-#: wp-admin/includes/media.php:1686
+#: wp-admin/includes/media.php:1687
 msgid "3"
 msgstr "3"
 
-#: wp-admin/includes/media.php:1687
+#: wp-admin/includes/media.php:1688
 msgid "4"
 msgstr "4"
 
-#: wp-admin/includes/media.php:1688
+#: wp-admin/includes/media.php:1689
 msgid "5"
 msgstr "5"
 
-#: wp-admin/includes/media.php:1689
+#: wp-admin/includes/media.php:1690
 msgid "6"
 msgstr "6"
 
-#: wp-admin/includes/media.php:1690
+#: wp-admin/includes/media.php:1691
 msgid "7"
 msgstr "7"
 
-#: wp-admin/includes/media.php:1691
+#: wp-admin/includes/media.php:1692
 msgid "8"
 msgstr "8"
 
-#: wp-admin/includes/media.php:1692
+#: wp-admin/includes/media.php:1693
 msgid "9"
 msgstr "9"
 
-#: wp-admin/includes/media.php:1699
+#: wp-admin/includes/media.php:1700
 msgid "Insert gallery"
 msgstr "Вставить галерею"
 
-#: wp-admin/includes/media.php:1700
+#: wp-admin/includes/media.php:1701
 msgid "Update gallery settings"
 msgstr "Обновить настройки галереи"
 
-#: wp-admin/includes/media.php:1743
-#: wp-admin/includes/media.php:1745
+#: wp-admin/includes/media.php:1744
+#: wp-admin/includes/media.php:1746
 #: wp-admin/upload.php:214
 #: wp-admin/upload.php:216
 msgid "Search Media"
 msgstr "Поиск медиафайлов"
 
-#: wp-admin/includes/media.php:1768
+#: wp-admin/includes/media.php:1769
 msgid "All Types"
 msgstr "Все типы"
 
-#: wp-admin/includes/media.php:1879
+#: wp-admin/includes/media.php:1880
 msgid "Alternate Text"
 msgstr "Текст для замены"
 
-#: wp-admin/includes/media.php:1880
+#: wp-admin/includes/media.php:1881
 msgid "Alt text for the image, e.g. &#8220;The Mona Lisa&#8221;"
 msgstr "Альтернативный текст, например, &laquo;Мона Лиза&raquo;"
 
-#: wp-admin/includes/media.php:1882
+#: wp-admin/includes/media.php:1883
 msgid "Image Caption"
 msgstr "Подпись"
 
-#: wp-admin/includes/media.php:1894
+#: wp-admin/includes/media.php:1895
 #: wp-includes/js/tinymce/langs/wp-langs.php:274
 msgid "Image URL"
 msgstr "Адрес (URL)"
 
-#: wp-admin/includes/media.php:1902
+#: wp-admin/includes/media.php:1903
 msgid "Image Title"
 msgstr "Название"
 
-#: wp-admin/includes/media.php:1932
+#: wp-admin/includes/media.php:1933
 msgid "Link Image To:"
 msgstr "Ссылка:"
 
-#: wp-admin/includes/media.php:1937
+#: wp-admin/includes/media.php:1938
 msgid "Link to image"
 msgstr "Ссылка на изображение"
 
-#: wp-admin/includes/media.php:1964
+#: wp-admin/includes/media.php:1965
 msgid "Audio File URL"
 msgstr "URL аудиофайла"
 
-#: wp-admin/includes/media.php:1976
+#: wp-admin/includes/media.php:1977
 msgid "Link text, e.g. &#8220;Still Alive by Jonathan Coulton&#8221;"
 msgstr "Текст ссылки, например &laquo;Still Alive Джонатана Коултона&raquo;"
 
-#: wp-admin/includes/media.php:1999
+#: wp-admin/includes/media.php:2000
 msgid "Video URL"
 msgstr "URL видеофайла"
 
-#: wp-admin/includes/media.php:2011
+#: wp-admin/includes/media.php:2012
 msgid "Link text, e.g. &#8220;Lucy on YouTube&#8220;"
 msgstr "Текст ссылки, например &laquo;Люси на YouTube&raquo;"
 
-#: wp-admin/includes/media.php:2046
+#: wp-admin/includes/media.php:2047
 msgid "Link text, e.g. &#8220;Ransom Demands (PDF)&#8221;"
 msgstr "Текст ссылки, например &laquo;Требования выкупа (PDF)&raquo;"
 
-#: wp-admin/includes/media.php:2082
+#: wp-admin/includes/media.php:2083
 #, php-format
 msgid "You are using the Flash uploader.  Problems?  Try the <a href=\"%s\">Browser uploader</a> instead."
 msgstr "Вы используете Flash-загрузчик. Проблемы? Попробуйте <a href=\"%s\">загрузчик браузера</a>."
 
-#: wp-admin/includes/media.php:2093
+#: wp-admin/includes/media.php:2094
 msgid "You are using the Browser uploader."
 msgstr "Вы используете загрузчик браузера."
 
-#: wp-admin/includes/media.php:2097
+#: wp-admin/includes/media.php:2098
 #, php-format
 msgid "Try the <a href=\"%s\">Flash uploader</a> instead."
 msgstr "Попробуйте <a href=\"%s\">Flash-загрузчик</a>."
@@ -14067,8 +14043,8 @@ msgstr "Найти записи или страницы"
 
 #: wp-admin/includes/template.php:3193
 #: wp-admin/includes/widgets.php:192
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:809
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:871
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:825
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:891
 #: wp-content/themes/pub/fauna/template-commentform.php:32
 #: wp-content/themes/pub/fauna/template-commentform.php:70
 #: wp-content/themes/pub/redoable-lite/comments.php:170
@@ -14117,8 +14093,8 @@ msgstr "Управление плагинами"
 
 #: wp-admin/includes/template.php:3263
 #: wp-admin/includes/template.php:3268
-#: wp-content/mu-plugins/admin-bar.php:321
-#: wp-content/mu-plugins/admin-bar.php:333
+#: wp-content/mu-plugins/admin-bar.php:325
+#: wp-content/mu-plugins/admin-bar.php:337
 msgid "New Post"
 msgstr "Новая запись"
 
@@ -14443,9 +14419,8 @@ msgid "Custom Colors"
 msgstr "Настройка цветов"
 
 #: wp-admin/includes/theme-install.php:220
-#, fuzzy
 msgid "Front Page Posting"
-msgstr "На главной странице отображается:"
+msgstr "Запись на первую страницу"
 
 #: wp-admin/includes/theme-install.php:221
 #: wp-admin/includes/theme-install.php:823
@@ -14454,7 +14429,6 @@ msgstr "Микроформаты"
 
 #: wp-admin/includes/theme-install.php:222
 #: wp-admin/includes/theme-install.php:823
-#, fuzzy
 msgid "Sticky Post"
 msgstr "Запись-липучка"
 
@@ -14467,7 +14441,7 @@ msgstr "Настройки темы"
 
 #: wp-admin/includes/theme-install.php:224
 msgid "Translation Ready"
-msgstr ""
+msgstr "Готовы к переводу"
 
 #: wp-admin/includes/theme-install.php:225
 #: wp-admin/widgets-posts.php:23
@@ -14478,9 +14452,8 @@ msgid "Widgets"
 msgstr "Виджеты"
 
 #: wp-admin/includes/theme-install.php:226
-#, fuzzy
 msgid "RTL Language Support"
-msgstr "Включить форум поддержки"
+msgstr "Поддержка языков \"справа налево\""
 
 #: wp-admin/includes/theme-install.php:498
 #, fuzzy, php-format
@@ -14508,18 +14481,17 @@ msgid "Activate \"%s\""
 msgstr "Активировать &laquo;%s&raquo;"
 
 #: wp-admin/includes/theme-install.php:542
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "You are about to delete this theme '%s'\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Вы собираетесь удалить тему '%s'\n"
+"Вы собираетесь удалить эту тему '%s'\n"
 " 'Отмена' - оставить, 'OK' - удалить."
 
 #: wp-admin/includes/theme-install.php:691
-#, fuzzy
 msgid "An Unexpected HTTP Error occured during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
-msgstr "При выполнении API-запроса произошла непредвиденная HTTP-ошибка.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Попробовать ещё раз</a>"
+msgstr "При выполнении API-запроса произошла непредвиденная HTTP-ошибка.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Попробуйте ещё раз</a>"
 
 #: wp-admin/includes/theme-install.php:695
 msgid "An unknown error occured"
@@ -14590,7 +14562,7 @@ msgid "Install Now"
 msgstr "Установить"
 
 #: wp-admin/includes/theme-install.php:938
-#, fuzzy, php-format
+#, php-format
 msgid "Install &#8220;%s&#8221;"
 msgstr "Установить &#8220;%s&#8221;"
 
@@ -14638,12 +14610,12 @@ msgstr[1] "%s раза"
 msgstr[2] "%s раз"
 
 #: wp-admin/includes/theme-install.php:967
-#, fuzzy, php-format
+#, php-format
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
-msgstr[0] "(всего %s голос)"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "(на основе %s рейтинга)"
+msgstr[1] "(на основе %s рейтингов)"
+msgstr[2] "(на основе %s рейтингов)"
 
 #: wp-admin/includes/theme-install.php:969
 msgid "5 stars"
@@ -15483,9 +15455,8 @@ msgid "Y-m-d G:i:s"
 msgstr "d.m.Y H:i:s"
 
 #: wp-admin/options-general.php:62
-#, fuzzy
 msgid "Blog Picture / Icon"
-msgstr "Блог уже существует."
+msgstr "Картинка блога / Иконка"
 
 #: wp-admin/options-general.php:70
 msgid "Upload a picture (<strong>jpeg</strong> or <strong>png</strong>) to be used as your blog image across WordPress.com. We will let you crop it after you upload."
@@ -15904,7 +15875,7 @@ msgid "Add New Page"
 msgstr "Новая страница"
 
 #: wp-admin/page.php:80
-#: wp-content/mu-plugins/admin-bar.php:879
+#: wp-content/mu-plugins/admin-bar.php:883
 msgid "Edit Page"
 msgstr "Редактировать страницу"
 
@@ -16007,14 +15978,14 @@ msgid "Hide renewal message"
 msgstr "Скрыть уведомление о продлении"
 
 #: wp-admin/paid-upgrades.php:418
-#, fuzzy, php-format
+#, php-format
 msgid "Add (%3.2f credits)"
-msgstr "Купить %s кредитов &raquo;"
+msgstr "Добавить (%3.2f кредитов)"
 
 #: wp-admin/paid-upgrades.php:427
-#, fuzzy, php-format
+#, php-format
 msgid "Add ($%3.2f)"
-msgstr "Добавить блог"
+msgstr "Добавить ($%3.2f)"
 
 #: wp-admin/paid-upgrades.php:451
 msgid "My Subscriptions"
@@ -16060,9 +16031,8 @@ msgid "Just in case you're not happy with your upgrade we offer a limited refund
 msgstr ""
 
 #: wp-admin/paid-upgrades.php:502
-#, fuzzy
 msgid "<a href=\"http://support.wordpress.com/contact/\">Contact support</a> if you want to request a refund."
-msgstr "<a href=\"http://support.wordpress.com/\">Помощь</a>"
+msgstr "<a href=\"http://support.wordpress.com/contact/\">Свяжитесь со службой поддержки</a> или вы хотите потребовать возмещение."
 
 #: wp-admin/plugin-editor.php:12
 msgid "Edit Plugins"
@@ -16392,7 +16362,7 @@ msgstr "Добавить с сайта"
 #: wp-admin/press-this.php:405
 #: wp-content/themes/pub/p2/comment-form.php:53
 #: wp-content/themes/pub/p2/inc/js.php:36
-#: wp-content/themes/pub/p2/post-form.php:43
+#: wp-content/themes/pub/p2/post-form.php:33
 msgid "Loading..."
 msgstr "Загрузка&hellip;"
 
@@ -16544,26 +16514,24 @@ msgstr "После загрузки темы вы сможете увидеть 
 
 #: wp-admin/themes.php:113
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 #: wp-admin/themes.php:114
 #: wp-content/themes/pub/arras/library/widgets-legacy.php:264
-#, fuzzy
 msgid "Popular"
 msgstr "Популярные"
 
 #: wp-admin/themes.php:121
-#, fuzzy
 msgid "Premium"
-msgstr "Специальные возможности"
+msgstr "Премиум"
 
 #: wp-admin/themes.php:135
 msgid "Browse our themes in alphabetical order."
-msgstr ""
+msgstr "Просмотр наших тем в алфавитном порядке."
 
 #: wp-admin/themes.php:137
 msgid "Browse our themes from most popular to least."
-msgstr ""
+msgstr "Просмотр наших тем от более популярных к менее."
 
 #: wp-admin/themes.php:145
 msgid "The active theme is broken.  Reverting to the default theme."
@@ -16583,14 +16551,12 @@ msgid "Theme not activated because of insufficient credits."
 msgstr "Тема не активирована из-за недостаточного количества кредитов."
 
 #: wp-admin/themes.php:182
-#, fuzzy
 msgid "Feature Filters"
-msgstr "Языковые фильтры:"
+msgstr "Фильтр по характеристикам"
 
 #: wp-admin/themes.php:195
-#, fuzzy
 msgid "Loading, please wait..."
-msgstr "Пожалуйста, подождите! Обновляются файлы:"
+msgstr "Загружается, пожалуйста подождите..."
 
 #: wp-admin/themes.php:207
 #, php-format
@@ -16598,9 +16564,8 @@ msgid "You have %d credits."
 msgstr "Ваши кредиты: %d"
 
 #: wp-admin/themes.php:241
-#, fuzzy
 msgid "No themes to display"
-msgstr "Нет записей для отображения."
+msgstr "Нет тем для отображения"
 
 #: wp-admin/themes.php:267
 msgid "Broken Themes"
@@ -16625,19 +16590,16 @@ msgid "Purchase and Activate &raquo;"
 msgstr "Приобрести и активировать &raquo;"
 
 #: wp-admin/themes.php:540
-#, fuzzy
 msgid "Theme filters"
-msgstr "Языковые фильтры:"
+msgstr "Фильтр тем"
 
 #: wp-admin/themes.php:565
-#, fuzzy
 msgid "Apply Filters"
-msgstr "Языковые фильтры:"
+msgstr "Применить фильтры"
 
 #: wp-admin/themes.php:567
-#, fuzzy
 msgid "Close filters"
-msgstr "Языковые фильтры:"
+msgstr "Закрыть фильтры"
 
 #: wp-admin/themes.php:611
 #, php-format
@@ -16661,9 +16623,8 @@ msgid "Current theme preview"
 msgstr "Просмотр текущей темы"
 
 #: wp-admin/themes.php:659
-#, fuzzy
 msgid "No themes to display!"
-msgstr "Нет записей для отображения."
+msgstr "Нет тем для отображения!"
 
 #: wp-admin/tools.php:27
 #: wp-admin/tools.php:36
@@ -17540,7 +17501,6 @@ msgid "Widget %s"
 msgstr "Виджет %s"
 
 #: wp-admin/widgets.php:252
-#, fuzzy
 msgid "Select both the sidebar for this widget and the position of the widget in that sidebar."
 msgstr "Выберите боковую колонку для этого виджета и его позицию в ней."
 
@@ -17568,7 +17528,6 @@ msgid "Error while saving."
 msgstr "Ошибка при сохранении."
 
 #: wp-admin/widgets.php:318
-#, fuzzy
 msgid "Error in displaying the widget settings form."
 msgstr "Ошибка при отображении формы настроек виджета."
 
@@ -17737,7 +17696,7 @@ msgstr "Никогда"
 #: wp-content/admin-plugins/blog-stats.php:1460
 #: wp-content/admin-plugins/my-blogs.php:43
 #: wp-content/admin-plugins/wpcom-fixes.php:383
-#: wp-content/mu-plugins/admin-bar.php:276
+#: wp-content/mu-plugins/admin-bar.php:280
 msgid "Stats"
 msgstr "Статистика"
 
@@ -18080,10 +18039,9 @@ msgstr "PayPal-транзакция ID %s выполнена."
 msgid "PayPal transaction ID %s <strong>NOT</strong> refunded."
 msgstr "PayPal-транзакция ID %s <strong>НЕ</strong> выполнена."
 
-#: wp-admin/wpmu-paid-upgrades.php:473
-#, fuzzy
+#: wp-admin/wpmu-paid-upgrades.php:487
 msgid "User Upgrades"
-msgstr "Мои обновления"
+msgstr "Пользовательские обновления"
 
 #: wp-admin/wpmu-paypal-reports.php:8
 msgid "WPMU Admin: Paypal Reports"
@@ -18519,7 +18477,6 @@ msgid "Averages are rounded to the nearest integer for display."
 msgstr "Средние значения округлены до ближайшего целого."
 
 #: wp-content/admin-plugins/blog-stats.php:728
-#, fuzzy
 msgid "Gray zeroes are exactly zero. Black zeroes have been rounded down."
 msgstr "Серые нули точно равны нулю. Черные приблизительно, очень малые величины."
 
@@ -18740,9 +18697,9 @@ msgid "Show most active posts over"
 msgstr "Показать самые активные записи за"
 
 #: wp-content/admin-plugins/blog-stats.php:1993
-#, fuzzy, php-format
+#, php-format
 msgid "Top Posts (%s)"
-msgstr "Топ записей"
+msgstr "Топ записей (%s)"
 
 #: wp-content/admin-plugins/blog-stats.php:1998
 #: wp-content/admin-plugins/blog-stats.php:2018
@@ -18755,9 +18712,9 @@ msgid "Top Searches"
 msgstr "Топ запросов"
 
 #: wp-content/admin-plugins/blog-stats.php:2013
-#, fuzzy, php-format
+#, php-format
 msgid "Most Active (%s)"
-msgstr "Самые популярные"
+msgstr "Самый активные (%s)"
 
 #: wp-content/admin-plugins/blog-stats.php:2027
 msgid "View All"
@@ -18786,65 +18743,73 @@ msgid "What your friends have been up to lately."
 msgstr "Чем недавно занимались ваши друзья."
 
 #: wp-content/admin-plugins/delete-blog.php:20
-#: wp-content/admin-plugins/delete-blog.php:27
+#: wp-content/admin-plugins/delete-blog.php:25
 msgid "Delete Blog"
 msgstr "Удалить блог"
 
-#: wp-content/admin-plugins/delete-blog.php:55
+#: wp-content/admin-plugins/delete-blog.php:27
+msgid "Warning! Your blog has a domain registration upgrade. If you delete your blog you won&#8217;t be able to perform administrative tasks on your domain."
+msgstr ""
+
+#: wp-content/admin-plugins/delete-blog.php:28
+msgid "If you do not want to use your blog any more please <a href=\"/wp-admin/options-privacy.php\">make it private</a>. Other users won&#8217;t be able to visit the blog but you can still access the Dashboard."
+msgstr ""
+
+#: wp-content/admin-plugins/delete-blog.php:60
 msgid "Thank you. Please check your email for a link to confirm your action. Your blog will not be deleted until this link is clicked."
 msgstr "Спасибо. Пожалуйста, проверьте ваш почтовый ящик на предмет ссылки для подтверждения вашего действия. Блог будет удалён, когда вы нажмёте на эту ссылку."
 
-#: wp-content/admin-plugins/delete-blog.php:58
+#: wp-content/admin-plugins/delete-blog.php:63
 msgid "The blog you are deleting is linked to your WordPress.com user profile. Before you delete this blog you should <a href=\"http://wordpress.com/profile/?edit=true\">edit your profile</a> and change the \"Website\" entry."
 msgstr "Блог, который вы собираетесь удалить, ссылается на ваш профиль пользователя WordPress.com. Прежде чем удалить этот блог, вы должны <a href=\"http://wordpress.com/profile/?edit=true\"> отредактировать свой профиль</a> и изменить запись \"Website\"."
 
-#: wp-content/admin-plugins/delete-blog.php:63
+#: wp-content/admin-plugins/delete-blog.php:68
 msgid "Thank you for using WordPress.com, your blog has been deleted. Happy trails to you until we meet again."
 msgstr "Спасибо за использование WordPress.com, ваш блог удален. Успехов вам и до новых встреч."
 
-#: wp-content/admin-plugins/delete-blog.php:65
+#: wp-content/admin-plugins/delete-blog.php:70
 msgid "The blog you deleted is linked to your WordPress.com user profile. When you leave a comment on a WordPress.com powered blog your name will be linked to this blog. You can change the blog <a href=\"http://wordpress.com/profile/?edit=true\">here</a> by editing the \"Website\" entry."
 msgstr "Ссылка на удалённый блог присутствует в вашем профиле на WordPress.com. Если вы оставите комментарий в блоге на WordPress.com, ваше имя станет ссылкой на этот блог. Вы можете изменить блог <a href=\"http://wordpress.com/profile/?edit=true\">здесь</a>, отредактировав значение поля &laquo;Сайт&raquo;."
 
-#: wp-content/admin-plugins/delete-blog.php:69
+#: wp-content/admin-plugins/delete-blog.php:74
 msgid "I'm sorry, the link you clicked is stale. Please select another option."
 msgstr "К сожалению, ссылка, по которой вы перешли, устарела. Пожалуйста, выберите другой вариант."
 
-#: wp-content/admin-plugins/delete-blog.php:73
+#: wp-content/admin-plugins/delete-blog.php:78
 msgid "If you do not want to use your WordPress.com blog any more, you can delete it. This CAN NOT be undone. It is <strong>permanent</strong>."
 msgstr "Если вы больше не хотите пользоваться блогом на Wordpress.com, вы можете удалить его. Эта операция НЕ может быть отменена. Удаление будет произведено <strong>навсегда</strong>"
 
-#: wp-content/admin-plugins/delete-blog.php:74
+#: wp-content/admin-plugins/delete-blog.php:79
 msgid "Do not delete a blog to re-import or to remove entries. <a href=\"http://support.wordpress.com/contact/\">Contact Support</a> for those issues."
 msgstr ""
 
-#: wp-content/admin-plugins/delete-blog.php:75
+#: wp-content/admin-plugins/delete-blog.php:80
 #, fuzzy
 msgid "Do not delete a blog to transfer ownership - <a href=\"http://support.wordpress.com/moving-a-blog/#transferring-your-blog-to-another-user-or-account\">read this Support document</a>."
 msgstr "Не нужно удалять блог, если вы просто хотите кому-то его отдать: чтобы узнать подробности, <a href=\"http://faq.wordpress.com/2006/07/22/how-do-i-transfer-a-blog-to-someone-else-another-name/\">прочтите ЧаВо</a>."
 
-#: wp-content/admin-plugins/delete-blog.php:76
+#: wp-content/admin-plugins/delete-blog.php:81
 msgid "Do not delete a blog to 'free the name'. That does not happen."
 msgstr "Не удаляйте блог, чтобы \"освободить\" название. Этого не случится."
 
-#: wp-content/admin-plugins/delete-blog.php:77
+#: wp-content/admin-plugins/delete-blog.php:82
 msgid "If you delete your blog your username remains. We do not delete accounts. Your email address cannot be used to create another account, but you can log back in and create as many more blogs as you like."
 msgstr "Если вы удалите свой блог, ваш аккаунт останется. Мы не удаляем аккаунты. С помощью вашего адреса e-mail нельзя создать другой аккаунт, но всегда можно снова зайти и создать столько блогов, сколько захочется."
 
-#: wp-content/admin-plugins/delete-blog.php:78
+#: wp-content/admin-plugins/delete-blog.php:83
 msgid "If you are sure..."
 msgstr "Если Вы уверены..."
 
-#: wp-content/admin-plugins/delete-blog.php:81
+#: wp-content/admin-plugins/delete-blog.php:86
 #, php-format
 msgid "I'm sure I want to permanently disable my blog, and I am aware I can never get it back or use %s again."
 msgstr "Я уверен, что хочу навсегда отключить свой блог, и осознаю, что никогда не смогу вернуть или использовать %s снова."
 
-#: wp-content/admin-plugins/delete-blog.php:83
+#: wp-content/admin-plugins/delete-blog.php:88
 msgid "If you could take a sentence to tell us why you&#8217;re deleting this blog we would really appreciate it. If you are moving your blog someplace else, let us know where!"
 msgstr "Мы будем очень признательны, если Вы напишите нам одно-два предложения о том, почему Вы удаляете этот блог. Если вы перемещаете блог куда-то, дайте нам знать!"
 
-#: wp-content/admin-plugins/delete-blog.php:86
+#: wp-content/admin-plugins/delete-blog.php:91
 msgid "Delete My Blog Permanently &raquo;"
 msgstr "Удалить мой блог навсегда &raquo;"
 
@@ -18927,7 +18892,7 @@ msgstr "Подписаться на следующие метки:"
 
 #: wp-content/admin-plugins/friend-surfer.php:6
 #: wp-content/admin-plugins/friend-surfer.php:261
-#: wp-content/mu-plugins/admin-bar.php:277
+#: wp-content/mu-plugins/admin-bar.php:281
 msgid "Blog Surfer"
 msgstr "Обозреватель блогов"
 
@@ -19135,7 +19100,7 @@ msgid "Primary"
 msgstr "Главный"
 
 #: wp-content/admin-plugins/my-blogs.php:108
-#: wp-content/mu-plugins/admin-bar.php:281
+#: wp-content/mu-plugins/admin-bar.php:285
 #: wp-profile.php:287
 #: wp-profile.php:345
 msgid "My Blogs"
@@ -19146,9 +19111,8 @@ msgid "Primary blog was changed"
 msgstr "Главный блог был сменен"
 
 #: wp-content/admin-plugins/my-blogs.php:201
-#, fuzzy
 msgid "Options have been updated"
-msgstr "Настройки успешно изменены."
+msgstr "Настройки обновлены"
 
 #: wp-content/admin-plugins/my-blogs.php:260
 #, fuzzy
@@ -19173,9 +19137,8 @@ msgid "Linked Blogs"
 msgstr "Связанные блоги"
 
 #: wp-content/admin-plugins/my-blogs.php:359
-#, fuzzy
 msgid "Register A WordPress.com Blog &raquo;"
-msgstr "Заведи себе блог на WordPress сейчас &raquo;"
+msgstr "Зарегистрируйте блог на WordPress &raquo;"
 
 #: wp-content/admin-plugins/my-blogs.php:373
 #: wp-content/admin-plugins/my-blogs.php:482
@@ -19201,7 +19164,7 @@ msgstr "Сделать видимым"
 
 #: wp-content/admin-plugins/my-comments.php:8
 #: wp-content/admin-plugins/my-comments.php:104
-#: wp-content/mu-plugins/admin-bar.php:279
+#: wp-content/mu-plugins/admin-bar.php:283
 msgid "My Comments"
 msgstr "Мои комментарии"
 
@@ -19262,12 +19225,12 @@ msgid "Add New Poll"
 msgstr "Добавить новое"
 
 #: wp-content/admin-plugins/polldaddy/polldaddy.php:87
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:615
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:628
 msgid "Email address required"
 msgstr "Требуется e-mail адрес"
 
 #: wp-content/admin-plugins/polldaddy/polldaddy.php:90
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:618
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:631
 msgid "Password required"
 msgstr "Требуется пароль"
 
@@ -19308,7 +19271,7 @@ msgstr "testing"
 #: wp-content/admin-plugins/polldaddy/polldaddy.php:356
 #: wp-content/admin-plugins/polldaddy/polldaddy.php:392
 #: wp-content/admin-plugins/polldaddy/polldaddy.php:428
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:462
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:475
 msgid "Invalid Poll Author"
 msgstr "Неверный Автор Голосования"
 
@@ -19322,46 +19285,46 @@ msgstr "testing"
 msgid "You are not allowed to close this poll."
 msgstr "testing"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:453
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:944
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:466
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:986
 msgid "You are not allowed to edit this poll."
 msgstr "Вам не разрешено изменять это голосование."
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:469
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:482
 msgid "Poll not found"
 msgstr "Голосование не найдено"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:496
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:509
 msgid "Invalid answers"
 msgstr "Неправильные ответы"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:512
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:525
 msgid "You must include at least 2 answers"
 msgstr "Вы должны включить как минимум 2 ответа"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:523
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:577
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:536
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:590
 #, fuzzy
 msgid "Please choose a poll style"
 msgstr "Пожалуйста, введите название блога"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:536
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:549
 msgid "Poll could not be updated"
 msgstr "Голосование не может быть обновлено"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:587
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:600
 msgid "Poll could not be created"
 msgstr "Голосование не может быть созданно"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:625
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:638
 msgid "Account could not be imported.  Are your email address and password correct?"
 msgstr "Невозможно импортировать аккаунт. Вы уверены, что e-mail и пароль верны?"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:648
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:661
 msgid "Poll deleted."
 msgstr "Голосование удалено."
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:650
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:663
 #, fuzzy, php-format
 msgid "%s Poll Deleted."
 msgid_plural "%s Polls Deleted."
@@ -19369,12 +19332,12 @@ msgstr[0] "Голосование удалено."
 msgstr[1] "Голосование удалено."
 msgstr[2] "Голосование удалено."
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:655
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:668
 #, fuzzy
 msgid "Poll opened."
 msgstr "Добавить Голосование"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:657
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:670
 #, fuzzy, php-format
 msgid "%s Poll Opened."
 msgid_plural "%s Polls Opened."
@@ -19382,12 +19345,12 @@ msgstr[0] "Добавить Голосование"
 msgstr[1] "Голосование удалено."
 msgstr[2] "Голосование удалено."
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:662
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:675
 #, fuzzy
 msgid "Poll closed."
 msgstr "Тема Закрыта"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:664
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:677
 #, fuzzy, php-format
 msgid "%s Poll Closed."
 msgid_plural "%s Polls Closed."
@@ -19395,174 +19358,179 @@ msgstr[0] "Тема Закрыта"
 msgstr[1] "Голосование удалено."
 msgstr[2] "Голосование удалено."
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:667
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:680
 msgid "Poll updated."
 msgstr "Опрос обновлен"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:670
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:683
+#, fuzzy
+msgid "The homepage poll has been set."
+msgstr "Ваша страница успешно сохранена."
+
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:686
 msgid "Poll created."
 msgstr "Готово."
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:672
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:971
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:688
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1013
 msgid "Send to Editor"
 msgstr "Отправить Редактору"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:681
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:697
 msgid "Error: An error has occurred;  Poll not created."
 msgstr "Ошибка: что-то случилось; Опрос не создан."
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:684
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:700
 msgid "Error: An error has occurred;  Poll not updated."
 msgstr "Ошибка: случилась ошибка; Голос не принят."
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:688
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:704
 msgid "Error: An error has occurred;  Account could not be imported.  Perhaps your email address or password is incorrect?"
 msgstr ""
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:690
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:706
 msgid "Error: An error has occurred;  Account could not be created."
 msgstr "Ошибка: Возникла ошибка; Учетная запись не может быть создана."
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:720
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:736
 #, php-format
 msgid "Poll Preview (<a href=\"%s\">Edit Poll</a>, <a href=\"%s\">List Polls</a>)"
 msgstr "Просмотр голосования (<a href=\"%s\">Изменить</a>, <a href=\"%s\">Список голосований</a>)"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:731
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:747
 #, fuzzy, php-format
 msgid "Poll Results (<a href=\"%s\">Edit</a>)"
 msgstr "Просмотр голосования (<a href=\"%s\">Изменить</a>, <a href=\"%s\">Список голосований</a>)"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:740
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:756
 #, fuzzy, php-format
 msgid "Edit Poll (<a href=\"%s\">List Polls</a>)"
 msgstr "Просмотр голосования (<a href=\"%s\">Изменить</a>, <a href=\"%s\">Список голосований</a>)"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:749
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:765
 #, php-format
 msgid "Create Poll (<a href=\"%s\">List Polls</a>)"
 msgstr "Создать опрос (<a href=\"%s\">Список опросов</a>)"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:758
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:774
 #, fuzzy, php-format
 msgid "Polls (<a href=\"%s\">Add New</a>)"
 msgstr "Рубрики (<a href=\"%s\">добавить новую</a>)"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:800
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:816
 msgid "All Blog's Polls"
 msgstr "Все опросы блога"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:801
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:817
 msgid "All My Polls"
 msgstr "Все мои опросы"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:866
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:886
 msgid "Results"
 msgstr "Результаты"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:876
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:896
 msgid "Send to editor"
 msgstr "Отправить редактору"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:882
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:902
 msgid "HTML code"
 msgstr "Код HTML"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:889
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:924
 msgid "Shortcode"
 msgstr "Быстрый код"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:892
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:927
 msgid "JavaScript"
 msgstr "JavaScript"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:908
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:943
 #, php-format
 msgid "What are you doing here?  <a href=\"%s\">Go back</a>."
 msgstr "Что вы тут делаете? :) <a href=\"%s\">Назад</a>."
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:916
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:951
 #, php-format
 msgid "No polls yet.  <a href=\"%s\">Create one</a>"
 msgstr "Пусто. <a href=\"%s\">Создать опрос</a>"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:967
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1009
 msgid "Save Poll"
 msgstr "Сохранить голосование"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:982
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1024
 msgid "Poll results"
 msgstr "Результат голосования"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:987
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1029
 msgid "Show results to voters"
 msgstr "Показывать результаты пользователям"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:987
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1029
 msgid "Only show percentages"
 msgstr "Показывать только проценты"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:987
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1029
 msgid "Hide all results"
 msgstr "Скрыть все результаты"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1005
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1047
 msgid "Block repeat voters"
 msgstr "Блокировать повторяющиеся голова"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1010
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1052
 msgid "Don't block repeat voters"
 msgstr "Не блокировать повторные голоса"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1010
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1052
 msgid "Block by cookie (recommended)"
 msgstr "Блокировать по куки (рекомендуется)"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1010
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1052
 msgid "Block by cookie and by IP address"
 msgstr "Блокировать через cookie и по IP"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1039
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1081
 msgid "Answers"
 msgstr "Ответы"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1085
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1127
 msgid "Add another"
 msgstr "Добавить еще"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1091
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1133
 msgid "Multiple choice"
 msgstr "Множественный выбор"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1091
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1133
 msgid "Randomize answer order"
 msgstr "Случайный порядок ответов"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1091
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1133
 msgid "Allow other answers"
 msgstr "Разрешить другие ответы"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1091
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1133
 #, fuzzy
 msgid "'Share This' link"
 msgstr "Оставить ссылку личной"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1252
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1294
 msgid "Answer"
 msgstr "Ответ"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1253
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1298
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1295
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1340
 msgid "Votes"
 msgstr "Голоса"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1267
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1309
 #, php-format
 msgid "Other (<a href=\"%s\">see below</a>)"
 msgstr "Другое (<a href=\"%s\">смотрите ниже</a>)"
 
-#: wp-content/admin-plugins/polldaddy/polldaddy.php:1297
+#: wp-content/admin-plugins/polldaddy/polldaddy.php:1339
 msgid "Other Answer"
 msgstr "Другой ответ"
 
@@ -19580,14 +19548,12 @@ msgid "Post by Email Logs"
 msgstr "Email-публикация выключена"
 
 #: wp-content/admin-plugins/post-by-email-admin.php:148
-#, fuzzy
 msgid "s"
-msgstr "%s"
+msgstr "s"
 
 #: wp-content/admin-plugins/post-by-email-admin.php:160
-#, fuzzy
 msgid "show"
-msgstr "Показать:"
+msgstr "показать"
 
 #: wp-content/admin-plugins/post-by-email-admin.php:254
 #, fuzzy
@@ -20086,14 +20052,12 @@ msgid "Some of your subscriptions have expired or are about to expire. Visit the
 msgstr "Некоторые из ваших подписок скоро истекают! Посетите <a href='/wp-admin/paid-upgrades.php'>страницу обновлений</a>, чтобы их продлить."
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:95
-#, fuzzy
 msgid "Invalid POST request"
-msgstr "Неверный идентификатор записи."
+msgstr "Неверный POST-запрос"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:102
-#, fuzzy
 msgid "Invalid product ID"
-msgstr "Неверный идентификатор записи."
+msgstr "Неверный идентификатор продукта"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:127
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-store.php:743
@@ -20103,9 +20067,8 @@ msgstr "Пожалуйста, введите название блога"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:302
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:314
-#, fuzzy
 msgid "Insufficient credits"
-msgstr "Кредиты обновлены."
+msgstr "Недостаточно кредитов"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:351
 #, fuzzy
@@ -20122,19 +20085,16 @@ msgid "Incorrect Total!"
 msgstr "Всего просмотров: %s "
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:727
-#, fuzzy
 msgid "Credit card type"
-msgstr "Неверный тип файла"
+msgstr "Тип кредитной карты"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:741
-#, fuzzy
 msgid "Credit card number"
-msgstr "Номер последней записи:"
+msgstr "Ноинр кредитной карты"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:745
-#, fuzzy
 msgid "CVV2 code"
-msgstr "Образец кода"
+msgstr "CVV2 код"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:748
 #: wp-content/themes/pub/subtle/comments.php:34
@@ -20142,9 +20102,8 @@ msgid "What is this?"
 msgstr "Что это?"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:752
-#, fuzzy
 msgid "Expiration date"
-msgstr "Формат даты"
+msgstr "Дата истечения"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:759
 #, fuzzy, php-format
@@ -20152,14 +20111,12 @@ msgid "%s: %s|Month_number: Month_name"
 msgstr "Месяц и название"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:764
-#, fuzzy
 msgid "Month"
-msgstr "месяц"
+msgstr "Месяц"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:766
-#, fuzzy
 msgid "Year"
-msgstr "год"
+msgstr "Год"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:773
 #, fuzzy
@@ -20256,9 +20213,8 @@ msgid "Yes &#8211; Purchase via PayPal"
 msgstr ""
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:1025
-#, fuzzy
 msgid "Confirm via PayPal"
-msgstr "PayPal-транзакция ID %s выполнена."
+msgstr "Подтвердить через PayPal"
 
 #: wp-content/admin-plugins/wpcom-billing/class.wpcom-billing-payment-processor.php:1048
 #, fuzzy
@@ -20368,15 +20324,15 @@ msgstr "Безымянный"
 msgid "Report Card"
 msgstr "Карта отчёта"
 
-#: wp-content/admin-plugins/wpmu-feedback.php:150
+#: wp-content/admin-plugins/wpmu-feedback.php:151
 msgid "WordPress.com Forums"
 msgstr "Форумы WordPress.com"
 
-#: wp-content/admin-plugins/wpmu-feedback.php:151
+#: wp-content/admin-plugins/wpmu-feedback.php:152
 msgid "WordPress.com Support"
 msgstr "Поддержка WordPress.com"
 
-#: wp-content/admin-plugins/wpmu-feedback.php:152
+#: wp-content/admin-plugins/wpmu-feedback.php:153
 msgid "WordPress.com Videos on WordPress.tv"
 msgstr "Видео WordPress.com на WordPress.tv"
 
@@ -20536,21 +20492,21 @@ msgstr "Виджет календаря 30Boxes.com"
 msgid "30Boxes"
 msgstr "30Boxes"
 
-#: wp-content/mu-plugins/admin-bar.php:273
+#: wp-content/mu-plugins/admin-bar.php:277
 msgid "My Account"
 msgstr "Мой аккаунт"
 
-#: wp-content/mu-plugins/admin-bar.php:275
+#: wp-content/mu-plugins/admin-bar.php:279
 msgid "Global Dashboard"
 msgstr "Главная консоль"
 
-#: wp-content/mu-plugins/admin-bar.php:278
+#: wp-content/mu-plugins/admin-bar.php:282
 #: wp-content/mu-plugins/dashboard-tags.php:6
 #: wp-content/mu-plugins/dashboard-tags.php:381
 msgid "Tag Surfer"
 msgstr "Обозреватель меток"
 
-#: wp-content/mu-plugins/admin-bar.php:286
+#: wp-content/mu-plugins/admin-bar.php:290
 #: wp-content/themes/default/comments.php:64
 #: wp-content/themes/h4/comments.php:80
 #: wp-content/themes/pub/albeo/comments.php:84
@@ -20609,78 +20565,78 @@ msgstr "Обозреватель меток"
 msgid "Log out of this account"
 msgstr "Выйти из данного аккаунта"
 
-#: wp-content/mu-plugins/admin-bar.php:290
+#: wp-content/mu-plugins/admin-bar.php:294
 msgid "My Dashboards"
 msgstr "Мои консоли"
 
-#: wp-content/mu-plugins/admin-bar.php:303
+#: wp-content/mu-plugins/admin-bar.php:307
 #, fuzzy
 msgid "Manage Blogs"
 msgstr "Блоги в Blogger"
 
-#: wp-content/mu-plugins/admin-bar.php:307
+#: wp-content/mu-plugins/admin-bar.php:311
 msgid "My Dashboard"
 msgstr "Моя консоль"
 
-#: wp-content/mu-plugins/admin-bar.php:316
+#: wp-content/mu-plugins/admin-bar.php:320
 msgid "Claim your blog!"
 msgstr "Получите свой блог!"
 
-#: wp-content/mu-plugins/admin-bar.php:426
+#: wp-content/mu-plugins/admin-bar.php:430
 msgid "Blog Dashboard"
 msgstr "Консоль блога"
 
-#: wp-content/mu-plugins/admin-bar.php:428
+#: wp-content/mu-plugins/admin-bar.php:432
 msgid "Blog Options"
 msgstr "Настройки блога"
 
-#: wp-content/mu-plugins/admin-bar.php:429
+#: wp-content/mu-plugins/admin-bar.php:433
 msgid "User Options"
 msgstr "Настройки пользователя"
 
-#: wp-content/mu-plugins/admin-bar.php:442
+#: wp-content/mu-plugins/admin-bar.php:446
 msgid "Load Page Without Cache"
 msgstr "Загрузить страницу без кэша. "
 
-#: wp-content/mu-plugins/admin-bar.php:443
+#: wp-content/mu-plugins/admin-bar.php:447
 #, fuzzy
 msgid "Clear Page's Cache"
 msgstr "Загрузить страницу без кэша. "
 
-#: wp-content/mu-plugins/admin-bar.php:444
+#: wp-content/mu-plugins/admin-bar.php:448
 msgid "Posts Per Page = 1"
 msgstr "Записей на страницу = 1"
 
-#: wp-content/mu-plugins/admin-bar.php:469
+#: wp-content/mu-plugins/admin-bar.php:473
 msgid "Blog Info"
 msgstr "Информация о блоге"
 
-#: wp-content/mu-plugins/admin-bar.php:471
+#: wp-content/mu-plugins/admin-bar.php:475
 msgid "Random Post"
 msgstr "Случайная запись"
 
-#: wp-content/mu-plugins/admin-bar.php:476
+#: wp-content/mu-plugins/admin-bar.php:480
 msgid "Subscribe to blog"
 msgstr "Подписаться на блог"
 
-#: wp-content/mu-plugins/admin-bar.php:481
+#: wp-content/mu-plugins/admin-bar.php:485
 msgid "Remove from Blogroll"
 msgstr "Удалить из ссылок"
 
-#: wp-content/mu-plugins/admin-bar.php:483
+#: wp-content/mu-plugins/admin-bar.php:487
 msgid "Add to Blogroll"
 msgstr "Добавить в ссылки"
 
-#: wp-content/mu-plugins/admin-bar.php:488
+#: wp-content/mu-plugins/admin-bar.php:492
 #: wp-content/mu-plugins/shortlink.php:73
 msgid "Get Shortlink"
 msgstr "Получить короткую ссылку"
 
-#: wp-content/mu-plugins/admin-bar.php:489
+#: wp-content/mu-plugins/admin-bar.php:493
 msgid "Report as spam"
 msgstr "Сообщить о спаме"
 
-#: wp-content/mu-plugins/admin-bar.php:490
+#: wp-content/mu-plugins/admin-bar.php:494
 msgid "Report as mature"
 msgstr "Сообщить о непристойном содержании"
 
@@ -21621,60 +21577,60 @@ msgstr "Редактировать запись"
 msgid "No Title"
 msgstr "Без заголовка"
 
-#: wp-content/mu-plugins/safecss.php:228
+#: wp-content/mu-plugins/safecss.php:229
 #, php-format
 msgid "Preview: you must purchase the %sCustom CSS Upgrade%s to save your changes"
 msgstr "Предпросмотр: вы должны купить %sCustom CSS Upgrade%s, чтобы сохранить ваши изменения"
 
-#: wp-content/mu-plugins/safecss.php:233
+#: wp-content/mu-plugins/safecss.php:234
 msgid "Preview: changes must be saved or they will be lost"
 msgstr "Предпросмотр: именения необходимо сохранить, иначе они будут потеряны."
 
-#: wp-content/mu-plugins/safecss.php:259
+#: wp-content/mu-plugins/safecss.php:260
 msgid "Edit CSS"
 msgstr "Редактировать CSS"
 
-#: wp-content/mu-plugins/safecss.php:388
+#: wp-content/mu-plugins/safecss.php:389
 msgid "Stylesheet saved."
 msgstr "Таблица стилей сохранена."
 
-#: wp-content/mu-plugins/safecss.php:401
+#: wp-content/mu-plugins/safecss.php:402
 #, fuzzy, php-format
 msgid "The CSS editor lets you modify the visual style of your blog. You can edit your CSS and preview the changes for free. If you would like the ability to save your changes and make your design visible to the public, please purchase the <a href=\"%s\">Custom CSS Upgrade</a>. (<a href=\"%s\">more info</a>)"
 msgstr "Редактор CSS поможет вам отредактировать визуальный стиль блога. Вы можете бесплатно редактировать CSS и просматривать изменения. Если вы хотите сохранить изменения и сделать ваш дизайн доступным публично, пожалуйста приобретите <a href=\"%s\">Обновление настраиваемого CSS</a>."
 
-#: wp-content/mu-plugins/safecss.php:405
+#: wp-content/mu-plugins/safecss.php:406
 msgid "For help with CSS try <a href=\"http://www.w3schools.com/css/default.asp\">W3Schools</a>, <a href=\"http://alistapart.com/\">A List Apart</a>, and our own <a href=\"http://support.wordpress.com/editing-css/\">CSS documentation</a> and <a href=\"http://en.forums.wordpress.com/forum/css-customization\">CSS Forum</a>."
 msgstr ""
 
-#: wp-content/mu-plugins/safecss.php:406
+#: wp-content/mu-plugins/safecss.php:407
 #, fuzzy
 msgid "Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?"
 msgstr "Вы хотите внести изменения в текущую таблицу стилей или начать новую?"
 
-#: wp-content/mu-plugins/safecss.php:407
+#: wp-content/mu-plugins/safecss.php:408
 #, php-format
 msgid "Add this to the %s theme's CSS stylesheet (<a href=\"%s\">view original stylesheet</a>)"
 msgstr ""
 
-#: wp-content/mu-plugins/safecss.php:408
+#: wp-content/mu-plugins/safecss.php:409
 msgid "Start from scratch and just use this "
 msgstr "Начните с нуля, просто используя это"
 
-#: wp-content/mu-plugins/safecss.php:411
+#: wp-content/mu-plugins/safecss.php:412
 msgid "If you change the width of your main content column, make sure your media files fit. Enter the maximum width for media files in your new CSS below."
 msgstr ""
 
-#: wp-content/mu-plugins/safecss.php:412
+#: wp-content/mu-plugins/safecss.php:413
 msgid "Limit width to"
 msgstr "Ограничить ширину до"
 
-#: wp-content/mu-plugins/safecss.php:413
+#: wp-content/mu-plugins/safecss.php:414
 #, php-format
 msgid "pixels for videos, full size images, and other shortcodes. (<a href=\"%s\">more info</a>)"
 msgstr ""
 
-#: wp-content/mu-plugins/safecss.php:420
+#: wp-content/mu-plugins/safecss.php:421
 msgid "Save Stylesheet &raquo;"
 msgstr "Сохранить таблицу стилей &raquo;"
 
@@ -21985,57 +21941,57 @@ msgstr ""
 msgid "Preview not available.  Try <a href='%s' target='_top'>logging out</a> and then logging back in to get the magic working again.  If that doesn't work, please contact support."
 msgstr "Предпросмотр недоступен. Попробуйте <a href='%s' target='_top'>выйти</a> и зайти еще раз. А если не получится, свяжитесь с поддержкой."
 
-#: wp-content/mu-plugins/video.php:42
-#: wp-content/mu-plugins/video.php:220
-#: wp-content/mu-plugins/video.php:224
+#: wp-content/mu-plugins/video.php:43
+#: wp-content/mu-plugins/video.php:221
+#: wp-content/mu-plugins/video.php:226
 msgid "This video doesn&#8217;t exist"
 msgstr "Такого видео не существует"
 
-#: wp-content/mu-plugins/video.php:46
+#: wp-content/mu-plugins/video.php:47
 msgid "This video is suspended due to terms of service violation"
 msgstr ""
 
-#: wp-content/mu-plugins/video.php:145
+#: wp-content/mu-plugins/video.php:146
 msgid "Error"
 msgstr "Ошибка"
 
-#: wp-content/mu-plugins/video.php:251
+#: wp-content/mu-plugins/video.php:255
 msgid "This video could not be processed because the codec is not supported."
 msgstr "Невозможно обработать видео, так как кодек не поддерживается."
 
-#: wp-content/mu-plugins/video.php:257
+#: wp-content/mu-plugins/video.php:263
 #, fuzzy
 msgid "This video you uploaded is encoded incorrectly, so we are unable to process it. Please try using a standard format (.avi, .mp4, .m4v, .mov, .wmv,.mpg), or different encoding software."
 msgstr "Загруженное вами видео было кодировано неправильно. Попытайтесь использовать стандартные форматы (.avi, .mp4, .mov, .wmv, .mpg), или выберите кодировщик получше."
 
-#: wp-content/mu-plugins/video.php:267
+#: wp-content/mu-plugins/video.php:271
 #, fuzzy
 msgid "Video processing system is busy. Please contact support or try later."
 msgstr "Извините, система обработки видеофайлов временно недоступна. Пожалуйста, свяжитесь со службой поддержки или попробуйте позже"
 
-#: wp-content/mu-plugins/video.php:270
+#: wp-content/mu-plugins/video.php:274
 #, php-format
 msgid "Could not process video. Error code: %s. Please try uploading it later or contact support."
 msgstr "Не удалось обработать видеофайл. Код ошибки: %s. Попробуйте загрузить его позже или обратитесь в службу поддержки."
 
-#: wp-content/mu-plugins/video.php:272
+#: wp-content/mu-plugins/video.php:276
 msgid "This video is being processed"
 msgstr "Видео обрабатывается"
 
-#: wp-content/mu-plugins/video.php:275
+#: wp-content/mu-plugins/video.php:279
 #, php-format
 msgid "It will be ready in about <strong>%s</strong>."
 msgstr ""
 
-#: wp-content/mu-plugins/video.php:277
+#: wp-content/mu-plugins/video.php:281
 msgid "Normal users won&#8217;t see this notice"
 msgstr "Обычные пользователи не увидят эту пометку"
 
-#: wp-content/mu-plugins/video.php:337
+#: wp-content/mu-plugins/video.php:341
 msgid "a couple of minutes"
 msgstr "пару минут"
 
-#: wp-content/mu-plugins/video.php:342
+#: wp-content/mu-plugins/video.php:346
 #, php-format
 msgid "one hour and %2$s minutes"
 msgid_plural "%1$s hours and %2$s minutes"
@@ -22043,7 +21999,7 @@ msgstr[0] "%1$s час и %2$s минут"
 msgstr[1] "%1$s часа и %2$s минут"
 msgstr[2] "%1$s часов и %2$s минут"
 
-#: wp-content/mu-plugins/video.php:344
+#: wp-content/mu-plugins/video.php:348
 #, fuzzy, php-format
 msgid "one hour"
 msgid_plural "%1$s hours"
@@ -22051,7 +22007,7 @@ msgstr[0] "%1$s час и %2$s минут"
 msgstr[1] "1 час"
 msgstr[2] "1 час"
 
-#: wp-content/mu-plugins/video.php:346
+#: wp-content/mu-plugins/video.php:350
 #, fuzzy, php-format
 msgid "one minute"
 msgid_plural "%s minutes"
@@ -22059,54 +22015,54 @@ msgstr[0] "Одна колонка"
 msgstr[1] "минута"
 msgstr[2] "минута"
 
-#: wp-content/mu-plugins/video.php:576
+#: wp-content/mu-plugins/video.php:588
 msgid "Display embed code and allow external sites to embed this video"
 msgstr ""
 
-#: wp-content/mu-plugins/video.php:666
+#: wp-content/mu-plugins/video.php:678
 msgid "Title will appear on the first frame of your video"
 msgstr ""
 
-#: wp-content/mu-plugins/video.php:676
+#: wp-content/mu-plugins/video.php:688
 msgid "Embed"
 msgstr "Код для вставки"
 
-#: wp-content/mu-plugins/video.php:701
+#: wp-content/mu-plugins/video.php:713
 msgid "Shortcode for embedding"
 msgstr "Короткий код для вставки"
 
-#: wp-content/mu-plugins/video.php:704
+#: wp-content/mu-plugins/video.php:716
 msgid "Shortcode for embedding:"
 msgstr "Ссылка для вставки:"
 
-#: wp-content/mu-plugins/video.php:709
+#: wp-content/mu-plugins/video.php:721
 msgid "Preview and Insert"
 msgstr "Проверить и вставить"
 
-#: wp-content/mu-plugins/video.php:716
+#: wp-content/mu-plugins/video.php:728
 msgid "This video is currently served by Vidavee, we will convert it for you soon. "
 msgstr "Видеофайл в настоящий момент обслуживается Vidavee, скоро мы его сконвертируем."
 
-#: wp-content/mu-plugins/video.php:723
+#: wp-content/mu-plugins/video.php:735
 msgid "Status "
 msgstr "Состояние"
 
-#: wp-content/mu-plugins/video.php:814
+#: wp-content/mu-plugins/video.php:826
 #, php-format
 msgid "<a href=\"%s\" target=\"_blank\">YouTube instructions</a> %s"
 msgstr "<a href=\"%s\" target=\"_blank\">Инструкции YouTube</a> %s"
 
-#: wp-content/mu-plugins/video.php:815
+#: wp-content/mu-plugins/video.php:827
 #, php-format
 msgid "<a href=\"%s\" target=\"_blank\">Google instructions</a> %s"
 msgstr "<a href=\"%s\" target=\"_blank\">Инструкции Google</a> %s"
 
-#: wp-content/mu-plugins/video.php:816
+#: wp-content/mu-plugins/video.php:828
 #, php-format
 msgid "<a href=\"%s\" target=\"_blank\">DailyMotion instructions</a> %s"
 msgstr "<a href=\"%s\" target=\"_blank\">Инструкции DailyMotion</a> %s"
 
-#: wp-content/mu-plugins/video.php:817
+#: wp-content/mu-plugins/video.php:829
 #, php-format
 msgid "<a href=\"%s\" target=\"_blank\">Post to WordPress button</a> %s"
 msgstr "<a href=\"%s\" target=\"_blank\">Опубликовать в WordPress</a> %s"
@@ -24316,7 +24272,7 @@ msgstr "Редактировать запись"
 #: wp-content/themes/pub/inove/archives.php:33
 #: wp-content/themes/pub/inove/attachment.php:71
 #: wp-content/themes/pub/inove/index.php:43
-#: wp-content/themes/pub/inove/links.php:47
+#: wp-content/themes/pub/inove/links.php:59
 #: wp-content/themes/pub/inove/page.php:27
 #: wp-content/themes/pub/inove/single.php:46
 #: wp-content/themes/pub/light/archive.php:60
@@ -24705,17 +24661,17 @@ msgid "Welcome back, %s"
 msgstr "Добро пожаловать, %s"
 
 #: wp-content/themes/h4/home-other.php:104
-#: wp-content/themes/h4/home.php:215
+#: wp-content/themes/h4/home.php:238
 msgid "Register another blog &rarr;"
 msgstr "Зарегистрировать еще один блог &rarr; "
 
 #: wp-content/themes/h4/home-other.php:106
-#: wp-content/themes/h4/home.php:217
+#: wp-content/themes/h4/home.php:240
 msgid "Your Dashboard"
 msgstr "Ваша консоль"
 
 #: wp-content/themes/h4/home-other.php:107
-#: wp-content/themes/h4/home.php:218
+#: wp-content/themes/h4/home.php:241
 msgid "Register a blog &rarr;"
 msgstr "Создать блог &rarr;"
 
@@ -24739,7 +24695,7 @@ msgid "Today&#8217;s Hot Posts"
 msgstr "Популярные сегодня записи"
 
 #: wp-content/themes/h4/home-other.php:254
-#: wp-content/themes/h4/home.php:264
+#: wp-content/themes/h4/home.php:287
 msgid "[Untitled Post]"
 msgstr "[Безымянный пост]"
 
@@ -24752,7 +24708,7 @@ msgstr "Сейчас в метках"
 msgid "Sign up now"
 msgstr "Вливайтесь!"
 
-#: wp-content/themes/h4/home.php:249
+#: wp-content/themes/h4/home.php:272
 #, fuzzy, php-format
 msgid "<span class=\"thebestof\">The best of <strong>%1$s</strong> bloggers, <strong>%2$s</strong> new posts, <strong>%3$s</strong> comments, <span class=\"amp\">&amp;</span> <strong>%4$s</strong> words today on WordPress.com.</span>"
 msgstr "Сегодня у нас <span>%s</span> блоггеров, <span>%s</span> новых сообщений, <span>%s</span> слов. "
@@ -27697,14 +27653,13 @@ msgid "Logged in as %s."
 msgstr "Вы авторизованы как %s."
 
 #: wp-content/themes/pub/chaoticsoul/comments.php:70
-#, fuzzy
 msgid "E-mail (private)"
-msgstr "E-mail (не публикуется)"
+msgstr "E-mail (не для публикации)"
 
 #: wp-content/themes/pub/chaoticsoul/footer.php:5
-#, fuzzy, php-format
+#, php-format
 msgid "Get a free blog at %s."
-msgstr "Получи бесплатный блог на %s"
+msgstr "Получите бесплатный блог на %s"
 
 #: wp-content/themes/pub/chaoticsoul/functions.php:10
 msgid "said this on"
@@ -28178,14 +28133,12 @@ msgid "Author Box Text:"
 msgstr "Текст в колонке 'Об авторе':"
 
 #: wp-content/themes/pub/depo-masthead/home.php:56
-#, fuzzy
 msgid "Comment on "
-msgstr "Комментарий к записи %s"
+msgstr "Комментарий на"
 
 #: wp-content/themes/pub/depo-masthead/home.php:56
-#, fuzzy
 msgid "Comment&nbsp;&raquo;"
-msgstr "Изменить комментарий &raquo;"
+msgstr "Комментировать&nbsp;&raquo;"
 
 #: wp-content/themes/pub/depo-masthead/home.php:58
 #, fuzzy
@@ -28240,9 +28193,8 @@ msgstr "Название блога"
 #: wp-content/themes/pub/depo-squared/index.php:25
 #: wp-content/themes/pub/depo-squared/type-photo.php:7
 #: wp-content/themes/pub/depo-squared/type-quote.php:13
-#, fuzzy
 msgid "Leave a Comment "
-msgstr "Оставить комментарий"
+msgstr "Оставьте комментарий"
 
 #: wp-content/themes/pub/digg3/404.php:12
 #: wp-content/themes/pub/digg3/archive.php:40
@@ -28673,16 +28625,14 @@ msgstr "Теги записи &#8216;%s&#8217;"
 #: wp-content/themes/pub/flower-power/archive.php:45
 #: wp-content/themes/pub/flower-power/index.php:16
 #: wp-content/themes/pub/flower-power/search.php:20
-#, fuzzy
 msgid "Continue Reading"
-msgstr "Читать далее"
+msgstr "Продолжить чтение"
 
 #: wp-content/themes/pub/flower-power/archive.php:46
 #: wp-content/themes/pub/flower-power/index.php:17
 #: wp-content/themes/pub/flower-power/search.php:21
-#, fuzzy
 msgid "Add comment"
-msgstr "%s комментарий одобрен."
+msgstr "Добавить комментарий"
 
 #: wp-content/themes/pub/flower-power/archive.php:46
 #: wp-content/themes/pub/flower-power/index.php:17
@@ -28707,16 +28657,14 @@ msgstr "% Комментариев"
 #: wp-content/themes/pub/flower-power/archive.php:60
 #: wp-content/themes/pub/flower-power/index.php:31
 #: wp-content/themes/pub/flower-power/search.php:33
-#, fuzzy
 msgid "Previous Posts"
-msgstr "Импорт записей"
+msgstr "Предыдущие записи"
 
 #: wp-content/themes/pub/flower-power/archive.php:62
 #: wp-content/themes/pub/flower-power/index.php:33
 #: wp-content/themes/pub/flower-power/search.php:35
-#, fuzzy
 msgid "Next Posts"
-msgstr "Импорт записей"
+msgstr "Следующие записи"
 
 #: wp-content/themes/pub/flower-power/comments.php:32
 #: wp-content/themes/pub/journalist/archive.php:35
@@ -28736,9 +28684,8 @@ msgid "Leave a Comment to %s"
 msgstr "Оставить комментарий к %s"
 
 #: wp-content/themes/pub/flower-power/comments.php:83
-#, fuzzy
 msgid "Required,"
-msgstr "(обязательно)"
+msgstr "Обязательно,"
 
 #: wp-content/themes/pub/flower-power/comments.php:83
 #, fuzzy
@@ -28747,14 +28694,12 @@ msgstr "Скрыт"
 
 #: wp-content/themes/pub/flower-power/comments.php:84
 #: wp-content/themes/pub/flower-power/contact.php:71
-#, fuzzy
 msgid "Url"
 msgstr "URL"
 
 #: wp-content/themes/pub/flower-power/comments.php:95
-#, fuzzy
 msgid "Some HTML allowed:"
-msgstr "Редактировать HTML"
+msgstr "Разрешенный HTML:"
 
 #: wp-content/themes/pub/flower-power/comments.php:101
 #, fuzzy
@@ -28813,19 +28758,16 @@ msgid "No Results for <em>&#8216;%s&#8217;</em>"
 msgstr "Результаты поиска &laquo;%s&raquo;"
 
 #: wp-content/themes/pub/flower-power/sidebar.php:69
-#, fuzzy
 msgid "Posts by Month"
-msgstr "Архив по месяцам"
+msgstr "Записи по месяцам"
 
 #: wp-content/themes/pub/flower-power/sidebar.php:78
-#, fuzzy
 msgid "Posts by Category"
-msgstr "Архив по рубрикам"
+msgstr "Записи по рубрикам"
 
 #: wp-content/themes/pub/flower-power/single.php:24
-#, fuzzy
 msgid "Entry Filed under:"
-msgstr "Рубрика&#58;"
+msgstr "Запись размещена в:"
 
 #: wp-content/themes/pub/flower-power/single.php:24
 #: wp-content/themes/pub/sandbox-10/single.php:27
@@ -29269,9 +29211,9 @@ msgid "Archive for the &#8216;%1$s&#8217; Category"
 msgstr "Архив рубрики &#8216;%s&#8217;"
 
 #: wp-content/themes/pub/inove/archive.php:22
-#, fuzzy, php-format
+#, php-format
 msgid "Posts Tagged &#8216;%1$s&#8217;"
-msgstr "Записи с меткой &laquo;%s&raquo;"
+msgstr "Записи, помеченные &laquo;%s&raquo;"
 
 #: wp-content/themes/pub/inove/archive.php:25
 #: wp-content/themes/pub/inove/archive.php:28
@@ -29322,7 +29264,7 @@ msgid "No trackbacks yet."
 msgstr "Комментариев нет."
 
 #: wp-content/themes/pub/inove/comments.php:131
-#, fuzzy, php-format
+#, php-format
 msgid "Welcome back <strong>%s</strong>."
 msgstr "С возвращением, <strong>%s</strong>"
 
@@ -29387,16 +29329,14 @@ msgid "Hide sidebar from all pages."
 msgstr "Убрать боковую колонку из всех страниц."
 
 #: wp-content/themes/pub/inove/functions.php:193
-#, fuzzy
 msgid "Notice"
-msgstr "Уведомление об ошибке WordPress"
+msgstr "Уведомление"
 
 #: wp-content/themes/pub/inove/functions.php:195
 #: wp-content/themes/pub/inove/functions.php:219
 #: wp-content/themes/pub/inove/functions.php:254
-#, fuzzy
 msgid "HTML enabled"
-msgstr "Редактировать HTML"
+msgstr "HTML разрешен"
 
 #: wp-content/themes/pub/inove/functions.php:201
 msgid "This notice bar will display at the top of posts on homepage."
@@ -29419,15 +29359,13 @@ msgstr "Посмотреть&nbsp;все"
 
 #: wp-content/themes/pub/inove/functions.php:232
 #: wp-content/themes/pub/inove/functions.php:267
-#, fuzzy
 msgid "Commentator"
-msgstr "Комментарий"
+msgstr "Комментатор"
 
 #: wp-content/themes/pub/inove/functions.php:236
 #: wp-content/themes/pub/inove/functions.php:271
-#, fuzzy
 msgid "Visitors"
-msgstr "Перейти на %s"
+msgstr "Посетителя"
 
 #: wp-content/themes/pub/inove/functions.php:252
 #: wp-content/themes/pub/inove/sidebar.php:41
@@ -29479,19 +29417,16 @@ msgid "Type text to search here..."
 msgstr "Введите запрос и нажмите Enter"
 
 #: wp-content/themes/pub/inove/links.php:15
-#, fuzzy
 msgid "Add link"
 msgstr "Добавить ссылку"
 
 #: wp-content/themes/pub/inove/links.php:16
-#, fuzzy
 msgid "Edit links"
 msgstr "Редактировать ссылки"
 
 #: wp-content/themes/pub/inove/sidebar.php:15
-#, fuzzy
 msgid "Subscribe to this blog..."
-msgstr "Подписаться на этот сайт"
+msgstr "Подписаться на этот блог..."
 
 #: wp-content/themes/pub/inove/sidebar.php:15
 #, fuzzy
@@ -29546,9 +29481,8 @@ msgid "iNezha"
 msgstr ""
 
 #: wp-content/themes/pub/inove/sidebar.php:56
-#, fuzzy
 msgid "Random Posts"
-msgstr "Импорт записей"
+msgstr "Случайные записи"
 
 #: wp-content/themes/pub/journalist-13/404.php:8
 #: wp-content/themes/pub/sandbox-097/404.php:9
@@ -29583,9 +29517,8 @@ msgid "Tagged with: "
 msgstr "Помечено:"
 
 #: wp-content/themes/pub/journalist-13/index.php:25
-#, fuzzy
 msgid "leave a comment"
-msgstr "Оставить комментарий"
+msgstr "Оставьте комментарий"
 
 #: wp-content/themes/pub/journalist-13/index.php:25
 msgid "<strong>1</strong> comment"
@@ -29636,9 +29569,8 @@ msgstr "с одним комментарием"
 #: wp-content/themes/pub/journalist/page.php:9
 #: wp-content/themes/pub/journalist/search.php:11
 #: wp-content/themes/pub/journalist/single.php:8
-#, fuzzy, php-format
 msgid "with % comments"
-msgstr "Подписаться на комментарии"
+msgstr "с % комментариями"
 
 #: wp-content/themes/pub/journalist/archive.php:34
 #: wp-content/themes/pub/journalist/index.php:15
@@ -29668,9 +29600,8 @@ msgstr "Можно использовать эти теги: %s"
 
 #: wp-content/themes/pub/journalist/index.php:7
 #: wp-content/themes/pub/journalist/single.php:8
-#, fuzzy
 msgid "leave a comment &raquo;"
-msgstr "Оставить комментарий &raquo;"
+msgstr "оставить комментарий &raquo;"
 
 #: wp-content/themes/pub/journalist/links.php:15
 msgid "Complete list of the blog's bookmarks."
@@ -30439,9 +30370,9 @@ msgstr "Вам не разрешено импортировать данные."
 
 #: wp-content/themes/pub/p2/inc/ajax.php:139
 #: wp-content/themes/pub/p2/inc/js.php:28
-#: wp-content/themes/pub/p2/post-form.php:37
-#: wp-content/themes/pub/p2/post-form.php:38
-#: wp-content/themes/pub/p2/post-form.php:39
+#: wp-content/themes/pub/p2/post-form.php:27
+#: wp-content/themes/pub/p2/post-form.php:28
+#: wp-content/themes/pub/p2/post-form.php:29
 #: wp-content/themes/pub/prologue-projects/post-form.php:35
 msgid "Tag it"
 msgstr "Проставить метки"
@@ -30604,16 +30535,16 @@ msgstr "Месяц и название"
 msgid "No posts yet!"
 msgstr "Просмотренных записей пока нет."
 
-#: wp-content/themes/pub/p2/post-form.php:30
+#: wp-content/themes/pub/p2/post-form.php:20
 msgid "Whatcha up to?"
 msgstr "Что дальше?"
 
-#: wp-content/themes/pub/p2/post-form.php:31
+#: wp-content/themes/pub/p2/post-form.php:21
 #, php-format
 msgid "Hi, %s. %s"
 msgstr ""
 
-#: wp-content/themes/pub/p2/post-form.php:40
+#: wp-content/themes/pub/p2/post-form.php:30
 #: wp-content/themes/pub/prologue-projects/post-form.php:69
 msgid "Post it"
 msgstr "Отправить"

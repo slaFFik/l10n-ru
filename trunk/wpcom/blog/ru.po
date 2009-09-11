@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPBlog\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-06-15 16:39+0000\n"
+"POT-Creation-Date: 2009-08-31 15:03+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Sol <salpagarov@gmail.com>\n"
 "Language-Team: ru.wordpress.org <salpagarov@gmail.com>\n"
@@ -12,6 +12,13 @@ msgstr ""
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: archive.php:17
+#: home.php:4
+#: page.php:8
+#: single.php:8
+msgid "Just Another WordPress Weblog"
+msgstr "Еще один блог WordPress"
 
 #: archive.php:22
 #: index.php:19
@@ -48,13 +55,13 @@ msgstr "Архивы блога"
 #: archive.php:60
 #: home.php:44
 #: index.php:57
-msgid "&laquo; Previous Entries"
-msgstr "&laquo; Предыдущие записи"
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Старые записи"
 
 #: archive.php:61
 #: index.php:58
-msgid "Next Entries &raquo;"
-msgstr "Следующие записи &raquo;"
+msgid "Newer Entries &raquo;"
+msgstr "Новые записи &raquo;"
 
 #: archive.php:67
 #: index.php:69
@@ -68,13 +75,12 @@ msgstr "Архивы"
 #: blognav.php:11
 #: functions.php:13
 #: home.php:27
-#: sidebar.php:25
 msgid "Recently"
 msgstr "Недавно"
 
 #: blognav.php:24
 #: home.php:74
-#: sidebar.php:34
+#: sidebar.php:25
 msgid "Tags"
 msgstr "Метки"
 
@@ -82,64 +88,65 @@ msgstr "Метки"
 msgid "This post is password protected. Enter the password to view comments."
 msgstr "Это сообщение защищено паролем. Введите пароль, чтобы посмотреть комментарий."
 
-#: comments.php:21
-#, php-format
-msgid "to &#8220;%s&#8221;"
-msgstr "к &#8220;%s&#8221;"
-
 #: comments.php:23
-#: comments.php:46
+#: comments.php:43
 msgid "Comments are closed."
 msgstr "Обсуждение закрыто."
 
-#: comments.php:54
+#: comments.php:51
 msgid "Leave a Reply"
 msgstr "Оставить ответ"
 
-#: comments.php:62
+#: comments.php:59
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "Вы должны <a href=\"%s\">авторизоваться</a> для отправки комментария."
 
-#: comments.php:68
+#: comments.php:65
 msgid "You must set a WordPress.com blog as your URL to post a comment. Please update <a href=\"http://dashboard.wordpress.com/wp-admin/profile.php\">Your Profile</a>."
 msgstr "Вы должны установить WPCOM-блог в качестве ссылки для публикации комментария. Пожалуйста, обновите <a href=\"http://dashboard.wordpress.com/wp-admin/profile.php\">ваш профиль</a>."
 
-#: comments.php:77
+#: comments.php:74
 #, php-format
 msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
 msgstr "Вы вошли как <a href=\"%1$s\">%2$s</a>."
 
-#: comments.php:77
+#: comments.php:74
 msgid "Log out of this account"
 msgstr "Выйти из этого аккаунта"
 
-#: comments.php:77
-msgid "Log out &raquo;"
-msgstr "Выйти &raquo;"
+#: comments.php:74
+msgid "Log out"
+msgstr "Выйти"
 
-#: comments.php:82
+#: comments.php:79
 msgid "Name"
 msgstr "Имя"
 
+#: comments.php:79
 #: comments.php:82
-#: comments.php:85
 msgid "(required)"
 msgstr "(обязательно)"
 
-#: comments.php:85
+#: comments.php:82
 msgid "Mail (will not be published)"
 msgstr "E-mail (не для публикации)"
 
-#: comments.php:88
+#: comments.php:85
 msgid "Website"
 msgstr "Сайт"
 
-#: comments.php:96
-msgid "Please do not use these comments for asking questions, support, or bug reporting, use the <a href=\"http://wordpress.com/forums/\">forums</a> or <a href=\"http://support.wordpress.com/contact/\">support contact form</a> for that."
-msgstr "Пожалуйста, не задавайте здесь вопросов и не пишите баг-репорты. Для этого есть <a href=\"http://wordpress.com/forums/\">форумы</a> и <a href=\"http://support.wordpress.com/contact/\">обратная связь</a>."
+#: comments.php:93
+#, php-format
+msgid "Please do not use these comments for asking questions, support, or bug reporting, use the <a href=\"%1$s\">forums</a> or <a href=\"http://support.wordpress.com/contact/\">support contact form</a> for that."
+msgstr "Пожалуйста, не задавайте здесь вопросов и не пишите баг-репорты. Для этого есть <a href=\"%1$s\">форумы</a> или <a href=\"http://support.wordpress.com/contact/\">форма обратной связи</a>."
 
-#: comments.php:98
+#: comments.php:96
+#, php-format
+msgid "Please read our <a href=\"%1$s/comment-guidelines/\">comment guidelines</a> before posting."
+msgstr "Пожалуйста прочтите наше <a href=\"%1$s/comment-guidelines/\">руководство комментатору</a> перед публикацией."
+
+#: comments.php:99
 msgid "Submit Comment"
 msgstr "Отправить"
 
@@ -147,35 +154,30 @@ msgstr "Отправить"
 msgid "From the"
 msgstr "Из"
 
-#: functions.php:64
+#: functions.php:65
 msgid "Pingback:"
 msgstr "Уведомление:"
 
-#: functions.php:70
+#: functions.php:71
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s в %2$s"
 
-#: functions.php:70
+#: functions.php:71
 msgid "F jS, Y"
 msgstr "d.m.Y"
 
-#: functions.php:75
+#: functions.php:76
 msgid "Your comment is awaiting moderation."
 msgstr "Ваш комментарий ожидает проверки."
 
-#: functions.php:201
+#: functions.php:202
 msgid "Untitled"
 msgstr "Безымянный"
 
-#: functions.php:248
+#: functions.php:249
 msgid "An error has occurred; the feed is probably down. Try again later."
 msgstr "Произошла ошибка; возможно, лента недоступна. Повторите попытку позже."
-
-#: home.php:4
-#: single.php:8
-msgid "Just Another WordPress Weblog"
-msgstr "Еще один блог WordPress"
 
 #: home.php:16
 #: home.php:35
@@ -213,18 +215,33 @@ msgid "Archives by Date"
 msgstr "Архив по датам"
 
 #: home.php:82
-#: sidebar.php:42
+#: sidebar.php:33
 msgid "<span>Recent Posts</span> RSS"
 msgstr "<span>Недавние записи</span> в RSS"
 
 #: home.php:83
-#: sidebar.php:43
+#: sidebar.php:34
 msgid "<span>Recent Comments</span> RSS"
 msgstr "<span>Недавние комментарии</span> в RSS"
 
 #: index.php:67
 msgid "No results found."
 msgstr "Ничего не найдено."
+
+#: page.php:13
+#: single.php:29
+msgid "Read the rest of this entry &rarr;"
+msgstr "Читать далее &rarr;"
+
+#: page.php:15
+#: single.php:31
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: page.php:23
+#: single.php:39
+msgid "Sorry, no posts matched your criteria."
+msgstr "Извините, нет записей, удовлетворяющих вашим условиям."
 
 #: single.php:20
 #, php-format
@@ -244,15 +261,6 @@ msgstr "Опубликован в %s."
 msgid "Edit&nbsp;this&nbsp;entry."
 msgstr "Править&nbsp;эту&nbsp;запись."
 
-#: single.php:29
-msgid "Read the rest of this entry &rarr;"
-msgstr "Читать далее &rarr;"
-
-#: single.php:31
-msgid "Pages:"
-msgstr "Страницы:"
-
-#: single.php:39
-msgid "Sorry, no posts matched your criteria."
-msgstr "Извините, нет записей, удовлетворяющих вашим условиям."
+#~ msgid "to &#8220;%s&#8221;"
+#~ msgstr "к &#8220;%s&#8221;"
 
