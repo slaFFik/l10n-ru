@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Broken Link Checker 0.5.8.1 (i18n)\n"
+"Project-Id-Version: Broken Link Checker 0.5.8.9 (i18n)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-19 23:49+0300\n"
+"POT-Creation-Date: 2009-09-16 17:09+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
@@ -16,182 +16,182 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: broken-link-checker.php:236
-#: broken-link-checker.php:1131
+#: broken-link-checker.php:239
+#: broken-link-checker.php:1133
 msgid "Loading..."
 msgstr "Загрузка..."
 
-#: broken-link-checker.php:259
-#: broken-link-checker.php:603
+#: broken-link-checker.php:262
+#: broken-link-checker.php:605
 msgid "Network error"
 msgstr "Ошибка сети"
 
-#: broken-link-checker.php:284
+#: broken-link-checker.php:287
 msgid "Automatically expand the widget if broken links have been detected"
 msgstr "Автоматически раскрыть виджет, если обнаружены неправильные ссылки"
 
-#: broken-link-checker.php:499
+#: broken-link-checker.php:501
 msgid "Link Checker Settings"
 msgstr "Настройка проверки ссылок"
 
-#: broken-link-checker.php:499
+#: broken-link-checker.php:501
 msgid "Link Checker"
 msgstr "Проверка ссылок"
 
-#: broken-link-checker.php:504
+#: broken-link-checker.php:506
 msgid "View Broken Links"
 msgstr "Просмотреть неправильные ссылки"
 
-#: broken-link-checker.php:504
-#: broken-link-checker.php:700
+#: broken-link-checker.php:506
+#: broken-link-checker.php:702
 msgid "Broken Links"
 msgstr "Неправильные ссылки"
 
-#: broken-link-checker.php:519
+#: broken-link-checker.php:521
 msgid "Settings"
 msgstr "Настройки"
 
-#: broken-link-checker.php:576
+#: broken-link-checker.php:578
 msgid "Broken Link Checker Options"
 msgstr "Настройка проверки ссылок"
 
-#: broken-link-checker.php:583
+#: broken-link-checker.php:585
 msgid "Status:"
 msgstr "Состояние:"
 
-#: broken-link-checker.php:615
+#: broken-link-checker.php:617
 msgid "Re-check all pages"
 msgstr "Перепроверить все страницы"
 
-#: broken-link-checker.php:620
+#: broken-link-checker.php:622
 msgid "Check each link"
 msgstr "Периодичность проверок"
 
-#: broken-link-checker.php:623
+#: broken-link-checker.php:625
 msgid "Every"
 msgstr "Каждые"
 
-#: broken-link-checker.php:625
+#: broken-link-checker.php:627
 msgid "hours"
 msgstr "ч."
 
-#: broken-link-checker.php:628
+#: broken-link-checker.php:630
 msgid "Links in old posts will be re-checked this often. New posts will be usually checked ASAP."
 msgstr "Ссылки в старых записях будут перепроверяться с указанным интервалом. Новые записи обычно проверяются по мере их появления."
 
-#: broken-link-checker.php:635
+#: broken-link-checker.php:637
 msgid "Broken link CSS"
 msgstr "Стиль неправильных ссылок"
 
-#: broken-link-checker.php:639
+#: broken-link-checker.php:641
 msgid "Apply <em>class=\"broken_link\"</em> to broken links"
 msgstr "Применить к неправильным ссылкам <em>class=&quot;broken_link&quot;</em>"
 
-#: broken-link-checker.php:649
+#: broken-link-checker.php:651
 msgid "Exclusion list"
 msgstr "Список исключений"
 
-#: broken-link-checker.php:650
+#: broken-link-checker.php:652
 msgid "Don&rsquo;t check links where the URL contains any of these words (one per line):"
 msgstr "Не проверять ссылки, которые содержат любое из этих слов (по одному на строку):"
 
-#: broken-link-checker.php:660
+#: broken-link-checker.php:662
 msgid "Custom fields"
 msgstr "Произвольные поля"
 
-#: broken-link-checker.php:661
+#: broken-link-checker.php:663
 msgid "Check URLs entered in these custom fields (one per line):"
 msgstr "Проверять URL в этих произвольных полях (по одному на строку):"
 
-#: broken-link-checker.php:671
+#: broken-link-checker.php:673
 msgid "Max. execution time (advanced)"
 msgstr "Максимальное время поиска"
 
-#: broken-link-checker.php:676
+#: broken-link-checker.php:678
 msgid "seconds"
 msgstr "сек."
 
-#: broken-link-checker.php:678
+#: broken-link-checker.php:680
 msgid "The plugin works by periodically creating a background worker instance that parses your posts looking for links, checks the discovered URLs, and performs other time-consuming tasks. Here you can set for how long, at most, the background instance may run each time before stopping."
 msgstr "Плагин создает фоновый процесс, который ищет гиперссылки в вашем журнале и проверяет их работоспособность. Этот параметр определяет как долго может работать такой процесс."
 
-#: broken-link-checker.php:686
+#: broken-link-checker.php:688
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: broken-link-checker.php:699
+#: broken-link-checker.php:701
 msgid "Broken"
 msgstr "Неправильные"
 
-#: broken-link-checker.php:701
+#: broken-link-checker.php:703
 msgid "No broken links found"
 msgstr "Неправильных ссылок нет"
 
-#: broken-link-checker.php:705
+#: broken-link-checker.php:707
 msgid "Redirects"
 msgstr "Перенаправленные"
 
-#: broken-link-checker.php:706
+#: broken-link-checker.php:708
 msgid "Redirected Links"
 msgstr "Перенаправленные ссылки"
 
-#: broken-link-checker.php:707
+#: broken-link-checker.php:709
 msgid "No redirects found"
 msgstr "Перенаправленных ссылок нет"
 
-#: broken-link-checker.php:712
+#: broken-link-checker.php:714
 msgid "All"
 msgstr "Все"
 
-#: broken-link-checker.php:713
+#: broken-link-checker.php:715
 msgid "Detected Links"
 msgstr "Все ссылки"
 
-#: broken-link-checker.php:714
+#: broken-link-checker.php:716
 msgid "No links found (yet)"
 msgstr "Ссылок нет (пока)"
 
-#: broken-link-checker.php:833
+#: broken-link-checker.php:835
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: broken-link-checker.php:834
+#: broken-link-checker.php:836
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: broken-link-checker.php:841
-#: broken-link-checker.php:999
+#: broken-link-checker.php:843
+#: broken-link-checker.php:1001
 #, php-format
 msgid "Displaying %s&#8211;%s of <span class=\"current-link-count\">%s</span>"
 msgstr "Показано %s&#8211;%s из <span class=\"current-link-count\">%s</span>"
 
-#: broken-link-checker.php:863
+#: broken-link-checker.php:865
 msgid "Source"
 msgstr "Источник"
 
-#: broken-link-checker.php:865
+#: broken-link-checker.php:867
 msgid "Link Text"
 msgstr "Тип&nbsp;/&nbsp;Текст"
 
-#: broken-link-checker.php:866
+#: broken-link-checker.php:868
 msgid "URL"
 msgstr "URL"
 
-#: broken-link-checker.php:891
-#: broken-link-checker.php:896
+#: broken-link-checker.php:893
+#: broken-link-checker.php:898
 msgid "Edit this post"
 msgstr "Редактировать эту запись"
 
-#: broken-link-checker.php:896
-#: broken-link-checker.php:911
+#: broken-link-checker.php:898
+#: broken-link-checker.php:913
 msgid "Edit"
 msgstr "Редактировать"
 
-#: broken-link-checker.php:897
+#: broken-link-checker.php:899
 msgid "Delete this post"
 msgstr "Удалить эту запись"
 
-#: broken-link-checker.php:897
+#: broken-link-checker.php:899
 #, php-format
 msgid ""
 "You are about to delete the post '%s'\n"
@@ -200,26 +200,26 @@ msgstr ""
 "Вы собираетесь удалить запись '%s'.\n"
 "Нажмите 'Отмена', чтобы прекратить, или 'OK' для удаления."
 
-#: broken-link-checker.php:897
-#: broken-link-checker.php:912
+#: broken-link-checker.php:899
+#: broken-link-checker.php:914
 msgid "Delete"
 msgstr "Удалить"
 
-#: broken-link-checker.php:899
+#: broken-link-checker.php:901
 #, php-format
 msgid "View \"%s\""
 msgstr "Посмотреть &laquo;%s&raquo;"
 
-#: broken-link-checker.php:899
+#: broken-link-checker.php:901
 msgid "View"
 msgstr "Посмотреть"
 
-#: broken-link-checker.php:906
-#: broken-link-checker.php:911
+#: broken-link-checker.php:908
+#: broken-link-checker.php:913
 msgid "Edit this bookmark"
 msgstr "Редактировать эту закладку"
 
-#: broken-link-checker.php:912
+#: broken-link-checker.php:914
 #, php-format
 msgid ""
 "You are about to delete this link '%s'\n"
@@ -228,140 +228,140 @@ msgstr ""
 "Вы собираетесь удалить эту ссылку: '%s'\n"
 "Нажмите 'Отмена', чтобы прекратить, или 'OK' для удаления."
 
-#: broken-link-checker.php:921
+#: broken-link-checker.php:923
 msgid "An orphaned link! This is a bug."
 msgstr "Ссылка-сирота! Это ошибка."
 
-#: broken-link-checker.php:932
+#: broken-link-checker.php:934
 msgid "Image"
 msgstr "Изображение"
 
-#: broken-link-checker.php:939
+#: broken-link-checker.php:941
 msgid "Custom field"
 msgstr "Произвольные поля"
 
-#: broken-link-checker.php:944
+#: broken-link-checker.php:946
 msgid "Bookmark"
 msgstr "Закладка"
 
-#: broken-link-checker.php:958
+#: broken-link-checker.php:960
 msgid "Show more info about this link"
 msgstr "Показать подробный отчёт об этой ссылке"
 
-#: broken-link-checker.php:958
+#: broken-link-checker.php:960
 msgid "Details"
 msgstr "Посмотреть отчёт"
 
-#: broken-link-checker.php:960
+#: broken-link-checker.php:962
 msgid "Remove this link from all posts"
 msgstr "Удалить эту ссылку во всех записях"
 
-#: broken-link-checker.php:961
-#: broken-link-checker.php:1204
+#: broken-link-checker.php:963
+#: broken-link-checker.php:1206
 msgid "Unlink"
 msgstr "Удалить ссылку"
 
-#: broken-link-checker.php:964
-#: broken-link-checker.php:1234
-#: broken-link-checker.php:1245
+#: broken-link-checker.php:966
+#: broken-link-checker.php:1236
+#: broken-link-checker.php:1247
 msgid "Excluded"
 msgstr "Исключено"
 
-#: broken-link-checker.php:966
+#: broken-link-checker.php:968
 msgid "Add this URL to the exclusion list"
 msgstr "Добавить этот URL в список исключений"
 
-#: broken-link-checker.php:967
-#: broken-link-checker.php:1248
+#: broken-link-checker.php:969
+#: broken-link-checker.php:1250
 msgid "Exclude"
 msgstr "Исключить"
 
-#: broken-link-checker.php:970
+#: broken-link-checker.php:972
 msgid "Edit link URL"
 msgstr "Редактировать URL ссылки"
 
-#: broken-link-checker.php:970
-#: broken-link-checker.php:1158
-#: broken-link-checker.php:1173
+#: broken-link-checker.php:972
+#: broken-link-checker.php:1160
+#: broken-link-checker.php:1175
 msgid "Edit URL"
 msgstr "Редактировать URL"
 
-#: broken-link-checker.php:976
+#: broken-link-checker.php:978
 msgid "Cancel URL editing"
 msgstr "Отменить редактирование URL"
 
-#: broken-link-checker.php:976
+#: broken-link-checker.php:978
 msgid "Cancel"
 msgstr "Отмена"
 
-#: broken-link-checker.php:985
+#: broken-link-checker.php:987
 msgid "Remove this message and mark the link as valid"
 msgstr "Удалить это сообщение и пометить ссылку как правильную"
 
-#: broken-link-checker.php:985
-#: broken-link-checker.php:1054
+#: broken-link-checker.php:987
+#: broken-link-checker.php:1056
 msgid "Discard"
 msgstr "Сбросить"
 
-#: broken-link-checker.php:1030
-#: broken-link-checker.php:1180
-#: broken-link-checker.php:1217
+#: broken-link-checker.php:1032
+#: broken-link-checker.php:1182
+#: broken-link-checker.php:1219
 msgid "Wait..."
 msgstr "Подождите..."
 
-#: broken-link-checker.php:1086
+#: broken-link-checker.php:1088
 msgid "Save URL"
 msgstr "Сохранить URL"
 
-#: broken-link-checker.php:1096
+#: broken-link-checker.php:1098
 msgid "Saving changes..."
 msgstr "Сохранение изменений..."
 
-#: broken-link-checker.php:1120
+#: broken-link-checker.php:1122
 msgid "The link was successfully modifed."
 msgstr "Ссылка отредактирована."
 
-#: broken-link-checker.php:1121
+#: broken-link-checker.php:1123
 msgid "However"
 msgstr "Тем не менее"
 
-#: broken-link-checker.php:1121
+#: broken-link-checker.php:1123
 msgid "instances couldn&rsquo;t be edited and still point to the old URL."
 msgstr "экземпляров невозможно отредактировать, и они все ещё используют старый URL."
 
-#: broken-link-checker.php:1140
+#: broken-link-checker.php:1142
 msgid "Something went wrong. The plugin failed to edit"
 msgstr "Что-то пошло не так. Невозможно отредактировать"
 
-#: broken-link-checker.php:1141
+#: broken-link-checker.php:1143
 msgid "instance(s) of this link."
 msgstr "экземпляров этой ссылки."
 
-#: broken-link-checker.php:1270
+#: broken-link-checker.php:1272
 msgid "Log:"
 msgstr "Отчёт о проверке:"
 
-#: broken-link-checker.php:1278
+#: broken-link-checker.php:1280
 msgid "Post published on:"
 msgstr "Дата публикации:"
 
-#: broken-link-checker.php:1283
+#: broken-link-checker.php:1285
 msgid "Link last checked:"
 msgstr "Дата последней проверки:"
 
-#: broken-link-checker.php:1287
+#: broken-link-checker.php:1289
 msgid "Never"
 msgstr "Никогда"
 
-#: broken-link-checker.php:1293
+#: broken-link-checker.php:1295
 msgid "HTTP code:"
 msgstr "Код HTTP:"
 
-#: broken-link-checker.php:1298
+#: broken-link-checker.php:1300
 msgid "Response time:"
 msgstr "Время отклика:"
 
-#: broken-link-checker.php:1300
+#: broken-link-checker.php:1302
 #, php-format
 msgid "%2.3f second"
 msgid_plural "%2.3f seconds"
@@ -369,23 +369,23 @@ msgstr[0] "%2.3f секунда"
 msgstr[1] "%2.3f секунды"
 msgstr[2] "%2.3f секунд"
 
-#: broken-link-checker.php:1303
+#: broken-link-checker.php:1305
 msgid "Final URL:"
 msgstr "Конечный URL:"
 
-#: broken-link-checker.php:1308
+#: broken-link-checker.php:1310
 msgid "Redirect count:"
 msgstr "Кол-во перенаправлений:"
 
-#: broken-link-checker.php:1313
+#: broken-link-checker.php:1315
 msgid "Instance count:"
 msgstr "Кол-во экземпляров:"
 
-#: broken-link-checker.php:1319
+#: broken-link-checker.php:1321
 msgid "This link has failed"
 msgstr "Эта ссылка не прошла проверку"
 
-#: broken-link-checker.php:1320
+#: broken-link-checker.php:1322
 #, php-format
 msgid "%d time"
 msgid_plural "%d times"
@@ -393,16 +393,16 @@ msgstr[0] "%d раз"
 msgstr[1] "%d раза"
 msgstr[2] "%d раз"
 
-#: broken-link-checker.php:1719
-#: broken-link-checker.php:2051
+#: broken-link-checker.php:1721
+#: broken-link-checker.php:2053
 msgid "This link wasn&rsquo;t checked because a matching keyword was found on your exclusion list."
 msgstr "Эта ссылка не была проверена, поскольку находится в списке исключений."
 
-#: broken-link-checker.php:1761
+#: broken-link-checker.php:1763
 msgid "View broken links"
 msgstr "Показать неправильные ссылки"
 
-#: broken-link-checker.php:1761
+#: broken-link-checker.php:1763
 #, php-format
 msgid "Found %d broken link"
 msgid_plural "Found %d broken links"
@@ -410,11 +410,11 @@ msgstr[0] "Найдена %d неправильная ссылка"
 msgstr[1] "Найдены %d неправильных ссылки"
 msgstr[2] "Найдено %d неправильных ссылок"
 
-#: broken-link-checker.php:1764
+#: broken-link-checker.php:1766
 msgid "No broken links found."
 msgstr "Сейчас не найдено ни одной неправильной ссылки."
 
-#: broken-link-checker.php:1770
+#: broken-link-checker.php:1772
 #, php-format
 msgid "%d URL in the work queue."
 msgid_plural "%d URLs in the work queue."
@@ -422,11 +422,11 @@ msgstr[0] "Сейчас в очереди на проверку находитс
 msgstr[1] "Сейчас в очереди на проверку находятся %d URL."
 msgstr[2] "Сейчас в очереди на проверку находится %d URL."
 
-#: broken-link-checker.php:1772
+#: broken-link-checker.php:1774
 msgid "No URLs in the work queue."
 msgstr "Сейчас в очереди на проверку нет ни одного URL."
 
-#: broken-link-checker.php:1777
+#: broken-link-checker.php:1779
 #, php-format
 msgid "Detected %d unique URL"
 msgid_plural "Detected %d unique URLs"
@@ -434,7 +434,7 @@ msgstr[0] "Обнаружен %d уникальный URL"
 msgstr[1] "Обнаружены %d уникальных URL"
 msgstr[2] "Обнаружено %d уникальных URL"
 
-#: broken-link-checker.php:1777
+#: broken-link-checker.php:1779
 #, php-format
 msgid "in %d link"
 msgid_plural "in %d links"
@@ -442,82 +442,82 @@ msgstr[0] "в %d ссылке"
 msgstr[1] "в %d ссылках"
 msgstr[2] "в %d ссылках"
 
-#: broken-link-checker.php:1779
+#: broken-link-checker.php:1781
 msgid "and still searching..."
 msgstr ". Поиск продолжается..."
 
-#: broken-link-checker.php:1785
+#: broken-link-checker.php:1787
 msgid "Searching your blog for links..."
 msgstr "Поиск ссылок в вашем журнале..."
 
-#: broken-link-checker.php:1787
+#: broken-link-checker.php:1789
 msgid "No links detected."
 msgstr "Не обнаружено ни одной ссылки."
 
-#: broken-link-checker.php:1874
-#: broken-link-checker.php:1905
-#: broken-link-checker.php:1948
-#: broken-link-checker.php:2028
+#: broken-link-checker.php:1876
+#: broken-link-checker.php:1907
+#: broken-link-checker.php:1950
+#: broken-link-checker.php:2030
 msgid "You're not allowed to do that!"
 msgstr "Вам запрещено делать это!"
 
-#: broken-link-checker.php:1882
-#: broken-link-checker.php:1915
-#: broken-link-checker.php:1958
-#: broken-link-checker.php:2038
+#: broken-link-checker.php:1884
+#: broken-link-checker.php:1917
+#: broken-link-checker.php:1960
+#: broken-link-checker.php:2040
 msgid "Oops, I can't find the link"
 msgstr "Извините, но ссылку невозможно найти"
 
-#: broken-link-checker.php:1889
+#: broken-link-checker.php:1891
 msgid "This link was manually marked as working by the user."
 msgstr "Эта ссылка была вручную помечена пользователем как рабочая."
 
-#: broken-link-checker.php:1893
+#: broken-link-checker.php:1895
 msgid "OK"
 msgstr "ОК"
 
-#: broken-link-checker.php:1895
+#: broken-link-checker.php:1897
 msgid "Oops, couldn't modify the link!"
 msgstr "Извините, но ссылку невозможно отредактировать!"
 
-#: broken-link-checker.php:1898
-#: broken-link-checker.php:1975
+#: broken-link-checker.php:1900
+#: broken-link-checker.php:1977
 msgid "Error : link_id not specified"
 msgstr "Ошибка: не указан ID ссылки"
 
-#: broken-link-checker.php:1922
+#: broken-link-checker.php:1924
 msgid "Oops, the new URL is invalid!"
 msgstr "Извините, но этот новый URL тоже неправильный!"
 
-#: broken-link-checker.php:1931
+#: broken-link-checker.php:1933
 msgid "An unexpected error occured!"
 msgstr "Произошла неожиданная ошибка!"
 
-#: broken-link-checker.php:1940
+#: broken-link-checker.php:1942
 msgid "Error : link_id or new_url not specified"
 msgstr "Ошибка: не указан ID ссылки или её новый URL"
 
-#: broken-link-checker.php:1969
+#: broken-link-checker.php:1971
 msgid "The plugin failed to remove the link."
 msgstr "Эту ссылку не получилось удалить."
 
-#: broken-link-checker.php:1984
+#: broken-link-checker.php:1986
 msgid "You don't have sufficient privileges to access this information!"
 msgstr "Вам запрещен доступ к этой информации!"
 
-#: broken-link-checker.php:1997
+#: broken-link-checker.php:1999
 msgid "Error : link ID not specified"
 msgstr "Ошибка: не указан ID ссылки"
 
-#: broken-link-checker.php:2021
+#: broken-link-checker.php:2023
 msgid "Failed to load link details"
 msgstr "Не удалось загрузить подробности о ссылке"
 
-#: broken-link-checker.php:2062
+#: broken-link-checker.php:2064
 msgid "Link ID not specified"
 msgstr "Не указан ID ссылки"
 
-#: broken-link-checker.php:2188
+#: broken-link-checker.php:2190
 msgid "Broken Link Checker"
 msgstr "Проверка ссылок"
 
@@ -554,6 +554,6 @@ msgid "Link is broken."
 msgstr "Ссылка не работает."
 
 #: link-classes.php:281
-msgid "Most likely the connection timed out"
-msgstr "Судя по всему, соединение разорвано"
+msgid "Most likely the connection timed out or the domain doesn't exist"
+msgstr "Судя по всему, соединение разорвано или этот домен не существует"
 

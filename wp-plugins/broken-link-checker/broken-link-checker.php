@@ -3,7 +3,7 @@
 Plugin Name: Broken Link Checker
 Plugin URI: http://w-shadow.com/blog/2007/08/05/broken-link-checker-for-wordpress/
 Description: Checks your posts for broken links and missing images and notifies you on the dashboard if any are found.
-Version: 0.5.8.1
+Version: 0.5.9
 Author: Janis Elsts
 Author URI: http://w-shadow.com/blog/
 */
@@ -44,7 +44,7 @@ if ( ! defined( 'WP_PLUGIN_DIR' ) )
 	define( 'WP_PLUGIN_DIR', WP_CONTENT_DIR . '/plugins' );
 
 define('BLC_CHECKING', 1);
-define('BLC_TIMEOUT', 1);
+define('BLC_TIMEOUT', 2);
 
 /*
 //FirePHP for debugging
@@ -71,6 +71,7 @@ class ws_broken_link_checker {
     var $mybasename='';	//should be removed
     var $siteurl; 		//should be removed
     var $defaults;
+	var $db_version = 1;
     
     var $execution_start_time; 	//Used for a simple internal execution timer in start_timer()/execution_time()
     var $lockfile_handle = null;
@@ -97,6 +98,8 @@ class ws_broken_link_checker {
             'autoexpand_widget' => true, 	//Autoexpand the Dashboard widget if broken links are detected 
 			
 			'need_resynch' => false,  		//[Internal flag] 
+
+			'current_db_version' => 0,		//The current version of the plugin's tables
 			
         );
         
@@ -418,10 +421,13 @@ class ws_broken_link_checker {
    * ws_broken_link_checker::upgrade_database()
    * Create and/or upgrade database tables
    *
-   * @return bool
+   * @return void
    */
     function upgrade_database(){
 		global $wpdb;
+
+		//Do we need to upgrade?
+		if ( $this->db_version == $this->options['current_db_version'] ) return;
 		
 		//Delete tables used by older versions of the plugin
 		$rez = $wpdb->query( "DROP TABLE IF EXISTS {$wpdb->prefix}blc_linkdata, {$wpdb->prefix}blc_postdata" );
@@ -430,14 +436,15 @@ class ws_broken_link_checker {
 			return false;
 		}
 		
+		require_once (ABSPATH . 'wp-admin/includes/upgrade.php');
+
 		//Create the link table if it doesn't exist yet.
-		$rez = $wpdb->query(
-			"CREATE TABLE IF NOT EXISTS {$wpdb->prefix}blc_links (
+		$q = "CREATE TABLE {$wpdb->prefix}blc_links (
 				link_id int(20) unsigned NOT NULL auto_increment,
-				url text NOT NULL,
+				url text CHARACTER SET latin1 COLLATE latin1_general_cs NOT NULL,
 				last_check datetime NOT NULL default '0000-00-00 00:00:00',
 				check_count int(2) unsigned NOT NULL default '0',
-				final_url text NOT NULL,
+				final_url text CHARACTER SET latin1 COLLATE latin1_general_cs NOT NULL,
 				redirect_count smallint(5) unsigned NOT NULL,
 				log text NOT NULL,
 				http_code smallint(6) NOT NULL,
@@ -449,16 +456,19 @@ class ws_broken_link_checker {
 				KEY final_url (final_url(150)),
 				KEY http_code (http_code),
 				KEY timeout (timeout)
-			)"
-		 );
-		if ( $rez === false ){
-			//FB::error($wpdb->last_error, "Database error");
-			return false;
-		}
-		 
-		//Create the instance table if it doesn't exist yet.
+			)";
+		dbDelta( $q );
+
+		//Fix URL fields so that they are collated as case-sensitive (this can't be done via dbDelta)
+
 		$wpdb->query(
-			"CREATE TABLE IF NOT EXISTS {$wpdb->prefix}blc_instances (
+			"ALTER TABLE {$wpdb->prefix}blc_links
+			MODIFY	url text CHARACTER SET latin1 COLLATE latin1_general_cs NOT NULL,
+			MODIFY final_url text CHARACTER SET latin1 COLLATE latin1_general_cs NOT NULL"
+		);
+
+		//Create the instance table if it doesn't exist yet.
+		$q = "CREATE TABLE {$wpdb->prefix}blc_instances (
 				instance_id int(10) unsigned NOT NULL auto_increment,
 				link_id int(10) unsigned NOT NULL,
 				source_id int(10) unsigned NOT NULL,
@@ -469,30 +479,22 @@ class ws_broken_link_checker {
 				PRIMARY KEY  (instance_id),
 				KEY link_id (link_id),
 				KEY source_id (source_id,source_type)
-			)"
-		 );
-		if ( $rez === false ){
-			//FB::error($wpdb->last_error, "Database error");
-			return false;
-		}
+			)"; 
+		$rez = dbDelta($q);
 		
 		//....
-		$wpdb->query(
-			"CREATE TABLE IF NOT EXISTS {$wpdb->prefix}blc_synch (
+		$q = "CREATE TABLE {$wpdb->prefix}blc_synch (
 			  source_id int(20) unsigned NOT NULL,
 			  source_type enum('post','blogroll') NOT NULL,
 			  synched tinyint(3) unsigned NOT NULL,
 			  last_synch datetime NOT NULL,
 			  PRIMARY KEY  (source_id, source_type),
 			  KEY synched (synched)
-			)"
-		 );
-		if ( $rez === false ){
-			//FB::error($wpdb->last_error, "Database error");
-			return false;
-		}
+			)";
+		dbDelta($q);
 		
-		return true;
+		$this->options['current_db_version'] = $this->db_version;
+		$this->save_options();
 	}
 
     function admin_menu(){
@@ -1400,7 +1402,7 @@ jQuery(function($){
 		$content = preg_replace('/<code>.+?<\/code>/i', ' ', $content);
 
 		//remove all <pre></pre> blocks as well
-		$content = preg_replace('/<pre>.+?<\/pre>/i', ' ', $content);
+		$content = preg_replace('/<pre[^>]*>.+?<\/pre>/i', ' ', $content);
 		//Get the post permalink - it's used to resolve relative URLs
 		$permalink = get_permalink( $post_id );		
 
