@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Platinum SEO Pack 1.2.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-13 11:45+0300\n"
+"POT-Creation-Date: 2009-09-27 16:26+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
@@ -15,613 +15,617 @@ msgstr ""
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: platinum_seo_pack.php:1119
+#: platinum_seo_pack.php:1124
 #, php-format
 msgid "Could not download distribution (%s)"
 msgstr "Невозможно скачать дистрибутив (%s)"
 
-#: platinum_seo_pack.php:1122
+#: platinum_seo_pack.php:1127
 #, php-format
 msgid "Could not download distribution (%s): %s"
 msgstr "Невозможно скачать дистрибутив (%s): %s"
 
-#: platinum_seo_pack.php:1129
+#: platinum_seo_pack.php:1134
 #, php-format
 msgid "Could not open %s for writing"
 msgstr "Невозможно открыть %s для записи"
 
-#: platinum_seo_pack.php:1131
+#: platinum_seo_pack.php:1136
 #, php-format
 msgid "Please make sure %s is writable"
 msgstr "Пожалуйста, убедитесь, что %s доступна для записи"
 
-#: platinum_seo_pack.php:1137
+#: platinum_seo_pack.php:1142
 #, php-format
 msgid "Could not write to %s"
 msgstr "Невозможно осуществить запись в %s"
 
-#: platinum_seo_pack.php:1265
-#: platinum_seo_pack.php:1355
-#: platinum_seo_pack.php:1357
+#: platinum_seo_pack.php:1282
+#: platinum_seo_pack.php:1380
+#: platinum_seo_pack.php:1382
 msgid "Platinum SEO Pack"
 msgstr "Поисковая оптимизация"
 
-#: platinum_seo_pack.php:1271
+#: platinum_seo_pack.php:1288
 msgid "Click here for Support"
 msgstr "Справка и техническая поддержка"
 
-#: platinum_seo_pack.php:1272
+#: platinum_seo_pack.php:1289
 msgid "Know about the meta tags"
 msgstr "Как использовать теги &lt;meta&gt;"
 
-#: platinum_seo_pack.php:1280
+#: platinum_seo_pack.php:1297
 msgid "Title:"
 msgstr "Заголовок:"
 
-#: platinum_seo_pack.php:1284
+#: platinum_seo_pack.php:1301
 msgid "Description:"
 msgstr "Описание:"
 
-#: platinum_seo_pack.php:1289
+#: platinum_seo_pack.php:1306
 msgid " characters. Most search engines use a maximum of 160 chars for the description."
 msgstr " символов. Большинство поисковых машин рассчитаны максимум на 160 символов в описании."
 
-#: platinum_seo_pack.php:1293
+#: platinum_seo_pack.php:1310
 msgid "Keywords (comma separated):"
 msgstr "Ключевые слова (разделяются запятыми):"
 
-#: platinum_seo_pack.php:1300
+#: platinum_seo_pack.php:1317
 msgid "PSP Meta Index and Nofollow Tags:"
 msgstr "Атрибуты &laquo;index&raquo; и &laquo;nofollow&raquo;:"
 
-#: platinum_seo_pack.php:1311
+#: platinum_seo_pack.php:1328
 msgid "NOARCHIVE this page/post:"
 msgstr "NOARCHIVE:"
 
-#: platinum_seo_pack.php:1319
+#: platinum_seo_pack.php:1336
 msgid "NOSNIPPET of this page/post:"
 msgstr "NOSNIPPET:"
 
-#: platinum_seo_pack.php:1327
-msgid "Disable on this page/post:"
+#: platinum_seo_pack.php:1344
+msgid "Disable title rewrite on this page/post:"
+msgstr "Отключить переписывание заголовков для этой записи или страницы:"
+
+#: platinum_seo_pack.php:1352
+msgid "Disable PSP on this page/post:"
 msgstr "Отключить поисковую оптимизацию для этой записи или страницы:"
 
-#: platinum_seo_pack.php:1353
+#: platinum_seo_pack.php:1378
 msgid "Platinum SEO"
 msgstr "Поисковая оптимизация"
 
-#: platinum_seo_pack.php:1395
+#: platinum_seo_pack.php:1420
 msgid "Platinum SEO Options Updated."
 msgstr "Настройки плагина Platinum SEO обновлены."
 
-#: platinum_seo_pack.php:1449
+#: platinum_seo_pack.php:1474
 msgid "Upgraded to newest version. Please revisit the options page to ensure you see the newest version."
 msgstr "Обновлено до последней версии. Пожалуйста, зайдите снова на страницу настроек, чтобы убедиться в том, что установлена самая свежая версия."
 
-#: platinum_seo_pack.php:1452
+#: platinum_seo_pack.php:1477
 msgid "Upgrade failed"
 msgstr "Обновление не удалось"
 
-#: platinum_seo_pack.php:1467
+#: platinum_seo_pack.php:1492
 msgid "Platinum SEO Plugin Options"
 msgstr "Настройки поисковой оптимизации"
 
-#: platinum_seo_pack.php:1469
+#: platinum_seo_pack.php:1494
 msgid "This is version "
 msgstr "Это &mdash; версия "
 
-#: platinum_seo_pack.php:1471
-#: platinum_seo_pack.php:1472
+#: platinum_seo_pack.php:1496
+#: platinum_seo_pack.php:1497
 msgid "FAQ"
 msgstr "ЧаВо"
 
-#: platinum_seo_pack.php:1473
+#: platinum_seo_pack.php:1498
 msgid "Platinum SEO Plugin Feedback"
 msgstr "Отзывы о плагине Platinum SEO"
 
-#: platinum_seo_pack.php:1473
+#: platinum_seo_pack.php:1498
 msgid "Feedback"
 msgstr "Отзывы и предложения"
 
-#: platinum_seo_pack.php:1474
-msgid "Platinum SEO - What is new in version 1.2.8?"
-msgstr "Platinum SEO - Что нового в версии 1.2.8?"
+#: platinum_seo_pack.php:1499
+msgid "Platinum SEO - What is new in version 1.2.9?"
+msgstr "Platinum SEO - Что нового в версии 1.2.9?"
 
-#: platinum_seo_pack.php:1474
-msgid "What is new in version 1.2.8?"
-msgstr "Что нового в версии 1.2.8?"
+#: platinum_seo_pack.php:1499
+msgid "What is new in version 1.2.9?"
+msgstr "Что нового в версии 1.2.9?"
 
-#: platinum_seo_pack.php:1475
+#: platinum_seo_pack.php:1500
 msgid "Platinum SEO - Smart Options, Smart Benefits"
 msgstr ""
 
-#: platinum_seo_pack.php:1475
+#: platinum_seo_pack.php:1500
 msgid "Wordpress SEO options"
 msgstr "Поисковая оптимизация WordPress"
 
-#: platinum_seo_pack.php:1476
+#: platinum_seo_pack.php:1501
 msgid "Donations for Platinum SEO Plugin"
 msgstr "Пожертвования для плагина Platinum SEO"
 
-#: platinum_seo_pack.php:1476
+#: platinum_seo_pack.php:1501
 msgid "Please Donate"
 msgstr "Пожалуйста, сделайте пожертвование"
 
-#: platinum_seo_pack.php:1477
+#: platinum_seo_pack.php:1502
 msgid "Save Bandwidth with Chennai Central Plugin"
 msgstr "Экономьте трафик с плагином Chennai Central"
 
-#: platinum_seo_pack.php:1491
+#: platinum_seo_pack.php:1516
 msgid "Pls. write a review or choose to link back, if you cannot donate"
 msgstr "Пожалуйста, напишите обзор или поставьте на вашем сайте ссылку на Platinum SEO, если вы не можете внести пожертвование."
 
-#: platinum_seo_pack.php:1492
+#: platinum_seo_pack.php:1517
 msgid "Click on option titles to get help!"
 msgstr "Нажмите на заголовки настроек, чтобы получить справку!"
 
-#: platinum_seo_pack.php:1499
-#: platinum_seo_pack.php:1515
-#: platinum_seo_pack.php:1531
-#: platinum_seo_pack.php:1547
-#: platinum_seo_pack.php:1563
-#: platinum_seo_pack.php:1579
-#: platinum_seo_pack.php:1595
-#: platinum_seo_pack.php:1622
+#: platinum_seo_pack.php:1524
+#: platinum_seo_pack.php:1540
+#: platinum_seo_pack.php:1556
+#: platinum_seo_pack.php:1572
+#: platinum_seo_pack.php:1588
+#: platinum_seo_pack.php:1604
+#: platinum_seo_pack.php:1620
 #: platinum_seo_pack.php:1647
-#: platinum_seo_pack.php:1669
-#: platinum_seo_pack.php:1690
-#: platinum_seo_pack.php:1711
-#: platinum_seo_pack.php:1732
-#: platinum_seo_pack.php:1754
-#: platinum_seo_pack.php:1776
-#: platinum_seo_pack.php:1796
-#: platinum_seo_pack.php:1811
-#: platinum_seo_pack.php:1827
-#: platinum_seo_pack.php:1843
-#: platinum_seo_pack.php:1858
-#: platinum_seo_pack.php:1874
-#: platinum_seo_pack.php:1890
-#: platinum_seo_pack.php:1906
-#: platinum_seo_pack.php:1922
-#: platinum_seo_pack.php:1938
-#: platinum_seo_pack.php:1954
-#: platinum_seo_pack.php:1970
-#: platinum_seo_pack.php:1986
-#: platinum_seo_pack.php:2002
-#: platinum_seo_pack.php:2018
-#: platinum_seo_pack.php:2034
-#: platinum_seo_pack.php:2050
-#: platinum_seo_pack.php:2066
-#: platinum_seo_pack.php:2082
-#: platinum_seo_pack.php:2098
-#: platinum_seo_pack.php:2114
-#: platinum_seo_pack.php:2130
-#: platinum_seo_pack.php:2146
-#: platinum_seo_pack.php:2162
-#: platinum_seo_pack.php:2178
-#: platinum_seo_pack.php:2194
+#: platinum_seo_pack.php:1672
+#: platinum_seo_pack.php:1694
+#: platinum_seo_pack.php:1715
+#: platinum_seo_pack.php:1736
+#: platinum_seo_pack.php:1757
+#: platinum_seo_pack.php:1779
+#: platinum_seo_pack.php:1801
+#: platinum_seo_pack.php:1821
+#: platinum_seo_pack.php:1836
+#: platinum_seo_pack.php:1852
+#: platinum_seo_pack.php:1868
+#: platinum_seo_pack.php:1883
+#: platinum_seo_pack.php:1899
+#: platinum_seo_pack.php:1915
+#: platinum_seo_pack.php:1931
+#: platinum_seo_pack.php:1947
+#: platinum_seo_pack.php:1963
+#: platinum_seo_pack.php:1979
+#: platinum_seo_pack.php:1995
+#: platinum_seo_pack.php:2011
+#: platinum_seo_pack.php:2027
+#: platinum_seo_pack.php:2043
+#: platinum_seo_pack.php:2059
+#: platinum_seo_pack.php:2075
+#: platinum_seo_pack.php:2091
+#: platinum_seo_pack.php:2107
+#: platinum_seo_pack.php:2123
+#: platinum_seo_pack.php:2139
+#: platinum_seo_pack.php:2155
+#: platinum_seo_pack.php:2171
+#: platinum_seo_pack.php:2187
+#: platinum_seo_pack.php:2203
+#: platinum_seo_pack.php:2219
 msgid "Click for Help!"
 msgstr "Нажмите, чтобы увидеть справку!"
 
-#: platinum_seo_pack.php:1500
+#: platinum_seo_pack.php:1525
 msgid "Automatically do 301 redirects for permalink changes:"
 msgstr "Перенаправлять пользователей (HTTP 301), если ссылки изменились:"
 
-#: platinum_seo_pack.php:1507
+#: platinum_seo_pack.php:1532
 msgid "Check this to Automatically do 301 redirects for any permalink changes"
 msgstr "Отметьте, чтобы автоматически перенаправлять пользователей на новый адрес (HTTP 301), если постоянные ссылки записей изменились."
 
-#: platinum_seo_pack.php:1516
+#: platinum_seo_pack.php:1541
 msgid "Home Title:"
 msgstr "Заголовок главной страницы:"
 
-#: platinum_seo_pack.php:1523
+#: platinum_seo_pack.php:1548
 msgid "As the name implies, this will be the title of your homepage. This is independent of any other option. If not set, the default blog title will get used."
 msgstr "Как можно понять из названия, это &mdash; заголовок вашей главной страницы. Эта настройка не зависит ни от какой другой. Если здесь ничего не указано, будет использовано стандартное название журнала."
 
-#: platinum_seo_pack.php:1532
+#: platinum_seo_pack.php:1557
 msgid "Home Description:"
 msgstr "Описание главной страницы:"
 
-#: platinum_seo_pack.php:1539
+#: platinum_seo_pack.php:1564
 msgid "The META description for your homepage. The default is no META description, if this is not set."
 msgstr "Описание главной страницы, которое помещается в тег META. Если здесь ничего не указано, описание не будет составлено."
 
-#: platinum_seo_pack.php:1548
+#: platinum_seo_pack.php:1573
 msgid "Home Keywords (comma separated):"
 msgstr "Ключевые слова для главной страницы (разделяются запятыми):"
 
-#: platinum_seo_pack.php:1555
+#: platinum_seo_pack.php:1580
 msgid "A comma separated list of the most important keywords for your site homepage. Use optimal number of keywords."
 msgstr "Список самых важных ключевых слов для вашего сайта, разделённый запятыми. Пожалуйста, указывайте разумное количество ключевых слов."
 
-#: platinum_seo_pack.php:1564
+#: platinum_seo_pack.php:1589
 msgid "Canonical URLs:"
 msgstr "Канонические URL:"
 
-#: platinum_seo_pack.php:1571
+#: platinum_seo_pack.php:1596
 msgid "Choose this option to set up canonical URLs for your Home page, Single Post, Category and Tag Pages."
 msgstr "Отметьте, если вы хотите настроить канонические URL для главной страницы вашего сайта, страниц записей, рубрик и меток."
 
-#: platinum_seo_pack.php:1580
+#: platinum_seo_pack.php:1605
 msgid "Rewrite Titles:"
 msgstr "Переписать заголовки:"
 
-#: platinum_seo_pack.php:1587
+#: platinum_seo_pack.php:1612
 msgid "Note that this is all about the title tag. This is what you see in your browser's window title bar. This is NOT visible on a page, only in the window title bar and of course in the source. If set, all page, post, category, search and archive page titles get rewritten. You can specify the format for most of them. For example: The default templates puts the title tag of posts like this: Blog Archive >> Blog Name >> Post Title. But this is far from optimal. With the default post title format, Rewrite Title rewrites this to Post Title | Blog Name. If you have manually defined a title (in one of the text fields for Platinum SEO Plugin input) this will become the title of your post in the format string."
 msgstr "Обратите внимание, что эта настройка касается только тега TITLE. Он отвечает за то, что вы видите в заголовке окна браузера, и не отображается среди содержимого самой страницы (если, конечно, вы не просматриваете её исходный код). Когда этот параметр установлен, заголовки всех веб-страниц &mdash; записей, страниц, рубрик, архивов и т.п. будут переписаны. Для большинства из этих страниц вы можете указать формат заголовка. Например, стандартный шаблон создает такой заголовок: &laquo;Архив журнала &rarr; Название журнала &rarr; Название записи&raquo;. Но это далеко не самый оптимальный вариант. При использовании стандартных настроек для переписывания заголовков, в результате у вас получится &laquo;Название записи | Название журнала&raquo;."
 
-#: platinum_seo_pack.php:1596
+#: platinum_seo_pack.php:1621
 msgid "Post Title Format:"
 msgstr "Формат заголовка записи:"
 
-#: platinum_seo_pack.php:1603
-#: platinum_seo_pack.php:1630
+#: platinum_seo_pack.php:1628
 #: platinum_seo_pack.php:1655
-#: platinum_seo_pack.php:1677
-#: platinum_seo_pack.php:1698
-#: platinum_seo_pack.php:1719
-#: platinum_seo_pack.php:1740
-#: platinum_seo_pack.php:1762
-#: platinum_seo_pack.php:1785
+#: platinum_seo_pack.php:1680
+#: platinum_seo_pack.php:1702
+#: platinum_seo_pack.php:1723
+#: platinum_seo_pack.php:1744
+#: platinum_seo_pack.php:1765
+#: platinum_seo_pack.php:1787
+#: platinum_seo_pack.php:1810
 msgid "The following macros are supported:"
 msgstr "Поддерживаются следующие макросы:"
 
-#: platinum_seo_pack.php:1605
-#: platinum_seo_pack.php:1632
+#: platinum_seo_pack.php:1630
 #: platinum_seo_pack.php:1657
-#: platinum_seo_pack.php:1679
-#: platinum_seo_pack.php:1700
-#: platinum_seo_pack.php:1721
-#: platinum_seo_pack.php:1742
-#: platinum_seo_pack.php:1764
+#: platinum_seo_pack.php:1682
+#: platinum_seo_pack.php:1704
+#: platinum_seo_pack.php:1725
+#: platinum_seo_pack.php:1746
+#: platinum_seo_pack.php:1767
+#: platinum_seo_pack.php:1789
 msgid "%blog_title% - Your blog title"
 msgstr "%blog_title% &mdash; Название вашего журнала"
 
-#: platinum_seo_pack.php:1606
-#: platinum_seo_pack.php:1633
+#: platinum_seo_pack.php:1631
 #: platinum_seo_pack.php:1658
-#: platinum_seo_pack.php:1680
-#: platinum_seo_pack.php:1701
-#: platinum_seo_pack.php:1722
-#: platinum_seo_pack.php:1743
-#: platinum_seo_pack.php:1765
+#: platinum_seo_pack.php:1683
+#: platinum_seo_pack.php:1705
+#: platinum_seo_pack.php:1726
+#: platinum_seo_pack.php:1747
+#: platinum_seo_pack.php:1768
+#: platinum_seo_pack.php:1790
 msgid "%blog_description% - Your blog description"
 msgstr "%blog_description% &mdash; Описание вашего журнала"
 
-#: platinum_seo_pack.php:1607
+#: platinum_seo_pack.php:1632
 msgid "%post_title% - The original title of the post"
 msgstr "%post_title% &mdash; Исходный заголовок записи"
 
-#: platinum_seo_pack.php:1608
+#: platinum_seo_pack.php:1633
 msgid "%category_title% - The (main) category of the post"
 msgstr "%category_title% &mdash; (Основная) рубрика записи"
 
-#: platinum_seo_pack.php:1609
+#: platinum_seo_pack.php:1634
 msgid "%category% - Alias for %category_title%"
 msgstr "%category% &mdash; Псевдоним для %category_title%"
 
-#: platinum_seo_pack.php:1610
+#: platinum_seo_pack.php:1635
 msgid "%post_author_login% - This post author's login"
 msgstr "%post_author_login% &mdash; Логин автора записи"
 
-#: platinum_seo_pack.php:1611
+#: platinum_seo_pack.php:1636
 msgid "%post_author_nicename% - This post author's nicename"
 msgstr "%post_author_nicename% &mdash; То, как настроено отображение имени автора записи"
 
-#: platinum_seo_pack.php:1612
+#: platinum_seo_pack.php:1637
 msgid "%post_author_firstname% - This post author's first name (capitalized)"
 msgstr "%post_author_firstname% &mdash; Имя автора записи (заглавными буквами)"
 
-#: platinum_seo_pack.php:1613
+#: platinum_seo_pack.php:1638
 msgid "%post_author_lastname% - This post author's last name (capitalized)"
 msgstr "%post_author_lastname% &mdash; Фамилия автора записи (заглавными буквами)"
 
-#: platinum_seo_pack.php:1623
+#: platinum_seo_pack.php:1648
 msgid "Page Title Format:"
 msgstr "Формат заголовка страницы:"
 
-#: platinum_seo_pack.php:1634
+#: platinum_seo_pack.php:1659
 msgid "%page_title% - The original title of the page"
 msgstr "%page_title% &mdash; Исходный заголовок страницы"
 
-#: platinum_seo_pack.php:1635
+#: platinum_seo_pack.php:1660
 msgid "%page_author_login% - This page author's login"
 msgstr "%page_author_login% &mdash; Логин автора страницы"
 
-#: platinum_seo_pack.php:1636
+#: platinum_seo_pack.php:1661
 msgid "%page_author_nicename% - This page author's nicename"
 msgstr "%page_author_nicename% &mdash; То, как настроено отображение имени автора страницы"
 
-#: platinum_seo_pack.php:1637
+#: platinum_seo_pack.php:1662
 msgid "%page_author_firstname% - This page author's first name (capitalized)"
 msgstr "%page_author_firstname% &mdash; Имя автора страницы (заглавными буквами)"
 
-#: platinum_seo_pack.php:1638
+#: platinum_seo_pack.php:1663
 msgid "%page_author_lastname% - This page author's last name (capitalized)"
 msgstr "%page_author_lastname% &mdash; Фамилия автора страницы (заглавными буквами)"
 
-#: platinum_seo_pack.php:1648
+#: platinum_seo_pack.php:1673
 msgid "Category Title Format:"
 msgstr "Формат заголовка рубрики:"
 
-#: platinum_seo_pack.php:1659
+#: platinum_seo_pack.php:1684
 msgid "%category_title% - The original title of the category"
 msgstr "%category_title% &mdash; Исходный заголовок рубрики"
 
-#: platinum_seo_pack.php:1660
+#: platinum_seo_pack.php:1685
 msgid "%category_description% - The description of the category"
 msgstr "%category_description% &mdash; Описание рубрики"
 
-#: platinum_seo_pack.php:1670
+#: platinum_seo_pack.php:1695
 msgid "Archive Title Format:"
 msgstr "Формат заголовка архива:"
 
-#: platinum_seo_pack.php:1681
+#: platinum_seo_pack.php:1706
 msgid "%date% - The original archive title given by wordpress, e.g. \"2007\" or \"2007 August\""
 msgstr "%date% &mdash; Исходный заголовок архива, созданный WordPress, например, &laquo;2007&raquo; или &laquo;2007 Август&raquo;"
 
-#: platinum_seo_pack.php:1691
+#: platinum_seo_pack.php:1716
 msgid "Tag Title Format:"
 msgstr "Формат заголовка метки:"
 
-#: platinum_seo_pack.php:1702
+#: platinum_seo_pack.php:1727
 msgid "%tag% - The name of the tag"
 msgstr "%tag% &mdash; Название метки"
 
-#: platinum_seo_pack.php:1712
+#: platinum_seo_pack.php:1737
 msgid "Search Title Format:"
 msgstr "Формат заголовка страницы поиска:"
 
-#: platinum_seo_pack.php:1723
+#: platinum_seo_pack.php:1748
 msgid "%search% - What was searched for"
 msgstr "%search% &mdash; Поисковый запрос"
 
-#: platinum_seo_pack.php:1733
+#: platinum_seo_pack.php:1758
 msgid "Description Format:"
 msgstr "Формат описания:"
 
-#: platinum_seo_pack.php:1744
+#: platinum_seo_pack.php:1769
 msgid "%description% - The original description as determined by the plugin, for e.g. the excerpt if one is set or an auto-generated one, if that option is set"
 msgstr "%description% &mdash; Исходное описание, обнаруженное плагином. Например, отрывок или автоматически сгенерированный текст"
 
-#: platinum_seo_pack.php:1745
+#: platinum_seo_pack.php:1770
 msgid "%wp_title% - The original wordpress title, for e.g. post title for posts"
 msgstr "%wp_title% &mdash; Исходный заголовок, например, post_title для записей"
 
-#: platinum_seo_pack.php:1755
+#: platinum_seo_pack.php:1780
 msgid "404 Title Format:"
 msgstr "Формат заголовка страницы &laquo;Ошибка 404&raquo;:"
 
-#: platinum_seo_pack.php:1766
+#: platinum_seo_pack.php:1791
 msgid "%request_url% - The original URL path, like \"/url-that-does-not-exist/\""
 msgstr "%request_url% &mdash; Исходный URL, например &laquo;/страница-которой-не-существует/&raquo;"
 
-#: platinum_seo_pack.php:1767
+#: platinum_seo_pack.php:1792
 msgid "%request_words% - The URL path in human readable form, like \"Url That Does Not Exist\""
 msgstr "%request_words% &mdash; URL в форме, понятной человеку, например, &laquo;Страница, которой не существует&raquo;"
 
-#: platinum_seo_pack.php:1777
+#: platinum_seo_pack.php:1802
 msgid "Paged Format:"
 msgstr "Формат разбивки по страницам:"
 
-#: platinum_seo_pack.php:1784
+#: platinum_seo_pack.php:1809
 msgid "This string gets appended/prepended to titles when they are for paged index pages (like home or archive pages)."
 msgstr "Эта строка добавляется в начало или конец заголовков, если это заголовки страниц, разделенных на подстраницы (например, главная страница или архив)"
 
-#: platinum_seo_pack.php:1787
+#: platinum_seo_pack.php:1812
 msgid "%page% - The page number"
 msgstr "%page% &mdash; Номер страницы"
 
-#: platinum_seo_pack.php:1797
+#: platinum_seo_pack.php:1822
 msgid "Use Categories for META keywords:"
 msgstr "Использовать названия рубрик в качестве ключевых слов:"
 
-#: platinum_seo_pack.php:1803
+#: platinum_seo_pack.php:1828
 msgid "Check this if you want your categories for a given post to be used as META keywords for the post (in addition to any keywords you specify on the post edit page)."
 msgstr "Отметьте, если вы хотите, чтобы названия рубрик, к которым принадлежат ваши записи, использовались в качестве ключевых слов (в дополнение к любым другим ключевым словам, которые вы указали при создании или редактировании записи)."
 
-#: platinum_seo_pack.php:1812
+#: platinum_seo_pack.php:1837
 msgid "Use noindex for Categories:"
 msgstr "Использовать параметр &laquo;noindex&raquo; для рубрик:"
 
-#: platinum_seo_pack.php:1819
+#: platinum_seo_pack.php:1844
 msgid "Check this for excluding category pages from being crawled. Might help to avoid duplicate content."
 msgstr "Отметьте, если вы хотите чтобы страницы рубрик не индексировались поисковыми машинами. Эта настройка нужна для того, чтобы избежать дублирования содержимого."
 
-#: platinum_seo_pack.php:1828
+#: platinum_seo_pack.php:1853
 msgid "Use noindex for Date based Archives:"
 msgstr "Использовать параметр &laquo;noindex&raquo; для архивов по дате:"
 
-#: platinum_seo_pack.php:1835
+#: platinum_seo_pack.php:1860
 msgid "Check this for excluding date based archive pages from being crawled. Useful for avoiding duplicate content."
 msgstr "Отметьте, если вы хотите чтобы архивы по датам не индексировались поисковыми машинами. Эта настройка нужна для того, чтобы избежать дублирования содержимого."
 
-#: platinum_seo_pack.php:1844
+#: platinum_seo_pack.php:1869
 msgid "Use Tags for META keywords:"
 msgstr "Использовать метки в качестве ключевых слов:"
 
-#: platinum_seo_pack.php:1850
+#: platinum_seo_pack.php:1875
 msgid "Check this if you want your tags for a given post to be used as META keywords for the post (in addition to any keywords you specify on the post edit page)."
 msgstr "Отметьте, если вы хотите, чтобы метки, присвоенные вашим записям, использовались в качестве ключевых слов (в дополнение к любым другим ключевым словам, которые вы указали при создании или редактировании записи)."
 
-#: platinum_seo_pack.php:1859
+#: platinum_seo_pack.php:1884
 msgid "Use noindex for Tag Archives:"
 msgstr "Использовать параметр &laquo;noindex&raquo; для архива меток:"
 
-#: platinum_seo_pack.php:1866
+#: platinum_seo_pack.php:1891
 msgid "Check this for excluding tag pages from being crawled. Might help to avoid duplicate content."
 msgstr "Отметьте, если вы хотите чтобы архив меток не индексировался поисковыми машинами. Эта настройка нужна для того, чтобы избежать дублирования содержимого."
 
-#: platinum_seo_pack.php:1875
+#: platinum_seo_pack.php:1900
 msgid "Use noindex for comment pages of posts(Introduced in wordpress 2.7):"
 msgstr "Использовать параметр &laquo;noindex&raquo; для страниц комментариев<br/>(эта возможность появилась в WordPress 2.7):"
 
-#: platinum_seo_pack.php:1882
+#: platinum_seo_pack.php:1907
 msgid "Check this for excluding comments pages from being indexed. Thereby avoid duplicate content if you wish to use Comment paging (from wordpress 2.7). Note that wordpress 2.7 creates comments pages when the option to break comments into pages is chosen in WP 2.7 under Settings-->Discussion"
 msgstr "Отметьте, если вы хотите чтобы страницы комментариев к записям не индексировалась поисковыми машинами. Эта настройка нужна для того, чтобы избежать дублирования содержимого. Имейте в виду, что WordPress 2.7 разделяет комментарии на несколько страниц только в том случае, если отмечен соответствующий флажок в меню &laquo;Настройки &rarr; Обсуждение&raquo;."
 
-#: platinum_seo_pack.php:1891
+#: platinum_seo_pack.php:1916
 msgid "Use noindex for comments RSS feeds:"
 msgstr "Использовать параметр &laquo;noindex&raquo; для RSS-ленты комментариев:"
 
-#: platinum_seo_pack.php:1898
+#: platinum_seo_pack.php:1923
 msgid "Check this for excluding comments RSS feeds from being indexed."
 msgstr "Отметьте, если вы хотите чтобы RSS-лента комментариев не индексировалась поисковыми машинами."
 
-#: platinum_seo_pack.php:1907
+#: platinum_seo_pack.php:1932
 msgid "Use noindex for all RSS feeds:"
 msgstr "Использовать параметр &laquo;noindex&raquo; для всех RSS-лент:"
 
-#: platinum_seo_pack.php:1914
+#: platinum_seo_pack.php:1939
 msgid "Check this for excluding all RSS feeds from being indexed."
 msgstr "Отметьте, если вы хотите чтобы все RSS-ленты не индексировались поисковыми машинами."
 
-#: platinum_seo_pack.php:1923
+#: platinum_seo_pack.php:1948
 msgid "Use noindex for Search result pages on the site:"
 msgstr "Использовать параметр &laquo;noindex&raquo; для страницы поиска по сайту:"
 
-#: platinum_seo_pack.php:1930
+#: platinum_seo_pack.php:1955
 msgid "Check this for excluding all search result pages from being indexed."
 msgstr "Отметьте, если вы хотите чтобы все страницы результатов поиска не индексировалась поисковыми машинами."
 
-#: platinum_seo_pack.php:1939
+#: platinum_seo_pack.php:1964
 msgid "Use noindex for sub pages:"
 msgstr "Использовать параметр &laquo;noindex&raquo; для подстраниц:"
 
-#: platinum_seo_pack.php:1946
+#: platinum_seo_pack.php:1971
 msgid "Check this for excluding all sub pages of home, categories, date based archives, tag, search and author pages from being indexed."
 msgstr "Отметьте, если вы хотите, чтобы подстраницы главной страницы, архивов по датам, архивов рубрик и меток, страницы поиска и страницы авторов не индексировались поисковыми машинами."
 
-#: platinum_seo_pack.php:1955
+#: platinum_seo_pack.php:1980
 msgid "Use noindex for author archives:"
 msgstr "Использовать параметр &laquo;noindex&raquo; для архивов по автору:"
 
-#: platinum_seo_pack.php:1962
+#: platinum_seo_pack.php:1987
 msgid "Check this for excluding author archives from being indexed."
 msgstr "Отметьте, если вы хотите чтобы архивы по автору не индексировались поисковыми машинами."
 
-#: platinum_seo_pack.php:1971
+#: platinum_seo_pack.php:1996
 msgid "Add noodp meta tag:"
 msgstr "Добавить атрибут &laquo;noodp&raquo; для тега META:"
 
-#: platinum_seo_pack.php:1978
+#: platinum_seo_pack.php:2003
 msgid "Check this for adding noopd meta tag."
 msgstr "Отметьте, чтобы добавить атрибут &laquo;noodp&raquo; для тега META."
 
-#: platinum_seo_pack.php:1987
+#: platinum_seo_pack.php:2012
 msgid "Add noydir meta tag:"
 msgstr "Добавить атрибут &laquo;noydir&raquo; для тега META:"
 
-#: platinum_seo_pack.php:1994
+#: platinum_seo_pack.php:2019
 msgid "Check this for adding noydir meta tag."
 msgstr "Отметьте, чтобы добавить атрибут &laquo;noydir&raquo; для тега META."
 
-#: platinum_seo_pack.php:2003
+#: platinum_seo_pack.php:2028
 msgid "nofollow category listings on pages:"
 msgstr "Добавить атрибут &laquo;nofollow&raquo; к списку рубрик на страницах:"
 
-#: platinum_seo_pack.php:2010
+#: platinum_seo_pack.php:2035
 msgid "Check this to nofollow category listings on pages."
 msgstr "Отметьте, чтобы добавить атрибут &laquo;nofollow&raquo; к списку рубрик на страницах."
 
-#: platinum_seo_pack.php:2019
+#: platinum_seo_pack.php:2044
 msgid "nofollow category listings on posts:"
 msgstr "Добавить атрибут &laquo;nofollow&raquo; к списку рубрик в записях:"
 
-#: platinum_seo_pack.php:2026
+#: platinum_seo_pack.php:2051
 msgid "Check this to nofollow category listings on posts (Not recommended)"
 msgstr "Отметьте, чтобы добавить атрибут &laquo;nofollow&raquo; к списку рубрик в записях (не рекомендуется)."
 
-#: platinum_seo_pack.php:2035
+#: platinum_seo_pack.php:2060
 msgid "nofollow archive listings on pages:"
 msgstr "Добавить атрибут &laquo;nofollow&raquo; к списку архивов на страницах:"
 
-#: platinum_seo_pack.php:2042
+#: platinum_seo_pack.php:2067
 msgid "Check this to nofollow archive listings on pages."
 msgstr "Отметьте, чтобы добавить атрибут &laquo;nofollow&raquo; к списку архивов на страницах."
 
-#: platinum_seo_pack.php:2051
+#: platinum_seo_pack.php:2076
 msgid "nofollow archive listings on posts:"
 msgstr "Добавить атрибут &laquo;nofollow&raquo; к списку архивов в записях:"
 
-#: platinum_seo_pack.php:2058
+#: platinum_seo_pack.php:2083
 msgid "Check this to nofollow archive listings on posts (Not recommended)"
 msgstr "Отметьте, чтобы добавить атрибут &laquo;nofollow&raquo; к списку архивов в записях (не рекомендуется)."
 
-#: platinum_seo_pack.php:2067
+#: platinum_seo_pack.php:2092
 msgid "nofollow external links on front page:"
 msgstr "Добавить атрибут &laquo;nofollow&raquo; к внешним ссылкам на главной странице:"
 
-#: platinum_seo_pack.php:2074
+#: platinum_seo_pack.php:2099
 msgid "Check this to nofollow external links on front page including home,category,author,tag and search pages."
 msgstr "Отметьте, чтобы добавить атрибут &laquo;nofollow&raquo; к внешним ссылкам на главной странице, включая страницы рубрик, меток, результатов поиска и информации об авторе."
 
-#: platinum_seo_pack.php:2083
+#: platinum_seo_pack.php:2108
 msgid "nofollow login and registration links:"
 msgstr "Добавить атрибут &laquo;nofollow&raquo; к ссылкам для регистрации и входа на сайт:"
 
-#: platinum_seo_pack.php:2090
+#: platinum_seo_pack.php:2115
 msgid "Check this to nofollow login and registration links"
 msgstr "Отметьте, чтобы добавить атрибут &laquo;nofollow&raquo; к ссылкам для входа на сайт и на страницу регистрации."
 
-#: platinum_seo_pack.php:2099
+#: platinum_seo_pack.php:2124
 msgid "nofollow links to tag pages:"
 msgstr "Добавить атрибут &laquo;nofollow&raquo; к ссылкам на страницы меток:"
 
-#: platinum_seo_pack.php:2106
+#: platinum_seo_pack.php:2131
 msgid "Check this to nofollow links to tag pages"
 msgstr "Отметьте, чтобы добавить атрибут &laquo;nofollow&raquo; к страницам меток."
 
-#: platinum_seo_pack.php:2115
+#: platinum_seo_pack.php:2140
 msgid "Autogenerate Descriptions:"
 msgstr "Создавать описания автоматически:"
 
-#: platinum_seo_pack.php:2122
+#: platinum_seo_pack.php:2147
 msgid "Check this and your META descriptions will get autogenerated, if there's no excerpt."
 msgstr "Отметьте, если вы хотите чтобы описания создавались автоматически, если у записи нет отрывка."
 
-#: platinum_seo_pack.php:2131
+#: platinum_seo_pack.php:2156
 msgid "Additional Post Headers:"
 msgstr "Дополнительные параметры области &lt;head&gt; для записей:"
 
-#: platinum_seo_pack.php:2138
+#: platinum_seo_pack.php:2163
 msgid "What you enter here will be copied verbatim to your header on post pages. You can enter whatever additional headers you want here, even references to stylesheets or google, yahoo, msn verification links."
 msgstr "То, что вы сюда введёте, будет скопировано в область &lt;head&gt; всех записей. Вы можете указать всё что угодно, даже ссылки на таблицы стилей или контрольные ссылки Google, Yahoo или MSN."
 
-#: platinum_seo_pack.php:2147
+#: platinum_seo_pack.php:2172
 msgid "Additional Page Headers:"
 msgstr "Дополнительные параметры области &lt;head&gt; для страниц:"
 
-#: platinum_seo_pack.php:2154
+#: platinum_seo_pack.php:2179
 msgid "What you enter here will be copied verbatim to your header on pages. You can enter whatever additional headers you want here, even references to stylesheets or google, yahoo, msn verification links"
 msgstr "То, что вы сюда введёте, будет скопировано в область &lt;head&gt; всех страниц. Вы можете указать всё что угодно, даже ссылки на таблицы стилей или контрольные ссылки Google, Yahoo или MSN."
 
-#: platinum_seo_pack.php:2163
+#: platinum_seo_pack.php:2188
 msgid "Additional Home Headers:"
 msgstr "Дополнительные параметры области &lt;head&gt; для главной страницы:"
 
-#: platinum_seo_pack.php:2170
+#: platinum_seo_pack.php:2195
 msgid "What you enter here will be copied verbatim to your header on the home page. You can enter whatever additional headers you want here, even references to stylesheets or google, yahoo, msn verification links"
 msgstr "То, что вы сюда введёте, будет скопировано в область &lt;head&gt; главной страницы. Вы можете указать всё что угодно, даже ссылки на таблицы стилей или контрольные ссылки Google, Yahoo или MSN."
 
-#: platinum_seo_pack.php:2179
+#: platinum_seo_pack.php:2204
 msgid "Log important events:"
 msgstr "Записывать важные события в журнал:"
 
-#: platinum_seo_pack.php:2186
+#: platinum_seo_pack.php:2211
 msgid "Check this and Platinum SEO pack will create a log of important events (platinum_seo_pack.log) in its plugin directory which might help debugging it. Make sure this directory is writable."
 msgstr "Отметьте, если вы хотите, чтобы все важные события записывались в журнал (platinum_seo_pack.log), который находится в директории плагина. Он может быть полезен при отладке. Убедитесь, что эта директория доступна для записи."
 
-#: platinum_seo_pack.php:2195
+#: platinum_seo_pack.php:2220
 msgid "Link To Platinum SEO:"
 msgstr "Ссылка на страницу Platinum SEO:"
 
-#: platinum_seo_pack.php:2202
+#: platinum_seo_pack.php:2227
 msgid "Check this to link to Platinum SEO and spread the word.If you do not want to donate, atleast link to home.Linking would not hurt your site in any way.Think twice before you decide not to link"
 msgstr "Отметьте, чтобы создать на вашем сайте ссылку на страницу плагина Platinum SEO. Если вы не хотите сделать пожертвование, то хотя бы поставьте ссылку, она никак не повредит вашему сайту."
 
-#: platinum_seo_pack.php:2212
+#: platinum_seo_pack.php:2237
 msgid "Update Options"
 msgstr "Обновить настройки"
 
