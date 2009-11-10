@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Broken Link Checker 0.6.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-11-10 14:44+0300\n"
-"PO-Revision-Date: 2009-11-10 14:45+0300\n"
+"PO-Revision-Date: 2009-11-10 23:21+0300\n"
 "Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr "Автоматически раскрыть виджет, если об�
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:907
 #, php-format
 msgid "Database error : %s"
-msgstr "Ошибка базы данных : %s"
+msgstr "Ошибка базы данных: %s"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:423
 msgid "Link Checker Settings"
@@ -109,7 +109,7 @@ msgstr "Список исключений"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:645
 msgid "Don't check links where the URL contains any of these words (one per line) :"
-msgstr "Не проверять ссылки, которые содержат любое из этих слов (по одному на строку) :"
+msgstr "Не проверять ссылки, которые содержат любое из этих слов (по одному на строку):"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:655
 msgid "Custom fields"
@@ -117,11 +117,11 @@ msgstr "Произвольные поля"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:656
 msgid "Check URLs entered in these custom fields (one per line) :"
-msgstr "Проверять URL в этих произвольных полях (по одному на строку) :"
+msgstr "Проверять URL в этих произвольных полях (по одному на строку):"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:667
 msgid "Advanced"
-msgstr "Дополнительные настройки"
+msgstr "Дополнительно"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:673
 msgid "Timeout"
@@ -153,7 +153,7 @@ msgstr "Ошибка : Эта директория недоступна для �
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:714
 msgid "Error : This directory doesn't exist."
-msgstr "Ошибка : Этой директории не существует."
+msgstr "Ошибка: Эта директория не существует."
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:722
 msgid "Set this field if you want the plugin to use a custom directory for its lockfiles. Otherwise, leave it blank."
@@ -509,7 +509,7 @@ msgstr "Извините, но ссылку невозможно отредак�
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:2052
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:2129
 msgid "Error : link_id not specified"
-msgstr "Ошибка : не указан ID ссылки"
+msgstr "Ошибка: не указан ID ссылки"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:2076
 msgid "Oops, the new URL is invalid!"
@@ -521,7 +521,7 @@ msgstr "Произошла неожиданная ошибка!"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:2094
 msgid "Error : link_id or new_url not specified"
-msgstr "Ошибка : не указан ID ссылки или её новый URL"
+msgstr "Ошибка: не указан ID ссылки или её новый URL"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:2119
 #, php-format
@@ -538,7 +538,7 @@ msgstr "Вам запрещен доступ к этой информации!"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:2151
 msgid "Error : link ID not specified"
-msgstr "Ошибка : не указан ID ссылки"
+msgstr "Ошибка: не указан ID ссылки"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:2175
 #, php-format
@@ -570,7 +570,7 @@ msgstr "Плагин не может создать лок-файл."
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:2384
 msgid "The plugin uses a file-based locking mechanism to ensure that only one instance of the resource-heavy link checking algorithm is running at any given time. Unfortunately, BLC can't find a writable directory where it could store the lockfile - it failed to detect the location of your server's temporary directory, and the plugin's own directory isn't writable by PHP. To fix this problem, please make the plugin's directory writable or enter a specify a custom temporary directory in the plugin's settings."
-msgstr "Процедура проверки ссылок довольно-таки ресурсоемка, и для того, чтобы она запускалась только в одном экземпляре на единицу времени, Broken Link Checker использует специальный механизм блокировки, данные о состоянии которого хранятся в специальных лок-файлах. К сожалению, плагин не смог обнаружить подходящую директорию для размещения этих данных - найти стандартную tmp-директорию вашего сервера не удалось, а собственная директория плагина не доступна для записи посредством PHP. Чтобы решить эту проблему, пожалуйста, сделайте директорию плагина доступной для записи или укажите в разделе настроек произвольную директорию для хранения временных файлов."
+msgstr "Процедура проверки ссылок довольно ресурсоемка, и для того, чтобы она запускалась только в одном экземпляре на единицу времени, Broken Link Checker использует специальный механизм блокировки, данные о состоянии которого хранятся в специальных лок-файлах. К сожалению, плагин не смог обнаружить подходящую директорию для размещения этих данных &mdash; найти стандартную tmp-директорию вашего сервера не удалось, а собственная директория плагина не доступна для записи посредством PHP. Чтобы решить эту проблему, пожалуйста, сделайте директорию плагина доступной для записи или укажите в разделе настроек произвольную директорию для хранения временных файлов."
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/core.php:2404
 msgid "PHP version"
@@ -631,11 +631,11 @@ msgstr "Невозможно создать лок-файл. Пожалуйст�
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/link-classes.php:212
 #, php-format
 msgid "First try : %d"
-msgstr "Первая попытка : %d"
+msgstr "Первая попытка: %d"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/link-classes.php:214
 msgid "First try : 0 (No response)"
-msgstr "Первая попытка : 0 (Нет ответа)"
+msgstr "Первая попытка: 0 (Нет ответа)"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/link-classes.php:222
 msgid "Trying a second time with different settings..."
@@ -644,11 +644,11 @@ msgstr "Пробуем ещё раз, с другими настройками..
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/link-classes.php:237
 #, php-format
 msgid "Second try : %d"
-msgstr "Вторая попытка : %d"
+msgstr "Вторая попытка: %d"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/link-classes.php:239
 msgid "Second try : 0 (No response)"
-msgstr "Вторая попытка : 0 (Нет ответа)"
+msgstr "Вторая попытка: 0 (Нет ответа)"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/link-classes.php:265
 msgid "Using Snoopy"
@@ -673,12 +673,12 @@ msgstr "Судя по всему, соединение разорвано или
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/link-classes.php:354
 #, php-format
 msgid "Error adding link %s : %s"
-msgstr "Ошибка при добавлении ссылки %s : %s"
+msgstr "Ошибка при добавлении ссылки %s: %s"
 
 #: D:\Projects\l10n-ru\trunk\wp-plugins\broken-link-checker/link-classes.php:374
 #, php-format
 msgid "Error updating link %d : %s"
-msgstr "Ошибка при обновлении ссылки %d : %s"
+msgstr "Ошибка при обновлении ссылки %d: %s"
 
 #~ msgid "Broken Link Checker"
 #~ msgstr "Проверка ссылок"
