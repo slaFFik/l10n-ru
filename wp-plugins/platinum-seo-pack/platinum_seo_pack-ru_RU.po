@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Platinum SEO Pack 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-15 18:39+0300\n"
+"POT-Creation-Date: 2009-11-10 13:26+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
 "Language-Team: Anna Ozeritskaya <anna.ozeritskaya@gmail.com>\n"
@@ -41,12 +41,10 @@ msgid "Feedback"
 msgstr "Отзывы и предложения"
 
 #: aioseop-migrate.php:50
-#: platinum_seo_pack.php:1536
 msgid "Platinum SEO - What is new in version 1.3?"
 msgstr "Platinum SEO - Что нового в версии 1.3?"
 
 #: aioseop-migrate.php:50
-#: platinum_seo_pack.php:1536
 msgid "What is new in version 1.3?"
 msgstr "Что нового в версии 1.3?"
 
@@ -189,6 +187,14 @@ msgstr "Настройки поисковой оптимизации"
 #: platinum_seo_pack.php:1531
 msgid "This is version "
 msgstr "Это &mdash; версия "
+
+#: platinum_seo_pack.php:1536
+msgid "Platinum SEO - What is new in version 1.3 or 1.3.1?"
+msgstr "Platinum SEO - Что нового в версии 1.3 или 1.3.1?"
+
+#: platinum_seo_pack.php:1536
+msgid "What is new in version 1.3/1.3.1?"
+msgstr "Что нового в версии 1.3/1.3.1?"
 
 #: platinum_seo_pack.php:1553
 msgid "Pls. write a review or choose to link back, if you cannot donate"
