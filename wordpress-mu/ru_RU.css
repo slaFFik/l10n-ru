@@ -41,7 +41,6 @@
 
 .inline-edit-row fieldset label span.title {
 	width: auto; /* default 5em */
-	min-width: 5em;
 }
 
 /* Edit */
