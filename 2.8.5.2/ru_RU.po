@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress MU 2.8.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-10-31 13:12+0000\n"
-"PO-Revision-Date: 2009-11-17 07:24+0300\n"
+"PO-Revision-Date: 2009-11-18 01:02+0300\n"
 "Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -9202,7 +9202,7 @@ msgstr "<a href=\"%1$s\">Скачать версию %2$s</a>"
 #: wp-admin/includes/update.php:133
 #, php-format
 msgid "WordPress MU %1$s is available! Please <a href=\"%2$s\">update</a>."
-msgstr "Доступен WordPress MU %2$s! <a href=\"%s\">Пожалуйста, обновитесь</a>."
+msgstr "Доступен WordPress MU %1$s! <a href=\"%2$s\">Пожалуйста, обновитесь</a>."
 
 #: wp-admin/includes/update.php:135
 #, php-format
