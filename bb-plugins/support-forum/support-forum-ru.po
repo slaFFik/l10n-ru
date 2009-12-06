@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: support-forum-ru\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/support-forum\n"
 "POT-Creation-Date: 2008-05-08 23:54+1000\n"
-"PO-Revision-Date: 2009-11-25 05:29+0300\n"
+"PO-Revision-Date: 2009-12-06 06:33+0300\n"
 "Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -96,35 +96,35 @@ msgstr "Включить форум поддержки"
 
 #: support-forum.php:958
 msgid "Set the default status for topics:"
-msgstr "Установить значение темы по умолчанию:"
+msgstr "Выберите статус по умолчанию для новой темы:"
 
 #: support-forum.php:967
 msgid "Allow the poster of the topic to set the status on topic creation"
-msgstr "Разрешить автору темы выставлять статус при создании"
+msgstr "Разрешить автору темы устанавливать статус при создании"
 
 #: support-forum.php:969
 msgid "Allow the poster of the topic to set the status at any time"
-msgstr "Разрешить комментаторам выставлять статус в любое время"
+msgstr "Разрешить комментаторам устанавливать статус в любое время"
 
 #: support-forum.php:974
 msgid "Choose which statuses will have a view:"
-msgstr "Выберите статусы для отображения:"
+msgstr "Выберите статусы, которые требуется просматривать отдельно:"
 
 #: support-forum.php:986
 msgid "Use resolution status icons on topics"
-msgstr "Использовать иконки для отображения статуса запроса"
+msgstr "Использовать иконки статуса темы"
 
 #: support-forum.php:999
 msgid "Use lock icon on closed topics (applies to all forums)"
-msgstr "Использовать запирающую иконку темы (применяется ко всем форумам)"
+msgstr "Использовать иконку закрытой темы (во всех форумах)"
 
 #: support-forum.php:1006
 msgid "Use sticky icon on sticky topics (applies to all forums)"
-msgstr "Использовать иконку-липучку для фиксированных тем (для всех форумов)"
+msgstr "Использовать иконку прилепленной темы (во всех форумах)"
 
 #: support-forum.php:1021
 msgid "If you used support forum plugin version 1.0, you will need to update existing topics to work with version 2.x"
-msgstr "Если вы пользовались плагином версии 1.0, вам нужно обновить существующие темы для работы с версией 2.x"
+msgstr "Если вы пользовались плагином версии 1.0, нужно обновить существующие темы для работы с версией 2.x"
 
 #: support-forum.php:1024
 msgid "Update topics to version 2.x"
