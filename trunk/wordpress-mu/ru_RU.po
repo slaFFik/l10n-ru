@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress MU 2.8.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-08-14 13:11+0000\n"
-"PO-Revision-Date: 2009-11-18 01:02+0300\n"
+"PO-Revision-Date: 2009-12-19 16:07+0300\n"
 "Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -7899,7 +7899,7 @@ msgstr "Внимание! Только администратор сайта м�
 #: wp-admin/includes/mu.php:1219
 #: wp-admin/plugins.php:17
 msgid "Page disabled by the administrator"
-msgstr "ID страниц, разделённые запятыми."
+msgstr "Доступ к странице запрещён администратором"
 
 #: wp-admin/includes/mu.php:1226
 msgid "Sorry, you're not allowed here."
