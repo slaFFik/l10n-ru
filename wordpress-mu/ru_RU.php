@@ -10,4 +10,13 @@ function ru_accomodate_markup() {
 	wp_print_styles();
 }
 add_action('admin_head', 'ru_accomodate_markup');
+
+function ru_restore_scripts_l10n() {
+	global $wp_scripts;
+
+	if ( is_a($wp_scripts, 'WP_Scripts') ) {
+		do_action_ref_array('wp_default_scripts', array(&$wp_scripts));
+	}
+}
+add_action('init', 'ru_restore_scripts_l10n');
 ?>
