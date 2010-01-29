@@ -1,4 +1,4 @@
-#summary Описание плагина WP-DBManager.
+#summary Описание и перевод плагина WP-DBManager.
 #labels Type-Plugin
 
 = WP-DBManager =
