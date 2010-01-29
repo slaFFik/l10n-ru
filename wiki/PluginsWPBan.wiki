@@ -1,4 +1,4 @@
-#summary Описание плагина WP-Ban.
+#summary Описание и перевод плагина WP-Ban.
 #labels Type-Plugin
 
 = WP-Ban =
