@@ -1,4 +1,4 @@
-#summary Описание плагина WP-Sticky.
+#summary Описание и перевод плагина WP-Sticky.
 #labels Type-Plugin
 
 = WP-Sticky =
