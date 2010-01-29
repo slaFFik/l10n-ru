@@ -1,4 +1,4 @@
-#summary Описание плагина WP-PostViews.
+#summary Описание и перевод плагина WP-PostViews.
 #labels Type-Plugin
 
 = WP-!PostViews =
