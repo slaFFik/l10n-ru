@@ -1,4 +1,4 @@
-#summary Описание плагина WP-RelativeDate.
+#summary Описание и перевод плагина WP-RelativeDate.
 #labels Type-Plugin
 
 = WP-!RelativeDate =
