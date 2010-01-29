@@ -1,4 +1,4 @@
-#summary Описание плагина Plugin Commander.
+#summary Описание и перевод плагина Plugin Commander.
 #labels Type-Plugin
 
 = Plugin Commander =
