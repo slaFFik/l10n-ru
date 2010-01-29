@@ -1,4 +1,4 @@
-#summary Описание плагина WP-PostRatings.
+#summary Описание и перевод плагина WP-PostRatings.
 #labels Type-Plugin
 
 = WP-!PostRatings =
