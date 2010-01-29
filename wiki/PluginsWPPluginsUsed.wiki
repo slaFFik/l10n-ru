@@ -1,4 +1,4 @@
-#summary Описание плагина WP-PluginsUsed.
+#summary Описание и перевод плагина WP-PluginsUsed.
 #labels Type-Plugin
 
 = WP-!PluginsUsed =
