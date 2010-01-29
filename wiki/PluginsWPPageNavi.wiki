@@ -1,4 +1,4 @@
-#summary Описание плагина WP-PageNavi.
+#summary Описание и перевод плагина WP-PageNavi.
 #labels Type-Plugin
 
 = WP-!PageNavi =
