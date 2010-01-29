@@ -1,4 +1,4 @@
-#summary Описание плагина WP_Identicon.
+#summary Описание и перевод плагина WP_Identicon.
 #labels Type-Plugin
 
 = WP_Identicon =
