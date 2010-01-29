@@ -1,4 +1,4 @@
-#summary Описание плагина WP-CommentNavi.
+#summary Описание и перевод плагина WP-CommentNavi.
 #labels Type-Plugin
 
 = WP-!CommentNavi =
