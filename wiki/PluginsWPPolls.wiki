@@ -1,4 +1,4 @@
-#summary Описание плагина WP-Polls.
+#summary Описание и перевод плагина WP-Polls.
 #labels Type-Plugin
 
 = WP-Polls =
