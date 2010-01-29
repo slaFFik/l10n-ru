@@ -1,4 +1,4 @@
-#summary Описание плагина WP-Email.
+#summary Описание и перевод плагина WP-Email.
 #labels Type-Plugin
 
 = WP-Email =
