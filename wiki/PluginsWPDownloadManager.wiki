@@ -1,4 +1,4 @@
-#summary Описание плагина WP-DownloadManager.
+#summary Описание и перевод плагина WP-DownloadManager.
 #labels Type-Plugin
 
 = WP-!DownloadManager =
