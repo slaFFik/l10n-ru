@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress MU 2.9.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-01-15 13:11+0000\n"
-"PO-Revision-Date: 2010-01-19 21:44+0300\n"
+"PO-Revision-Date: 2010-02-04 08:18+0300\n"
 "Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -12932,7 +12932,7 @@ msgstr "Разрешить администраторам добавлять н�
 
 #: wp-admin/wpmu-options.php:85
 msgid "Dashboard Blog"
-msgstr "Блог на консоль"
+msgstr "Консольный блог"
 
 #: wp-admin/wpmu-options.php:97
 msgid "Blogname ('dashboard', 'control', 'manager', etc) or blog id.<br />New users are added to this blog as subscribers (or the user role defined below) if they don't have a blog. Leave blank for the main blog. 'Subscriber' users on old blog will be moved to the new blog if changed. New blog will be created if it does not exist."
