@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress MU 2.9.1\n"
+"Project-Id-Version: WordPress MU 2.9.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-15 13:11+0000\n"
-"PO-Revision-Date: 2010-02-04 08:18+0300\n"
+"POT-Creation-Date: 2010-03-06 13:11+0000\n"
+"PO-Revision-Date: 2010-03-07 18:19+0300\n"
 "Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -160,7 +160,7 @@ msgstr "Извините, вы должны авторизоваться для 
 
 #: wp-admin/admin-ajax.php:734
 #: wp-admin/admin-ajax.php:780
-#: wp-comments-post.php:74
+#: wp-comments-post.php:77
 msgid "Error: please type a comment."
 msgstr "Ошибка: пожалуйста, введите комментарий."
 
@@ -286,7 +286,7 @@ msgstr "Записей не найдено."
 #: wp-admin/includes/template.php:1035
 #: wp-admin/wpmu-blogs.php:595
 #: wp-includes/js/tinymce/langs/wp-langs.php:295
-#: wp-includes/post.php:3666
+#: wp-includes/post.php:3664
 msgid "Title"
 msgstr "Заголовок"
 
@@ -336,7 +336,7 @@ msgstr "На утверждении"
 #: wp-admin/includes/meta-boxes.php:72
 #: wp-admin/includes/meta-boxes.php:91
 #: wp-admin/includes/template.php:1212
-#: wp-admin/includes/template.php:3449
+#: wp-admin/includes/template.php:3450
 #: wp-includes/post.php:390
 #: wp-includes/post.php:411
 msgid "Draft"
@@ -348,7 +348,7 @@ msgstr "Черновик"
 #: wp-admin/edit-attachment-rows.php:175
 #: wp-admin/includes/template.php:1411
 #: wp-admin/includes/template.php:1638
-#: wp-admin/includes/template.php:2143
+#: wp-admin/includes/template.php:2144
 #: wp-admin/upload.php:426
 msgid "Y/m/d"
 msgstr "d.m.Y"
@@ -525,7 +525,7 @@ msgstr "Действия"
 #: wp-admin/includes/template.php:666
 #: wp-admin/includes/template.php:1544
 #: wp-admin/includes/template.php:1919
-#: wp-admin/includes/template.php:2506
+#: wp-admin/includes/template.php:2507
 #: wp-admin/includes/widgets.php:201
 #: wp-admin/link-manager.php:105
 #: wp-admin/link-manager.php:201
@@ -555,7 +555,7 @@ msgstr "Удалить"
 #: wp-admin/edit-tags.php:254
 #: wp-admin/edit.php:265
 #: wp-admin/edit.php:355
-#: wp-admin/includes/template.php:3733
+#: wp-admin/includes/template.php:3734
 #: wp-admin/link-manager.php:107
 #: wp-admin/link-manager.php:265
 #: wp-admin/plugins.php:510
@@ -590,17 +590,16 @@ msgid "Category Name"
 msgstr "Название рубрики"
 
 #: wp-admin/categories.php:270
-#: wp-admin/edit-category-form.php:60
 msgid "The name is used to identify the category almost everywhere, for example under the post or in the category widget."
 msgstr "Название используется для определения рубрики практически везде, например, под записью или в виджете рубрик."
 
 #: wp-admin/categories.php:274
-#: wp-admin/edit-category-form.php:63
+#: wp-admin/edit-category-form.php:62
 msgid "Category Parent"
 msgstr "Родительская рубрика"
 
 #: wp-admin/categories.php:275
-#: wp-admin/edit-category-form.php:65
+#: wp-admin/edit-category-form.php:64
 #: wp-admin/includes/media.php:796
 #: wp-admin/includes/media.php:890
 #: wp-admin/includes/media.php:2002
@@ -613,18 +612,18 @@ msgid "None"
 msgstr "Нет"
 
 #: wp-admin/categories.php:276
-#: wp-admin/edit-category-form.php:66
+#: wp-admin/edit-category-form.php:65
 msgid "Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional."
 msgstr "Рубрики, в отличие от меток, могут иметь иерархию. Например, вы можете завести рубрику &laquo;Джаз&raquo;, внутри которой будут дочерние рубрики &laquo;Бибоп&raquo; и &laquo;Биг-бэнды&raquo;. Полностью произвольно."
 
 #: wp-admin/categories.php:280
-#: wp-admin/edit-category-form.php:70
+#: wp-admin/edit-category-form.php:69
 #: wp-admin/edit-link-form.php:88
 #: wp-admin/edit-tag-form.php:39
 #: wp-admin/edit-tags.php:295
 #: wp-admin/includes/media.php:1033
-#: wp-admin/includes/mu.php:923
-#: wp-admin/includes/mu.php:931
+#: wp-admin/includes/mu.php:925
+#: wp-admin/includes/mu.php:933
 #: wp-admin/includes/plugin-install.php:304
 #: wp-admin/includes/plugin-install.php:314
 #: wp-admin/includes/template.php:868
@@ -640,7 +639,7 @@ msgid "Description"
 msgstr "Описание"
 
 #: wp-admin/categories.php:282
-#: wp-admin/edit-category-form.php:72
+#: wp-admin/edit-category-form.php:71
 #: wp-admin/edit-link-categories.php:207
 #: wp-admin/edit-link-category-form.php:78
 #: wp-admin/edit-tags.php:297
@@ -740,7 +739,7 @@ msgstr "Автор"
 
 #: wp-admin/comment.php:119
 #: wp-admin/includes/template.php:899
-#: wp-admin/includes/template.php:2328
+#: wp-admin/includes/template.php:2329
 #: wp-admin/user-edit.php:277
 #: wp-admin/wpmu-users.php:134
 #: wp-content/themes/classic/comments-popup.php:76
@@ -751,8 +750,8 @@ msgstr "E-mail"
 #: wp-admin/comment.php:125
 #: wp-admin/includes/media.php:2116
 #: wp-admin/includes/template.php:853
-#: wp-admin/includes/template.php:2333
-#: wp-admin/includes/template.php:2742
+#: wp-admin/includes/template.php:2334
+#: wp-admin/includes/template.php:2743
 #: wp-admin/press-this.php:170
 msgid "URL"
 msgstr "URL"
@@ -865,7 +864,7 @@ msgstr "Выберите файл на своём компьютере:"
 #: wp-admin/custom-header.php:304
 #: wp-admin/includes/media.php:1454
 #: wp-admin/includes/media.php:1455
-#: wp-admin/includes/template.php:3314
+#: wp-admin/includes/template.php:3315
 #: wp-admin/plugin-install.php:27
 #: wp-admin/theme-install.php:32
 msgid "Upload"
@@ -926,7 +925,7 @@ msgstr "Редактировать &laquo;%s&raquo;"
 #: wp-admin/includes/meta-boxes.php:78
 #: wp-admin/includes/meta-boxes.php:120
 #: wp-admin/includes/meta-boxes.php:173
-#: wp-admin/includes/mu.php:942
+#: wp-admin/includes/mu.php:944
 #: wp-admin/includes/post.php:1054
 #: wp-admin/includes/template.php:130
 #: wp-admin/includes/template.php:296
@@ -935,7 +934,7 @@ msgstr "Редактировать &laquo;%s&raquo;"
 #: wp-admin/includes/template.php:1538
 #: wp-admin/includes/template.php:1663
 #: wp-admin/includes/template.php:1917
-#: wp-admin/includes/template.php:2193
+#: wp-admin/includes/template.php:2194
 #: wp-admin/includes/widgets.php:177
 #: wp-admin/link-manager.php:200
 #: wp-admin/menu.php:33
@@ -959,7 +958,7 @@ msgstr "Изменить"
 #: wp-admin/edit.php:346
 #: wp-admin/includes/template.php:1448
 #: wp-admin/includes/template.php:1668
-#: wp-admin/includes/template.php:2183
+#: wp-admin/includes/template.php:2184
 #: wp-admin/upload.php:290
 #: wp-admin/upload.php:458
 #: wp-includes/post-template.php:1297
@@ -986,7 +985,7 @@ msgstr "Удалить"
 #: wp-admin/includes/meta-boxes.php:190
 #: wp-admin/includes/template.php:1452
 #: wp-admin/includes/template.php:1672
-#: wp-admin/includes/template.php:2187
+#: wp-admin/includes/template.php:2188
 #: wp-admin/upload.php:292
 #: wp-admin/upload.php:399
 #: wp-admin/upload.php:460
@@ -1059,7 +1058,7 @@ msgstr "Прикрепить"
 #: wp-admin/edit-attachment-rows.php:192
 #: wp-admin/includes/template.php:1513
 #: wp-admin/includes/template.php:1701
-#: wp-admin/includes/template.php:2264
+#: wp-admin/includes/template.php:2265
 #, php-format
 msgid "%s pending"
 msgstr "%s ожидающих"
@@ -1068,7 +1067,7 @@ msgstr "%s ожидающих"
 #: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1516
 #: wp-admin/includes/template.php:1704
-#: wp-admin/includes/template.php:2267
+#: wp-admin/includes/template.php:2268
 msgctxt "comment count"
 msgid "0"
 msgstr "0"
@@ -1077,7 +1076,7 @@ msgstr "0"
 #: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1516
 #: wp-admin/includes/template.php:1704
-#: wp-admin/includes/template.php:2267
+#: wp-admin/includes/template.php:2268
 msgctxt "comment count"
 msgid "1"
 msgstr "1"
@@ -1086,7 +1085,7 @@ msgstr "1"
 #: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1516
 #: wp-admin/includes/template.php:1704
-#: wp-admin/includes/template.php:2267
+#: wp-admin/includes/template.php:2268
 msgctxt "comment count"
 msgid "%"
 msgstr "%"
@@ -1104,7 +1103,7 @@ msgstr "Вложений не найдено."
 msgid "You do not have sufficient permissions to edit categories for this blog."
 msgstr "У вас недостаточно полномочий, чтобы редактировать рубрики этого блога."
 
-#: wp-admin/edit-category-form.php:76
+#: wp-admin/edit-category-form.php:75
 #: wp-admin/edit-link-category-form.php:27
 #: wp-admin/includes/template.php:261
 msgid "Update Category"
@@ -1141,8 +1140,8 @@ msgstr[2] "%s комментариев помечены как спам."
 #: wp-admin/edit.php:171
 #: wp-admin/includes/image-edit.php:56
 #: wp-admin/includes/media.php:1243
-#: wp-admin/includes/template.php:2378
-#: wp-admin/includes/template.php:2381
+#: wp-admin/includes/template.php:2379
+#: wp-admin/includes/template.php:2382
 #: wp-admin/upload.php:210
 #: wp-includes/js/tinymce/langs/wp-langs.php:213
 #: wp-includes/js/tinymce/wp-mce-help.php:209
@@ -1239,16 +1238,16 @@ msgstr "Показано %s&#8211;%s из %s"
 #: wp-admin/edit-comments.php:302
 #: wp-admin/edit-comments.php:400
 #: wp-admin/includes/dashboard.php:553
-#: wp-admin/includes/template.php:2170
-#: wp-admin/includes/template.php:2175
+#: wp-admin/includes/template.php:2171
+#: wp-admin/includes/template.php:2176
 msgid "Unapprove"
 msgstr "Отклонить"
 
 #: wp-admin/edit-comments.php:305
 #: wp-admin/edit-comments.php:403
 #: wp-admin/includes/dashboard.php:552
-#: wp-admin/includes/template.php:2172
-#: wp-admin/includes/template.php:2174
+#: wp-admin/includes/template.php:2173
+#: wp-admin/includes/template.php:2175
 msgid "Approve"
 msgstr "Одобрить"
 
@@ -1260,7 +1259,7 @@ msgstr "Пометить как спам"
 
 #: wp-admin/edit-comments.php:313
 #: wp-admin/edit-comments.php:414
-#: wp-admin/includes/template.php:2181
+#: wp-admin/includes/template.php:2182
 #: wp-admin/wpmu-blogs.php:385
 #: wp-admin/wpmu-blogs.php:488
 #: wp-admin/wpmu-users.php:118
@@ -1291,8 +1290,8 @@ msgstr "Показать все типы"
 #: wp-admin/import/blogger.php:206
 #: wp-admin/includes/file.php:14
 #: wp-admin/includes/template.php:1162
-#: wp-admin/includes/template.php:3199
-#: wp-admin/includes/template.php:3315
+#: wp-admin/includes/template.php:3200
+#: wp-admin/includes/template.php:3316
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "Комментарии"
@@ -1414,7 +1413,7 @@ msgstr "Миниатюра записи"
 
 #: wp-admin/edit-form-advanced.php:103
 #: wp-admin/includes/meta-boxes.php:313
-#: wp-includes/post.php:3668
+#: wp-includes/post.php:3666
 msgid "Excerpt"
 msgstr "Цитата"
 
@@ -1495,7 +1494,7 @@ msgid "Submitted on: <b>%1$s</b>"
 msgstr "Дата: <b>%1$s</b>"
 
 #: wp-admin/edit-form-comment.php:74
-#: wp-admin/includes/template.php:2344
+#: wp-admin/includes/template.php:2345
 msgid "Update Comment"
 msgstr "Обновить комментарий"
 
@@ -1632,10 +1631,10 @@ msgstr "Ссылка добавлена"
 #: wp-admin/includes/template.php:877
 #: wp-admin/includes/template.php:887
 #: wp-admin/includes/template.php:898
-#: wp-admin/includes/template.php:2323
-#: wp-admin/includes/template.php:2433
-#: wp-admin/includes/template.php:2448
-#: wp-admin/includes/template.php:2537
+#: wp-admin/includes/template.php:2324
+#: wp-admin/includes/template.php:2434
+#: wp-admin/includes/template.php:2449
+#: wp-admin/includes/template.php:2538
 #: wp-admin/themes.php:309
 #: wp-admin/update-core.php:232
 #: wp-admin/update-core.php:239
@@ -1763,7 +1762,7 @@ msgid "Error in deleting..."
 msgstr "Ошибка при удалении&hellip;"
 
 #: wp-admin/edit-pages.php:104
-#: wp-admin/includes/template.php:3273
+#: wp-admin/includes/template.php:3274
 msgid "Edit Pages"
 msgstr "Редактировать страницы"
 
@@ -1878,7 +1877,7 @@ msgstr[1] "Корзина <span class=\"count\">(%s)</span>"
 msgstr[2] "Корзина <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:125
-#: wp-admin/includes/template.php:3233
+#: wp-admin/includes/template.php:3234
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
@@ -2013,7 +2012,7 @@ msgstr "Обновить метку"
 #: wp-admin/includes/dashboard.php:407
 #: wp-admin/includes/template.php:755
 #: wp-admin/includes/template.php:1152
-#: wp-includes/default-widgets.php:977
+#: wp-includes/default-widgets.php:979
 msgid "Tags"
 msgstr "Метки"
 
@@ -2081,7 +2080,7 @@ msgid "You are not allowed to delete this post."
 msgstr "Вам не разрешено удалять эту запись."
 
 #: wp-admin/edit.php:111
-#: wp-admin/includes/template.php:3267
+#: wp-admin/includes/template.php:3268
 msgid "Edit Posts"
 msgstr "Редактировать записи"
 
@@ -2220,7 +2219,7 @@ msgstr "Когда вы сохраните файл, можно использо
 
 #: wp-admin/export.php:36
 #: wp-admin/includes/mu.php:561
-#: wp-admin/includes/template.php:3729
+#: wp-admin/includes/template.php:3730
 msgid "Options"
 msgstr "Параметры"
 
@@ -2341,7 +2340,7 @@ msgstr "Волшебная кнопка"
 #: wp-admin/includes/template.php:870
 #: wp-admin/includes/template.php:890
 #: wp-admin/includes/template.php:901
-#: wp-admin/includes/template.php:3231
+#: wp-admin/includes/template.php:3232
 #: wp-admin/menu.php:32
 msgid "Posts"
 msgstr "Записи"
@@ -2437,14 +2436,14 @@ msgid "Howdy! This importer allows you to extract posts from Blogware XML export
 msgstr "Привет! Этот скрипт позволит извлечь записи из XML-файла Blogware в ваш блог. Выберите файл Blogware для загрузки и нажмите &laquo;Импорт&raquo;."
 
 #: wp-admin/import/blogware.php:107
-#: wp-admin/import/mt.php:229
+#: wp-admin/import/mt.php:228
 #: wp-admin/import/wordpress.php:464
 #, php-format
 msgid "Post <em>%s</em> already exists."
 msgstr "Запись <em>%s</em> уже существует."
 
 #: wp-admin/import/blogware.php:109
-#: wp-admin/import/mt.php:232
+#: wp-admin/import/mt.php:231
 #: wp-admin/import/wordpress.php:497
 #, php-format
 msgid "Importing post <em>%s</em>..."
@@ -2465,7 +2464,7 @@ msgstr[2] "%s комментариев"
 
 #: wp-admin/import/blogware.php:185
 #: wp-admin/import/livejournal.php:933
-#: wp-admin/import/mt.php:446
+#: wp-admin/import/mt.php:445
 #: wp-admin/import/rss.php:167
 #, php-format
 msgid "All done. <a href=\"%s\">Have fun!</a>"
@@ -3107,51 +3106,51 @@ msgstr "Скрипт импорта достаточно умён и не имп
 
 #: wp-admin/import/mt.php:62
 #: wp-admin/import/wordpress.php:262
-#: wp-admin/includes/template.php:2547
+#: wp-admin/includes/template.php:2548
 #: wp-admin/options-reading.php:44
 #: wp-admin/options-reading.php:45
 msgid "- Select -"
 msgstr "- Выбрать -"
 
-#: wp-admin/import/mt.php:180
+#: wp-admin/import/mt.php:179
 #: wp-admin/import/wordpress.php:207
 msgid "Assign Authors"
 msgstr "Привязать авторов"
 
-#: wp-admin/import/mt.php:181
+#: wp-admin/import/mt.php:180
 msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as admin&#8217;s entries."
 msgstr "Для облегчения редактирования и сохранения импортированных записей и черновиков, вы можете, если захотите, изменить имя автора записей. Например, вы можете импортировать все записи под авторством логина <code>admin</code>."
 
-#: wp-admin/import/mt.php:182
+#: wp-admin/import/mt.php:181
 msgid "Below, you can see the names of the authors of the MovableType posts in <em>italics</em>. For each of these names, you can either pick an author in your WordPress installation from the menu, or enter a name for the author in the textbox."
 msgstr "Ниже вы можете видеть имена авторов записей MovableType <em>курсивом</em>. Для каждого из этих имён вы можете выбрать автора из присутствующих в меню или ввести имя автора в соответствующем поле."
 
-#: wp-admin/import/mt.php:183
+#: wp-admin/import/mt.php:182
 #: wp-admin/import/wordpress.php:211
 msgid "If a new user is created by WordPress, a password will be randomly generated. Manually change the user&#8217;s details if necessary."
 msgstr "При создании нового пользователя WordPress сгенерирует пароль случайным образом. Если необходимо, смените его вручную."
 
-#: wp-admin/import/mt.php:194
+#: wp-admin/import/mt.php:193
 msgid "Current author:"
 msgstr "Текущий автор:"
 
-#: wp-admin/import/mt.php:199
+#: wp-admin/import/mt.php:198
 #: wp-admin/import/wordpress.php:242
 #: wp-admin/includes/dashboard.php:136
 #: wp-includes/post-template.php:1137
 msgid "Submit"
 msgstr "Отправить"
 
-#: wp-admin/import/mt.php:209
+#: wp-admin/import/mt.php:208
 msgid "Sorry, there has been an error"
 msgstr "Извините, возникла ошибка."
 
-#: wp-admin/import/mt.php:250
+#: wp-admin/import/mt.php:249
 #, php-format
 msgid "<br />Adding tags <i>%s</i>..."
 msgstr "<br />Добавление меток <i>%s</i>&hellip;"
 
-#: wp-admin/import/mt.php:269
+#: wp-admin/import/mt.php:268
 #: wp-admin/import/wordpress.php:593
 #, php-format
 msgid "(%s comment)"
@@ -3160,7 +3159,7 @@ msgstr[0] "(%s комментарий)"
 msgstr[1] "(%s комментария)"
 msgstr[2] "(%s комментариев)"
 
-#: wp-admin/import/mt.php:286
+#: wp-admin/import/mt.php:285
 #, php-format
 msgid "(%s ping)"
 msgid_plural "(%s pings)"
@@ -3168,11 +3167,11 @@ msgstr[0] "(%s уведомление)"
 msgstr[1] "(%s уведомления)"
 msgstr[2] "(%s уведомлений)"
 
-#: wp-admin/import/mt.php:489
+#: wp-admin/import/mt.php:488
 msgid "Movable Type and TypePad"
 msgstr "Movable Type и TypePad"
 
-#: wp-admin/import/mt.php:489
+#: wp-admin/import/mt.php:488
 msgid "Import posts and comments from a Movable Type or TypePad blog."
 msgstr "Импорт записей и комментариев из Movable Type или TypePad."
 
@@ -3539,7 +3538,7 @@ msgid "Remote file error: %s"
 msgstr "Ошибка загрузки файла: %s"
 
 #: wp-admin/import/wordpress.php:641
-#: wp-includes/functions.php:2188
+#: wp-includes/functions.php:2206
 msgid "Invalid file type"
 msgstr "Неверный тип файла"
 
@@ -4066,7 +4065,7 @@ msgstr "Активировать &laquo;%s&raquo;"
 
 #: wp-admin/includes/class-wp-upgrader.php:1047
 #: wp-admin/includes/class-wp-upgrader.php:1104
-#: wp-admin/includes/mu.php:578
+#: wp-admin/includes/mu.php:579
 #: wp-admin/plugins.php:436
 #: wp-admin/plugins.php:501
 #: wp-admin/themes.php:250
@@ -5612,8 +5611,8 @@ msgid "Universal"
 msgstr "Универсальное координированное время"
 
 #: wp-admin/includes/continents-cities.php:382
-#: wp-includes/functions.php:3581
-#: wp-includes/functions.php:3585
+#: wp-includes/functions.php:3601
+#: wp-includes/functions.php:3605
 msgid "UTC"
 msgstr "UTC"
 
@@ -6128,9 +6127,9 @@ msgstr "Посмотреть все"
 #: wp-admin/includes/meta-boxes.php:140
 #: wp-admin/includes/template.php:260
 #: wp-admin/includes/template.php:1252
-#: wp-admin/includes/template.php:2342
-#: wp-admin/includes/template.php:2559
-#: wp-admin/includes/template.php:2646
+#: wp-admin/includes/template.php:2343
+#: wp-admin/includes/template.php:2560
+#: wp-admin/includes/template.php:2647
 #: wp-admin/includes/theme-install.php:511
 #: wp-admin/press-this.php:125
 #: wp-admin/press-this.php:155
@@ -6269,7 +6268,7 @@ msgid "Press This"
 msgstr "Опубликовать"
 
 #: wp-admin/includes/dashboard.php:400
-#: wp-includes/post.php:3667
+#: wp-includes/post.php:3665
 msgid "Content"
 msgstr "Текст"
 
@@ -6303,53 +6302,53 @@ msgid "No comments yet."
 msgstr "Комментариев нет."
 
 #: wp-admin/includes/dashboard.php:552
-#: wp-admin/includes/template.php:2172
-#: wp-admin/includes/template.php:2174
+#: wp-admin/includes/template.php:2173
+#: wp-admin/includes/template.php:2175
 msgid "Approve this comment"
 msgstr "Одобрить этот комментарий"
 
 #: wp-admin/includes/dashboard.php:553
-#: wp-admin/includes/template.php:2170
-#: wp-admin/includes/template.php:2175
+#: wp-admin/includes/template.php:2171
+#: wp-admin/includes/template.php:2176
 msgid "Unapprove this comment"
 msgstr "Отклонить этот комментарий"
 
 #: wp-admin/includes/dashboard.php:554
-#: wp-admin/includes/template.php:2193
+#: wp-admin/includes/template.php:2194
 #: wp-includes/link-template.php:837
 msgid "Edit comment"
 msgstr "Изменить комментарий"
 
 #: wp-admin/includes/dashboard.php:555
-#: wp-admin/includes/template.php:2196
+#: wp-admin/includes/template.php:2197
 msgid "Reply to this comment"
 msgstr "Ответить на комментарий"
 
 #: wp-admin/includes/dashboard.php:555
-#: wp-admin/includes/template.php:2196
+#: wp-admin/includes/template.php:2197
 #: wp-includes/comment-template.php:1002
 msgid "Reply"
 msgstr "Ответить"
 
 #: wp-admin/includes/dashboard.php:556
-#: wp-admin/includes/template.php:2179
+#: wp-admin/includes/template.php:2180
 msgid "Mark this comment as spam"
 msgstr "Пометить этот комментарий как спам"
 
 #. translators: mark as spam link
 #: wp-admin/includes/dashboard.php:556
-#: wp-admin/includes/template.php:2179
+#: wp-admin/includes/template.php:2180
 msgctxt "verb"
 msgid "Spam"
 msgstr "Спам"
 
 #: wp-admin/includes/dashboard.php:560
-#: wp-admin/includes/template.php:2189
+#: wp-admin/includes/template.php:2190
 msgid "Move this comment to the trash"
 msgstr "Переместить комментарий в корзину"
 
 #: wp-admin/includes/dashboard.php:560
-#: wp-admin/includes/template.php:2189
+#: wp-admin/includes/template.php:2190
 msgctxt "verb"
 msgid "Trash"
 msgstr "Удалить"
@@ -6401,7 +6400,7 @@ msgstr "Этот виджет требует JavaScript."
 
 #: wp-admin/includes/dashboard.php:631
 #: wp-admin/includes/dashboard.php:747
-#: wp-includes/default-widgets.php:774
+#: wp-includes/default-widgets.php:776
 #, php-format
 msgid "<strong>RSS Error</strong>: %s"
 msgstr "<strong>Ошибка RSS</strong>: %s"
@@ -6986,7 +6985,7 @@ msgid "Uploads"
 msgstr "Загрузки"
 
 #: wp-admin/includes/media.php:304
-#: wp-admin/includes/template.php:3395
+#: wp-admin/includes/template.php:3396
 msgid "WordPress"
 msgstr "WordPress"
 
@@ -6996,25 +6995,25 @@ msgid "Upload/Insert %s"
 msgstr "Загрузить/вставить %s"
 
 #: wp-admin/includes/media.php:357
-#: wp-admin/includes/mu.php:672
+#: wp-admin/includes/mu.php:674
 #: wp-includes/js/tinymce/langs/wp-langs.php:412
 msgid "Add Media"
 msgstr "Добавить медиафайл"
 
 #: wp-admin/includes/media.php:359
-#: wp-admin/includes/mu.php:677
+#: wp-admin/includes/mu.php:679
 #: wp-includes/js/tinymce/langs/wp-langs.php:413
 msgid "Add an Image"
 msgstr "Добавить изображение"
 
 #: wp-admin/includes/media.php:361
-#: wp-admin/includes/mu.php:682
+#: wp-admin/includes/mu.php:684
 #: wp-includes/js/tinymce/langs/wp-langs.php:414
 msgid "Add Video"
 msgstr "Добавить видеофайл"
 
 #: wp-admin/includes/media.php:363
-#: wp-admin/includes/mu.php:687
+#: wp-admin/includes/mu.php:689
 #: wp-includes/js/tinymce/langs/wp-langs.php:415
 msgid "Add Audio"
 msgstr "Добавить аудиофайл"
@@ -7127,7 +7126,7 @@ msgstr "Показать"
 
 #: wp-admin/includes/media.php:1144
 #: wp-admin/includes/media.php:1675
-#: wp-admin/includes/mu.php:1322
+#: wp-admin/includes/mu.php:1324
 msgid "Hide"
 msgstr "Скрыть"
 
@@ -7420,7 +7419,7 @@ msgstr "Опубликовано как личное"
 
 #: wp-admin/includes/meta-boxes.php:93
 #: wp-admin/includes/meta-boxes.php:139
-#: wp-admin/includes/template.php:2645
+#: wp-admin/includes/template.php:2646
 #: wp-includes/script-loader.php:285
 msgid "OK"
 msgstr "OK"
@@ -7432,7 +7431,7 @@ msgstr "Видимость:"
 #: wp-admin/includes/meta-boxes.php:106
 #: wp-admin/includes/meta-boxes.php:136
 #: wp-admin/includes/template.php:1208
-#: wp-admin/includes/template.php:3447
+#: wp-admin/includes/template.php:3448
 #: wp-includes/post.php:392
 #: wp-includes/post.php:412
 #: wp-includes/script-loader.php:299
@@ -7441,7 +7440,7 @@ msgstr "Личное"
 
 #: wp-admin/includes/meta-boxes.php:109
 #: wp-admin/includes/meta-boxes.php:134
-#: wp-admin/includes/template.php:3445
+#: wp-admin/includes/template.php:3446
 msgid "Password protected"
 msgstr "Защищено паролем"
 
@@ -7495,7 +7494,7 @@ msgstr "Запланировать"
 #: wp-admin/includes/meta-boxes.php:217
 #: wp-admin/includes/meta-boxes.php:218
 #: wp-admin/includes/template.php:1257
-#: wp-admin/includes/template.php:2507
+#: wp-admin/includes/template.php:2508
 #: wp-includes/js/tinymce/langs/wp-langs.php:29
 msgid "Update"
 msgstr "Обновить"
@@ -8035,7 +8034,7 @@ msgid "You don&#8217;t have permission to view this blog. Please contact the sys
 msgstr "У вас недостаточно полномочий для доступа к этому блогу. Пожалуйста, свяжитесь с администратором сервера."
 
 #: wp-admin/includes/mu.php:547
-#: wp-admin/menu.php:309
+#: wp-admin/menu.php:311
 msgid "You do not have sufficient permissions to access this page."
 msgstr "У вас недостаточно полномочий для доступа к этой странице."
 
@@ -8061,105 +8060,110 @@ msgid "Themes"
 msgstr "Темы"
 
 #: wp-admin/includes/mu.php:562
+#: wp-admin/wpmu-terms.php:33
+msgid "Global Terms"
+msgstr "Глобальные категории"
+
+#: wp-admin/includes/mu.php:563
 #: wp-admin/menu.php:105
 msgid "Upgrade"
 msgstr "Обновление"
 
-#: wp-admin/includes/mu.php:578
+#: wp-admin/includes/mu.php:579
 #, php-format
 msgid "The plugins page is not visible to normal users. It must be activated first. %s"
 msgstr "Страница плагинов не видна обычным пользователям. Сначала нужно её активировать. %s"
 
-#: wp-admin/includes/mu.php:583
+#: wp-admin/includes/mu.php:584
 #: wp-admin/menu.php:80
 #, php-format
 msgid "Plugins %s"
 msgstr "Плагины %s"
 
-#: wp-admin/includes/mu.php:589
+#: wp-admin/includes/mu.php:590
 #: wp-admin/link-manager.php:75
 msgid "Add New"
 msgstr "Добавить"
 
-#: wp-admin/includes/mu.php:642
+#: wp-admin/includes/mu.php:644
 msgid "American English"
 msgstr "Американский английский"
 
-#: wp-admin/includes/mu.php:646
+#: wp-admin/includes/mu.php:648
 msgid "British English"
 msgstr "Британский английский"
 
-#: wp-admin/includes/mu.php:656
+#: wp-admin/includes/mu.php:658
 msgid "English"
 msgstr "Английский"
 
-#: wp-admin/includes/mu.php:670
+#: wp-admin/includes/mu.php:672
 #, php-format
 msgid "Add media: %s"
 msgstr "Добавить медиафайл: %s"
 
-#: wp-admin/includes/mu.php:707
+#: wp-admin/includes/mu.php:709
 #, php-format
 msgid "Warning! WordPress encrypts user cookies, but you must add the following lines to <strong>%swp-config.php</strong> for it to be more secure.<br />Please add the code before the line, <code>/* That's all, stop editing! Happy blogging. */</code>"
 msgstr "Внимание! WordPress шифрует файлы, но вы должны добавить следующие строки в <strong>%swp-config.php</strong> для корректной работы.<br />Пожалуйста, добавьте следующий код перед строчкой <code>/* Это всё, дальше не редактируем. Успехов! */</code>"
 
-#: wp-admin/includes/mu.php:759
+#: wp-admin/includes/mu.php:761
 msgid "something"
 msgstr "что-то"
 
-#: wp-admin/includes/mu.php:762
+#: wp-admin/includes/mu.php:764
 msgid "Read More"
 msgstr "Далее"
 
-#: wp-admin/includes/mu.php:762
+#: wp-admin/includes/mu.php:764
 #: wp-includes/script-loader.php:215
 msgid "Dismiss"
 msgstr "Отмена"
 
-#: wp-admin/includes/mu.php:765
+#: wp-admin/includes/mu.php:767
 #, php-format
 msgid "Your feed at %s is empty."
 msgstr "RSS-поток на %s пуст."
 
-#: wp-admin/includes/mu.php:774
+#: wp-admin/includes/mu.php:776
 #, php-format
 msgid "Hi %s! You're logged in as a site administrator."
 msgstr "Привет, %s! Вы вошли как администратор сайта."
 
-#: wp-admin/includes/mu.php:776
+#: wp-admin/includes/mu.php:778
 msgid "Thank you for Upgrading! Please visit the <a href=\"wpmu-upgrade-site.php\">Upgrade Site</a> page to update all your blogs."
 msgstr "Благодарим за установку свежей версии! Пожалуйста, перейдите на страницу <a href=\"wpmu-upgrade-site.php\">&laquo;Обновление сайта&raquo;</a>, чтобы обновить все блоги."
 
-#: wp-admin/includes/mu.php:870
+#: wp-admin/includes/mu.php:872
 msgid "Activate this plugin for all blogs across the entire network"
 msgstr "Активировать этот плагин на всех блогах сети"
 
-#: wp-admin/includes/mu.php:870
+#: wp-admin/includes/mu.php:872
 #, php-format
 msgid "Activate %s Site Wide"
 msgstr "Активировать %s везде"
 
-#: wp-admin/includes/mu.php:914
+#: wp-admin/includes/mu.php:916
 msgid "Currently Active Site Wide Plugins"
 msgstr "Текущие активные на всем сайте плагины"
 
-#: wp-admin/includes/mu.php:916
+#: wp-admin/includes/mu.php:918
 msgid "Plugins that appear in the list below are activate for all blogs across this installation."
 msgstr "Плагины в этом списке активны для всех блогов текущего сайта."
 
-#: wp-admin/includes/mu.php:922
-#: wp-admin/includes/mu.php:930
+#: wp-admin/includes/mu.php:924
+#: wp-admin/includes/mu.php:932
 #: wp-admin/plugins.php:408
 #: wp-admin/plugins.php:416
 #: wp-includes/js/tinymce/langs/wp-langs.php:255
 msgid "Plugin"
 msgstr "Плагин"
 
-#: wp-admin/includes/mu.php:939
+#: wp-admin/includes/mu.php:941
 msgid "Deactivate this plugin site wide"
 msgstr "Деактивировать этот плагин повсюду"
 
-#: wp-admin/includes/mu.php:939
+#: wp-admin/includes/mu.php:941
 #: wp-admin/plugins.php:434
 #: wp-admin/plugins.php:504
 #: wp-admin/widgets.php:343
@@ -8167,13 +8171,13 @@ msgstr "Деактивировать этот плагин повсюду"
 msgid "Deactivate"
 msgstr "Деактивировать"
 
-#: wp-admin/includes/mu.php:942
-#: wp-admin/includes/mu.php:1079
+#: wp-admin/includes/mu.php:944
+#: wp-admin/includes/mu.php:1081
 #: wp-admin/plugins.php:439
 msgid "Open this file in the Plugin Editor"
 msgstr "Открыть этот файл в редакторе плагинов"
 
-#: wp-admin/includes/mu.php:967
+#: wp-admin/includes/mu.php:969
 #: wp-admin/includes/update.php:88
 #: wp-admin/includes/update.php:113
 #: wp-admin/plugins.php:466
@@ -8181,14 +8185,14 @@ msgstr "Открыть этот файл в редакторе плагинов"
 msgid "Version %s"
 msgstr "Версия %s"
 
-#: wp-admin/includes/mu.php:971
+#: wp-admin/includes/mu.php:973
 #: wp-admin/includes/plugin.php:113
 #: wp-admin/plugins.php:470
 #: wp-includes/theme.php:230
 msgid "Visit author homepage"
 msgstr "Перейти на страницу автора"
 
-#: wp-admin/includes/mu.php:972
+#: wp-admin/includes/mu.php:974
 #: wp-admin/includes/plugin-install.php:346
 #: wp-admin/includes/plugin.php:117
 #: wp-admin/plugins.php:471
@@ -8196,72 +8200,72 @@ msgstr "Перейти на страницу автора"
 msgid "By %s"
 msgstr "Автор: %s"
 
-#: wp-admin/includes/mu.php:975
+#: wp-admin/includes/mu.php:977
 #: wp-admin/plugins.php:474
 msgid "Visit plugin site"
 msgstr "Перейти на страницу плагина"
 
-#: wp-admin/includes/mu.php:989
+#: wp-admin/includes/mu.php:991
 msgid "Plugins that are enabled site wide can only be disabled by a site administrator."
 msgstr "Плагины, активные на всём сайте, может отключить только администратор."
 
-#: wp-admin/includes/mu.php:1091
+#: wp-admin/includes/mu.php:1093
 msgid "Primary Blog"
 msgstr "Основной блог"
 
-#: wp-admin/includes/mu.php:1137
+#: wp-admin/includes/mu.php:1139
 msgid "Warning! Only site administrators may see this page. Everyone else will see a <em>page disabled</em> message. Enable it again on <a href=\"wpmu-options.php#addnewusers\">the options page</a>."
 msgstr "Внимание! Только администратор сайта может видеть эту страницу. Все прочие увидят <em>сообщение о закрытой странице</em>. Включите её снова на <a href=\"wpmu-options.php#addnewusers\">странице настроек</a>."
 
-#: wp-admin/includes/mu.php:1139
-#: wp-admin/includes/mu.php:1146
+#: wp-admin/includes/mu.php:1141
+#: wp-admin/includes/mu.php:1148
 #: wp-admin/plugins.php:17
 msgid "Page disabled by the administrator"
 msgstr "Доступ к странице запрещён администратором"
 
-#: wp-admin/includes/mu.php:1153
+#: wp-admin/includes/mu.php:1155
 msgid "Sorry, you're not allowed here."
 msgstr "Вам не разрешено здесь находиться."
 
-#: wp-admin/includes/mu.php:1179
+#: wp-admin/includes/mu.php:1181
 msgid "You must be a member of at least one blog to use this page."
 msgstr "Вы должны быть участником хотя бы одного блога чтобы использовать эту струницу."
 
-#: wp-admin/includes/mu.php:1183
-#: wp-admin/includes/mu.php:1243
+#: wp-admin/includes/mu.php:1185
+#: wp-admin/includes/mu.php:1245
 msgid "My Blogs"
 msgstr "Мои блоги"
 
-#: wp-admin/includes/mu.php:1187
+#: wp-admin/includes/mu.php:1189
 msgid "Your blog options have been updated."
 msgstr "Настройки вашего блога успешно обновлены."
 
-#: wp-admin/includes/mu.php:1197
+#: wp-admin/includes/mu.php:1199
 msgid "Global Settings"
 msgstr "Глобальные настройки"
 
-#: wp-admin/includes/mu.php:1223
+#: wp-admin/includes/mu.php:1225
 #: wp-admin/wpmu-blogs.php:494
 msgid "Visit"
 msgstr "Посетить"
 
-#: wp-admin/includes/mu.php:1223
+#: wp-admin/includes/mu.php:1225
 #: wp-admin/index.php:24
 #: wp-admin/menu.php:28
 msgid "Dashboard"
 msgstr "Консоль"
 
-#: wp-admin/includes/mu.php:1232
+#: wp-admin/includes/mu.php:1234
 #: wp-admin/wpmu-options.php:290
 msgid "Update Options"
 msgstr "Обновить настройки"
 
-#: wp-admin/includes/mu.php:1298
+#: wp-admin/includes/mu.php:1300
 #, php-format
 msgid "Warning! The current theme supports post thumbnails. You must enable image uploads on <a href='%s'>the options page</a> for it to work."
 msgstr "Внимание! Текущая тема поддерживает миниатюры записей. Нужно разрешить загрузку изображений на <a href='%s'>странице настроек</a>, чтобы использовать их."
 
-#: wp-admin/includes/mu.php:1318
+#: wp-admin/includes/mu.php:1320
 #, php-format
 msgid "Warning! People can create blogs on your site. Please consider using <a href='%1s'>Cookies for Comments</a> or <a href='%2s'>WP-Hashcash</a> to fight the spammers."
 msgstr "Внимание! На вашем сайте разрешено создание блогов. Обратите внимание на плагины <a href='%1s'>Cookies for Comments</a> и <a href='%2s'>WP-Hashcash</a> для защиты от спама."
@@ -8279,8 +8283,8 @@ msgid "Plugins extend and expand the functionality of WordPress. You may automat
 msgstr "Плагины расширяют и дополняют функциональность WordPress. На этой странице вы можете устанавливать плагины из <a href=\"http://wordpress.org/extend/plugins/\">каталога плагинов WordPress</a> автоматически, либо загрузить архив плагина в формате .zip."
 
 #: wp-admin/includes/plugin-install.php:129
-#: wp-admin/includes/template.php:3226
-#: wp-admin/includes/template.php:3228
+#: wp-admin/includes/template.php:3227
+#: wp-admin/includes/template.php:3229
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
@@ -8807,13 +8811,13 @@ msgstr "Подписчик"
 #: wp-admin/includes/template.php:665
 #: wp-admin/includes/template.php:1444
 #: wp-admin/includes/template.php:1664
-#: wp-admin/includes/template.php:2194
+#: wp-admin/includes/template.php:2195
 msgid "Quick&nbsp;Edit"
 msgstr "Свойства"
 
 #: wp-admin/includes/template.php:229
 #: wp-admin/includes/template.php:1024
-#: wp-admin/includes/template.php:2194
+#: wp-admin/includes/template.php:2195
 msgid "Quick Edit"
 msgstr "Свойства"
 
@@ -8924,7 +8928,7 @@ msgstr "Разрешить отклики"
 
 #: wp-admin/includes/template.php:1221
 #: wp-admin/includes/template.php:1224
-#: wp-admin/includes/template.php:3454
+#: wp-admin/includes/template.php:3455
 msgid "Sticky"
 msgstr "Прилеплена"
 
@@ -9024,123 +9028,123 @@ msgstr "Смотреть записи этого автора"
 msgid "Y/m/d \\a\\t g:i A"
 msgstr "d.m.Y в H:i"
 
-#: wp-admin/includes/template.php:2143
+#: wp-admin/includes/template.php:2144
 #, php-format
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
 msgstr "Отправлен <a href=\"%1$s\">%2$s в %3$s</a>"
 
-#: wp-admin/includes/template.php:2143
+#: wp-admin/includes/template.php:2144
 msgid "g:ia"
 msgstr "H:i"
 
-#: wp-admin/includes/template.php:2245
+#: wp-admin/includes/template.php:2246
 msgid "Y/m/d \\a\\t g:ia"
 msgstr "d.m.Y в H:i"
 
-#: wp-admin/includes/template.php:2319
+#: wp-admin/includes/template.php:2320
 msgid "Reply to Comment"
 msgstr "Ответить на комментарий"
 
-#: wp-admin/includes/template.php:2345
+#: wp-admin/includes/template.php:2346
 msgid "Submit Reply"
 msgstr "Опубликовать ответ"
 
-#: wp-admin/includes/template.php:2378
+#: wp-admin/includes/template.php:2379
 #, php-format
 msgid "Comment by %s moved to the trash."
 msgstr "Комментарий автора %s перемещён в корзину."
 
-#: wp-admin/includes/template.php:2381
+#: wp-admin/includes/template.php:2382
 #, php-format
 msgid "Comment by %s marked as spam."
 msgstr "Комментарий автора %s помечен как спам."
 
-#: wp-admin/includes/template.php:2434
-#: wp-admin/includes/template.php:2449
-#: wp-admin/includes/template.php:2511
-#: wp-admin/includes/template.php:2538
+#: wp-admin/includes/template.php:2435
+#: wp-admin/includes/template.php:2450
+#: wp-admin/includes/template.php:2512
+#: wp-admin/includes/template.php:2539
 msgid "Value"
 msgstr "Значение"
 
-#: wp-admin/includes/template.php:2503
+#: wp-admin/includes/template.php:2504
 msgid "Key"
 msgstr "Ключ"
 
-#: wp-admin/includes/template.php:2533
+#: wp-admin/includes/template.php:2534
 msgid "Add new custom field:"
 msgstr "Добавить новое поле:"
 
-#: wp-admin/includes/template.php:2558
+#: wp-admin/includes/template.php:2559
 msgid "Enter new"
 msgstr "Введите новое"
 
-#: wp-admin/includes/template.php:2568
+#: wp-admin/includes/template.php:2569
 msgid "Add Custom Field"
 msgstr "Добавить произвольное поле"
 
 #. translators: 1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input
-#: wp-admin/includes/template.php:2630
+#: wp-admin/includes/template.php:2631
 #, php-format
 msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
 msgstr "%1$s%2$s, %3$s @ %4$s : %5$s"
 
-#: wp-admin/includes/template.php:2712
+#: wp-admin/includes/template.php:2713
 msgid "WordPress recommends a better browser"
 msgstr "WordPress рекомендует браузер получше"
 
-#: wp-admin/includes/template.php:2747
+#: wp-admin/includes/template.php:2748
 msgid "Thumbnail linked to file"
 msgstr "Миниатюра ссылается на файл"
 
-#: wp-admin/includes/template.php:2747
+#: wp-admin/includes/template.php:2748
 msgid "Image linked to file"
 msgstr "Картинка ссылается на файл"
 
-#: wp-admin/includes/template.php:2751
+#: wp-admin/includes/template.php:2752
 msgid "Thumbnail linked to page"
 msgstr "Миниатюра ссылается на страницу"
 
-#: wp-admin/includes/template.php:2751
+#: wp-admin/includes/template.php:2752
 msgid "Image linked to page"
 msgstr "Картинка ссылается на страницу"
 
-#: wp-admin/includes/template.php:2756
+#: wp-admin/includes/template.php:2757
 msgid "Link to file"
 msgstr "Ссылка на файл"
 
-#: wp-admin/includes/template.php:2760
+#: wp-admin/includes/template.php:2761
 msgid "Link to page"
 msgstr "Ссылка на страницу"
 
-#: wp-admin/includes/template.php:2859
+#: wp-admin/includes/template.php:2860
 msgid "Before you can upload your import file, you will need to fix the following error:"
 msgstr "Перед тем, как вы сможете загрузить файл импорта, необходимо исправить следующие ошибки:"
 
-#: wp-admin/includes/template.php:2865
+#: wp-admin/includes/template.php:2866
 msgid "Choose a file from your computer:"
 msgstr "Выберите файл на своём компьютере:"
 
-#: wp-admin/includes/template.php:2865
+#: wp-admin/includes/template.php:2866
 #, php-format
 msgid "Maximum size: %s"
 msgstr "Размер: не более %s"
 
-#: wp-admin/includes/template.php:2871
+#: wp-admin/includes/template.php:2872
 msgid "Upload file and import"
 msgstr "Загрузить и импортировать файл"
 
-#: wp-admin/includes/template.php:2997
+#: wp-admin/includes/template.php:2998
 #: wp-admin/press-this.php:477
 #: wp-admin/press-this.php:495
 #: wp-admin/press-this.php:522
 msgid "Click to toggle"
 msgstr "Нажмите, чтобы переключить"
 
-#: wp-admin/includes/template.php:3217
+#: wp-admin/includes/template.php:3218
 msgid "Find Posts or Pages"
 msgstr "Найти записи или страницы"
 
-#: wp-admin/includes/template.php:3238
+#: wp-admin/includes/template.php:3239
 #: wp-admin/includes/widgets.php:202
 #: wp-includes/js/tinymce/langs/wp-langs.php:31
 #: wp-includes/js/tinymce/wp-mce-help.php:258
@@ -9149,124 +9153,124 @@ msgstr "Найти записи или страницы"
 msgid "Close"
 msgstr "Закрыть"
 
-#: wp-admin/includes/template.php:3239
+#: wp-admin/includes/template.php:3240
 #: wp-admin/plugin-editor.php:172
 #: wp-admin/theme-editor.php:138
 msgid "Select"
 msgstr "Выбрать"
 
-#: wp-admin/includes/template.php:3270
-#: wp-admin/includes/template.php:3313
+#: wp-admin/includes/template.php:3271
+#: wp-admin/includes/template.php:3314
 msgid "New Page"
 msgstr "Новая страница"
 
-#: wp-admin/includes/template.php:3276
+#: wp-admin/includes/template.php:3277
 msgid "New Media"
 msgstr "Новый медиафайл"
 
-#: wp-admin/includes/template.php:3279
+#: wp-admin/includes/template.php:3280
 #: wp-admin/media.php:45
 #: wp-admin/media.php:90
 msgid "Edit Media"
 msgstr "Изменить медиафайл"
 
-#: wp-admin/includes/template.php:3282
+#: wp-admin/includes/template.php:3283
 msgid "New Link"
 msgstr "Новая ссылка"
 
-#: wp-admin/includes/template.php:3285
+#: wp-admin/includes/template.php:3286
 #: wp-admin/link-manager.php:44
 msgid "Edit Links"
 msgstr "Редактировать ссылки"
 
-#: wp-admin/includes/template.php:3288
+#: wp-admin/includes/template.php:3289
 msgid "New User"
 msgstr "Новый пользователь"
 
-#: wp-admin/includes/template.php:3291
+#: wp-admin/includes/template.php:3292
 msgid "Edit Users"
 msgstr "Редактировать пользователей"
 
-#: wp-admin/includes/template.php:3294
+#: wp-admin/includes/template.php:3295
 #: wp-admin/plugin-install.php:17
 msgid "Install Plugins"
 msgstr "Установить плагины"
 
-#: wp-admin/includes/template.php:3297
+#: wp-admin/includes/template.php:3298
 #: wp-admin/plugins.php:251
 msgid "Manage Plugins"
 msgstr "Управление плагинами"
 
-#: wp-admin/includes/template.php:3300
+#: wp-admin/includes/template.php:3301
 #: wp-admin/theme-install.php:17
 #: wp-admin/update.php:154
 msgid "Install Themes"
 msgstr "Установить темы"
 
-#: wp-admin/includes/template.php:3303
+#: wp-admin/includes/template.php:3304
 #: wp-admin/themes.php:55
 msgid "Manage Themes"
 msgstr "Управление темами"
 
-#: wp-admin/includes/template.php:3306
-#: wp-admin/includes/template.php:3311
+#: wp-admin/includes/template.php:3307
+#: wp-admin/includes/template.php:3312
 msgid "New Post"
 msgstr "Новая запись"
 
-#: wp-admin/includes/template.php:3312
+#: wp-admin/includes/template.php:3313
 msgid "Drafts"
 msgstr "Черновики"
 
-#: wp-admin/includes/template.php:3364
+#: wp-admin/includes/template.php:3365
 #: wp-includes/script-loader.php:350
 msgid "(no title)"
 msgstr "(без названия)"
 
 #. translators: post state
-#: wp-admin/includes/template.php:3452
+#: wp-admin/includes/template.php:3453
 msgctxt "post state"
 msgid "Pending"
 msgstr "Ожидает утверждения"
 
-#: wp-admin/includes/template.php:3503
+#: wp-admin/includes/template.php:3504
 msgid "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Writing Posts</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Создание записей</a>"
 
-#: wp-admin/includes/template.php:3515
+#: wp-admin/includes/template.php:3516
 msgid "The modules on this screen can be arranged in several columns. You can select the number of columns from the Screen Options tab."
 msgstr "Модули на этом экране могут быть расположены в несколько столбцов. Количество столбцов можно выбрать на вкладке &laquo;Настройки экрана&raquo;."
 
-#: wp-admin/includes/template.php:3528
+#: wp-admin/includes/template.php:3529
 msgid "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">General Settings</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">Общие настройки</a>"
 
-#: wp-admin/includes/template.php:3542
+#: wp-admin/includes/template.php:3543
 msgid "Enable accessibility mode"
 msgstr "Включить функциональный режим"
 
-#: wp-admin/includes/template.php:3542
+#: wp-admin/includes/template.php:3543
 msgid "Disable accessibility mode"
 msgstr "Отключить функциональный режим"
 
-#: wp-admin/includes/template.php:3554
+#: wp-admin/includes/template.php:3555
 msgid "Show on screen"
 msgstr "На экране отображаются"
 
-#: wp-admin/includes/template.php:3583
+#: wp-admin/includes/template.php:3584
 #, php-format
 msgid "Get help with &#8220;%s&#8221;"
 msgstr "Помощь по странице &laquo;%s&raquo;"
 
-#: wp-admin/includes/template.php:3585
+#: wp-admin/includes/template.php:3586
 msgid "Get help with this page"
 msgstr "Помощь по этой странице"
 
-#: wp-admin/includes/template.php:3588
+#: wp-admin/includes/template.php:3589
 msgid "Other Help"
 msgstr "Другая помощь"
 
-#: wp-admin/includes/template.php:3590
-#: wp-admin/includes/template.php:3605
+#: wp-admin/includes/template.php:3591
+#: wp-admin/includes/template.php:3606
 #: wp-includes/js/tinymce/langs/wp-langs.php:238
 #: wp-includes/js/tinymce/langs/wp-langs.php:252
 #: wp-includes/js/tinymce/langs/wp-langs.php:409
@@ -9274,95 +9278,95 @@ msgstr "Другая помощь"
 msgid "Help"
 msgstr "Помощь"
 
-#: wp-admin/includes/template.php:3594
+#: wp-admin/includes/template.php:3595
 msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Заглавная_страница\" target=\"_blank\">Документация</a>"
 
-#: wp-admin/includes/template.php:3596
+#: wp-admin/includes/template.php:3597
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"http://ru.forums.wordpress.org/\" target=\"_blank\">Форумы поддержки</a>"
 
-#: wp-admin/includes/template.php:3609
+#: wp-admin/includes/template.php:3610
 msgid "Screen Options"
 msgstr "Настройки экрана"
 
-#: wp-admin/includes/template.php:3636
+#: wp-admin/includes/template.php:3637
 msgid "Most of the modules on this screen can be moved. If you hover your mouse over the title bar of a module you&rsquo;ll notice the 4 arrow cursor appears to let you know it is movable. Click on it, hold down the mouse button and start dragging the module to a new location. As you drag the module, notice the dotted gray box that also moves. This box indicates where the module will be placed when you release the mouse button."
 msgstr "Большинство модулей на этом экране можно перемещать. Если навести курсор мыши на заголовок модуля, появится курсор с четырьмя стрелками, означающий возможность перемещения. Сделав щелчок и удерживая кнопку мыши, перетащите модуль на новое место. В процессе перетаскивания обратите внимание на серый пунктирный прямоугольник &#8212; он показывает, где будет располагаться модуль, когда вы отпустите кнопку мыши."
 
-#: wp-admin/includes/template.php:3637
+#: wp-admin/includes/template.php:3638
 msgid "The same modules can be expanded and collapsed by clicking once on their title bar and also completely hidden from the Screen Options tab."
 msgstr "Модули можно сворачивать и разворачивать, нажав на заголовок, а также полностью скрывать на вкладке &laquo;Настройки экрана&raquo;."
 
-#: wp-admin/includes/template.php:3643
+#: wp-admin/includes/template.php:3644
 msgid "Search help"
 msgstr "Помощь по поиску"
 
-#: wp-admin/includes/template.php:3644
+#: wp-admin/includes/template.php:3645
 msgid "You may search based on 3 criteria:"
 msgstr "Можно искать по трём типам ключевых слов:"
 
-#: wp-admin/includes/template.php:3645
+#: wp-admin/includes/template.php:3646
 msgid "<strong>Term:</strong> Searches theme names and descriptions for the specified term."
 msgstr "<strong>Слово:</strong> Поиск тем с указанным словом в названии или описании"
 
-#: wp-admin/includes/template.php:3646
+#: wp-admin/includes/template.php:3647
 msgid "<strong>Tag:</strong> Searches for themes tagged as such."
 msgstr "<strong>Метка:</strong> Поиск тем с определённой меткой"
 
-#: wp-admin/includes/template.php:3647
+#: wp-admin/includes/template.php:3648
 msgid "<strong>Author:</strong> Searches for themes created by the Author, or which the Author contributed to."
 msgstr "<strong>Автор:</strong> Поиск тем, созданных или поддерживаемых определённым автором."
 
-#: wp-admin/includes/template.php:3653
+#: wp-admin/includes/template.php:3654
 msgid "Widgets are added and arranged by simple drag &#8217;n&#8217; drop. If you hover your mouse over the titlebar of a widget, you&#8217;ll see a 4-arrow cursor which indicates that the widget is movable.  Click on the titlebar, hold down the mouse button and drag the widget to a sidebar. As you drag, you&#8217;ll see a dotted box that also moves. This box shows where the widget will go once you drop it."
 msgstr "Виджеты добавляются и группируются простым переносом. Если навести курсор мыши на заголовок модуля, появится курсор с четырьмя стрелками, означающий возможность перемещения. Сделав щелчок и удерживая кнопку мыши, перетащите модуль на новое место. В процессе перетаскивания обратите внимание на серый пунктирный прямоугольник &#8212; он показывает, где будет располагаться модуль, когда вы отпустите кнопку мыши."
 
-#: wp-admin/includes/template.php:3654
+#: wp-admin/includes/template.php:3655
 msgid "To remove a widget from a sidebar, drag it back to Available Widgets or click on the arrow on its titlebar to reveal its settings, and then click Remove."
 msgstr "Чтобы удалить виджет из боковой колонки, переместите его обратно в Доступные виджеты или нажмите на его заголовок для получения настроек и нажмите Убрать."
 
-#: wp-admin/includes/template.php:3655
+#: wp-admin/includes/template.php:3656
 msgid "To remove a widget from a sidebar <em>and keep its configuration</em>, drag it to Inactive Widgets."
 msgstr "Чтобы удалить виджет из боковой колонки <em>и сохранить его настройки</em>, переместите его в Неактивные Виджеты."
 
-#: wp-admin/includes/template.php:3656
+#: wp-admin/includes/template.php:3657
 msgid "The Inactive Widgets area stores widgets that are configured but not curently used. If you change themes and the new theme has fewer sidebars than the old, all extra widgets will be stored to Inactive Widgets automatically."
 msgstr "Область Неактивные Виджеты хранит виджеты, которые настроены, но не используются. Если вы смените тему и новая тема будет иметь меньше боковых колонок, чем старая, все лишние виджеты будут сохранены в Неактивных Виджетах автоматически."
 
-#: wp-admin/includes/template.php:3678
+#: wp-admin/includes/template.php:3679
 msgid "Screen Layout"
 msgstr "Разметка экрана"
 
-#: wp-admin/includes/template.php:3678
+#: wp-admin/includes/template.php:3679
 msgid "Number of Columns:"
 msgstr "Количество столбцов:"
 
-#: wp-admin/includes/template.php:3690
+#: wp-admin/includes/template.php:3691
 msgid "Posts per page:"
 msgstr "Записей на страницу:"
 
-#: wp-admin/includes/template.php:3693
+#: wp-admin/includes/template.php:3694
 msgid "Pages per page:"
 msgstr "Страниц на страницу:"
 
-#: wp-admin/includes/template.php:3696
+#: wp-admin/includes/template.php:3697
 msgid "Comments per page:"
 msgstr "Комментариев на страницу:"
 
-#: wp-admin/includes/template.php:3699
+#: wp-admin/includes/template.php:3700
 msgid "Media items per page:"
 msgstr "Медиафайлов на страницу:"
 
-#: wp-admin/includes/template.php:3702
+#: wp-admin/includes/template.php:3703
 msgid "Categories per page:"
 msgstr "Рубрик на страницу:"
 
-#: wp-admin/includes/template.php:3705
+#: wp-admin/includes/template.php:3706
 msgid "Tags per page:"
 msgstr "Меток на страницу:"
 
-#: wp-admin/includes/template.php:3708
+#: wp-admin/includes/template.php:3709
 msgid "Plugins per page:"
 msgstr "Плагинов на страницу:"
 
@@ -9724,7 +9728,7 @@ msgid "hello-world"
 msgstr "privet-mir"
 
 #: wp-admin/includes/upgrade.php:183
-#: wp-includes/wpmu-functions.php:2332
+#: wp-includes/wpmu-functions.php:2323
 msgid "Mr WordPress"
 msgstr "Мистер WordPress"
 
@@ -9733,7 +9737,7 @@ msgid "Hi, this is a comment.<br />To delete a comment, just log in and view the
 msgstr "Привет! Это комментарий.<br />Чтобы удалить его, авторизуйтесь и просмотрите комментарии к записи. Там будут ссылки для их изменения или удаления."
 
 #: wp-admin/includes/upgrade.php:196
-#: wp-includes/wpmu-functions.php:2316
+#: wp-includes/wpmu-functions.php:2307
 msgid "This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress."
 msgstr "Это пример страницы в WordPress. Можно написать здесь информацию о себе или о сайте, чтобы пользователи знали, что да как. Можно создать столько страниц или подстраниц, сколько необходимо, и управлять их содержимым прямо в WordPress."
 
@@ -11338,7 +11342,7 @@ msgstr "Запись опубликована."
 #: wp-includes/default-widgets.php:490
 #: wp-includes/default-widgets.php:586
 #: wp-includes/default-widgets.php:670
-#: wp-includes/default-widgets.php:995
+#: wp-includes/default-widgets.php:997
 msgid "Title:"
 msgstr "Заголовок:"
 
@@ -12356,7 +12360,7 @@ msgid "&larr; Back to All Users"
 msgstr "&larr; Назад к списку пользователей"
 
 #: wp-admin/widgets.php:33
-#: wp-includes/functions.php:2808
+#: wp-includes/functions.php:2828
 msgid "Widgets"
 msgstr "Виджеты"
 
@@ -12426,6 +12430,7 @@ msgstr "WordPress MU &rsaquo; Администрирование"
 #: wp-admin/wpmu-blogs.php:11
 #: wp-admin/wpmu-edit.php:4
 #: wp-admin/wpmu-options.php:9
+#: wp-admin/wpmu-terms.php:21
 #: wp-admin/wpmu-themes.php:9
 #: wp-admin/wpmu-upgrade-site.php:10
 #: wp-admin/wpmu-users.php:12
@@ -13109,6 +13114,42 @@ msgstr "Меню <em>(Разрешить или запретить служеб�
 msgid "Menu"
 msgstr "Меню"
 
+#: wp-admin/wpmu-terms.php:3
+msgid "WordPress MU &rsaquo; Admin &rsaquo; Global Terms"
+msgstr "WordPress MU &rsaquo; Администрирование &rsaquo; Глобальные категории"
+
+#: wp-admin/wpmu-terms.php:27
+msgid "Terms Updated."
+msgstr "Категории обновлены."
+
+#: wp-admin/wpmu-terms.php:34
+msgid "WordPress MU uses a global taxonomy table to keep track of all the tags and categories used on all the blogs. Occasionally this information can become out of sync with the local blog taxonomy tables."
+msgstr "WordPress MU использует глобальную таблицу таксономии, чтобы отслеживать все метки и рубрики на всех блогах. Иногда эта информация может перестать совпадать с локальными таблицами таксономии блогов."
+
+#: wp-admin/wpmu-terms.php:35
+msgid "This problem is often caused by adding a blog using MySQL directly rather than going through the WordPress importer. It can also happen when a plugin manipulates the terms tables directly without going through the WordPress API."
+msgstr "Эта проблема чаще всего вызвана добавлением блога напрямую через MySQL вместо использования штатной возможности импорта. Она также может произойти, если один из плагинов работает с таблицами категорий напрямую, не используя API WordPress."
+
+#: wp-admin/wpmu-terms.php:36
+msgid "Please make a backup of the terms, term_taxonomy and term_relationships tables before running this."
+msgstr "Пожалуйста, перед запуском сделайте резервную копию таблиц terms, term_taxonomy and term_relationships."
+
+#: wp-admin/wpmu-terms.php:42
+msgid "Enter a blog_id to fix the categories and terms of that blog."
+msgstr "Введите blog_id, чтобы исправить рубрики и метки этого блога."
+
+#: wp-admin/wpmu-terms.php:43
+msgid "Blog id:"
+msgstr "ID блога:"
+
+#: wp-admin/wpmu-terms.php:44
+msgid "Rename terms <sup>*</sup>"
+msgstr "Переименовать категории <sup>*</sup>"
+
+#: wp-admin/wpmu-terms.php:47
+msgid "<sup>*</sup> WordPress can have terms (tags or categories) with names and slugs that do not match. WordPress MU forces the slug to be a sanitized version of the name. To preserve blog URLs this page can rename the name to match the slug. It will replace underscores with spaces and the first letter will be upper case."
+msgstr "<sup>*</sup> В WordPress имена и ярлыки категорий (меток и рубрик) могут не совпадать. В WordPress MU ярлык должен быть обработанной формой имени. Чтобы сохранить прежние адреса, на этой странице можно воссоздать имена из ярлыков. Дефисы будут заменены пробелами, а первая буква &#8212; приведена к верхнему регистру."
+
 #: wp-admin/wpmu-themes.php:4
 msgid "WordPress MU &rsaquo; Admin &rsaquo; Themes"
 msgstr "WordPress MU &rsaquo; Администрирование &rsaquo; Темы"
@@ -13235,8 +13276,8 @@ msgstr "Извините, но у вас нет прав на редактиро
 #: wp-app.php:452
 #: wp-app.php:650
 #: wp-app.php:841
-#: xmlrpc.php:1890
-#: xmlrpc.php:2228
+#: xmlrpc.php:1891
+#: xmlrpc.php:2229
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "Извините, вашу запись не удалось опубликовать. Что-то случилось."
 
@@ -13248,25 +13289,25 @@ msgstr "Извините, но у вас нет прав на доступ к э
 #: wp-app.php:682
 #: wp-app.php:758
 #: wp-app.php:809
-#: xmlrpc.php:1932
+#: xmlrpc.php:1933
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "Извините, но у вас нет прав на редактирование этой записи."
 
 #: wp-app.php:537
 #: wp-app.php:698
-#: xmlrpc.php:1948
+#: xmlrpc.php:1949
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "По какой-то странной и неприятной причине эту запись не удалось отредактировать."
 
 #: wp-app.php:560
 #: wp-app.php:720
-#: xmlrpc.php:1984
+#: xmlrpc.php:1985
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "Извините, но у вас нет прав на удаление этой записи."
 
 #: wp-app.php:569
 #: wp-app.php:736
-#: xmlrpc.php:1989
+#: xmlrpc.php:1990
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "По какой-то странной и неприятной причине эту запись не получилось удалить."
 
@@ -13284,15 +13325,15 @@ msgstr "Произошла ошибка при определении место
 msgid "Sorry, comments are closed for this item."
 msgstr "Извините, обсуждение этой записи закрыто."
 
-#: wp-comments-post.php:61
+#: wp-comments-post.php:64
 msgid "Sorry, you must be logged in to post a comment."
 msgstr "Извините, для отправки комментария вы должны авторизоваться."
 
-#: wp-comments-post.php:68
+#: wp-comments-post.php:71
 msgid "Error: please fill the required fields (name, email)."
 msgstr "Ошибка: пожалуйста, заполните необходимые поля (имя, e-mail)."
 
-#: wp-comments-post.php:70
+#: wp-comments-post.php:73
 msgid "Error: please enter a valid email address."
 msgstr "Ошибка: пожалуйста, введите правильный адрес e-mail."
 
@@ -14026,48 +14067,48 @@ msgstr "Записи из любой ленты RSS или Atom"
 msgid "Syndicate this content"
 msgstr "Подписаться на эту ленту"
 
-#: wp-includes/default-widgets.php:790
+#: wp-includes/default-widgets.php:792
 msgid "An error has occurred; the feed is probably down. Try again later."
 msgstr "Произошла ошибка; возможно, лента недоступна. Повторите попытку позже."
 
-#: wp-includes/default-widgets.php:804
+#: wp-includes/default-widgets.php:806
 msgid "Untitled"
 msgstr "Безымянный"
 
-#: wp-includes/default-widgets.php:880
+#: wp-includes/default-widgets.php:882
 #, php-format
 msgid "RSS Error: %s"
 msgstr "Ошибка RSS: %s "
 
-#: wp-includes/default-widgets.php:884
+#: wp-includes/default-widgets.php:886
 msgid "Enter the RSS feed URL here:"
 msgstr "Введите адрес RSS-ленты:"
 
-#: wp-includes/default-widgets.php:887
+#: wp-includes/default-widgets.php:889
 msgid "Give the feed a title (optional):"
 msgstr "Озаглавьте ленту (необязательно):"
 
-#: wp-includes/default-widgets.php:890
+#: wp-includes/default-widgets.php:892
 msgid "How many items would you like to display?"
 msgstr "Сколько элементов отображать?"
 
-#: wp-includes/default-widgets.php:899
+#: wp-includes/default-widgets.php:901
 msgid "Display item content?"
 msgstr "Отображать содержимое элемента?"
 
-#: wp-includes/default-widgets.php:902
+#: wp-includes/default-widgets.php:904
 msgid "Display item author if available?"
 msgstr "Отображать автора элемента (если есть)?"
 
-#: wp-includes/default-widgets.php:905
+#: wp-includes/default-widgets.php:907
 msgid "Display item date?"
 msgstr "Отображать дату элемента?"
 
-#: wp-includes/default-widgets.php:971
+#: wp-includes/default-widgets.php:973
 msgid "Your most used tags in cloud format"
 msgstr "Самые используемые метки в виде облака"
 
-#: wp-includes/default-widgets.php:972
+#: wp-includes/default-widgets.php:974
 msgid "Tag Cloud"
 msgstr "Облако меток"
 
@@ -14168,247 +14209,247 @@ msgstr ", и"
 msgid " and "
 msgstr " и "
 
-#: wp-includes/functions.php:387
+#: wp-includes/functions.php:389
 #, php-format
 msgid "%s is a protected WP option and may not be modified"
 msgstr "%s &#8212; защищённая опция WP и не может быть изменена"
 
-#: wp-includes/functions.php:1655
+#: wp-includes/functions.php:1665
 #, php-format
 msgid "ERROR: %s is not a valid feed template"
 msgstr "ОШИБКА: %s не является корректным шаблоном ленты"
 
-#: wp-includes/functions.php:1781
+#: wp-includes/functions.php:1793
 msgid "One or more database tables are unavailable.  The database may need to be <a href=\"maint/repair.php?referrer=is_blog_installed\">repaired</a>."
 msgstr "Одна или несколько таблиц базы данных недоступны. Возможно, база нуждается в <a href=\"maint/repair.php?referrer=is_blog_installed\">ремонте</a>."
 
-#: wp-includes/functions.php:2090
-#: wp-includes/functions.php:2206
+#: wp-includes/functions.php:2108
+#: wp-includes/functions.php:2226
 #, php-format
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "Не могу создать директорию %s. Проверьте, доступна ли родительская директория для записи."
 
-#: wp-includes/functions.php:2184
+#: wp-includes/functions.php:2202
 msgid "Empty filename"
 msgstr "Пустое имя файла"
 
-#: wp-includes/functions.php:2212
+#: wp-includes/functions.php:2232
 #, php-format
 msgid "Could not write file %s"
 msgstr "Не удалось сохранить файл %s"
 
-#: wp-includes/functions.php:2377
+#: wp-includes/functions.php:2397
 #, php-format
 msgid "Your attempt to edit this attachment: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить это вложение: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2379
+#: wp-includes/functions.php:2399
 msgid "Your attempt to add this category has failed."
 msgstr "Попытка добавить эту рубрику не удалась."
 
-#: wp-includes/functions.php:2380
+#: wp-includes/functions.php:2400
 #, php-format
 msgid "Your attempt to delete this category: &#8220;%s&#8221; has failed."
 msgstr "Попытка удалить эту рубрику: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2381
+#: wp-includes/functions.php:2401
 #, php-format
 msgid "Your attempt to edit this category: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить эту рубрику: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2383
+#: wp-includes/functions.php:2403
 #, php-format
 msgid "Your attempt to delete this comment: &#8220;%s&#8221; has failed."
 msgstr "Попытка удалить этот комментарий: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2384
+#: wp-includes/functions.php:2404
 #, php-format
 msgid "Your attempt to unapprove this comment: &#8220;%s&#8221; has failed."
 msgstr "Попытка отклонить этот комментарий: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2385
+#: wp-includes/functions.php:2405
 #, php-format
 msgid "Your attempt to approve this comment: &#8220;%s&#8221; has failed."
 msgstr "Попытка одобрить этот комментарий: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2386
+#: wp-includes/functions.php:2406
 #, php-format
 msgid "Your attempt to edit this comment: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить этот комментарий: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2387
+#: wp-includes/functions.php:2407
 msgid "Your attempt to bulk modify comments has failed."
 msgstr "Попытка массово изменить комментарии не удалась."
 
-#: wp-includes/functions.php:2388
+#: wp-includes/functions.php:2408
 msgid "Your attempt to moderate comments has failed."
 msgstr "Попытка проверить эти комментарии не удалась."
 
-#: wp-includes/functions.php:2390
+#: wp-includes/functions.php:2410
 msgid "Your attempt to add this link has failed."
 msgstr "Попытка добавить эту ссылку не удалась."
 
-#: wp-includes/functions.php:2391
+#: wp-includes/functions.php:2411
 #, php-format
 msgid "Your attempt to delete this link: &#8220;%s&#8221; has failed."
 msgstr "Попытка удалить эту ссылку: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2392
+#: wp-includes/functions.php:2412
 #, php-format
 msgid "Your attempt to edit this link: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить эту ссылку: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2393
+#: wp-includes/functions.php:2413
 msgid "Your attempt to bulk modify links has failed."
 msgstr "Попытка массово изменить ссылки не удалась."
 
-#: wp-includes/functions.php:2395
+#: wp-includes/functions.php:2415
 msgid "Your attempt to add this page has failed."
 msgstr "Попытка добавить эту страницу не удалась."
 
-#: wp-includes/functions.php:2396
+#: wp-includes/functions.php:2416
 #, php-format
 msgid "Your attempt to delete this page: &#8220;%s&#8221; has failed."
 msgstr "Попытка удалить эту страницу: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2397
+#: wp-includes/functions.php:2417
 #, php-format
 msgid "Your attempt to edit this page: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить эту страницу: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2399
+#: wp-includes/functions.php:2419
 #, php-format
 msgid "Your attempt to edit this plugin file: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить файл плагина: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2400
+#: wp-includes/functions.php:2420
 #, php-format
 msgid "Your attempt to activate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Попытка активировать этот плагин: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2401
+#: wp-includes/functions.php:2421
 #, php-format
 msgid "Your attempt to deactivate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Попытка деактивировать этот плагин: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2402
+#: wp-includes/functions.php:2422
 #, php-format
 msgid "Your attempt to upgrade this plugin: &#8220;%s&#8221; has failed."
 msgstr "Попытка обновить этот плагин: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2404
+#: wp-includes/functions.php:2424
 msgid "Your attempt to add this post has failed."
 msgstr "Попытка добавить эту запись не удалась."
 
-#: wp-includes/functions.php:2405
+#: wp-includes/functions.php:2425
 #, php-format
 msgid "Your attempt to delete this post: &#8220;%s&#8221; has failed."
 msgstr "Попытка удалить эту запись: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2406
+#: wp-includes/functions.php:2426
 #, php-format
 msgid "Your attempt to edit this post: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить эту запись: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2408
+#: wp-includes/functions.php:2428
 msgid "Your attempt to add this user has failed."
 msgstr "Попытка добавить этого пользователя не удалась."
 
-#: wp-includes/functions.php:2409
+#: wp-includes/functions.php:2429
 msgid "Your attempt to delete users has failed."
 msgstr "Попытка удалить пользователей не удалась."
 
-#: wp-includes/functions.php:2410
+#: wp-includes/functions.php:2430
 msgid "Your attempt to bulk modify users has failed."
 msgstr "Попытка изменить данные пользователей не удалась."
 
-#: wp-includes/functions.php:2411
+#: wp-includes/functions.php:2431
 #, php-format
 msgid "Your attempt to edit this user: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить данные этого пользователя: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2412
+#: wp-includes/functions.php:2432
 #, php-format
 msgid "Your attempt to modify the profile for: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить профиль для &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2414
+#: wp-includes/functions.php:2434
 msgid "Your attempt to edit your settings has failed."
 msgstr "Попытка изменить настройки не удалась."
 
-#: wp-includes/functions.php:2415
+#: wp-includes/functions.php:2435
 #, php-format
 msgid "Your attempt to change your permalink structure to: %s has failed."
 msgstr "Попытка изменить структуру постоянных ссылок на %s не удалась."
 
-#: wp-includes/functions.php:2416
+#: wp-includes/functions.php:2436
 #, php-format
 msgid "Your attempt to edit this file: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить этот файл: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2417
+#: wp-includes/functions.php:2437
 #, php-format
 msgid "Your attempt to edit this theme file: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить этот файл темы: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2418
+#: wp-includes/functions.php:2438
 #, php-format
 msgid "Your attempt to switch to this theme: &#8220;%s&#8221; has failed."
 msgstr "Попытка переключиться на эту тему: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2420
+#: wp-includes/functions.php:2440
 #, php-format
 msgid "You are attempting to log out of %s"
 msgstr "Вы пытаетесь выйти с %s"
 
-#: wp-includes/functions.php:2440
-#: wp-includes/functions.php:2442
+#: wp-includes/functions.php:2460
+#: wp-includes/functions.php:2462
 msgid "Are you sure you want to do this?"
 msgstr "Вы уверены, что хотите это сделать?"
 
-#: wp-includes/functions.php:2459
+#: wp-includes/functions.php:2479
 msgid "WordPress Failure Notice"
 msgstr "Сообщение об ошибке"
 
-#: wp-includes/functions.php:2462
+#: wp-includes/functions.php:2482
 #, php-format
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "Вы действительно хотите <a href='%s'>выйти</a>?"
 
-#: wp-includes/functions.php:2464
+#: wp-includes/functions.php:2484
 msgid "Please try again."
 msgstr "Пожалуйста, попробуйте ещё раз."
 
-#: wp-includes/functions.php:2515
+#: wp-includes/functions.php:2535
 msgid "&laquo; Back"
 msgstr "&laquo; Назад"
 
-#: wp-includes/functions.php:2536
+#: wp-includes/functions.php:2556
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Ошибка"
 
-#: wp-includes/functions.php:2985
-#: wp-includes/functions.php:3021
+#: wp-includes/functions.php:3005
+#: wp-includes/functions.php:3041
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "Функция %1$s с версии %2$s <strong>считается устаревшей</strong>! Используйте %3$s."
 
-#: wp-includes/functions.php:2987
-#: wp-includes/functions.php:3023
+#: wp-includes/functions.php:3007
+#: wp-includes/functions.php:3043
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "Функция %1$s с версии %2$s <strong>считается устаревшей</strong>. Альтернативы не предусмотрено."
 
-#: wp-includes/functions.php:3313
+#: wp-includes/functions.php:3333
 #, php-format
 msgid "%s is a protected WPMU option and may not be modified"
 msgstr "%s &#8212; защищенная опция WPMU и не может быть изменена"
 
-#: wp-includes/functions.php:3536
+#: wp-includes/functions.php:3556
 msgid "Select a city"
 msgstr "Выберите город"
 
-#: wp-includes/functions.php:3589
+#: wp-includes/functions.php:3609
 msgid "Manual Offsets"
 msgstr "Ручные смещения"
 
@@ -14522,7 +14563,7 @@ msgid "User has blocked requests through HTTP."
 msgstr "Пользователь заблокировал HTTP-запросы."
 
 #: wp-includes/http.php:746
-#: wp-includes/http.php:1380
+#: wp-includes/http.php:1373
 msgid "Too many redirects."
 msgstr "Слишком много перенаправлений."
 
@@ -16547,11 +16588,11 @@ msgstr "Не удалось вставить запись в базу данны
 msgid "The page template is invalid."
 msgstr "Шаблон страницы неработоспособен."
 
-#: wp-includes/post.php:3858
+#: wp-includes/post.php:3856
 msgid "Cannot create a revision of a revision"
 msgstr "Нельзя создать редакцию редакции"
 
-#: wp-includes/post.php:4034
+#: wp-includes/post.php:4032
 msgid "You do not have permission to preview drafts."
 msgstr "У вас нет прав на просмотр черновиков."
 
@@ -16788,7 +16829,7 @@ msgstr "Информация о плагине:"
 
 #: wp-includes/script-loader.php:389
 msgid "Saving..."
-msgstr "Сохранение&hellip;"
+msgstr "Сохранение..."
 
 #: wp-includes/script-loader.php:390
 msgid "Could not set that as the thumbnail image. Try a different attachment."
@@ -16882,7 +16923,7 @@ msgstr "Пожалуйста, войдите заново."
 msgid "Sidebar %d"
 msgstr "Боковая колонка %d"
 
-#: wp-includes/wp-db.php:1163
+#: wp-includes/wp-db.php:1167
 #, php-format
 msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.1.2 or higher"
 msgstr "<strong>ОШИБКА</strong>: WordPress %s требует MySQL 4.1.2 или выше"
@@ -17167,16 +17208,16 @@ msgstr "На сайте %1$s создан новый блог: %2$s "
 msgid "New %1$s User: %2$s"
 msgstr "На сайте %1$s новый пользователь: %2$s"
 
-#: wp-includes/wpmu-functions.php:1759
+#: wp-includes/wpmu-functions.php:1753
 msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
 msgstr "С кожалению, вы использовали все доступное пространство. Пожалуйста, удалите несколько файлов, чтобы загрузить новые."
 
+#: wp-includes/wpmu-functions.php:1850
 #: wp-includes/wpmu-functions.php:1856
-#: wp-includes/wpmu-functions.php:1862
 msgid "Delete Blog"
 msgstr "Удалить блог"
 
-#: wp-includes/wpmu-functions.php:1867
+#: wp-includes/wpmu-functions.php:1861
 #, php-format
 msgid ""
 "Dear User,\n"
@@ -17210,76 +17251,76 @@ msgstr ""
 "Вебмастер\n"
 "SITE_NAME\n"
 
-#: wp-includes/wpmu-functions.php:1884
+#: wp-includes/wpmu-functions.php:1878
 msgid "Delete My Blog"
 msgstr "Удалить мой блог"
 
-#: wp-includes/wpmu-functions.php:1886
+#: wp-includes/wpmu-functions.php:1880
 msgid "Thank you. Please check your email for a link to confirm your action. Your blog will not be deleted until this link is clicked."
 msgstr "Спасибо. Пожалуйста, проверьте ваш почтовый ящик на предмет ссылки для подтверждения вашего действия. Блог будет удалён, когда вы нажмёте на эту ссылку."
 
-#: wp-includes/wpmu-functions.php:1891
+#: wp-includes/wpmu-functions.php:1885
 #, php-format
 msgid "Thank you for using %s, your blog has been deleted. Happy trails to you until we meet again."
 msgstr "Спасибо за работу с %s, ваш блог удалён. Счастливого пути, и до встречи!"
 
-#: wp-includes/wpmu-functions.php:1894
+#: wp-includes/wpmu-functions.php:1888
 msgid "I'm sorry, the link you clicked is stale. Please select another option."
 msgstr "К сожалению, ссылка, по которой вы перешли, устарела. Пожалуйста, выберите другой вариант."
 
-#: wp-includes/wpmu-functions.php:1898
+#: wp-includes/wpmu-functions.php:1892
 #, php-format
 msgid "If you do not want to use your %s blog any more, you can delete it using the form below. When you click <strong>Delete My Blog</strong> you will be sent an email with a link in it. Click on this link to delete your blog."
 msgstr "Если вы не хотите использовать ваш блог %s, вы можете удалить его с помощью этой формы. Когда вы нажмёте <strong>Удалить мой блог</strong>, мы пошлём вам письмо со ссылкой. Перейдите по ней, чтобы удалить блог."
 
-#: wp-includes/wpmu-functions.php:1899
+#: wp-includes/wpmu-functions.php:1893
 msgid "Remember, once deleted your blog cannot be restored."
 msgstr "Учтите, что после удаления блог нельзя будет восстановить."
 
-#: wp-includes/wpmu-functions.php:1903
+#: wp-includes/wpmu-functions.php:1897
 #, php-format
 msgid "I'm sure I want to permanently disable my blog, and I am aware I can never get it back or use %s again."
 msgstr "Я уверен, что хочу навсегда отключить свой блог, и осознаю, что никогда не смогу вернуть или использовать %s снова."
 
-#: wp-includes/wpmu-functions.php:1904
+#: wp-includes/wpmu-functions.php:1898
 msgid "Delete My Blog Permanently &raquo;"
 msgstr "Удалить мой блог навсегда &raquo;"
 
-#: wp-includes/wpmu-functions.php:1950
+#: wp-includes/wpmu-functions.php:1952
 #, php-format
 msgid "This file is too big. Files must be less than %dKb in size.<br />"
 msgstr "Файл слишком велик. Размер файлов должен быть менее %d КБ.<br />"
 
-#: wp-includes/wpmu-functions.php:1960
+#: wp-includes/wpmu-functions.php:1962
 msgid "Blog Suspended."
 msgstr "Блог приостановлен."
 
-#: wp-includes/wpmu-functions.php:2028
+#: wp-includes/wpmu-functions.php:2030
 msgid "Please try again!"
 msgstr "Пожалуйста, попробуйте ещё раз!"
 
-#: wp-includes/wpmu-functions.php:2061
+#: wp-includes/wpmu-functions.php:2063
 #, php-format
 msgid "You have been added to this blog. Please visit the <a href=\"%s\">homepage</a> or <a href=\"%s\">login</a> using your username and password."
 msgstr "Вас добавили к этому блогу. Можно перейти на <a href=\"%s\">главную страницу</a> или <a href=\"%s\">авторизоваться</a>, используя свой логин и пароль."
 
-#: wp-includes/wpmu-functions.php:2102
+#: wp-includes/wpmu-functions.php:2104
 msgid "<strong>ERROR</strong>: your account has been marked as a spammer."
 msgstr "<strong>ОШИБКА</strong>: Ваша учётная запись помечена как спамерская."
 
-#: wp-includes/wpmu-functions.php:2259
+#: wp-includes/wpmu-functions.php:2261
 #: wp-login.php:174
 #, php-format
 msgid "[%s] Password Reset"
 msgstr "[%s] Новый пароль"
 
-#: wp-includes/wpmu-functions.php:2265
+#: wp-includes/wpmu-functions.php:2267
 #: wp-login.php:223
 #, php-format
 msgid "[%s] Your new password"
 msgstr "[%s] Ваш новый пароль"
 
-#: wp-includes/wpmu-functions.php:2297
+#: wp-includes/wpmu-functions.php:2288
 msgid ""
 "Dear User,\n"
 "\n"
@@ -17307,11 +17348,11 @@ msgstr ""
 "\n"
 "--Команда @ SITE_NAME"
 
-#: wp-includes/wpmu-functions.php:2324
+#: wp-includes/wpmu-functions.php:2315
 msgid "This is an example of a WordPress comment, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many comments like this one or sub-comments as you like and manage all of your content inside of WordPress."
 msgstr "Это пример комментария в WordPress. Можно написать здесь информацию о себе или своём сайте, чтобы читатели могли получить о вас представление. Можно создать столько подобных комментариев или ответов на них, сколько необходимо, и управлять их содержимым прямо в WordPress."
 
-#: wp-includes/wpmu-functions.php:2402
+#: wp-includes/wpmu-functions.php:2393
 msgid "This action has been disabled by the administrator"
 msgstr "Это действие запрещено администратором"
 
@@ -17752,258 +17793,258 @@ msgstr "Краткое описание"
 msgid "Allow new users to sign up"
 msgstr "Разрешить регистрацию пользователей"
 
-#: xmlrpc.php:509
+#: xmlrpc.php:510
 msgid "Sorry, you cannot edit this page."
 msgstr "Извините, но вы не можете редактировать эту страницу."
 
-#: xmlrpc.php:586
-#: xmlrpc.php:699
-#: xmlrpc.php:745
+#: xmlrpc.php:587
+#: xmlrpc.php:700
+#: xmlrpc.php:746
 msgid "Sorry, no such page."
 msgstr "Извините, такой страницы нет."
 
-#: xmlrpc.php:611
-#: xmlrpc.php:791
+#: xmlrpc.php:612
+#: xmlrpc.php:792
 msgid "Sorry, you cannot edit pages."
 msgstr "Извините, но вы не можете редактировать страницы."
 
-#: xmlrpc.php:660
+#: xmlrpc.php:661
 msgid "Sorry, you cannot add new pages."
 msgstr "Извините, но вы не можете добавлять страницы."
 
-#: xmlrpc.php:704
+#: xmlrpc.php:705
 msgid "Sorry, you do not have the right to delete this page."
 msgstr "Извините, но у вас нет прав на удаление этой страницы."
 
-#: xmlrpc.php:710
+#: xmlrpc.php:711
 msgid "Failed to delete the page."
 msgstr "Не получилось удалить страницу."
 
-#: xmlrpc.php:750
+#: xmlrpc.php:751
 msgid "Sorry, you do not have the right to edit this page."
 msgstr "Извините, но у вас нет прав на редактирование этой страницы."
 
-#: xmlrpc.php:852
+#: xmlrpc.php:853
 msgid "Sorry, you cannot edit posts on this blog."
 msgstr "Извините, но вы не можете редактировать записи в этом блоге."
 
-#: xmlrpc.php:889
+#: xmlrpc.php:890
 msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
 msgstr "Извините, чтобы просматривать метки, вам нужны права на редактирование записей в этом блоге."
 
-#: xmlrpc.php:936
+#: xmlrpc.php:937
 msgid "Sorry, you do not have the right to add a category."
 msgstr "Извините, но у вас нет прав на добавление рубрики."
 
-#: xmlrpc.php:964
+#: xmlrpc.php:965
 msgid "Sorry, the new category failed."
 msgstr "Извините, произошла ошибка при создании рубрики."
 
-#: xmlrpc.php:993
+#: xmlrpc.php:994
 msgid "Sorry, you do not have the right to delete a category."
 msgstr "Извините, но у вас нет прав на удаление рубрики."
 
-#: xmlrpc.php:1021
+#: xmlrpc.php:1022
 msgid "Sorry, you must be able to edit posts to this blog in order to view categories."
 msgstr "Извините, чтобы просматривать рубрики, вам нужны права на редактирование записей в этом блоге."
 
-#: xmlrpc.php:1058
-#: xmlrpc.php:1181
-#: xmlrpc.php:1213
+#: xmlrpc.php:1059
+#: xmlrpc.php:1182
+#: xmlrpc.php:1214
 msgid "You are not allowed to moderate comments on this blog."
 msgstr "Вам не разрешено модерировать комментарии в этом блоге."
 
-#: xmlrpc.php:1063
-#: xmlrpc.php:1186
-#: xmlrpc.php:1218
+#: xmlrpc.php:1064
+#: xmlrpc.php:1187
+#: xmlrpc.php:1219
 msgid "Invalid comment ID."
 msgstr "Неверный ID комментария."
 
-#: xmlrpc.php:1121
+#: xmlrpc.php:1122
 msgid "Sorry, you cannot edit comments."
 msgstr "Извините, но вы не можете редактировать комментарии."
 
-#: xmlrpc.php:1225
+#: xmlrpc.php:1226
 msgid "Invalid comment status."
 msgstr "Неверный статус комментария."
 
-#: xmlrpc.php:1256
+#: xmlrpc.php:1257
 msgid "Sorry, the comment could not be edited. Something wrong happened."
 msgstr "Извините, комментарий не удалось изменить. Что-то случилось."
 
-#: xmlrpc.php:1287
+#: xmlrpc.php:1288
 msgid "You must be registered to comment"
 msgstr "Для отправки комментария вы должны зарегистрироваться"
 
-#: xmlrpc.php:1300
-#: xmlrpc.php:1303
-#: xmlrpc.php:2350
+#: xmlrpc.php:1301
+#: xmlrpc.php:1304
+#: xmlrpc.php:2351
 msgid "Invalid post ID."
 msgstr "Неверный ID записи."
 
-#: xmlrpc.php:1329
+#: xmlrpc.php:1330
 msgid "Comment author name and email are required"
 msgstr "Требуются имя и e-mail автора комментария"
 
-#: xmlrpc.php:1331
+#: xmlrpc.php:1332
 msgid "A valid email address is required"
 msgstr "Требуется корректный адрес e-mail"
 
-#: xmlrpc.php:1364
-#: xmlrpc.php:1426
-#: xmlrpc.php:1454
-#: xmlrpc.php:1482
+#: xmlrpc.php:1365
+#: xmlrpc.php:1427
+#: xmlrpc.php:1455
+#: xmlrpc.php:1483
 msgid "You are not allowed access to details about this blog."
 msgstr "Вам не разрешено получать детальную информацию об этом блоге."
 
-#: xmlrpc.php:1392
+#: xmlrpc.php:1393
 msgid "You are not allowed access to details about comments."
 msgstr "Вам не разрешено получать информацию о комментариях."
 
-#: xmlrpc.php:1566
+#: xmlrpc.php:1567
 msgid "You are not allowed to update options."
 msgstr "Вам не разрешено обновлять настройки."
 
-#: xmlrpc.php:1645
+#: xmlrpc.php:1646
 msgid "Sorry, you do not have access to user data on this blog."
 msgstr "Извините, но у вас нет доступа к данным пользователей этого блога."
 
-#: xmlrpc.php:1681
-#: xmlrpc.php:2580
-#: xmlrpc.php:3078
-#: xmlrpc.php:3188
+#: xmlrpc.php:1682
+#: xmlrpc.php:2581
+#: xmlrpc.php:3079
+#: xmlrpc.php:3189
 msgid "Sorry, you cannot edit this post."
 msgstr "Извините, но вы не можете редактировать эту запись."
 
-#: xmlrpc.php:1729
-#: xmlrpc.php:2940
+#: xmlrpc.php:1730
+#: xmlrpc.php:2941
 msgid "Either there are no posts, or something went wrong."
 msgstr "Либо записей нет, либо что-то случилось."
 
-#: xmlrpc.php:1785
+#: xmlrpc.php:1786
 msgid "Sorry, this user can not edit the template."
 msgstr "Извините, этот пользователь не может редактировать шаблон."
 
-#: xmlrpc.php:1827
+#: xmlrpc.php:1828
 msgid "Sorry, this user cannot edit the template."
 msgstr "Извините, этот пользователь не может редактировать шаблон."
 
-#: xmlrpc.php:1838
+#: xmlrpc.php:1839
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "Либо файл защищён от записи, либо что-то случилось. Файл не был обновлён."
 
-#: xmlrpc.php:1870
+#: xmlrpc.php:1871
 msgid "Sorry, you are not allowed to post on this blog."
 msgstr "Извините, но вам не разрешено публиковать записи в этом блоге."
 
-#: xmlrpc.php:1926
-#: xmlrpc.php:1980
-#: xmlrpc.php:2671
-#: xmlrpc.php:3140
+#: xmlrpc.php:1927
+#: xmlrpc.php:1981
+#: xmlrpc.php:2672
+#: xmlrpc.php:3141
 msgid "Sorry, no such post."
 msgstr "Извините, такой записи нет."
 
-#: xmlrpc.php:1937
-#: xmlrpc.php:2502
+#: xmlrpc.php:1938
+#: xmlrpc.php:2503
 msgid "Sorry, you do not have the right to publish this post."
 msgstr "Извините, но у вас нет прав на публикацию этой записи."
 
-#: xmlrpc.php:2023
-#: xmlrpc.php:2320
+#: xmlrpc.php:2024
+#: xmlrpc.php:2321
 msgid "Sorry, you are not allowed to publish posts on this blog."
 msgstr "Извините, но вам не разрешено публиковать записи в этом блоге."
 
-#: xmlrpc.php:2029
-#: xmlrpc.php:2326
+#: xmlrpc.php:2030
+#: xmlrpc.php:2327
 msgid "Sorry, you are not allowed to publish pages on this blog."
 msgstr "Извините, но вам не разрешено публиковать страницы в этом блоге."
 
-#: xmlrpc.php:2039
-#: xmlrpc.php:2088
-#: xmlrpc.php:2336
-#: xmlrpc.php:2396
+#: xmlrpc.php:2040
+#: xmlrpc.php:2089
+#: xmlrpc.php:2337
+#: xmlrpc.php:2397
 msgid "Invalid post type."
 msgstr "Неверный тип записи."
 
-#: xmlrpc.php:2079
+#: xmlrpc.php:2080
 msgid "You are not allowed to post as this user"
 msgstr "Вам не разрешено публиковать записи от лица этого пользователя"
 
-#: xmlrpc.php:2084
+#: xmlrpc.php:2085
 msgid "You are not allowed to create pages as this user"
 msgstr "Вам не разрешено создавать страницы от лица этого пользователя"
 
-#: xmlrpc.php:2387
+#: xmlrpc.php:2388
 msgid "You are not allowed to change the post author as this user."
 msgstr "Вам не разрешено изменять автора записи от лица этого пользователя."
 
-#: xmlrpc.php:2392
+#: xmlrpc.php:2393
 msgid "You are not allowed to change the page author as this user."
 msgstr "Вам не разрешено изменять автора страницы от лица этого пользователя."
 
-#: xmlrpc.php:2500
+#: xmlrpc.php:2501
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "Извините, но у вас нет прав на публикацию этой страницы."
 
-#: xmlrpc.php:2535
+#: xmlrpc.php:2536
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "Извините, вашу запись не удалось изменить. Что-то случилось."
 
-#: xmlrpc.php:2803
-#: xmlrpc.php:2995
+#: xmlrpc.php:2804
+#: xmlrpc.php:2996
 msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
 msgstr "Извините, чтобы просматривать рубрики, вам нужны права на редактирование записей в этом блоге."
 
-#: xmlrpc.php:2860
+#: xmlrpc.php:2861
 msgid "You are not allowed to upload files to this site."
 msgstr "Вам не разрешено загружать файлы на этот сайт."
 
-#: xmlrpc.php:2887
+#: xmlrpc.php:2888
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
 msgstr "Не удалось сохранить файл %1$s (%2$s)"
 
-#: xmlrpc.php:3034
+#: xmlrpc.php:3035
 msgid "Sorry, you can not edit this post."
 msgstr "Извините, но вы не можете редактировать эту запись."
 
-#: xmlrpc.php:3235
+#: xmlrpc.php:3236
 msgid "Is there no link to us?"
 msgstr "Похоже, что ссылки на наш сайт нет."
 
-#: xmlrpc.php:3275
-#: xmlrpc.php:3285
-#: xmlrpc.php:3292
-#: xmlrpc.php:3400
+#: xmlrpc.php:3276
+#: xmlrpc.php:3286
+#: xmlrpc.php:3293
+#: xmlrpc.php:3401
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "Заданный URL нельзя использовать в качестве адресата. Он или не существует, или указывает не на ресурс с возможностью уведомлений."
 
-#: xmlrpc.php:3288
+#: xmlrpc.php:3289
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "Адрес источника и адрес получателя не могут указывать на один и тот же ресурс."
 
-#: xmlrpc.php:3298
+#: xmlrpc.php:3299
 msgid "The pingback has already been registered."
 msgstr "Уведомление уже было зарегистрировано."
 
-#: xmlrpc.php:3306
+#: xmlrpc.php:3307
 msgid "The source URL does not exist."
 msgstr "Ссылка на источник не найдена."
 
-#: xmlrpc.php:3318
+#: xmlrpc.php:3319
 msgid "We cannot find a title on that page."
 msgstr "Невозможно определить название этой страницы."
 
-#: xmlrpc.php:3354
+#: xmlrpc.php:3355
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "Адрес источника не содержит ссылки на получателя, и потому не может быть использован как источник."
 
-#: xmlrpc.php:3374
+#: xmlrpc.php:3375
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "Уведомление от %1$s к %2$s зарегистрировано. Люди говорят! :-)"
 
-#: xmlrpc.php:3407
+#: xmlrpc.php:3408
 msgid "The specified target URL does not exist."
 msgstr "Указанная ссылка не найдена."
 
