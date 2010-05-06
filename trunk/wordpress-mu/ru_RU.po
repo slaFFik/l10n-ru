@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress MU 2.9.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-03-06 13:11+0000\n"
-"PO-Revision-Date: 2010-03-07 18:19+0300\n"
+"PO-Revision-Date: 2010-04-05 20:39+0300\n"
 "Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -37,12 +37,12 @@ msgstr "Ваша учётная запись активирована!"
 #: wp-activate.php:56
 #, php-format
 msgid "<p class=\"lead-in\">Your account has been activated. You may now <a href=\"%1$s\">login</a> to the site using your chosen username of \"%2$s\".  Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>.</p>"
-msgstr "<p class=\"lead-in\">Ваша учётная запись активирована. Вы можете теперь <a href=\"%1$s\">войти</a> на сайт, используя выбранный логин (%2$s).  Пожалуйста, проверьте почту %3$s, там будут пароль и инструкции для входа. Если вы не получили письмо, проверьте корзину или папку со спамом. Если в течение часа вы так и не получите письмо, вы можете <a href=\"%4$s\">сбросить ваш пароль</a>.</p>"
+msgstr "<p class=\"lead-in\">Ваша учётная запись активирована. Вы можете теперь <a href=\"%1$s\">войти</a> на сайт, используя выбранный логин (%2$s).  Пожалуйста, проверьте почтовый ящик %3$s, там будут пароль и инструкции для входа. Если вы не получили письмо, проверьте корзину или папку со спамом. Если в течение часа вы так и не получите письмо, вы можете <a href=\"%4$s\">сбросить ваш пароль</a>.</p>"
 
 #: wp-activate.php:58
 #, php-format
 msgid "<p class=\"lead-in\">Your blog at <a href=\"%1$s\">%2$s</a> is active. You may now login to your blog using your chosen username of \"%3$s\".  Please check your email inbox at %4$s for your password and login instructions.  If you do not receive an email, please check your junk or spam folder.  If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>.</p>"
-msgstr "<p class=\"lead-in\">Ваш блог <a href=\"%1$s\">%2$s</a> активирован. Вы можете теперь войти на сайт используя выбранный логин (%3$s).  Пожалуйста, проверьте почту%4$s, там будут пароль и инструкции для входа. Если вы не получили письмо, проверьте корзину или папку со спамом. Если в течение часа вы так и не получите письмо, вы можете <a href=\"%5$s\">сбросить ваш пароль</a>.</p>"
+msgstr "<p class=\"lead-in\">Ваш блог <a href=\"%1$s\">%2$s</a> активирован. Вы можете теперь войти на сайт используя выбранный логин (%3$s).  Пожалуйста, проверьте почтовый ящик %4$s, там будут пароль и инструкции для входа. Если вы не получили письмо, проверьте корзину или папку со спамом. Если в течение часа вы так и не получите письмо, вы можете <a href=\"%5$s\">сбросить ваш пароль</a>.</p>"
 
 #: wp-activate.php:62
 msgid "An error occurred during the activation"
