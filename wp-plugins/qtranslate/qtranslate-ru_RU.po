@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: qTranslate 2.5.6\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/qtranslate\n"
 "POT-Creation-Date: 2009-10-11 12:35+0000\n"
-"PO-Revision-Date: 2010-04-21 22:42+0300\n"
+"PO-Revision-Date: 2010-06-02 00:00+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -21,13 +21,13 @@ msgstr ""
 
 #: qtranslate_configuration.php:25
 msgid "Language Management"
-msgstr ""
+msgstr "Управление языками"
 
 #: qtranslate_configuration.php:25
 #: qtranslate_configuration.php:582
 #: qtranslate_hooks.php:168
 msgid "Languages"
-msgstr ""
+msgstr "Языки"
 
 #: qtranslate_configuration.php:35
 msgid "language_name"
@@ -35,7 +35,7 @@ msgstr ""
 
 #: qtranslate_configuration.php:45
 msgid "Language Code"
-msgstr ""
+msgstr "Код языка"
 
 #: qtranslate_configuration.php:47
 msgid "2-Letter <a href=\"http://www.w3.org/WAI/ER/IG/ert/iso639.htm#2letter\">ISO Language Code</a> for the Language you want to insert. (Example: en)"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: qtranslate_configuration.php:50
 msgid "Flag"
-msgstr ""
+msgstr "Флаг"
 
 #: qtranslate_configuration.php:75
 msgid "Incorrect Flag Image Path! Please correct it!"
@@ -56,19 +56,19 @@ msgstr ""
 #: qtranslate_configuration.php:91
 #: qtranslate_configuration.php:180
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 #: qtranslate_configuration.php:93
 msgid "The Name of the language, which will be displayed on the site. (Example: English)"
-msgstr ""
+msgstr "Название языка, которое будет отображаться на сайте. (Пример: Русский)"
 
 #: qtranslate_configuration.php:96
 msgid "Locale"
-msgstr ""
+msgstr "Локаль"
 
 #: qtranslate_configuration.php:99
 msgid "PHP and Wordpress Locale for the language. (Example: en_US)"
-msgstr ""
+msgstr "Локаль PHP и WordPress для языка. (Пример: ru_RU)"
 
 #: qtranslate_configuration.php:100
 msgid "You will need to install the .mo file for this language."
@@ -76,7 +76,7 @@ msgstr ""
 
 #: qtranslate_configuration.php:104
 msgid "Date Format"
-msgstr ""
+msgstr "Формат даты"
 
 #: qtranslate_configuration.php:106
 msgid "Depending on your Date / Time Conversion Mode, you can either enter a <a href=\"http://www.php.net/manual/function.strftime.php\">strftime</a> (use %q for day suffix (st,nd,rd,th)) or <a href=\"http://www.php.net/manual/function.date.php\">date</a> format. This field is optional. (Example: %A %B %e%q, %Y)"
@@ -84,7 +84,7 @@ msgstr ""
 
 #: qtranslate_configuration.php:109
 msgid "Time Format"
-msgstr ""
+msgstr "Формат времени"
 
 #: qtranslate_configuration.php:111
 msgid "Depending on your Date / Time Conversion Mode, you can either enter a <a href=\"http://www.php.net/manual/function.strftime.php\">strftime</a> or <a href=\"http://www.php.net/manual/function.date.php\">date</a> format. This field is optional. (Example: %I:%M %p)"
@@ -182,11 +182,11 @@ msgstr ""
 
 #: qtranslate_configuration.php:421
 msgid "Save Changes &raquo;"
-msgstr ""
+msgstr "Сохранить изменения &raquo;"
 
 #: qtranslate_configuration.php:426
 msgid "Language Management (qTranslate Configuration)"
-msgstr ""
+msgstr "Управление языками (Настройка qTranslate)"
 
 #: qtranslate_configuration.php:427
 #, php-format
@@ -195,15 +195,15 @@ msgstr ""
 
 #: qtranslate_configuration.php:429
 msgid "General Settings"
-msgstr ""
+msgstr "Общие настройки"
 
 #: qtranslate_configuration.php:432
 msgid "Default Language / Order"
-msgstr ""
+msgstr "Язык по умолчанию / Порядок"
 
 #: qtranslate_configuration.php:434
 msgid "Default Language"
-msgstr ""
+msgstr "Язык по умолчанию"
 
 #: qtranslate_configuration.php:450
 #, php-format
@@ -240,7 +240,7 @@ msgstr ""
 
 #: qtranslate_configuration.php:472
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Расширенные настройки"
 
 #: qtranslate_configuration.php:472
 #: qtranslate_services.php:313
@@ -377,7 +377,7 @@ msgstr ""
 
 #: qtranslate_configuration.php:575
 msgid "Save Changes"
-msgstr ""
+msgstr "Сохранить изменения"
 
 #: qtranslate_configuration.php:606
 msgid "Disable"
@@ -389,7 +389,7 @@ msgstr ""
 
 #: qtranslate_configuration.php:607
 msgid "Edit"
-msgstr ""
+msgstr "Изменить"
 
 #: qtranslate_configuration.php:608
 msgid "Default"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: qtranslate_configuration.php:608
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #: qtranslate_configuration.php:613
 msgid "Enabling a language will cause qTranslate to update the Gettext-Database for the language, which can take a while depending on your server's connection speed."
@@ -405,11 +405,11 @@ msgstr ""
 
 #: qtranslate_configuration.php:620
 msgid "Add Language"
-msgstr ""
+msgstr "Добавить язык"
 
 #: qtranslate_configuration.php:623
 msgid "Add Language &raquo;"
-msgstr ""
+msgstr "Добавить язык &raquo;"
 
 #: qtranslate_hooks.php:155
 msgid "Settings"
@@ -678,7 +678,7 @@ msgstr ""
 
 #: qtranslate_widget.php:32
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 #: qtranslate_widget.php:57
 msgid "Title:"
