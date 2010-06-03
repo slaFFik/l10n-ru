@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: WordPress MU 2.9.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-03-06 13:11+0000\n"
-"PO-Revision-Date: 2010-03-07 18:19+0300\n"
-"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
+"PO-Revision-Date: 2010-06-03 15:22+0300\n"
+"Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11497,7 +11497,7 @@ msgstr "%1$s %2$s от %3$s"
 #: wp-admin/themes.php:270
 #, php-format
 msgid "The template files are located in <code>%2$s</code>.  The stylesheet files are located in <code>%3$s</code>.  <strong>%4$s</strong> uses templates from <strong>%5$s</strong>.  Changes made to the templates will affect both themes."
-msgstr "Файлы шаблонов находятся в <code>%2$s</code>. Список стилей находится в <code>%3$s</code>.  <strong>%4$s</strong> использует шаблоны из <strong>%5$s</strong>.  Изменения шаблонов затронет обе темы."
+msgstr "Файлы шаблонов находятся в <code>%2$s</code>. Список стилей находится в <code>%3$s</code>.  <strong>%4$s</strong> использует шаблоны из <strong>%5$s</strong>.  Изменение шаблонов затронет обе темы."
 
 #: wp-admin/themes.php:176
 #: wp-admin/themes.php:272
@@ -18050,66 +18050,83 @@ msgstr "Указанная ссылка не найдена."
 
 #~ msgid "You did not enter a tag name."
 #~ msgstr "Вы не ввели название метки."
+
 #~ msgid "Tag <a href=\"#%s\">%s</a> added"
 #~ msgstr "Добавлена метка <a href=\"#%s\">%s</a>"
+
 #~ msgid "Time"
 #~ msgstr "Время"
+
 #~ msgid ""
 #~ "You are about to delete this attachment '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить вложение «%s»\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid "Delete All Spam"
 #~ msgstr "Удалить весь спам"
+
 #~ msgid ""
 #~ "You are about to delete this draft '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить черновик «%s»\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid ""
 #~ "You are about to delete this post '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить запись «%s»\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid "Keep this post private"
 #~ msgstr "Оставить запись личной"
+
 #~ msgid "Post Password"
 #~ msgstr "Пароль записи"
+
 #~ msgid "Password Protect This Post"
 #~ msgstr "Защитить запись паролем"
+
 #~ msgid ""
 #~ "Setting a password will require people who visit your blog to enter the "
 #~ "above password to view this post and its comments."
 #~ msgstr ""
 #~ "Установка пароля потребует от посетителей вашего блога ввести указанный "
 #~ "выше пароль для просмотра записи и комментариев к ней."
+
 #~ msgid "Allow comments on this post"
 #~ msgstr "Разрешить комментарии к записи"
+
 #~ msgid ""
 #~ "You are about to delete this comment. \n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить этот комментарий.\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid ""
 #~ "You are about to delete this page '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить страницу «%s»\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid "Page Password"
 #~ msgstr "Пароль на страницу"
+
 #~ msgid "Password Protect This Page"
 #~ msgstr "Защитить страницу паролем"
+
 #~ msgid ""
 #~ "Setting a password will require people who visit your blog to enter the "
 #~ "above password to view this page and its comments."
 #~ msgstr ""
 #~ "Установка пароля потребует от посетителей вашего блога ввести указанный "
 #~ "выше пароль для просмотра страницы и комментариев к ней."
+
 #~ msgid ""
 #~ "These settings apply to this page only. &#8220;Pings&#8221; are <a href="
 #~ "\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" "
@@ -18119,30 +18136,37 @@ msgstr "Указанная ссылка не найдена."
 #~ "&#8212; это <a href=\"http://codex.wordpress.org/"
 #~ "Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">обратные "
 #~ "ссылки и уведомления</a>."
+
 #~ msgid "Sorry, can&#8217;t call files with their real path."
 #~ msgstr "Извините, вы не можете вызывать файлы с их полным путём."
+
 #~ msgid "Also used as alternate text for the image"
 #~ msgstr "Также используется в качестве альтернативного текста"
+
 #~ msgid "MB</a>"
 #~ msgstr "МБ</a>"
+
 #~ msgid ""
 #~ "You are about to delete this draft '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить черновик «%s»\n"
 #~ " «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid ""
 #~ "You are about to delete this post '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить запись «%s»\n"
 #~ " «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid ""
 #~ "You are about to delete this page '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить страницу «%s»\n"
 #~ " «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid ""
 #~ "The character encoding you write your blog in (UTF-8 is <a href=\"http://"
 #~ "developer.apple.com/documentation/macos8/TextIntlSvcs/"
@@ -18151,80 +18175,108 @@ msgstr "Указанная ссылка не найдена."
 #~ "Кодировка вашего блога (<a href=\"http://developer.apple.com/"
 #~ "documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/"
 #~ "TEC.b0.html\">рекомендуется</a> UTF-8)"
+
 #~ msgid "You do not have sufficient permissions to edit themes for this blog."
 #~ msgstr ""
 #~ "У вас недостаточно полномочий, чтобы редактировать темы на этом блоге."
+
 #~ msgid "Image (%s)"
+
 #~ msgid_plural "Images (%s)"
 #~ msgstr[0] "Изображение (%s)"
 #~ msgstr[1] "Изображения (%s)"
 #~ msgstr[2] "Изображения (%s)"
+
 #~ msgid "Audio (%s)"
+
 #~ msgid_plural "Audio (%s)"
 #~ msgstr[0] "Аудио (%s)"
 #~ msgstr[1] "Аудио (%s)"
 #~ msgstr[2] "Аудио (%s)"
+
 #~ msgid "Video (%s)"
+
 #~ msgid_plural "Video (%s)"
 #~ msgstr[0] "Видео (%s)"
 #~ msgstr[1] "Видео (%s)"
 #~ msgstr[2] "Видео (%s)"
+
 #~ msgid "Header Image and Color"
 #~ msgstr "Изображение и цвет заголовка"
+
 #~ msgid "You cannot make this user the post author."
 #~ msgstr "Вы не можете сделать этого пользователя автором записи."
+
 #~ msgid "Import Bunny&#8217;s Technorati Tags"
 #~ msgstr "Импорт меток плагина Bunny&#8217;s Technorati Tags"
+
 #~ msgid ""
 #~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
 #~ "WordPress tags."
 #~ msgstr ""
 #~ "Привет! Этот скрипт импортирует метки плагина Bunny&#8217;s Technorati "
 #~ "Tags в систему меток WordPress."
+
 #~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
 #~ msgstr "Поддерживается Bunny&#8217;s Technorati Tags версии 0.6."
+
 #~ msgid ""
 #~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
 #~ msgstr ""
 #~ "Все существующие метки плагина  Bunny&#8217;s Technorati Tags после "
 #~ "импорта будут удалены."
+
 #~ msgid "Import Tags"
 #~ msgstr "Импортировать метки"
+
 #~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
 #~ msgstr "Чтение меток плагина Bunny&#8217;s Technorati Tags&#8230;"
+
 #~ msgid "Done! <strong>%s</strong> post with tags were read."
+
 #~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
 #~ msgstr[0] "Готово! <strong>%1$s</strong> запись с метками импортирована."
 #~ msgstr[1] "Готово! <strong>%1$s</strong> записи с метками импортированы."
 #~ msgstr[2] "Готово! <strong>%1$s</strong> записей с метками импортированы."
+
 #~ msgid "Next"
 #~ msgstr "Далее"
+
 #~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
 #~ msgstr ""
 #~ "Импорт меток плагина Bunny&#8217;s Technorati Tags в систему меток "
 #~ "WordPress."
+
 #~ msgid "Import Jerome&#8217;s Keywords"
 #~ msgstr "Импорт меток плагина Jerome&#8217;s Keywords"
+
 #~ msgid ""
 #~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
 #~ msgstr ""
 #~ "Привет! Этот скрипт импортирует метки плагина Jerome&#8217;s Keywords в "
 #~ "систему меток WordPress."
+
 #~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
 #~ msgstr "Поддерживается Jerome&#8217;s Keywords версии 1.x и 2.0a."
+
 #~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
 #~ msgstr ""
 #~ "Все существующие метки плагина Jerome&#8217;s Keywords после импорта "
 #~ "будут удалены."
+
 #~ msgid "Import Version 1.x"
 #~ msgstr "Импорт версии 1.x"
+
 #~ msgid "Import Version 2.0a"
 #~ msgstr "Импорт версии 2.0a"
+
 #~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
 #~ msgstr "Чтение меток плагина Jerome&#8217;s Keywords Tags&#8230;"
+
 #~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
 #~ msgstr ""
 #~ "Импорт меток плагина Jerome&#8217;s Keywords в систему меток WordPress."
+
 #~ msgid ""
 #~ "Hi, this is a comment.<br />To delete a comment, just log in, and view "
 #~ "the posts' comments, there you will have the option to edit or delete "
@@ -18233,106 +18285,141 @@ msgstr "Указанная ссылка не найдена."
 #~ "Привет! Это комментарий.<br />Чтобы удалить его, авторизуйтесь и "
 #~ "просмотрите комментарии к записи. Там будут ссылки для их изменения или "
 #~ "удаления."
+
 #~ msgid "Invalid post id."
 #~ msgstr "Неверный идентификатор записи."
+
 #~ msgid ""
 #~ "You are about to delete the selected categories.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить выделенные рубрики.\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid "Comment|noun"
 #~ msgstr "Комментарий|существительное"
+
 #~ msgid "Custom Image Header"
 #~ msgstr "Картинка для шапки"
+
 #~ msgid "Edit \"%s\""
 #~ msgstr "Редактировать &laquo;%s&raquo;"
+
 #~ msgid "View \"%s\""
 #~ msgstr "Просмотреть &laquo;%s&raquo;"
+
 #~ msgid ""
 #~ "You are about to delete the selected comments.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить выделенные комментарии.\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid "Post updated. Continue editing below or <a href=\"%s\">go back</a>."
 #~ msgstr ""
 #~ "Запись обновлена. Можно продолжить редактирование или <a href=\"%s"
 #~ "\">вернуться назад</a>."
+
 #~ msgid "M j, Y @ G:i|Publish box date format"
 #~ msgstr "d.m.Y, H:i|Формат даты публикации"
+
 #~ msgid "Approved|adjective"
 #~ msgstr "Одобрен|прилагательное"
+
 #~ msgid "Pending|adjective"
 #~ msgstr "Ожидает проверки|прилагательное"
+
 #~ msgid "Spam|adjective"
 #~ msgstr "Спам|прилагательное"
+
 #~ msgid ""
 #~ "You are about to delete the selected link categories.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить выделенные рубрики ссылок.\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid ""
 #~ "Choose the frame your link targets. Essentially this means if you choose "
 #~ "<code>_blank</code> your link will open in a new window."
 #~ msgstr ""
 #~ "Укажите целевое окно для вашей ссылки. В частности, если выбрать "
 #~ "<code>_blank</code>, ссылка будет открываться в новом окне."
+
 #~ msgid "Page updated. Continue editing below or <a href=\"%s\">go back</a>."
 #~ msgstr ""
 #~ "Страница обновлена. Можно продолжить редактирование или <a href=\"%s"
 #~ "\">вернуться назад</a>."
+
 #~ msgid "Page updated."
 #~ msgstr "Страница обновлена."
+
 #~ msgid "Published|page"
 #~ msgstr "Опубликованная|страница"
+
 #~ msgid "Scheduled|page"
 #~ msgstr "Запланированная|страница"
+
 #~ msgid "Pending Review|page"
 #~ msgstr "Ожидающая утверждения|страница"
+
 #~ msgid "Draft|page"
 #~ msgstr "Черновик|страница"
+
 #~ msgid "Drafts|manage posts header"
 #~ msgstr "Черновики|заголовок управления записями"
+
 #~ msgid "Private|page"
 #~ msgstr "Личная|страница"
+
 #~ msgid ""
 #~ "You are about to delete the selected pages.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить выделенные страницы.\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid ""
 #~ "You are about to delete the selected posts.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить выделенные записи.\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid ""
 #~ "You are about to delete the selected links.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить выделенные ссылки.\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid "Add New|post"
 #~ msgstr "Добавить новую|запись"
+
 #~ msgid "Add New|file"
 #~ msgstr "Добавить новый|файл"
+
 #~ msgid "Add New|links"
 #~ msgstr "Добавить новые|ссылки"
+
 #~ msgid "Add New|page"
 #~ msgstr "Добавить новую|страницу"
+
 #~ msgid "Add New|plugin"
 #~ msgstr "Добавить новый|плагин"
+
 #~ msgid "Delete Plugin"
 #~ msgstr "Удалить плагин"
+
 #~ msgid "%s by %s"
 #~ msgstr "%s автора %s"
+
 #~ msgid "Currently Active Plugins"
 #~ msgstr "Текущие активные плагины"
+
 #~ msgid "Recently Active Plugins"
 #~ msgstr "Недавно активировавшиеся плагины"
+
 #~ msgid ""
 #~ "The following plugins were recently active. When a plugin has been "
 #~ "inactive for more than 7 days it will be moved to the Inactive plugin "
@@ -18340,24 +18427,30 @@ msgstr "Указанная ссылка не найдена."
 #~ msgstr ""
 #~ "Следующие плагины недавно были активными. Когда плагин остаётся "
 #~ "неактивным более семи дней, он перемещается в список неактивных."
+
 #~ msgid "Get More Plugins"
 #~ msgstr "Посмотреть другие плагины"
+
 #~ msgid ""
 #~ "To <em>manually</em> install a plugin you generally just need to upload "
 #~ "the plugin file into your <code>%s</code> directory."
 #~ msgstr ""
 #~ "Чтобы установить плагин <em>вручную</em>, в общем случае нужно просто "
 #~ "загрузить файл плагина в директорию <code>%s</code>."
+
 #~ msgid "Once a plugin has been installed, you may activate it here."
 #~ msgstr "После установки плагина вы можете активировать его здесь."
+
 #~ msgid "Styles|Theme stylesheets in theme editor"
 #~ msgstr "Стили|Таблицы стилей в редакторе тем"
+
 #~ msgid ""
 #~ "<p>There is a new version of %1$s available. <a href=\"%2$s\" class="
 #~ "\"thickbox\" title=\"%1$s\">View version %3$s Details</a>.</p>"
 #~ msgstr ""
 #~ "<p>Доступна свежая версия %1$s. <a href=\"%2$s\" class=\"thickbox\" title="
 #~ "\"%1$s\">Посмотреть информацию о версии %3$s</a>.</p>"
+
 #~ msgid ""
 #~ "<p>There is a new version of %1$s available. <a href=\"%2$s\" class="
 #~ "\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4"
@@ -18366,15 +18459,20 @@ msgstr "Указанная ссылка не найдена."
 #~ "<p>Доступна свежая версия %1$s. Можно <a href=\"%2$s\" class=\"thickbox\" "
 #~ "title=\"%1$s\">посмотреть информацию о версии %3$s</a> или <a href=\"%4$s"
 #~ "\">обновить автоматически</a>.</p>"
+
 #~ msgid "%1$s %2$s by %3$s|1: theme title, 2: theme version, 3: theme author"
 #~ msgstr ""
 #~ "%1$s %2$s, автор: %3$s|1: название темы, 2: версия темы, 3: автор темы"
+
 #~ msgid "Preview of \"%s\""
 #~ msgstr "Просмотр &laquo;%s&raquo;"
+
 #~ msgid "Activate \"%s\""
 #~ msgstr "Активировать &laquo;%s&raquo;"
+
 #~ msgid "Get More Themes"
 #~ msgstr "Посмотреть другие темы"
+
 #~ msgid ""
 #~ "You can find additional themes for your site in the <a href=\"http://"
 #~ "wordpress.org/extend/themes/\">WordPress theme directory</a>. To install "
@@ -18386,6 +18484,7 @@ msgstr "Указанная ссылка не найдена."
 #~ "wordpress.org/extend/themes/\">каталоге тем WordPress</a>. Для установки "
 #~ "темы вы должны загрузить весь каталог темы в директорию <code>wp-content/"
 #~ "themes</code>. После загрузки темы вы можете активировать её здесь."
+
 #~ msgid ""
 #~ "Gears is installed and enabled on this computer. You can disable it from "
 #~ "your browser&#8217;s Options, Under the Hood menu."
@@ -18393,55 +18492,74 @@ msgstr "Указанная ссылка не найдена."
 #~ "Gears установлен и разрешён к использованию. Отключить его можно в окне "
 #~ "&laquo;Параметры&raquo; вашего браузера, вкладка &laquo;"
 #~ "Расширенные&raquo;."
+
 #~ msgid "Setting theme as Current"
 #~ msgstr "Установка темы в качестве текущей"
+
 #~ msgid ""
 #~ "Your WordPress database is out-of-date, and must be upgraded before you "
 #~ "can continue."
 #~ msgstr ""
 #~ "Ваша база данных WordPress устарела, и нужно её обновить, перед тем как "
 #~ "продолжить."
+
 #~ msgid "Media|media column header"
 #~ msgstr "Файл|заголовок столбца медиафайлов"
+
 #~ msgid "Date Added|media column header"
 #~ msgstr "Добавлен|заголовок столбца медиафайлов"
+
 #~ msgid ""
 #~ "You are about to delete the selected attachments.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить выделенные вложения.\n"
 #~ "  «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid "Required."
 #~ msgstr "Необходимо."
+
 #~ msgid "%1$s <span class=\"count\">(%2$s)</span>|user role with count"
 #~ msgstr ""
 #~ "%1$s <span class=\"count\">(%2$s)</span>|роль пользователя и количество"
+
 #~ msgid "Add Widget"
 #~ msgstr "Добавить виджет"
+
 #~ msgid "You are using %1$s widget in the \"%2$s\" sidebar."
+
 #~ msgid_plural "You are using %1$s widgets in the \"%2$s\" sidebar."
 #~ msgstr[0] "Вы используете %1$s виджет в боковой колонке &laquo;%2$s&raquo;."
 #~ msgstr[1] ""
 #~ "Вы используете %1$s виджета в боковой колонке &laquo;%2$s&raquo;."
 #~ msgstr[2] ""
 #~ "Вы используете %1$s виджетов в боковой колонке &laquo;%2$s&raquo;."
+
 #~ msgid "You are using %1$s widget in the sidebar."
+
 #~ msgid_plural "You are using %1$s widgets in the sidebar."
 #~ msgstr[0] "Вы используете %1$s виджет в боковой колонке."
 #~ msgstr[1] "Вы используете %1$s виджета в боковой колонке."
 #~ msgstr[2] "Вы используете %1$s виджетов в боковой колонке."
+
 #~ msgid "Show any widgets"
 #~ msgstr "Показать любые виджеты"
+
 #~ msgid "Show all widgets"
 #~ msgstr "Показать все виджеты"
+
 #~ msgid "Show unused widgets"
 #~ msgstr "Показать неиспользуемые виджеты"
+
 #~ msgid "Show used widgets"
 #~ msgstr "Показать используемые виджеты"
+
 #~ msgid "Current Widgets"
 #~ msgstr "Текущие виджеты"
+
 #~ msgid "Add more from the Available Widgets section."
 #~ msgstr "Добавить другие можно из блока &laquo;Доступные виджеты&raquo;."
+
 #~ msgid ""
 #~ "Also, since you're coming from DotClear, you probably have been using "
 #~ "Textile to format your comments and posts.  If this is the case, we "
@@ -18454,261 +18572,358 @@ msgstr "Указанная ссылка не найдена."
 #~ "скачать и установить плагин <a href=\"http://www.huddledmasses."
 #~ "org/2004/04/19/wordpress-plugin-textile-20/\">Textile для WordPress</a>.  "
 #~ "Поверьте&hellip; Вам понравится."
+
 #~ msgid "That's it! What are you waiting for? Go <a href=\"%1$s\">login</a>!"
 #~ msgstr "Вот и всё! Чего же вы ждёте? <a href=\"%1$s\">Заходите</a>!"
+
 #~ msgid ""
 #~ "Howdy! Upload your LiveJournal XML export file and we&#8217;ll import the "
 #~ "posts into this blog."
 #~ msgstr ""
 #~ "Привет! Загрузите файл экспорта XML LiveJournal и мы импортируем записи в "
 #~ "этот блог."
+
 #~ msgid ""
 #~ "Choose a LiveJournal XML file to upload, then click Upload file and "
 #~ "import."
 #~ msgstr ""
 #~ "Выберите XML-файл экспорта LiveJournal, затем нажмите &laquo;Загрузить и "
 #~ "импортировать&raquo;."
+
 #~ msgid "Connection to the server has timeout after %s seconds."
 #~ msgstr "Соединение с сервером потеряно спустя %s секунд."
+
 #~ msgid "Spam|verb"
 #~ msgstr "В&nbsp;спам|глагол"
+
 #~ msgid " on %4$s|feed_display"
 #~ msgstr " %4$s|отображение_ленты"
+
 #~ msgid ""
 #~ "The file exceeds the <code>upload_max_filesize</code> directive in "
 #~ "<code>php.ini</code>."
 #~ msgstr ""
 #~ "Размер файла превышает значение <code>upload_max_filesize</code>, "
 #~ "установленное в файле <code>php.ini</code>."
+
 #~ msgid ""
 #~ "The file exceeds the <em>MAX_FILE_SIZE</em> directive that was specified "
 #~ "in the HTML form."
 #~ msgstr ""
 #~ "Размер файла превышает значение <em>MAX_FILE_SIZE</em>, указанное в HTML-"
 #~ "форме."
+
 #~ msgid "The file was only partially uploaded."
 #~ msgstr "Файл был загружен неполностью."
+
 #~ msgid "No file was sent."
 #~ msgstr "Файл не был отправлен."
+
 #~ msgid "(Password not shown)"
 #~ msgstr "(Пароль не показан)"
+
 #~ msgid "Deactivate Site Wide"
 #~ msgstr "Деактивировать везде"
+
 #~ msgid "Edit your blog options on the <a href=\"%s\">My Blogs</a> page."
 #~ msgstr ""
 #~ "Настройки ваших блогов можно изменить на странице <a href=\"%s\">&laquo;"
 #~ "Мои блоги&raquo;</a>."
+
 #~ msgid "[need help?]"
 #~ msgstr "[требуется помощь?]"
+
 #~ msgid "No plugin Specified"
 #~ msgstr "Плагин не указан"
+
 #~ msgid "Successfully installed the plugin."
 #~ msgstr "Плагин успешно установлен."
+
 #~ msgid "Downloading plugin package from %s"
 #~ msgstr "Загрузка архива плагина с %s"
+
 #~ msgid "Editor|User role"
 #~ msgstr "Редактор|Роль пользователя"
+
 #~ msgid "Author|User role"
 #~ msgstr "Автор|Роль пользователя"
+
 #~ msgid "Subscriber|User role"
 #~ msgstr "Подписчик|Роль пользователя"
+
 #~ msgid ""
 #~ "You are about to delete this category '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить рубрику «%s»\n"
 #~ " «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid ""
 #~ "You are about to delete this tag '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Вы собираетесь удалить метку «%s»\n"
 #~ " «Отмена» — оставить, «OK» — удалить."
+
 #~ msgid "File|media column header"
 #~ msgstr "Файл|заголовок столбца медиафайлов"
+
 #~ msgid "Attached to|media column header"
 #~ msgstr "Используется|заголовок столбца медиафайлов"
+
 #~ msgid "Date|media column header"
 #~ msgstr "Дата|заголовок столбца медиафайлов"
+
 #~ msgid "rel"
 #~ msgstr "rel"
+
 #~ msgid ""
 #~ "&ndash;OR&ndash;|Between password field and private checkbox on post "
 #~ "quick edit interface"
 #~ msgstr ""
 #~ "&ndash;ИЛИ&ndash;|Между полем для пароля и галочкой «Личная» в свойствах "
 #~ "записи"
+
 #~ msgid "Preview \"%s\""
 #~ msgstr "Просмотреть &laquo;%s&raquo;"
+
 #~ msgid ""
 #~ "%1$s%2$s, %3$s @ %4$s : %5$s|1: month input, 2: day input, 3: year input, "
 #~ "4: hour input, 5: minute input"
 #~ msgstr ""
 #~ "%1$s%2$s, %3$s @ %4$s : %5$s|1: месяц, 2: день, 3: год, 4: часы, 5: минуты"
+
 #~ msgid "Get help with \"%s\""
 #~ msgstr "Помощь по странице &laquo;%s&raquo;"
+
 #~ msgid "Downloading update from %s"
 #~ msgstr "Загрузка обновления с %s"
+
 #~ msgid "Unpacking the core update"
 #~ msgstr "Распаковка обновления ядра"
+
 #~ msgid "Uncategorized|Default category slug"
 #~ msgstr "Uncategorized|Ярлык рубрики по умолчанию"
+
 #~ msgid "Blogroll|Default link category slug"
 #~ msgstr "Blogroll|Ярлык рублики по умолчанию для ссылок "
+
 #~ msgid "hello-world|Default post slug"
 #~ msgstr "hello-world|Ярлык первой записи"
+
 #~ msgid "about|Default page slug"
 #~ msgstr "about|Ярлык первой страницы"
+
 #~ msgid "No matching widgets"
 #~ msgstr "Подходящих виджетов не найдено"
+
 #~ msgid "%1$s: %2$s|1: widget name, 2: widget title"
 #~ msgstr "%1$s: %2$s|1: имя виджета, 2: заголовок виджета"
+
 #~ msgid ", |between list items"
 #~ msgstr ", |между элементами списка"
+
 #~ msgid ", and |between last two list items"
 #~ msgstr ", и |между двумя последними элементами списка"
+
 #~ msgid " and |between only two list items"
 #~ msgstr " и |между двумя единственными элементами списка"
+
 #~ msgid "%1$s %2$s|Used as a calendar caption"
 #~ msgstr "%1$s %2$s|Используется как заголовок календаря"
+
 #~ msgid ""
 #~ "number_format_decimals|$decimals argument for http://php.net/"
 #~ "number_format, default is 0"
 #~ msgstr ""
 #~ "number_format_decimals|аргумент $decimals функции http://php.net/"
 #~ "number_format, значение по умолчанию: 0"
+
 #~ msgid ""
 #~ "number_format_decimal_point|$dec_point argument for http://php.net/"
 #~ "number_format, default is ."
 #~ msgstr ""
 #~ "number_format_decimal_point|аргумент $dec_point функции http://php.net/"
 #~ "number_format, значение по умолчанию: ."
+
 #~ msgid ""
 #~ "number_format_thousands_sep|$thousands_sep argument for http://php.net/"
 #~ "number_format, default is ,"
 #~ msgstr ""
 #~ "number_format_thousands_sep|аргумент $thousands_sep функции http://php."
 #~ "net/number_format, значение по умолчанию: ,"
+
 #~ msgid "<strong>ERROR</strong>: Invalid username."
 #~ msgstr "<strong>ОШИБКА</strong>: Неверный логин."
+
 #~ msgid "<strong>ERROR</strong>: Incorrect password."
 #~ msgstr "<strong>ОШИБКА</strong>: Неверный пароль."
+
 #~ msgid "j F, Y @ G:i|revision date format"
 #~ msgstr "d.m.Y @ G:i|формат даты редакции"
+
 #~ msgid "%1$s by %2$s|post revision 1:datetime, 2:name"
 #~ msgstr "%1$s автора %2$s|редакция записи 1:дата и время, 2:имя"
+
 #~ msgid "Medium|password strength"
 #~ msgstr "Средний|надёжность пароля"
+
 #~ msgid ""
 #~ "Remember to click the \"Save Changes\" button at the bottom of the "
 #~ "Current Widgets column after you're all done!"
 #~ msgstr ""
 #~ "Когда закончите настройку, нажмите кнопку &laquo;Сохранить "
 #~ "изменения&raquo; в нижней части колонки текущих виджетов."
+
 #~ msgid "You're about to leave without having saved your changes!"
 #~ msgstr "Вы собираетесь выйти, не сохранив изменения!"
+
 #~ msgid "Error: could not find an RSS or ATOM feed at that URL."
 #~ msgstr "Ошибка: невозможно найти ни RSS, ни Atom-ленту для этого адреса."
+
 #~ msgid "Error in RSS %1$d"
 #~ msgstr "Ошибка в RSS %1$d"
+
 #~ msgid "0| Extra width for the media popup in pixels"
 #~ msgstr ""
 #~ "0| Дополнительная ширина всплывающего окна для медиафайла в пикселях"
+
 #~ msgid "0| Extra height for the media popup in pixels"
 #~ msgstr ""
 #~ "0| Дополнительная высота всплывающего окна для медиафайла в пикселях"
+
 #~ msgid "0| Extra width for the link popup in pixels"
 #~ msgstr "0| Дополнительная ширина всплывающего окна для ссылки в пикселях"
+
 #~ msgid "0| Extra height for the link popup in pixels"
 #~ msgstr "0| Дополнительная высота всплывающего окна для ссылки в пикселях"
+
 #~ msgid "0| Extra width for the image popup in pixels"
 #~ msgstr "0| Дополнительная ширина всплывающего окна для картинки в пикселях"
+
 #~ msgid "0| Extra height for the image popup in pixels"
 #~ msgstr "0| Дополнительная высота всплывающего окна для картинки в пикселях"
+
 #~ msgid "0| Extra width for the colorpicker popup in pixels"
 #~ msgstr ""
 #~ "0| Дополнительная ширина всплывающего окна для выбора цвета в пикселях"
+
 #~ msgid "0| Extra height for the colorpicker popup in pixels"
 #~ msgstr ""
 #~ "0| Дополнительная высота всплывающего окна для выбора цвета в пикселях"
+
 #~ msgid "Published <span class=\"count\">(%s)</span>|page"
+
 #~ msgid_plural "Published <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "Опубликованная <span class=\"count\">(%s)</span>|страница"
 #~ msgstr[1] "Опубликованные <span class=\"count\">(%s)</span>"
 #~ msgstr[2] "Опубликованные <span class=\"count\">(%s)</span>"
+
 #~ msgid "Scheduled <span class=\"count\">(%s)</span>|page"
+
 #~ msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "Запланированная <span class=\"count\">(%s)</span>|страница"
 #~ msgstr[1] "Запланированные <span class=\"count\">(%s)</span>"
 #~ msgstr[2] "Запланированные <span class=\"count\">(%s)</span>"
+
 #~ msgid "Draft <span class=\"count\">(%s)</span>|page"
+
 #~ msgid_plural "Drafts <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "Черновик <span class=\"count\">(%s)</span>|страница"
 #~ msgstr[1] "Черновики <span class=\"count\">(%s)</span>"
 #~ msgstr[2] "Черновики <span class=\"count\">(%s)</span>"
+
 #~ msgid "Private <span class=\"count\">(%s)</span>|page"
+
 #~ msgid_plural "Private <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "Личная <span class=\"count\">(%s)</span>|страница"
 #~ msgstr[1] "Личные <span class=\"count\">(%s)</span>"
 #~ msgstr[2] "Личные <span class=\"count\">(%s)</span>"
+
 #~ msgid "Tag slug"
 #~ msgstr "Ярлык метки"
+
 #~ msgid ""
 #~ "The &#8220;slug&#8221; is the URL-friendly version of the name. It is "
 #~ "usually all lowercase and contains only letters, numbers, and hyphens."
 #~ msgstr ""
 #~ "&laquo;Ярлык&raquo; &#8212; это вариант названия, подходящий для URL. "
 #~ "Обычно содержит только латинские буквы в нижнем регистре, цифры и дефисы."
+
 #~ msgid "siteurl and home will be modified too"
 #~ msgstr "ссылка и домашняя страница тоже будут изменены"
+
 #~ msgid "Enable"
 #~ msgstr "Разрешить"
+
 #~ msgid "Login"
 #~ msgstr "Войти"
+
 #~ msgid "Does not appear to be chunked encoded or body is malformed."
 #~ msgstr "Не похоже на блочную кодировку, либо тело повреждено."
+
 #~ msgid "WordPress Grey"
 #~ msgstr "Серый WordPress"
+
 #~ msgid "WordPress Blue"
 #~ msgstr "Синий WordPress"
+
 #~ msgid "WordPress Green"
 #~ msgstr "Зелёный WordPress"
+
 #~ msgid "WordPress Orange"
 #~ msgstr "Оранжевый WordPress"
+
 #~ msgid "WordPress Purple"
 #~ msgstr "Лиловый WordPress"
+
 #~ msgid "WordPress Red"
 #~ msgstr "Красный WordPress"
+
 #~ msgid "WordPress Yellow"
 #~ msgstr "Жёлтый WordPress"
+
 #~ msgid "WordPress Classic"
 #~ msgstr "Классический WordPress"
+
 #~ msgid "WordPress Admin Bar"
 #~ msgstr "Админ-панель WordPress"
+
 #~ msgid "Admin Bar"
 #~ msgstr "Админ-панель"
+
 #~ msgid "Everything here applies to your account only."
 #~ msgstr "Всё это относится только к вашей учётной записи."
+
 #~ msgid "Show the admin bar"
 #~ msgstr "Показать админ-панель"
+
 #~ msgid "On the site"
 #~ msgstr "На сайте"
+
 #~ msgid "In the admin area"
 #~ msgstr "В административной области"
+
 #~ msgid "Number of comments in the moderation queue"
 #~ msgstr "Количество комментариев в очереди модерации"
+
 #~ msgid "Number of plugins needing upgrading"
 #~ msgstr "Количество плагинов, нуждающихся в обновлении"
+
 #~ msgid "Total space available:"
 #~ msgstr "Всего доступно:"
+
 #~ msgid "Upload space used:"
 #~ msgstr "Использовано для загрузок:"
+
 #~ msgid "%1sMB (%2s%%)"
 #~ msgstr "%1sМБ (%2s%%)"
+
 #~ msgid "All my blogs"
 #~ msgstr "Все мои блоги"
+
 #~ msgid "Choose a blog: %s"
 #~ msgstr "Выберите блог: %s"
+
 #~ msgid "Go"
 #~ msgstr "Перейти"
-
