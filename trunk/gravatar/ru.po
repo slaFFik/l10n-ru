@@ -1,363 +1,440 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Translation of Gravatar in Russian
+# This file is distributed under the same license as the Gravatar package.
 msgid ""
 msgstr ""
-"Project-Id-Version: GRAvatar.com\n"
-"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-18 23:30+0000\n"
-"PO-Revision-Date: 2009-08-20 00:41+0300\n"
-"Last-Translator: Sol <salpagarov@gmail.com>\n"
-"Language-Team: l10n.ru <salpagarov@gmail.com>\n"
+"PO-Revision-Date: 2010-06-23 05:32+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Russian\n"
-"X-Poedit-Country: RUSSIAN FEDERATION\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Gravatar\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
+"Language-Team: \n"
 
-#: application.php:121
-msgid "Please specify an email address"
-msgstr "Пожалуйста, укажите emai-адрес"
+#: views/signup-form.php:2
+msgid "Signup to get your own gravatar"
+msgstr "Зарегистрируйтесь, чтобы создать свой Gravatar"
 
-#: application.php:125
-msgid "Please specify a password"
-msgstr "Пожалуйста, задайте пароль"
+#: views/pw-change-form.php:15
+msgid "New Password"
+msgstr "Новый пароль"
 
-#: application.php:131
-msgid "Incorrect email, username, or password, please try again"
-msgstr "Неверный адрес, имя пользователя или пароль, пожалуйста, попробуйте еще"
+#: views/pw-change-form.php:19
+msgid "Confirm New Password"
+msgstr "Подтвердите новый пароль"
 
-#: application.php:153
-#: nonce-functions.php:9
-msgid "That link is expired, invalid, or has already been used"
-msgstr "Ссылка устарела, неверна или уже была использована"
+#: views/pw-change-form.php:23
+msgid "Set Password"
+msgstr "Сменить"
 
-#: hyper-db.php:749
-msgid "<strong>ERROR</strong>: MySQL 4.0.0 is required"
-msgstr "<strong>ОШИБКА</strong>: требуется MySQL 4.0.0"
+#: views/profile-view.php:22
+msgid "Gravatar Profile"
+msgstr "Профиль Gravatar"
 
-#: profile-functions.php:29
-#: profile-functions.php:30
-#: profile-functions.php:31
-#: profile-functions.php:32
-#: profile-functions.php:33
-#: profile-functions.php:34
-#: profile-functions.php:35
-#, fuzzy
-msgid "about"
-msgstr "about"
+#: views/pw-change-form.php:7
+msgid "Change your password"
+msgstr "Смените ваш пароль"
 
-#: profile-functions.php:36
-#: profile-functions.php:37
-#: profile-functions.php:38
-#: profile-functions.php:39
-#: profile-functions.php:40
-#: profile-functions.php:41
-#: profile-functions.php:42
-#: profile-functions.php:43
-#: profile-functions.php:44
-#: profile-functions.php:45
-#, fuzzy
-msgid "contact"
-msgstr "знакомый"
+#: views/profile-editor.php:305
+msgid "Add Link"
+msgstr "Добавить ссылку"
 
-#: profile-functions.php:46
-#: profile-functions.php:47
-#: profile-functions.php:48
-#: profile-functions.php:49
-#: profile-functions.php:50
-msgid "profiles"
-msgstr "профили"
+#: views/profile-editor.php:298
+msgid "Delete this link from your profile"
+msgstr "Удалить ссылку из вашего профиля"
 
-#: profile-functions.php:57
-msgid "First Name"
-msgstr "Имя"
+#: views/profile-editor.php:305
+msgid "URL:"
+msgstr "URl:"
 
-#: profile-functions.php:58
-msgid "Last Name"
+#: views/profile-editor.php:305
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: views/profile-js.php:56
+msgid "View complete profile"
+msgstr "Посмотреть полный профиль:"
+
+#: views/profile-js.php:51
+msgid "Bio:"
+msgstr "Биография:"
+
+#: views/profile-editor.php:359
+msgid "Verify through Gravatar..."
+msgstr "Проверить через Gravatar..."
+
+#: views/profile-editor.php:313
+msgid "Verifying an external service helps people to confirm that you are in fact who you say you are. These will all be listed on your public profile."
+msgstr ""
+
+#: views/profile-editor.php:312
+msgid "Verified External Services"
+msgstr "Проверяемые внешние сервисы"
+
+#: views/profile-editor.php:223
+msgid "About you"
+msgstr "Про вас"
+
+#: views/profile-editor.php:213
+msgid "Display name publicly as"
+msgstr "Всем показывать как"
+
+#: views/profile-editor.php:208
+msgid "Full name"
+msgstr "Полное имя"
+
+#: views/profile-editor.php:203
+msgid "Last name"
 msgstr "Фамилия"
 
-#: profile-functions.php:59
-msgid "Middle Name"
-msgstr "Отчество (или второе имя)"
+#: views/profile-editor.php:291
+msgid "Links"
+msgstr "Ссылки"
 
-#: profile-functions.php:60
+#: views/profile-editor.php:283
+msgid "Add photo through Gravatar..."
+msgstr "Добавить фото через Gravatar"
+
+#: views/profile-editor.php:277
+msgid "Delete this image from your profile"
+msgstr "Удалить это изображение из вашего профиля"
+
+#: views/profile-editor.php:268
+msgid "Photos"
+msgstr "Фото"
+
+#: views/profile-editor.php:233
+msgid "Fill out any contact methods you would like to make available publicly."
+msgstr ""
+
+#: views/profile-editor.php:232
+msgid "Contacts"
+msgstr "Контакты"
+
+#: views/profile-edit.php:277
+msgid "Tile"
+msgstr "Мозаика"
+
+#: views/profile-editor.php:54
+msgid "Profile saved."
+msgstr "Профиль сохранен."
+
+#: views/profile-edit.php:284
+msgid "Save Background"
+msgstr "Сохранить информацию"
+
+#: views/profile-edit.php:279
+msgid "Tile Vertically"
+msgstr "Располагать вертикально"
+
+#: views/profile-edit.php:278
+msgid "Tile Horizontally"
+msgstr "Располагать горизонтально"
+
+#: views/profile-editor.php:198
+msgid "First name"
+msgstr "Имя"
+
+#: views/profile-editor.php:189
+msgid "These basic details just help people find out who (and where) you are. You cannot change your username."
+msgstr ""
+
+#: views/profile-editor.php:188
+msgid "Basic Details"
+msgstr "Основные подробности"
+
+#: views/profile-edit.php:276
+msgid "No repeat"
+msgstr "Не повторять"
+
+#: views/profile-editor.php:184
+#: views/profile-editor.php:263
+msgid "Update Profile"
+msgstr "Обновить профиль"
+
+#: views/profile-edit.php:243
+msgid "Make your profile feel a little more like home."
+msgstr ""
+
+#: views/profile-edit.php:167
+msgid "Identifier..."
+msgstr ""
+
+#: views/profile-edit.php:178
+msgid "Verify your other accounts to show it's really you."
+msgstr ""
+
+#: views/profile-edit.php:205
+msgid "Add..."
+msgstr "Добавить..."
+
+#: views/profile-edit.php:214
+msgid "Add links to your website and blogs, or any sites that help describe who you are."
+msgstr ""
+
+#: views/profile-edit.php:247
+msgid "Remove Current Background"
+msgstr "Удалить текущий фон"
+
+#: views/profile-edit.php:242
+msgid "Background"
+msgstr "Фон"
+
+#: views/profile-edit.php:258
+msgid "Color"
+msgstr "Цвет"
+
+#: views/profile-edit.php:265
+msgid "Image Position"
+msgstr "Расположение изображения"
+
+#: views/profile-edit.php:273
+msgid "Image Repeat"
+msgstr "Повтор изображения"
+
+#: views/profile-edit.php:250
+msgid "Upload New Background Image..."
+msgstr ""
+
+#: views/profile-edit.php:68
+msgid "Full Name"
+msgstr "Полное имя"
+
+#: views/profile-edit.php:74
 msgid "Display Name"
 msgstr "Отображаемое имя"
 
-#: profile-functions.php:61
-msgid "Contact Email"
-msgstr "Контактный email"
-
-#: profile-functions.php:62
-msgid "Contact Phone"
-msgstr "Контактный телефон"
-
-#: profile-functions.php:63
-msgid "Gender"
-msgstr "Пол"
-
-#: profile-functions.php:64
-msgid "Marital Status"
-msgstr "Семейный статус"
-
-#: profile-functions.php:65
-msgid "Website URL"
-msgstr "Ссылка на сайт"
-
-#: profile-functions.php:66
-msgid "Blog URL"
-msgstr "Ссылка на блог"
-
-#: profile-functions.php:67
-msgid "ICQ UIN"
-msgstr "Номер ICQ"
-
-#: profile-functions.php:68
-msgid "MSN Screen Name"
-msgstr "Отображаемое имя MSN"
-
-#: profile-functions.php:69
-msgid "AIM Screen Name"
-msgstr "Отображаемое имя AIM"
-
-#: profile-functions.php:70
-msgid "Yahoo Screen Name"
-msgstr "Отображаемое имя Yahoo"
-
-#: profile-functions.php:71
-msgid "Jabber Screen Name"
-msgstr "Отображаемое имя Jabber"
-
-#: profile-functions.php:72
-msgid "Gtalk Screen Name"
-msgstr "Отображаемое имя Gtalk"
-
-#: profile-functions.php:73
-msgid "Autobiography"
-msgstr "Автобиография"
-
-#: profile-functions.php:74
-msgid "Twitter Profile"
-msgstr "Twitter профиль"
-
-#: profile-functions.php:75
-msgid "Linkedin Profile"
-msgstr "Linkedin профиль"
-
-#: profile-functions.php:76
-msgid "FriendFeed Profile"
-msgstr "FriendFeed профиль"
-
-#: profile-functions.php:77
-msgid "Myspace Profile"
-msgstr "Myspace профиль"
-
-#: profile-functions.php:78
-msgid "Facebook profile"
-msgstr "Facebook профиль"
-
-#: switch-accounts.php:96
-msgid "Please choose a username"
-msgstr "Пожалуйста, выберите имя пользователя"
-
-#: switch-accounts.php:141
-msgid "Please enter a username"
-msgstr "Пожалуйста, введите имя пользователя"
-
-#: switch-accounts.php:146
-msgid "Please enter a password"
-msgstr "Пожалуйста, введите пароль"
-
-#: switch-accounts.php:151
-msgid "Please confirm your password"
-msgstr "Пожалуйста, подтвердите пароль"
-
-#: switch-accounts.php:156
-msgid "The passwords entered do not match"
-msgstr "Введенные пароли не совпадают"
-
-#: switch-accounts.php:204
-msgid "Please specify an email address for the account"
+#: views/profile-edit.php:76
+msgid "Displayed on your profile and in other places as your name."
 msgstr ""
 
-#: switch-accounts.php:215
-msgid "No account found for that address, perhaps you would like to <a href=\"/site/signup\">sign up for one</a>?"
+#: views/profile-edit.php:80
+#: views/profile-editor.php:218
+msgid "Location"
+msgstr "Местоположение"
+
+#: views/profile-edit.php:114
+msgid "Add New Image..."
+msgstr "Добавить новое изображение..."
+
+#: views/profile-edit.php:93
+msgid "Save Profile"
+msgstr "Сохранить профиль"
+
+#: views/profile-edit.php:82
+msgid "Where in the world are you?"
+msgstr "Откуда вы?"
+
+#: views/profile-edit.php:122
+msgid "Ways people can get in touch with you."
 msgstr ""
 
-#: switch-accounts.php:232
-msgid "This link is invalid, has already been used, or has expired, please request a new one."
+#: views/profile-edit.php:102
+msgid "Upload as many photos as you'd like to show on your profile, or <a href=\"%s\">edit your Gravatars</a>."
 msgstr ""
 
-#: switch-accounts.php:274
-msgid "Whoops, looks like one of the two passwords was mistyped. Please try again."
+#: views/profile-edit.php:64
+#: views/profile-edit.php:70
+msgid "Available publicly, but not shown on your profile."
 msgstr ""
 
-#: switch-accounts.php:278
-msgid "Please make your password at least 4 characters long"
-msgstr "Пожалуйста, сделайте пароль как минимум из 4 символов"
-
-#: switch-gravatars.php:13
-msgid "Please upload an image in one of the supported formats (a jpeg, gif, png, bmp, or svg file)"
+#: views/profile-edit.php:89
+msgid "Tell people a little about yourself."
 msgstr ""
 
-#: switch-gravatars.php:25
-msgid "Please submit a url, which would look something like <strong>http://somewhere.com/some/image.jpg</strong>"
+#: views/profile-edit.php:46
+#: views/profile-edit.php:121
+msgid "Contact Information"
 msgstr ""
 
-#: switch-gravatars.php:119
-#: switch-gravatars.php:124
-msgid "Fetching your WordPress.com avatar failed.  This usually means one does not exist."
+#: views/profile-edit.php:18
+msgid "View Profile"
 msgstr ""
 
-#: switch-gravatars.php:120
-#: switch-gravatars.php:125
-msgid "Please try uploading an image through other means."
+#: views/profile-edit.php:45
+#: views/profile-edit.php:101
+msgid "Your Images"
 msgstr ""
 
-#: switch-site.php:7
-msgid "Thank you for your report! We will review this information shortly."
+#: views/profile-edit.php:44
+#: views/profile-edit.php:54
+#: views/profile-edit.php:86
+msgid "About You"
+msgstr "Про вас"
+
+#: views/profile-edit.php:49
+msgid "Custom Background"
 msgstr ""
 
-#: views/about.php:3
-msgid "Claim your Identity"
-msgstr "Получите свое удостоверения личности"
+#: views/profile-edit.php:55
+msgid "Tell people a little bit about who you are."
+msgstr "Расскажите миру немного о том, кто вы."
 
-#: views/about.php:6
-msgid "The web is no longer about anonymous content generated by faceless corporations. It is about real people and the real content that they provide."
+#: views/profile-edit.php:58
+msgid "First/Last Names"
 msgstr ""
 
-#: views/about.php:9
-msgid "It is about you."
-msgstr "Это про вас."
+#: views/profile-edit.php:47
+#: views/profile-edit.php:177
+#: views/profile-view.php:81
+msgid "Verified Services"
+msgstr "Проверенные сервисы"
 
-#: views/about.php:12
-msgid "But as powerful as the web has become, it still lacks the personal touch that comes from a handshake. The vast majority of content you come across on the web will still be near-anonymous even though it may have a name attached. Without knowing the author behind the words, the words cannot be trusted. This is where Gravatar comes in."
+#: views/profile-edit.php:48
+#: views/profile-edit.php:213
+msgid "Your Links"
 msgstr ""
 
-#: views/about.php:15
-msgid "Gravatar aims to put a face behind the name. This is the beginning of trust. In the future, Gravatar will be a way to establish trust between producers and consumers on the internet. It will be the next best thing to meeting in person."
+#: views/login-form.php:8
+msgid "Email or Username"
+msgstr "Email или логин"
+
+#: views/login-form.php:16
+msgid "Login"
+msgstr "Войти"
+
+#: views/login-form.php:2
+msgid "Log in to your gravatar account"
 msgstr ""
 
-#: views/about.php:18
-msgid "Today, an avatar. Tomorrow, Your Identity-Online."
-msgstr "Сегодня - аватар. Завтра - ваше сетевое удостоверение личности."
-
-#: views/abuse-sent.php:2
-msgid ""
-"<div><h3>Abuse Report Sent</h3>\n"
-"\t<p>Thank you for your feedback. We take our rating system seriously and will investigate the offending material as soon as possible.</p>\n"
-"\t</div>"
+#: views/landing-wpcom.php:29
+msgid "Give us a link to a picture online to use"
 msgstr ""
 
-#: views/abuse.php:1
-msgid "Report inappropriate content"
-msgstr "Сообщить о несоотвествующем содержании"
+#: views/landing-wpcom.php:24
+msgid "Change your Gravatar / Avatar"
+msgstr "Смените свой Граватар / Аватар"
 
-#: views/abuse.php:3
-msgid "If you have seen a gravatar or profile that is inappropriate for its rating, please report it here and we will take the necessary steps to resolve the situation."
+#: views/landing-wpcom.php:28
+msgid "Use your webcam to take a snapshot of yourself"
 msgstr ""
 
-#: views/abuse.php:6
-msgid "Please post the url of the offending gravatar image or profile page."
-msgstr ""
+#: views/landing-wpcom.php:27
+msgid "Upload a new image from your computer"
+msgstr "Загрузить новое изображение с вашего компьютера"
 
-#: views/abuse.php:10
-#, fuzzy
-msgid "Offending URL"
-msgstr "Адрес блога (URL)"
+#: views/landing-wpcom.php:22
+msgid "Upload your Gravatar / Avatar now!"
+msgstr "Загрузите ваш Gravatar / Avatar сейчас!"
 
-#: views/abuse.php:16
-msgid "Explanation"
-msgstr ""
+#: views/landing-wpcom.php:16
+msgid "Your Gravatar"
+msgstr "Ваш Граватар"
 
-#: views/abuse.php:22
-msgid "Submit"
-msgstr "Отправить"
+#: views/landing-wpcom.php:14
+msgid "Upload now!"
+msgstr "Загрузить сейчас!"
 
-#: views/abuse.php:23
-#: views/confirm-removal-form.php:7
-#: views/image-fetch-form.php:13
-#: views/image-upload-form.php:13
-#: views/image-use-existing.php:22
-#: views/oauth-register-consumer.php:7
-#: views/oauth-register-consumer.php:22
-msgid "or"
-msgstr "или"
+#: views/image-profile-form.php:9
+#: views/image-upload-form.php:8
+msgid "File"
+msgstr "Файл"
 
-#: views/abuse.php:24
-#: views/application-footer.php:43
-#: views/confirm-removal-form.php:8
-#: views/image-fetch-form.php:15
-#: views/image-fetch-form.php:17
-#: views/image-upload-form.php:15
-#: views/image-upload-form.php:17
 #: views/image-use-existing.php:23
-#: views/image-webcam-upload.php:18
-#: views/image-webcam-upload.php:20
-msgid "Cancel"
-msgstr "Отмена"
-
-#: views/add-email-form.php:1
-msgid "Add an email to this account"
-msgstr "Добавить email-адрес в этот аккаунт"
-
-#: views/add-email-form.php:3
-msgid ""
-"All we need is your email address! You will receive a confirmation \n"
-"\t\temail including a link that will activate this email address on your account."
+msgid "Continue to the cropper"
 msgstr ""
-"Все, что нам нужно это ваш email адрес! Вы получите подтверждающее \n"
-"\t\tписьмо со ссылкой, которая активирует этот email в вашей учетной записи."
 
-#: views/add-email-form.php:9
-#: views/create-account-form.php:16
-#: views/signup-form.php:15
-msgid "Email"
-msgstr "Адрес Email"
+#: views/image-webcam-upload.php:2
+msgid "Take a photo with your webcam"
+msgstr "Сделайте фото вашей веб-камерой"
 
-#: views/add-image-start.php:2
-msgid "Choose where you'd like to get the image from"
-msgstr "Выберите, откуда загрузить изображение"
+#: views/image-profile-form.php:3
+#: views/image-upload-form.php:3
+msgid "You can upload any size image file from your hard drive."
+msgstr "Вы можете загрузить изображение любого размера с вашего жесткого диска."
 
-#: views/add-image-start.php:5
-msgid "My computer's hard drive"
-msgstr "С жесткого диска моего компьютера"
+#: views/image-use-existing.php:59
+msgid "Use this image"
+msgstr "Использовать это"
 
-#: views/add-image-start.php:9
-msgid "An image on the internet"
-msgstr "Изображение из интернета"
+#: views/image-use-existing.php:1
+msgid "Use an existing photo"
+msgstr ""
 
-#: views/add-image-start.php:13
-msgid "A webcam attached to your computer"
-msgstr "С веб-камеры, подключеной к моему компьютеру"
+#: views/image-fetch-form.php:4
+#: views/image-upload-form.php:4
+msgid "You will have a chance to crop this image in the next step."
+msgstr "Вы сможете обрезать это изображение на следующем шаге."
 
-#: views/add-image-start.php:18
-msgid "A previously uploaded image"
-msgstr "Ранее загруженное изображение"
+#: views/image-fetch-form.php:2
+msgid "Enter the URL of the image on the internet"
+msgstr "Введите URL изображения в интернете"
 
-#: views/admin-bar.php:7
-msgid "My Account"
-msgstr "Мой аккаунт"
+#: views/form-choose-ids-for-userimage.php:28
+msgid "Use for selected addresses"
+msgstr "Использовать для выбранных адресов"
 
-#: views/admin-bar.php:9
-msgid "Manage"
-msgstr "Управление"
+#: views/image-profile-form.php:2
+#: views/image-upload-form.php:2
+msgid "Select a file from your computer"
+msgstr ""
 
-#: views/admin-bar.php:12
-msgid "My Profile"
-msgstr "Мой профиль"
+#: views/forgot-password-form.php:8
+msgid "Email or username"
+msgstr "Email или логин"
 
-#: views/admin-bar.php:15
-msgid "Add an Email Address"
-msgstr "Добавить email-адрес"
+#: views/image-fetch-form.php:12
+#: views/image-upload-form.php:12
+msgid "Next"
+msgstr "Дальше"
 
-#: views/admin-bar.php:16
-msgid "Add an Image"
-msgstr "Добавить изображение"
+#: views/image-fetch-form.php:8
+msgid "URL"
+msgstr "URL"
+
+#: views/forgot-password-form.php:2
+msgid "Reset your password"
+msgstr "Сбросьте ваш пароль"
+
+#: views/emails.php:47
+msgid "Check this gravatar"
+msgstr "Проверить"
+
+#: views/emails.php:58
+msgid "Make Primary"
+msgstr "Сделать главным"
+
+#: views/emails.php:57
+msgid "Delete this email address"
+msgstr "Удалить этот адрес e-mail"
+
+#: views/emails.php:25
+msgid "Manage Gravatars"
+msgstr ""
+
+#: views/create-account-form.php:35
+msgid "Your Username will be permanent, choose wisely."
+msgstr "Имя выбирается один раз, будьте внимательны."
+
+#: views/create-account-form.php:38
+#: views/index.php:123
+#: views/login-form.php:12
+msgid "Password"
+msgstr "Пароль"
+
+#: views/create-account-form.php:42
+msgid "Password (again)"
+msgstr "Пароль (еще раз)"
+
+#: views/cropper.php:2
+msgid "Crop your photo using the dotted box below"
+msgstr ""
+
+#: views/cropper.php:23
+msgid "Crop and Finish!"
+msgstr "Завершить!"
+
+#: views/choose-login-form.php:18
+msgid "Your username will be permanent, choose wisely."
+msgstr "Имя выбирается один раз. Его нельзя будет изменить. Используйте только латинские буквы. "
+
+#: views/admin-bar.php:60
+#: views/index.php:135
+#: views/index.php:143
+msgid "Developer Resources"
+msgstr "Ресурсы для разработчиков"
 
 #: views/admin-bar.php:17
 msgid "Change Password"
@@ -367,460 +444,1005 @@ msgstr "Сменить пароль"
 msgid "Log Out"
 msgstr "Выйти"
 
-#: views/admin-bar.php:22
-msgid "Howdy"
-msgstr "Привет"
+#: views/admin-bar.php:47
+msgid "Log in / Sign up"
+msgstr ""
 
-#: views/admin-bar.php:22
-msgid "Hey there"
-msgstr "Эй"
-
-#: views/admin-bar.php:22
-msgid "Hello"
-msgstr "Привет"
-
-#: views/admin-bar.php:22
-msgid "Greetings"
-msgstr "Здравствуйте"
-
-#: views/admin-bar.php:57
-msgid "Log in to, or Sign up for, Gravatar"
-msgstr "Войдите или зарегистрируйтесь"
-
-#: views/admin-bar.php:61
+#: views/admin-bar.php:49
+#: views/index.php:126
 msgid "Log In"
 msgstr "Войти"
 
-#: views/admin-bar.php:62
+#: views/admin-bar.php:50
 msgid "Sign Up"
 msgstr "Зарегистрироваться"
 
-#: views/admin-bar.php:63
+#: views/admin-bar.php:51
 msgid "Reset Your Password"
 msgstr "Сбросить ваш пароль"
 
-#: views/admin-bar.php:69
-msgid "Help"
-msgstr "Помощь"
+#: views/admin-bar.php:15
+msgid "Add an Email Address"
+msgstr "Добавить email-адрес"
 
-#: views/admin-bar.php:71
-msgid "About Gravatar"
-msgstr "О Граватарах"
+#: views/admin-bar.php:16
+msgid "Add an Image"
+msgstr "Добавить изображение"
 
-#: views/admin-bar.php:72
-#: views/index.php:123
-msgid "Common Questions"
-msgstr "Общие вопросы"
+#: views/add-image-start.php:6
+msgid "A webcam attached to your computer"
+msgstr "С подключенной веб-камеры"
 
-#: views/admin-bar.php:73
-#: views/index.php:124
+#: views/add-image-start.php:5
+msgid "An image on the internet"
+msgstr "Изображение из интернета"
+
+#: views/admin-bar.php:13
+msgid "Edit My Profile"
+msgstr "Редактировать мой профиль"
+
+#: views/admin-bar.php:11
+#: views/verification-sent.php:11
+msgid "Manage My Gravatars"
+msgstr "Мои Граватары"
+
+#: views/admin-bar.php:7
+msgid "Go to your Profile"
+msgstr ""
+
+#: views/add-image-start.php:7
+msgid "A previously uploaded image"
+msgstr "Ранее загруженное изображение"
+
+#: views/add-email-form.php:2
+msgid "Add an email to this account"
+msgstr "Добавить email-адрес в этот аккаунт"
+
+#: views/add-email-form.php:10
+#: views/profile-edit.php:169
+#: views/profile-edit.php:234
+msgid "Add"
+msgstr "Добавить"
+
+#: views/add-email-form.php:6
+#: views/create-account-form.php:16
+#: views/signup-form.php:8
+msgid "Email"
+msgstr "Адрес Email"
+
+#: views/add-image-start.php:4
+msgid "My computer's hard drive"
+msgstr "С жесткого диска моего компьютера"
+
+#: switch-profile-request.php:114
+msgid "Password:"
+msgstr ""
+
+#: switch-profile-request.php:109
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: switch-profile-request.php:120
+#: views/abuse.php:17
+#: views/confirm-removal-form.php:8
+#: views/footer-data.php:33
+#: views/image-fetch-form.php:14
+#: views/image-fetch-form.php:16
+#: views/image-profile-form.php:14
+#: views/image-upload-form.php:14
+#: views/image-upload-form.php:16
+#: views/image-use-existing.php:24
+#: views/image-webcam-upload.php:20
+#: views/image-webcam-upload.php:22
+msgid "Cancel"
+msgstr "Отмена"
+
+#: switch-profile-request.php:119
+msgid "Verify"
+msgstr ""
+
+#: switch-accounts.php:99
+msgid "Please choose a username"
+msgstr "Пожалуйста, выберите имя"
+
+#: switch-accounts.php:143
+msgid "Please enter a username"
+msgstr "Пожалуйста введите имя"
+
+#: switch-accounts.php:148
+msgid "Please enter a password"
+msgstr "Пожалуйста, введите пароль"
+
+#: views/verification-sent.php:5
+msgid "In the email you'll find a link that when clicked on will bring you back to the site so you can set your password and create your gravatar."
+msgstr ""
+
+#: views/privacy.php:12
+msgid "We take your privacy seriously. If you have any questions regarding our policy, email us at %s."
+msgstr ""
+
+#: views/verification-sent.php:8
+msgid "If for some reason you do not receive the activation email within 24 hours, contact us at %s, and we'll do our best to get you back on track."
+msgstr ""
+
+#: views/profile-editor.php:269
+msgid "Upload as many photos as you'd like and they will appear on your profile. <strong>Click an image to delete it from your profile.</strong>"
+msgstr ""
+
+#: views/landing-wpcom.php:30
+msgid "Use your last WordPress.com Avatar (if you had one)"
+msgstr ""
+
+#: views/logged-error-notice.php:3
+msgid "For now, feel free to go <a href=\"/\">back to using gravatar</a>, or if you want to send us some information on what you were doing, or trying to do when you got this error message you are encouraged to fill out the form below"
+msgstr ""
+
+#: switch-accounts.php:28
+msgid "The email address <strong>%s</strong> already belongs to an account in our system.<br />The current gravatar associated with it is <img src=\"%s\" alt=\"\" border=\"0\" align=\"absmiddle\" /><br />Please <a href=\"/site/faq/#answer-1-0\">read this</a> if you don't remember creating an account."
+msgstr ""
+
+#: views/cropper.php:25
+msgid "Click here for details"
+msgstr ""
+
+#: views/check.php:30
+msgid "Email Hash"
+msgstr ""
+
+#: views/check.php:68
+msgid "Invalidate Cache"
+msgstr ""
+
+#: views/create-account-form.php:69
+msgid "%s is not available"
+msgstr ""
+
+#: views/create-account-form.php:73
+msgid "%s is available"
+msgstr ""
+
+#: views/emails.php:26
+msgid "Select an email address (below) to modify or <a href=\"/emails/new\">add a new email</a>"
+msgstr ""
+
+#: views/verification-sent.php:4
+msgid "We've sent you an activation email"
+msgstr "Вам отправлено письмо для активации вашего аккаунта"
+
+#: views/translate.php:38
+msgid "last updated: <strong>%s</strong>"
+msgstr ""
+
+#: views/translate.php:18
+msgid "Suport gravatar by making it accessible in other languages!"
+msgstr "Сделайте Gravatar доступным на других языках!"
+
+#: views/translate.php:36
+msgid "File Size: <strong>%s</strong> bytes"
+msgstr ""
+
+#: views/troublemail.php:2
+msgid "Important"
+msgstr "Важно"
+
+#: views/troublemail.php:4
+msgid "Please <em>add donotreply@gravatar.com to your contacts</em> for %s and THEN click OK to continue"
+msgstr ""
+
+#: views/translate.php:45
+msgid ""
+"If you are interested in helping translate Gravatar.com into your language, \n"
+"\tplease feel free to check back here regularly for updates to the english\n"
+"\tlanguage file.  Send in updated (lang).pot files to support at gravatar dot \n"
+"\tcom.  Also feel free to make comments and suggestions, as this process is\n"
+"\tevolving all the time (and so is the web site...)"
+msgstr ""
+
+#: views/translate.php:43
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: views/translate.php:54
+msgid ""
+"If you are unsure what to do with the language file, or how to translate it\n"
+"\tthere is <a href=\"%s\" target=\"_BLANK\">a good, free, cross\n"
+"\tplatform editor called poedit</a> and wikipedia has a good, short, overview\n"
+"\tof <a href=\"%s\" target=\"_BLANK\">how \n"
+"\ttranslating works in a program</a>. Also, be sure to join the <a href=\"%s\">mailing list</a> for updates on when these files change, and anything else related to translating Gravatar.com!"
+msgstr ""
+
+#: views/translate.php:52
+msgid "What now?"
+msgstr "Что дальше?"
+
+#: views/verification-sent.php:2
+msgid "Confirmation email sent!"
+msgstr "Отправлено письмо для подтверждения!"
+
+#: views/troublemail.php:8
+msgid "OK - support@gravatar.com is in my contacts"
+msgstr "ОК - адрес support@gravatar.com есть в моих контактах"
+
+#: views/tos.php:8
+msgid "The Gravatar Terms govern the terms and conditions under which you may use the website located at www.gravatar.com and related services by Automattic, including without limitation, the user accounts, profiles, avatars, technology, and other content and materials offered on or through that website (collectively, “Services”, and each of which shall be deemed a “Website” for purposes of the Terms of Service (defined below)).  The Gravatar Terms supplement the Terms of Service located at http://wordpress.com/tos/ (the “Terms of Service”), including without limitation, the Responsibilities of Website Visitors, all warranty disclaimers, limitations of liability, and dispute resolution provisions therein, which shall apply to the subject matter of th ese Gravatar Terms, and which are incorporated herein by this reference.  If there is any conflict between the Gravatar Terms and the Terms of Service, the Gravatar Terms will govern.  All capitalized terms that are not defined herein have the meaning specified in the Terms of Service."
+msgstr ""
+
+#: views/tos.php:16
+msgid "1. <strong>User Submissions.</strong> The Services may provide you with the ability to create, upload, distribute or post (“Submit(ting)”) data, photographs, avatars, software, graphics, profile and other information to the Services (collectively, the “User Submissions”).  By Submitting User Submissions, you acknowledge that you are publishing that User Submission, and that you may be identified publicly by your avatar and other User Submissions (e.g., in connection with your blogs, comments and/or email address) by Automattic, third party Gravatar-enabled websites (as that term in defined below), and others.  More specifically, you hereby do and shall grant to Automattic a worldwide, perpetual, irrevocable, royalty-free and fully-paid, transferable (including rights to sublicense) right to perform the Services (e.g., to use, modify, reproduce, distribute, prepare derivative works of, display, perform, and otherwise fully exercise and exploit all intellectual property, publicity, and moral rights with respect to any User Submissions, and to allow others to do so)."
+msgstr ""
+
+#: views/tos.php:12
+msgid "Automattic may update the Gravatar Terms from time to time.  Your continued use of the Services following notification of such updates constitutes your acceptance of those changes."
+msgstr ""
+
+#: views/rating.php:46
+msgid "Rated X"
+msgstr ""
+
+#: views/rating.php:47
+msgid "X rated gravatars may contain hardcore sexual imagery or extremely disturbing violence."
+msgstr "Граватары с рейтингом X могут содержать откровенные сексуальные изображения или сцены экстремальной жестокости."
+
+#: views/signup-form.php:3
+msgid ""
+"All we need is your email address! You will receive a \n"
+"\t\t\t\t\t\tconfirmation email including a link that will activate \n"
+"\t\t\t\t\t\tyour account and allow you to set your password."
+msgstr ""
+
+#: views/tos.php:1
+msgid "Gravatar Terms of Use"
+msgstr ""
+
+#: views/tos.php:4
+msgid "PLEASE READ THESE GRAVATAR TERMS OF USE (“GRAVATAR TERMS”) CAREFULLY BEFORE ACCESSING OR USING ANY PART OF THE SERVICES OR WEBSITE.  BY USING THE SERVICES OR WEBSITE IN ANY MANNER, YOU AGREE THAT YOU HAVE READ AND AGREE TO BECOME BOUND BY THE GRAVATAR TERMS.  IF THE GRAVATAR TERMS ARE CONSIDERED AN OFFER, ACCEPTANCE IS EXPRESSLY LIMITED TO SUCH TERMS.  IF YOU DO NOT UNCONDITIONALLY AGREE TO ALL THE TERMS AND CONDITIONS OF THE GRAVATAR TERMS, YOU HAVE NO RIGHT TO USE ANY PORTION OF THE SERVICES OR WEBSITE."
+msgstr ""
+
+#: views/tos.php:24
+msgid "2. <strong>Use of the Services by Third Party Websites.</strong>  Third party websites may enable the use of the Services on their respective websites as expressly authorized by Automattic (e.g., API calls into Gravatar: http://en.gravatar.com/site/implement); provided that they (i) do not copy, store or modify User Submissions; (ii) do not distribute, display, perform, use or otherwise exercise or exploit any User Submission or other user information for any purpose other than as necessary to perform the Services for the applicable user; (iii) have a privacy policy in effect and posted on such website that complies with all applicable laws and regulations and that notifies such user that it will only use personally identifiable information as set forth in (ii) above; and (iv) agree to be bound by and comply with all the terms, conditions, and limitations set forth in the Terms of Service (“Gravatar-enabled website”)."
+msgstr ""
+
+#: views/tos.php:20
+msgid "By Submitting, you agree to be solely responsible for the User Submissions and release Automattic from any liability related to your use of the Services.  You warrant, represent and agree that you will not Submit any User Submissions or otherwise use the Services in a manner that (i) infringes the intellectual property or proprietary rights, or rights of publicity or privacy, of any third party; (ii) violates any law, statute, ordinance or regulation; or (iii) is harmful, threatening, abusive, harassing, tortuous, defamatory, vulgar, obscene, libelous, or otherwise objectionable.  You understand that Automattic shall not be responsible or liable for controlling or editing any User Submission, for any errors or omissions in any User Submission, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any User Submission; nor can Automattic ensure prompt removal of inappropriate or unlawful content or guarantee the identity of any other users or websites with whom you may interact in the course of using the Services."
+msgstr ""
+
+#: views/rating.php:42
+msgid "R rated gravatars may contain such things as harsh profanity, intense violence, nudity, or hard drug use."
+msgstr "Граватары с рейтингом R могут быть оскорбительными, содержать сцены жестокости, обнаженные тела или связанные с наркотиками."
+
+#: views/rating.php:19
+msgid "Choose a rating for your Gravatar"
+msgstr "Выберите категорию для вашего граватара"
+
+#: views/rating.php:21
+msgid "By clicking on one of these ratings"
+msgstr "Нажатием на одну из этих иконок"
+
+#: views/rating.php:31
+msgid "Rated G"
+msgstr ""
+
+#: views/rating.php:32
+msgid "A G rated gravatar is suitable for display on all websites with any audience type."
+msgstr "Граватары с ретингом G пригодны для показа на сайтах с любой аудиторией."
+
+#: views/rating.php:41
+msgid "Rated R"
+msgstr ""
+
+#: views/rating.php:37
+msgid "PG rated gravatars may contain rude gestures, provocatively dressed individuals, the lesser swear words, or mild violence."
+msgstr "Граватары с рейтингом PG могут содержать неприличные жесты, провокационно одетых людей, грубые выражения или умеренную жестокость."
+
+#: views/rating.php:36
+msgid "Rated PG"
+msgstr ""
+
+#: views/pw-change-form.php:3
+msgid "Now that your account is active, you'll need to set a password."
+msgstr "Сейчас ваш аккаунт активирован и вам надо задать пароль."
+
+#: views/pw-change-form.php:2
+msgid "Your account has been activated!"
+msgstr "Ваш аккаунт активирован!"
+
+#: views/profile-view.php:149
+msgid "Link to this profile: %s"
+msgstr ""
+
+#: views/profile-view.php:35
+msgid "Contact Details"
+msgstr ""
+
+#: views/profile-notpublic.php:5
+msgid "Perhaps you'd like to <a href=\"/site/login/\">log in</a> or <a href=\"/site/signup/\">sign up for an account</a>?"
+msgstr ""
+
+#: views/profile-notpublic.php:3
+msgid "You can <a href=\"/%s\">view your own profile</a> though."
+msgstr ""
+
+#: views/profile-notpublic.php:1
+msgid "We&#8217;re sorry, that profile is not public."
+msgstr ""
+
+#: views/profile-nonexistant.php:4
+msgid "If this is you, please feel free to <a href=\"/site/signup/\">sign up for an account</a>"
+msgstr ""
+
+#: views/pw-change-form.php:4
+#: views/pw-change-form.php:8
+msgid "Make sure it's something easy to remember, but difficult for others to guess. Try to include both letters and numbers or punctuation."
+msgstr ""
+
+#: views/pw-change-form.php:9
+msgid "Since every Gravatar.com account is also a WordPress.com account, please remember that changing your password here will also change your password there."
+msgstr ""
+
+#: views/profile-editor.php:292
+msgid "You can add links to any website you like here and they will be included on your profile."
+msgstr ""
+
+#: views/profile-nonexistant.php:2
+msgid "We&#8217;re sorry, that user does not exist."
+msgstr ""
+
+#: views/profile-editor.php:57
+msgid "Profile update failed. Please reload and try again."
+msgstr ""
+
+#: views/profile-edit.php:33
+msgid "The username was not available."
+msgstr ""
+
+#: views/login-form.php:17
+msgid "Forgot your password?"
+msgstr "Забыли пароль?"
+
+#: views/oauth-register-consumer.php:6
+#: views/oauth-register-consumer.php:21
+msgid "Go back to your account"
+msgstr "Назад в аккаунт"
+
+#: views/privacy.php:9
+msgid "The way gravatar requests are structured, your email address is encrypted before transmission. Your email address cannot be harvested from gravatar enabled sites due to gravatar requests."
+msgstr "В запросах для получения граватара ваш email-адрес предварительно шифруется и не может быть извлечен из них."
+
+#: views/privacy.php:6
+msgid "Gravatar.com collects your email address as part of the gravatar service. We will never rent, sell, or otherwise distribute or make public your email address. We hate spam as much as you do."
+msgstr "Gravatar.com хранит ваш email-адрес. Мы не передаем, не продаем и не распространяем ваши email. Мы, как и вы, терпеть не можем спам."
+
+#: views/privacy.php:3
+msgid "Privacy"
+msgstr "Privacy"
+
+#: views/oauth-register-consumer.php:24
+msgid "Get a new secret"
+msgstr "Получите новый секрет:"
+
+#: views/oauth-register-consumer.php:17
+msgid "Your Secret:"
+msgstr "Ваш секрет:"
+
+#: views/oauth-register-consumer.php:16
+msgid "Your Key:"
+msgstr "Ваш ключ:"
+
+#: views/oauth-register-consumer.php:7
+#: views/oauth-register-consumer.php:22
+msgid "or"
+msgstr "или"
+
+#: views/oauth-register-consumer.php:26
+msgid "Get a key/secret pair"
+msgstr "Получить ключ/секретную пару"
+
+#: views/logged-error-notice.php:1
+msgid "Whoops! Something went wrong!"
+msgstr "Ой! Что-то пошло не так!"
+
+#: views/login-form.php:4
+msgid "If you need an account, you can <a href=\"/signup\">sign up for free</a>."
+msgstr ""
+
+#: views/logged-error-notice.php:2
+msgid "Don't worry, this is surely our fault.  We've just logged this error and someone should be checking on what happened soon!"
+msgstr "Не беспокойтесь, это наша ошибка. Мы уже знаем о ней и примем меры к ее исправлению!"
+
+#: views/logged-error-notice.php:14
+msgid "Send Error Report"
+msgstr "Сообщить об ошибке"
+
+#: views/landing-wpcom.php:44
+msgid "If you wish to use the advanced features of Gravatar.com you may <a href=\"/emails/\">click here</a> to do so now!"
+msgstr ""
+
+#: views/landing-wpcom.php:43
+msgid "But wait! There's more&#0133;"
+msgstr ""
+
+#: views/login-form.php:3
+msgid "Did you know that every WordPress.com account is also a Gravatar.com account?  If you can log into WordPress.com then you can also log in, here, using that same information!"
+msgstr "Каждый аккаунт WordPress.com является также аккаунтом в Gravatar! Если у вас есть регистрация в Wordpress.com, используйте эти же данные для входа на Gravatar.com"
+
+#: views/landing-wpcom.php:37
+msgid "After uploading your image it will be automatically applied to your email address (%s) and may show up next to your posts and comments on WordPress.com and across the web. The change may take up to an hour to see, so please be patient."
+msgstr ""
+
+#: views/landing-wpcom.php:41
+msgid "Gravatar stands for <strong>G</strong>lobally <strong>R</strong>ecognized <strong>Avatar</strong>, which means it can be used all over the web attached to your email."
+msgstr ""
+
+#: views/index.php:155
+msgid "Other Automattic Services"
+msgstr "Другие сервисы Automattic"
+
+#: views/index.php:86
+msgid "For Site Owners"
+msgstr ""
+
+#: views/index.php:87
+msgid "Setting up Gravatars on your site is easy; you don't even need an account! <a href=\"%s\">Plugins are available</a> for leading blog software and content management systems, and <a href=\"%s\">our tutorials</a> will have you running Gravatars in no&nbsp;time."
+msgstr ""
+
+#: views/index.php:110
+msgid "Some Sample Gravatars"
+msgstr "Примеры граватаров"
+
+#: views/index.php:116
+msgid "WordPress.com user? Log in!"
+msgstr "Вход через аккаунт на WordPress.com"
+
+#: views/index.php:128
+msgid "Gravatar works seamlessly with your WordPress.com account. Just log in with your WordPress.com username and password.  Happy blogging!"
+msgstr "Граватары работают с аккаунтами WordPress.com. Просто используйте свой логин и пароль для Wordpress.com. Успешного блоггинга!"
+
+#: views/index.php:151
+msgid "Millions of avatar images served billions of times per day (%s requests per second!)"
+msgstr "Каждый день миллионы аватаров запрашиваются миллиарды раз (%s запросов в секунду!)"
+
+#: views/index.php:149
+msgid "Stats"
+msgstr "Статистика"
+
+#: views/index.php:146
+msgid "Example Plugins and Code"
+msgstr "Плагины и примеры кода"
+
+#: views/index.php:145
+msgid "How Gravatar URLs Work"
+msgstr "Как устроены URL в Gravatar"
+
+#: views/index.php:134
 msgid "Read our Blog"
 msgstr "Прочтите наш блог"
 
-#: views/admin-bar.php:74
-#: views/index.php:125
-msgid "Developer Resources"
-msgstr "Ресурсы для разработчиков"
+#: views/index.php:131
+msgid "User Information"
+msgstr "Информация для пользователя"
 
-#: views/admin-bar.php:75
-#: views/index.php:126
-msgid "Privacy Policy"
-msgstr "Конфиденциальность"
+#: views/index.php:84
+msgid "Get your Gravatar today"
+msgstr "Создайте свой Gravatar"
 
-#: views/admin-bar.php:76
-#: views/index.php:127
-msgid "Terms of Service"
-msgstr "Условия использования"
+#: views/implement-xmlrpc.php:88
+msgid "remove a userimage from the account and any email addresses with which it is associated"
+msgstr ""
 
-#: views/admin-bar.php:77
-#: views/index.php:128
-msgid "Report Abuse"
-msgstr "Сообщить о цензуре"
+#: views/implement-xmlrpc.php:68
+msgid "a full url to an image"
+msgstr ""
 
-#: views/admin-bar.php:86
-msgid "Close Window"
-msgstr "Закрыть окно"
+#: views/implement-xmlrpc.php:67
+msgid "Read an image via its URL and save that as a userimage for this account"
+msgstr ""
 
-#: views/application-footer.php:14
-msgid "This username already exists"
-msgstr "Такое имя пользователя уже существует"
+#: views/index.php:83
+msgid "Your Gravatar is an image that follows you from site to site appearing beside your name when you do things like comment or post on a blog. Avatars help identify your posts on blogs and web forums, so why not on any&nbsp;site?"
+msgstr "Граватар - это ваша картинка, которая всегда с вами от сайта к сайту, появляющаяся когда вы оставляете комментарий или делаете пост в блоге. Аватары помогают идентифицировать вас на блогах и форумах, так почему бы не использовать их везде?"
 
-#: views/application-footer.php:16
+#: views/index.php:82
+msgid "A Globally Recognized&nbsp;Avatar"
+msgstr "Глобально Распознаваемые Аватары"
+
+#: views/implement-xmlrpc.php:89
+msgid "The userimage you wish to remove from the account"
+msgstr ""
+
+#: views/implement-xmlrpc.php:81
+msgid "remove the userimage associated with one or more email addresses"
+msgstr ""
+
+#: views/implement-xmlrpc.php:75
+#: views/implement-xmlrpc.php:82
+msgid "A list of the email addresses you wish to use this userimage for"
+msgstr "Список email-адресов для которых вы хотите использовать это изображение"
+
+#: views/implement-xmlrpc.php:74
+msgid "The userimage you wish to use"
+msgstr "Изображение, которое вы хотите использовать"
+
+#: views/implement-xmlrpc.php:73
+msgid "use a userimage as a gravatar for one of more addresses on this account"
+msgstr ""
+
+#: views/implement-xmlrpc.php:26
+msgid "Method parameter missing"
+msgstr ""
+
+#: views/implement-xmlrpc.php:27
+msgid "Method parameter incorrect"
+msgstr ""
+
+#: views/implement-xmlrpc.php:28
+msgid "Misc error (see text)"
+msgstr "Другая ошибка (смотрите текст)"
+
+#: views/implement-xmlrpc.php:32
+msgid "Methods"
+msgstr "Методы"
+
+#: views/implement-xmlrpc.php:35
+msgid "check whether a hash has a gravatar"
+msgstr "проверить граватар сопоставленный данному хэшу"
+
+#: views/implement-xmlrpc.php:36
+msgid "an array of hashes to check"
+msgstr ""
+
+#: views/implement-xmlrpc.php:37
+#: views/implement-xmlrpc.php:43
+#: views/implement-xmlrpc.php:53
+#: views/implement-xmlrpc.php:64
+#: views/implement-xmlrpc.php:70
+#: views/implement-xmlrpc.php:76
+#: views/implement-xmlrpc.php:83
+#: views/implement-xmlrpc.php:90
+#: views/implement-xmlrpc.php:94
+msgid "for authentication"
+msgstr "для аутентификации"
+
+#: views/implement-xmlrpc.php:42
+msgid "get a list of addresses for this account"
+msgstr "получить список адресов для этого аккаунта"
+
+#: views/implement-xmlrpc.php:52
+msgid "return an array of userimages for this account"
+msgstr ""
+
+#: views/implement-xmlrpc.php:61
+msgid "Save binary image data as a userimage for this account"
+msgstr ""
+
+#: views/implement-xmlrpc.php:65
+#: views/implement-xmlrpc.php:71
+msgid "on failure"
+msgstr "в случае неудачи"
+
+#: views/implement-xmlrpc.php:65
+#: views/implement-xmlrpc.php:71
+msgid "on success"
+msgstr "в случае успеха"
+
+#: views/implement-xmlrpc.php:20
+msgid "Errors usually come with a number and human readable text.  Generally the text should be followed whenever possible, but a brief description of the numeric error codes are as follows:"
+msgstr "Ошибки обычно состоят из номера и описания. Обычно за номером всегда следует описание, но все же вот краткая расшифровка кодов ошибок:"
+
+#: views/implement-xmlrpc.php:23
+msgid "Use secure.gravatar.com"
+msgstr "Использовать secure.gravatar.com"
+
+#: views/implement-xmlrpc.php:24
+msgid "Internal error"
+msgstr "Внутренняя ошибка"
+
+#: views/implement-xmlrpc.php:25
+msgid "Authentication error"
+msgstr "Ошибка аутентификации"
+
+#: views/implement-xmlrpc.php:12
+msgid "Authentication"
+msgstr "Аутентификация"
+
+#: views/implement-url.php:65
+msgid "Finally, you can mix and match any of these parameters"
+msgstr ""
+
+#: views/implement-xmlrpc.php:1
+msgid "Gravatar.com XML-RPC API"
+msgstr ""
+
+#: views/implement-xmlrpc.php:18
+msgid "Errors"
+msgstr "Ошибки"
+
+#: views/implement-xmlrpc.php:8
+msgid "It is mandatory that you connect to secure.gravatar.com, and that you do so over HTTPS. This is for the safety of our mutual users.  The email_hash GET parameter is the md5 hash of the users email address after it has been lowercased, and trimmed."
+msgstr ""
+
+#: views/implement-xmlrpc.php:6
+msgid "API Endpoint:"
+msgstr ""
+
+#: views/implement-xmlrpc.php:14
+msgid "User authentication happens at the api method level.  You will pass to the method call an apikey or password parameter.  The data for these parameters will be passed in plain text.  Only one valid form of authentication is necessary.  The apikey and password params are always stripped from the arguments before the methods begin their  processing.  For this reason you should expect not to see either of these values returned from the grav.test method."
+msgstr ""
+
+#: views/implement-url.php:42
+msgid "Step 5, The default:"
+msgstr ""
+
+#: views/implement-url.php:34
+msgid "Step 4, The rating:"
+msgstr ""
+
+#: views/implement-url.php:60
+msgid "To Shamus for %s"
+msgstr ""
+
+#: views/implement-url.php:59
+msgid "To Scott for %s and %s"
+msgstr ""
+
+#: views/implement-url.php:57
+msgid "Special Thanks"
+msgstr ""
+
+#: views/implement-url.php:43
+msgid ""
+"You can specify a \"default\" or \"d\" parameter to the URL, this should be urlencoded so as to make it to \n"
+"\t\t\t\t\tour servers intact. There are \"special\" values that you may pass to this parameter which produce dynamic\n"
+"\t\t\t\t\tdefault images. These are \"identicon\" \"monsterid\" and \"wavatar\".  If omitted we will serve up our default\n"
+"\t\t\t\t\timage, the blue G. A new parameter, 404, has been added to allow the return of an HTTP 404 error instead of\n"
+"\t\t\t\t\tany image or redirect if an image cannot be found for the specified email address."
+msgstr ""
+
+#: views/implement-url.php:35
+msgid ""
+"You can specify a \"rating\" or \"r\" parameter to the URL of g, pg, r, or x.  If you omit this step we use\n"
+"\t\t\t\t\ta default rating of g."
+msgstr ""
+
+#: views/implement-url.php:27
+msgid ""
+"You can specify a \"size\" or \"s\" parameter to the URL between 1 and 512 (pixels.)  If you omit this step\n"
+"\t\t\t\t\twe use a default size of 80 pixels."
+msgstr ""
+
+#: views/implement-url.php:26
+msgid "Step 3, The size:"
+msgstr ""
+
+#: views/implement-url.php:23
+msgid "Everything from here on... is optional"
+msgstr ""
+
+#: views/implement-url.php:13
+msgid "Step 2, The email hash:"
+msgstr ""
+
+#: views/implement-url.php:7
+msgid "A gravatar is a dynamic image resource that is requested from our server. The request URL is presented here, broken into its segments. The URL always begins with"
+msgstr ""
+
+#: views/implement-url.php:6
+msgid "Step 1, The URL base:"
+msgstr ""
+
+#: views/implement-index.php:56
+msgid "Ruby on Rails"
+msgstr "Ruby on Rails"
+
+#: views/implement-index.php:55
+msgid "Ruby"
+msgstr "Ruby"
+
+#: views/implement-index.php:50
+msgid "Java"
+msgstr "Java"
+
+#: views/implement-index.php:51
+msgid "Javascript"
+msgstr ""
+
+#: views/implement-index.php:52
+msgid "Perl"
+msgstr "Perl"
+
+#: views/implement-index.php:53
+msgid "PHP"
+msgstr "PHP"
+
+#: views/implement-index.php:54
+msgid "Python"
+msgstr "Python"
+
+#: views/implement-index.php:57
+msgid "Silverlight and WPF"
+msgstr ""
+
+#: views/implement-index.php:49
+msgid "Django"
+msgstr ""
+
+#: views/implement-index.php:34
+msgid "Blogging Services"
+msgstr "Блог-платформы"
+
+#: views/implement-index.php:36
+msgid "Blogger"
+msgstr "Blogger"
+
+#: views/implement-index.php:30
+msgid "YACS How-To"
+msgstr "Инструкция для YACS"
+
+#: views/implement-index.php:39
+msgid "WordPress"
+msgstr ""
+
+#: views/implement-index.php:37
+msgid "LiveJournal"
+msgstr "LiveJournal"
+
+#: views/implement-index.php:31
+msgid "Yii PHP Framework"
+msgstr ""
+
+#: views/implement-index.php:38
+msgid "MovableType"
+msgstr "MovableType"
+
+#: views/implement-index.php:42
+msgid "Reference Implementations"
+msgstr "Руководство по внедрению"
+
+#: views/implement-index.php:44
+msgid "Adobe Flex"
+msgstr ""
+
+#: views/implement-index.php:48
+msgid "ColdFusion"
+msgstr "ColdFusion"
+
+#: views/implement-index.php:46
+msgid "ASP.NET"
+msgstr "ASP.NET"
+
+#: views/implement-index.php:45
+msgid "ASP (classic)"
+msgstr "ASP (классический)"
+
+#: views/implement-index.php:20
+msgid "Geeklog"
+msgstr "Geeklog"
+
+#: views/implement-index.php:29
+msgid "TextPattern Hack"
+msgstr "Хак для TextPattern"
+
+#: views/implement-index.php:28
+msgid "symfony PHP Framework"
+msgstr ""
+
+#: views/implement-index.php:27
+msgid "Smarty"
+msgstr "Smarty"
+
+#: views/implement-index.php:26
+msgid "PMachine Hack"
+msgstr "Хак для PMachine"
+
+#: views/implement-index.php:25
+msgid "Pivot/PivotX"
+msgstr "Pivot/PivotX"
+
+#: views/implement-index.php:24
+msgid "Nucleus Plugin"
+msgstr "Плагин для Nucleus"
+
+#: views/implement-index.php:19
+msgid "Expression Engine Plugin"
+msgstr "Плагин для Expression Engine"
+
+#: views/implement-index.php:21
+msgid "IP.Board"
+msgstr "IP.Board"
+
+#: views/implement-index.php:22
+msgid "Joomla"
+msgstr "Joomla"
+
+#: views/implement-index.php:23
+msgid "MODx Snippet"
+msgstr ""
+
+#: views/implement-index.php:16
+msgid "Address Book (OSX Leopard) Plugin"
+msgstr ""
+
+#: views/implement-index.php:9
+msgid "API Interfaces"
+msgstr ""
+
+#: views/implement-index.php:6
+#: views/implement-url.php:4
+msgid "How the URL is constructed"
+msgstr "Как устроен URL"
+
+#: views/implement-index.php:14
+msgid "Software Plugins/Hacks/How-Tos"
+msgstr "Плагины/Хаки и Инструкции"
+
+#: views/implement-index.php:2
+msgid "Gravatar implementor's guide"
+msgstr ""
+
+#: views/implement-index.php:4
+msgid "The gravatar URL"
+msgstr "Ссылка граватара"
+
+#: views/implement-index.php:11
+msgid "XMLRPC API"
+msgstr ""
+
+#: views/implement-index.php:11
+msgid "(new)"
+msgstr ""
+
+#: views/implement-drupal.php:2
+#: views/implement-index.php:18
+msgid "Drupal Module"
+msgstr "Модуль Drupal"
+
+#: views/implement-django.php:3
+msgid "Submitted by email, but we lost the details of who sent it in, sorry whoever you are, but thank you for your submission!"
+msgstr ""
+
+#: views/implement-django.php:2
+msgid "Django Custom Tag"
+msgstr ""
+
+#: views/image-use-existing.php:76
+msgid "Next Page"
+msgstr ""
+
+#: views/implement-blojsom.php:2
+#: views/implement-index.php:17
+msgid "Blojsom Plugin"
+msgstr "Плагин для Blojsom"
+
+#: views/image-profile-form.php:13
+msgid "Upload"
+msgstr ""
+
+#: views/image-use-existing.php:72
+msgid "Previous Page"
+msgstr ""
+
+#: views/image-webcam-upload.php:4
+msgid "If you're not seeing what you expect to see, <a href=\"#\" onClick=\"showOverlay(); return false;\">click here to find out why</a>."
+msgstr "Если вы не видите изображения с камеры, <a href=\"#\" onClick=\"showOverlay(); return false;\">прочтите инструкцию</a>."
+
+#: views/image-fetch-form.php:3
+msgid "A URL is simply a web address. To find the URL of an image on the internet, try right clicking it and selecting \"properties\". The URL should look something like this: %s"
+msgstr ""
+
+#: views/form-choose-ids-for-userimage.php:1
+msgid "Where would you like to use this image?"
+msgstr ""
+
+#: views/forgot-password-form.php:12
+msgid "Reset"
+msgstr "Выслать пароль"
+
+#: views/form-choose-ids-for-userimage.php:27
+msgid "Do not use this image yet"
+msgstr "Не использовать это изображение"
+
+#: views/footer-data.php:70
+msgid "You need to have Adobe Flash installed. If you saw a blue \"TAKE\" button on the page, then you're covered.<br /><br />You may check for, and or install, Adobe Flash Player <a href=\"http://www.macromedia.com/software/flash/about/\">at this page</a>"
+msgstr "Необходимо установить плагин Adobe Flash Player. Если вы видите на странице кнопку \"TAKE\", то все в порядке.<br /><br />Скачать и установить плагин Adobe Flash Player можно <a href=\"http://www.macromedia.com/software/flash/about/\">отсюда</a>"
+
+#: views/footer-data.php:73
+msgid "You need a webcam installed on your computer. Generally this is made for webcams, but other video input devices can be used if you can figure out how to make flash recognize them."
+msgstr "Вам необходимо установить веб-камеру. Если у вас есть другие видеоустройства, попробуйте установить их, чтобы Flash-плагин распознал их."
+
+#: views/forgot-password-form.php:3
+msgid "Since every WordPress.com account is also a Gravatar.com account, please remember that resetting your password here will also reset your password there.  Likewise if you can log into WordPress.com then you should be able to log into this site with that same username and password!"
+msgstr "Аккаунт в WordPress.com является аккаунтом Gravatar.com, поэтому изменение пароля здесь касается обоих аккаунтов. Если вы можете войти в свой аккаунт на сайте Wordpress.com, то и здесь вы сможете тоже!"
+
+#: views/footer-data.php:44
+msgid "Welcome to the Gravatar cropper. You should see your image, and on your image you should see the outline of a square. You can click and drag the square to any part of your image.  You can also click and drag the edges or corners of the square to expand or shrink it."
+msgstr ""
+
+#: views/footer-data.php:76
+msgid "You might need to tell flash which camera to use.  If it thinks, for example, that you have multiple video sources it might try to use the wrong one by default (this seems to be common for apple notebooks).<br /><br />Simply right click on the \"TAKE\" button, then click \"settings.\" Click the image of the round webcam, and then select yours from the drop-down list (you should immediately see a picture in the background if you selected the correct one.)"
+msgstr "Вам надо указать Flash-плагину какую камеру использовать. Если он, к примеру, показывает, что у вас есть несколько источников видео-изображения, он может по умолчанию использовать неправильный (как правило это бывает с ноутбуками Apple). <br /><br />Нажмите правой кнопкой на \"TAKE\", затем выберите \"settings.\" Нажмите на иконку веб-камеры и выберите свою камеру из выпадающего списка (в случае правильного выбора вы сразу увидите транслируемое с камеры изображение.)"
+
+#: views/footer-data.php:56
+msgid "You should see a box with an image from your webcam inside of it.  If you do not then here are a couple of things to check"
+msgstr "Вы должны были увидеть прямоугольник с изображением с вашей веб-камеры. Если этого не произошло, убедитесь что:"
+
+#: views/footer-data.php:59
+msgid "Have flash installed"
+msgstr "Флеш-плейер установлен"
+
+#: views/footer-data.php:62
+msgid "Have a webcam installed"
+msgstr "Камера подключена"
+
+#: views/footer-data.php:65
+msgid "Make flash use your webcam"
+msgstr "Флеш-плейеру разрешен доступ к камере"
+
+#: views/footer-data.php:47
+msgid "Using this tool you should be able to select any square portion of your image to use for your Gravatar.  When you are satisfied with your selection all you have to do is click \"Crop and Finish!\" to continue on with the creation process."
+msgstr ""
+
+#: views/forgot-password-form.php:4
+msgid "Just enter your email address and we'll send you an email containing a link that will allow you to update your password."
+msgstr "Просто введите ваш email и мы вышлем вам письмо с ссылкой для изменения пароля."
+
+#: views/footer-data.php:15
+msgid "Look at the email address listed on the account in your WordPress.com profile section"
+msgstr "Проверьте email указанный в вашем профиле на WordPress.com"
+
+#: views/footer-data.php:7
 msgid ""
 "Gravatar.com has merged with WordPress.com and now share user information.  \n"
 "\t  There is apparently already someone using that name on WordPress.com.  If \n"
 "\t  that is your WordPress.com account, here are the steps that you need to follow to \n"
 "\t  use it."
 msgstr ""
+"Gravatar.com работает вместе с сайтом WordPress.com и использует единую аутентификацию.  \n"
+"\t  Очевидно кто-то уже использует это имя на WordPress.com.  Если \n"
+"\t  это ваш аккаунт на WordPress.com, вот действия для подтверждения вашего права \n"
+"\t  на него."
 
-#: views/application-footer.php:22
-#, php-format
+#: views/footer-data.php:13
 msgid "Log into %s with that username (this is mandatory)"
-msgstr ""
+msgstr "Авторизируйтесь в %s используя это имя пользователя (это обязательно)"
 
-#: views/application-footer.php:24
-msgid "Look at the email address listed on the account in your WordPress.com profile section"
-msgstr ""
-
-#: views/application-footer.php:25
-msgid "Log into gravatar.com with that email address, and the password for your WordPress.com account"
-msgstr ""
-
-#: views/application-footer.php:27
-msgid "Once you are logged into the account you may add as many other email adddresses as you wish."
-msgstr ""
-
-#: views/application-footer.php:28
+#: views/footer-data.php:19
 msgid "If you cannot log into WordPress.com with that username, then you will have to choose another name which is not already in use (you'll want to click &#8220;close this window&#8221;, below, and try something different.)"
-msgstr ""
+msgstr "Если вы не можете авторизоваться в WordPress.com с этим именем пользователя, то выберите другое имя (предварительно нажав \"close this window\")"
 
-#: views/application-footer.php:43
-msgid "Confirm"
-msgstr "Подтвердить"
-
-#: views/application-footer.php:54
-msgid "Welcome to the Gravatar cropper, You should see your image, and on your image you should see the outline of a square. You can click and drag the square to any part of your image.  You can also click and drag the edges or corners of the square to expand or shrink it."
-msgstr ""
-
-#: views/application-footer.php:57
-msgid "Using this tool you should be able to select any square portion of your image to use for your Gravatar.  When you are satisfied with your selection all you have to do is click \"Crop and Finish!\" to continue on with the creation process."
-msgstr ""
-
-#: views/application-footer.php:59
+#: views/footer-data.php:21
+#: views/footer-data.php:49
+#: views/footer-data.php:87
 msgid "Close This Window"
-msgstr "Закрыть это окно"
-
-#: views/application-footer.php:66
-msgid "You should see a box with an image from your webcam inside of it.  If you do not then here are a couple of things to check"
-msgstr "Вы должны были увидеть прямоугольник с изображением с вашей веб-камеры. Если этого не произошло, убедитесь что:"
-
-#: views/application-footer.php:69
-msgid "Have flash installed"
-msgstr "Флеш-плеер установлен"
-
-#: views/application-footer.php:72
-msgid "Have a webcam installed"
-msgstr "Камера подключена"
-
-#: views/application-footer.php:75
-msgid "Make flash use your webcam"
-msgstr "Флеш-плейеру разрешен доступ к камере"
-
-#: views/application-footer.php:80
-msgid "You need to have Adobe Flash installed. If you saw a blue \"TAKE\" button on the page, then you're covered.<br /><br />You may check for, and or install, Adobe Flash Player <a href=\"http://www.macromedia.com/software/flash/about/\">at this page</a>"
 msgstr ""
 
-#: views/application-footer.php:83
-msgid "You need a webcam installed on your computer. Generally this is made for webcams, but other video input devices can be used if you can figure out how to make flash recognize them."
+#: views/faq.php:72
+msgid "Frequently Asked Questions"
 msgstr ""
 
-#: views/application-footer.php:86
-msgid "You might need to tell flash which camera to use.  If it thinks, for example, that you have multiple video sources it might try to use the wrong one by default (this seems to be common for apple notebooks).<br /><br />Simply right click on the \"TAKE\" button, then click \"settings.\" Click the image of the round webcam, and then select yours from the drop-down list (you should immediately see a picture in the background if you selected the correct one.)"
+#: views/finish-wpcom.php:2
+msgid "Your new Gravatar / Avatar is now being applied.  It will start showing up in a few minutes.  Please close this window by clicking on the X in the upper right hand corner, as shown in the image:"
 msgstr ""
 
-#: views/application-header.php:6
-msgid "Globally Recognized Avatars"
-msgstr "Глобально Распознаваемые Аватары"
-
-#: views/application-header.php:71
-msgid "Redirecting you now, if you are not automatically redirected, please click"
+#: views/footer-data.php:33
+msgid "Confirm"
 msgstr ""
 
-#: views/application-header.php:71
-msgid "here"
-msgstr "здесь"
-
-#: views/check.php:29
-msgid "Address"
-msgstr "Адрес"
-
-#: views/check.php:30
-msgid "Hash"
-msgstr "Хэш"
-
-#: views/check.php:52
-msgid "Email Address"
-msgstr "Email адрес"
-
-#: views/check.php:53
-msgid "check"
-msgstr "отметить"
-
-#: views/check.php:55
-msgid "Please allow 5 to 10 minutes for avatar changes to take effect</b><br/>(Have you cleared your cache?)"
-msgstr "Пожалуйста, подождите 5-10 минут для того, чтобы аватары обновились</b></br/>(Вы очистили кэш?)"
-
-#: views/choose-login-form.php:2
-msgid "Finish creating your account by choosing your new username!"
+#: views/footer-data.php:18
+msgid "Once you are logged into the account you may add as many other email addresses as you wish."
 msgstr ""
 
-#: views/choose-login-form.php:5
-#: views/create-account-form.php:5
-msgid ""
-"Choose your Gravatar username, using only lowercase letters and numbers.  This will be used to identify you\n"
-"\t\t\tlater on with features which are coming soon to gravatar.  As an added bonus you will be able to log into\n"
-"\t\t\tWordPress.com using this username! Finally choose a password, and once we make sure that your username is \n"
-"\t\t\tavailable for use you'll be all set!"
-msgstr ""
+#: views/footer-data.php:16
+msgid "Log into gravatar.com with that email address, and the password for your WordPress.com account"
+msgstr "Авторизируйтесь в gravatar.com с тем же email и паролем, используемых в аккаунте на WordPress.com"
 
-#: views/choose-login-form.php:8
-#: views/create-account-form.php:8
-msgid "Please only use lowercase letters and numbers, no spaces or punctuation"
-msgstr ""
+#: views/footer-data.php:5
+msgid "This username already exists"
+msgstr "Аккаунт с этим именем уже существует"
 
-#: views/choose-login-form.php:15
-#: views/create-account-form.php:22
-#: views/index.php:107
-#: views/profile-edit.php:37
-msgid "Username"
-msgstr "Имя пользователя"
-
-#: views/choose-login-form.php:18
-msgid "Your username will be permanent, choose wisely."
-msgstr "Ваше имя навсегда, поэтому выбирайте мудро."
-
-#: views/choose-login-form.php:21
-#: views/create-account-form.php:50
-#: views/signup-form.php:22
-msgid "Signup"
-msgstr "Регистрация"
-
-#: views/confirm-removal-form.php:2
-msgid "Remove Email Address?"
-msgstr "Удалить адрес e-mail?"
-
-#: views/confirm-removal-form.php:3
-msgid "Are you sure you want to permanently remove"
-msgstr "Вы уверены, что хотите навсегда удалить"
-
-#: views/confirm-removal-form.php:3
-msgid "from your account?"
-msgstr "из вашей учетной записи?"
-
-#: views/confirm-removal-form.php:6
-msgid "Yes, remove it"
-msgstr "Да, удалите."
-
-#: views/create-account-form.php:2
-msgid "Finish creating your account by choosing your finishing touches!"
-msgstr ""
-
-#: views/create-account-form.php:25
-#: views/create-account-form.php:30
-#: views/create-account-form.php:73
-msgid "HELP"
-msgstr "ПОМОЩЬ"
-
-#: views/create-account-form.php:35
-msgid "Your Username will be permanent, choose wisely."
-msgstr ""
-
-#: views/create-account-form.php:39
-#: views/index.php:111
-#: views/login-form.php:14
-msgid "Password"
-msgstr "Пароль"
-
-#: views/create-account-form.php:45
-msgid "Password (again)"
-msgstr "Пароль (еще раз)"
-
-#: views/create-account-form.php:73
-msgid "is not available"
-msgstr "недоступно"
-
-#: views/create-account-form.php:77
-msgid "is available"
-msgstr "доступно"
-
-#: views/cropper.php:4
-msgid "Choose any part of your image using the dotted box below"
-msgstr ""
-
-#: views/cropper.php:6
-#: views/cropper.php:12
-msgid "click here"
-msgstr "нажмите сюда"
-
-#: views/cropper.php:6
-#: views/cropper.php:12
-msgid "for details"
-msgstr "за подробностями"
-
-#: views/cropper.php:7
-#: views/cropper.php:13
-msgid "Crop and Finish!"
-msgstr "Обрезать и закончить!"
-
-#: views/cropper.php:19
-msgid "Small Preview"
-msgstr "Малый предпросмотр"
-
-#: views/cropper.php:26
-msgid "Large Preview"
-msgstr "Большой предпросмотр"
-
-#: views/cropper.php:33
-msgid "The previews above represent what your new gravatar image will look like after clicking Crop and Finish"
-msgstr ""
-
-#: views/emails.php:25
-msgid "Select an email address (below) to modify or"
-msgstr "Выберите email-адрес (ниже) для правки или"
-
-#: views/emails.php:25
-msgid "add a new email"
-msgstr "добавьте новый email"
-
-#: views/emails.php:39
-msgid "Remove the gravatar image from this email?"
-msgstr "Удалить изображение с этого email?"
-
-#: views/emails.php:45
-msgid "Don't use this image"
-msgstr "Не использовать изображение"
-
-#: views/emails.php:46
-msgid "Check this gravatar"
-msgstr "Проверить"
-
-#: views/emails.php:53
-msgid "Link"
-msgstr "Ссылка"
-
-#: views/emails.php:56
-msgid "Delete this email address"
-msgstr "Удалить этот адрес e-mail"
-
-#: views/emails.php:57
-msgid "Make Primary"
-msgstr "Сделать главным"
-
-#: views/emails.php:60
-msgid "Primary address (cannot delete)"
-msgstr "Главный адрес (невозможно удалить)"
-
-#: views/emails.php:69
-msgid "Gravatar for"
-msgstr "Граватар для"
-
-#: views/emails.php:72
-msgid "You have selected this email address, now choose an image, below, to use for this address"
-msgstr "Вы выбрали этот email, теперь выберите для него изображение"
-
-#: views/emails.php:87
-msgid "Choose an image (below) to use for the selected email (above) or"
-msgstr "Выберите изображение (ниже) для использования с выбранным email или"
-
-#: views/emails.php:87
-msgid "add a new image"
-msgstr "добавьте новое изображение"
-
-#: views/emails.php:89
-msgid "Whoops, looks like you dont have any images yet!"
-msgstr ""
-
-#: views/emails.php:89
-msgid "Add one by clicking here!"
-msgstr "Назмите здесь, чтобы добавить еще!"
-
-#: views/emails.php:91
-msgid ""
-"Gravatar doesn't have any pre-made avatars to choose from.  You get a custom-made avatar every time. \n"
-"\t\t\tJust click the link above and be ready to supply an image of your own to begin making your unique gravatar!"
-msgstr ""
-
-#: views/emails.php:117
-msgid "Remove this gravatar forever?"
-msgstr "Удалить этот gravatar навсегда?"
-
-#: views/faq.php:4
-msgid "General Concerns"
-msgstr "Касается каждого"
-
-#: views/faq.php:6
-msgid "I never got my confirmation email!"
-msgstr "Я не получал писем с подтверждением!"
-
-#: views/faq.php:7
-msgid "The most common reason for this <em>by far</em> is the use of anti-spam measures. Especially those systems which require the sender of an e-mail to manually verify a message. The second most common reason for not getting e-mails is that the e-mail address entered does not exist, double check those e-mails! Finally, certain email services (such as msn and hotmail) seem to be better able to receive our messages to you if you have donotreply@gravatar.com added to your contacts already."
-msgstr ""
-
-#: views/faq.php:10
-msgid "I changed my gravatar, but I still see my old one on sites!"
-msgstr ""
-
-#: views/faq.php:11
-msgid "We cache your gravatars for periods of time, which means that your new gravatar will take effect after the old one expires from the cache. The reason we do this is to be able to serve your (and indeed everybody&#8217;s) gravatar images much more quickly and reliably."
-msgstr ""
-
-#: views/faq.php:14
-msgid "My gravatar doesn&#8217;t show up for a particular rating (or site!)"
-msgstr ""
-
-#: views/faq.php:15
-#, php-format
-msgid "Many sites only support displaying avatars with a rating of G.  If your avatar is rated as too explicit (you get to set the rating yourself) it will not be shown on sites that do not support that particular rating.  The check tool (<a href=\"/site/check\">http://%s/support/check</a>) will show you what your gravatar might look like for all ratings.  If you wish to change your images rating, simply hover your mouse over the image in the list at the bottom of your manage page, and you will see the rating appear in black.  Click on that rating, and choose a new one from the next page.  As always give it a bit of time for the new rating to take effect!"
-msgstr ""
-
-#: views/faq.php:18
-msgid "My gravatar doesn&#8217;t show up on a particular site!"
-msgstr ""
-
-#: views/faq.php:19
-#, php-format
-msgid "The most common reason for this is the rating of the image you are using for your gravatar (see\t&#8220;My gravatar doesn't show up for a particular rating (or site!),&#8221; above.  After that, the usual reason for this is a common error in making image links on the originating site.  (Click here: <a href=\"/site/check\">http://%s/support/check</a> to double check your gravatar.) If your image comes up correctly, then you may want to direct the site in question to the &#8220;I'm trying to implement gravatar for my site, and some gravatars aren't displaying!&#8221; FAQ entry below."
-msgstr ""
-
-#: views/faq.php:22
-msgid "How do I clear my cache?"
-msgstr "Как мне очистить мой кэш?"
-
-#: views/faq.php:23
-msgid "This is a pretty concise guide on clearing your cache no matter what browser you use: <a href=\"http://kb.iu.edu/data/ahic.html\" target=\"_blank\">http://kb.iu.edu/data/ahic.html</a>.<br /><br /> Basically your computer (in an attempt to make things faster for you) keeps copies of things (your avatar image, for example) on your computer, and the next time you request one of those things instead of getting it from the internet it gets that local saved copy.  in this case you don&#8217;t want the saved copy, you want the new one from the internet.  Thats what clearing your cache does... it deletes all the local copies of things that your browser keeps around."
-msgstr ""
-
-#: views/faq.php:26
-msgid "Can I delete my uploaded images?"
-msgstr "Могу я удалить загруженные изображения?"
-
-#: views/faq.php:27
-msgid "Yes, simply hover your mouse over them in the list at the bottom of your manage page, and click the red\t&#8220;X&#8221;."
-msgstr ""
-
-#: views/faq.php:30
-msgid "Please delete my account!"
-msgstr "Пожалуйста, удалите мою учетную запись!"
-
-#: views/faq.php:31
-msgid "I&#8217;m sorry, we currently don&#8217;t delete accounts. If you remove all the images from your account, however, this simulates your account being deleted as far as the outside world is concerned"
-msgstr ""
-
-#: views/faq.php:34
-msgid "OK, but how do I contact support?"
-msgstr "Хорошо, но как мне связаться со службой поддержки?"
-
-#: views/faq.php:35
-msgid "Send an e-mail to support at gravatar dot com"
-msgstr "Пошлите письмо по адресу support at gravatar dot com"
-
-#: views/faq.php:38
-msgid "Developer Concerns"
-msgstr "Для разработчиков"
-
-#: views/faq.php:40
-msgid "I&#8217;m trying to implement gravatar for my site, and some gravatars aren&#8217;t displaying!"
-msgstr ""
-
-#: views/faq.php:41
-msgid "The most common cause for this issue is the e-mail address case.  Gravatar uses lowercase e-mails exclusively for serving content, so an md5 hash of FOO@BAR.COM is not the same as foo@bar.com. In php, try md5(strtolower($email)); (adapt for other languages) The <a href=\"/site/check\">gravatar verification check</a> tool might prove useful."
-msgstr ""
-
-#: views/faq.php:44
+#: views/faq.php:48
 msgid "MD5 isnt strong enough encryption, they&#8217;ve cracked that havent they?"
 msgstr ""
 
-#: views/faq.php:45
+#: views/faq.php:49
 msgid ""
 "MD5 is plenty good for obfuscating the email address of users across the wire.\n"
 "\t\t\t\tif you&#8217;re thinking of rainbow tables, those are all geared at passwords (which are generally \n"
@@ -836,832 +1458,563 @@ msgid ""
 "\t\t\t\teasier, ways of getting email address.  I hope this helps ease your mind."
 msgstr ""
 
-#: views/faq.php:59
-msgid "Transparent PNGs look terrible in most versions of IE"
-msgstr "Прозрачные PNG в некоторых версиях IE выглядят ужасно"
+#: views/faq.php:34
+msgid "Please delete my account!"
+msgstr "Пожалуйста, удалите мой аккаунт!"
 
-#: views/faq.php:60
+#: views/faq.php:35
+msgid "I&#8217;m sorry, we currently don&#8217;t delete accounts. If you remove all the images from your account, however, this simulates your account being deleted as far as the outside world is concerned"
+msgstr "Просим извинить, но в настоящий момент мы не удаляем аккаунты. Но если вы удалите все изображения из своего аккаунта, это будет равносильно удалению аккаунта."
+
+#: views/faq.php:42
+msgid "Developer Concerns"
+msgstr "Для разработчиков"
+
+#: views/faq.php:44
+msgid "I&#8217;m trying to implement gravatar for my site, and some gravatars aren&#8217;t displaying!"
+msgstr "Я пытаюсь настроить граватары на моем сайте, и некоторые граватары не отображаются!"
+
+#: views/faq.php:64
 msgid "If you’re worried about what transparent PNG images look like for your IE visitors, I would recommend taking a look at this handy <a href=\"http://24ways.org/2007/supersleight-transparent-png-in-ie6\">Transparent PNGs in Internet Explorer 6</a> page which offers an explanation, information on workarounds, and a drop-in javascript which will work for all the images on a page."
 msgstr ""
 
-#: views/forgot-password-form.php:1
-msgid "Reset your Password"
-msgstr "Сбросить ваш пароль"
+#: views/faq.php:38
+msgid "OK, but how do I contact support?"
+msgstr "ОК, как мне связаться со службой поддержки?"
 
-#: views/forgot-password-form.php:3
-msgid "Since every WordPress.com account is also a Gravatar.com account, please remember that resetting your password here will also reset your password there.  Likewise if you can log into WordPress.com then you should be able to log into this site with that same username and password!"
+#: views/faq.php:39
+msgid "Send an e-mail to support at gravatar dot com"
+msgstr "Напишите письмо по адресу support@gravatar.com"
+
+#: views/faq.php:45
+msgid "The most common cause for this issue is the e-mail address case.  Gravatar uses lowercase e-mails exclusively for serving content, so an md5 hash of FOO@BAR.COM is not the same as foo@bar.com. In php, try md5(strtolower($email)); (adapt for other languages) The <a href=\"/site/check\">gravatar verification check</a> tool might prove useful."
 msgstr ""
 
-#: views/forgot-password-form.php:5
-msgid "Just enter your email address and we'll send you an email containing a link that will allow you to update your password."
+#: views/faq.php:63
+msgid "Transparent PNGs look terrible in most versions of IE"
+msgstr "Прозрачные PNG в некоторых версиях IE выглядят ужасно"
+
+#: views/faq.php:19
+msgid "Many sites only support displaying avatars with a rating of G.  If your avatar is rated as too explicit (you get to set the rating yourself) it will not be shown on sites that do not support that particular rating.  The check tool (<a href=\"/site/check\">http://%s/support/check</a>) will show you what your gravatar might look like for all ratings.  If you wish to change your images rating, simply hover your mouse over the image in the list at the bottom of your manage page, and you will see the rating appear in black.  Click on that rating, and choose a new one from the next page.  As always give it a bit of time for the new rating to take effect!"
 msgstr ""
 
-#: views/forgot-password-form.php:10
-msgid "Email or username"
-msgstr "Логин или e-mail"
+#: views/faq.php:10
+msgid "I never got my confirmation email!"
+msgstr "Я не получал письма с подтверждением!"
 
-#: views/forgot-password-form.php:16
-msgid "Reset"
-msgstr "Сброс"
-
-#: views/form-choose-ids-for-userimage.php:1
-msgid "Which email addresses should use this new image?"
+#: views/faq.php:27
+msgid "This is a pretty concise guide on clearing your cache no matter what browser you use: <a href=\"http://kb.iu.edu/data/ahic.html\" target=\"_blank\">http://kb.iu.edu/data/ahic.html</a>.<br /><br /> Basically your computer (in an attempt to make things faster for you) keeps copies of things (your avatar image, for example) on your computer, and the next time you request one of those things instead of getting it from the internet it gets that local saved copy.  in this case you don&#8217;t want the saved copy, you want the new one from the internet.  Thats what clearing your cache does... it deletes all the local copies of things that your browser keeps around."
 msgstr ""
 
-#: views/form-choose-ids-for-userimage.php:27
-msgid "Do not use this image yet"
+#: views/faq.php:18
+msgid "My gravatar doesn&#8217;t show up for a particular rating (or site!)"
+msgstr "Мой граватар не показывается при определенном рейтинге (или сайте!)"
+
+#: views/faq.php:26
+msgid "How do I clear my cache?"
+msgstr "Как мне очистить мой кэш?"
+
+#: views/faq.php:22
+msgid "My gravatar doesn&#8217;t show up on a particular site!"
+msgstr "Мой граватар не показывается на определенном сайте!"
+
+#: views/faq.php:23
+msgid "The most common reason for this is the rating of the image you are using for your gravatar (see\t&#8220;My gravatar doesn't show up for a particular rating (or site!),&#8221; above.  After that, the usual reason for this is a common error in making image links on the originating site.  (Click here: <a href=\"/site/check\">http://%s/support/check</a> to double check your gravatar.) If your image comes up correctly, then you may want to direct the site in question to the &#8220;I'm trying to implement gravatar for my site, and some gravatars aren't displaying!&#8221; FAQ entry below."
 msgstr ""
 
-#: views/form-choose-ids-for-userimage.php:28
-msgid "Use for selected addresses"
-msgstr "Использовать для выбранных адресов"
+#: views/faq.php:30
+msgid "Can I delete my uploaded images?"
+msgstr "Могу я удалить загруженные изображения?"
 
-#: views/image-fetch-form.php:1
-msgid "Enter the URL of the image on the internet"
-msgstr "Введите URL изображения в интернете"
+#: views/faq.php:15
+msgid "We cache your gravatars for periods of time, which means that your new gravatar will take effect after the old one expires from the cache. The reason we do this is to be able to serve your (and indeed everybody&#8217;s) gravatar images much more quickly and reliably."
+msgstr "Мы кэшируем граватары. Это значит, что новый граватар появится лишь через некоторое время, после обновления кэша. Кэширование необходимо для быстродействия и надежности сервиса."
 
-#: views/image-fetch-form.php:2
-msgid "A URL is simply a web address. To find the URL of an image on the internet, try right clicking it and selecting \"properties\". The URL should look something like this:"
-msgstr "URL это просто веб-адрес. Чтобы узнать URL изображения в интернете, попробуйте щелкнуть по ней правой кнопкой мыши и выбрать  \"свойства\". URL может выглядеть примерно так:"
+#: views/faq.php:31
+msgid "Yes, simply hover your mouse over them in the list at the bottom of your manage page, and click the red\t&#8220;X&#8221;."
+msgstr "Да, просто наведите мышкой на них в списке внизу страницы управления и нажмите красный \t&#8220;X&#8221;."
 
-#: views/image-fetch-form.php:3
-#: views/image-upload-form.php:3
-msgid "You will have a chance to crop this image in the next step"
-msgstr "У вас будет возможность обрезать изображение на следующем шаге"
-
-#: views/image-fetch-form.php:6
-msgid "URL"
-msgstr "URL"
-
-#: views/image-fetch-form.php:12
-#: views/image-upload-form.php:12
-msgid "Next"
-msgstr "Дальше"
-
-#: views/image-upload-form.php:1
-msgid "Select the file from your computer"
-msgstr "Выберите файл со своего компьютера"
-
-#: views/image-upload-form.php:2
-msgid "You can upload any size image file from your hard drive."
-msgstr "Вы можете загрузить изображение любого размера с вашего жесткого диска."
-
-#: views/image-upload-form.php:6
-msgid "File"
-msgstr "Файл"
-
-#: views/image-use-existing.php:22
-msgid "Continue to the cropper"
-msgstr "Перейти к обрезке"
-
-#: views/image-use-existing.php:52
-msgid "Use this image"
-msgstr "Использовать это"
-
-#: views/image-webcam-upload.php:2
-msgid "If you're not seeing what you expect to see, <a href=\"#\" onClick=\"showOverlay(); return false;\">click here to find out why</a>."
-msgstr "Если вы не видите то, чего ожидали, <a href=\"#\" onClick=\"showOverlay(); return false;\">попробуйте найти выход</a>."
-
-#: views/implement-index.php:1
-msgid "Gravatar implementor's guide"
-msgstr "Руководство по внеднению Граватара"
-
-#: views/implement-index.php:4
-msgid "The gravatar URL"
-msgstr "Ссылка граватара"
-
-#: views/implement-index.php:6
-msgid "How the URL is constructed"
-msgstr "Как устроен URL"
-
-#: views/implement-index.php:9
-#, fuzzy
-msgid "API Interfaces"
-msgstr "Ваш ключ API: %s"
-
-#: views/implement-index.php:11
-#, fuzzy
-msgid "XMLRPC API"
-msgstr "Ваш ключ API: %s"
-
-#: views/implement-index.php:11
-#, fuzzy
-msgid "(new)"
-msgstr "На сайте %1$s новый блог: %2$s "
-
-#: views/implement-index.php:14
-msgid "Software Plugins/Hacks/How-Tos"
-msgstr "Плагины/Хаки и Инструкции"
-
-#: views/implement-index.php:17
-msgid "MovableType"
-msgstr "MovableType"
-
-#: views/implement-index.php:18
-msgid "Gravatar Plugin"
-msgstr "Плагин Gravatar"
-
-#: views/implement-index.php:19
-msgid "CommentBodyPlusGravatar Plugin"
-msgstr "Плагин CommentBodyPlusGravatar"
-
-#: views/implement-index.php:20
-msgid "Dynamic PHP Plugin"
-msgstr "Динамический PHP-плагин "
-
-#: views/implement-index.php:22
-msgid "WordPress Gravatar Plugin"
-msgstr "Плагин WordPress Gravatar"
-
-#: views/implement-index.php:23
-msgid "TextPattern Hack"
-msgstr "Хак для TextPattern"
-
-#: views/implement-index.php:24
-msgid "Expression Engine Plugin"
-msgstr "Плагин для Expression Engine"
-
-#: views/implement-index.php:25
-msgid "PMachine Hack"
-msgstr "Хак для PMachine"
-
-#: views/implement-index.php:26
-msgid "Nucleus Plugin"
-msgstr "Плагин для Nucleus"
-
-#: views/implement-index.php:27
-msgid "Drupal Module"
-msgstr "Модуль Drupal"
-
-#: views/implement-index.php:28
-msgid "YACS How-To"
-msgstr "Инструкция для YACS"
-
-#: views/implement-index.php:29
-msgid "Blojsom Plugin"
-msgstr "Плагин для Blojsom"
-
-#: views/implement-index.php:30
-msgid "Ruby on Rails"
-msgstr "Ruby on Rails"
-
-#: views/implement-index.php:31
-msgid "Smarty"
-msgstr "Smarty"
-
-#: views/implement-index.php:32
-msgid "OSX Leopard Address Book Plugin"
-msgstr "Плагин для адресной книги OSX Leopard"
-
-#: views/implement-index.php:33
-msgid "Pivot/PivotX"
-msgstr "Pivot/PivotX"
-
-#: views/implement-index.php:34
-msgid "Joomla"
-msgstr "Joomla"
-
-#: views/implement-index.php:35
-msgid "IP.Board"
-msgstr "IP.Board"
-
-#: views/implement-index.php:36
-msgid "Geeklog"
-msgstr "Geeklog"
-
-#: views/implement-index.php:39
-msgid "Blogging Services"
-msgstr "Блог-платформы"
-
-#: views/implement-index.php:41
-msgid "Blogger"
-msgstr "Blogger"
-
-#: views/implement-index.php:42
-msgid "LiveJournal"
-msgstr "LiveJournal"
-
-#: views/implement-index.php:45
-msgid "Reference Implementations"
-msgstr "Руководство по внедрению"
-
-#: views/implement-index.php:47
-msgid "PHP"
-msgstr "PHP"
-
-#: views/implement-index.php:48
-msgid "Perl"
-msgstr "Perl"
-
-#: views/implement-index.php:49
-msgid "ColdFusion"
-msgstr "ColdFusion"
-
-#: views/implement-index.php:50
-msgid "Java"
-msgstr "Java"
-
-#: views/implement-index.php:52
-msgid "ASP.NET"
-msgstr "ASP.NET"
-
-#: views/implement-index.php:53
-msgid "ASP (classic)"
-msgstr "ASP (классический)"
-
-#: views/implement-index.php:54
-msgid "Python"
-msgstr "Python"
-
-#: views/implement-index.php:55
-msgid "Ruby"
-msgstr "Ruby"
-
-#: views/implement-index.php:56
-#, fuzzy
-msgid "Silverlight and WPF"
-msgstr ", и <a href=\"%s\">%d ещё</a>"
-
-#: views/implement-index.php:57
-msgid "Adobe Flex"
-msgstr "Adobe Flex"
-
-#: views/implement-index.php:58
-msgid "Javascript"
-msgstr "JavaScript"
-
-#: views/implement-xmlrpc.php:1
-msgid "Gravatar.com XMLRPC details"
+#: views/faq.php:11
+msgid "The most common reason for this <em>by far</em> is the use of anti-spam measures. Especially those systems which require the sender of an e-mail to manually verify a message. The second most common reason for not getting e-mails is that the e-mail address entered does not exist, double check those e-mails! Finally, certain email services (such as msn and hotmail) seem to be better able to receive our messages to you if you have donotreply@gravatar.com added to your contacts already."
 msgstr ""
 
-#: views/implement-xmlrpc.php:8
-#, fuzzy
-msgid "API Endpoint:"
-msgstr "Ваш ключ API: %s"
+#: views/faq.php:14
+msgid "I changed my gravatar, but I still see my old one on sites!"
+msgstr "Я сменил свой граватар, но на сайтах все еще показывается прежний!"
 
-#: views/implement-xmlrpc.php:10
-msgid "It is mandatory that you connect to secure.gravatar.com, and that you do so over HTTPS. This is for the safety of our mutual users.  The email_hash GET parameter is the md5 hash of the users email address after it has been lowercased, and trimmed."
+#: views/emails.php:90
+msgid "Add one by clicking here!"
+msgstr "Нажмите здесь, чтобы добавить еще!"
+
+#: views/faq.php:4
+msgid "General Concerns"
+msgstr "Касается каждого"
+
+#: views/emails.php:61
+msgid "Primary address (cannot delete)"
+msgstr "Главный адрес (нельзя удалить)"
+
+#: views/emails.php:90
+msgid "Whoops, looks like you dont have any images yet!"
+msgstr "Похоже, вы еще не загрузили ни одного изображения!"
+
+#: views/emails.php:121
+msgid "Remove this gravatar forever?"
+msgstr "Удалить этот gravatar навсегда?"
+
+#: views/faq.php:7
+msgid "Gravatar.com and <a href=\"http://wordpress.com/\">WordPress.com</a> share the same user database. It's possible that you registered a WordPress.com account (either for a blog or for an Akismet API key,) which automatically now gives you a Gravatar.com account. If you use your WordPress.com password to log in you should experience no problems using Gravatar. If you cannot remember that password you may use the <a href=\"/account/forgot-password/\">forgotten password link</a> on the login page to reset your password."
 msgstr ""
 
-#: views/implement-xmlrpc.php:14
-msgid "Authentication"
-msgstr "Аутентификация"
-
-#: views/implement-xmlrpc.php:16
-msgid "User authentication happens at the api method level.  You will pass to the method call an apikey or password parameter.  The data for these parameters will be passed in plain text.  Only one valid form of authentication is necessary.  The apikey and password params are always stripped from the arguments before the methods begin their  processing.  For this reason you should expect not to see either of these values returned from the grav.test method."
+#: views/emails.php:88
+msgid "Select image (below) to use for the selected email (above) or <a href=\"/gravatars/new\">add a new image</a>"
 msgstr ""
 
-#: views/implement-xmlrpc.php:20
-msgid "Errors"
-msgstr "Ошибки"
-
-#: views/implement-xmlrpc.php:22
-msgid "Errors usually come with a number and human readable text.  Generally the text should be followed whenever possible, but a brief description of the numeric error codes are as follows:"
-msgstr ""
-
-#: views/implement-xmlrpc.php:25
-msgid "Use secure.gravatar.com"
-msgstr "Использовать secure.gravatar.com"
-
-#: views/implement-xmlrpc.php:26
-msgid "Internal error"
-msgstr "Внутренняя ошибка"
-
-#: views/implement-xmlrpc.php:27
-msgid "Authentication error"
-msgstr "Ошибка аутентификации"
-
-#: views/implement-xmlrpc.php:28
-#, fuzzy
-msgid "Method parameter missing"
-msgstr "Временная папка не найдена."
-
-#: views/implement-xmlrpc.php:29
-#, fuzzy
-msgid "Method parameter incorrect"
-msgstr "<strong>Ошибка</strong>: Неверный пароль."
-
-#: views/implement-xmlrpc.php:30
-msgid "Misc error (see text)"
-msgstr "Другая ошибка (смотрите текст)"
-
-#: views/implement-xmlrpc.php:34
-msgid "Methods"
-msgstr "Методы"
-
-#: views/implement-xmlrpc.php:37
-msgid "check whether a hash has a gravatar"
-msgstr ""
-
-#: views/implement-xmlrpc.php:38
-#, fuzzy
-msgid "an array of hashes to check"
-msgstr "Проверять ли обновления"
-
-#: views/implement-xmlrpc.php:39
-#: views/implement-xmlrpc.php:45
-#: views/implement-xmlrpc.php:55
-#: views/implement-xmlrpc.php:66
-#: views/implement-xmlrpc.php:72
-#: views/implement-xmlrpc.php:78
-#: views/implement-xmlrpc.php:84
-msgid "for authentication"
-msgstr "для аутентификации"
-
-#: views/implement-xmlrpc.php:44
-msgid "get a list of addresses for this account"
-msgstr ""
-
-#: views/implement-xmlrpc.php:54
-#, fuzzy
-msgid "return an array of userimages for this account"
-msgstr "Вернуться на страницу плагинов"
-
-#: views/implement-xmlrpc.php:63
-msgid "Save binary image data as a userimage for this account"
-msgstr ""
-
-#: views/implement-xmlrpc.php:67
-#: views/implement-xmlrpc.php:73
-msgid "on failure"
-msgstr "в случае неудачи"
-
-#: views/implement-xmlrpc.php:67
-#: views/implement-xmlrpc.php:73
-msgid "on success"
-msgstr "в случае успеха"
-
-#: views/implement-xmlrpc.php:69
-msgid "Read an image via its URL and save that as a userimage for this account"
-msgstr ""
-
-#: views/implement-xmlrpc.php:70
-#, fuzzy
-msgid "a full url to an image"
-msgstr "Полный URL-путь к файлам"
-
-#: views/implement-xmlrpc.php:75
-msgid "use a userimage as a gravatar for one of more addresses on this account"
-msgstr ""
-
-#: views/implement-xmlrpc.php:76
-msgid "The userimage you wish to use"
-msgstr ""
-
-#: views/implement-xmlrpc.php:77
-msgid "A list of the email addresses you wish to use this userimage for"
-msgstr ""
-
-#: views/index.php:81
-msgid "A Globally Recognized&nbsp;Avatar"
-msgstr "Глобально Распознаваемые Аватары"
-
-#: views/index.php:83
-msgid "Your Gravatar is an image that follows you from site to site appearing beside your name when you do things like comment or post on a blog. Avatars help identify your posts on blogs and web forums, so why not on any&nbsp;site?"
-msgstr "Ваш Граватар - это изображение, которое следует за вами от сайта к сайту, всегда рядом с вашим именем, когда вы делаете публикации или комментируете. Аватары помогают идентифицировать ваши записи в блогах и на web-форумах, так почему бы не сделать это и на всех остальных сайтах?"
-
-#: views/index.php:85
-msgid "Using Gravatars"
-msgstr "Использование Граватаров"
-
-#: views/index.php:86
-#, php-format
+#: views/emails.php:92
 msgid ""
-"Setting up Gravatars on your site is easy; you don't even need an \n"
-"\taccount! <a href=\"%s\">Plugins are available</a> for leading blog software and content management systems, and <a href=\"%s\">our \n"
-"\ttutorials</a> will have you running Gravatars in no&nbsp;time."
+"Gravatar doesn't have any pre-made avatars to choose from.  You get a custom-made avatar every time. \n"
+"\t\t\tJust click the link above and be ready to supply an image of your own to begin making your unique gravatar!"
+msgstr ""
+"Здесь нет аватаров из которых можно выбрать свой. Каждый раз вы создаете новый. \n"
+"\t\t\tПросто нажмите на ссылку выше, добавьте свое изображение - и создайте свой уникальный граватар!"
+
+#: views/emails.php:70
+msgid "Gravatar for %s"
 msgstr ""
 
-#: views/index.php:90
-msgid "Get your Gravatar today"
-msgstr "Получите ваш Граватар сейчас"
+#: views/emails.php:73
+msgid "You have selected this email address, now choose an image, below, to use for this address"
+msgstr "Вы выбрали этот email, теперь выберите для него изображение"
 
-#: views/index.php:97
-msgid "Some Sample Gravatars"
-msgstr "Некоторые случайные граватары"
-
-#: views/index.php:103
-msgid "WordPress.com user? Log in!"
-msgstr "Пользователь WordPress.com? Авторизуйтесь!"
-
-#: views/index.php:118
-msgid "Gravatar works seamlessly with your WordPress.com account. Just log in with your WordPress.com username and password.  Happy blogging!"
+#: views/faq.php:6
+msgid "My email address is already in use, but I never signed up"
 msgstr ""
 
-#: views/index.php:135
-msgid "How Gravatar URLs Work"
-msgstr "Как работают URL-ы Граватара"
-
-#: views/index.php:136
-msgid "Example Plugins and Code"
+#: views/cropper.php:44
+msgid "The previews above show what your new gravatar will look like after clicking Crop and Finish"
 msgstr ""
 
-#: views/index.php:145
-msgid "Other Automattic Services"
-msgstr "Другие сервисы Automattic"
-
-#: views/landing-wpcom.php:14
-msgid "Upload now!"
-msgstr "Загрузить сейчас!"
-
-#: views/landing-wpcom.php:16
-msgid "Your Gravatar"
-msgstr "Ваш Граватар"
-
-#: views/landing-wpcom.php:22
-msgid "Upload your Gravatar / Avatar now!"
+#: views/cropper.php:37
+msgid "Large Preview"
 msgstr ""
 
-#: views/landing-wpcom.php:24
-msgid "Change your Gravatar / Avatar"
-msgstr "Смените ваш Граватар / Аватар"
-
-#: views/landing-wpcom.php:27
-msgid "Upload a new image from your computer"
-msgstr "Загрузить новое изображение с компьютера"
-
-#: views/landing-wpcom.php:28
-msgid "Use your webcam to take a snapshot of yourself"
+#: views/cropper.php:30
+msgid "Small Preview"
 msgstr ""
 
-#: views/landing-wpcom.php:29
-msgid "Give us a link to a picture online to use"
+#: views/emails.php:54
+msgid "Link"
 msgstr ""
 
-#: views/landing-wpcom.php:30
-msgid "Use your last WordPress.com Avatar</a> (if you had one)"
+#: views/emails.php:40
+msgid "Remove the gravatar image from this email?"
+msgstr "Удалить изображение с этого email?"
+
+#: views/emails.php:46
+msgid "Don't use this image"
+msgstr "Не использовать это изображение"
+
+#: views/create-account-form.php:24
+msgid "Username Available!"
 msgstr ""
 
-#: views/landing-wpcom.php:37
-#, php-format
-msgid "After uploading your image it will be automatically applied to your email address (%s) and may show up next to your posts and comments on WordPress.com and across the web. The change may take up to an hour to see, so please be patient."
+#: views/create-account-form.php:23
+msgid "Username Not Available"
 msgstr ""
 
-#: views/landing-wpcom.php:41
-msgid "Gravatar stands for <strong>G</strong>lobally <strong>R</strong>ecognized <strong>Avatar</strong>, which means it can be used all over the web attached to your email."
-msgstr ""
-
-#: views/landing-wpcom.php:43
-msgid "But wait! There's more&#0133;"
-msgstr ""
-
-#: views/landing-wpcom.php:45
-msgid "If you wish to use the advanced features of Gravatar.com you may <a href=\"/emails/\">click here</a> to do so now!"
-msgstr ""
-
-#: views/logged_error_notice.php:1
-msgid "Whoops! Something went wrong!"
-msgstr "Опа! Что-то пошло не так!"
-
-#: views/logged_error_notice.php:2
-msgid "Don't worry, this is surely our fault.  We've just logged this error and someone should be checking on what happened soon!"
-msgstr ""
-
-#: views/logged_error_notice.php:3
-msgid "For now, feel free to go"
-msgstr ""
-
-#: views/logged_error_notice.php:3
-#, fuzzy
-msgid "back to using gravatar"
-msgstr "Вернуться к загрузке картинок"
-
-#: views/logged_error_notice.php:3
+#: views/choose-login-form.php:5
+#: views/create-account-form.php:5
 msgid ""
-", or if you want to send us some information on what you were doing, \n"
-"or trying to do when you got this error message you are encouraged to fill out the form below"
+"Choose your Gravatar username, using only lowercase letters and numbers.  This will be used to identify you\n"
+"\t\t\tlater on with features which are coming soon to gravatar.  As an added bonus you will be able to log into\n"
+"\t\t\tWordPress.com using this username! Finally choose a password, and once we make sure that your username is \n"
+"\t\t\tavailable for use you'll be all set!"
 msgstr ""
+"Придумайте имя аккаунта в Gravatar (строчные латинские буквы и цифры).  Это необходимо для\n"
+"\t\t\tвашей пользовательской идентификации. Кроме того вы также сможете авторизоваться на сайте\n"
+"\t\t\tWordPress.com используя это имя! Задайте свой пароль, и если выбранное вами имя аккаунта\n"
+"\t\t\tсвободно - регистрация завершена!"
 
-#: views/logged_error_notice.php:15
-msgid "Send Error Report"
-msgstr "Сообщить об ошибке"
+#: views/choose-login-form.php:2
+msgid "Finish creating your account by choosing your new username!"
+msgstr "Завершите создание аккаунта выбрав новое имя!"
 
-#: views/login-form.php:2
-msgid "Login to your gravatar account"
-msgstr "Вход в вашу учетную запись"
-
-#: views/login-form.php:4
-msgid "Did you know that every WordPress.com account is also a Gravatar.com account?  If you can log into WordPress.com then you can also log in, here, using that same information!"
-msgstr ""
-
-#: views/login-form.php:6
-msgid "If you need an account, you can"
-msgstr "Если вам нужна учетная запись, вы можете"
-
-#: views/login-form.php:6
-msgid "sign up for free"
-msgstr "бесплатно зарегистрироваться"
-
-#: views/login-form.php:10
-msgid "Email or Username"
-msgstr "Email или имя пользователя"
-
-#: views/login-form.php:18
-msgid "Login"
-msgstr "Войти"
-
-#: views/login-form.php:22
-msgid "Forgot your password?"
-msgstr "Забыли ваш пароль?"
-
-#: views/oauth-register-consumer.php:6
-#: views/oauth-register-consumer.php:21
-msgid "Go back to your account"
-msgstr "Назад к учетной записи"
-
-#: views/oauth-register-consumer.php:16
-msgid "Your Key:"
-msgstr "Ваш ключ:"
-
-#: views/oauth-register-consumer.php:17
-msgid "Your Secret:"
-msgstr "Ваш секрет:"
-
-#: views/oauth-register-consumer.php:24
-msgid "Get a new secret"
-msgstr "Получите новый секрет:"
-
-#: views/oauth-register-consumer.php:26
-msgid "Get a key/secret pair"
-msgstr "Получить ключ/секретную пару"
-
-#: views/privacy.php:3
-msgid "Privacy"
-msgstr "Privacy"
-
-#: views/privacy.php:6
-msgid "Gravatar.com collects your email address as part of the gravatar service. We will never rent, sell, or otherwise distribute or make public your email address. We hate spam as much as you do."
-msgstr ""
-
-#: views/privacy.php:9
-msgid "The way gravatar requests are structured, your email address is encrypted before transmission. Your email address cannot be harvested from gravatar enabled sites due to gravatar requests."
-msgstr ""
-
-#: views/privacy.php:12
-msgid "We take your privacy seriously. If you have any questions regarding our policy, email us at"
-msgstr ""
-
-#: views/profile-edit.php:33
-msgid "First name"
+#: views/choose-login-form.php:15
+#: views/create-account-form.php:20
+#: views/index.php:119
+#: views/profile-editor.php:193
+msgid "Username"
 msgstr "Имя"
 
-#: views/profile-edit.php:35
-msgid "Last name"
-msgstr "Фамилия"
+#: views/choose-login-form.php:8
+#: views/create-account-form.php:8
+msgid "Please only use lowercase letters and numbers, no spaces or punctuation"
+msgstr "Используйте только строчные латинские буквы и цифры, без пробелов и знаков препинаний."
 
-#: views/profile-edit.php:41
-msgid "Contact E-mail"
-msgstr "Контактный e-mail"
+#: views/choose-login-form.php:21
+#: views/create-account-form.php:46
+#: views/signup-form.php:12
+msgid "Signup"
+msgstr "Регистрация"
 
-#: views/profile-edit.php:43
-msgid "Website"
-msgstr "Web-сайт"
+#: views/create-account-form.php:2
+msgid "Finish creating your account by choosing your finishing touches!"
+msgstr "Создайте свой аккаунт, указав необходимые данные."
 
-#: views/profile-edit.php:45
-msgid "AIM"
-msgstr "AIM"
+#: views/confirm-removal-form.php:7
+msgid "Yes, remove it"
+msgstr "Да, удалите."
 
-#: views/profile-edit.php:47
-msgid "Yahoo IM"
-msgstr "Yahoo IM"
-
-#: views/profile-edit.php:49
-msgid "Jabber / Google Talk"
-msgstr "Jabber / Google Talk"
-
-#: views/profile-edit.php:53
-#, fuzzy
-msgid "Share a little biographical information."
-msgstr "Напишите немного о себе."
-
-#: views/profile-edit.php:60
-msgid "Your shared web links"
+#: views/confirm-removal-form.php:3
+msgid "Are you sure you want to permanently remove %s from your account?"
 msgstr ""
 
-#: views/profile-edit.php:78
-msgid "Share some more of your favorit web links!"
+#: views/choose-login-form.php:17
+#: views/create-account-form.php:23
+#: views/create-account-form.php:28
+#: views/create-account-form.php:69
+msgid "HELP"
+msgstr "ПОМОЩЬ"
+
+#: views/confirm-removal-form.php:2
+msgid "Remove Email Address?"
+msgstr "Удалить адрес e-mail?"
+
+#: views/admin-bar.php:63
+#: views/index.php:137
+msgid "Terms of Service"
+msgstr "Условия использования"
+
+#: views/check.php:29
+#: views/check.php:52
+msgid "Email Address"
+msgstr "Email адрес"
+
+#: views/check.php:53
+msgid "check"
 msgstr ""
 
-#: views/profile-edit.php:94
-msgid "cancel"
-msgstr "отмена"
+#: views/admin-bar.php:62
+#: views/index.php:136
+msgid "Privacy Policy"
+msgstr "Конфиденциальность"
 
-#: views/pw-change-form.php:3
-msgid "Your account has been activated!"
-msgstr "Эта учётная запись активирована!"
+#: views/admin-bar.php:64
+#: views/index.php:138
+msgid "Report Abuse"
+msgstr "Сообщить о цензуре"
 
-#: views/pw-change-form.php:5
-msgid "Now that your account is active, you'll need to set a password."
+#: views/application-header.php:68
+msgid "Redirecting you now, if you are not automatically redirected, please click <a href=\"%s\">here</a>"
 msgstr ""
 
-#: views/pw-change-form.php:6
-msgid ""
-"Make sure it's something easy to remember, but difficult for others to \n"
-"\t\t\tguess. Try to include both letters and numbers or punctuation."
-msgstr ""
-"Постарайтесь выбрать легко запоминаемый, но сложный для \n"
-"\t\tугадывания пароль. Попробуйте включить в него буквы и цифры или знаки препинания."
+#: views/application-header.php:7
+msgid "Globally Recognized Avatars"
+msgstr "Глобально Распознаваемые Аватары"
 
-#: views/pw-change-form.php:10
-msgid "Change your password"
-msgstr "Смените ваш пароль"
+#: views/admin-bar.php:71
+msgid "Close Window"
+msgstr "Закрыть окно"
 
-#: views/pw-change-form.php:12
-msgid ""
-"Make sure it's something easy to remember, but difficult for others to\n"
-"\t\t\tguess. Try to include both letters and numbers or punctuation."
-msgstr ""
-"Будьте уверены, что его легко запомнить, но сложно подобрать.\n"
-"\t\tПопробуйте включить в пароль буквы, цифры и знаки препинания."
+#: views/check.php:55
+msgid "Please allow 5 to 10 minutes for avatar changes to take effect</b><br/>(Have you cleared your cache?)"
+msgstr "Пожалуйста, подождите 5-10 минут для того, чтобы аватары обновились</b></br/>(Вы очистили кэш?)"
 
-#: views/pw-change-form.php:20
-msgid "New Password"
-msgstr "Новый пароль"
-
-#: views/pw-change-form.php:24
-msgid "Confirm New Password"
-msgstr "Подтвердите новый пароль"
-
-#: views/pw-change-form.php:29
-msgid "Set Password"
-msgstr "Сменить"
-
-#: views/rating.php:19
-msgid "Choose a rating for your Gravatar"
-msgstr "Выберите категорию для вашего граватара"
-
-#: views/rating.php:21
-msgid "By clicking on one of these ratings"
-msgstr "Нажатием на одну из этих иконок"
-
-#: views/rating.php:32
-msgid "A G rated gravatar is suitable for display on all websites with any audience type."
-msgstr "Граватары с ретингом G пригодны для показа на сайтах с любой аудиторией."
-
-#: views/rating.php:37
-msgid "PG rated gravatars may contain rude gestures, provocatively dressed individuals, the lesser swear words, or mild violence."
-msgstr "Граватары с рейтингом PG могут содержать неприличные жесты, провокационно одетых людей, грубые выражения или умеренную жестокость."
-
-#: views/rating.php:42
-msgid "R rated gravatars may contain such things as harsh profanity, intense violence, nudity, or hard drug use."
-msgstr "Граватары с рейтингом R могут быть оскорбительными, содержать сцены жестокости, обнаженные тела или связанные с наркотиками."
-
-#: views/rating.php:47
-msgid "X rated gravatars may contain hardcore sexual imagery or extremely disturbing violence."
-msgstr "Граватары с рейтингом X могут содержать откровенные сексуальные изображения или сцены экстремальной жестокости."
-
-#: views/signup-form.php:2
-msgid "Signup to get your own gravatar"
-msgstr "Регистрируйтесь для получение собственного граватара"
-
-#: views/signup-form.php:7
-msgid ""
-"All we need is your email address! You will receive a \n"
-"\t\t\tconfirmation email including a link that will activate \n"
-"\t\t\tyour account and allow you to set your password."
-msgstr ""
-"Все, что нам нужно это ваш email-адрес! Вы получите \n"
-"\t\t\tподтверждающее письмо со ссылкой, которая активирует\n"
-"\t\t\tВашу учетную запись и позволит установить пароль."
-
-#: views/translate.php:18
-msgid "Suport gravatar by making it accessible in other languages!"
-msgstr "Поддержите граватары, сделайте их доступными на других языках!"
-
-#: views/translate.php:34
-#, fuzzy, php-format
-msgid "File Size: <strong>%s</strong> bytes"
-msgstr "Разрешенные типы файлов: <strong>%s</strong>."
-
-#: views/translate.php:36
-#, fuzzy, php-format
-msgid "last updated: <strong>%s</strong>"
-msgstr "Обзор <strong>%s</strong> (активен)"
-
-#: views/translate.php:41
-msgid "Welcome"
-msgstr "Добро пожаловать"
-
-#: views/translate.php:43
-msgid ""
-"If you are interested in helping translate Gravatar.com into your language, \n"
-"\tplease feel free to check back here regularly for updates to the english\n"
-"\tlanguage file.  Send in updated (lang).pot files to support at gravatar dot \n"
-"\tcom.  Also feel free to make comments and suggestions, as this process is\n"
-"\tevolving all the time (and so is the web site...)"
+#: views/admin-bar.php:61
+msgid "Read Our Blog"
 msgstr ""
 
-#: views/translate.php:50
-msgid "What now?"
-msgstr "Что это?"
+#: views/admin-bar.php:59
+#: views/index.php:133
+msgid "Common Questions"
+msgstr "Общие вопросы"
 
-#: views/translate.php:52
-#, php-format
-msgid ""
-"If you are unsure what to do with the language file, or how to translate it\n"
-"\tthere is <a href=\"%s\" target=\"_BLANK\">a good, free, cross\n"
-"\tplatform editor called poedit</a> and wikipedia has a good, short, overview\n"
-"\tof <a href=\"%s\" target=\"_BLANK\">how \n"
-"\ttranslating works in a program</a>. Also, be sure to join the <a href=\"%s\">mailing list</a> for updates on when these files change, and anything else related to translating Gravatar.com!"
+#: views/admin-bar.php:58
+msgid "About Gravatar"
+msgstr "О Граватарах"
+
+#: views/admin-bar.php:4
+msgid "Greetings"
+msgstr "Здравствуйте"
+
+#: views/admin-bar.php:4
+msgid "Hello"
+msgstr "Привет"
+
+#: views/admin-bar.php:4
+msgid "Hey there"
+msgstr "Эй"
+
+#: views/admin-bar.php:4
+msgid "Howdy"
+msgstr "Привет"
+
+#: views/abuse.php:12
+msgid "Explanation"
+msgstr "Пояснение"
+
+#: views/add-email-form.php:3
+msgid "All we need is your email address! You will receive a confirmation email including a link that will activate this email address on your account."
 msgstr ""
 
-#: views/troublemail.php:2
-msgid "Important"
-msgstr "Важно"
+#: views/abuse.php:3
+msgid "If you have seen a gravatar or profile that is inappropriate for its rating, please report it here and we will take the necessary steps to resolve the situation."
+msgstr "Если вы заметили граватар или профиль несоответствующий своему рейтингу, пожалуйста сообщите об этом здесь и мы внесем исправления."
 
-#: views/troublemail.php:4
-msgid "Please <b>add donotreply@gravatar.com to your contacts</b> for"
+#: views/abuse.php:4
+msgid "Please post the url of the offending gravatar image or profile page."
+msgstr "Пожалуйста укажите ссылку на сомнительный граватар или страницу с профилем."
+
+#: views/add-image-start.php:2
+msgid "Choose where you'd like to get the image from"
+msgstr "Выберите, откуда загрузить изображение"
+
+#: views/abuse.php:8
+msgid "Offending URL"
 msgstr ""
 
-#: views/troublemail.php:4
-msgid "and THEN click OK to continue"
-msgstr "и ПОТОМ нажмите OK для продолжения"
+#: views/abuse.php:16
+msgid "Submit"
+msgstr "Отправить"
 
-#: views/troublemail.php:8
-msgid "OK - support@gravatar.com is in my contacts"
+#: switch-site.php:7
+msgid "Thank you for your report! We will review this information shortly."
+msgstr "Спасибо за сообщение! Мы рассмотрим его в ближайшее время."
+
+#: switch-profile-verify.php:226
+msgid "Unknown service."
 msgstr ""
 
-#: views/verification-sent.php:2
-msgid "Confirmation email sent!"
-msgstr "Отослано подтверждающее письмо!"
-
-#: views/verification-sent.php:4
-msgid "We've sent you an activation email"
-msgstr "Вы пошлем вас письмо с активацией"
-
-#: views/verification-sent.php:5
-msgid ""
-"In the email you'll find a link that when clicked on will bring \n"
-"\t\t\tyou back to the site so you can set your password and create \n"
-"\t\t\tyour gravatar."
+#: switch-profile-verify.php:213
+msgid "Could not verify Yahoo account"
 msgstr ""
 
-#: views/verification-sent.php:10
-msgid "If for some reason you do not receive the activation email within 24 hours, contact us at"
+#: views/about.php:18
+msgid "Today, an avatar. Tomorrow, Your Identity-Online."
+msgstr "Сегодня - аватар. Завтра - ваша онлайн-визитка."
+
+#: views/abuse-sent.php:1
+msgid "Abuse Report Sent"
 msgstr ""
 
-#: views/verification-sent.php:14
-msgid ", and we'll do our best to get you back on track."
+#: views/abuse-sent.php:2
+msgid "Thank you for your feedback. We take our rating system seriously and will investigate the offending material as soon as possible."
 msgstr ""
 
-#~ msgid "What is a gravatar?"
-#~ msgstr "Что такое граватар?"
-#~ msgid ""
-#~ "Stay up to date with <a title=\"Breaking news\" href=\"http://blog."
-#~ "gravatar.com/\"> The Gravatar \n"
-#~ "\t\tblog"
-#~ msgstr ""
-#~ "Будьте в курсе с <a title=\"Свежие новости\" href=\"http://blog.gravatar."
-#~ "com/\"> блогом \n"
-#~ "\t\tГраватара"
-#~ msgid "How do I get a gravatar?"
-#~ msgstr "Как мне получить граватар?"
-#~ msgid ""
-#~ "Signing up for a gravatar.com account is <strong>FREE,</strong> and \n"
-#~ "\t\tall that's required is your email address. Once you've signed up "
-#~ "you \n"
-#~ "\t\tcan upload your avatar image and soon after you'll start seeing it "
-#~ "on \n"
-#~ "\t\tgravatar enabled sites!"
-#~ msgstr ""
-#~ "Регистрация учетной записи на gravatar.com <strong>БЕСПЛАТНА,</strong> "
-#~ "и \n"
-#~ "\t\tвсе, что требуется, это ваш email-адрес. Зарегистрировавшись, вы \n"
-#~ "\t\tсможете загрузить картинки для аватара и сразу после этого станете "
-#~ "видимым на \n"
-#~ "\t\tсайтах с поддержкой граватаров!"
-#~ msgid "Sign up now!"
-#~ msgstr "Регистрируйтесь сейчас!"
-#~ msgid "How do I get gravatars on my site?"
-#~ msgstr "Как мне показывать граватары на моем сайте?"
-#~ msgid ""
-#~ "Setting up gravatars on your site is easy, you don't even need an \n"
-#~ "\t\taccount! Plugins are available for leading blog software and content "
-#~ "management systems, and our \n"
-#~ "\t\ttutorials will have you running gravatars in no time. To request a \n"
-#~ "\t\tgravatar from our servers, you simply add an image to your users "
-#~ "activity \n"
-#~ "\t\twith an \"src\" attribute that points to our gravatar image \n"
-#~ "\t\tgenerator and includes an MD5 hash of the user's email address.\n"
-#~ "\t\tSince all gravatars are rated with an MPAA style rating, you can \n"
-#~ "\t\trestrict your site to show only gravatars whose content you are \n"
-#~ "\t\tcomfortable with."
-#~ msgstr ""
-#~ "Установка граватаров на ваш сайт проста, вам даже не потребуется \n"
-#~ "\t\tучетная запись! Плагины доступны для основных платформ для ведения "
-#~ "блогов и систем управления контентом, а наше \n"
-#~ "\t\tобучение не потребует времени. Чтобы запросить a \n"
-#~ "\t\tграватар с наших серверов, вы просто добавляете изображение "
-#~ "пользователя \n"
-#~ "\t\tпри помощи тега \"src\", атрибут которого указывает на наш генератор "
-#~ "граватаров \n"
-#~ "\t\t и включает в себя MD5-хэш email-адреса пользователя.\n"
-#~ "\t\tС тех пор, как все граватары стали ограничиваться по системе "
-#~ "рейтингов MPAA, вы можете \n"
-#~ "\t\tнастроить ваш сайт показывать только уместные для вашего контента "
-#~ "граватары."
-#~ msgid "Learn more"
-#~ msgstr "Узнать больше"
-#~ msgid "Nickname"
-#~ msgstr "Ник"
+#: views/abuse.php:2
+msgid "Report inappropriate content"
+msgstr ""
+
+#: views/about.php:3
+msgid "Claim your Identity"
+msgstr ""
+
+#: views/about.php:6
+msgid "The web is no longer about anonymous content generated by faceless corporations. It is about real people and the real content that they provide."
+msgstr "Содержимое интернета больше не является порождением безликих корпораций. Интернет - это реальные люди и их реальный контент."
+
+#: views/about.php:9
+msgid "It is about you."
+msgstr "Это про вас."
+
+#: views/about.php:12
+msgid "But as powerful as the web has become, it still lacks the personal touch that comes from a handshake. The vast majority of content you come across on the web will still be near-anonymous even though it may have a name attached. Without knowing the author behind the words, the words cannot be trusted. This is where Gravatar comes in."
+msgstr "Каким бы ни был могущественным интернет, ему все же не хватает близости и доверия, какое происходит, скажем, при естественном рукопожатии. Так, большая часть информации, с которой вы имеете дело в сети, фактически является анонимной, несмотря на то, что возможно там присутствует имя автора. Но не видя воочию автора, нельзя доверять его словам. И здесь на помощь приходит Gravatar."
+
+#: views/about.php:15
+msgid "Gravatar aims to put a face behind the name. This is the beginning of trust. In the future, Gravatar will be a way to establish trust between producers and consumers on the internet. It will be the next best thing to meeting in person."
+msgstr "Цель Gravatar - визуализация имени. Это основа концепции. В будущем Gravatar будет служить способом установления доверия между продавцами и покупателями в интернете. Это почти так же как встретиться лично."
+
+#: switch-profile-verify.php:193
+msgid "We could not contact Yahoo to start the verification process. Please try again soon."
+msgstr ""
+
+#: switch-profile-verify.php:193
+msgid "Failed to contact Yahoo"
+msgstr ""
+
+#: switch-profile-verify.php:173
+msgid "Failed to verify Digg session"
+msgstr ""
+
+#: switch-profile-verify.php:213
+msgid "We could not verify your Yahoo account via a profile request. Please try again later."
+msgstr ""
+
+#: switch-profile-verify.php:173
+msgid "We were unable to verify your session with Digg. Please log out of Digg, then log back in and try again."
+msgstr ""
+
+#: switch-profile-verify.php:155
+msgid "Failed to contact Digg"
+msgstr ""
+
+#: switch-profile-verify.php:155
+msgid "We could not contact Digg for profile verification. Please try again soon."
+msgstr ""
+
+#: switch-profile-verify.php:129
+msgid "Failed to load Facebook profile"
+msgstr ""
+
+#: switch-profile-verify.php:129
+msgid "We were unable to load details from your Facebook profile to confirm your identity. Please try again, and make sure you grant Gravatar all requested permissions during Facebook Connect."
+msgstr ""
+
+#: switch-profile-verify.php:112
+msgid "'Offline' access not granted from Facebook"
+msgstr ""
+
+#: switch-profile-verify.php:112
+msgid "It looks like you didn't grant 'offline' access to Gravatar. We currently require this to confirm your account, so please go back and make sure you allow that during the confirmation process with Facebook."
+msgstr ""
+
+#: switch-profile-verify.php:88
+msgid "Failed to verify your Flickr account"
+msgstr ""
+
+#: switch-profile-verify.php:31
+msgid "Failed to contact Last.fm"
+msgstr ""
+
+#: switch-profile-verify.php:70
+msgid "Failed to contact Flickr"
+msgstr ""
+
+#: switch-profile-verify.php:70
+msgid "Flickr did not respond when we tried to verify your account. Please try again later."
+msgstr ""
+
+#: switch-profile-verify.php:50
+msgid "Failed to verify your Last.fm account"
+msgstr ""
+
+#: switch-profile-verify.php:50
+msgid "We could not verify your account on Last.fm. It's possible that it was a network failure, so please try again later."
+msgstr ""
+
+#: switch-profile-verify.php:31
+msgid "Last.fm could not be contacted to verify your account. Please try again later."
+msgstr ""
+
+#: switch-profile-verify.php:88
+msgid "We were not able to retrieve your profile from Flickr to confirm it. Please try again later."
+msgstr ""
+
+#: switch-profile-verify.php:18
+msgid "Verification failed"
+msgstr ""
+
+#: switch-profile-verify.php:18
+msgid "We were unable to complete the verification of your %s account right now. Please try again a bit later."
+msgstr ""
+
+#: switch-profile-request.php:128
+msgid "NOTE: Your login details are used only to verify your account, they are never saved."
+msgstr ""
+
+#: switch-profile-request.php:100
+msgid "Your WordPress web address:"
+msgstr ""
+
+#: switch-gravatars.php:158
+#: switch-gravatars.php:163
+msgid "Please try uploading an image through other means."
+msgstr "Пожалуйста, попробуйте загрузить изображение другими способами."
+
+#: switch-gravatars.php:157
+#: switch-gravatars.php:162
+msgid "Fetching your WordPress.com avatar failed.  This usually means one does not exist."
+msgstr "Не удалось загрузить ваш аватар с WordPress.com. Скорее всего аватара просто не существует."
+
+#: switch-gravatars.php:78
+msgid "Something went wrong when downloading that image. Are you sure the web address you entered is for a publicly available image? You should be able to view just the image (nothing else) by <a href=\"%s\" target=\"_blank\">clicking here</a>."
+msgstr ""
+
+#: switch-profile-request.php:21
+msgid "For some reason, we're not currently able to connect to %s and verify your account. Please try again later."
+msgstr ""
+
+#: switch-profile-request.php:105
+msgid "Please enter your WordPress username and password below so that we can verify your account. The XML-RPC API must be <abbr title=\"'Settings &gt; Writing &gt; Remote Publishing' in your /wp-admin/\">enabled</abbr>."
+msgstr ""
+
+#: switch-profile-request.php:96
+msgid "Verify your WordPress site"
+msgstr ""
+
+#: switch-profile-request.php:21
+msgid "Failed to connect to %s"
+msgstr "Не удалось подключиться к %s"
+
+#: switch-accounts.php:420
+msgid "Please close this window if it does not close automatically"
+msgstr ""
+
+#: switch-accounts.php:208
+msgid "Please specify an email address for the account"
+msgstr "Пожалуйста задайте email-адрес для вашего аккаунта"
+
+#: switch-accounts.php:153
+msgid "Please confirm your password"
+msgstr "Пожалуйста, подтвердите свой пароль"
+
+#: switch-accounts.php:158
+msgid "The passwords entered do not match"
+msgstr "Введенные пароли не совпадают"
+
+#: switch-accounts.php:283
+msgid "Please make your password at least 4 characters long"
+msgstr "Длина пароля должна быть не менее 4 символов"
+
+#: switch-accounts.php:219
+msgid "No account found for that address, perhaps you would like to <a href=\"/site/signup\">sign up for one</a>?"
+msgstr "Аккаунта с таким адресом не существует, но вы можете <a href=\"/site/signup\">создать новый аккаунт</a>"
+
+#: switch-gravatars.php:47
+#: switch-profile.php:184
+msgid "Please upload an image in one of the supported formats (a jpeg, gif, png, bmp, or svg file)"
+msgstr "Загрузите изображение поддерживаемого формата (jpg, gif, png, bmp, svg)"
+
+#: switch-gravatars.php:60
+msgid "Please submit a url (web address), which would look something like <strong>http://somewhere.com/some/image.jpg</strong>"
+msgstr ""
+
+#: switch-accounts.php:236
+msgid "This link is invalid, has already been used, or has expired, please request a new one."
+msgstr "Ссылка устарела, неверна или уже была использована, используйте другую."
+
+#: switch-accounts.php:279
+msgid "Whoops, looks like one of the two passwords was mistyped. Please try again."
+msgstr "Пароли не совпадают. Попробуйте ввести их еще раз."
+
+#: switch-accounts.php:418
+msgid "Request Could Not Be Completed"
+msgstr "Не удалось завершить запрос"
+
+#: application.php:102
+msgid "Please specify an email address"
+msgstr "Пожалуйста, укажите email-адрес"
+
+#: application.php:106
+msgid "Please specify a password"
+msgstr "Пожалуйста, задайте пароль"
+
+#: hyper-db.php:749
+msgid "<strong>ERROR</strong>: MySQL 4.0.0 is required"
+msgstr "<strong>ОШИБКА</strong>: требуется MySQL 4.0.0"
+
+#: switch-accounts.php:108
+#: switch-accounts.php:179
+msgid "Sorry, that username already exists! <a href=\"#help\" onClick=\"showOverlay(); return false;\">Click here for details</a>"
+msgstr ""
+
+#: application.php:112
+msgid "Incorrect email, username, or password, please try again"
+msgstr "Неверный адрес, имя пользователя или пароль, пожалуйста, попробуйте еще"
+
+#: application.php:134
+#: nonce-functions.php:9
+msgid "That link is expired, invalid, or has already been used"
+msgstr "Ссылка устарела, неверна или уже была использована"
 
