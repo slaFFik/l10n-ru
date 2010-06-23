@@ -1,8 +1,8 @@
 /* Menu */
 
 #adminmenu {
-	width: 165px; /* default 145px + 10px */
-	margin-left: -180px; /* default 160px + 10px */
+	width: 165px; /* default 145px + 20px */
+	margin-left: -180px; /* default 160px + 20px */
 }
 
 #wpbody {

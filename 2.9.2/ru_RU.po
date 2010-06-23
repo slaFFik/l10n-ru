@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress MU 2.9.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-03-06 13:11+0000\n"
-"PO-Revision-Date: 2010-06-03 15:22+0300\n"
+"PO-Revision-Date: 2010-06-16 07:52+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -13156,7 +13156,7 @@ msgstr "WordPress MU &rsaquo; Администрирование &rsaquo; Тем
 
 #: wp-admin/wpmu-themes.php:14
 msgid "Site themes saved."
-msgstr "Тема сайта сохранена."
+msgstr "Темы сайта сохранены."
 
 #: wp-admin/wpmu-themes.php:23
 msgid "Site Themes"
@@ -17716,7 +17716,7 @@ msgstr "Проверьте корзину или папку для спама в
 #: wp-signup.php:363
 #, php-format
 msgid "Have you entered your email correctly?  We think it's %s but if you've entered it incorrectly, you won't receive it."
-msgstr "Ввели ли вы свой e-mail правильно? Мы думаем, это %s но если вы ввели его неправильно,вы не сможете получить его."
+msgstr "Вы правильно указали свой e-mail? У нас он записан как %s, но если это неправильный адрес, письмо не придёт."
 
 #: wp-signup.php:378
 #, php-format
