@@ -1,9 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php
+require_once('../../../wp-admin/admin.php');
+
+if (!isset($rurumo)) die();
+if (isset($_GET['update'])) $name = $_GET['update']; else die();
+if (!wp_verify_nonce($_REQUEST['_wpnonce'], 'rurumo') ) die('Security check'); 
+
+require_once(ABSPATH . 'wp-admin/admin-header.php');
+?>
 <div class="wrap">
 <?php
-	if (!isset($rurumo)) die();
-	if (isset($_GET['update'])) $name = $_GET['update']; else die();
-	
 	$update = $rurumo[$name];
 	$errors = array ();
 		
@@ -47,3 +52,6 @@
 	}
 ?>
 </div>
+<?php
+include(ABSPATH . 'wp-admin/admin-footer.php');
+?>

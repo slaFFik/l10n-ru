@@ -16,13 +16,11 @@ Author URI: http://salpagarov.ru
  * @return  string 			Ссылка для прямого скачивания
  */
 function rurumo_check ($file, $ver) {
-	
 	$response = '';
 	if ( false !== ( $fs = @fsockopen( 'l10n-ru.googlecode.com', 80, $errno, $errstr, 3 ) ) && is_resource($fs) ) {
 		fwrite( $fs, "GET /files/{$file}-{$ver}-ru_RU.zip HTTP/1.0\r\nHost: l10n-ru.googlecode.com\r\n\r\n" );
 		while (!feof($fs)) $response .= fgets( $fs, 1160 ); // One TCP-IP packet
 		fclose( $fs );
-
 		$response = explode("\r\n\r\n", $response, 2);
 		if ( preg_match( '|HTTP/.*? 200|', $response[0] ) ) return "http://l10n-ru.googlecode.com/files/{$file}-{$ver}-ru_RU.zip";
 	}
@@ -90,7 +88,12 @@ function rurumo_notification ($file_name) {
 	
 	$plugin_name = basename($file_name,'.php');
 	$plugin_dir  = dirname ($file_name);
-	$plugin_ver  = $plugin_data['Version'];
+	$fp = fopen(ABSPATH.PLUGINDIR.'/'.$file_name, 'r');
+	$component_data = fread($fp, 8192);
+	fclose($fp);
+
+	preg_match( '|Version: *(.*)$|mi', $component_data, $description); 
+		$plugin_ver = trim($description [1]);
 	$plugin_pack = ($plugin_dir!='.'?$plugin_dir:$plugin_name);
 	
 	if (!isset($rurumo[$plugin_pack])) {
@@ -106,9 +109,10 @@ function rurumo_notification ($file_name) {
 		$rurumo[$plugin_pack]->checked = time();
 	}
 	if (($rurumo[$plugin_pack]->package != null) && ($rurumo[$plugin_pack]->installed == false)) {
+		$rurumo_path = WP_PLUGIN_URL . '/' . dirname(plugin_basename(__FILE__));
 		echo '<tr class="plugin-update-tr"><td colspan="3" class="plugin-update" ><div class="update-message">';
-		echo "Перевод этого плагина вы можете скачать с сайта <a href='".$rurumo[$plugin_pack]->package."'>l10n.googlecode.com</a> или <a href='/wp-admin/admin.php?page=rurumo/update.php&update=$plugin_pack'>установить автоматически</a>.";
-		echo '</div></td></td>';
+		echo "Перевод этого плагина вы можете скачать с сайта <a href='".$rurumo[$plugin_pack]->package."'>l10n.googlecode.com</a> или <a href='$rurumo_path/update.php?update=$plugin_pack&_wpnonce=".wp_create_nonce  ('rurumo')."'>установить автоматически</a>.";
+		echo '</div></td></tr>';
 	}
 	update_option('rurumo', serialize($rurumo));
 }
