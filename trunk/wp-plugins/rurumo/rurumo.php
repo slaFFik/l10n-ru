@@ -83,8 +83,7 @@ $rurumo = unserialize(get_option('rurumo'));
  * @param staring $file_name
  */
 function rurumo_notification ($file_name) {
-	global $plugin_data;
-	global $rurumo;
+	global $rurumo, $plugin_data;
 	
 	$plugin_name = basename($file_name,'.php');
 	$plugin_dir  = dirname ($file_name);
@@ -111,11 +110,40 @@ function rurumo_notification ($file_name) {
 	if (($rurumo[$plugin_pack]->package != null) && ($rurumo[$plugin_pack]->installed == false)) {
 		$rurumo_path = WP_PLUGIN_URL . '/' . dirname(plugin_basename(__FILE__));
 		echo '<tr class="plugin-update-tr"><td colspan="3" class="plugin-update" ><div class="update-message">';
-		echo "Перевод этого плагина вы можете скачать с сайта <a href='".$rurumo[$plugin_pack]->package."'>l10n.googlecode.com</a> или <a href='$rurumo_path/update.php?update=$plugin_pack&_wpnonce=".wp_create_nonce  ('rurumo')."'>установить автоматически</a>.";
+		$url = wp_nonce_url('update.php?action=rurumo-get-translation&plugin=' . $plugin_pack, 'rurumo');
+		echo "Перевод этого плагина вы можете скачать с сайта <a href='".$rurumo[$plugin_pack]->package."'>l10n.googlecode.com</a> или <a href='$url'>установить автоматически</a>.";		
 		echo '</div></td></tr>';
 	}
 	update_option('rurumo', serialize($rurumo));
 }
-add_action ('after_plugin_row', 'rurumo_notification');
+add_action('after_plugin_row', 'rurumo_notification');
 
+function rurumo_get_translation() {
+	global $rurumo, $wp_filesystem;
+
+	if ( !current_user_can('update_plugins') )
+		wp_die(__('You do not have sufficient permissions to update plugins for this site.'));
+
+	check_admin_referer('rurumo');
+
+	$title = 'Обновление перевода';
+	$parent_file = 'plugins.php';
+	$submenu_file = 'plugins.php';
+
+	$name = isset($_GET['plugin']) ? $_GET['plugin'] : '';
+	if ( isset($rurumo) && !empty($name) ) {
+		require_once(ABSPATH . 'wp-admin/admin-header.php');
+
+		include(dirname(__FILE__) . '/update.php');
+
+		$update_actions =  array(
+			'plugins_page' => '<a href="' . admin_url('plugins.php') . '" title="' . esc_attr__('Goto plugins page') . '" target="_parent">' . __('Return to Plugins page') . '</a>'
+		);
+		$plugin_upgrader_skin = new Plugin_Upgrader_Skin( compact('title', 'nonce', 'url', 'plugin') );
+		$plugin_upgrader_skin->feedback('<strong>' . __('Actions:') . '</strong> ' . implode(' | ', (array)$update_actions));
+
+		include(ABSPATH . 'wp-admin/admin-footer.php');
+	}
+}
+add_action('update-custom_rurumo-get-translation', 'rurumo_get_translation');
 ?>

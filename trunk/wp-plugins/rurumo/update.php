@@ -1,12 +1,3 @@
-<?php
-require_once('../../../wp-admin/admin.php');
-
-if (!isset($rurumo)) die();
-if (isset($_GET['update'])) $name = $_GET['update']; else die();
-if (!wp_verify_nonce($_REQUEST['_wpnonce'], 'rurumo') ) die('Security check'); 
-
-require_once(ABSPATH . 'wp-admin/admin-header.php');
-?>
 <div class="wrap">
 <?php
 	$update = $rurumo[$name];
@@ -14,9 +5,9 @@ require_once(ABSPATH . 'wp-admin/admin-header.php');
 		
 //	Скачиваем файл
 	if ( ! $wp_filesystem || !is_object($wp_filesystem) ) WP_Filesystem();
-	if ( $wp_filesystem->is_dir($working_dir) ) $wp_filesystem->delete($working_dir, true);
 	$base = $wp_filesystem->get_base_dir();
-	$working_dir = $base . 'wp-content/upgrade/' . basename($_GET['update']);
+	$working_dir = $base . 'wp-content/upgrade/' . basename($_GET['plugin']);
+	if ( $wp_filesystem->is_dir($working_dir) ) $wp_filesystem->delete($working_dir, true);
 	
 	$file = download_url($update->package);
 	
@@ -52,6 +43,3 @@ require_once(ABSPATH . 'wp-admin/admin-header.php');
 	}
 ?>
 </div>
-<?php
-include(ABSPATH . 'wp-admin/admin-footer.php');
-?>
