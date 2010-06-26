@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: rurumo
-Plugin URI: http://wordpress-russia.org/support/tags/rurumo
-Description: Обновление переводов. Антону Скоробогатову (<strong>rurumo</strong>) посвящается.
+Plugin URI: http://wordpress-russia.org/support/topic/rurumo
+Description: Автоматическое обновление переводов. Антону Скоробогатову (<strong>rurumo</strong>) посвящается.
 Author: Sol
-Version: 0.1
+Version: 0.2-trunk
 Author URI: http://salpagarov.ru
 */
 
@@ -18,13 +18,13 @@ Author URI: http://salpagarov.ru
 function rurumo_check ($file, $ver) {
 	
 	$response = '';
-	if ( false !== ( $fs = @fsockopen( 'wordpress-russia.org', 80, $errno, $errstr, 3 ) ) && is_resource($fs) ) {
-		fwrite( $fs, "GET /rurumo/$file.zip?version=$ver HTTP/1.0\r\nHost: wordpress-russia.org\r\n\r\n" );
+	if ( false !== ( $fs = @fsockopen( 'l10n-ru.googlecode.com', 80, $errno, $errstr, 3 ) ) && is_resource($fs) ) {
+		fwrite( $fs, "GET /files/{$file}-{$ver}-ru_RU.zip HTTP/1.0\r\nHost: l10n-ru.googlecode.com\r\n\r\n" );
 		while (!feof($fs)) $response .= fgets( $fs, 1160 ); // One TCP-IP packet
 		fclose( $fs );
 
 		$response = explode("\r\n\r\n", $response, 2);
-		if ( preg_match( '|HTTP/.*? 200|', $response[0] ) ) return "http://wordpress-russia.org/rurumo/$file.zip?version=$ver";
+		if ( preg_match( '|HTTP/.*? 200|', $response[0] ) ) return "http://l10n-ru.googlecode.com/files/{$file}-{$ver}-ru_RU.zip";
 	}
 	return false;
 }
@@ -106,9 +106,9 @@ function rurumo_notification ($file_name) {
 		$rurumo[$plugin_pack]->checked = time();
 	}
 	if (($rurumo[$plugin_pack]->package != null) && ($rurumo[$plugin_pack]->installed == false)) {
-		echo "<tr><td colspan='5' class='plugin-update'>";
-		echo "Перевод этого плагина вы можете скачать с сайта <a href='".$rurumo[$plugin_pack]->package."'>wordpress-russia.org</a> или <a href='/wp-admin/admin.php?page=rurumo/update.php&update=$plugin_pack'>установить автоматически</a>.";
-		echo "</td></td>";
+		echo '<tr class="plugin-update-tr"><td colspan="3" class="plugin-update" ><div class="update-message">';
+		echo "Перевод этого плагина вы можете скачать с сайта <a href='".$rurumo[$plugin_pack]->package."'>l10n.googlecode.com</a> или <a href='/wp-admin/admin.php?page=rurumo/update.php&update=$plugin_pack'>установить автоматически</a>.";
+		echo '</div></td></td>';
 	}
 	update_option('rurumo', serialize($rurumo));
 }
