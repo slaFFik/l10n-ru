@@ -82,33 +82,26 @@ $rurumo = unserialize(get_option('rurumo'));
  *
  * @param staring $file_name
  */
-function rurumo_notification ($file_name) {
-	global $rurumo, $plugin_data;
-	
+function rurumo_notification ($file_name, $plugin_data) {
+	global $rurumo;
+
 	$plugin_name = basename($file_name,'.php');
 	$plugin_dir  = dirname ($file_name);
-	$fp = fopen(ABSPATH.PLUGINDIR.'/'.$file_name, 'r');
-	$component_data = fread($fp, 8192);
-	fclose($fp);
-
-	preg_match( '|Version: *(.*)$|mi', $component_data, $description); 
-		$plugin_ver = trim($description [1]);
 	$plugin_pack = ($plugin_dir!='.'?$plugin_dir:$plugin_name);
-	
+
 	if (!isset($rurumo[$plugin_pack])) {
 		$rurumo[$plugin_pack]->checked = 0;
 		$rurumo[$plugin_pack]->installed = false;
-		$rurumo[$plugin_pack]->report = ABSPATH.PLUGINDIR.'/'.$file_name.".ru.txt";
+		$rurumo[$plugin_pack]->report = ABSPATH.PLUGINDIR.'/'.$plugin_name.".ru.txt";
 	}
 	if (file_exists($rurumo[$plugin_pack]->report)) {
 		$rurumo[$plugin_pack]->installed  = true;
 	}
 	else if (time() - $rurumo[$plugin_pack]->checked > 43200 ) {
-		$rurumo[$plugin_pack]->package = rurumo_check ($plugin_pack, $plugin_ver);
+		$rurumo[$plugin_pack]->package = rurumo_check ($plugin_pack, $plugin_data['Version']);
 		$rurumo[$plugin_pack]->checked = time();
 	}
 	if (($rurumo[$plugin_pack]->package != null) && ($rurumo[$plugin_pack]->installed == false)) {
-		$rurumo_path = WP_PLUGIN_URL . '/' . dirname(plugin_basename(__FILE__));
 		echo '<tr class="plugin-update-tr"><td colspan="3" class="plugin-update" ><div class="update-message">';
 		$url = wp_nonce_url('update.php?action=rurumo-get-translation&plugin=' . $plugin_pack, 'rurumo');
 		echo "Перевод этого плагина вы можете скачать с сайта <a href='".$rurumo[$plugin_pack]->package."'>l10n.googlecode.com</a> или <a href='$url'>установить автоматически</a>.";		
@@ -116,7 +109,7 @@ function rurumo_notification ($file_name) {
 	}
 	update_option('rurumo', serialize($rurumo));
 }
-add_action('after_plugin_row', 'rurumo_notification');
+add_action('after_plugin_row', 'rurumo_notification', 10, 2);
 
 function rurumo_get_translation() {
 	global $rurumo, $wp_filesystem;
@@ -135,12 +128,7 @@ function rurumo_get_translation() {
 		require_once(ABSPATH . 'wp-admin/admin-header.php');
 
 		include(dirname(__FILE__) . '/update.php');
-
-		$update_actions =  array(
-			'plugins_page' => '<a href="' . admin_url('plugins.php') . '" title="' . esc_attr__('Goto plugins page') . '" target="_parent">' . __('Return to Plugins page') . '</a>'
-		);
-		$plugin_upgrader_skin = new Plugin_Upgrader_Skin( compact('title', 'nonce', 'url', 'plugin') );
-		$plugin_upgrader_skin->feedback('<strong>' . __('Actions:') . '</strong> ' . implode(' | ', (array)$update_actions));
+		echo '<p><strong>' . __('Actions:') . '</strong> <a href="' . admin_url('plugins.php') . '" title="' . esc_attr__('Goto plugins page') . '" target="_parent">' . __('Return to Plugins page') . '</a></p>';
 
 		include(ABSPATH . 'wp-admin/admin-footer.php');
 	}
