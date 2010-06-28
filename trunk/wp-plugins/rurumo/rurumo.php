@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: rurumo
-Plugin URI: http://wordpress-russia.org/support/topic/rurumo
+Plugin URI: http://code.google.com/p/l10n-ru/
 Description: Автоматическое обновление переводов. Антону Скоробогатову (<strong>rurumo</strong>) посвящается.
-Author: Sol
+Author: Sol, Sergey Biryukov
 Version: 0.2-trunk
-Author URI: http://salpagarov.ru
+Author URI: http://ru.wordpress.org/
 */
 
 /**
