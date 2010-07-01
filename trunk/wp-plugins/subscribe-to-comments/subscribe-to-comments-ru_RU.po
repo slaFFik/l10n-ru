@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Subscribe To Comments 2.1\n"
+"Project-Id-Version: Subscribe To Comments 2.1.2\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-07-31 19:13+0300\n"
-"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
-"Language-Team: MyWordpress.ru <wordpress.ru@gmail.com>\n"
+"PO-Revision-Date: 2010-07-02 01:56+0300\n"
+"Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
+"Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,7 +45,7 @@ msgstr "E-mail &laquo;От кого&raquo; для уведомлений:"
 
 #: subscribe-to-comments.php:146
 msgid "Do a CSS \"clear\" on the subscription checkbox/message (uncheck this if the checkbox/message appears in a strange location in your theme)"
-msgstr "Присвоить чекбоксу и сообщению о подписке CSS-атрибут &laquo;clear&raquo; (уберите галочку, если чекбокс или сообщение появляется в непонятном месте)"
+msgstr "Присвоить галочке и сообщению о подписке CSS-атрибут &laquo;clear&raquo; (уберите галочку, если чекбокс или сообщение появляется в непонятном месте)"
 
 #: subscribe-to-comments.php:149
 msgid "Comment Form Text"
@@ -73,7 +73,7 @@ msgstr "Использовать свой стиль для менеджера �
 
 #: subscribe-to-comments.php:167
 msgid "These settings only matter if you are using a custom style.  <code>[theme_path]</code> will be replaced with the path to your current theme."
-msgstr "Эти настройки имеют значение, только если вы используете свой стиль. <code>[theme_path]</code> будет заменен на путь до текущей темы."
+msgstr "Эти настройки имеют значение, только если вы используете свой стиль. <code>[theme_path]</code> будет заменён на путь до текущей темы."
 
 #: subscribe-to-comments.php:170
 msgid "Path to header:"
@@ -123,7 +123,7 @@ msgstr "Для этой записи обсуждение закрыто."
 #: subscribe-to-comments.php:599
 #, php-format
 msgid "There is a new comment on the post \"%s\""
-msgstr "Новый комментарий на запись \"%s\""
+msgstr "Новый комментарий к записи «%s»"
 
 #: subscribe-to-comments.php:600
 #, php-format
@@ -140,7 +140,7 @@ msgstr "Посмотреть все комментарии к этой запи�
 
 #: subscribe-to-comments.php:605
 msgid "To manage your subscriptions or to block all notifications from this site, click the link below:\n"
-msgstr "Для управления подпиской или отмены всех уведомлений с сайта, нажмите на следующую ссылку: \n"
+msgstr "Чтобы изменить настройки подписки или отключить все уведомления с этого сайта, нажмите на следующую ссылку:\n"
 
 #: subscribe-to-comments.php:608
 #, php-format
@@ -157,7 +157,7 @@ msgid ""
 "You are receiving this message to confirm a change of e-mail address for your subscriptions at \"%s\"\n"
 "\n"
 msgstr ""
-"Вы получили это сообщение, чтобы подтвердить изменение e-mail для ваших подписок на &laquo;%s&raquo;\n"
+"Вы получили это сообщение, чтобы подтвердить изменение e-mail для ваших подписок на сайте «%s»\n"
 "\n"
 
 #: subscribe-to-comments.php:629
@@ -166,7 +166,7 @@ msgid ""
 "To change your e-mail address to %s, click this link:\n"
 "\n"
 msgstr ""
-"Чтобы изменить Ваш e-mail на %s, щелкните по следующей ссылке: \n"
+"Чтобы изменить Ваш e-mail на %s, щёлкните по следующей ссылке:\n"
 "\n"
 
 #: subscribe-to-comments.php:631
@@ -192,7 +192,7 @@ msgid ""
 "To cancel all future notifications for this address, click this link:\n"
 "\n"
 msgstr ""
-"Чтобы отменить все будущие уведомления, щелкните по следующей ссылке: \n"
+"Чтобы отменить все будущие уведомления, щёлкните по следующей ссылке:\n"
 "\n"
 
 #: subscribe-to-comments.php:681
@@ -235,12 +235,12 @@ msgstr "Менеджер подписок"
 #: subscribe-to-comments.php:872
 #, php-format
 msgid "All notifications that were formerly sent to <strong>%1$s</strong> will now be sent to <strong>%2$s</strong>!"
-msgstr "Все уведомления, которы отправлялись на адрес <strong>%1$s</strong> теперь будут направляться на адрес <strong>%2$s</strong>!"
+msgstr "Все уведомления, которые отправлялись по адресу <strong>%1$s</strong>, теперь будут отправляться по адресу <strong>%2$s</strong>!"
 
 #: subscribe-to-comments.php:884
 #, php-format
 msgid "<strong>%1$s</strong> %2$s removed successfully."
-msgstr "<strong>%1$s</strong> %2$s удален."
+msgstr "<strong>%1$s</strong> %2$s успешно удалён."
 
 #: subscribe-to-comments.php:884
 msgid "subscriptions"
@@ -253,7 +253,7 @@ msgstr "подписка"
 #: subscribe-to-comments.php:889
 #, php-format
 msgid "The block on <strong>%s</strong> has been successfully removed."
-msgstr "Блокировка адреса <strong>%s</strong> была удалена."
+msgstr "Блокировка адреса <strong>%s</strong> успешно снята."
 
 #: subscribe-to-comments.php:891
 #, php-format
@@ -268,7 +268,7 @@ msgstr "<strong>%s</strong> заблокирован от получения у�
 #: subscribe-to-comments.php:899
 #, php-format
 msgid "Your change of e-mail request was successfully received.  Please check your old account (<strong>%s</strong>) in order to confirm the change."
-msgstr "Запрос на изменения e-mail принят. Пожалуйста, проверьте ваш старый адрес (<strong>%s</strong>), чтобы подтвердить изменение."
+msgstr "Запрос на изменение e-mail принят. Пожалуйста, проверьте ваш старый адрес (<strong>%s</strong>), чтобы подтвердить изменение."
 
 #: subscribe-to-comments.php:904
 #, php-format
@@ -410,7 +410,7 @@ msgstr "Изменить e-mail"
 #: subscribe-to-comments.php:1189
 #, php-format
 msgid "If you would like to change the e-mail address for your subscriptions, enter the new address below.  You will be required to verify this request by clicking a special link sent to your current address (<strong>%s</strong>)."
-msgstr "Если вы хотите изменить адрес подписки, введите его в следующее поле. Вам необходимо будет подтвердить свое желание, нажав на ссылку, которую мы отправим на ваш текущий адрес (<strong>%s</strong>)."
+msgstr "Если вы хотите изменить адрес подписки, введите его в следующее поле. Вам необходимо будет подтвердить своё желание, нажав на ссылку, которую мы отправим на ваш текущий адрес (<strong>%s</strong>)."
 
 #: subscribe-to-comments.php:1193
 msgid "New E-mail Address:"
