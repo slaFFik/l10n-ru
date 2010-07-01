@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress Database Backup\n"
+"Project-Id-Version: WordPress Database Backup 2.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-12-10 16:52+0300\n"
-"PO-Revision-Date: 2008-12-10 17:02+0300\n"
-"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
-"Language-Team: Sergey Biryukov <npocmop@gmail.com>\n"
+"POT-Creation-Date: 2010-07-02 02:16+0300\n"
+"PO-Revision-Date: 2010-07-02 02:18+0300\n"
+"Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
+"Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -96,23 +96,17 @@ msgstr "Не удалось открыть файл архива для запи
 msgid "The backup file could not be saved.  Please check the permissions for writing to your backup directory and try again."
 msgstr "Не удалось сохранить файл архива. Пожалуйста, проверьте права на запись в резервную директорию и попробуйте еще раз."
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:318
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:626
 #: wp-db-backup.php:381
 #: wp-db-backup.php:885
 msgid "WordPress MySQL database backup"
 msgstr "Резервная копия базы данных WordPress"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:320
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:628
 #: wp-db-backup.php:383
 #: wp-db-backup.php:887
 #, php-format
 msgid "Generated: %s"
 msgstr "Дата: %s"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:321
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:629
 #: wp-db-backup.php:384
 #: wp-db-backup.php:888
 #, php-format
@@ -174,7 +168,6 @@ msgstr "Последующие ошибки не приведены в этом 
 msgid "Error getting table details"
 msgstr "Ошибка получения информации о таблице"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:510
 #: wp-db-backup.php:764
 #, php-format
 msgid "Delete any existing table %s"
@@ -195,13 +188,11 @@ msgstr "Ошибка в запросе SHOW CREATE TABLE для %s."
 msgid "Error getting table structure of %s"
 msgstr "Ошибка получения структуры таблицы %s"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:540
 #: wp-db-backup.php:794
 #, php-format
 msgid "Data contents of table %s"
 msgstr "Содержимое таблицы %s"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:605
 #: wp-db-backup.php:864
 #, php-format
 msgid "End of data contents of table %s"
@@ -220,7 +211,6 @@ msgstr "Файл не найден:%s"
 msgid "Return to Backup"
 msgstr "Вернуться к резервному копированию"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:773
 #: wp-db-backup.php:1025
 #, php-format
 msgid "File %s does not exist!"
@@ -246,7 +236,6 @@ msgstr "Архив базы данных"
 msgid "The following errors were reported:"
 msgstr "Обнаружены следующие ошибки:"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:728
 #: wp-db-backup.php:1041
 msgid "ERROR: The mail application has failed to deliver the backup."
 msgstr "ОШИБКА: Почтовое приложение не может отправить архив."
@@ -378,7 +367,6 @@ msgstr "Следующий ежедневный запуск WP-Cron: %s"
 msgid "Schedule: "
 msgstr "Расписание:"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:820
 #: wp-db-backup.php:1263
 msgid "None"
 msgstr "Нет"
@@ -395,23 +383,19 @@ msgstr "Запомнить расписание"
 msgid "Tables to include in the scheduled backup:"
 msgstr "Включить в архив по расписанию следующие таблицы:"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:946
 #: wp-db-backup.php:1323
 msgid "Never"
 msgstr "Никогда"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:951
 #: wp-db-backup.php:1328
 #, php-format
 msgid "%s seconds"
 msgstr "%s секунд"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:984
 #: wp-db-backup.php:1361
 msgid "Once Weekly"
 msgstr "Раз в неделю"
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:997
 #: wp-db-backup.php:1374
 #, php-format
 msgid "Your WordPress version, %1s, lacks important security features without which it is unsafe to use the WP-DB-Backup plugin.  Hence, this plugin is automatically disabled.  Please consider <a href=\"%2s\">upgrading WordPress</a> to a more recent version."
@@ -421,23 +405,12 @@ msgstr "В вашей версии WordPress (%1s) отсутствуют кри
 msgid "You are not allowed to perform backups."
 msgstr "Вам не разрешено делать резервные копии."
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:1027
 #: wp-db-backup.php:1407
 #, php-format
 msgid "There appears to be an unauthorized attempt from this site to access your database located at %1s.  The attempt has been halted."
 msgstr "Похоже, с этого сайта была произведена несанкционированная попытка доступа к БД, расположенной на %1s. Попытка предотвращена."
 
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:889
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:892
-# H:\home\wordpress\www\wp-content\plugins\wp-db-backup/wp-db-backup.php:895
 #: wp-db-backup.php:1418
 msgid "Cheatin' uh ?"
 msgstr "Играемся, что ли?"
-
-#~ msgid ""
-#~ "WARNING: Your wp-content directory is <strong>NOT</strong> writable! We "
-#~ "can not create the backup directory."
-#~ msgstr ""
-#~ "ВНИМАНИЕ: Директория wp-content <strong>НЕДОСТУПНА</strong> для записи! "
-#~ "Не удалось создать резервную директорию."
 
