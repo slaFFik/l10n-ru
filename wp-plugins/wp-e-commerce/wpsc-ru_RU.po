@@ -1,9 +1,14 @@
+# Над переводом в разное время работали:
+# * Николай Першай (http://www.mikolka.info/)
+# * Иван Калинин (http://lecactus.ru/)
+# * Вячеслав Абакумов (http://cosydale.com/)
+# * Сергей Бирюков (http://sergeybiryukov.ru/)
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Shopping Cart 3.7.6.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-e-commerce\n"
 "POT-Creation-Date: 2010-06-15 23:21+0000\n"
-"PO-Revision-Date: 2010-07-04 04:20+0300\n"
+"PO-Revision-Date: 2010-07-04 04:23+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
