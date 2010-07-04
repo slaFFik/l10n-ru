@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WP Shopping Cart 3.7.6.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-e-commerce\n"
 "POT-Creation-Date: 2010-06-15 23:21+0000\n"
-"PO-Revision-Date: 2010-07-04 04:23+0300\n"
+"PO-Revision-Date: 2010-07-04 05:03+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -134,7 +134,7 @@ msgstr "В виде каталога"
 #: admin-form-functions.php:175
 #: wpsc-includes/form-display.functions.php:6
 msgid "Please select"
-msgstr "Пожалуйста выберите"
+msgstr "Пожалуйста, выберите"
 
 #: admin-form-functions.php:176
 #: wpsc-admin/display-groups.page.php:835
@@ -412,7 +412,7 @@ msgstr "Товаров"
 #: admin-form-functions.php:595
 #: admin-form-functions.php:596
 msgid "group"
-msgstr "группа"
+msgstr "Группа"
 
 #: admin-form-functions.php:595
 #: admin-form-functions.php:596
@@ -589,7 +589,7 @@ msgstr "Маркетинг"
 
 #: display-coupons.php:485
 msgid "Display Cross Sales"
-msgstr "Показывать перекрёстные продажи"
+msgstr "Отображать перекрёстные продажи"
 
 #: display-coupons.php:509
 msgid "Show Share This (Social Bookmarks)"
@@ -597,7 +597,7 @@ msgstr "Показывать социальные закладки"
 
 #: display-coupons.php:532
 msgid "Display How Customer Found Us Survey"
-msgstr "Отображать как пользователь нашёл наш сервис"
+msgstr "Отображать опрос &laquo;Как клиент нас нашёл&raquo;"
 
 #: display-coupons.php:549
 #: wpsc-admin/display-groups.page.php:642
@@ -607,7 +607,7 @@ msgstr "Отправить"
 
 #: display-coupons.php:555
 msgid "RSS Address"
-msgstr "RSS ссылка"
+msgstr "RSS-лента"
 
 #: display-coupons.php:559
 msgid "<strong>Note:</strong> Not only can people use this RSS to keep update with your product list but you can also use this link to promote your products in your facebook profile. <br />Just add the <a href=\"http://apps.facebook.com/getshopped\">getshopped! facebook application</a> to your facebook profile and follow the instructions."
@@ -635,11 +635,11 @@ msgstr "Дата регистрации"
 
 #: display-ecommerce-subs.php:9
 msgid "Suspend"
-msgstr "Приостановлен"
+msgstr "Заблокировать"
 
 #: display-ecommerce-subs.php:9
 msgid "Activate"
-msgstr "Активирован"
+msgstr "Активировать"
 
 #: edit-profile.php:31
 #: wpsc-includes/install_and_update.functions.php:650
@@ -724,7 +724,7 @@ msgstr "Спасибо, Ваши изменения внесены."
 
 #: edit-profile.php:188
 msgid "Save Profile"
-msgstr "сохранить профиль"
+msgstr "Сохранить профиль"
 
 #: editor.php:49
 msgid "placeholder for:"
@@ -748,7 +748,7 @@ msgstr "Отмена"
 
 #: google_shipping_country.php:7
 msgid "Google Shipping Country"
-msgstr "Google Shipping Country"
+msgstr "Страна доставки Google"
 
 #: google_shipping_country.php:43
 #: tax_and_shipping.php:86
@@ -832,12 +832,12 @@ msgstr "Слайдер товара"
 #: wpsc-admin/includes/display-items-functions.php:137
 #: wpsc-admin/includes/display-items-functions.php:139
 msgid "Add Product"
-msgstr "Добавить новый товар"
+msgstr "Добавить товар"
 
 #: js/tinymce3/window.php:48
 #: js/tinymce3/window.php:76
 msgid "Select Category"
-msgstr "ыберите категорию"
+msgstr "Выберите категорию"
 
 #: js/tinymce3/window.php:51
 #: js/tinymce3/window.php:78
@@ -1146,7 +1146,7 @@ msgstr "Адрес предприятия"
 
 #: shipping/ups.php:104
 msgid "Packaging"
-msgstr "Упаковывка"
+msgstr "Упаковка"
 
 #: shipping/ups.php:124
 msgid "Use Testing Environment"
@@ -1194,7 +1194,7 @@ msgstr "Использовать тестовый сервер:"
 
 #: shipping/weightrate.php:30
 msgid "Total weight <br />(<abbr alt=\"You must enter the weight here in pounds, regardless of what you used on your products\" title=\"You must enter the weight here in pounds, regardless of what you used on your products\">in Pounds</abbr>)"
-msgstr ""
+msgstr "Общий вес <br />(<abbr alt=\"Здесь нужно указать вес в фунтах, независимо от единиц, используемых для товаров\" title=\"Здесь нужно указать вес в фунтах, независимо от единиц, используемых для товаров\">в фунтах</abbr>)"
 
 #: shipping/weightrate.php:35
 #: wpsc-admin/admin.php:367
@@ -1405,17 +1405,17 @@ msgstr "Посчитать стоимость доставки"
 #: themes/iShop/shopping_cart_page.php:95
 #: themes/marketplace/shopping_cart_page.php:94
 msgid "Please choose a country below to calculate your shipping costs"
-msgstr ""
+msgstr "Пожалуйста, выберите страну для подсчёта стоимости доставки"
 
 #: themes/default/shopping_cart_page.php:105
 msgid "Please provide a Zipcode and click Calculate in order to continue."
-msgstr ""
+msgstr "Пожалуйста, укажите индекс и нажмите &laquo;Посчитать&raquo; для продолжения."
 
 #: themes/default/shopping_cart_page.php:112
 #: themes/iShop/shopping_cart_page.php:139
 #: themes/marketplace/shopping_cart_page.php:138
 msgid "Sorry, online ordering is unavailable to this destination and/or weight. Please double check your destination details."
-msgstr ""
+msgstr "Извините, онлайн-заказ с такими параметрами доставки и веса недоступен. Пожалуйста, перепроверьте данные о доставке."
 
 #: themes/default/shopping_cart_page.php:130
 #: themes/iShop/shopping_cart_page.php:115
@@ -1437,13 +1437,13 @@ msgstr "Всего за доставку"
 #: themes/iShop/shopping_cart_page.php:196
 #: themes/marketplace/shopping_cart_page.php:194
 msgid "Not yet a member?"
-msgstr ""
+msgstr "Ещё не зарегистрированы?"
 
 #: themes/default/shopping_cart_page.php:226
 #: themes/iShop/shopping_cart_page.php:197
 #: themes/marketplace/shopping_cart_page.php:195
 msgid "In order to buy from us, you'll need an account. Joining is free and easy. All you need is a username, password and valid email address."
-msgstr ""
+msgstr "Чтобы делать покупки в нашем магазине, вам понадобится учётная запись. Регистрация бесплатна и проста. Нужен только логин, пароль и адрес e-mail."
 
 #: themes/default/shopping_cart_page.php:240
 #: themes/iShop/shopping_cart_page.php:211
@@ -1518,7 +1518,7 @@ msgstr "Персонализировать ваш товар"
 #: themes/iShop/single_product.php:100
 #: themes/marketplace/single_product.php:102
 msgid "Complete this form to include a personalized message with your purchase."
-msgstr "Заполните жту форму для включения персонализированной информации в товар."
+msgstr "Заполните эту форму для включения персонализированной информации в товар."
 
 #: themes/default/single_product.php:104
 #: themes/iShop/single_product.php:107
@@ -1589,7 +1589,7 @@ msgstr "Транзакция осуществлена успешно"
 #: transaction_results.php:40
 #: transaction_results.php:49
 msgid "Sorry your transaction was not accepted.<br /><a href="
-msgstr ""
+msgstr "Извините, ваша транзакция не была принята.<br /><a href="
 
 #: updates/updating_tasks.php:53
 msgid ""
@@ -1599,7 +1599,7 @@ msgstr ""
 
 #: updates/updating_tasks.php:56
 msgid "Your Order from %shop_name% has been dispatched"
-msgstr ""
+msgstr "Ваш заказа в магазине «%shop_name%» обработан"
 
 #: updates/updating_tasks.php:653
 #: updates/updating_tasks.php:660
@@ -2015,7 +2015,7 @@ msgstr "Вы действительно хотите удалить эту гр�
 
 #: wpsc-admin/display-groups.page.php:573
 msgid "Categorizing your products into groups help your customers find them. For instance if you sell hats and trousers you  might want to setup a Group called clothes and add hats and trousers to that group."
-msgstr "Групы помогают пользователям находить товары. Если вы продаёте футболки, шляпы и шорты Вы можете создать новую группу \"Одежда\" и затем добавить категории \"Футболки\", \"Шляпы\", \"Шорты\" в эту группу. Теперь вы можете определить добавляемый или редактируемый товар в соответствующую категорию."
+msgstr "Группы помогают вашим клиентам находить товары. Например, если вы продаёте шляпы и брюки &#8212; можно создать группу &laquo;Одежда&raquo; и добавить в неё категории &laquo;Шляпы&raquo; и &laquo;Брюки&raquo;."
 
 #: wpsc-admin/display-groups.page.php:588
 msgid "Select a Group to Manage"
@@ -2036,7 +2036,7 @@ msgstr "Править группу"
 
 #: wpsc-admin/display-groups.page.php:684
 msgid "&quot;[categorisation]&quot; Group"
-msgstr "Группа &quot;[categorisation]&quot;"
+msgstr "Группа &laquo;[categorisation]&raquo;"
 
 #: wpsc-admin/display-groups.page.php:694
 msgid "Image"
@@ -2044,12 +2044,12 @@ msgstr "Изображение"
 
 #: wpsc-admin/display-groups.page.php:717
 msgid "You are editing the &quot;[categorisation]&quot; Group"
-msgstr "Вы редактируете [categorisation] группу"
+msgstr "Вы редактируете группу &laquo;[categorisation]&raquo;"
 
 #: wpsc-admin/display-groups.page.php:738
 #: wpsc-admin/display-groups.page.php:742
 msgid "You are editing an item in the &quot;[categorisation]&quot; Group"
-msgstr "Вы редактируете элемент в [categorisation] группе"
+msgstr "Вы редактируете элемент группы &laquo;[categorisation]&raquo;"
 
 #: wpsc-admin/display-groups.page.php:741
 msgid "Edit Details"
@@ -2062,12 +2062,12 @@ msgstr "Добавить категорию"
 
 #: wpsc-admin/display-groups.page.php:760
 msgid "Adding a new category here will make it available when you add or edit a product."
-msgstr "Добавьте новую категорию и Вы сможете выбирать её при добавлении новго продукта."
+msgstr "После создания новой категории её можно выбрать при добавлении или редактировании товара."
 
 #: wpsc-admin/display-groups.page.php:766
 #: wpsc-admin/display-groups.page.php:769
 msgid "You are adding a new item to the &quot;[categorisation]&quot; Group"
-msgstr "Вы добавляете новый элемент в [categorisation] группу"
+msgstr "Вы добавляете новый элемент в группу &laquo;[categorisation]&raquo;"
 
 #: wpsc-admin/display-groups.page.php:791
 msgid "Group Parent"
@@ -2253,9 +2253,9 @@ msgstr[2] "Настройки доставки обновлены."
 #, php-format
 msgid "%s Checkout Field Added."
 msgid_plural "%s Checkout Fields Added."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s поле формы заказа добавлено."
+msgstr[1] "%s поля формы заказа добавлены."
+msgstr[2] "%s полей формы заказа добавлены."
 
 #: wpsc-admin/display-sales-logs.php:65
 #, php-format
@@ -2397,6 +2397,8 @@ msgid ""
 "You are about to delete this log '%s'\n"
 " 'Cancel' to stop, 'OK' to delete."
 msgstr ""
+"Вы собираетесь удалить журнал «%s»\n"
+" «Отмена» — оставить, «ОК» — удалить."
 
 #: wpsc-admin/display-sales-logs.php:297
 msgid "Remove this record"
@@ -2444,7 +2446,7 @@ msgstr ""
 
 #: wpsc-admin/display-sales-logs.php:390
 msgid "This shop is powered by "
-msgstr "Этот магазин представлен "
+msgstr "Этот магазин создан с помощью "
 
 #: wpsc-admin/display-sales-logs.php:399
 #, fuzzy
@@ -2457,7 +2459,7 @@ msgstr ""
 
 #: wpsc-admin/display-sales-logs.php:430
 msgid "View:"
-msgstr ""
+msgstr "Посмотреть:"
 
 #: wpsc-admin/display-sales-logs.php:468
 msgid "Filter"
@@ -2494,7 +2496,7 @@ msgstr "Обновления e-Commerce"
 
 #: wpsc-admin/display-upgrades.page.php:13
 msgid "Add more functionality to your e-Commerce site. Prices may be subject to change."
-msgstr ""
+msgstr "Добавьте функциональности вашему магазину. Цены могут меняться без уведомления."
 
 #: wpsc-admin/display-upgrades.page.php:19
 msgid "Pure Gold"
@@ -2604,23 +2606,20 @@ msgid "Product Name"
 msgstr "Имя товара"
 
 #: wpsc-admin/includes/display-items-functions.php:157
-#, fuzzy
 msgid "Display Product Shortcode"
-msgstr "Категории"
+msgstr "Код отображения товара"
 
 #: wpsc-admin/includes/display-items-functions.php:158
 msgid "Buy Now Shortcode"
 msgstr ""
 
 #: wpsc-admin/includes/display-items-functions.php:159
-#, fuzzy
 msgid "Add to Cart Shortcode"
-msgstr "Добавить в корзину"
+msgstr "Код добавления в корзину"
 
 #: wpsc-admin/includes/display-items-functions.php:165
-#, fuzzy
 msgid "Display Product Template Tag"
-msgstr "Товары"
+msgstr "Тег шаблона для отображения товара"
 
 #: wpsc-admin/includes/display-items-functions.php:166
 #, fuzzy
@@ -2754,7 +2753,7 @@ msgstr "Комиссия за международную пересылку"
 
 #: wpsc-admin/includes/display-items-functions.php:747
 msgid "Disregard Shipping for this product"
-msgstr ""
+msgstr "Не учитывать стоимость доставки этого продукта"
 
 #: wpsc-admin/includes/display-items-functions.php:776
 msgid "Advanced Options"
@@ -3286,7 +3285,7 @@ msgstr ""
 
 #: wpsc-admin/includes/settings-pages/presentation.php:280
 msgid "Read Tutorials"
-msgstr ""
+msgstr "Прочитать документацию"
 
 #: wpsc-admin/includes/settings-pages/presentation.php:285
 msgid "Product Page Settings"
@@ -3362,7 +3361,7 @@ msgstr "Скользящие группы товаров (1 товар на ст
 
 #: wpsc-admin/includes/settings-pages/presentation.php:518
 msgid "Show Subcategory Products in Parent Category"
-msgstr ""
+msgstr "Показывать товары из подкатегорий в родительской категории"
 
 #: wpsc-admin/includes/settings-pages/presentation.php:544
 msgid "Show Search"
@@ -3511,7 +3510,7 @@ msgstr "количество товаров на странице"
 
 #: wpsc-admin/includes/settings-pages/presentation.php:992
 msgid "Top"
-msgstr ""
+msgstr "Сверху"
 
 #: wpsc-admin/includes/settings-pages/presentation.php:993
 msgid "Bottom"
@@ -3604,7 +3603,7 @@ msgstr "Вы добавили товар &laquo;[product_name]&raquo; в кор�
 
 #: wpsc-includes/ajax.functions.php:107
 msgid "Sorry, but you cannot add zero items to your cart"
-msgstr ""
+msgstr "Извините, но в корзину нельзя добавить нулевое количество товара"
 
 #: wpsc-includes/ajax.functions.php:109
 msgid "Sorry, but there are only [number] of this item in stock."
@@ -3616,7 +3615,7 @@ msgstr "Извините, но товара &laquo;[product_name]&raquo; нет 
 
 #: wpsc-includes/ajax.functions.php:593
 msgid "You must select a shipping method, otherwise we cannot process your order."
-msgstr ""
+msgstr "Вам нужно выбрать метод доставки, иначе мы не сможем обработать ваш заказ."
 
 #: wpsc-includes/ajax.functions.php:598
 msgid "Please agree to the terms and conditions, otherwise we cannot process your order."
