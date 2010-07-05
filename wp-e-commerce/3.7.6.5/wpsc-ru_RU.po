@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WP Shopping Cart 3.7.6.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-e-commerce\n"
 "POT-Creation-Date: 2010-06-15 23:21+0000\n"
-"PO-Revision-Date: 2010-07-05 20:55+0300\n"
+"PO-Revision-Date: 2010-07-05 22:53+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1968,13 +1968,13 @@ msgstr "Редактировать вариацию"
 
 #: wpsc-admin/ajax-and-init.php:990
 msgid "Your Order"
-msgstr "Ваш Заказ"
+msgstr "Ваш заказ"
 
 #: wpsc-admin/ajax-and-init.php:1111
 #: wpsc-admin/ajax-and-init.php:1112
 #: wpsc-admin/includes/display-items-functions.php:1035
 msgid "Click to download"
-msgstr "Нажмите здесь чтобы скачать"
+msgstr "Нажмите, чтобы скачать"
 
 #: wpsc-admin/ajax-and-init.php:1237
 msgid "The administrator has unlocked your file"
@@ -1997,24 +1997,24 @@ msgstr "Выберите рынки, которым вы продаёте эту
 
 #: wpsc-admin/display-groups.page.php:236
 msgid "The item has been added"
-msgstr "Успешно добавлено"
+msgstr "Элемент добавлен"
 
 #: wpsc-admin/display-groups.page.php:238
 #: wpsc-admin/display-groups.page.php:244
 msgid "The item has not been added"
-msgstr "Не удалось добавить"
+msgstr "Элемент не добавлен"
 
 #: wpsc-admin/display-groups.page.php:469
 msgid "The product group has been edited."
-msgstr "Категория отредактирована."
+msgstr "Группа товаров изменена."
 
 #: wpsc-admin/display-groups.page.php:474
 msgid "The group has been added."
-msgstr "Группа была добавлена."
+msgstr "Группа добавлена."
 
 #: wpsc-admin/display-groups.page.php:486
 msgid "The group has been edited."
-msgstr "Группа отредактирована."
+msgstr "Группа изменена."
 
 #: wpsc-admin/display-groups.page.php:542
 msgid "Are you sure you want to delete this category? If the category has any subcategories, they will be deleted too."
@@ -2043,7 +2043,7 @@ msgstr "Добавить новую группу"
 
 #: wpsc-admin/display-groups.page.php:649
 msgid "Edit Group"
-msgstr "Править группу"
+msgstr "Редактировать группу"
 
 #: wpsc-admin/display-groups.page.php:684
 msgid "&quot;[categorisation]&quot; Group"
