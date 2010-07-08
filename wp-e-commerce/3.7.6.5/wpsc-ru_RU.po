@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WP Shopping Cart 3.7.6.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-e-commerce\n"
 "POT-Creation-Date: 2010-06-15 23:21+0000\n"
-"PO-Revision-Date: 2010-07-05 22:53+0300\n"
+"PO-Revision-Date: 2010-07-08 16:28+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1243,7 +1243,7 @@ msgstr "Шт."
 #: themes/iShop/cart_widget.php:60
 #: themes/marketplace/cart_widget.php:59
 msgid "Postage &amp; Tax "
-msgstr "Доставка и Налог "
+msgstr "Доставка и налог "
 
 #: themes/default/cart_widget.php:63
 #: themes/iShop/cart_widget.php:64
@@ -1268,7 +1268,7 @@ msgstr "Очистить корзину"
 #: themes/marketplace/cart_widget.php:76
 #: wpsc-includes/display.functions.php:153
 msgid "Go to Checkout"
-msgstr "Перейти к проверке"
+msgstr "Перейти к заказу"
 
 #: themes/default/cart_widget.php:78
 #: themes/iShop/cart_widget.php:79
@@ -1303,7 +1303,7 @@ msgstr "Позиция количества страниц"
 #: themes/marketplace/single_product.php:192
 #: widgets/specials_widget.php:66
 msgid "This product has sold out."
-msgstr "Этот товар был продан."
+msgstr "Этот товар закончился."
 
 #: themes/default/grid_view.php:168
 #: themes/default/list_view.php:184
@@ -1367,7 +1367,7 @@ msgstr "P&amp;P"
 #: themes/iShop/shopping_cart_page.php:9
 #: themes/marketplace/shopping_cart_page.php:9
 msgid "Please review your order"
-msgstr "Пожалуйста, проверьте ваш заказ."
+msgstr "Пожалуйста, проверьте ваш заказ"
 
 #: themes/default/shopping_cart_page.php:37
 #: themes/default/shopping_cart_page.php:66
@@ -3061,7 +3061,7 @@ msgstr "Настройки контроля"
 
 #: wpsc-admin/includes/settings-pages/checkout.php:55
 msgid "Users must register before checking out"
-msgstr "пользователь должен быть зарегистрирован перед выпиской счёта"
+msgstr "Пользователи должны зарегистрироваться перед заказом"
 
 #: wpsc-admin/includes/settings-pages/checkout.php:75
 msgid "If yes then you must also turn on the wordpress option \"Any one can register\""
@@ -3073,7 +3073,7 @@ msgstr "Привязать налог к стране биллинга"
 
 #: wpsc-admin/includes/settings-pages/checkout.php:115
 msgid " Disregard Billing State for Tax Calculations"
-msgstr " Не учитывать штат биллинга при расчёте налога"
+msgstr " Не учитывать штат биллинга при расчёте налога (для США)"
 
 #: wpsc-admin/includes/settings-pages/checkout.php:140
 msgid "Enable Shipping Same as Billing Option: "
@@ -3215,7 +3215,7 @@ msgstr "Показывать рейтинг товаров"
 
 #: wpsc-admin/includes/settings-pages/presentation.php:146
 msgid "Display Fancy Purchase Notifications"
-msgstr "Показывать смешные ообщения о покупках"
+msgstr "Показывать подробные сообщения о покупке"
 
 #: wpsc-admin/includes/settings-pages/presentation.php:170
 msgid "Show Postage and Packaging"
