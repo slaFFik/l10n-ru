@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Allow Capital Letters In Username
+Plugin Name: Allow Capital Letters In Username (BuddyPress)
 Version: 0.1
 Plugin URI: http://ru.forums.wordpress.org/topic/3738
 Description: Allows to use uppercase latin letters when registering a new user.
