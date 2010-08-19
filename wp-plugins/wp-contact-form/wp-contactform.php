@@ -2,10 +2,10 @@
 /*
 Plugin Name: WP-ContactForm
 Plugin URI: http://blog.ftwr.co.uk/wordpress/
-Description: WP Contact Form is a drop in form for users to contact you. It can be implemented on a page or a post. It currently works with WordPress 2.0+
+Description: WP Contact Form is a drop in form for users to contact you. It can be implemented on a page or a post.
 Author: Ryan Duff, Peter Westwood
 Author URI: http://blog.ftwr.co.uk
-Version: 1.5.1
+Version: 1.5.1.1
 */
 
 load_plugin_textdomain('wpcf',$path = 'wp-content/plugins/wp-contact-form');
@@ -16,7 +16,7 @@ Based off Buttonsnap Template
 http://redalt.com/downloads
 */
 if(get_option('wpcf_show_quicktag') == true) {
-	include('buttonsnap.php');
+	include( plugin_dir_path(__FILE__) . 'buttonsnap.php');
 
 	add_action('init', 'wpcf_button_init');
 	add_action('marker_css', 'wpcf_marker_css');
@@ -111,33 +111,14 @@ function wpcf_callback( $content ) {
 	if(false === strpos($content, '<!--contact form-->')) {
 		return $content;
 	}
-
-	//Grab some default user info, if available
-	global $current_user;
-	if ( isset($current_user) ) {
-		$user = get_currentuserinfo();
-		$wpcf_auto_name = $current_user->display_name;
-		$wpcf_auto_email = $current_user->user_email;
-	} else {
-		$user = wp_get_current_commenter();
-		$wpcf_auto_name = $user['comment_author'];
-		$wpcf_auto_email = $user['comment_author_email'];
-	}
-	if ( empty($_POST['wpcf_email']) ) {
-		$_POST['wpcf_email'] = $wpcf_auto_email;
-	}
-	if ( empty($_POST['wpcf_your_name']) ) {
-		$_POST['wpcf_your_name'] = $wpcf_auto_name;
-	}
-
+	
 	/* Declare strings that change depending on input. This also resets them so errors clear on resubmission. */
 	$wpcf_strings = array(
-		'name' => '<div class="contactright"><input type="text" name="wpcf_your_name" id="wpcf_your_name" size="30" maxlength="50" value="' . $_POST['wpcf_your_name'] . '" /> (' . __('required', 'wpcf') . ')</div>',
-		'email' => '<div class="contactright"><input type="text" name="wpcf_email" id="wpcf_email" size="30" maxlength="50" value="' . $_POST['wpcf_email'] . '" /> (' . __('required', 'wpcf') . ')</div>',
-		'msg' => '<div class="contactright"><textarea name="wpcf_msg" id="wpcf_msg" cols="35" rows="8" >' . $_POST['wpcf_msg'] . '</textarea></div>',
-		'error' => ''
-	);
-
+		'name' => '<div class="contactright"><input type="text" name="wpcf_your_name" id="wpcf_your_name" size="30" maxlength="50" value="' . (isset($_POST['wpcf_your_name']) ? $_POST['wpcf_your_name'] :'') . '" /> (' . __('required', 'wpcf') . ')</div>',
+		'email' => '<div class="contactright"><input type="text" name="wpcf_email" id="wpcf_email" size="30" maxlength="50" value="' . (isset($_POST['wpcf_email']) ? $_POST['wpcf_email'] : '') . '" /> (' . __('required', 'wpcf') . ')</div>',
+		'msg' => '<div class="contactright"><textarea name="wpcf_msg" id="wpcf_msg" cols="35" rows="8" >' . (isset($_POST['wpcf_msg']) ? $_POST['wpcf_msg'] : '' ) . '</textarea></div>',
+		'error' => '');
+	
     if(wpcf_check_input()) // If the input check returns true (ie. there has been a submission & input is ok)
     {
             $recipient = get_option('wpcf_email');
@@ -150,15 +131,16 @@ function wpcf_callback( $content ) {
             $website = $_POST['wpcf_website'];
             $msg = $_POST['wpcf_msg'];
 
-            $headers = "From: $name <$email>\n";
+      			$headers = "MIME-Version: 1.0\n";
+						$headers .= "From: $name <$email>\n";
+						$headers .= "Content-Type: text/plain; charset=\"" . get_option('blog_charset') . "\"\n";
 
             $fullmsg = "$name wrote:\n";
             $fullmsg .= wordwrap($msg, 80, "\n") . "\n\n";
             $fullmsg .= "Website: " . $website . "\n";
             $fullmsg .= "IP: " . getip();
-            $fullmsg = str_replace("\r", "", $fullmsg);
 
-            wp_mail($recipient, $subject, $fullmsg, $headers);
+            mail($recipient, $subject, $fullmsg, $headers);
 
             $results = '<div style="font-weight: bold;">' . $success_msg . '</div>';
             echo $results;
@@ -170,7 +152,7 @@ function wpcf_callback( $content ) {
         	<form action="' . get_permalink() . '" method="post">
         		<div class="contactleft"><label for="wpcf_your_name">' . __('Your Name: ', 'wpcf') . '</label></div>' . $wpcf_strings['name']  . '
         		<div class="contactleft"><label for="wpcf_email">' . __('Your Email:', 'wpcf') . '</label></div>' . $wpcf_strings['email'] . '
-        		<div class="contactleft"><label for="wpcf_website">' . __('Your Website:', 'wpcf') . '</label></div><div class="contactright"><input type="text" name="wpcf_website" id="wpcf_website" size="30" maxlength="100" value="' . $_POST['wpcf_website'] . '" /></div>
+        		<div class="contactleft"><label for="wpcf_website">' . __('Your Website:', 'wpcf') . '</label></div><div class="contactright"><input type="text" name="wpcf_website" id="wpcf_website" size="30" maxlength="100" value="' . (isset($_POST['wpcf_website']) ? $_POST['wpcf_website'] : '') . '" /></div>
             	<div class="contactleft"><label for="wpcf_msg">' . __('Your Message: ', 'wpcf') . '</label></div>' . $wpcf_strings['msg'] . '
             	<div class="contactright"><input type="submit" name="Submit" value="' . __('Submit', 'wpcf') . '" id="contactsubmit" /><input type="hidden" name="wpcf_stage" value="process" /></div>
         	</form>

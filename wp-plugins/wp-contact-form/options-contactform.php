@@ -16,7 +16,7 @@ add_option('wpcf_error_msg', __('Please fill in the required fields.', 'wpcf'));
 add_option('wpcf_show_quicktag', TRUE);
 
 /*check form submission and update options*/
-if ('process' == $_POST['stage'])
+if (isset ($_POST['stage']) && ( 'process' == $_POST['stage']) )
 {
 update_option('wpcf_email', $_POST['wpcf_email']);
 update_option('wpcf_subject', $_POST['wpcf_subject']);
