@@ -131,16 +131,15 @@ function wpcf_callback( $content ) {
             $website = $_POST['wpcf_website'];
             $msg = $_POST['wpcf_msg'];
 
-      			$headers = "MIME-Version: 1.0\n";
-						$headers .= "From: $name <$email>\n";
-						$headers .= "Content-Type: text/plain; charset=\"" . get_option('blog_charset') . "\"\n";
+            $headers = "From: $name <$email>\n";
 
             $fullmsg = "$name wrote:\n";
             $fullmsg .= wordwrap($msg, 80, "\n") . "\n\n";
             $fullmsg .= "Website: " . $website . "\n";
             $fullmsg .= "IP: " . getip();
+            $fullmsg = str_replace("\r", "", $fullmsg);
 
-            mail($recipient, $subject, $fullmsg, $headers);
+            wp_mail($recipient, $subject, $fullmsg, $headers);
 
             $results = '<div style="font-weight: bold;">' . $success_msg . '</div>';
             echo $results;
