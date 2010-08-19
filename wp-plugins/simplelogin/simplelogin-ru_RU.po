@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: SimpleLogin 2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-20 00:38+0300\n"
-"PO-Revision-Date: 2010-08-20 00:38+0300\n"
+"PO-Revision-Date: 2010-08-20 00:59+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -46,43 +46,43 @@ msgstr ""
 
 #: simplelogin.php:117
 msgid "SimpleLogin"
-msgstr ""
+msgstr "SimpleLogin"
 
 #: simplelogin.php:157
 msgid "Welcome"
-msgstr ""
+msgstr "Привет,"
 
 #: simplelogin.php:166
 msgid "Dashboard"
-msgstr ""
+msgstr "Консоль"
 
 #: simplelogin.php:171
 msgid "Profile"
-msgstr ""
+msgstr "Профиль"
 
 #: simplelogin.php:174
 msgid "Logout"
-msgstr ""
+msgstr "Выйти"
 
 #: simplelogin.php:191
 msgid "Password:"
-msgstr ""
+msgstr "Пароль:"
 
 #: simplelogin.php:193
 msgid "Confirm Password:"
-msgstr ""
+msgstr "Подтверждение пароля:"
 
 #: simplelogin.php:202
 msgid "<strong>ERROR</strong>: Please enter a Password."
-msgstr ""
+msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите пароль."
 
 #: simplelogin.php:204
 msgid "<strong>ERROR</strong>: Your Password does not match."
-msgstr ""
+msgstr "<strong>ОШИБКА</strong>: Введённые пароли не совпадают."
 
 #: simplelogin.php:206
 msgid "<strong>ERROR</strong>: Your Password must be at least 6 characters in length."
-msgstr ""
+msgstr "<strong>ОШИБКА</strong>: Пароль должен состоять минимум из 6 символов."
 
 #: includes/admin-page.php:18
 msgid "Cheatin&#8217; huh?"
@@ -94,23 +94,23 @@ msgstr ""
 
 #: includes/admin-page.php:73
 msgid "SimpleLogin Settings"
-msgstr ""
+msgstr "Параметры SimpleLogin"
 
 #: includes/admin-page.php:78
 msgid "General Settings"
-msgstr ""
+msgstr "Общие настройки"
 
 #: includes/admin-page.php:81
 msgid "Plugin"
-msgstr ""
+msgstr "Плагин"
 
 #: includes/admin-page.php:84
 msgid "Uninstall"
-msgstr ""
+msgstr "Удалить"
 
 #: includes/admin-page.php:88
 msgid "Passwords"
-msgstr ""
+msgstr "Пароли"
 
 #: includes/admin-page.php:91
 msgid "Allow users to set their own password"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: includes/admin-page.php:96
 msgid "Redirection Settings"
-msgstr ""
+msgstr "Настройки перенаправления"
 
 #: includes/admin-page.php:97
 msgid "Leave blank to send a user back to the page that they logged in from."
@@ -130,7 +130,7 @@ msgstr ""
 
 #: includes/admin-page.php:110
 msgid "Template Settings"
-msgstr ""
+msgstr "Настройки шаблона"
 
 #: includes/admin-page.php:113
 msgid "Register Text"
@@ -207,11 +207,11 @@ msgstr "Ваше имя:"
 
 #: includes/admin-page.php:213
 msgid "Notification"
-msgstr ""
+msgstr "Уведомление"
 
 #: includes/admin-page.php:216
 msgid "Disable Notifcation"
-msgstr ""
+msgstr "Отключить уведомление"
 
 #: includes/admin-page.php:221
 #, fuzzy
@@ -225,7 +225,7 @@ msgstr "Сообщения"
 
 #: includes/admin-page.php:235
 msgid "Save Changes"
-msgstr ""
+msgstr "Сохранить изменения"
 
 #: includes/wp-login-actions.php:67
 msgid "Sorry, that key does not appear to be valid."
@@ -243,11 +243,11 @@ msgstr ""
 #: includes/wp-login-forms.php:41
 #: includes/wp-login-forms.php:83
 msgid "Username"
-msgstr ""
+msgstr "Имя пользователя"
 
 #: includes/wp-login-forms.php:45
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 #: includes/wp-login-forms.php:66
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
