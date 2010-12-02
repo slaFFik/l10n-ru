@@ -1,7 +1,7 @@
 #summary Описание и перевод плагина WP_Identicon.
 #labels Type-Plugin
 
-= WP_Identicon =
+= WP_Identicon на русском =
 
 *Версия:* 1.02
 
