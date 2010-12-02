@@ -1,7 +1,7 @@
 #summary Описание и перевод плагина WP-Email.
 #labels Type-Plugin
 
-= WP-Email =
+= WP-Email на русском =
 
 *Автор:* [http://lesterchan.net/wordpress/readme/wp-email.html Lester Chan]
 
