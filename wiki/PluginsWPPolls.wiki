@@ -1,7 +1,7 @@
 #summary Описание и перевод плагина WP-Polls.
 #labels Type-Plugin
 
-= WP-Polls =
+= WP-Polls на русском =
 
 *Автор:* [http://lesterchan.net/wordpress/readme/wp-polls.html Lester Chan]
 
