@@ -1,7 +1,7 @@
 #summary Описание и перевод плагина WP-DBManager.
 #labels Type-Plugin
 
-= WP-DBManager =
+= WP-DBManager на русском =
 
 *Автор:* [http://lesterchan.net/wordpress/readme/wp-dbmanager.html Lester Chan]
 
