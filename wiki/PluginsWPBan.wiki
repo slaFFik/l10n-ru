@@ -1,7 +1,7 @@
 #summary Описание и перевод плагина WP-Ban.
 #labels Type-Plugin
 
-= WP-Ban =
+= WP-Ban на русском =
 
 *Автор:* [http://lesterchan.net/wordpress/readme/wp-ban.html Lester Chan]
 
