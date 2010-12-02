@@ -1,7 +1,7 @@
 #summary Описание и перевод плагина WP-PluginsUsed.
 #labels Type-Plugin
 
-= WP-!PluginsUsed =
+= WP-!PluginsUsed на русском =
 
 *Автор:* [http://lesterchan.net/wordpress/readme/wp-pluginsused.html Lester Chan]
 
