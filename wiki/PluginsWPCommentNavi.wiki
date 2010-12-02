@@ -1,7 +1,7 @@
 #summary Описание и перевод плагина WP-CommentNavi.
 #labels Type-Plugin
 
-= WP-!CommentNavi =
+= WP-!CommentNavi на русском =
 
 *Автор:* [http://lesterchan.net/wordpress/readme/wp-commentnavi.html Lester Chan]
 
