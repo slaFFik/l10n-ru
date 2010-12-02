@@ -1,7 +1,7 @@
 #summary Описание и перевод плагина Plugin Commander.
 #labels Type-Plugin
 
-= Plugin Commander =
+= Plugin Commander на русском =
 
 *Автор:* [http://firestats.cc/wiki/WPMUPluginCommander Omry Yadan]
 
