@@ -1,7 +1,7 @@
 #summary Описание и перевод плагина WP-PageNavi.
 #labels Type-Plugin
 
-= WP-!PageNavi =
+= WP-!PageNavi на русском =
 
 *Автор:* [http://lesterchan.net/wordpress/readme/wp-pagenavi.html Lester Chan]
 
