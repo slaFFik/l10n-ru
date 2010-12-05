@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WP Shopping Cart 3.7.6.9\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-e-commerce\n"
 "POT-Creation-Date: 2010-08-30 22:47+0000\n"
-"PO-Revision-Date: 2010-12-05 11:38+0300\n"
+"PO-Revision-Date: 2010-12-05 12:07+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1646,7 +1646,7 @@ msgstr "Дата"
 
 #: user-downloads.php:69
 msgid "You have not purchased any downloadable products yet."
-msgstr "Вы не приобрели никких скачиваемых товаров пока."
+msgstr "Вы пока не приобрели никаких скачиваемых товаров."
 
 #: user-log.php:52
 msgid "Status"
@@ -1707,7 +1707,7 @@ msgstr "Пока никаких покупок не было."
 
 #: user-log.php:427
 msgid "You must be logged in to use this page. Please use the form below to login to your account."
-msgstr "Вы должны войти в систему для просмотра этой записис. Пожалуйста воспользуйтесь формой ниже, для входа."
+msgstr "Чтобы получить доступ к этой странице, нужно авторизоваться. Воспользуйтесь формой ниже для входа в вашу учётную запись."
 
 #: widgets/admin_menu_widget.php:8
 #: widgets/admin_menu_widget.php:22
@@ -3199,7 +3199,7 @@ msgstr "Импорт товаров из CSV"
 
 #: wpsc-admin/includes/settings-pages/import.php:8
 msgid "<p>You can import your products from a comma delimited text file.</p><p>An example of a cvs import file would look like this: </p><p>Description, Additional Description, Product Name, Price, SKU, weight, weight unit, stock quantity, is limited quantity</p>"
-msgstr "<p>Можно импортировать товары из текстового файла, разделённого запятымиYou can import your products from a comma delimited text file.</p><p>An example of a cvs import file would look like this: </p><p>Description, Additional Description, Product Name, Price, SKU, weight, weight unit, stock quantity, is limited quantity</p>"
+msgstr "<p>Можно импортировать товары из текстового файла, разделённого запятыми.</p><p>Пример файла в формате CSV может выглядеть так: </p><p>Описание, дополнительное описание, название товара, цена, учётная единица, вес, мера веса, количество на складе, ограниченное количество</p>"
 
 #: wpsc-admin/includes/settings-pages/presentation.php:14
 msgid "Show All Products"
