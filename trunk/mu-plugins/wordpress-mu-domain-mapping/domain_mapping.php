@@ -26,10 +26,10 @@ Author URI: http://ocaoimh.ie/
 */
 
 function dm_text_domain() {
-	if ( strpos( __FILE__, basename( MUPLUGINDIR ) ) === false )
-		$dm_directory =  dirname( plugin_basename(__FILE__) );
+	if ( defined( 'MUPLUGINDIR' ) && strpos( __FILE__, basename( 'MUPLUGINDIR' ) ) !== false )
+		$dm_directory = '../' . basename( 'MUPLUGINDIR' );
 	else
-		$dm_directory = '../' . basename( MUPLUGINDIR );
+		$dm_directory =  dirname( plugin_basename(__FILE__) );
 	load_plugin_textdomain( 'wordpress-mu-domain-mapping', false, $dm_directory . '/languages' );
 }
 add_action( 'init', 'dm_text_domain' );
