@@ -26,8 +26,8 @@ Author URI: http://ocaoimh.ie/
 */
 
 function dm_text_domain() {
-	if ( defined( 'MUPLUGINDIR' ) && strpos( __FILE__, basename( 'MUPLUGINDIR' ) ) !== false )
-		$dm_directory = '../' . basename( 'MUPLUGINDIR' );
+	if ( defined( 'MUPLUGINDIR' ) && strpos( __FILE__, basename( MUPLUGINDIR ) ) !== false )
+		$dm_directory = '../' . basename( MUPLUGINDIR );
 	else
 		$dm_directory =  dirname( plugin_basename(__FILE__) );
 	load_plugin_textdomain( 'wordpress-mu-domain-mapping', false, $dm_directory . '/languages' );
@@ -54,12 +54,12 @@ function dm_add_pages() {
 	if ( get_site_option( 'dm_user_settings' ) && $current_site->blog_id != $wpdb->blogid && !dm_sunrise_warning( false ) ) {
 		add_management_page( 'Domain Mapping', 'Domain Mapping', 'manage_options', 'domainmapping', 'dm_manage_page' );
 	}
-	if( is_site_admin() ) {
-		add_submenu_page('wpmu-admin.php', 'Domain Mapping', 'Domain Mapping', 'manage_options', 'dm_admin_page', 'dm_admin_page');
-		add_submenu_page('wpmu-admin.php', 'Domains', 'Domains', 'manage_options', 'dm_domains_admin', 'dm_domains_admin');
+	if( is_super_admin() ) {
+		add_submenu_page('index.php', 'Domain Mapping', 'Domain Mapping', 'manage_options', 'dm_admin_page', 'dm_admin_page');
+		add_submenu_page('index.php', 'Domains', 'Domains', 'manage_options', 'dm_domains_admin', 'dm_domains_admin');
 	}
 }
-add_action( 'admin_menu', 'dm_add_pages' );
+add_action( 'network_admin_menu', 'dm_add_pages' );
 
 // Default Messages for the users Domain Mapping management page
 // This can now be replaced by using:
@@ -91,7 +91,7 @@ function maybe_create_db() {
 
 	$wpdb->dmtable = $wpdb->base_prefix . 'domain_mapping';
 	$wpdb->dmtablelogins = $wpdb->base_prefix . 'domain_mapping_logins';
-	if ( is_site_admin() ) {
+	if ( is_super_admin() ) {
 		$created = 0;
 		if ( $wpdb->get_var("SHOW TABLES LIKE '{$wpdb->dmtable}'") != $wpdb->dmtable ) {
 			$wpdb->query( "CREATE TABLE IF NOT EXISTS `{$wpdb->dmtable}` (
@@ -123,7 +123,7 @@ function maybe_create_db() {
 
 function dm_domains_admin() {
 	global $wpdb, $current_site;
-	if ( false == is_site_admin() ) { // paranoid? moi?
+	if ( false == is_super_admin() ) { // paranoid? moi?
 		return false;
 	}
 
@@ -133,9 +133,6 @@ function dm_domains_admin() {
 		wp_die( sprintf( __( "<strong>Warning!</strong> This plugin will only work if WordPress is installed in the root directory of your webserver. It is currently installed in &#8217;%s&#8217;.", "wordpress-mu-domain-mapping" ), $current_site->path ) );
 	}
 
-	switch( $_POST[ 'action' ] ) {
-		default:
-	}
 	echo '<h2>' . __( 'Domain Mapping: Domains', 'wordpress-mu-domain-mapping' ) . '</h2>';
 	if ( !empty( $_POST[ 'action' ] ) ) {
 		check_admin_referer( 'domain_mapping' );
@@ -246,7 +243,7 @@ function dm_domain_listing( $rows, $heading = '' ) {
 
 function dm_admin_page() {
 	global $wpdb, $current_site;
-	if ( false == is_site_admin() ) { // paranoid? moi?
+	if ( false == is_super_admin() ) { // paranoid? moi?
 		return false;
 	}
 
@@ -376,7 +373,7 @@ function dm_sunrise_warning( $die = true ) {
 		if ( !$die )
 			return true;
 
-		if ( is_site_admin() ) {
+		if ( is_super_admin() ) {
 			wp_die( sprintf( __( "Please copy sunrise.php to %s/wp-content/sunrise.php and ensure the SUNRISE definition is in %swp-config.php", 'wordpress-mu-domain-mapping' ), ABSPATH, ABSPATH ) );
 		} else {
 			wp_die( __( "This plugin has not been configured correctly yet.", 'wordpress-mu-domain-mapping' ) );
@@ -385,7 +382,7 @@ function dm_sunrise_warning( $die = true ) {
 		if ( !$die )
 			return true;
 
-		if ( is_site_admin() ) {
+		if ( is_super_admin() ) {
 			wp_die( sprintf( __( "Please uncomment the line <em>define( 'SUNRISE', 'on' );</em> or add it to your %swp-config.php", 'wordpress-mu-domain-mapping' ), ABSPATH ) );
 		} else {
 			wp_die( __( "This plugin has not been configured correctly yet.", 'wordpress-mu-domain-mapping' ) );
@@ -394,7 +391,7 @@ function dm_sunrise_warning( $die = true ) {
 		if ( !$die )
 			return true;
 
-		if ( is_site_admin() ) {
+		if ( is_super_admin() ) {
 			wp_die( sprintf( __( "Please edit your %swp-config.php and move the line <em>define( 'SUNRISE', 'on' );</em> above the last require_once() in that file or make sure you updated sunrise.php.", 'wordpress-mu-domain-mapping' ), ABSPATH ) );
 		} else {
 			wp_die( __( "This plugin has not been configured correctly yet.", 'wordpress-mu-domain-mapping' ) );
@@ -416,7 +413,7 @@ function dm_manage_page() {
 	echo "<div class='wrap'><h2>" . __( 'Domain Mapping', 'wordpress-mu-domain-mapping' ) . "</h2>";
 
 	if ( false == get_site_option( 'dm_ipaddress' ) && false == get_site_option( 'dm_cname' ) ) {
-		if ( is_site_admin() ) {
+		if ( is_super_admin() ) {
 			_e( "Please set the IP address or CNAME of your server in the <a href='wpmu-admin.php?page=dm_admin_page'>site admin page</a>.", 'wordpress-mu-domain-mapping' );
 		} else {
 			_e( "This plugin has not been configured correctly yet.", 'wordpress-mu-domain-mapping' );
