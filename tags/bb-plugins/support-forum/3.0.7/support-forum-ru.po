@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Support Forum 3.0.7\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/support-forum\n"
 "POT-Creation-Date: 2008-05-08 23:54+1000\n"
-"PO-Revision-Date: 2010-09-06 00:57+0300\n"
+"PO-Revision-Date: 2011-04-13 02:01+0300\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -104,7 +104,7 @@ msgstr "Разрешить автору темы устанавливать ст
 
 #: support-forum.php:969
 msgid "Allow the poster of the topic to set the status at any time"
-msgstr "Разрешить комментаторам устанавливать статус в любое время"
+msgstr "Разрешить автору темы устанавливать статус в любое время"
 
 #: support-forum.php:974
 msgid "Choose which statuses will have a view:"
