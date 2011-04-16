@@ -1,0 +1,1418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FAQ-Tastic v1.0.15\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-07-10 11:27-0600\n"
+"Last-Translator: The-eBook <info@the-ebook.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: ajax.php:162
+#: models/question.php:236
+#@ faqtastic
+msgid "FAQ Answer: "
+msgstr "FAQ Ответ: "
+
+#: faq-tastic.php:165
+#@ faqtastic
+msgid "FAQ-Tastic Pro"
+msgstr "FAQ-Tastic Pro"
+
+#: faq-tastic.php:167
+#@ faqtastic
+msgid "FAQ-Tastic"
+msgstr "FAQ-Tastic"
+
+#: faq-tastic.php:338
+#@ faqtastic
+msgid "Your options have been saved"
+msgstr "Ваши настройки были сохранены"
+
+#: faq-tastic.php:347
+#@ faqtastic
+msgid "FAQ-Tastic has been removed"
+msgstr "FAQ-Tastic был удален"
+
+#: faq-tastic.php:453
+#, php-format
+#@ faqtastic
+msgid "Number of questions imported: %d"
+msgstr "Количество импортированных вопросов:  %d"
+
+#: faq-tastic.php:458
+#@ faqtastic
+msgid "Your question has been created and added to the end of the list"
+msgstr "Ваш вопрос был создан и добавлен в конец списка"
+
+#: faq-tastic.php:460
+#@ faqtastic
+msgid "You must supply a question &amp; answer"
+msgstr "Вы должны поставить вопрос и ответ"
+
+#: faq-tastic.php:481
+#@ faqtastic
+msgid "Your group has been created"
+msgstr "Ваша группа создана"
+
+#: faq-tastic.php:483
+#@ faqtastic
+msgid "You must supply a unique name and URL"
+msgstr "Вы должны указать уникальное имя и URL"
+
+#: faq-tastic.php:504
+#@ faqtastic
+msgid "Your page has been created"
+msgstr "Ваша страница была создана"
+
+#: models/defaults.php:8
+#@ faqtastic
+msgid "Ask Question"
+msgstr "Задать вопрос"
+
+#: models/defaults.php:46
+#@ faqtastic
+msgid "Thanks for your vote!"
+msgstr "Спасибо за Ваш голос!"
+
+#: models/group.php:229
+#@ faqtastic
+msgid "Ask question"
+msgstr "Задать вопрос"
+
+#: models/pager.php:384
+#@ redirection
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: models/pager.php:385
+#@ redirection
+msgid "Next"
+msgstr "Следующий"
+
+#: models/question.php:190
+msgid "FAQ-Tastic Question"
+msgstr "FAQ-Tastic вопрос"
+
+#: models/question.php:244
+#@ faqtastic
+msgid "Question submission: "
+msgstr "Отправить вопрос:"
+
+#: plugin.php:670
+#@ faq-tastic
+msgid "How many widgets would you like?"
+msgstr "Сколько виджетов Вы хотите?"
+
+#: plugin.php:677
+#: pro/view/admin/group_edit.php:54
+#: pro/view/admin/question_edit.php:171
+#: pro/view/admin/question_editHTML.php:182
+#: view/admin/group_edit.php:14
+#: view/admin/options.php:31
+#: view/admin/options.php:73
+#: view/admin/options.php:138
+#: view/admin/question_edit.php:66
+#@ faq-tastic
+#@ faqtastic
+msgid "Save"
+msgstr "Сохранить"
+
+#: pro/view/admin/group_edit.php:5
+#: pro/view/faqtastic/ask.php:17
+#: view/admin/group_edit.php:4
+#: view/admin/groups.php:16
+#@ faqtastic
+msgid "Name"
+msgstr "Имя"
+
+#: pro/view/admin/group_edit.php:9
+#: view/admin/group_edit.php:8
+#@ faqtastic
+msgid "Allow ratings"
+msgstr "Оценивать"
+
+#: pro/view/admin/group_edit.php:13
+#@ faqtastic
+msgid "Ask button"
+msgstr "Кнопка \"Спросить\""
+
+#: pro/view/admin/group_edit.php:17
+#: view/admin/groups.php:17
+#: view/admin/groups.php:72
+#@ faqtastic
+msgid "Attached page"
+msgstr "Прикреплена"
+
+#: pro/view/admin/group_edit.php:20
+#: view/admin/groups.php:74
+#@ faqtastic
+msgid "No page"
+msgstr "Нет страницы"
+
+#: pro/view/admin/group_edit.php:24
+#@ faqtastic
+msgid "Changing the attached page may affect links to Paged answers (i.e sub-pages).<br />"
+msgstr "Изменение расположения страницы может повлиять на ссылки которые указаны на станице ответов (например, к вложенным страницам).<br />"
+
+#: pro/view/admin/group_edit.php:25
+#@ faqtastic
+msgid "Ensure shortcodes are correct in the new Attached Page.<br />"
+msgstr "Убедитесь в правильности сокращенных команд в новом местоположении страницы.<br />"
+
+#: pro/view/admin/group_edit.php:26
+#@ faqtastic
+msgid "All Paged questions must be re-saved for changes.<br />"
+msgstr "Все страницы вопросов должны быть заново сохранены. <br />"
+
+#: pro/view/admin/group_edit.php:31
+#@ faqtastic
+msgid "Page title"
+msgstr "Название страницы"
+
+#: pro/view/admin/group_edit.php:35
+#@ faqtastic
+msgid "Meta-description"
+msgstr "Мета-описание"
+
+#: pro/view/admin/group_edit.php:39
+#@ faqtastic
+msgid "Meta-keywords"
+msgstr "Мета-ключевые слова"
+
+#: pro/view/admin/group_edit.php:43
+#: pro/view/admin/submenu.php:5
+#: view/admin/submenu.php:5
+#@ faqtastic
+msgid "Options"
+msgstr "Настройки"
+
+#: pro/view/admin/group_edit.php:45
+#@ faqtastic
+msgid "no follow"
+msgstr "не переходить"
+
+#: pro/view/admin/group_edit.php:46
+#@ faqtastic
+msgid "no index"
+msgstr "не индексировать"
+
+#: pro/view/admin/group_edit.php:55
+#: pro/view/admin/question_edit.php:172
+#: pro/view/admin/question_editHTML.php:183
+#: view/admin/group_edit.php:15
+#: view/admin/question_edit.php:67
+#@ faqtastic
+msgid "Cancel"
+msgstr "Отменить"
+
+#: pro/view/admin/group_page_publish.php:3
+#@ faqtastic
+msgid "Use"
+msgstr "Использовать"
+
+#: pro/view/admin/group_page_publish.php:5
+#@ faqtastic
+msgid "Summary List"
+msgstr "Краткий список вопросов"
+
+#: pro/view/admin/group_page_publish.php:6
+#@ faqtastic
+msgid "Ask Box"
+msgstr "Кнопка \"Вопрос\""
+
+#: pro/view/admin/group_page_publish.php:8
+#@ faqtastic
+msgid "(Edit Optional Text)"
+msgstr "(Редактировать необязательно)"
+
+#: pro/view/admin/import.php:2
+#@ faqtastic
+msgid "Import CSV File"
+msgstr "Импорт CSV файла"
+
+#: pro/view/admin/import.php:4
+#@ faqtastic
+msgid "Upload a CSV with questions and answers and import it into this Question Group."
+msgstr "Загрузить CSV файл с вопросами и ответами, и импортировать его в этой группе вопросов."
+
+#: pro/view/admin/import.php:12
+#: pro/view/admin/question_edit.php:25
+#: pro/view/admin/question_edit.php:84
+#: pro/view/admin/question_edit.php:154
+#: view/admin/groups.php:49
+#: view/admin/groups.php:82
+#: view/admin/groups.php:119
+#: view/admin/pending.php:47
+#: view/admin/questions.php:57
+#: view/admin/questions.php:86
+#@ faqtastic
+msgid "Notes:"
+msgstr "Примечание:"
+
+#: pro/view/admin/import.php:13
+#@ faqtastic
+msgid "WARNING: The format of your CSV file is important."
+msgstr "ВНИМАНИЕ: важен формат вашего CVS файла."
+
+#: pro/view/admin/import.php:14
+#@ faqtastic
+msgid "It is recommended that you download this Question Group's questions using the \"Download CSV file\" icon (see top of this page)."
+msgstr "Мы рекомендуем вам скачать эту группу вопросов используя кнопку \"Загрузить CSV файл\" (см. вверху этой страницы)."
+
+#: pro/view/admin/import.php:15
+#@ faqtastic
+msgid "This will provide you with the correct format for your CSV file upload."
+msgstr "Это позволит загрузить правильный формат CSV для Вашего файла."
+
+#: pro/view/admin/question_edit.php:4
+#: pro/view/admin/question_editHTML.php:4
+#@ faqtastic
+msgid "Basic"
+msgstr "Основные"
+
+#: pro/view/admin/question_edit.php:6
+#: pro/view/admin/question_edit.php:43
+#: pro/view/admin/question_editHTML.php:6
+#: pro/view/admin/question_editHTML.php:82
+#@ faqtastic
+msgid "Page URL"
+msgstr "Сайт"
+
+#: pro/view/admin/question_edit.php:8
+#: pro/view/admin/question_editHTML.php:8
+#@ faqtastic
+msgid "Author"
+msgstr "Автор"
+
+#: pro/view/admin/question_edit.php:10
+#: pro/view/admin/question_editHTML.php:10
+#: view/faqtastic/links.php:6
+#: view/faqtastic/question.php:2
+#: view/faqtastic/rating.php:2
+#@ faqtastic
+msgid "Rating"
+msgstr "Оценка"
+
+#: pro/view/admin/question_edit.php:12
+#: pro/view/admin/question_editHTML.php:12
+#@ faqtastic
+msgid "Group &amp; Related"
+msgstr "Похожие группы"
+
+#: pro/view/admin/question_edit.php:18
+#: pro/view/admin/question_editHTML.php:18
+#: pro/view/faqtastic/ask.php:6
+#: view/admin/question_edit.php:7
+#: view/admin/questions.php:72
+#: view/faqtastic/ask.php:6
+#@ faqtastic
+msgid "Question"
+msgstr "Вопрос"
+
+#: pro/view/admin/question_edit.php:22
+#: pro/view/admin/question_editHTML.php:28
+#: view/admin/question_edit.php:11
+#: view/admin/questions.php:76
+#@ faqtastic
+msgid "Answer"
+msgstr "Ответ"
+
+#: pro/view/admin/question_edit.php:25
+#@ faqtastic
+msgid "HTML tags can be used when answering. Only use &lt;b&gt; or &lt;i&gt; for Questions (used in Page Titles and Links)"
+msgstr "При ответе можно использовать HTML-теги. Только использование &lt;b&gt; или &lt;i&gt; используется в заголовках и ссылках"
+
+#: pro/view/admin/question_edit.php:30
+#: pro/view/admin/question_editHTML.php:70
+#: view/admin/question_edit.php:33
+#@ faqtastic
+msgid "Message"
+msgstr "Сообщение"
+
+#: pro/view/admin/question_edit.php:30
+#: pro/view/admin/question_editHTML.php:70
+#: view/admin/question_edit.php:33
+#@ faqtastic
+msgid "Text added to approval or rejection email"
+msgstr "Добавить текст для утверждения или отказа по электронной почте"
+
+#: pro/view/admin/question_edit.php:51
+#@ faqtastic
+msgid "Tip:"
+msgstr "Подсказка:"
+
+#: pro/view/admin/question_edit.php:51
+#@ faqtastic
+msgid "Use keywords in your Page URLs and remove non-essential words like \"and\", \"the\" etc."
+msgstr "Использовать ключевые слова в URL-адресе Вашей страницы и удалять неважные слова, как \\\"и\\\", \\\"а\\\" и др."
+
+#: pro/view/admin/question_edit.php:63
+#: pro/view/admin/question_editHTML.php:96
+#@ faqtastic
+msgid "Author name"
+msgstr "Имя"
+
+#: pro/view/admin/question_edit.php:65
+#: pro/view/admin/question_edit.php:109
+#: pro/view/admin/question_edit.php:124
+#@ faqtastic
+msgid "Note:"
+msgstr "Примечание:"
+
+#: pro/view/admin/question_edit.php:65
+#@ faqtastic
+msgid "Only required to create a link to the Author's homepage."
+msgstr "Требуется только создать ссылку на домашнюю страницу автора."
+
+#: pro/view/admin/question_edit.php:70
+#: pro/view/admin/question_editHTML.php:101
+#: view/admin/question_edit.php:39
+#@ faqtastic
+msgid "Author email"
+msgstr "Email"
+
+#: pro/view/admin/question_edit.php:75
+#: pro/view/admin/question_editHTML.php:106
+#@ faqtastic
+msgid "Author website"
+msgstr "Сайт"
+
+#: pro/view/admin/question_edit.php:78
+#: pro/view/admin/question_editHTML.php:109
+#@ faqtastic
+msgid "follow"
+msgstr "использовать"
+
+#: pro/view/admin/question_edit.php:85
+#@ faqtastic
+msgid "A link to the question Author's website will only displays if there are values entered for both the name and website field.<br>By default, the link to an Author's site uses the \"nofollow\" link attribute. Use the checkbox to follow the link."
+msgstr "Ссылка на вопрос автора сайта отображается только если введены имя и название сайта. <br> По умолчанию, ссылка на сайт автора пустая. Используйте флажок \\\"использовать\\\" для публикации ссылки."
+
+#: pro/view/admin/question_edit.php:95
+#: pro/view/admin/question_editHTML.php:119
+#: view/admin/question_edit.php:45
+#@ faqtastic
+msgid "Positive rating"
+msgstr "Позитивная оценка"
+
+#: pro/view/admin/question_edit.php:101
+#: pro/view/admin/question_editHTML.php:125
+#: view/admin/question_edit.php:51
+#@ faqtastic
+msgid "Negative rating"
+msgstr "Негативная оценка"
+
+#: pro/view/admin/question_edit.php:109
+#@ faqtastic
+msgid "Reset or change the rating for this Question."
+msgstr "Сбросить или изменить оценку этого вопроса."
+
+#: pro/view/admin/question_edit.php:119
+#: pro/view/admin/question_editHTML.php:137
+#@ faqtastic
+msgid "Group"
+msgstr "Группа"
+
+#: pro/view/admin/question_edit.php:124
+#@ faqtastic
+msgid "Changing this question's group will remove the question from this list"
+msgstr "Изменение группы перенесет вопрос в другую группу"
+
+#: pro/view/admin/question_edit.php:129
+#: pro/view/admin/question_editHTML.php:147
+#: view/admin/kitten.php:43
+#@ faqtastic
+msgid "Related questions"
+msgstr "Похожие вопросы"
+
+#: pro/view/admin/question_edit.php:155
+#@ faqtastic
+msgid "Only Paged Group questions &amp; and answers appear in the dropdown. A URL to an answer is needed to make related links."
+msgstr "Только \\\"страница группы\\\" вопросов и ответов опубликованы в выпадающем меню. URL-адрес для ответа необходимо сделать соответствующий ссылке."
+
+#: pro/view/admin/question_edit.php:167
+#: pro/view/admin/question_editHTML.php:178
+#: view/admin/question_edit.php:62
+#@ faqtastic
+msgid "Approve"
+msgstr "Одобрить"
+
+#: pro/view/admin/question_edit.php:168
+#: pro/view/admin/question_editHTML.php:179
+#: view/admin/question_edit.php:63
+#@ faqtastic
+msgid "Reject"
+msgstr "Отклонить"
+
+#: pro/view/admin/question_edit.php:169
+#: pro/view/admin/question_editHTML.php:180
+#: view/admin/question_edit.php:64
+#@ faqtastic
+msgid "Decide later"
+msgstr "Отложить"
+
+#: pro/view/admin/question_edit.php:176
+#: pro/view/admin/question_editHTML.php:187
+#@ faqtastic
+msgid "An answer is needed before a question will be approved"
+msgstr "Ответить на вопрос, прежде чем утвердить"
+
+#: pro/view/admin/question_editHTML.php:142
+#@ faqtastic
+msgid "changing this question's group will remove the question from this list"
+msgstr "изменение этой группы вопросов исключит этот вопрос из списка"
+
+#: pro/view/admin/resources.php:3
+#: view/admin/resources.php:3
+#: view/admin/submenu.php:7
+#@ faqtastic
+msgid "Resources"
+msgstr "Ресурсы"
+
+#: pro/view/admin/resources.php:5
+#: view/admin/resources.php:5
+#@ faqtastic
+msgid "FAQ-Tastic Video Tutorials"
+msgstr "Учебное пособие по FAQ-Tastic"
+
+#: pro/view/admin/resources.php:36
+#: view/admin/resources.php:36
+#@ faqtastic
+msgid "Additional Resources"
+msgstr "Дополнительные ресурсы"
+
+#: pro/view/admin/resources.php:37
+#: view/admin/resources.php:37
+#@ faqtastic
+msgid "The following resources may contain affiliate links. The revenue generated by some of these programs help toward maintaining and updating of the FAQ-Tastic plugin and hosting costs."
+msgstr "Следующие ресурсы могут содержать коммерческие ссылки. Доходы от некоторых из этих программ направлены на поддержание и развитие FAQ-Tastic, а также на оплату хостинга."
+
+#: pro/view/admin/resources.php:40
+#: view/admin/resources.php:40
+#@ faqtastic
+msgid "Problems Viewing This Page?"
+msgstr "У Вас правильно отображается эта страница?"
+
+#: pro/view/admin/resources.php:42
+#: view/admin/resources.php:42
+#@ faqtastic
+msgid "<b>Note:</b> If you cannot see the video or the text for the additional resources, then you may have an Ad Blocker preventing you from seeing this page properly."
+msgstr "<b>Примечание:</b> Если вы не видите видео или текст для дополнительных ресурсов, то у Вас, возможно, установлена блокировка содержимого страницы."
+
+#: pro/view/admin/resources.php:43
+#: view/admin/resources.php:43
+#@ faqtastic
+msgid "This page gets data from from the main \"faq-tastic.com\" website. Ensure you whitelist the FAQ-Tastic.com site in your Ad Blocker to view additional content."
+msgstr "Эта страница получает данные с официального сайта \"faq-tastic.com\". Убедитесь, что Вы в белом списке сайта FAQ-Tastic.com и с Вашей стороны не заблокирован сайт FAQ-Tastic.com для просмотра дополнительного содержимого."
+
+#: pro/view/admin/submenu.php:3
+#: view/admin/groups.php:19
+#: view/admin/submenu.php:3
+#@ faqtastic
+msgid "Pending"
+msgstr "Новые вопросы"
+
+#: pro/view/admin/submenu.php:4
+#: view/admin/submenu.php:4
+#@ faqtastic
+msgid "Questions &amp; Groups"
+msgstr "Группы вопросов"
+
+#: pro/view/admin/submenu.php:6
+#: view/admin/submenu.php:6
+#@ faqtastic
+msgid "Help"
+msgstr "Помощь"
+
+#: pro/view/faqtastic/ask.php:12
+#: view/faqtastic/ask.php:12
+#@ faqtastic
+msgid "Email"
+msgstr "Email"
+
+#: pro/view/faqtastic/ask.php:21
+#@ faqtastic
+msgid "Website"
+msgstr "Сайт"
+
+#: pro/view/faqtastic/ask.php:34
+#: view/faqtastic/ask.php:25
+#@ faqtastic
+msgid "Notification of when your question has been answered. (Optional)"
+msgstr "Уведомлять, когда на Ваш вопрос ответят. (Необязательно)"
+
+#: pro/view/faqtastic/ask.php:36
+#@ faqtastic
+msgid "Optional link back to your website."
+msgstr "Необязательная ссылка на Ваш сайт."
+
+#: rate.php:40
+#@ faqtastic
+msgid "You already rated this question"
+msgstr "Вы уже голосовали за этот вопрос"
+
+#: rate.php:58
+#@ faqtastic
+msgid "Something went wrong while registering your vote"
+msgstr "Что-то произошло во время регистрации вашего голоса"
+
+#: view/admin/admin_email.php:8
+#@ faqtastic
+msgid "Author email:"
+msgstr "Email:"
+
+#: view/admin/admin_email.php:9
+msgid "No email provided."
+msgstr "Электронная почта не предусмотрена."
+
+#: view/admin/admin_email.php:12
+#@ faqtastic
+msgid "You can approve this question here:"
+msgstr "Вы можете одобрить этот вопрос здесь:"
+
+#: view/admin/group_item.php:9
+#, php-format
+#@ faqtastic
+msgid "%d question"
+msgid_plural "%d questions"
+msgstr[0] "%d вопрос"
+msgstr[1] "%d вопросов"
+msgstr[2] ""
+
+#: view/admin/group_item.php:20
+#@ faqtastic
+msgid "Delete Group?"
+msgstr "Удалить группу?"
+
+#: view/admin/group_item.php:20
+#: view/admin/item.php:2
+#: view/admin/question_item.php:9
+#@ faqtastic
+msgid "Delete"
+msgstr "Удалить"
+
+#: view/admin/groups.php:3
+#: view/admin/help.php:9
+#@ faqtastic
+msgid "Question Groups"
+msgstr "Группы вопросов"
+
+#: view/admin/groups.php:8
+#@ faqtastic
+msgid "Manage your Question Groups and add/edit questions &amp; answers using the links below."
+msgstr "Управляйте Вашей группой вопросов, добавляйте или редактируйте вопросы и ответы, используя ссылку ниже."
+
+#: view/admin/groups.php:50
+#@ faqtastic
+msgid "<b>Change Question Group settings:</b> click on the link in the \"Name\" column for the group you want to amend."
+msgstr "<b>Изменение параметров группы:</b> нажмите на имя группы в колонке \"Имя\" для группы которую Вы хотите редактировать."
+
+#: view/admin/groups.php:51
+#@ faqtastic
+msgid "<b>Enable/Disable Ratings:</b> click on the link in the \"Name\" column for the group you want to change."
+msgstr "<b>Включить / Выключить оценки:</b> нажмите на ссылку в разделе колонки \"Имя\" для группы которую Вы хотите изменить."
+
+#: view/admin/groups.php:52
+#@ faqtastic
+msgid "<b>Add/Edit Questions:</b> click on the link in the \"Questions\" column of the group you want to add questions to."
+msgstr "<b>Добавить / Изменить вопрос:</b> нажмите на ссылку в разделе колонки \"Вопросы\" группы в которую Вы хотите добавить вопросы."
+
+#: view/admin/groups.php:53
+#@ faqtastic
+msgid "<b>Sort By Columns:</b> click on the link titles for the column and filter groups by using the search on the top right."
+msgstr "<b>Сортировка по колонкам:</b> нажмите на ссылку названия колонки и фильтр группы с помощью поиска в верхнем правом углу страницы."
+
+#: view/admin/groups.php:54
+#@ faqtastic
+msgid "<b>Delete A Group:</b> use the red icon on the right hand side."
+msgstr "<b>Удаление группы:</b> используйте красный значок с правой стороны."
+
+#: view/admin/groups.php:55
+#@ faqtastic
+msgid "Only Paged Question Groups show links in the \"Attached Page\" column."
+msgstr "Только страница группы вопросов покажет ссылки в колонке \"Прикреплена к странице\"."
+
+#: view/admin/groups.php:59
+#@ faqtastic
+msgid "There are no groups!"
+msgstr "Здесь нет групп!"
+
+#: view/admin/groups.php:63
+#: view/admin/pending.php:43
+#: view/admin/questions.php:53
+#: view/admin/questions_pending.php:32
+#@ faqtastic
+msgid "Loading"
+msgstr "Идет загрузка"
+
+#: view/admin/groups.php:68
+#@ faqtastic
+msgid "Create Question Group"
+msgstr "Создать группу вопросов"
+
+#: view/admin/groups.php:69
+#@ faqtastic
+msgid "Question groups allow you to add questions &amp; answers into topically relevant groups. These groups of questions can be displayed either on the same page (Simple Group) OR with an index page with questions linking to sub-pages with answers (Paged Group)."
+msgstr "В группу вопросов можно добавить вопросы и ответы для тематически соответствующих групп. Эти группы вопросов могут отображаться либо на той же странице (простой группе), или с индексом на страницу ссылок с вопросами к странице с ответами (страница группы)."
+
+#: view/admin/groups.php:72
+#@ faqtastic
+msgid "Group name"
+msgstr "Имя группы"
+
+#: view/admin/groups.php:78
+#@ faqtastic
+msgid "Add group"
+msgstr "Добавить группу"
+
+#: view/admin/groups.php:83
+#@ faqtastic
+msgid "To create a Simple question group, add a Group Name and select \"No page\" from the Attached Page dropdown list."
+msgstr "Чтобы создать простую группу вопросов, добавьте имя группы и выберите \"Нет страницы\" в выпадающем списке."
+
+#: view/admin/groups.php:84
+#@ faqtastic
+msgid "To create a Paged question group, you will need to: 1) create a Page normally first; 2) add a Group Name and select the page you created from the Attached Page dropdown list."
+msgstr "Чтобы создать страницу группы вопросов, Вам необходимо:<br />1) Создать в первую очередь нормальную страницу;<br />2) Добавить имя группы и выберите страницу для созданных с прикрепленной страницей в выпадающем списке."
+
+#: view/admin/groups.php:90
+#@ faqtastic
+msgid "Publish an FAQ Page"
+msgstr "Опубликовать вопросы"
+
+#: view/admin/groups.php:91
+#@ faqtastic
+msgid "Automatically create a page with the correct shortcode to display a <b>Simple</b> FAQ group."
+msgstr "Автоматически создать страницу c <b>простой</b> группой вопросов."
+
+#: view/admin/groups.php:95
+#@ faqtastic
+msgid "Page name"
+msgstr "Имя страницы"
+
+#: view/admin/groups.php:99
+#@ faqtastic
+msgid "Question Group"
+msgstr "Группа вопросов"
+
+#: view/admin/groups.php:120
+#@ faqtastic
+msgid "Add a Page Name and select the Simple FAQ group from the Question Group dropdown list."
+msgstr "Добавьте имя страницы и выберите группу вопросов для \"простого\" списка в выпадающем меню."
+
+#: view/admin/help.php:3
+#@ faqtastic
+msgid "FAQ-Tastic Help (Quick Reference)"
+msgstr "Помощь FAQ-Tastic (Краткое руководство)"
+
+#: view/admin/help.php:5
+#@ faqtastic
+msgid "FAQ-Tastic is a plugin to create and manage <b>multiple</b> <a href=\"http://en.wikipedia.org/wiki/FAQ\" target=\"_blank\">FAQ</a>'s (Frequently Asked Questions) on your WordPress site."
+msgstr "FAQ-Tastic представляет собой расширение для создания и управления <b>несколькими</b> <a href=\"http://ru.wikipedia.org/wiki/FAQ\" target=\"_blank\">FAQ</a> (часто задаваемые вопросы) на вашем сайте под управлением WordPress."
+
+#: view/admin/help.php:6
+#@ faqtastic
+msgid "At <a href=\"http://faq-tastic.com/\" target=\"_blank\">FAQ-Tastic.com</a> we understand that not all of your questions fit nicely into one category! For example, you may need one FAQ for beginners and another one for advanced users of your site."
+msgstr "Мы в <a href=\"http://faq-tastic.com/\" target=\"_blank\">FAQ-Tastic.com</a> понимаем, что не все Ваши вопросы, прекрасно подходят для одной группы вопросов! Например, вам может понадобиться отдельный FAQ для начинающих и еще один для продвинутых пользователей Вашего сайта."
+
+#: view/admin/help.php:7
+#@ faqtastic
+msgid "If you need to create several different FAQ's for each section of your site, then FAQ-Tastic is the perfect plugin for you!"
+msgstr "Если вам нужно создать несколько различных FAQ по каждому из разделов своего сайта, то FAQ-Tastic это идеальное расширение для Вас!"
+
+#: view/admin/help.php:11
+#@ faqtastic
+msgid "Every question and answer must belong to a Question Group."
+msgstr "Каждый вопрос и ответ должен принадлежать к конкретной группе вопросов."
+
+#: view/admin/help.php:12
+#, php-format
+#@ faqtastic
+msgid "You can create a Question Group from the FAQ-Tastic <a href=\"%s?page=faq-tastic.php&amp;sub=questions\">administration interface</a>.  FAQ-Tastic allows two types of Question Groups:"
+msgstr "Вы можете создавать группы вопросов используя FAQ-Tastic в Вашем <a href=\"%s?page=faq-tastic.php&amp;sub=questions\">разделе администратора</a>. FAQ-Tastic позволяет создавать группы вопросов по двум видам:"
+
+#: view/admin/help.php:16
+#@ faqtastic
+msgid "Simple"
+msgstr "Простой"
+
+#: view/admin/help.php:16
+#@ faqtastic
+msgid "Question &amp; answer is displayed on the same page."
+msgstr "Вопрос и ответ будет отображаться на той же странице."
+
+#: view/admin/help.php:17
+#@ faqtastic
+msgid "Paged"
+msgstr "Вызываемый"
+
+#: view/admin/help.php:17
+#@ faqtastic
+msgid "Questions appear on one page with links to the answers on separate WordPress Pages.<br /><small><b>Note:</b> Perfect for creating additional keyword targetted content for your site - purposely built for <a href=\"http://en.wikipedia.org/wiki/Search_engine_optimization\" target=\"_blank\">SEO</a> (Search Engine Optimization) experts.</small>"
+msgstr "Вопросы, как на одной странице, так и на отдельной странице WordPress. <br /> <small><b>Примечание:</b> Отлично подходит для создания дополнительных ключевых слов ориентированных на содержание вашего сайта - специально построены для <a href=\"http://en.wikipedia.org/wiki/Search_engine_optimization\" target=\"_blank\">SEO</a> (Search Engine Optimization) экспертов.</small>"
+
+#: view/admin/help.php:20
+#@ faqtastic
+msgid "When creating a Question Group you can decide which type you want by attaching it to a page or not - a Simple group has no attached group, a Paged group is attached to an existing page."
+msgstr "При создании группы вопросов можно решить, какого типа вы хотите использовать FAQ на странице сайта - простая группа не принадлежит группе вопросов, вызываемая группа встраивается в существующую страницу."
+
+#: view/admin/help.php:21
+#@ faqtastic
+msgid "You <b>must</b> give a Question Group a name.  This name is used to uniquely refer to the group, and is used when display the FAQ in your blog."
+msgstr "Вы <b>должны</b> дать имя Вашей группе вопросов. Это название используется, чтобы указывать в страницах вызываемые группы ответов, а также используется при отображения часто задаваемых вопросов в Вашем блоге."
+
+#: view/admin/help.php:23
+#@ faqtastic
+msgid "Displaying an FAQ on your site"
+msgstr "Показ списка вопросов на Вашем сайте"
+
+#: view/admin/help.php:24
+#@ faqtastic
+msgid "FAQ-Tastic can display a list of questions and answers from any Question Group you've created. To do this, simply insert the special WordPress shortcode in the text of any Page or Post:"
+msgstr "FAQ-Tastic может просмотреть список вопросов и ответов для любой группы вопросов, которую Вы создали. Чтобы сделать это, просто вставьте специальный тег WordPress в текст на любой странице, где необходимо отображение списка вопросов:"
+
+#: view/admin/help.php:28
+#: view/admin/help.php:35
+#: view/admin/help.php:45
+#@ faqtastic
+msgid "Where <code><strong>name</strong></code> is the name of a Question Group."
+msgstr "Где <strong><code>name</code></strong> это имя группы вопросов."
+
+#: view/admin/help.php:30
+#@ faqtastic
+msgid "Displaying \"Jump Links\" (anchor links) on your site"
+msgstr "Отображение \"Ссылок с ответами\" на Вашем сайте"
+
+#: view/admin/help.php:31
+#@ faqtastic
+msgid "FAQ-Tastic can display a list of question links on any Page or Post so users can jump down to each answer quickly. To do this simply insert the following special WordPress shortcode in the text of any Page or Post:"
+msgstr "FAQ-Tastic может показать список вопросов ссылками на любую страницу или страницу с сообщением, для того, чтобы пользователи могли перейти к каждому быстро к ответу. Для этого нужно вставить следующий специальный тег WordPress в любую страницу, или пост:"
+
+#: view/admin/help.php:37
+#@ faqtastic
+msgid "Adding questions to your site"
+msgstr "Добавление вопросов на Вашем сайте"
+
+#: view/admin/help.php:38
+#@ faqtastic
+msgid "Questions can be directly added from the FAQ-Tastic interface by clicking on the 'questions' link of a Question Group.  This will take you to a page where you can view existing questions and add a new one."
+msgstr "Вопросы могут быть добавлены непосредственно внутри интерфейса FAQ-Tastic, нажав на ссылку \"Вопросы\" в конкретной группе вопросов. Это переместит Вас на специальную страницу, где вы можете просматривать существующие вопросы и добавлять новые."
+
+#: view/admin/help.php:40
+#@ faqtastic
+msgid "Allowing visitors to ask their questions"
+msgstr "Разрешить посетителям задавать свои вопросы"
+
+#: view/admin/help.php:41
+#@ faqtastic
+msgid "FAQ-Tastic can display a form for your website visitors to ask their questions. To do this simply insert the following special WordPress shortcode in the text of any page or post:"
+msgstr "FAQ-Tastic может показать форму на вашем сайте для посетителей желающих задать свои вопросы. Для этого просто вставьте следующий специальный тег WordPress в тексте на какой-либо странице или внутри сообщения:"
+
+#: view/admin/item.php:6
+#, php-format
+#@ faqtastic
+msgid "<a href=\"#\" onclick=\"edit_pending(%d); return false\">%s</a> on <a href=\"%s\">%s</a> <em>from %s</em>"
+msgstr "<a href=\"#\" onclick=\"edit_pending(%d); return false\">%s</a> на <a href=\"%s\">%s</a> <em>из %s</em>"
+
+#: view/admin/item.php:8
+#, php-format
+#@ faqtastic
+msgid "<a href=\"#\" onclick=\"edit_pending(%d); return false\">%s</a> on <a href=\"%s\">%s</a>"
+msgstr "<a href=\"#\" onclick=\"edit_pending(%d); return false\">%s</a> на <a href=\"%s\">%s</a>"
+
+#: view/admin/kitten.php:2
+#@ faqtastic
+msgid "Kitten Protection has GONE (Please Donate Instead!)"
+msgstr "Кошачья защита прошла (Пожалуйста пожертвуйте сейчас!)"
+
+#: view/admin/kitten.php:4
+#@ faqtastic
+msgid "Thank you for choosing FAQ-Tastic to display frequently asked questions on your WordPress site."
+msgstr "Благодарим вас за выбор FAQ-Tastic который создан для наиболее часто задаваемых вопросов на Вашем WordPress сайте."
+
+#: view/admin/kitten.php:5
+#@ faqtastic
+msgid "Unlike other WordPress plugins, FAQ-Tastic is a commissioned work that has, for the last few years, cost me a great deal to support and maintain."
+msgstr "В отличие от других расширений WordPress, FAQ-Tastic интересная работа, которая, в течение прошлых нескольких лет, стоила мне много, чтобы поддерживать и приумножать."
+
+#: view/admin/kitten.php:6
+#@ faqtastic
+msgid "Each new feature, fix, security update, changes and amendments actually has a real world cost - not just financially but also in \"time\"."
+msgstr "Каждая новая функция, исправления, обновления безопасности, изменения и поправки, фактически в реальном мире расточительно - не только для денег, но и для \"времени\"."
+
+#: view/admin/kitten.php:7
+#@ faqtastic
+msgid "Surprisingly, donations have been rare but they are very much appreciated. Your donations help keep FAQ-Tastic alive. By doing so, it enables the WordPress community to save time and effort managing their sites."
+msgstr "Удивительно, пожертвования были редки, но они очень высоко ценятся. Ваши пожертвования помогут сохранить FAQ-Tastic работоспособным. Поступая таким образом, Вы позволяете сообществу WordPress в целях экономии времени и усилий, управлять своими сайтами."
+
+#: view/admin/kitten.php:8
+#@ faqtastic
+msgid "Think for a moment how much time FAQ-Tastic has saved you. A few hours, or maybe several? Now multiply that by your hourly work rate?"
+msgstr "Задумайтесь на минуту, сколько времени FAQ-Tastic сэкономил для Вас. Только несколько часов, а может быть гораздо больше? "
+
+#: view/admin/kitten.php:9
+#@ faqtastic
+msgid "That is the real world \"unseen\" value which FAQ-Tastic has brought to you for free."
+msgstr "То есть в реальном мире \"невидимые\" ценности, которые часто задаваемые вопросы FAQ-Tastic создал Вам бесплатно."
+
+#: view/admin/kitten.php:10
+#@ faqtastic
+msgid "If you now feel that this plugin has made a difference to your website, please make a donation."
+msgstr "Если вы чувствуете, что этот плагин необходим на Вашем веб-сайте, пожалуйста, сделайте пожертвование."
+
+#: view/admin/kitten.php:11
+#@ faqtastic
+msgid "Use the form below (you can change the suggested price) and click on the button to make a PayPal donation now."
+msgstr "Используйте форму ниже (вы можете изменить сумму пожертвования позднее), и нажмите на кнопку, чтобы сделать пожертвование PayPal сейчас."
+
+#: view/admin/kitten.php:12
+#@ faqtastic
+msgid "Cheers,<br>Zain"
+msgstr "Ура, <br> Зейн"
+
+#: view/admin/kitten.php:13
+#@ faqtastic
+msgid "PS: The pretty kittens are now gone. They are in a better place now."
+msgstr "PS: Хорошеньких котят в настоящее время нет. Они находятся в надежном месте."
+
+#: view/admin/kitten.php:19
+#@ faqtastic
+msgid "<b>Donation Amount (GBP):</b> &pound;"
+msgstr "<b>Сумма пожертвования (GBP):</b> &pound;"
+
+#: view/admin/kitten.php:34
+#@ faqtastic
+msgid "Note"
+msgstr "Примечание"
+
+#: view/admin/kitten.php:34
+#@ faqtastic
+msgid "The donation amount can be changed."
+msgstr "Сумма пожертвования может быть изменена."
+
+#: view/admin/kitten.php:35
+#@ faqtastic
+msgid "Increase the value to the amount you feel is right for you and click on the PayPal Donate button."
+msgstr "Увеличьте сумму пожертвования, которую вы считаете необходимой и нажмите на кнопку PayPal Donate."
+
+#: view/admin/kitten.php:37
+#@ faqtastic
+msgid "Alternatively, you can <a href=\"http://faq-tastic.com/pro/\">upgrade to FAQ-Tastic Pro</a>."
+msgstr "Кроме того, вы можете <a href=\"http://faq-tastic.com/pro/\">обновить до версии FAQ-Tastic Pro</a>."
+
+#: view/admin/kitten.php:38
+#@ faqtastic
+msgid "FAQ-Tastic Pro adds the following fantastic features:"
+msgstr "FAQ-Tastic Pro добавляет следующие фантастические возможности:"
+
+#: view/admin/kitten.php:41
+#@ faqtastic
+msgid "Drag &amp; drop Paged answer re-ordering"
+msgstr "Перетащите страницы ответов в другом порядке"
+
+#: view/admin/kitten.php:42
+#@ faqtastic
+msgid "Search Engine Optimized link attributes"
+msgstr "Поисковая система оптимизирована для ссылок"
+
+#: view/admin/kitten.php:44
+#@ faqtastic
+msgid "Import/Export to CSV format"
+msgstr "Импорт/Экспорт в CVS формат"
+
+#: view/admin/kitten.php:45
+#@ faqtastic
+msgid "AdSense area"
+msgstr "Область AdSense"
+
+#: view/admin/kitten.php:46
+#@ faqtastic
+msgid "Question author links"
+msgstr "Вопрос автору ссылки"
+
+#: view/admin/kitten.php:47
+#@ faqtastic
+msgid "FAQ-Tastic Media Player with additional video resources"
+msgstr "FAQ-Tastic Media Player с дополнительными видео ресурсами"
+
+#: view/admin/kitten.php:48
+#@ faqtastic
+msgid "Extended Resources area including *essential* complementary plugins"
+msgstr "Увеличенный ресурс области, в том числе *essential* дополняют основные расширения"
+
+#: view/admin/kitten.php:49
+#@ faqtastic
+msgid "...and more to come!"
+msgstr "... и это еще не все!"
+
+#: view/admin/kitten.php:51
+#@ faqtastic
+msgid "Click here now to <a href=\"http://faq-tastic.com/pro/\">upgrade to FAQ-Tastic Pro</a>."
+msgstr "Нажмите здесь, чтобы <a href=\\\"http://faq-tastic.com/pro/\\\">перейти на часто задаваемые вопросы-Tastic Pro.</a>"
+
+#: view/admin/options.php:5
+#@ faqtastic
+msgid "FAQ-Tastic Options"
+msgstr "Настройки FAQ-Tastic"
+
+#: view/admin/options.php:7
+#@ faqtastic
+msgid "Messages"
+msgstr "Сообщения"
+
+#: view/admin/options.php:10
+#@ faqtastic
+msgid "Thank-you message"
+msgstr "Сообщение благодарности"
+
+#: view/admin/options.php:10
+#@ faqtastic
+msgid "Displayed when a question is correctly submitted"
+msgstr "Когда Вы ответили на предоставленный вопрос"
+
+#: view/admin/options.php:16
+#@ faqtastic
+msgid "Failed message"
+msgstr "Сообщение об отказе"
+
+#: view/admin/options.php:16
+#@ faqtastic
+msgid "Displayed when a question is incorrectly submitted"
+msgstr "Отображается, когда Вы отказали в ответе на вопрос"
+
+#: view/admin/options.php:23
+#@ faqtastic
+msgid "Rating message"
+msgstr "Поблагодарить"
+
+#: view/admin/options.php:23
+#@ faqtastic
+msgid "Displayed when a question is rated"
+msgstr "Отображается, когда вопрос оценен"
+
+#: view/admin/options.php:37
+#@ faqtastic
+msgid "Email Options"
+msgstr "Настройки для ответа по почте"
+
+#: view/admin/options.php:41
+#@ faqtastic
+msgid "Approved simple question"
+msgstr "Для утвержденного вопроса"
+
+#: view/admin/options.php:41
+#@ faqtastic
+msgid "Sent to the user when a Simple Group question is answered"
+msgstr "Посылается пользователю после ответа на вопрос"
+
+#: view/admin/options.php:48
+#@ faqtastic
+msgid "Approved paged question"
+msgstr "Для вопроса на странице"
+
+#: view/admin/options.php:48
+#@ faqtastic
+msgid "Sent to the user when a Paged Group question is answered"
+msgstr "Посылается пользователю после ответа на странице"
+
+#: view/admin/options.php:56
+#@ faqtastic
+msgid "Rejected question"
+msgstr "Если в ответе отказано"
+
+#: view/admin/options.php:56
+#@ faqtastic
+msgid "Sent to the user when a question is rejected"
+msgstr "Посылается пользователю если отказано в ответе"
+
+#: view/admin/options.php:64
+#@ faqtastic
+msgid "Send email from"
+msgstr "Письмо с адреса"
+
+#: view/admin/options.php:64
+#@ faqtastic
+msgid "Address email is sent from"
+msgstr "С какого адреса будет отправлено письмо"
+
+#: view/admin/options.php:79
+#@ faqtastic
+msgid "General Options"
+msgstr "Общие настройки"
+
+#: view/admin/options.php:83
+#@ faqtastic
+msgid "Admin role"
+msgstr "Роль администратора"
+
+#: view/admin/options.php:91
+#@ faqtastic
+msgid "Set the required user role level to use FAQ-Tastic"
+msgstr "Установите необходимый уровень роли пользователя для использовании FAQ-Tastic"
+
+#: view/admin/options.php:96
+#@ faqtastic
+msgid "Author name &amp; website"
+msgstr "Имя автора и сайт"
+
+#: view/admin/options.php:99
+#@ faqtastic
+msgid "Ask for name and website details"
+msgstr "Спросите имя и название сайта"
+
+#: view/admin/options.php:103
+#@ faqtastic
+msgid "AdSense"
+msgstr "AdSense"
+
+#: view/admin/options.php:109
+#@ faqtastic
+msgid "AdSense Position"
+msgstr "AdSense должность"
+
+#: view/admin/options.php:117
+#@ faqtastic
+msgid "Textile"
+msgstr "Текстиль"
+
+#: view/admin/options.php:122
+#@ faqtastic
+msgid "Ignore sad kittens"
+msgstr "Игнорировать глупых кошек"
+
+#: view/admin/options.php:129
+#@ faqtastic
+msgid "Question order"
+msgstr "Сортировка вопроса"
+
+#: view/admin/options.php:147
+#@ faqtastic
+msgid "Remove FAQ-Tastic"
+msgstr "Удалить FAQ-Tastic"
+
+#: view/admin/options.php:148
+#@ faqtastic
+msgid "This option will completely remove FAQ-Tastic. All database tables, data and settings are completely removed."
+msgstr "Эта опция полностью удалит FAQ-Tastic. Удаляет полностью все таблицы данных и параметры."
+
+#: view/admin/options.php:150
+#@ faqtastic
+msgid "Remove"
+msgstr "Удалить"
+
+#: view/admin/options.php:155
+#@ faqtastic
+msgid "Special Tags"
+msgstr "Специальные тэги"
+
+#: view/admin/options.php:156
+#@ faqtastic
+msgid "You can insert special tags into the thank-you, failed, and email messages.  These tags will be replaced with data from the question"
+msgstr "Вы можете добавить специальные теги в благодарности от Вас, а также в сообщения по электронной почте. Эти метки будут заменены данными из вопроса"
+
+#: view/admin/options.php:158
+#@ faqtastic
+msgid "The question"
+msgstr "Вопрос"
+
+#: view/admin/options.php:159
+#@ faqtastic
+msgid "The answer"
+msgstr "Ответ "
+
+#: view/admin/options.php:160
+#@ faqtastic
+msgid "Approval or rejection message"
+msgstr "Ваше сообщение о причине отказа на вопрос"
+
+#: view/admin/options.php:161
+#@ faqtastic
+msgid "The URL of the answer (only for paged questions)"
+msgstr "URL-адрес ответа (только для страниц с вопросами)"
+
+#: view/admin/pager.php:11
+#@ faqtastic
+msgid "Search"
+msgstr "Поиск"
+
+#: view/admin/pager.php:13
+#@ faqtastic
+msgid "Per page"
+msgstr "Вопросов на странице"
+
+#: view/admin/pager.php:20
+#@ faqtastic
+msgid "Go"
+msgstr "Далее"
+
+#: view/admin/pending.php:2
+#@ faqtastic
+msgid "Pending Questions"
+msgstr "Новые вопросы"
+
+#: view/admin/pending.php:5
+#@ faqtastic
+msgid "Pending questions are user submitted questions that are waiting to be answered."
+msgstr "Вопросы пользователей, которые ждут ответа."
+
+#: view/admin/pending.php:6
+#@ faqtastic
+msgid "Click on the links below to answer, approve or reject pending questions."
+msgstr "Нажмите на ссылку ниже, чтобы ответить, утвердить или отклонить присланный вопрос."
+
+#: view/admin/pending.php:39
+#: view/admin/questions_pending.php:29
+#@ faqtastic
+msgid "Select all"
+msgstr "Выделить все"
+
+#: view/admin/pending.php:39
+#: view/admin/questions.php:47
+#: view/admin/questions_pending.php:29
+#@ faqtastic
+msgid "select all"
+msgstr "выделить все"
+
+#: view/admin/pending.php:40
+#: view/admin/questions_pending.php:29
+#@ faqtastic
+msgid "Delete selected"
+msgstr "Удалить выбранное"
+
+#: view/admin/pending.php:40
+#: view/admin/questions.php:48
+#: view/admin/questions_pending.php:29
+#@ faqtastic
+msgid "delete selected"
+msgstr "удалить выбранное"
+
+#: view/admin/pending.php:48
+#@ faqtastic
+msgid "<b>Delete Pending Question:</b> use the red icon on the right hand side."
+msgstr "<b>Удаление вопроса:</b> используйте красный значок с правой стороны."
+
+#: view/admin/pending.php:49
+#@ faqtastic
+msgid "Pending questions have a pink background. Approved questions will turn green."
+msgstr "Новые вопросы окрашены розовым цветом, после ответа цвет вопроса становится зеленым."
+
+#: view/admin/pending.php:50
+#@ faqtastic
+msgid "You can also manage and add new questions and Question Groups on the <a href=\"tools.php?page=faq-tastic.php&amp;sub=questions\">Questions &amp; Groups</a> page."
+msgstr "Вы также можете управлять и добавлять новые вопросы на странице <a href=\"tools.php?page=faq-tastic.php&amp;sub=questions\">Группы вопросов</a>."
+
+#: view/admin/pending.php:54
+#@ faqtastic
+msgid "There are no pending questions"
+msgstr "Нет новых вопросов"
+
+#: view/admin/question_edit.php:2
+#@ faqtastic
+msgid "Editing Question"
+msgstr "Редактировать вопрос"
+
+#: view/admin/question_edit.php:71
+#@ faqtastic
+msgid "An answer is needed before a question is approved"
+msgstr "Ответьте, прежде чем вопрос утверждать"
+
+#: view/admin/question_item.php:7
+#@ faqtastic
+msgid "View"
+msgstr "Просмотр"
+
+#: view/admin/questions.php:3
+#, php-format
+#@ faqtastic
+msgid "Questions for '%s'"
+msgstr "Вопросы для группы '%s'"
+
+#: view/admin/questions.php:8
+#@ faqtastic
+msgid "Download CSV File"
+msgstr "Загрузить CSV файл"
+
+#: view/admin/questions.php:13
+#@ faqtastic
+msgid "Edit existing question by using the links below."
+msgstr "Измените существующий вопрос, используя ссылку ниже."
+
+#: view/admin/questions.php:14
+#@ faqtastic
+msgid "To add a new question, scroll down and use the <a href=\"#add\">Add Question</a> section."
+msgstr "Для добавления нового вопроса, прокрутите страницу вниз или используйте ссылку <a href=\"#add\">Добавить вопрос</a>, чтобы перейти к редактированию нового вопроса."
+
+#: view/admin/questions.php:16
+#@ faqtastic
+msgid "You can export and download all questions (and answers) for this Question Group as a CSV file."
+msgstr "Вы можете экспортировать и загружать все вопросы (и ответы) в эту группу вопросов используя CSV файл."
+
+#: view/admin/questions.php:17
+#@ faqtastic
+msgid "To do this, click on the \"Download CSV File\" icon on the right of this page."
+msgstr "Для этого нажмите иконку \"Загрузить CSV файл\" с правой стороны страницы."
+
+#: view/admin/questions.php:18
+#@ faqtastic
+msgid "To import a list of questions, scroll down and use the <a href=\"#add\">Import CSV File</a> section below."
+msgstr "Чтобы импортировать список вопросов, прокрутите вниз или используйте ссылку <a href=\\\"#add\\\">Импорт CSV файла</a> чтобы перейти вниз."
+
+#: view/admin/questions.php:58
+#@ faqtastic
+msgid "<b>Re-Ordering Questions:</b> drag and drop the questions. Changes will appear immediately on your site."
+msgstr "<b>Поменять вопросы местами:</b> просто перетащите мышкой вопросы в желаемой последовательности. Изменения сразу же появятся на вашем сайте."
+
+#: view/admin/questions.php:62
+#@ faqtastic
+msgid "There are no questions"
+msgstr "Здесь нет вопросов"
+
+#: view/admin/questions.php:67
+#@ faqtastic
+msgid "Add Question"
+msgstr "Добавить вопрос"
+
+#: view/admin/questions.php:68
+#@ faqtastic
+msgid "To add a new question, just type your question and answer in the fields below."
+msgstr "Чтобы добавить новый вопрос, просто введите свой вопрос и ответ в полях ниже."
+
+#: view/admin/questions.php:81
+#@ faqtastic
+msgid "Add New Question"
+msgstr "Добавить новый вопрос"
+
+#: view/admin/questions.php:87
+#@ faqtastic
+msgid "Adding a question will automatically approve it. The question will appear immediately on your website."
+msgstr "Добавление вопроса автоматически утверждает его. Этот вопрос будет опубликован сразу же на вашем сайте."
+
+#: view/admin/questions_pending.php:2
+#, php-format
+#@ faqtastic
+msgid "Pending Questions for '%s'"
+msgstr "Новые вопросы для '%s'"
+
+#: view/admin/questions_pending.php:36
+#@ faqtastic
+msgid "There are no questions for this group"
+msgstr "Нет вопросов для этой группы"
+
+#: view/admin/sources.php:2
+#@ faqtastic
+msgid "Question Sources"
+msgstr "Источник вопроса"
+
+#: view/admin/sources.php:4
+#@ faqtastic
+msgid "This is a list of people who asked questions:"
+msgstr "Это список людей, которые задавали вопросы:"
+
+#: view/admin/sources.php:22
+#@ faqtastic
+msgid "There are no question sources."
+msgstr "Для вопроса нет источников."
+
+#: view/faqtastic/answer.php:12
+#: view/faqtastic/list.php:16
+#: view/faqtastic/open.php:16
+#@ faqtastic
+msgid "Asked by"
+msgstr "Заданные"
+
+#: view/faqtastic/approved_paged.php:1
+#: view/faqtastic/approved_simple.php:1
+#@ faqtastic
+msgid "Thank you for question '$question$\\"
+msgstr "Спасибо за вопрос '$question$\\"
+
+#: view/faqtastic/approved_paged.php:3
+#@ faqtastic
+msgid "This has been answered at $page$.  The answer is:"
+msgstr "Это был ответ на $page$. Ответ:"
+
+#: view/faqtastic/approved_simple.php:3
+#@ faqtastic
+msgid "The answer to this is:"
+msgstr "В ответ на это:"
+
+#: view/faqtastic/failed.php:2
+#: view/faqtastic/thanks.php:2
+#@ faqtastic
+msgid "Thanks for submitting a question!"
+msgstr "Спасибо за вопрос!"
+
+#: view/faqtastic/failed.php:3
+#@ faqtastic
+msgid "Unfortunately your question was not accepted because you didn't provide enough information.  Please try again."
+msgstr "К сожалению, Ваш вопрос не был принят, так как вы не представили достаточно информации. Пожалуйста, попробуйте еще раз."
+
+#: view/faqtastic/links.php:16
+#: view/faqtastic/list.php:27
+#: view/faqtastic/open.php:35
+#: view/faqtastic/summary.php:11
+#@ faqtastic
+msgid "There are no questions!"
+msgstr "Для ответа нет вопроса!"
+
+#: view/faqtastic/open.php:24
+#: view/faqtastic/related.php:3
+#@ faqtasitc
+#@ faqtastic
+msgid "Related"
+msgstr "Похожие"
+
+#: view/faqtastic/question.php:5
+#: view/faqtastic/rating.php:6
+#@ faqtastic
+msgid "Positive"
+msgstr "Положительно"
+
+#: view/faqtastic/question.php:8
+#: view/faqtastic/rating.php:9
+#@ faqtastic
+msgid "Negative"
+msgstr "Отрицательно"
+
+#: view/faqtastic/rating.php:5
+#@ faqtastic
+msgid "This answer is good"
+msgstr "Этот ответ является хорошим"
+
+#: view/faqtastic/rating.php:8
+#@ faqtastic
+msgid "This answer is bad"
+msgstr "Этот ответ является плохим"
+
+#: view/faqtastic/rejected.php:1
+#@ faqtastic
+msgid "Thank you for your question '$question$'.  Unfortunately we did not use this because $message$."
+msgstr "Благодарим Вас за вопрос '$question$'. К сожалению, мы не использовали это потому, что сообщение $message$."
+
+#: view/faqtastic/thanks.php:3
+#@ faqtastic
+msgid "Your question has been added to a list of other submitted questions to be reviewed and answered at a later date."
+msgstr "Ваш вопрос был включен в перечень других вопросов, предоставленных на рассмотрение. Позднее Вы получите ответ."
+
+#: view/admin/groups.php:18
+#@ faqtastic
+msgid "Questions"
+msgstr "Вопросы"
+
+#: view/admin/groups.php:113
+#@ faqtastic
+msgid "Publish"
+msgstr "Опубликовать"
+
